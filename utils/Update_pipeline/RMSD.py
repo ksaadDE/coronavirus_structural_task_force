@@ -177,3 +177,47 @@ def test ():
     id_dict = {}
     id_dict["3c_like_proteinase"] = []
     main(id_dict, osp.abspath(osp.join(__file__ ,"../../..","pdb")))
+
+id_dict = {}
+id_dict["3c_like_proteinase"] = []
+id_dict["surface_glycoprotein"] = []
+id_dict["nsp3"] = []
+import os.path as osp
+repo_path = osp.abspath(osp.join(__file__ ,"../../..","pdb"))
+pdb_id = ['7b27',
+ '7oft',
+ '7ofu',
+ '7ofs',
+ '7mf1',
+ '7mhl',
+ '7mhm',
+ '7mhj',
+ '7mhk',
+ '7mhp',
+ '7mhq',
+ '7mhn',
+ '7mho',
+ '7mhh',
+ '7mhi',
+ '7mhf',
+ '7mhg',
+ '7mjn',
+ '7mjl',
+ '7mjm',
+ '7mjg',
+ '7mjj',
+ '7mjk',
+ '7mjh',
+ '7mji',
+ '7mkm',
+ '7mkl',
+ '7mmo',
+ '7mng',
+ '7mpb',
+ '7nkt',
+ '7m3i',
+ '7dhg',
+ '7dpu',
+ '7dpv',
+ '7dpp']
+main(id_dict,repo_path)

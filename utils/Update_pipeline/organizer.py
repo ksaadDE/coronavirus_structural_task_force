@@ -1,5 +1,6 @@
 import requests
 import os
+import os.path as osp
 
 def mk_dir(dir_path):
     #function to create new folders
@@ -32,4 +33,3 @@ def main(repo_path, pdb_id, name):
             get_pdb(element,target,"pdb")
             get_pdb(element,target,"cif")
     print(pdb_id, "were not assigned, assign them manually. Files downloaded to {}".format(target))
-

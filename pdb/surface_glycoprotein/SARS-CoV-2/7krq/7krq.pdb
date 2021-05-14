@@ -18,12 +18,13 @@ KEYWDS    VIRAL PROTEIN
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.ZHANG,Y.F.CAI,T.S.XIAO,J.M.LU,H.Q.PENG,S.M.STERLING,R.M.WALSH JR,   
 AUTHOR   2 S.R.VOLLOCH,H.S.ZHU,A.N.WOOSLEY,W.YANG,P.SLIZ,B.CHEN                 
+REVDAT   2   12-MAY-21 7KRQ    1       JRNL                                     
 REVDAT   1   31-MAR-21 7KRQ    0                                                
 JRNL        AUTH   J.ZHANG,Y.CAI,T.XIAO,J.LU,H.PENG,S.M.STERLING,R.M.WALSH JR., 
 JRNL        AUTH 2 S.RITS-VOLLOCH,H.ZHU,A.N.WOOSLEY,W.YANG,P.SLIZ,B.CHEN        
 JRNL        TITL   STRUCTURAL IMPACT ON SARS-COV-2 SPIKE PROTEIN BY D614G       
 JRNL        TITL 2 SUBSTITUTION.                                                
-JRNL        REF    SCIENCE                                    2021              
+JRNL        REF    SCIENCE                       V. 372   525 2021              
 JRNL        REFN                   ESSN 1095-9203                               
 JRNL        PMID   33727252                                                     
 JRNL        DOI    10.1126/SCIENCE.ABF2303                                      
@@ -91,7 +92,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 54.30                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 5430.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

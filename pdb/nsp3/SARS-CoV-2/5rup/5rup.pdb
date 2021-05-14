@@ -23,6 +23,7 @@ SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET22B(+)
 KEYWDS    MACRODOMAIN, ADP-RIBOSE, SARS-COV-2, VIRAL PROTEIN, HYDROLASE         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.J.CORREY,I.D.YOUNG,M.C.THOMPSON,J.S.FRASER                          
+REVDAT   3   12-MAY-21 5RUP    1       REMARK                                   
 REVDAT   2   27-JAN-21 5RUP    1       COMPND                                   
 REVDAT   1   16-DEC-20 5RUP    0                                                
 JRNL        AUTH   G.J.CORREY,J.S.FRASER                                        

@@ -26,42 +26,6 @@ seq_fasta = list(SeqIO.parse("Fasta_files/seq_SARS_2.fasta", "fasta"))
 print("Starting the Wednesday-Update")
 all_pdb_id = ID_getter.main(repo_path)
 pdb_id = all_pdb_id[0]
-pdb_id = ['7b27',
- '7oft',
- '7ofu',
- '7ofs',
- '7mf1',
- '7mhl',
- '7mhm',
- '7mhj',
- '7mhk',
- '7mhp',
- '7mhq',
- '7mhn',
- '7mho',
- '7mhh',
- '7mhi',
- '7mhf',
- '7mhg',
- '7mjn',
- '7mjl',
- '7mjm',
- '7mjg',
- '7mjj',
- '7mjk',
- '7mjh',
- '7mji',
- '7mkm',
- '7mkl',
- '7mmo',
- '7mng',
- '7mpb',
- '7nkt',
- '7m3i',
- '7dhg',
- '7dpu',
- '7dpv',
- '7dpp']
 pdb_id_rev = all_pdb_id[1]
 
 def mk_dir(dir_path):
@@ -74,7 +38,7 @@ def mk_dir(dir_path):
 def get_mtz (element, target):
     print("downloading mtz {}".format(str(element)))
     #downloads the mtz data
-    url = "http://edmaps.rcsb.org/coefficients/{}.mtz".format(element)
+    url = "https://edmaps.rcsb.org/coefficients/{}.mtz".format(element)
     r = requests.get(url)
     with open(target+os.sep+"{}/{}.mtz".format(element,element), 'wb') as f:
         f.write(r.content)
@@ -110,7 +74,6 @@ def blast_search (i):
     return_arr = []
     url = 'http://search.rcsb.org/rcsbsearch/v1/query'
     response = requests.post(url, data=query)
-    print(response.status_code)
     if response.status_code == 200:
         result = response.json()
         for entry in result["result_set"]: return_arr.append(entry['identifier'][:4].lower())
@@ -220,6 +183,6 @@ def twice_assigned (id_dict, multi_assign_ids):
         except KeyError: id_dict[multi_prot_folder] = []
         mover(id, multi_ids_prot, multi_prot_folder)
 
-main()
+#main()
 to_old.main(pdb_id_rev, repo_path)
 print("Done")

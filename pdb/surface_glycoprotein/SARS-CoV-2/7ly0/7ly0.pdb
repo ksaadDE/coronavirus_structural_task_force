@@ -42,6 +42,7 @@ KEYWDS   3 SYSTEM COMPLEX
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    M.MCCALLUM,D.VEESLER,SEATTLE STRUCTURAL GENOMICS CENTER FOR           
 AUTHOR   2 INFECTIOUS DISEASE (SSGCID)                                          
+REVDAT   2   12-MAY-21 7LY0    1       JRNL                                     
 REVDAT   1   14-APR-21 7LY0    0                                                
 JRNL        AUTH   M.MCCALLUM,A.DE MARCO,F.A.LEMPP,M.A.TORTORICI,D.PINTO,       
 JRNL        AUTH 2 A.C.WALLS,M.BELTRAMELLO,A.CHEN,Z.LIU,F.ZATTA,S.ZEPEDA,       
@@ -52,7 +53,7 @@ JRNL        AUTH 6 G.SNELL,A.TELENTI,S.P.J.WHELAN,H.W.VIRGIN,D.CORTI,
 JRNL        AUTH 7 M.S.PIZZUTO,D.VEESLER                                        
 JRNL        TITL   N-TERMINAL DOMAIN ANTIGENIC MAPPING REVEALS A SITE OF        
 JRNL        TITL 2 VULNERABILITY FOR SARS-COV-2.                                
-JRNL        REF    CELL                                       2021              
+JRNL        REF    CELL                          V. 184  2332 2021              
 JRNL        REFN                   ISSN 1097-4172                               
 JRNL        PMID   33761326                                                     
 JRNL        DOI    10.1016/J.CELL.2021.03.028                                   

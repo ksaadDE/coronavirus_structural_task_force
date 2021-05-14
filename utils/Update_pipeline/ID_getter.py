@@ -59,7 +59,7 @@ rev_query = {
 def search(query):
     query = json.dumps(query)
     return_arr = []
-    url = 'http://search.rcsb.org/rcsbsearch/v1/query'
+    url = 'https://search.rcsb.org/rcsbsearch/v1/query'
     response = requests.post(url, data=query)
     if response.status_code == 200:
         result = response.json()

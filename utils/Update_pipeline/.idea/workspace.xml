@@ -21,10 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c8ae1b78-919c-4f9a-a127-b414d3518298" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ID_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ID_getter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RMSD.py" beforeDir="false" afterPath="$PROJECT_DIR$/RMSD.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mk_Alignment_strc_vs_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/mk_Alignment_strc_vs_seq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mk_SARS_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/mk_SARS_dir.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/organizer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.RMSD">
+  <component name="RunManager" selected="Python.mk_SARS_dir">
+    <configuration name="ID_getter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Update_pipeline" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ID_getter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="RMSD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Update_pipeline" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,35 +165,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="to_old" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Update_pipeline" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to_old.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mk_SARS_dir" />
+        <item itemvalue="Python.ID_getter" />
         <item itemvalue="Python.RMSD" />
         <item itemvalue="Python.mk_Alignment_strc_vs_seq" />
         <item itemvalue="Python.organizer" />
-        <item itemvalue="Python.mk_SARS_dir" />
-        <item itemvalue="Python.to_old" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +208,7 @@
       <workItem from="1620204084247" duration="1923000" />
       <workItem from="1620840836244" duration="2256000" />
       <workItem from="1620843613742" duration="1791000" />
+      <workItem from="1620978914848" duration="2166000" />
     </task>
     <servers />
   </component>
@@ -228,7 +228,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom" timestamp="1620843964066">
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1620985476353">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state width="1305" height="292" key="GridCell.Tab.0.bottom/0.25.1440.787/1440.-233.1920.1055@0.25.1440.787" timestamp="1612944460238" />
@@ -236,7 +236,7 @@
     <state width="1305" height="192" key="GridCell.Tab.0.bottom/0.25.1440.787/1440.-347.1920.1055@0.25.1440.787" timestamp="1612344988954" />
     <state width="1544" height="310" key="GridCell.Tab.0.bottom/0.25.1440.795/1440.-114.1920.1055@0.25.1440.795" timestamp="1619020596150" />
     <state width="1544" height="292" key="GridCell.Tab.0.bottom/0.25.1440.795/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1619017271458" />
-    <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.25.1440.795@0.25.1440.795" timestamp="1620843964066" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.25.1440.795@0.25.1440.795" timestamp="1620985476353" />
     <state width="1305" height="148" key="GridCell.Tab.0.bottom/0.25.1440.797/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614004109132" />
     <state width="1398" height="193" key="GridCell.Tab.0.bottom/0.25.1440.798/1440.-114.1920.1055@0.25.1440.798" timestamp="1615988327022" />
     <state width="1398" height="338" key="GridCell.Tab.0.bottom/0.25.1440.798/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1615981010656" />
@@ -246,7 +246,7 @@
     <state width="1305" height="157" key="GridCell.Tab.0.bottom/0.25.1440.799/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1613204571609" />
     <state width="1537" height="259" key="GridCell.Tab.0.bottom/0.25.1440.800/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614011574196" />
     <state width="1537" height="274" key="GridCell.Tab.0.bottom/0.25.1440.803/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614011280204" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center" timestamp="1620843964066">
+    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1620985476353">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state width="1305" height="292" key="GridCell.Tab.0.center/0.25.1440.787/1440.-233.1920.1055@0.25.1440.787" timestamp="1612944460238" />
@@ -254,7 +254,7 @@
     <state width="1305" height="192" key="GridCell.Tab.0.center/0.25.1440.787/1440.-347.1920.1055@0.25.1440.787" timestamp="1612344988953" />
     <state width="1544" height="310" key="GridCell.Tab.0.center/0.25.1440.795/1440.-114.1920.1055@0.25.1440.795" timestamp="1619020596149" />
     <state width="1544" height="292" key="GridCell.Tab.0.center/0.25.1440.795/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1619017271458" />
-    <state width="1398" height="277" key="GridCell.Tab.0.center/0.25.1440.795@0.25.1440.795" timestamp="1620843964066" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.25.1440.795@0.25.1440.795" timestamp="1620985476353" />
     <state width="1305" height="148" key="GridCell.Tab.0.center/0.25.1440.797/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614004109131" />
     <state width="1398" height="193" key="GridCell.Tab.0.center/0.25.1440.798/1440.-114.1920.1055@0.25.1440.798" timestamp="1615988327022" />
     <state width="1398" height="338" key="GridCell.Tab.0.center/0.25.1440.798/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1615981010655" />
@@ -264,7 +264,7 @@
     <state width="1305" height="157" key="GridCell.Tab.0.center/0.25.1440.799/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1613204571609" />
     <state width="1537" height="259" key="GridCell.Tab.0.center/0.25.1440.800/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614011574196" />
     <state width="1537" height="274" key="GridCell.Tab.0.center/0.25.1440.803/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614011280204" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left" timestamp="1620843964065">
+    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1620985476352">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state width="1305" height="292" key="GridCell.Tab.0.left/0.25.1440.787/1440.-233.1920.1055@0.25.1440.787" timestamp="1612944460237" />
@@ -272,7 +272,7 @@
     <state width="1305" height="192" key="GridCell.Tab.0.left/0.25.1440.787/1440.-347.1920.1055@0.25.1440.787" timestamp="1612344988953" />
     <state width="1544" height="310" key="GridCell.Tab.0.left/0.25.1440.795/1440.-114.1920.1055@0.25.1440.795" timestamp="1619020596149" />
     <state width="1544" height="292" key="GridCell.Tab.0.left/0.25.1440.795/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1619017271457" />
-    <state width="1398" height="277" key="GridCell.Tab.0.left/0.25.1440.795@0.25.1440.795" timestamp="1620843964065" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.25.1440.795@0.25.1440.795" timestamp="1620985476352" />
     <state width="1305" height="148" key="GridCell.Tab.0.left/0.25.1440.797/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614004109131" />
     <state width="1398" height="193" key="GridCell.Tab.0.left/0.25.1440.798/1440.-114.1920.1055@0.25.1440.798" timestamp="1615988327021" />
     <state width="1398" height="338" key="GridCell.Tab.0.left/0.25.1440.798/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1615981010655" />
@@ -282,7 +282,7 @@
     <state width="1305" height="157" key="GridCell.Tab.0.left/0.25.1440.799/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1613204571608" />
     <state width="1537" height="259" key="GridCell.Tab.0.left/0.25.1440.800/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614011574196" />
     <state width="1537" height="274" key="GridCell.Tab.0.left/0.25.1440.803/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614011280204" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right" timestamp="1620843964066">
+    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1620985476353">
       <screen x="0" y="25" width="1440" height="795" />
     </state>
     <state width="1305" height="292" key="GridCell.Tab.0.right/0.25.1440.787/1440.-233.1920.1055@0.25.1440.787" timestamp="1612944460238" />
@@ -290,7 +290,7 @@
     <state width="1305" height="192" key="GridCell.Tab.0.right/0.25.1440.787/1440.-347.1920.1055@0.25.1440.787" timestamp="1612344988954" />
     <state width="1544" height="310" key="GridCell.Tab.0.right/0.25.1440.795/1440.-114.1920.1055@0.25.1440.795" timestamp="1619020596149" />
     <state width="1544" height="292" key="GridCell.Tab.0.right/0.25.1440.795/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1619017271458" />
-    <state width="1398" height="277" key="GridCell.Tab.0.right/0.25.1440.795@0.25.1440.795" timestamp="1620843964066" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.25.1440.795@0.25.1440.795" timestamp="1620985476353" />
     <state width="1305" height="148" key="GridCell.Tab.0.right/0.25.1440.797/1440.-233.1920.1055@1440.-233.1920.1055" timestamp="1614004109132" />
     <state width="1398" height="193" key="GridCell.Tab.0.right/0.25.1440.798/1440.-114.1920.1055@0.25.1440.798" timestamp="1615988327022" />
     <state width="1398" height="338" key="GridCell.Tab.0.right/0.25.1440.798/1440.-114.1920.1055@1440.-114.1920.1055" timestamp="1615981010656" />
@@ -330,8 +330,8 @@
     <SUITE FILE_PATH="coverage/Update_pipeline$request_ids.coverage" NAME="request_ids Coverage Results" MODIFIED="1615987541841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$to_old.coverage" NAME="to_old Coverage Results" MODIFIED="1619685254247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$test_gemmi.coverage" NAME="test_gemmi Coverage Results" MODIFIED="1613218151761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Update_pipeline$mk_SARS_dir.coverage" NAME="mk_SARS_dir Coverage Results" MODIFIED="1620842089443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Update_pipeline$ID_getter.coverage" NAME="ID_getter Coverage Results" MODIFIED="1609773154172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Update_pipeline$mk_SARS_dir.coverage" NAME="mk_SARS_dir Coverage Results" MODIFIED="1620985476326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Update_pipeline$ID_getter.coverage" NAME="ID_getter Coverage Results" MODIFIED="1620980300391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$obsolete_finder.coverage" NAME="obsolete_finder Coverage Results" MODIFIED="1615208494554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$RMSD.coverage" NAME="RMSD Coverage Results" MODIFIED="1620843964039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$RMSD_vis_matrix.coverage" NAME="RMSD_vis_matrix Coverage Results" MODIFIED="1614004109100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

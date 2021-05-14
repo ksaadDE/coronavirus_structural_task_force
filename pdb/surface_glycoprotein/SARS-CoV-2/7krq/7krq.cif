@@ -3,7 +3,7 @@ data_7KRQ
 _entry.id   7KRQ 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.341 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -68,10 +68,10 @@ _citation.journal_id_CSD            0038
 _citation.journal_id_ISSN           1095-9203 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            372 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                525 
+_citation.page_last                 530 
 _citation.title                     'Structural impact on SARS-CoV-2 spike protein by D614G substitution.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
@@ -85,19 +85,19 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Zhang, J.'        1  0000-0002-1289-0624 
-primary 'Cai, Y.'          2  0000-0002-3628-3802 
-primary 'Xiao, T.'         3  0000-0003-1287-1228 
-primary 'Lu, J.'           4  ?                   
-primary 'Peng, H.'         5  0000-0002-5357-8215 
-primary 'Sterling, S.M.'   6  0000-0003-0017-0408 
-primary 'Walsh Jr., R.M.'  7  0000-0002-8939-8988 
-primary 'Rits-Volloch, S.' 8  ?                   
-primary 'Zhu, H.'          9  0000-0001-8395-9409 
-primary 'Woosley, A.N.'    10 ?                   
-primary 'Yang, W.'         11 0000-0002-7634-6601 
-primary 'Sliz, P.'         12 0000-0002-6522-0835 
-primary 'Chen, B.'         13 0000-0002-8625-1657 
+primary 'Zhang, J.'        1  ? 
+primary 'Cai, Y.'          2  ? 
+primary 'Xiao, T.'         3  ? 
+primary 'Lu, J.'           4  ? 
+primary 'Peng, H.'         5  ? 
+primary 'Sterling, S.M.'   6  ? 
+primary 'Walsh Jr., R.M.'  7  ? 
+primary 'Rits-Volloch, S.' 8  ? 
+primary 'Zhu, H.'          9  ? 
+primary 'Woosley, A.N.'    10 ? 
+primary 'Yang, W.'         11 ? 
+primary 'Sliz, P.'         12 ? 
+primary 'Chen, B.'         13 ? 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -34886,11 +34886,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-03-31 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-03-31 
+2 'Structure model' 1 1 2021-05-12 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -34899,6 +34902,29 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.journal_volume'          
+2 2 'Structure model' '_citation.page_first'              
+3 2 'Structure model' '_citation.page_last'               
+4 2 'Structure model' '_citation_author.identifier_ORCID' 
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

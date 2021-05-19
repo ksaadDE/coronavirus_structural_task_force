@@ -20,6 +20,7 @@ KEYWDS    COVID19, SARS-COV-2, DRUG TARGET, SERIAL FEMTOSECOND X-RAY
 KEYWDS   2 CRYSTALLOGRAPHY, SFX, XFEL, VIRUS PROTEIN, VIRAL PROTEIN             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    H.DEMIRCI                                                             
+REVDAT   3   19-MAY-21 7CWC    1       REMARK                                   
 REVDAT   2   10-MAR-21 7CWC    1       COMPND                                   
 REVDAT   1   30-SEP-20 7CWC    0                                                
 JRNL        AUTH   H.DEMIRCI                                                    
@@ -245,7 +246,7 @@ REMARK 200
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
 REMARK 200  DATE OF DATA COLLECTION        : 16-AUG-20                          
-REMARK 200  TEMPERATURE           (KELVIN) : 100                                
+REMARK 200  TEMPERATURE           (KELVIN) : 294                                
 REMARK 200  PH                             : NULL                               
 REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
 REMARK 200                                                                      

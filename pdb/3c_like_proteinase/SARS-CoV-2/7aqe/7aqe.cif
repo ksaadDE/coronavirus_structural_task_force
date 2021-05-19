@@ -3,7 +3,7 @@ data_7AQE
 _entry.id   7AQE 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.341 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -50,10 +50,10 @@ _citation.journal_id_CSD            0038
 _citation.journal_id_ISSN           1095-9203 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            372 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                642 
+_citation.page_last                 646 
 _citation.title                     'X-ray screening identifies active site and allosteric inhibitors of SARS-CoV-2 main protease.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
@@ -102,7 +102,7 @@ primary 'Li, C.'               33  ?
 primary 'Awel, S.'             34  ? 
 primary 'Peck, A.'             35  ? 
 primary 'Barthelmess, M.'      36  ? 
-primary 'Schluenzen, F.'       37  ? 
+primary 'Schlunzen, F.'        37  ? 
 primary 'Lourdu Xavier, P.'    38  ? 
 primary 'Werner, N.'           39  ? 
 primary 'Andaleeb, H.'         40  ? 
@@ -7599,6 +7599,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-03-03 
 2 'Structure model' 1 1 2021-04-14 
+3 'Structure model' 1 2 2021-05-19 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7616,6 +7617,7 @@ _pdbx_audit_revision_group.group
 1 2 'Structure model' 'Database references' 
 2 2 'Structure model' 'Source and taxonomy' 
 3 2 'Structure model' 'Structure summary'   
+4 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -7627,6 +7629,8 @@ _pdbx_audit_revision_category.category
 3 2 'Structure model' entity          
 4 2 'Structure model' entity_name_com 
 5 2 'Structure model' entity_src_gen  
+6 3 'Structure model' citation        
+7 3 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -7646,6 +7650,10 @@ _pdbx_audit_revision_item.item
 11 2 'Structure model' '_entity.pdbx_ec'                      
 12 2 'Structure model' '_entity_name_com.name'                
 13 2 'Structure model' '_entity_src_gen.gene_src_common_name' 
+14 3 'Structure model' '_citation.journal_volume'             
+15 3 'Structure model' '_citation.page_first'                 
+16 3 'Structure model' '_citation.page_last'                  
+17 3 'Structure model' '_citation_author.name'                
 # 
 loop_
 _software.citation_id 

@@ -3,7 +3,7 @@ data_6WKS
 _entry.id   6WKS 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.333 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -43,25 +43,25 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Nat Commun' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           2041-1723 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            11 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Structure of SARS-CoV-2 nsp16/nsp10 ternary complex' 
-_citation.year                      ? 
+_citation.page_first                3718 
+_citation.page_last                 3718 
+_citation.title                     'Structural basis of RNA cap modification by SARS-CoV-2.' 
+_citation.year                      2020 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1038/s41467-020-17496-8 
+_citation.pdbx_database_id_PubMed   32709886 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -69,10 +69,18 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Gupta, Y.K.'     1 0000-0001-6372-5007 
-primary 'Viswanathan, T.' 2 ?                   
-primary 'Arya, S.'        3 ?                   
-primary 'Qi, S.'          4 ?                   
+primary 'Viswanathan, T.'      1  0000-0001-9817-6730 
+primary 'Arya, S.'             2  0000-0002-7689-7411 
+primary 'Chan, S.H.'           3  0000-0002-9554-7273 
+primary 'Qi, S.'               4  0000-0003-0175-6267 
+primary 'Dai, N.'              5  0000-0003-3268-1835 
+primary 'Misra, A.'            6  ?                   
+primary 'Park, J.G.'           7  0000-0001-7163-3591 
+primary 'Oladunni, F.'         8  0000-0001-5050-0183 
+primary 'Kovalskyy, D.'        9  ?                   
+primary 'Hromas, R.A.'         10 ?                   
+primary 'Martinez-Sobrido, L.' 11 0000-0001-7084-0804 
+primary 'Gupta, Y.K.'          12 0000-0001-6372-5007 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -9341,6 +9349,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2020-05-06 
 2 'Structure model' 2 0 2020-09-16 
+3 'Structure model' 2 1 2021-05-19 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -9366,6 +9375,7 @@ _pdbx_audit_revision_group.group
 5 2 'Structure model' 'Derived calculations'       
 6 2 'Structure model' 'Refinement description'     
 7 2 'Structure model' 'Structure summary'          
+8 3 'Structure model' 'Database references'        
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -9396,6 +9406,8 @@ _pdbx_audit_revision_category.category
 22 2 'Structure model' refine_ls_shell                
 23 2 'Structure model' struct                         
 24 2 'Structure model' struct_conn                    
+25 3 'Structure model' citation                       
+26 3 'Structure model' citation_author                
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -9474,6 +9486,17 @@ _pdbx_audit_revision_item.item
 70 2 'Structure model' '_refine_ls_shell.wR_factor_R_work'              
 71 2 'Structure model' '_struct.title'                                  
 72 2 'Structure model' '_struct_conn.pdbx_dist_value'                   
+73 3 'Structure model' '_citation.country'                              
+74 3 'Structure model' '_citation.journal_abbrev'                       
+75 3 'Structure model' '_citation.journal_id_CSD'                       
+76 3 'Structure model' '_citation.journal_id_ISSN'                      
+77 3 'Structure model' '_citation.journal_volume'                       
+78 3 'Structure model' '_citation.page_first'                           
+79 3 'Structure model' '_citation.page_last'                            
+80 3 'Structure model' '_citation.pdbx_database_id_DOI'                 
+81 3 'Structure model' '_citation.pdbx_database_id_PubMed'              
+82 3 'Structure model' '_citation.title'                                
+83 3 'Structure model' '_citation.year'                                 
 # 
 loop_
 _pdbx_refine_tls.id 

@@ -37,18 +37,20 @@ KEYWDS    SARS-COV-2, HLA, T CELL, CROSS-REACTIVITY, COVID-19, ANTIGEN
 KEYWDS   2 PRESENTATION, IMMUNE SYSTEM                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.GRAS,C.SZETO,D.S.M.CHATZILEONTIADOU                                 
+REVDAT   2   19-MAY-21 7LGD    1       JRNL                                     
 REVDAT   1   21-APR-21 7LGD    0                                                
-JRNL        AUTH   K.E.LINEBURG,E.J.GRANT,S.SWAMINATHAN,D.S.CHATZILEONTIADOU,   
+JRNL        AUTH   K.E.LINEBURG,E.J.GRANT,S.SWAMINATHAN,D.S.M.CHATZILEONTIADOU, 
 JRNL        AUTH 2 C.SZETO,H.SLOANE,A.PANIKKAR,J.RAJU,P.CROOKS,S.REHAN,         
 JRNL        AUTH 3 A.T.NGUYEN,L.LEKIEFFRE,M.A.NELLER,Z.W.M.TONG,D.JAYASINGHE,   
 JRNL        AUTH 4 K.Y.CHEW,C.A.LOBOS,H.HALIM,J.M.BURROWS,                      
 JRNL        AUTH 5 A.RIBOLDI-TUNNICLIFFE,W.CHEN,L.D'ORSOGNA,R.KHANNA,K.R.SHORT, 
 JRNL        AUTH 6 C.SMITH,S.GRAS                                               
-JRNL        TITL   CD8+ T CELLS SPECIFIC FOR AN IMMUNODOMINANT SARS-COV-2       
+JRNL        TITL   CD8 + T CELLS SPECIFIC FOR AN IMMUNODOMINANT SARS-COV-2      
 JRNL        TITL 2 NUCLEOCAPSID EPITOPE CROSS-REACT WITH SELECTIVE SEASONAL     
-JRNL        TITL 3 CORONAVIRUSES                                                
+JRNL        TITL 3 CORONAVIRUSES.                                               
 JRNL        REF    IMMUNITY                                   2021              
 JRNL        REFN                   ISSN 1074-7613                               
+JRNL        PMID   33945786                                                     
 JRNL        DOI    10.1016/J.IMMUNI.2021.04.006                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.88 ANGSTROMS.                                       

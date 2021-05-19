@@ -3,7 +3,7 @@ data_7AGA
 _entry.id   7AGA 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.341 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -148,10 +148,10 @@ _citation.database_id_CSD
 _citation.pdbx_database_id_DOI 
 _citation.pdbx_database_id_PubMed 
 _citation.unpublished_flag 
-? ? ? ? ? ? ? US ? ? primary Science SCIEAS 0038 1095-9203 ? ? ? ? ? ? 
+? ? ? ? ? ? ? US ? ? primary Science SCIEAS 0038 1095-9203 ? ? 372 ? 642 646 
 'X-ray screening identifies active site and allosteric inhibitors of SARS-CoV-2 main protease.' 2021 ? 10.1126/science.abf7945   
 33811162 ? 
-? ? ? ? ? ? ? US ? ? 1       Biorxiv ?      ?    ?         ? ? ? ? ? ? 
+? ? ? ? ? ? ? US ? ? 1       Biorxiv ?      ?    ?         ? ? ?   ? ?   ?   
 'Inhibition of SARS-CoV-2 main protease by allosteric drug-binding'                             2020 ? 10.1101/2020.11.12.378422 ? 
 ? 
 # 
@@ -196,7 +196,7 @@ primary 'Li, C.'                33  ?
 primary 'Awel, S.'              34  ?                   
 primary 'Peck, A.'              35  ?                   
 primary 'Barthelmess, M.'       36  ?                   
-primary 'Schluenzen, F.'        37  ?                   
+primary 'Schlunzen, F.'         37  ?                   
 primary 'Lourdu Xavier, P.'     38  ?                   
 primary 'Werner, N.'            39  ?                   
 primary 'Andaleeb, H.'          40  ?                   
@@ -10100,6 +10100,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2020-12-02 
 2 'Structure model' 1 1 2020-12-09 
 3 'Structure model' 2 0 2021-04-14 
+4 'Structure model' 2 1 2021-05-19 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -10122,6 +10123,7 @@ _pdbx_audit_revision_group.group
 6 3 'Structure model' 'Refinement description' 
 7 3 'Structure model' 'Source and taxonomy'    
 8 3 'Structure model' 'Structure summary'      
+9 4 'Structure model' 'Database references'    
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -10139,6 +10141,8 @@ _pdbx_audit_revision_category.category
 9  3 'Structure model' pdbx_refine_tls_group 
 10 3 'Structure model' struct_site           
 11 3 'Structure model' struct_site_gen       
+12 4 'Structure model' citation              
+13 4 'Structure model' citation_author       
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -10155,6 +10159,10 @@ _pdbx_audit_revision_item.item
 8  3 'Structure model' '_entity_src_gen.gene_src_common_name'     
 9  3 'Structure model' '_pdbx_nonpoly_scheme.auth_seq_num'        
 10 3 'Structure model' '_pdbx_refine_tls_group.selection_details' 
+11 4 'Structure model' '_citation.journal_volume'                 
+12 4 'Structure model' '_citation.page_first'                     
+13 4 'Structure model' '_citation.page_last'                      
+14 4 'Structure model' '_citation_author.name'                    
 # 
 loop_
 _pdbx_refine_tls.id 

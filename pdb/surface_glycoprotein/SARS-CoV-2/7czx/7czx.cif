@@ -57,10 +57,10 @@ _citation.journal_id_CSD            ?
 _citation.journal_id_ISSN           1001-0602 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            31 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                517 
+_citation.page_last                 525 
 _citation.title                     
 'Structural basis for bivalent binding and inhibition of SARS-CoV-2 infection by human potent neutralizing antibodies.' 
 _citation.year                      2021 
@@ -74,31 +74,31 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Yan, R.'    1  0000-0002-7122-6547 
-primary 'Wang, R.'   2  ?                   
-primary 'Ju, B.'     3  ?                   
-primary 'Yu, J.'     4  ?                   
-primary 'Zhang, Y.'  5  ?                   
-primary 'Liu, N.'    6  ?                   
-primary 'Wang, J.'   7  0000-0002-5978-4191 
-primary 'Zhang, Q.'  8  ?                   
-primary 'Chen, P.'   9  ?                   
-primary 'Zhou, B.'   10 ?                   
-primary 'Li, Y.'     11 ?                   
-primary 'Shen, Y.'   12 ?                   
-primary 'Zhang, S.'  13 ?                   
-primary 'Tian, L.'   14 ?                   
-primary 'Guo, Y.'    15 ?                   
-primary 'Xia, L.'    16 ?                   
-primary 'Zhong, X.'  17 ?                   
-primary 'Cheng, L.'  18 ?                   
-primary 'Ge, X.'     19 ?                   
-primary 'Zhao, J.'   20 ?                   
-primary 'Wang, H.W.' 21 0000-0001-9494-8780 
-primary 'Wang, X.'   22 0000-0003-3136-8070 
-primary 'Zhang, Z.'  23 0000-0002-3544-1389 
-primary 'Zhang, L.'  24 0000-0003-4931-509X 
-primary 'Zhou, Q.'   25 0000-0002-6237-8813 
+primary 'Yan, R.'    1  ? 
+primary 'Wang, R.'   2  ? 
+primary 'Ju, B.'     3  ? 
+primary 'Yu, J.'     4  ? 
+primary 'Zhang, Y.'  5  ? 
+primary 'Liu, N.'    6  ? 
+primary 'Wang, J.'   7  ? 
+primary 'Zhang, Q.'  8  ? 
+primary 'Chen, P.'   9  ? 
+primary 'Zhou, B.'   10 ? 
+primary 'Li, Y.'     11 ? 
+primary 'Shen, Y.'   12 ? 
+primary 'Zhang, S.'  13 ? 
+primary 'Tian, L.'   14 ? 
+primary 'Guo, Y.'    15 ? 
+primary 'Xia, L.'    16 ? 
+primary 'Zhong, X.'  17 ? 
+primary 'Cheng, L.'  18 ? 
+primary 'Ge, X.'     19 ? 
+primary 'Zhao, J.'   20 ? 
+primary 'Wang, H.W.' 21 ? 
+primary 'Wang, X.'   22 ? 
+primary 'Zhang, Z.'  23 ? 
+primary 'Zhang, L.'  24 ? 
+primary 'Zhou, Q.'   25 ? 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -44583,6 +44583,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-03-10 
 2 'Structure model' 1 1 2021-03-17 
 3 'Structure model' 1 2 2021-05-05 
+4 'Structure model' 1 3 2021-05-19 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -44599,6 +44600,7 @@ _pdbx_audit_revision_group.data_content_type
 _pdbx_audit_revision_group.group 
 1 2 'Structure model' 'Database references' 
 2 3 'Structure model' 'Database references' 
+3 4 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -44608,20 +44610,26 @@ _pdbx_audit_revision_category.category
 1 2 'Structure model' citation        
 2 3 'Structure model' citation        
 3 3 'Structure model' citation_author 
+4 4 'Structure model' citation        
+5 4 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_citation.title'                   
-2 3 'Structure model' '_citation.country'                 
-3 3 'Structure model' '_citation.journal_abbrev'          
-4 3 'Structure model' '_citation.journal_id_CSD'          
-5 3 'Structure model' '_citation.journal_id_ISSN'         
-6 3 'Structure model' '_citation.pdbx_database_id_DOI'    
-7 3 'Structure model' '_citation.pdbx_database_id_PubMed' 
-8 3 'Structure model' '_citation.year'                    
+1  2 'Structure model' '_citation.title'                   
+2  3 'Structure model' '_citation.country'                 
+3  3 'Structure model' '_citation.journal_abbrev'          
+4  3 'Structure model' '_citation.journal_id_CSD'          
+5  3 'Structure model' '_citation.journal_id_ISSN'         
+6  3 'Structure model' '_citation.pdbx_database_id_DOI'    
+7  3 'Structure model' '_citation.pdbx_database_id_PubMed' 
+8  3 'Structure model' '_citation.year'                    
+9  4 'Structure model' '_citation.journal_volume'          
+10 4 'Structure model' '_citation.page_first'              
+11 4 'Structure model' '_citation.page_last'               
+12 4 'Structure model' '_citation_author.identifier_ORCID' 
 # 
 _pdbx_entry_details.entry_id                 7CZX 
 _pdbx_entry_details.has_ligand_of_interest   Y 

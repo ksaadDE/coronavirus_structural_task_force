@@ -1,5 +1,5 @@
 HEADER    IMMUNE SYSTEM                           14-NOV-20   7DHG              
-TITLE     CRYSTAL STRUCTURE OF THE ORF9B COMPLEX WITH TOM70                     
+TITLE     CRYSTAL STRUCTURE OF SARS-COV-2 ORF9B COMPLEX WITH HUMAN TOM70        
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: MITOCHONDRIAL IMPORT RECEPTOR SUBUNIT TOM70;               
 COMPND   3 CHAIN: C;                                                            
@@ -29,10 +29,12 @@ SOURCE  14 EXPRESSION_SYSTEM: ESCHERICHIA COLI BL21(DE3);
 SOURCE  15 EXPRESSION_SYSTEM_TAXID: 469008                                      
 KEYWDS    HSP90, ORF9B, IMMUNE SYSTEM                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    X.GAO,S.CUI                                                           
+AUTHOR    X.GAO,K.ZHU,B.QIN,V.OLIERIC,M.WANG,S.CUI                              
+REVDAT   2   19-MAY-21 7DHG    1       TITLE  AUTHOR JRNL                       
 REVDAT   1   12-MAY-21 7DHG    0                                                
 JRNL        AUTH   X.GAO,S.CUI                                                  
-JRNL        TITL   CRYSTAL STRUCTURE OF THE ORF9B COMPLEX WITH TOM70            
+JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 ORF9B COMPLEX WITH HUMAN     
+JRNL        TITL 2 TOM70                                                        
 JRNL        REF    TO BE PUBLISHED                                              
 JRNL        REFN                                                                
 REMARK   2                                                                      

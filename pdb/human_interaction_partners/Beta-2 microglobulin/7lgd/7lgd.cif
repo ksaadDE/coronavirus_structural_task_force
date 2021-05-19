@@ -3,7 +3,7 @@ data_7LGD
 _entry.id   7LGD 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.341 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -55,11 +55,11 @@ _citation.language                  ?
 _citation.page_first                ? 
 _citation.page_last                 ? 
 _citation.title                     
-'CD8+ T cells specific for an immunodominant SARS-CoV-2 nucleocapsid epitope cross-react with selective seasonal coronaviruses' 
+'CD8 + T cells specific for an immunodominant SARS-CoV-2 nucleocapsid epitope cross-react with selective seasonal coronaviruses.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.immuni.2021.04.006 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   33945786 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -67,35 +67,35 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Lineburg, K.E.'          1  ? 
-primary 'Grant, E.J.'             2  ? 
-primary 'Swaminathan, S.'         3  ? 
-primary 'Chatzileontiadou, D.S.'  4  ? 
-primary 'Szeto, C.'               5  ? 
-primary 'Sloane, H.'              6  ? 
-primary 'Panikkar, A.'            7  ? 
-primary 'Raju, J.'                8  ? 
-primary 'Crooks, P.'              9  ? 
-primary 'Rehan, S.'               10 ? 
-primary 'Nguyen, A.T.'            11 ? 
-primary 'Lekieffre, L.'           12 ? 
-primary 'Neller, M.A.'            13 ? 
-primary 'Tong, Z.W.M.'            14 ? 
-primary 'Jayasinghe, D.'          15 ? 
-primary 'Chew, K.Y.'              16 ? 
-primary 'Lobos, C.A.'             17 ? 
-primary 'Halim, H.'               18 ? 
-primary 'Burrows, J.M.'           19 ? 
-primary 'Riboldi-Tunnicliffe, A.' 20 ? 
-primary 'Chen, W.'                21 ? 
+primary 'Lineburg, K.E.'           1  ? 
+primary 'Grant, E.J.'              2  ? 
+primary 'Swaminathan, S.'          3  ? 
+primary 'Chatzileontiadou, D.S.M.' 4  ? 
+primary 'Szeto, C.'                5  ? 
+primary 'Sloane, H.'               6  ? 
+primary 'Panikkar, A.'             7  ? 
+primary 'Raju, J.'                 8  ? 
+primary 'Crooks, P.'               9  ? 
+primary 'Rehan, S.'                10 ? 
+primary 'Nguyen, A.T.'             11 ? 
+primary 'Lekieffre, L.'            12 ? 
+primary 'Neller, M.A.'             13 ? 
+primary 'Tong, Z.W.M.'             14 ? 
+primary 'Jayasinghe, D.'           15 ? 
+primary 'Chew, K.Y.'               16 ? 
+primary 'Lobos, C.A.'              17 ? 
+primary 'Halim, H.'                18 ? 
+primary 'Burrows, J.M.'            19 ? 
+primary 'Riboldi-Tunnicliffe, A.'  20 ? 
+primary 'Chen, W.'                 21 ? 
 primary 
 ;D'Orsogna, L.
 ;
 22 ? 
-primary 'Khanna, R.'              23 ? 
-primary 'Short, K.R.'             24 ? 
-primary 'Smith, C.'               25 ? 
-primary 'Gras, S.'                26 ? 
+primary 'Khanna, R.'               23 ? 
+primary 'Short, K.R.'              24 ? 
+primary 'Smith, C.'                25 ? 
+primary 'Gras, S.'                 26 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -8965,11 +8965,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-04-21 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-04-21 
+2 'Structure model' 1 1 2021-05-19 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -8978,6 +8981,28 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+2 2 'Structure model' '_citation.title'                   
+3 2 'Structure model' '_citation_author.name'             
 # 
 _phasing.method   MR 
 # 

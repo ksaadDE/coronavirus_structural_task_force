@@ -54,6 +54,7 @@ AUTHOR   2 S.JACONI,K.CULAP,F.ZATTA,A.DE MARCO,A.PETER,B.GUARINO,R.SPREAFICO,
 AUTHOR   3 E.CAMERONI,J.B.CASE,R.E.CHEN,C.HAVENAR-DAUGHTON,G.SNELL,H.W.VIRGIN,  
 AUTHOR   4 A.LANZAVECCHIA,M.S.DIAMOND,K.FINK,D.VEESLER,D.CORTI,SEATTLE          
 AUTHOR   5 STRUCTURAL GENOMICS CENTER FOR INFECTIOUS DISEASE (SSGCID)           
+REVDAT   5   19-MAY-21 6WPT    1       JRNL                                     
 REVDAT   4   20-JAN-21 6WPT    1       COMPND HETSYN                            
 REVDAT   3   29-JUL-20 6WPT    1       COMPND REMARK HETNAM LINK                
 REVDAT   3 2                   1       SITE   ATOM                              
@@ -64,12 +65,25 @@ JRNL        AUTH 2 S.BIANCHI,S.JACONI,K.CULAP,F.ZATTA,A.DE MARCO,A.PETER,
 JRNL        AUTH 3 B.GUARINO,R.SPREAFICO,E.CAMERONI,J.B.CASE,R.E.CHEN,          
 JRNL        AUTH 4 C.HAVENAR-DAUGHTON,G.SNELL,A.TELENTI,H.W.VIRGIN,             
 JRNL        AUTH 5 A.LANZAVECCHIA,M.S.DIAMOND,K.FINK,D.VEESLER,D.CORTI          
-JRNL        TITL   STRUCTURAL AND FUNCTIONAL ANALYSIS OF A POTENT SARBECOVIRUS  
-JRNL        TITL 2 NEUTRALIZING ANTIBODY.                                       
-JRNL        REF    BIORXIV                                    2020              
-JRNL        REFN                                                                
-JRNL        PMID   32511354                                                     
-JRNL        DOI    10.1101/2020.04.07.023903                                    
+JRNL        TITL   CROSS-NEUTRALIZATION OF SARS-COV-2 BY A HUMAN MONOCLONAL     
+JRNL        TITL 2 SARS-COV ANTIBODY.                                           
+JRNL        REF    NATURE                        V. 583   290 2020              
+JRNL        REFN                   ESSN 1476-4687                               
+JRNL        PMID   32422645                                                     
+JRNL        DOI    10.1038/S41586-020-2349-Y                                    
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   D.PINTO,Y.J.PARK,M.BELTRAMELLO,A.C.WALLS,M.A.TORTORICI,      
+REMARK   1  AUTH 2 S.BIANCHI,S.JACONI,K.CULAP,F.ZATTA,A.DE MARCO,A.PETER,       
+REMARK   1  AUTH 3 B.GUARINO,R.SPREAFICO,E.CAMERONI,J.B.CASE,R.E.CHEN,          
+REMARK   1  AUTH 4 C.HAVENAR-DAUGHTON,G.SNELL,A.TELENTI,H.W.VIRGIN,             
+REMARK   1  AUTH 5 A.LANZAVECCHIA,M.S.DIAMOND,K.FINK,D.VEESLER,D.CORTI          
+REMARK   1  TITL   STRUCTURAL AND FUNCTIONAL ANALYSIS OF A POTENT SARBECOVIRUS  
+REMARK   1  TITL 2 NEUTRALIZING ANTIBODY.                                       
+REMARK   1  REF    BIORXIV                                    2020              
+REMARK   1  REFN                                                                
+REMARK   1  PMID   32511354                                                     
+REMARK   1  DOI    10.1101/2020.04.07.023903                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.70 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -137,7 +151,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 70.00                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 7000.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           
@@ -28315,5 +28329,5 @@ CONECT2433024323
 CONECT243312432024324                                                           
 CONECT2433224325                                                                
 CONECT2433324326                                                                
-MASTER     1890    0   65   70  230    0    0    624326    7 1017  335          
+MASTER     1903    0   65   70  230    0    0    624326    7 1017  335          
 END                                                                             

@@ -1,10 +1,10 @@
-USER  MOD reduce.3.3.160602 H: found=0, std=0, add=0, rem=0, adj=0
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
 data_6X29
 #
 _entry.id   6X29
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.333
+_audit_conform.dict_version    5.334
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -72,9 +72,9 @@ _citation.database_id_CSD
 _citation.pdbx_database_id_DOI
 _citation.pdbx_database_id_PubMed
 _citation.unpublished_flag
-? ? ? ? ? ? ? US ? ? primary Nat.Struct.Mol.Biol. ? ? 1545-9985 ? ? ? ? ? ?
+? ? ? ? ? ? ? US ? ? primary Nat.Struct.Mol.Biol. ? ? 1545-9985 ? ? 27 ? 925 933
 'Controlling the SARS-CoV-2 spike glycoprotein conformation.' 2020 ? 10.1038/s41
-? ? ? ? ? ? ? US ? ? 1       Biorxiv              ? ? ?         ? ? ? ? ? ?
+? ? ? ? ? ? ? US ? ? 1       Biorxiv              ? ? ?         ? ? ?  ? ?   ?
 'Controlling the SARS-CoV-2 Spike Glycoprotein Conformation.' 2020 ? 10.1101/202
 #
 loop_
@@ -82,19 +82,19 @@ _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Henderson, R.'  1  0000-0002-4301-6382
+primary 'Henderson, R.'  1  ?
 primary 'Edwards, R.J.'  2  ?
 primary 'Mansouri, K.'   3  ?
 primary 'Janowska, K.'   4  ?
 primary 'Stalls, V.'     5  ?
-primary 'Gobeil, S.M.C.' 6  0000-0002-0057-2477
+primary 'Gobeil, S.M.C.' 6  ?
 primary 'Kopp, M.'       7  ?
 primary 'Li, D.'         8  ?
 primary 'Parks, R.'      9  ?
-primary 'Hsu, A.L.'      10 0000-0003-2065-3802
+primary 'Hsu, A.L.'      10 ?
 primary 'Borgnia, M.J.'  11 ?
 primary 'Haynes, B.F.'   12 ?
-primary 'Acharya, P.'    13 0000-0002-0089-277X
+primary 'Acharya, P.'    13 ?
 1       'Henderson, R.'  14 ?
 1       'Edwards, R.J.'  15 ?
 1       'Mansouri, K.'   16 ?
@@ -29373,6 +29373,7 @@ _pdbx_audit_revision_history.revision_date
 2 'Structure model' 1 1 2020-06-24
 3 'Structure model' 2 0 2020-07-29
 4 'Structure model' 2 1 2020-09-30
+5 'Structure model' 2 2 2020-10-21
 #
 loop_
 _pdbx_audit_revision_details.ordinal
@@ -29397,6 +29398,7 @@ _pdbx_audit_revision_group.group
 5 3 'Structure model' 'Derived calculations'
 6 3 'Structure model' 'Structure summary'
 7 4 'Structure model' 'Database references'
+8 5 'Structure model' 'Database references'
 #
 loop_
 _pdbx_audit_revision_category.ordinal
@@ -29434,6 +29436,8 @@ _pdbx_audit_revision_category.category
 29 3 'Structure model' struct_conn
 30 4 'Structure model' citation
 31 4 'Structure model' citation_author
+32 5 'Structure model' citation
+33 5 'Structure model' citation_author
 #
 loop_
 _pdbx_audit_revision_item.ordinal
@@ -29463,6 +29467,10 @@ _pdbx_audit_revision_item.item
 21 3 'Structure model' '_pdbx_validate_rmsd_angle.angle_deviation'
 22 3 'Structure model' '_pdbx_validate_rmsd_angle.angle_value'
 23 3 'Structure model' '_struct_conn.pdbx_dist_value'
+24 5 'Structure model' '_citation.journal_volume'
+25 5 'Structure model' '_citation.page_first'
+26 5 'Structure model' '_citation.page_last'
+27 5 'Structure model' '_citation_author.identifier_ORCID'
 #
 _em_3d_fitting.entry_id          6X29
 _em_3d_fitting.id                1

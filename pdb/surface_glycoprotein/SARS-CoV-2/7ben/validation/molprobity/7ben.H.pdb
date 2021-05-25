@@ -1,4 +1,4 @@
-USER  MOD reduce.3.3.160602 H: found=0, std=0, add=0, rem=0, adj=0
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
 data_7BEN
 #
 _entry.id   7BEN
@@ -64,9 +64,9 @@ _citation.journal_id_CSD            ?
 _citation.journal_id_ISSN           1097-4172
 _citation.journal_full              ?
 _citation.journal_issue             ?
-_citation.journal_volume            ?
+_citation.journal_volume            184
 _citation.language                  ?
-_citation.page_first                ?
+_citation.page_first                2183
 _citation.page_last                 ?
 _citation.title                     'The antigenic anatomy of SARS-CoV-2 recepto
 _citation.year                      2021

@@ -1,10 +1,10 @@
-USER  MOD reduce.3.3.160602 H: found=0, std=0, add=0, rem=0, adj=0
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
 data_6YB7
 #
 _entry.id   6YB7
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.325
+_audit_conform.dict_version    5.334
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -12,12 +12,6 @@ _database_2.database_id
 _database_2.database_code
 PDB   6YB7
 WWPDB D_1292107318
-#
-_pdbx_database_PDB_obs_spr.id               SPRSDE
-_pdbx_database_PDB_obs_spr.date             2020-04-01
-_pdbx_database_PDB_obs_spr.pdb_id           6YB7
-_pdbx_database_PDB_obs_spr.replace_pdb_id   6Y84
-_pdbx_database_PDB_obs_spr.details          ?
 #
 _pdbx_database_status.status_code                     REL
 _pdbx_database_status.status_code_sf                  REL
@@ -5235,6 +5229,7 @@ _pdbx_audit_revision_history.revision_date
 2 'Structure model' 2 0 2020-04-01
 3 'Structure model' 2 1 2020-04-08
 4 'Structure model' 2 2 2020-05-06
+5 'Structure model' 2 3 2020-10-21
 #
 loop_
 _pdbx_audit_revision_details.ordinal
@@ -5264,6 +5259,8 @@ _pdbx_audit_revision_group.group
 10 4 'Structure model' 'Database references'
 11 4 'Structure model' 'Source and taxonomy'
 12 4 'Structure model' 'Structure summary'
+13 5 'Structure model' Advisory
+14 5 'Structure model' 'Structure summary'
 #
 loop_
 _pdbx_audit_revision_category.ordinal
@@ -5296,6 +5293,8 @@ _pdbx_audit_revision_category.category
 24 4 'Structure model' entity_src_gen
 25 4 'Structure model' struct_ref
 26 4 'Structure model' struct_ref_seq
+27 5 'Structure model' pdbx_database_PDB_obs_spr
+28 5 'Structure model' struct
 #
 loop_
 _pdbx_audit_revision_item.ordinal
@@ -5378,6 +5377,7 @@ _pdbx_audit_revision_item.item
 74 4 'Structure model' '_struct_ref_seq.db_align_beg'
 75 4 'Structure model' '_struct_ref_seq.db_align_end'
 76 4 'Structure model' '_struct_ref_seq.pdbx_db_accession'
+77 5 'Structure model' '_struct.title'
 #
 _pdbx_phasing_MR.entry_id                     6YB7
 _pdbx_phasing_MR.method_rotation              ?

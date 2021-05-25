@@ -1,0 +1,118 @@
+
+=============================== Model properties ==============================
+
+  Overall:
+    Number of atoms = 8997  (anisotropic = 8627)
+    B_iso: mean =  41.1  max = 110.9  min =  13.8
+  Macromolecules:
+    Number of atoms = 8605  (anisotropic = 8603)
+    B_iso: mean =  41.1  max = 110.9  min =  14.0
+  Ligands:
+    Number of atoms = 96  (anisotropic = 24)
+    B_iso: mean =  65.0  max = 102.2  min =  37.0
+  Waters:
+    Number of atoms = 296  (anisotropic = 0)
+    B_iso: mean =  34.2  max =  59.2  min =  13.8
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.054 (Z=  3.662)
+  Mean delta:    0.004 (Z=  0.230)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   C  41  HIS  CA     
+   C  41  HIS  CB     
+   C  41  HIS  CG        113.80   118.38    -4.58  1.00e+00  2.10e+01   4.6*sigma
+   B  41  HIS  CA     
+   B  41  HIS  CB     
+   B  41  HIS  CG        113.80   117.99    -4.19  1.00e+00  1.76e+01   4.2*sigma
+   C 106  ILE  C      
+   C 107  GLN  N      
+   C 107  GLN  CA        121.70   129.07    -7.37  1.80e+00  1.67e+01   4.1*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    7.367 (Z=  4.583)
+  Mean delta:    1.012 (Z=  0.483)
+
+                      ----------Dihedral angles----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.001
+  Max. delta:   88.019
+  Mean delta:   11.187
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.364
+  Mean delta:    0.045
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.031
+  Mean delta:    0.004
+
+============================ Molprobity validation ============================
+
+  
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.004   0.054   8792
+    Angle     :  1.012   7.367  11986
+    Chirality :  0.045   0.364   1389
+    Planarity :  0.004   0.031   1556
+    Dihedral  : 11.187  88.019   3006
+    Min Nonbonded Distance : 1.234
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 1.84
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  1.92 %
+      Favored  : 98.08 %
+    Rotamer Outliers :  0.89 %
+    Cbeta Deviations :  0.19 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.64 (0.21), residues: 1143
+    helix: -1.26 (0.25), residues: 288
+    sheet: -0.23 (0.36), residues: 174
+    loop : -1.24 (0.21), residues: 681
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 189  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  98.08 %
+  Rotamer outliers      =   0.89 %
+  C-beta deviations     =     2
+  Clashscore            =   1.84
+  RMS(bonds)            =   0.0043
+  RMS(angles)           =   1.01
+  MolProbity score      =   0.95
+  Refinement program    = PHENIX

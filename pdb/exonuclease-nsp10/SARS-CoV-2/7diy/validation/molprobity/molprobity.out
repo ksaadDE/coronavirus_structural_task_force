@@ -1,0 +1,179 @@
+
+=============================== Model properties ==============================
+
+  Overall:
+    Number of atoms = 3249  (anisotropic = 3220)
+    B_iso: mean =  39.1  max =  67.9  min =  28.8
+    7 total B-factor or occupancy problem(s) detected
+  Macromolecules:
+    Number of atoms = 3215  (anisotropic = 3215)
+    B_iso: mean =  39.2  max =  67.9  min =  32.9
+    7 total B-factor or occupancy problem(s) detected
+  Ligands:
+    Number of atoms = 5  (anisotropic = 5)
+    B_iso: mean =  41.0  max =  52.4  min =  36.3
+  Waters:
+    Number of atoms = 29  (anisotropic = 0)
+    B_iso: mean =  35.5  max =  47.8  min =  28.8
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   A  84  PRO  N      
+   A  84  PRO  CD          1.47     1.37     0.11  1.40e-02  5.68e+01   7.5*sigma
+   B 288  LYS  CD     
+   B 288  LYS  CE          1.52     1.40     0.12  3.00e-02  1.70e+01   4.1*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.124 (Z= 10.549)
+  Mean delta:    0.008 (Z=  0.446)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   B  97  THR  N      
+   B  97  THR  CA     
+   B  97  THR  C         111.00   127.29   -16.29  2.80e+00  3.39e+01   5.8*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   16.295 (Z=  5.819)
+  Mean delta:    1.218 (Z=  0.571)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   B  52  ARG  CD     
+   B  52  ARG  NE     
+   B  52  ARG  CZ     
+   B  52  ARG  NH1         0.00  -179.88   179.88  1.00e+01  1.92e+02  18.0*sigma
+   B 163  ARG  CD     
+   B 163  ARG  NE     
+   B 163  ARG  CZ     
+   B 163  ARG  NH1         0.00  -179.70   179.70  1.00e+01  1.92e+02  18.0*sigma
+   B 180  ARG  CD     
+   B 180  ARG  NE     
+   B 180  ARG  CZ     
+   B 180  ARG  NH1         0.00   178.85  -178.85  1.00e+01  1.92e+02  17.9*sigma
+   B 266  ASN  CA     
+   B 266  ASN  C      
+   B 267  ALA  N      
+   B 267  ALA  CA        180.00   151.01    28.99  5.00e+00  3.36e+01   5.8*sigma
+   B  78  GLU  CB     
+   B  78  GLU  CG     
+   B  78  GLU  CD     
+   B  78  GLU  OE1         0.00   166.16  -166.16  3.00e+01  2.10e+01   5.5*sigma
+   A  60  GLU  CB     
+   A  60  GLU  CG     
+   A  60  GLU  CD     
+   A  60  GLU  OE1         0.00   161.64  -161.64  3.00e+01  2.08e+01   5.4*sigma
+   B 187  ALA  CA     
+   B 187  ALA  C      
+   B 188  HIS  N      
+   B 188  HIS  CA        180.00  -154.02   -25.98  5.00e+00  2.70e+01   5.2*sigma
+   B 210  CYS  CA     
+   B 210  CYS  C      
+   B 211  ASP  N      
+   B 211  ASP  CA        180.00   154.47    25.53  5.00e+00  2.61e+01   5.1*sigma
+   B 207  CYS  CA     
+   B 207  CYS  C      
+   B 208  CYS  N      
+   B 208  CYS  CA        180.00   154.76    25.24  5.00e+00  2.55e+01   5.0*sigma
+   B 191  GLU  CB     
+   B 191  GLU  CG     
+   B 191  GLU  CD     
+   B 191  GLU  OE1         0.00  -149.60   149.60  3.00e+01  1.99e+01   5.0*sigma
+   A  53  GLN  CA     
+   A  53  GLN  C      
+   A  54  ALA  N      
+   A  54  ALA  CA        180.00  -157.27   -22.73  5.00e+00  2.07e+01   4.5*sigma
+   B 112  SER  CA     
+   B 112  SER  C      
+   B 113  THR  N      
+   B 113  THR  CA        180.00   157.75    22.25  5.00e+00  1.98e+01   4.4*sigma
+   B 181  VAL  CA     
+   B 181  VAL  C      
+   B 182  VAL  N      
+   B 182  VAL  CA        180.00   158.69    21.31  5.00e+00  1.82e+01   4.3*sigma
+   B 154  TYR  CA     
+   B 154  TYR  C      
+   B 155  LYS  N      
+   B 155  LYS  CA        180.00  -158.85   -21.15  5.00e+00  1.79e+01   4.2*sigma
+   B  49  MET  CA     
+   B  49  MET  C      
+   B  50  THR  N      
+   B  50  THR  CA        180.00   158.92    21.08  5.00e+00  1.78e+01   4.2*sigma
+
+  Min. delta:    0.006
+  Max. delta:  179.885
+  Mean delta:   19.570
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.566
+  Mean delta:    0.060
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.063
+  Mean delta:    0.006
+
+============================ Molprobity validation ============================
+
+  
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.008   0.124   3298
+    Angle     :  1.218  16.295   4483
+    Chirality :  0.060   0.566    499
+    Planarity :  0.006   0.063    576
+    Dihedral  : 19.570 179.885   1172
+    Min Nonbonded Distance : 1.879
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 9.61
+    Ramachandran Plot:
+      Outliers :  0.24 %
+      Allowed  :  6.05 %
+      Favored  : 93.70 %
+    Rotamer Outliers :  2.25 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.76 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.91 (0.37), residues: 413
+    helix: -1.31 (0.43), residues: 104
+    sheet: -2.70 (0.71), residues: 33
+    loop : -1.06 (0.35), residues: 276
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A  98  GLN
+   A  80  HIS
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.24 %
+                favored =  93.70 %
+  Rotamer outliers      =   2.25 %
+  C-beta deviations     =     0
+  Clashscore            =   9.61
+  RMS(bonds)            =   0.0082
+  RMS(angles)           =   1.22
+  MolProbity score      =   2.19
+  Refinement program    = PHENIX

@@ -1,10 +1,10 @@
-USER  MOD reduce.3.3.160602 H: found=0, std=0, add=0, rem=0, adj=0
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
 data_6WPT
 #
 _entry.id   6WPT
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.337
+_audit_conform.dict_version    5.342
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -67,64 +67,94 @@ _audit_author.identifier_ORCID
 'Corti, D.'                                                          24 ?
 'Seattle Structural Genomics Center for Infectious Disease (SSGCID)' 25 ?
 #
-_citation.abstract                  ?
-_citation.abstract_id_CAS           ?
-_citation.book_id_ISBN              ?
-_citation.book_publisher            ?
-_citation.book_publisher_city       ?
-_citation.book_title                ?
-_citation.coordinate_linkage        ?
-_citation.country                   US
-_citation.database_id_Medline       ?
-_citation.details                   ?
-_citation.id                        primary
-_citation.journal_abbrev            Biorxiv
-_citation.journal_id_ASTM           ?
-_citation.journal_id_CSD            ?
-_citation.journal_id_ISSN           ?
-_citation.journal_full              ?
-_citation.journal_issue             ?
-_citation.journal_volume            ?
-_citation.language                  ?
-_citation.page_first                ?
-_citation.page_last                 ?
-_citation.title                     'Structural and functional analysis of a pot
-_citation.year                      2020
-_citation.database_id_CSD           ?
-_citation.pdbx_database_id_DOI      10.1101/2020.04.07.023903
-_citation.pdbx_database_id_PubMed   32511354
-_citation.unpublished_flag          ?
+loop_
+_citation.abstract
+_citation.abstract_id_CAS
+_citation.book_id_ISBN
+_citation.book_publisher
+_citation.book_publisher_city
+_citation.book_title
+_citation.coordinate_linkage
+_citation.country
+_citation.database_id_Medline
+_citation.details
+_citation.id
+_citation.journal_abbrev
+_citation.journal_id_ASTM
+_citation.journal_id_CSD
+_citation.journal_id_ISSN
+_citation.journal_full
+_citation.journal_issue
+_citation.journal_volume
+_citation.language
+_citation.page_first
+_citation.page_last
+_citation.title
+_citation.year
+_citation.database_id_CSD
+_citation.pdbx_database_id_DOI
+_citation.pdbx_database_id_PubMed
+_citation.unpublished_flag
+? ? ? ? ? ? ? UK ? ? primary Nature  NATUAS 0006 1476-4687 ? ? 583 ? 290 295
+'Cross-neutralization of SARS-CoV-2 by a human monoclonal SARS-CoV antibody.'
+? ? ? ? ? ? ? US ? ? 1       Biorxiv ?      ?    ?         ? ? ?   ? ?   ?
+'Structural and functional analysis of a potent sarbecovirus neutralizing antibo
 #
 loop_
 _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Pinto, D.'            1  0000-0001-5737-8467
+primary 'Pinto, D.'            1  ?
 primary 'Park, Y.J.'           2  ?
-primary 'Beltramello, M.'      3  0000-0001-5550-5629
+primary 'Beltramello, M.'      3  ?
 primary 'Walls, A.C.'          4  ?
-primary 'Tortorici, M.A.'      5  ?
+primary 'Tortorici, M.A.'      5  0000-0002-2260-2577
 primary 'Bianchi, S.'          6  0000-0002-5100-8905
-primary 'Jaconi, S.'           7  0000-0001-7527-4434
+primary 'Jaconi, S.'           7  ?
 primary 'Culap, K.'            8  0000-0002-0956-0018
 primary 'Zatta, F.'            9  ?
-primary 'De Marco, A.'         10 0000-0001-9641-4838
-primary 'Peter, A.'            11 0000-0001-6636-3937
-primary 'Guarino, B.'          12 0000-0003-3759-3252
-primary 'Spreafico, R.'        13 0000-0001-8282-7658
-primary 'Cameroni, E.'         14 0000-0002-9102-8943
-primary 'Case, J.B.'           15 ?
+primary 'De Marco, A.'         10 ?
+primary 'Peter, A.'            11 ?
+primary 'Guarino, B.'          12 ?
+primary 'Spreafico, R.'        13 ?
+primary 'Cameroni, E.'         14 ?
+primary 'Case, J.B.'           15 0000-0001-7331-5511
 primary 'Chen, R.E.'           16 ?
 primary 'Havenar-Daughton, C.' 17 0000-0002-2880-3927
 primary 'Snell, G.'            18 ?
-primary 'Telenti, A.'          19 0000-0001-6290-7677
-primary 'Virgin, H.W.'         20 0000-0001-8580-7628
-primary 'Lanzavecchia, A.'     21 0000-0002-3041-7240
+primary 'Telenti, A.'          19 ?
+primary 'Virgin, H.W.'         20 ?
+primary 'Lanzavecchia, A.'     21 ?
 primary 'Diamond, M.S.'        22 ?
-primary 'Fink, K.'             23 0000-0002-3571-0390
+primary 'Fink, K.'             23 ?
 primary 'Veesler, D.'          24 0000-0002-6019-8675
 primary 'Corti, D.'            25 0000-0002-5797-1364
+1       'Pinto, D.'            26 0000-0001-5737-8467
+1       'Park, Y.J.'           27 ?
+1       'Beltramello, M.'      28 0000-0001-5550-5629
+1       'Walls, A.C.'          29 ?
+1       'Tortorici, M.A.'      30 ?
+1       'Bianchi, S.'          31 0000-0002-5100-8905
+1       'Jaconi, S.'           32 0000-0001-7527-4434
+1       'Culap, K.'            33 0000-0002-0956-0018
+1       'Zatta, F.'            34 ?
+1       'De Marco, A.'         35 0000-0001-9641-4838
+1       'Peter, A.'            36 0000-0001-6636-3937
+1       'Guarino, B.'          37 0000-0003-3759-3252
+1       'Spreafico, R.'        38 0000-0001-8282-7658
+1       'Cameroni, E.'         39 0000-0002-9102-8943
+1       'Case, J.B.'           40 ?
+1       'Chen, R.E.'           41 ?
+1       'Havenar-Daughton, C.' 42 0000-0002-2880-3927
+1       'Snell, G.'            43 ?
+1       'Telenti, A.'          44 0000-0001-6290-7677
+1       'Virgin, H.W.'         45 0000-0001-8580-7628
+1       'Lanzavecchia, A.'     46 0000-0002-3041-7240
+1       'Diamond, M.S.'        47 ?
+1       'Fink, K.'             48 0000-0002-3571-0390
+1       'Veesler, D.'          49 0000-0002-6019-8675
+1       'Corti, D.'            50 0000-0002-5797-1364
 #
 loop_
 _entity.id
@@ -32085,6 +32115,7 @@ _pdbx_audit_revision_history.revision_date
 2 'Structure model' 1 1 2020-06-24
 3 'Structure model' 2 0 2020-07-29
 4 'Structure model' 2 1 2021-01-20
+5 'Structure model' 2 2 2021-05-19
 #
 loop_
 _pdbx_audit_revision_details.ordinal
@@ -32108,6 +32139,7 @@ _pdbx_audit_revision_group.group
 4 3 'Structure model' 'Derived calculations'
 5 3 'Structure model' 'Structure summary'
 6 4 'Structure model' 'Structure summary'
+7 5 'Structure model' 'Database references'
 #
 loop_
 _pdbx_audit_revision_category.ordinal
@@ -32135,6 +32167,8 @@ _pdbx_audit_revision_category.category
 19 3 'Structure model' struct_site_gen
 20 4 'Structure model' chem_comp
 21 4 'Structure model' entity
+22 5 'Structure model' citation
+23 5 'Structure model' citation_author
 #
 loop_
 _pdbx_audit_revision_item.ordinal

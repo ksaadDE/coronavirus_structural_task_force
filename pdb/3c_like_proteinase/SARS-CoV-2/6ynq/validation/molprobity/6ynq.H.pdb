@@ -1,10 +1,10 @@
-USER  MOD reduce.3.3.160602 H: found=0, std=0, add=0, rem=0, adj=0
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
 data_6YNQ
 #
 _entry.id   6YNQ
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.341
+_audit_conform.dict_version    5.342
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -132,10 +132,10 @@ _citation.database_id_CSD
 _citation.pdbx_database_id_DOI
 _citation.pdbx_database_id_PubMed
 _citation.unpublished_flag
-? ? ? ? ? ? ? US ? ? primary Science SCIEAS 0038 1095-9203 ? ? ? ? ? ?
+? ? ? ? ? ? ? US ? ? primary Science SCIEAS 0038 1095-9203 ? ? 372 ? 642 646
 'X-ray screening identifies active site and allosteric inhibitors of SARS-CoV-2
 33811162 ?
-? ? ? ? ? ? ? US ? ? 1       Biorxiv ?      ?    ?         ? ? ? ? ? ?
+? ? ? ? ? ? ? US ? ? 1       Biorxiv ?      ?    ?         ? ? ?   ? ?   ?
 'Inhibition of SARS-CoV-2 main protease by allosteric drug-binding'
 ?
 #
@@ -180,7 +180,7 @@ primary 'Li, C.'                33  ?
 primary 'Awel, S.'              34  ?
 primary 'Peck, A.'              35  ?
 primary 'Barthelmess, M.'       36  ?
-primary 'Schluenzen, F.'        37  ?
+primary 'Schlunzen, F.'         37  ?
 primary 'Lourdu Xavier, P.'     38  ?
 primary 'Werner, N.'            39  ?
 primary 'Andaleeb, H.'          40  ?

@@ -18,24 +18,24 @@ do
     echo $x
     e="${c,,}" ;
     cd $x ;
-    if [ -f validation/molprobity/molprobity.out ] && [ -f validation/molprobity/clashscore.txt ] ; then
+    if [ -f validation/molprobity/molprobity.out ] && [ -f validation/molprobity/clashscore.txt ] && [-f validation/molprobity/$c.H-rama.pdf] ; then
     	echo "Done ${c}"
     	cd $base
     	continue
     else
-    	if [ ! -f validation/molprobity/molprobity.out ] && [ -f validation/molprobity/clashscore.txt ] ; then
- 	phenix.molprobity $c.cif	    
-	rm molprobity_probe.txt
-	mv molprobity* validation/molprobity/
-	cd $base
-	continue
-	fi   	
+    if [ ! -f validation/molprobity/molprobity.out ] && [ -f validation/molprobity/clashscore.txt ] ; then
+ 		phenix.molprobity $c.cif	    
+		rm molprobity_probe.txt
+		mv molprobity* validation/molprobity/
+		cd $base
+		continue
+		fi   	
     fi
     if [ -f validation/molprobity/clashscore.txt ] ; then
 	phenix.reduce -NOFLIP $c.cif > validation/molprobity/$c.H.pdb
 	cd validation/molprobity/
 	rama_chart_pdf $c.H.pdb
-	multichart $c.H.pdb
+	#multichart $c.H.pdb
     else
 	if [ -f validation/molprobity/molprobity.out ] ; then
 	    phenix.clashscore $c.cif > validation/molprobity/clashscore.txt
@@ -43,7 +43,7 @@ do
        	    phenix.reduce -NOFLIP $c.cif > validation/molprobity/$c.H.pdb
 	    cd validation/molprobity/
 	    rama_chart_pdf $c.H.pdb
-	    multichart $c.H.pdb
+	    #multichart $c.H.pdb
 	else
 #	    if [ -f $c.mtz ]; then
 	    echo 'reflections here'
@@ -56,7 +56,7 @@ do
     	    phenix.reduce -NOFLIP $c.cif > validation/molprobity/$c.H.pdb
 	    cd validation/molprobity/
 	    rama_chart_pdf $c.H.pdb
-	    multichart $c.H.pdb
+	    #multichart $c.H.pdb
 #            fi
         fi
     fi

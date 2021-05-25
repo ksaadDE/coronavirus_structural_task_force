@@ -1,10 +1,10 @@
-USER  MOD reduce.3.3.160602 H: found=0, std=0, add=0, rem=0, adj=0
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
 data_6YLA
 #
 _entry.id   6YLA
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.329
+_audit_conform.dict_version    5.334
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -51,26 +51,25 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ?
 _citation.book_title                ?
 _citation.coordinate_linkage        ?
-_citation.country                   ?
+_citation.country                   US
 _citation.database_id_Medline       ?
 _citation.details                   ?
 _citation.id                        primary
-_citation.journal_abbrev            'To Be Published'
+_citation.journal_abbrev            'Cell Host Microbe'
 _citation.journal_id_ASTM           ?
-_citation.journal_id_CSD            0353
-_citation.journal_id_ISSN           ?
+_citation.journal_id_CSD            ?
+_citation.journal_id_ISSN           1934-6069
 _citation.journal_full              ?
 _citation.journal_issue             ?
-_citation.journal_volume            ?
+_citation.journal_volume            28
 _citation.language                  ?
-_citation.page_first                ?
-_citation.page_last                 ?
-_citation.title
-'Potent antibody binding to an unexpected highly conserved cryptic epitope of th
-_citation.year                      ?
+_citation.page_first                445
+_citation.page_last                 454.e6
+_citation.title                     'Neutralization of SARS-CoV-2 by Destruction
+_citation.year                      2020
 _citation.database_id_CSD           ?
-_citation.pdbx_database_id_DOI      ?
-_citation.pdbx_database_id_PubMed   ?
+_citation.pdbx_database_id_DOI      10.1016/j.chom.2020.06.010
+_citation.pdbx_database_id_PubMed   32585135
 _citation.unpublished_flag          ?
 #
 loop_
@@ -78,14 +77,31 @@ _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Huo, J.'      1 ?
-primary 'Zhao, Y.'     2 ?
-primary 'Ren, J.'      3 ?
-primary 'Zhou, D.'     4 ?
-primary 'Ginn, H.M.'   5 ?
-primary 'Fry, E.E.'    6 ?
-primary 'Owens, R.'    7 ?
-primary 'Stuart, D.I.' 8 ?
+primary 'Huo, J.'            1  ?
+primary 'Zhao, Y.'           2  ?
+primary 'Ren, J.'            3  ?
+primary 'Zhou, D.'           4  ?
+primary 'Duyvesteyn, H.M.E.' 5  ?
+primary 'Ginn, H.M.'         6  ?
+primary 'Carrique, L.'       7  ?
+primary 'Malinauskas, T.'    8  ?
+primary 'Ruza, R.R.'         9  ?
+primary 'Shah, P.N.M.'       10 ?
+primary 'Tan, T.K.'          11 ?
+primary 'Rijal, P.'          12 ?
+primary 'Coombes, N.'        13 ?
+primary 'Bewley, K.R.'       14 ?
+primary 'Tree, J.A.'         15 ?
+primary 'Radecke, J.'        16 ?
+primary 'Paterson, N.G.'     17 ?
+primary 'Supasa, P.'         18 ?
+primary 'Mongkolsapaya, J.'  19 ?
+primary 'Screaton, G.R.'     20 ?
+primary 'Carroll, M.'        21 ?
+primary 'Townsend, A.'       22 ?
+primary 'Fry, E.E.'          23 ?
+primary 'Owens, R.J.'        24 ?
+primary 'Stuart, D.I.'       25 ?
 #
 _cell.angle_alpha                  90.000
 _cell.angle_alpha_esd              ?
@@ -999,31 +1015,34 @@ _chem_comp.pdbx_synonyms
 _chem_comp.formula
 _chem_comp.formula_weight
 1PE non-polymer                  . 'PENTAETHYLENE GLYCOL'                   PEG4
-ALA 'L-peptide linking'          y ALANINE                                  ?
-ARG 'L-peptide linking'          y ARGININE                                 ?
-ASN 'L-peptide linking'          y ASPARAGINE                               ?
-ASP 'L-peptide linking'          y 'ASPARTIC ACID'                          ?
-CYS 'L-peptide linking'          y CYSTEINE                                 ?
-DMS non-polymer                  . 'DIMETHYL SULFOXIDE'                     ?
-GLN 'L-peptide linking'          y GLUTAMINE                                ?
-GLU 'L-peptide linking'          y 'GLUTAMIC ACID'                          ?
-GLY 'peptide linking'            y GLYCINE                                  ?
-HIS 'L-peptide linking'          y HISTIDINE                                ?
-HOH non-polymer                  . WATER                                    ?
-ILE 'L-peptide linking'          y ISOLEUCINE                               ?
-LEU 'L-peptide linking'          y LEUCINE                                  ?
-LYS 'L-peptide linking'          y LYSINE                                   ?
-MET 'L-peptide linking'          y METHIONINE                               ?
-MLI non-polymer                  . 'MALONATE ION'                           ?
-NAG 'D-saccharide, beta linking' . 2-acetamido-2-deoxy-beta-D-glucopyranose ?
+ALA 'L-peptide linking'          y ALANINE                                  ? 'C
+ARG 'L-peptide linking'          y ARGININE                                 ? 'C
+ASN 'L-peptide linking'          y ASPARAGINE                               ? 'C
+ASP 'L-peptide linking'          y 'ASPARTIC ACID'                          ? 'C
+CYS 'L-peptide linking'          y CYSTEINE                                 ? 'C
+DMS non-polymer                  . 'DIMETHYL SULFOXIDE'                     ? 'C
+GLN 'L-peptide linking'          y GLUTAMINE                                ? 'C
+GLU 'L-peptide linking'          y 'GLUTAMIC ACID'                          ? 'C
+GLY 'peptide linking'            y GLYCINE                                  ? 'C
+HIS 'L-peptide linking'          y HISTIDINE                                ? 'C
+HOH non-polymer                  . WATER                                    ? 'H
+ILE 'L-peptide linking'          y ISOLEUCINE                               ? 'C
+LEU 'L-peptide linking'          y LEUCINE                                  ? 'C
+LYS 'L-peptide linking'          y LYSINE                                   ? 'C
+MET 'L-peptide linking'          y METHIONINE                               ? 'C
+MLI non-polymer                  . 'MALONATE ION'                           ? 'C
+NAG 'D-saccharide, beta linking' . 2-acetamido-2-deoxy-beta-D-glucopyranose
+;N-acetyl-beta-D-glucosamine; 2-acetamido-2-deoxy-beta-D-glucose; 2-acetamido-2-
+;
+'C8 H15 N O6'    221.208
 PG0 non-polymer                  . '2-(2-METHOXYETHOXY)ETHANOL'             'PEG
-PHE 'L-peptide linking'          y PHENYLALANINE                            ?
-PRO 'L-peptide linking'          y PROLINE                                  ?
-SER 'L-peptide linking'          y SERINE                                   ?
-THR 'L-peptide linking'          y THREONINE                                ?
-TRP 'L-peptide linking'          y TRYPTOPHAN                               ?
-TYR 'L-peptide linking'          y TYROSINE                                 ?
-VAL 'L-peptide linking'          y VALINE                                   ?
+PHE 'L-peptide linking'          y PHENYLALANINE                            ? 'C
+PRO 'L-peptide linking'          y PROLINE                                  ? 'C
+SER 'L-peptide linking'          y SERINE                                   ? 'C
+THR 'L-peptide linking'          y THREONINE                                ? 'C
+TRP 'L-peptide linking'          y TRYPTOPHAN                               ? 'C
+TYR 'L-peptide linking'          y TYROSINE                                 ? 'C
+VAL 'L-peptide linking'          y VALINE                                   ? 'C
 #
 _exptl.absorpt_coefficient_mu     ?
 _exptl.absorpt_correction_T_max   ?
@@ -23545,6 +23564,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2020-04-15
 2 'Structure model' 1 1 2020-05-06
 3 'Structure model' 1 2 2020-07-29
+4 'Structure model' 1 3 2020-10-28
 #
 loop_
 _pdbx_audit_revision_details.ordinal
@@ -23568,6 +23588,8 @@ _pdbx_audit_revision_group.group
 4 3 'Structure model' 'Data collection'
 5 3 'Structure model' 'Derived calculations'
 6 3 'Structure model' 'Structure summary'
+7 4 'Structure model' 'Database references'
+8 4 'Structure model' 'Structure summary'
 #
 loop_
 _pdbx_audit_revision_category.ordinal
@@ -23587,6 +23609,9 @@ _pdbx_audit_revision_category.category
 11 3 'Structure model' struct_conn
 12 3 'Structure model' struct_site
 13 3 'Structure model' struct_site_gen
+14 4 'Structure model' chem_comp
+15 4 'Structure model' citation
+16 4 'Structure model' citation_author
 #
 loop_
 _pdbx_audit_revision_item.ordinal
@@ -23612,6 +23637,18 @@ _pdbx_audit_revision_item.item
 17 3 'Structure model' '_entity.pdbx_description'
 18 3 'Structure model' '_pdbx_entity_nonpoly.name'
 19 3 'Structure model' '_struct_conn.pdbx_role'
+20 4 'Structure model' '_chem_comp.pdbx_synonyms'
+21 4 'Structure model' '_citation.country'
+22 4 'Structure model' '_citation.journal_abbrev'
+23 4 'Structure model' '_citation.journal_id_CSD'
+24 4 'Structure model' '_citation.journal_id_ISSN'
+25 4 'Structure model' '_citation.journal_volume'
+26 4 'Structure model' '_citation.page_first'
+27 4 'Structure model' '_citation.page_last'
+28 4 'Structure model' '_citation.pdbx_database_id_DOI'
+29 4 'Structure model' '_citation.pdbx_database_id_PubMed'
+30 4 'Structure model' '_citation.title'
+31 4 'Structure model' '_citation.year'
 #
 loop_
 _pdbx_refine_tls.id

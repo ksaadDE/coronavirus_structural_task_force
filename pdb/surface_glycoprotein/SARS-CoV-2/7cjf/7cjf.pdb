@@ -36,13 +36,22 @@ SOURCE  18 EXPRESSION_SYSTEM_TAXID: 7108
 KEYWDS    SARS-COV-2, RBD, ANTIBODY, VIRAL PROTEIN                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Y.GUO,X.LI,G.ZHANG,D.FU,L.SCHWEIZER,H.ZHANG,Z.RAO                     
+REVDAT   3   26-MAY-21 7CJF    1       JRNL                                     
 REVDAT   2   10-MAR-21 7CJF    1       COMPND                                   
 REVDAT   1   11-NOV-20 7CJF    0                                                
-JRNL        AUTH   Y.GUO,X.LI,G.ZHANG,D.FU,L.SCHWEIZER,H.ZHANG,Z.RAO            
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 RBD IN COMPLEX WITH AN       
-JRNL        TITL 2 ANTIBODY FAB                                                 
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   Y.GUO,L.HUANG,G.ZHANG,Y.YAO,H.ZHOU,S.SHEN,B.SHEN,B.LI,X.LI,  
+JRNL        AUTH 2 Q.ZHANG,M.CHEN,D.CHEN,J.WU,D.FU,X.ZENG,M.FENG,C.PI,Y.WANG,   
+JRNL        AUTH 3 X.ZHOU,M.LU,Y.LI,Y.FANG,Y.Y.LU,X.HU,S.WANG,W.ZHANG,G.GAO,    
+JRNL        AUTH 4 F.ADRIAN,Q.WANG,F.YU,Y.PENG,A.G.GABIBOV,J.MIN,Y.WANG,        
+JRNL        AUTH 5 H.HUANG,A.STEPANOV,W.ZHANG,Y.CAI,J.LIU,Z.YUAN,C.ZHANG,Z.LOU, 
+JRNL        AUTH 6 F.DENG,H.ZHANG,C.SHAN,L.SCHWEIZER,K.SUN,Z.RAO                
+JRNL        TITL   A SARS-COV-2 NEUTRALIZING ANTIBODY WITH EXTENSIVE SPIKE      
+JRNL        TITL 2 BINDING COVERAGE AND MODIFIED FOR OPTIMAL THERAPEUTIC        
+JRNL        TITL 3 OUTCOMES.                                                    
+JRNL        REF    NAT COMMUN                    V.  12  2623 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   33976198                                                     
+JRNL        DOI    10.1038/S41467-021-22926-2                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.11 ANGSTROMS.                                       
 REMARK   3                                                                      

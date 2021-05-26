@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8ae1b78-919c-4f9a-a127-b414d3518298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mk_Alignment_strc_vs_seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/mk_Alignment_strc_vs_seq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mk_SARS_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/mk_SARS_dir.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8ae1b78-919c-4f9a-a127-b414d3518298" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,6 +205,7 @@
       <workItem from="1620843613742" duration="1791000" />
       <workItem from="1620978914848" duration="2166000" />
       <workItem from="1621408001743" duration="1226000" />
+      <workItem from="1622022418011" duration="350000" />
     </task>
     <servers />
   </component>
@@ -326,7 +323,7 @@
     <SUITE FILE_PATH="coverage/Update_pipeline$request_ids.coverage" NAME="request_ids Coverage Results" MODIFIED="1615987541841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$to_old.coverage" NAME="to_old Coverage Results" MODIFIED="1619685254247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$test_gemmi.coverage" NAME="test_gemmi Coverage Results" MODIFIED="1613218151761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Update_pipeline$mk_SARS_dir.coverage" NAME="mk_SARS_dir Coverage Results" MODIFIED="1621408254242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Update_pipeline$mk_SARS_dir.coverage" NAME="mk_SARS_dir Coverage Results" MODIFIED="1622022477649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$ID_getter.coverage" NAME="ID_getter Coverage Results" MODIFIED="1620980300391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$obsolete_finder.coverage" NAME="obsolete_finder Coverage Results" MODIFIED="1615208494554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Update_pipeline$RMSD.coverage" NAME="RMSD Coverage Results" MODIFIED="1620843964039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

@@ -59,11 +59,11 @@ _citation.journal_volume            ?
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     'LY-CoV1404 potently neutralizes SARS-CoV-2 variants' 
+_citation.title                     'LY-CoV1404 potently neutralizes SARS-CoV-2 variants.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1101/2021.04.30.442182 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   33972947 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -72,66 +72,66 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Westendorf, K.'    1  ?                   
-primary 'Zentelis, S.'      2  ?                   
-primary 'Foster, D.'        3  ?                   
-primary 'Vaillancourt, P.'  4  ?                   
-primary 'Wiggin, M.'        5  ?                   
-primary 'Lovett, E.'        6  ?                   
-primary 'Hendle, J.'        7  0000-0001-8857-0216 
-primary 'Pustilnik, A.'     8  ?                   
-primary 'Sauder, J.M.'      9  ?                   
-primary 'Kraft, L.'         10 ?                   
-primary 'Hwang, Y.'         11 ?                   
-primary 'Siegel, R.W.'      12 ?                   
-primary 'Chen, J.'          13 ?                   
-primary 'Heinz, B.A.'       14 ?                   
-primary 'Higgs, R.E.'       15 ?                   
-primary 'Kalleward, N.'     16 ?                   
-primary 'Jepson, K.'        17 ?                   
-primary 'Goya, R.'          18 ?                   
-primary 'Smith, M.A.'       19 ?                   
-primary 'Collins, D.W.'     20 ?                   
-primary 'Pellacani, D.'     21 ?                   
-primary 'Xiang, P.'         22 ?                   
-primary 'de Puyraimond, V.' 23 ?                   
-primary 'Ricicova, M.'      24 ?                   
-primary 'Devorkin, L.'      25 ?                   
-primary 'Pritchard, C.'     26 ?                   
+primary 'Westendorf, K.'    1  ? 
+primary 'Zentelis, S.'      2  ? 
+primary 'Foster, D.'        3  ? 
+primary 'Vaillancourt, P.'  4  ? 
+primary 'Wiggin, M.'        5  ? 
+primary 'Lovett, E.'        6  ? 
+primary 'Hendle, J.'        7  ? 
+primary 'Pustilnik, A.'     8  ? 
+primary 'Sauder, J.M.'      9  ? 
+primary 'Kraft, L.'         10 ? 
+primary 'Hwang, Y.'         11 ? 
+primary 'Siegel, R.W.'      12 ? 
+primary 'Chen, J.'          13 ? 
+primary 'Heinz, B.A.'       14 ? 
+primary 'Higgs, R.E.'       15 ? 
+primary 'Kalleward, N.'     16 ? 
+primary 'Jepson, K.'        17 ? 
+primary 'Goya, R.'          18 ? 
+primary 'Smith, M.A.'       19 ? 
+primary 'Collins, D.W.'     20 ? 
+primary 'Pellacani, D.'     21 ? 
+primary 'Xiang, P.'         22 ? 
+primary 'de Puyraimond, V.' 23 ? 
+primary 'Ricicova, M.'      24 ? 
+primary 'Devorkin, L.'      25 ? 
+primary 'Pritchard, C.'     26 ? 
 primary 
 ;O'Neill, A.
 ;
-27 ?                   
-primary 'Cohen, C.'         28 ?                   
-primary 'Dye, J.'           29 ?                   
-primary 'Huie, K.I.'        30 ?                   
-primary 'Badger, C.V.'      31 ?                   
-primary 'Kobasa, D.'        32 ?                   
-primary 'Audet, J.'         33 ?                   
-primary 'Freitas, J.J.'     34 ?                   
-primary 'Hassanali, S.'     35 ?                   
-primary 'Hughes, I.'        36 ?                   
-primary 'Munoz, L.'         37 ?                   
-primary 'Palma, H.C.'       38 ?                   
-primary 'Ramamurthy, B.'    39 ?                   
-primary 'Cross, R.W.'       40 ?                   
-primary 'Geisbert, T.W.'    41 ?                   
-primary 'Borisevich, V.'    42 ?                   
-primary 'Lanz, I.'          43 ?                   
-primary 'Anderson, L.'      44 ?                   
-primary 'Sipahimalani, P.'  45 ?                   
-primary 'Corbett, K.S.'     46 ?                   
-primary 'Wang, L.'          47 ?                   
-primary 'Yang, E.S.'        48 ?                   
-primary 'Zhang, Y.'         49 ?                   
-primary 'Shi, W.'           50 ?                   
-primary 'Graham, B.S.'      51 ?                   
-primary 'Mascola, J.R.'     52 ?                   
-primary 'Fernandez, T.L.'   53 ?                   
-primary 'Hansen, C.L.'      54 ?                   
-primary 'Falconer, E.'      55 ?                   
-primary 'Jones, B.E.'       56 ?                   
-primary 'Barnhart, B.C.'    57 ?                   
+27 ? 
+primary 'Cohen, C.'         28 ? 
+primary 'Dye, J.'           29 ? 
+primary 'Huie, K.I.'        30 ? 
+primary 'Badger, C.V.'      31 ? 
+primary 'Kobasa, D.'        32 ? 
+primary 'Audet, J.'         33 ? 
+primary 'Freitas, J.J.'     34 ? 
+primary 'Hassanali, S.'     35 ? 
+primary 'Hughes, I.'        36 ? 
+primary 'Munoz, L.'         37 ? 
+primary 'Palma, H.C.'       38 ? 
+primary 'Ramamurthy, B.'    39 ? 
+primary 'Cross, R.W.'       40 ? 
+primary 'Geisbert, T.W.'    41 ? 
+primary 'Borisevich, V.'    42 ? 
+primary 'Lanz, I.'          43 ? 
+primary 'Anderson, L.'      44 ? 
+primary 'Sipahimalani, P.'  45 ? 
+primary 'Corbett, K.S.'     46 ? 
+primary 'Wang, L.'          47 ? 
+primary 'Yang, E.S.'        48 ? 
+primary 'Zhang, Y.'         49 ? 
+primary 'Shi, W.'           50 ? 
+primary 'Graham, B.S.'      51 ? 
+primary 'Mascola, J.R.'     52 ? 
+primary 'Fernandez, T.L.'   53 ? 
+primary 'Hansen, C.L.'      54 ? 
+primary 'Falconer, E.'      55 ? 
+primary 'Jones, B.E.'       56 ? 
+primary 'Barnhart, B.C.'    57 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -12675,11 +12675,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-05-12 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-05-12 
+2 'Structure model' 1 1 2021-05-26 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -12688,6 +12691,28 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+2 2 'Structure model' '_citation.title'                   
+3 2 'Structure model' '_citation_author.identifier_ORCID' 
 # 
 loop_
 _software.citation_id 

@@ -34,6 +34,7 @@ SOURCE  17 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    COVID-19, IMMUNE SYSTEM-VIRAL PROTEIN COMPLEX                         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.YUAN,X.ZHU,I.A.WILSON                                               
+REVDAT   2   26-MAY-21 7MF1    1       JRNL                                     
 REVDAT   1   12-MAY-21 7MF1    0                                                
 JRNL        AUTH   X.ZHOU,F.MA,J.XIE,M.YUAN,Y.LI,N.SHAABANI,F.ZHAO,D.HUANG,     
 JRNL        AUTH 2 N.C.WU,C.D.LEE,H.LIU,J.LI,Z.CHEN,Y.HONG,W.H.LIU,N.XIAO,      
@@ -41,7 +42,7 @@ JRNL        AUTH 3 D.R.BURTON,H.TU,H.LI,X.CHEN,J.R.TEIJARO,I.A.WILSON,C.XIAO,
 JRNL        AUTH 4 Z.HUANG                                                      
 JRNL        TITL   DIVERSE IMMUNOGLOBULIN GENE USAGE AND CONVERGENT EPITOPE     
 JRNL        TITL 2 TARGETING IN NEUTRALIZING ANTIBODY RESPONSES TO SARS-COV-2.  
-JRNL        REF    CELL REP                             09109 2021              
+JRNL        REF    CELL REP                      V.  35 09109 2021              
 JRNL        REFN                   ESSN 2211-1247                               
 JRNL        PMID   33932326                                                     
 JRNL        DOI    10.1016/J.CELREP.2021.109109                                 

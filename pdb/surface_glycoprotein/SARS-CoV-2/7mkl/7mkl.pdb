@@ -29,9 +29,13 @@ SOURCE  13 ORGANISM_TAXID: 10090;
 SOURCE  14 MOL_ID: 3;                                                           
 SOURCE  15 ORGANISM_SCIENTIFIC: MUS MUSCULUS;                                   
 SOURCE  16 ORGANISM_TAXID: 10090                                                
-KEYWDS    GLYCOPROTEIN, ANTIBODY, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX           
+KEYWDS    GLYCOPROTEIN, ANTIBODY, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX,          
+KEYWDS   2 STRUCTURAL GENOMICS, CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS    
+KEYWDS   3 DISEASES, CSGID                                                      
 EXPDTA    ELECTRON MICROSCOPY                                                   
-AUTHOR    L.J.ADAMS,D.H.FREMONT                                                 
+AUTHOR    L.J.ADAMS,D.H.FREMONT,CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS    
+AUTHOR   2 DISEASES (CSGID)                                                     
+REVDAT   2   26-MAY-21 7MKL    1       KEYWDS AUTHOR                            
 REVDAT   1   12-MAY-21 7MKL    0                                                
 JRNL        AUTH   L.VANBLARGAN,L.ADAMS,Z.LIU,R.E.CHEN,P.GILCHUK,S.RAJU,        
 JRNL        AUTH 2 B.SMITH,H.ZHAO,J.B.CASE,E.S.WINKLER,B.WHITENER,L.DROIT,      

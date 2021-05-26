@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emdEntry accessCode="23970" version="1.9.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v1/v1_9/emdb_v1_9_6.xsd">
+    <admin>
+        <lastUpdate>2021-05-26</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2021-05-12</depositionDate>
+        <depositionSite>RCSB</depositionSite>
+        <processingSite>RCSB</processingSite>
+        <headerReleaseDate>2021-05-26</headerReleaseDate>
+        <mapReleaseDate>2021-05-26</mapReleaseDate>
+        <title>Full length SARS-CoV-2 Nsp2</title>
+        <authors>QCRG Structural Biology Consortium</authors>
+        <fittedPDBEntryIdList>
+            <fittedPDBEntryId>7msw</fittedPDBEntryId>
+        </fittedPDBEntryIdList>
+        <primaryReference published="false">
+            <journalArticle>
+                <authors>QCRG Structural Biology Consortium</authors>
+                <articleTitle>CryoEM and AI reveal a structure of SARS-CoV-2 Nsp2, a multifunctional protein involved in key host processes.</articleTitle>
+                <journal>To Be Published</journal>
+                <externalReference type="csd">0353</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="87809" type="map">emd_23970.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numRows>280</numRows>
+            <numColumns>280</numColumns>
+            <numSections>280</numSections>
+        </dimensions>
+        <origin>
+            <originRow>0.0</originRow>
+            <originCol>0.0</originCol>
+            <originSec>0.0</originSec>
+        </origin>
+        <limit>
+            <limitRow>279.0</limitRow>
+            <limitCol>279.0</limitCol>
+            <limitSec>279.0</limitSec>
+        </limit>
+        <spacing>
+            <spacingRow>280</spacingRow>
+            <spacingCol>280</spacingCol>
+            <spacingSec>280</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">233.52</cellA>
+            <cellB units="A">233.52</cellB>
+            <cellC units="A">233.52</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.040741693</minimum>
+            <maximum>0.074364066</maximum>
+            <average>-1.5727719e-05</average>
+            <std>0.0018917692</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details />
+        <pixelSpacing>
+            <pixelX units="A">0.834</pixelX>
+            <pixelY units="A">0.834</pixelY>
+            <pixelZ units="A">0.834</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.017</contourLevel>
+        <annotationDetails>SARS-CoV-2 Nsp2 main map</annotationDetails>
+    </map>
+    <sample>
+        <numComponents>3</numComponents>
+        <name>SARS-CoV-2 Nsp2</name>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>SARS-CoV-2 Nsp2</sciName>
+                <molWtExp units="MDa">0.071</molWtExp>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="2697049">Severe acute respiratory syndrome coronavirus 2</sciSpeciesName>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <engSource>
+                        <expSystem ncbiTaxId="469008">Escherichia coli BL21(DE3)</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="2">
+                <entry>protein</entry>
+                <sciName>Non-structural protein 2</sciName>
+                <molWtTheo units="MDa">0.070590219</molWtTheo>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="2697049">Severe acute respiratory syndrome coronavirus 2</sciSpeciesName>
+                    <numCopies>1</numCopies>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <engSource>
+                        <expSystem ncbiTaxId="469008">Escherichia coli BL21(DE3)</expSystem>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+            <sampleComponent componentID="3">
+                <entry>ligand</entry>
+                <sciName>ZINC ION</sciName>
+                <molWtTheo units="MDa">6.5409e-05</molWtTheo>
+                <ligand>
+                    <numCopies>3</numCopies>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                </ligand>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>100</humidity>
+            <temperature units="Kelvin">277.15</temperature>
+            <instrument>FEI VITROBOT MARK IV</instrument>
+            <details>Blot for 5 seconds before plunging into liquid ethane. </details>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">66.0</electronDose>
+            <energyFilter>GIF Bioquantum</energyFilter>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>OTHER</detector>
+            <microscope>FEI TITAN KRIOS</microscope>
+            <specimenHolderModel>FEI TITAN KRIOS AUTOGRID HOLDER</specimenHolderModel>
+            <acceleratingVoltage units="kV">300</acceleratingVoltage>
+            <nominalMagnification>105000.0</nominalMagnification>
+        </imaging>
+        <imageAcquisition>
+            <details>Two datasets comprising of 804 and 1116 118-frame super-resolution movies each were collected with a 3x3 image shift at a magnification of 105,000x with physical pixel size of 0.834 ang/pix on a Titan Krios (ThermoFisher) equipped with a K3 camera and a Bioquantum energy filter (Gatan) set to a slit width of 20 eV. Collection dose rate was 8 e-/pixel/second for a total dose of 66 e-/ang^2. Defocus range was 0.8 to 2.4 micron. Each collection was performed with semi-automated scripts in SerialEM.</details>
+        </imageAcquisition>
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+            <specimenConc units="mg/ml">0.42</specimenConc>
+            <buffer>
+                <ph>8.0</ph>
+                <details>Filtered and degassed before running FPLC</details>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <software>cryoSPARC</software>
+            <resolutionByAuthor>3.76</resolutionByAuthor>
+            <resolutionMethod>FSC 0.143 CUT-OFF</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <numProjections>42579</numProjections>
+        </singleParticle>
+    </processing>
+</emdEntry>

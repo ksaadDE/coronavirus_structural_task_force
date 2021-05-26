@@ -65,12 +65,15 @@ SOURCE  36 ORGANISM_TAXID: 2697049
 KEYWDS    VIRAL PROTEIN, VIRAL PROTEIN-RNA COMPLEX                              
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.P.K.BRAVO,D.W.TAYLOR                                                
+REVDAT   2   26-MAY-21 7L1F    1       JRNL                                     
 REVDAT   1   10-FEB-21 7L1F    0                                                
-JRNL        AUTH   J.P.K.BRAVO,D.W.TAYLOR                                       
-JRNL        TITL   MECHANISTIC BASIS FOR INHIBITION OF SARS-COV-2 REPLICATION   
-JRNL        TITL 2 BY REMDESIVIR                                                
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   J.P.K.BRAVO,T.L.DANGERFIELD,D.W.TAYLOR,K.A.JOHNSON           
+JRNL        TITL   REMDESIVIR IS A DELAYED TRANSLOCATION INHIBITOR OF           
+JRNL        TITL 2 SARS-COV-2 REPLICATION.                                      
+JRNL        REF    MOL.CELL                      V.  81  1548 2021              
+JRNL        REFN                   ISSN 1097-2765                               
+JRNL        PMID   33631104                                                     
+JRNL        DOI    10.1016/J.MOLCEL.2021.01.035                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.89 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -135,7 +138,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 80.00                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 8000.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

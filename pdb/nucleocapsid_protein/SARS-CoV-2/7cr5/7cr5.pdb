@@ -35,12 +35,17 @@ KEYWDS    HUMAN MONOCLONAL ANTIBODY, SARS-COV-2, NUCLEOCAPSID PROTEIN, COMPLEX,
 KEYWDS   2 VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.CHEN,S.KANG                                                         
+REVDAT   2   26-MAY-21 7CR5    1       JRNL                                     
 REVDAT   1   24-MAR-21 7CR5    0                                                
-JRNL        AUTH   S.CHEN,S.KANG                                                
-JRNL        TITL   COMPLEX STRUCTURE OF A HUMAN MONOCLONAL ANTIBODY WITH        
-JRNL        TITL 2 SARS-COV-2 NUCLEOCAPSID PROTEIN NTD                          
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   S.KANG,M.YANG,S.HE,Y.WANG,X.CHEN,Y.Q.CHEN,Z.HONG,J.LIU,      
+JRNL        AUTH 2 G.JIANG,Q.CHEN,Z.ZHOU,Z.ZHOU,Z.HUANG,X.HUANG,H.HE,W.ZHENG,   
+JRNL        AUTH 3 H.X.LIAO,F.XIAO,H.SHAN,S.CHEN                                
+JRNL        TITL   A SARS-COV-2 ANTIBODY CURBS VIRAL NUCLEOCAPSID               
+JRNL        TITL 2 PROTEIN-INDUCED COMPLEMENT HYPERACTIVATION.                  
+JRNL        REF    NAT COMMUN                    V.  12  2697 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   33976229                                                     
+JRNL        DOI    10.1038/S41467-021-23036-9                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.08 ANGSTROMS.                                       
 REMARK   3                                                                      

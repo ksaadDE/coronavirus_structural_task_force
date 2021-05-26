@@ -1,5 +1,5 @@
 HEADER    VIRAL PROTEIN                           23-NOV-20   7B14              
-TITLE     NANOBODY E BOUND TO SPIKE-RBD IN A LOCALIZED RECONSTRUCTION.          
+TITLE     NANOBODY E BOUND TO SPIKE-RBD IN A LOCALIZED RECONSTRUCTION           
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
 COMPND   3 CHAIN: A;                                                            
@@ -25,6 +25,7 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    SPIKE GLYCOPROTEIN, SARS-COV-2, NANOBODY, VIRAL PROTEIN               
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    B.M.HALLBERG,H.DAS                                                    
+REVDAT   2   26-MAY-21 7B14    1       TITLE                                    
 REVDAT   1   28-APR-21 7B14    0                                                
 JRNL        AUTH   P.A.KOENIG,H.DAS,H.LIU,B.M.KUMMERER,F.N.GOHR,L.M.JENSTER,    
 JRNL        AUTH 2 L.D.J.SCHIFFELERS,Y.M.TESFAMARIAM,M.UCHIMA,J.D.WUERTH,       

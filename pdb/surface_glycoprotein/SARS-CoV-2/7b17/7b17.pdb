@@ -1,5 +1,5 @@
 HEADER    VIRAL PROTEIN                           23-NOV-20   7B17              
-TITLE     SARS-COV-SPIKE RBD BOUND TO TWO NEUTRALISING NANOBODIES               
+TITLE     SARS-COV-SPIKE RBD BOUND TO TWO NEUTRALISING NANOBODIES.              
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
 COMPND   3 CHAIN: A;                                                            
@@ -31,6 +31,7 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    SPIKE GLYCOPROTEIN, SARS-COV-2, NANOBODY, VIRAL PROTEIN               
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    B.M.HALLBERG,H.DAS                                                    
+REVDAT   4   26-MAY-21 7B17    1       TITLE                                    
 REVDAT   3   28-APR-21 7B17    1       JRNL                                     
 REVDAT   2   24-FEB-21 7B17    1       JRNL                                     
 REVDAT   1   10-FEB-21 7B17    0                                                

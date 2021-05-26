@@ -18,24 +18,16 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SPIKE GLYCOPROTEIN, VIRAL PROTEIN                                     
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    R.G.CASNER,G.CERUTTI,L.SHAPIRO,D.D.HO                                 
+REVDAT   2   26-MAY-21 7M8K    1       JRNL                                     
 REVDAT   1   05-MAY-21 7M8K    0                                                
 JRNL        AUTH   P.WANG,R.G.CASNER,M.S.NAIR,M.WANG,J.YU,G.CERUTTI,L.LIU,      
 JRNL        AUTH 2 P.D.KWONG,Y.HUANG,L.SHAPIRO,D.D.HO                           
 JRNL        TITL   INCREASED RESISTANCE OF SARS-COV-2 VARIANT P.1 TO ANTIBODY   
 JRNL        TITL 2 NEUTRALIZATION.                                              
-JRNL        REF    CELL HOST MICROBE                          2021              
+JRNL        REF    CELL HOST MICROBE             V.  29   747 2021              
 JRNL        REFN                   ESSN 1934-6069                               
 JRNL        PMID   33887205                                                     
 JRNL        DOI    10.1016/J.CHOM.2021.04.007                                   
-REMARK   1                                                                      
-REMARK   1 REFERENCE 1                                                          
-REMARK   1  AUTH   P.WANG,R.G.CASNER,M.WANG,J.YU,G.CERUTTI,M.S.NAIR,Y.HUANG,    
-REMARK   1  AUTH 2 P.D.KWONG,L.SHAPIRO,D.D.HO                                   
-REMARK   1  TITL   INCREASED RESISTANCE OF SARS-COV-2 VARIANT P.1 TO ANTIBODY   
-REMARK   1  TITL 2 NEUTRALIZATION                                               
-REMARK   1  REF    CELL HOST & MICROBE                                          
-REMARK   1  REFN                   ISSN 1931-3128                               
-REMARK   1  DOI    10.1016/J.CHOM.2021.04.007                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    NULL ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -27476,5 +27468,5 @@ CONECT2482624819
 CONECT248272481624820                                                           
 CONECT2482824821                                                                
 CONECT2482924822                                                                
-MASTER      912    0   51   71  182    0    0    624820    3  822  291          
+MASTER      903    0   51   71  182    0    0    624820    3  822  291          
 END                                                                             

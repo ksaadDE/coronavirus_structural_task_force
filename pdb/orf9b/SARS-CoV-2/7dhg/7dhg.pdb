@@ -30,13 +30,16 @@ SOURCE  15 EXPRESSION_SYSTEM_TAXID: 469008
 KEYWDS    HSP90, ORF9B, IMMUNE SYSTEM                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    X.GAO,K.ZHU,B.QIN,V.OLIERIC,M.WANG,S.CUI                              
+REVDAT   3   02-JUN-21 7DHG    1       JRNL                                     
 REVDAT   2   19-MAY-21 7DHG    1       TITLE  AUTHOR JRNL                       
 REVDAT   1   12-MAY-21 7DHG    0                                                
-JRNL        AUTH   X.GAO,S.CUI                                                  
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 ORF9B COMPLEX WITH HUMAN     
-JRNL        TITL 2 TOM70                                                        
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   X.GAO,K.ZHU,B.QIN,V.OLIERIC,M.WANG,S.CUI                     
+JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 ORF9B IN COMPLEX WITH HUMAN  
+JRNL        TITL 2 TOM70 SUGGESTS UNUSUAL VIRUS-HOST INTERACTIONS.              
+JRNL        REF    NAT COMMUN                    V.  12  2843 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   33990585                                                     
+JRNL        DOI    10.1038/S41467-021-23118-8                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
 REMARK   3                                                                      

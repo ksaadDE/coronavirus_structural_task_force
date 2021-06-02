@@ -3,7 +3,7 @@ data_7JLT
 _entry.id   7JLT 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.334 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -40,25 +40,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_abbrev            'Nucleic Acids Res.' 
+_citation.journal_id_ASTM           NARHAD 
+_citation.journal_id_CSD            0389 
+_citation.journal_id_ISSN           1362-4962 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     'Crystal Structure of SARS-CoV-2 NSP7-NSP8 complex.' 
-_citation.year                      ? 
+_citation.title                     
+'Two conserved oligomer interfaces of NSP7 and NSP8 underpin the dynamic assembly of SARS-CoV-2 RdRP.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1093/nar/gkab370 
+_citation.pdbx_database_id_PubMed   33999154 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -66,9 +67,15 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Biswal, M.' 1 0000-0002-8995-2635 
-primary 'Hai, R.'    2 ?                   
-primary 'Song, J.'   3 0000-0002-4958-1032 
+primary 'Biswal, M.'       1 ?                   
+primary 'Diggs, S.'        2 ?                   
+primary 'Xu, D.'           3 ?                   
+primary 'Khudaverdyan, N.' 4 ?                   
+primary 'Lu, J.'           5 ?                   
+primary 'Fang, J.'         6 ?                   
+primary 'Blaha, G.'        7 ?                   
+primary 'Hai, R.'          8 ?                   
+primary 'Song, J.'         9 0000-0002-4958-1032 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -7844,6 +7851,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2020-08-26 
 2 'Structure model' 1 1 2020-10-21 
+3 'Structure model' 1 2 2021-06-02 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7860,6 +7868,7 @@ _pdbx_audit_revision_group.data_content_type
 _pdbx_audit_revision_group.group 
 1 2 'Structure model' 'Database references' 
 2 2 'Structure model' 'Structure summary'   
+3 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -7868,14 +7877,25 @@ _pdbx_audit_revision_category.data_content_type
 _pdbx_audit_revision_category.category 
 1 2 'Structure model' audit_author    
 2 2 'Structure model' citation_author 
+3 3 'Structure model' citation        
+4 3 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_audit_author.name'    
-2 2 'Structure model' '_citation_author.name' 
+1  2 'Structure model' '_audit_author.name'                
+2  2 'Structure model' '_citation_author.name'             
+3  3 'Structure model' '_citation.country'                 
+4  3 'Structure model' '_citation.journal_abbrev'          
+5  3 'Structure model' '_citation.journal_id_ASTM'         
+6  3 'Structure model' '_citation.journal_id_CSD'          
+7  3 'Structure model' '_citation.journal_id_ISSN'         
+8  3 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  3 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 3 'Structure model' '_citation.title'                   
+11 3 'Structure model' '_citation.year'                    
 # 
 loop_
 _pdbx_refine_tls.id 

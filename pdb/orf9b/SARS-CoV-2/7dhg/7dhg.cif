@@ -43,25 +43,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Nat Commun' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           2041-1723 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Crystal structure of SARS-CoV-2 Orf9b complex with human TOM70' 
-_citation.year                      ? 
+_citation.page_first                2843 
+_citation.page_last                 2843 
+_citation.title                     
+'Crystal structure of SARS-CoV-2 Orf9b in complex with human TOM70 suggests unusual virus-host interactions.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1038/s41467-021-23118-8 
+_citation.pdbx_database_id_PubMed   33990585 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -69,8 +70,12 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Gao, X.' 1 ? 
-primary 'Cui, S.' 2 ? 
+primary 'Gao, X.'     1 0000-0002-1435-6636 
+primary 'Zhu, K.'     2 ?                   
+primary 'Qin, B.'     3 ?                   
+primary 'Olieric, V.' 4 0000-0002-0533-7222 
+primary 'Wang, M.'    5 0000-0002-5340-3036 
+primary 'Cui, S.'     6 0000-0001-6329-3582 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -6489,6 +6494,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-05-12 
 2 'Structure model' 1 1 2021-05-19 
+3 'Structure model' 1 2 2021-06-02 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -6505,23 +6511,37 @@ _pdbx_audit_revision_group.data_content_type
 _pdbx_audit_revision_group.group 
 1 2 'Structure model' 'Database references' 
 2 2 'Structure model' 'Structure summary'   
+3 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
 _pdbx_audit_revision_category.revision_ordinal 
 _pdbx_audit_revision_category.data_content_type 
 _pdbx_audit_revision_category.category 
-1 2 'Structure model' audit_author 
-2 2 'Structure model' citation     
-3 2 'Structure model' struct       
+1 2 'Structure model' audit_author    
+2 2 'Structure model' citation        
+3 2 'Structure model' struct          
+4 3 'Structure model' citation        
+5 3 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_citation.title' 
-2 2 'Structure model' '_struct.title'   
+1  2 'Structure model' '_citation.title'                   
+2  2 'Structure model' '_struct.title'                     
+3  3 'Structure model' '_citation.country'                 
+4  3 'Structure model' '_citation.journal_abbrev'          
+5  3 'Structure model' '_citation.journal_id_CSD'          
+6  3 'Structure model' '_citation.journal_id_ISSN'         
+7  3 'Structure model' '_citation.journal_volume'          
+8  3 'Structure model' '_citation.page_first'              
+9  3 'Structure model' '_citation.page_last'               
+10 3 'Structure model' '_citation.pdbx_database_id_DOI'    
+11 3 'Structure model' '_citation.pdbx_database_id_PubMed' 
+12 3 'Structure model' '_citation.title'                   
+13 3 'Structure model' '_citation.year'                    
 # 
 loop_
 _software.citation_id 

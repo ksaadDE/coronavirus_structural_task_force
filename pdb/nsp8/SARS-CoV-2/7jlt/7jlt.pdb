@@ -29,12 +29,17 @@ SOURCE  16 EXPRESSION_SYSTEM_TAXID: 469008
 KEYWDS    VIRAL PROTEIN                                                         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.BISWAL,R.HAI,J.SONG                                                 
+REVDAT   3   02-JUN-21 7JLT    1       JRNL                                     
 REVDAT   2   21-OCT-20 7JLT    1       AUTHOR JRNL                              
 REVDAT   1   26-AUG-20 7JLT    0                                                
-JRNL        AUTH   M.BISWAL,R.HAI,J.SONG                                        
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 NSP7-NSP8 COMPLEX.           
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   M.BISWAL,S.DIGGS,D.XU,N.KHUDAVERDYAN,J.LU,J.FANG,G.BLAHA,    
+JRNL        AUTH 2 R.HAI,J.SONG                                                 
+JRNL        TITL   TWO CONSERVED OLIGOMER INTERFACES OF NSP7 AND NSP8 UNDERPIN  
+JRNL        TITL 2 THE DYNAMIC ASSEMBLY OF SARS-COV-2 RDRP.                     
+JRNL        REF    NUCLEIC ACIDS RES.                         2021              
+JRNL        REFN                   ESSN 1362-4962                               
+JRNL        PMID   33999154                                                     
+JRNL        DOI    10.1093/NAR/GKAB370                                          
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.70 ANGSTROMS.                                       
 REMARK   3                                                                      

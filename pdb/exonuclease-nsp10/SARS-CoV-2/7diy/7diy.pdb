@@ -36,13 +36,14 @@ KEYWDS    EXORIBONUCLEASE, VIRAL PROTEIN
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.LIN,H.CHEN,Z.M.CHEN,F.L.YANG,F.YE,Y.ZHENG,J.YANG,X.LIN,H.L.SUN,     
 AUTHOR   2 L.L.WANG,A.WEN,Y.CAO,G.W.LU                                          
+REVDAT   2   02-JUN-21 7DIY    1       JRNL                                     
 REVDAT   1   19-MAY-21 7DIY    0                                                
 JRNL        AUTH   S.LIN,H.CHEN,Z.CHEN,F.YANG,F.YE,Y.ZHENG,J.YANG,X.LIN,H.SUN,  
 JRNL        AUTH 2 L.WANG,A.WEN,H.DONG,Q.XIAO,D.DENG,Y.CAO,G.LU                 
 JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 NSP10 BOUND TO NSP14-EXON    
 JRNL        TITL 2 DOMAIN REVEALS AN EXORIBONUCLEASE WITH BOTH STRUCTURAL AND   
 JRNL        TITL 3 FUNCTIONAL INTEGRITY.                                        
-JRNL        REF    NUCLEIC ACIDS RES.                         2021              
+JRNL        REF    NUCLEIC ACIDS RES.            V.  49  5382 2021              
 JRNL        REFN                   ESSN 1362-4962                               
 JRNL        PMID   33956156                                                     
 JRNL        DOI    10.1093/NAR/GKAB320                                          

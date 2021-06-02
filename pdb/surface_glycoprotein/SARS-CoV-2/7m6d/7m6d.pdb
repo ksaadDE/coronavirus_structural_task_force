@@ -66,19 +66,21 @@ KEYWDS   2 RECEPTOR BINDING DOMAIN, SPIKE GLYCOPROTEIN, ANTIVIRAL PROTEIN,
 KEYWDS   3 VIRAL PROTEIN-ANTIVIRAL PROTEIN COMPLEX                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.O.BARNES,P.J.BJORKMAN                                               
+REVDAT   2   02-JUN-21 7M6D    1       JRNL                                     
 REVDAT   1   05-MAY-21 7M6D    0                                                
 JRNL        AUTH   J.F.SCHEID,C.O.BARNES,B.ERASLAN,A.HUDAK,J.R.KEEFFE,          
 JRNL        AUTH 2 L.A.COSIMI,E.M.BROWN,F.MUECKSCH,Y.WEISBLUM,S.ZHANG,          
-JRNL        AUTH 3 T.DELOREY,A.E.WOOLLEY,F.GHANTOUS,S.-M.PARK,D.PHILLIPS,       
-JRNL        AUTH 4 B.TUSI,K.E.HUEY-TUBMAN,A.A.COHEN,P.N.P.GNANAPRAGASAM,        
-JRNL        AUTH 5 K.RZASA,T.HATZIIOANNO,M.A.DURNEY,X.GU,T.TADA,N.R.LANDAU,     
+JRNL        AUTH 3 T.DELOREY,A.E.WOOLLEY,F.GHANTOUS,S.M.PARK,D.PHILLIPS,B.TUSI, 
+JRNL        AUTH 4 K.E.HUEY-TUBMAN,A.A.COHEN,P.N.P.GNANAPRAGASAM,K.RZASA,       
+JRNL        AUTH 5 T.HATZIIOANNO,M.A.DURNEY,X.GU,T.TADA,N.R.LANDAU,             
 JRNL        AUTH 6 A.P.WEST JR.,O.ROZENBLATT-ROSEN,M.S.SEAMAN,L.R.BADEN,        
 JRNL        AUTH 7 D.B.GRAHAM,J.DEGUINE,P.D.BIENIASZ,A.REGEV,D.HUNG,            
 JRNL        AUTH 8 P.J.BJORKMAN,R.J.XAVIER                                      
 JRNL        TITL   B CELL GENOMICS BEHIND CROSS-NEUTRALIZATION OF SARS-COV-2    
-JRNL        TITL 2 VARIANTS AND SARS-COV                                        
-JRNL        REF    CELL(CAMBRIDGE,MASS.)                      2021              
-JRNL        REFN                   ISSN 0092-8674                               
+JRNL        TITL 2 VARIANTS AND SARS-COV.                                       
+JRNL        REF    CELL                                       2021              
+JRNL        REFN                   ISSN 1097-4172                               
+JRNL        PMID   34015271                                                     
 JRNL        DOI    10.1016/J.CELL.2021.04.032                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.10 ANGSTROMS.                                       

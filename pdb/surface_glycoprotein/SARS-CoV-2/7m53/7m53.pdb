@@ -1,5 +1,5 @@
 HEADER    ANTIVIRAL PROTEIN, IMMUNE SYSTEM        22-MAR-21   7M53              
-TITLE     B6 FAB FRAGMENT BOUND TO THE SARS-COV/-2 SPIKE STEM HELIX PEPTIDE     
+TITLE     B6 FAB FRAGMENT BOUND TO THE SARS-COV-2 SPIKE STEM HELIX PEPTIDE      
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN STEM HELIX PEPTIDE;                     
 COMPND   3 CHAIN: A;                                                            
@@ -38,6 +38,7 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    M.M.SAUER,Y.J.PARK,D.VEESLER,CENTER FOR STRUCTURAL GENOMICS OF        
 AUTHOR   2 INFECTIOUS DISEASES (CSGID),SEATTLE STRUCTURAL GENOMICS CENTER FOR   
 AUTHOR   3 INFECTIOUS DISEASE (SSGCID)                                          
+REVDAT   2   02-JUN-21 7M53    1       TITLE                                    
 REVDAT   1   26-MAY-21 7M53    0                                                
 JRNL        AUTH   M.M.SAUER,M.A.TORTORICI,Y.J.PARK,A.C.WALLS,L.HOMAD,          
 JRNL        AUTH 2 O.J.ACTON,J.E.BOWEN,C.WANG,X.XIONG,W.DE VAN DER SCHUEREN,    

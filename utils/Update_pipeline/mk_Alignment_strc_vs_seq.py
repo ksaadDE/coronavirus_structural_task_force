@@ -9,8 +9,8 @@ And was written in 2020 by Kristopher Nolte, Thorn Lab, University of Wuerzburg
 as part of the Coronavirus Structural Taskforce, insidecorona.net
 '''
 
-def main (id_dict, pdb_id, repo_path):
-    for element in id_dict:
+def main (prot_list, pdb_id, repo_path):
+    for element in prot_list:
         file_walker(protein_chooser(element, repo_path),pdb_id)
 
 def protein_chooser (prot_name, repo_path):

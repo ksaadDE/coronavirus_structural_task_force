@@ -20,13 +20,18 @@ SOURCE   8 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    SARS-COV-2, MAIN PROTEASE, GC376, COMPLEX, VIRAL PROTEIN              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Y.SHI,G.PENG                                                          
+REVDAT   3   09-JUN-21 7CBT    1       JRNL                                     
 REVDAT   2   10-MAR-21 7CBT    1       COMPND                                   
 REVDAT   1   02-SEP-20 7CBT    0                                                
-JRNL        AUTH   Y.SHI,G.PENG                                                 
-JRNL        TITL   THE CRYSTAL STRUCTURE OF SARS-COV-2 MAIN PROTEASE IN COMPLEX 
-JRNL        TITL 2 WITH GC376                                                   
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   Y.SHI,L.SHUAI,Z.WEN,C.WANG,Y.YAN,Z.JIAO,F.GUO,Z.F.FU,H.CHEN, 
+JRNL        AUTH 2 Z.BU,G.PENG                                                  
+JRNL        TITL   THE PRECLINICAL INHIBITOR GS441524 IN COMBINATION WITH GC376 
+JRNL        TITL 2 EFFICACIOUSLY INHIBITED THE PROLIFERATION OF SARS-COV-2 IN   
+JRNL        TITL 3 THE MOUSE RESPIRATORY TRACT.                                 
+JRNL        REF    EMERG MICROBES INFECT         V.  10   481 2021              
+JRNL        REFN                   ESSN 2222-1751                               
+JRNL        PMID   33691601                                                     
+JRNL        DOI    10.1080/22221751.2021.1899770                                
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.35 ANGSTROMS.                                       
 REMARK   3                                                                      

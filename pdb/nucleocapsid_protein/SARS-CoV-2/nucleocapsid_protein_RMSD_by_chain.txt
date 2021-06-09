@@ -141,10 +141,6 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -167,7 +163,15 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -233,6 +237,22 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -255,7 +275,13 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -291,7 +317,11 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -343,7 +373,11 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -393,7 +427,11 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -417,9 +455,37 @@ This document contains the RMSD of every combination of chains of this protein.O
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -593,10 +659,6 @@ Chain[D] superposed to Chain[D]: 16.486
 
 >6m3m-<
 
->6m3m-6z4u<
-
->6m3m-<
-
 >6m3m-6zco<
 Chain[A] superposed to Chain[A]: 18.453 
 
@@ -626,10 +688,18 @@ Chain[C] superposed to Chain[C]: nan
 
 >6m3m-<
 
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
 >6m3m-7act<
 Chain[A] superposed to Chain[A]: 2.701 
 Chain[A] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[B]: nan 
+
+>6m3m-<
 
 >6m3m-<
 
@@ -716,6 +786,22 @@ Chain[D] superposed to Chain[D]: 16.427
 >6m3m-7cr5<
 Chain[A] superposed to Chain[A]: 5.193 
 
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
 >6m3m-7de1<
 Chain[A] superposed to Chain[A]: 17.053 
 Chain[A] superposed to Chain[B]: 17.868 
@@ -738,6 +824,13 @@ Chain[B] superposed to Chain[B]: 17.769
 >6m3m-<
 
 >6m3m-7kdt<
+Chain[A] superposed to Chain[A]: 27.771 
+Chain[A] superposed to Chain[B]: 13.871 
+Chain[B] superposed to Chain[B]: 13.778 
+
+>6m3m-<
+
+>6m3m-<
 
 >6m3m-<
 
@@ -748,6 +841,8 @@ Chain[A] superposed to Chain[C]: 12.795
 Chain[B] superposed to Chain[B]: 17.751 
 Chain[B] superposed to Chain[C]: 12.496 
 Chain[C] superposed to Chain[C]: 11.326 
+
+>6m3m-<
 
 >6m3m-<
 
@@ -789,6 +884,8 @@ Chain[C] superposed to Chain[C]: 12.28
 
 >6m3m-<
 
+>6m3m-<
+
 >6m3m-7kgq<
 Chain[A] superposed to Chain[A]: 22.24 
 Chain[A] superposed to Chain[B]: 16.917 
@@ -796,6 +893,8 @@ Chain[A] superposed to Chain[C]: 10.902
 Chain[B] superposed to Chain[B]: 17.747 
 Chain[B] superposed to Chain[C]: 10.847 
 Chain[C] superposed to Chain[C]: 10.981 
+
+>6m3m-<
 
 >6m3m-<
 
@@ -859,10 +958,14 @@ Chain[C] superposed to Chain[C]: 3.189
 
 >6m3m-<
 
+>6m3m-<
+
 >6m3m-7kgt<
 Chain[A] superposed to Chain[A]: 21.457 
 Chain[A] superposed to Chain[B]: 16.969 
 Chain[B] superposed to Chain[B]: 17.791 
+
+>6m3m-<
 
 >6m3m-<
 
@@ -921,8 +1024,12 @@ Chain[B] superposed to Chain[B]: 9.541
 
 >6m3m-<
 
+>6m3m-<
+
 >6m3m-7lux<
 Chain[A] superposed to Chain[A]: 9.311 
+
+>6m3m-<
 
 >6m3m-<
 
@@ -947,6 +1054,16 @@ Chain[A] superposed to Chain[A]: 9.905
 
 >6m3m-<
 
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
+>6m3m-<
+
 >6m3m-7lv2<
 Chain[A] superposed to Chain[A]: 9.204 
 
@@ -954,423 +1071,33 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-<
 
->-<
+>6m3m-7n0r<
+Chain[A] superposed to Chain[A]: 0.711 
+Chain[A] superposed to Chain[B]: 0.731 
+Chain[A] superposed to Chain[C]: 13.222 
+Chain[A] superposed to Chain[D]: 13.222 
+Chain[B] superposed to Chain[B]: 0.578 
+Chain[B] superposed to Chain[C]: 13.495 
+Chain[B] superposed to Chain[D]: 13.494 
+Chain[C] superposed to Chain[C]: 13.121 
+Chain[C] superposed to Chain[D]: 13.127 
+Chain[D] superposed to Chain[D]: 13.663 
 
->-<
-
->-6vyo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-6wzo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-6wzq<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-6z4u<
-
->-<
-
->-6zco<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7acs<
-
->-<
-
->-7act<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cdz<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ce0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cr5<
-
->-7de1<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kdt<
-
->-<
-
->-7kgo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgp<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgq<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgr<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgs<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgt<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lg0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ltu<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
-
->-<
+>6m3m-<
 
 >-<
 
@@ -1510,10 +1237,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -1536,7 +1259,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -1602,6 +1333,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -1624,7 +1371,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -1660,7 +1413,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -1712,7 +1469,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -1762,7 +1523,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -1786,7 +1551,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -1926,10 +1721,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -1952,7 +1743,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -2018,6 +1817,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -2040,7 +1855,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -2076,7 +1897,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -2128,7 +1953,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -2178,7 +2007,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -2202,7 +2035,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -2340,10 +2203,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -2366,7 +2225,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -2432,6 +2299,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -2454,7 +2337,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -2490,7 +2379,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -2542,7 +2435,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -2592,7 +2489,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -2616,7 +2517,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -2752,10 +2683,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -2778,7 +2705,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -2844,6 +2779,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -2866,7 +2817,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -2902,7 +2859,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -2954,7 +2915,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -3004,7 +2969,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -3028,7 +2997,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -3162,10 +3161,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -3188,7 +3183,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -3254,6 +3257,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -3276,7 +3295,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -3312,7 +3337,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -3364,7 +3393,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -3414,7 +3447,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -3438,7 +3475,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -3570,10 +3637,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -3596,7 +3659,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -3662,6 +3733,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -3684,7 +3771,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -3720,7 +3813,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -3772,7 +3869,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -3822,7 +3923,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -3846,7 +3951,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -3976,10 +4111,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -4002,7 +4133,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -4068,6 +4207,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -4090,7 +4245,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -4126,7 +4287,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -4178,7 +4343,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -4228,7 +4397,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -4252,7 +4425,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -4380,10 +4583,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -4406,7 +4605,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -4472,6 +4679,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -4494,7 +4717,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -4530,7 +4759,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -4582,7 +4815,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -4632,7 +4869,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -4656,7 +4897,37 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -4782,10 +5053,6 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -4808,7 +5075,15 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -4874,6 +5149,22 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -4896,7 +5187,13 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -4932,7 +5229,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -4984,7 +5285,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -5034,7 +5339,11 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -5058,9 +5367,505 @@ Chain[A] superposed to Chain[A]: 9.204
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-6vyo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-6wzo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-6wzq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-6zco<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7acs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7act<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -5202,10 +6007,6 @@ Chain[D] superposed to Chain[D]: 17.692
 
 >6vyo-<
 
->6vyo-6z4u<
-
->6vyo-<
-
 >6vyo-6zco<
 Chain[A] superposed to Chain[A]: 15.238 
 
@@ -5235,10 +6036,18 @@ Chain[C] superposed to Chain[C]: nan
 
 >6vyo-<
 
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
 >6vyo-7act<
 Chain[A] superposed to Chain[A]: 4.395 
 Chain[A] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[B]: nan 
+
+>6vyo-<
 
 >6vyo-<
 
@@ -5325,6 +6134,22 @@ Chain[D] superposed to Chain[D]: 17.015
 >6vyo-7cr5<
 Chain[A] superposed to Chain[A]: 5.129 
 
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
 >6vyo-7de1<
 Chain[A] superposed to Chain[A]: 16.919 
 Chain[A] superposed to Chain[B]: 17.732 
@@ -5347,6 +6172,13 @@ Chain[B] superposed to Chain[B]: 17.747
 >6vyo-<
 
 >6vyo-7kdt<
+Chain[A] superposed to Chain[A]: 27.199 
+Chain[A] superposed to Chain[B]: 14.936 
+Chain[B] superposed to Chain[B]: 14.731 
+
+>6vyo-<
+
+>6vyo-<
 
 >6vyo-<
 
@@ -5357,6 +6189,8 @@ Chain[A] superposed to Chain[C]: 12.748
 Chain[B] superposed to Chain[B]: 16.842 
 Chain[B] superposed to Chain[C]: 12.976 
 Chain[C] superposed to Chain[C]: 12.611 
+
+>6vyo-<
 
 >6vyo-<
 
@@ -5398,6 +6232,8 @@ Chain[C] superposed to Chain[C]: 12.132
 
 >6vyo-<
 
+>6vyo-<
+
 >6vyo-7kgq<
 Chain[A] superposed to Chain[A]: 21.714 
 Chain[A] superposed to Chain[B]: 16.9 
@@ -5405,6 +6241,8 @@ Chain[A] superposed to Chain[C]: 10.926
 Chain[B] superposed to Chain[B]: 16.852 
 Chain[B] superposed to Chain[C]: 10.912 
 Chain[C] superposed to Chain[C]: 10.988 
+
+>6vyo-<
 
 >6vyo-<
 
@@ -5468,10 +6306,14 @@ Chain[C] superposed to Chain[C]: 3.256
 
 >6vyo-<
 
+>6vyo-<
+
 >6vyo-7kgt<
 Chain[A] superposed to Chain[A]: 21.327 
 Chain[A] superposed to Chain[B]: 16.9 
 Chain[B] superposed to Chain[B]: 16.849 
+
+>6vyo-<
 
 >6vyo-<
 
@@ -5530,8 +6372,12 @@ Chain[B] superposed to Chain[B]: 9.691
 
 >6vyo-<
 
+>6vyo-<
+
 >6vyo-7lux<
 Chain[A] superposed to Chain[A]: 9.29 
+
+>6vyo-<
 
 >6vyo-<
 
@@ -5556,6 +6402,16 @@ Chain[A] superposed to Chain[A]: 9.808
 
 >6vyo-<
 
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
+>6vyo-<
+
 >6vyo-7lv2<
 Chain[A] superposed to Chain[A]: 9.263 
 
@@ -5563,401 +6419,33 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-<
 
->-<
+>6vyo-7n0r<
+Chain[A] superposed to Chain[A]: 0.695 
+Chain[A] superposed to Chain[B]: 0.68 
+Chain[A] superposed to Chain[C]: 14.256 
+Chain[A] superposed to Chain[D]: 14.27 
+Chain[B] superposed to Chain[B]: 1.028 
+Chain[B] superposed to Chain[C]: 14.421 
+Chain[B] superposed to Chain[D]: 14.438 
+Chain[C] superposed to Chain[C]: 14.342 
+Chain[C] superposed to Chain[D]: 14.339 
+Chain[D] superposed to Chain[D]: 14.425 
 
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-6wzo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-6wzq<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-6z4u<
-
->-<
-
->-6zco<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7acs<
-
->-<
-
->-7act<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cdz<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ce0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cr5<
-
->-7de1<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kdt<
-
->-<
-
->-7kgo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgp<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgq<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgr<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgs<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgt<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lg0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ltu<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
-
->-<
+>6vyo-<
 
 >-<
 
@@ -6075,10 +6563,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -6101,7 +6585,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -6167,6 +6659,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -6189,7 +6697,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -6225,7 +6739,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -6277,7 +6795,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -6327,7 +6849,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -6351,7 +6877,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -6469,10 +7025,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -6495,7 +7047,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -6561,6 +7121,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -6583,7 +7159,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -6619,7 +7201,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -6671,7 +7257,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -6721,7 +7311,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -6745,7 +7339,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -6861,10 +7485,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -6887,7 +7507,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -6953,6 +7581,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -6975,7 +7619,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -7011,7 +7661,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -7063,7 +7717,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -7113,7 +7771,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -7137,7 +7799,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -7251,10 +7943,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -7277,7 +7965,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -7343,6 +8039,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -7365,7 +8077,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -7401,7 +8119,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -7453,7 +8175,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -7503,7 +8229,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -7527,7 +8257,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -7639,10 +8399,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -7665,7 +8421,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -7731,6 +8495,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -7753,7 +8533,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -7789,7 +8575,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -7841,7 +8631,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -7891,7 +8685,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -7915,7 +8713,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -8025,10 +8853,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -8051,7 +8875,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -8117,6 +8949,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -8139,7 +8987,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -8175,7 +9029,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -8227,7 +9085,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -8277,7 +9139,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -8301,7 +9167,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -8409,10 +9305,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -8435,7 +9327,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -8501,6 +9401,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -8523,7 +9439,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -8559,7 +9481,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -8611,7 +9537,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -8661,7 +9591,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -8685,7 +9619,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -8791,10 +9755,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -8817,7 +9777,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -8883,6 +9851,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -8905,7 +9889,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -8941,7 +9931,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -8993,7 +9987,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -9043,7 +10041,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -9067,7 +10069,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -9171,10 +10203,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -9197,7 +10225,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -9263,6 +10299,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -9285,7 +10337,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -9321,7 +10379,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -9373,7 +10435,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -9423,7 +10489,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -9447,7 +10517,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -9549,10 +10649,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -9575,7 +10671,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -9641,6 +10745,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -9663,7 +10783,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -9699,7 +10825,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -9751,7 +10881,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -9801,7 +10935,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -9825,7 +10963,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -9925,10 +11093,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -9951,7 +11115,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -10017,6 +11189,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -10039,7 +11227,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -10075,7 +11269,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -10127,7 +11325,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -10177,7 +11379,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -10201,7 +11407,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -10299,10 +11535,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -10325,7 +11557,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -10391,6 +11631,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -10413,7 +11669,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -10449,7 +11711,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -10501,7 +11767,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -10551,7 +11821,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -10575,7 +11849,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -10671,10 +11975,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -10697,7 +11997,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -10763,6 +12071,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -10785,7 +12109,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -10821,7 +12151,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -10873,7 +12207,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -10923,7 +12261,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -10947,7 +12289,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -11041,10 +12413,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -11067,7 +12435,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -11133,6 +12509,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -11155,7 +12547,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -11191,7 +12589,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -11243,7 +12645,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -11293,7 +12699,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -11317,7 +12727,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -11409,10 +12849,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -11435,7 +12871,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -11501,6 +12945,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -11523,7 +12983,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -11559,7 +13025,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -11611,7 +13081,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -11661,7 +13135,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -11685,7 +13163,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -11775,10 +13283,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -11801,7 +13305,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -11867,6 +13379,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -11889,7 +13417,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -11925,7 +13459,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -11977,7 +13515,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -12027,7 +13569,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -12051,7 +13597,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -12139,10 +13715,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -12165,7 +13737,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -12231,6 +13811,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -12253,7 +13849,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -12289,7 +13891,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -12341,7 +13947,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -12391,7 +14001,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -12415,7 +14029,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -12501,10 +14145,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -12527,7 +14167,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -12593,6 +14241,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -12615,7 +14279,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -12651,7 +14321,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -12703,7 +14377,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -12753,7 +14431,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -12777,7 +14459,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -12861,10 +14573,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -12887,7 +14595,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -12953,6 +14669,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -12975,7 +14707,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -13011,7 +14749,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -13063,7 +14805,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -13113,7 +14859,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -13137,7 +14887,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -13219,10 +14999,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -13245,7 +15021,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -13311,6 +15095,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -13333,7 +15133,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -13369,7 +15175,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -13421,7 +15231,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -13471,7 +15285,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -13495,7 +15313,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -13575,10 +15423,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -13601,7 +15445,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -13667,6 +15519,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -13689,7 +15557,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -13725,7 +15599,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -13777,7 +15655,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -13827,7 +15709,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -13851,7 +15737,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -13929,10 +15845,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -13955,7 +15867,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -14021,6 +15941,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -14043,7 +15979,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -14079,7 +16021,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -14131,7 +16077,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -14181,7 +16131,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -14205,7 +16159,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -14281,10 +16265,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -14307,7 +16287,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -14373,6 +16361,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -14395,7 +16399,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -14431,7 +16441,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -14483,7 +16497,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -14533,7 +16551,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -14557,7 +16579,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -14631,10 +16683,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -14657,7 +16705,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -14723,6 +16779,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -14745,7 +16817,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -14781,7 +16859,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -14833,7 +16915,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -14883,7 +16969,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -14907,7 +16997,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -14979,10 +17099,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -15005,7 +17121,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -15071,6 +17195,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -15093,7 +17233,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -15129,7 +17275,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -15181,7 +17331,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -15231,7 +17385,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -15255,7 +17413,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -15325,10 +17513,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -15351,7 +17535,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -15417,6 +17609,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -15439,7 +17647,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -15475,7 +17689,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -15527,7 +17745,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -15577,7 +17799,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -15601,7 +17827,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -15669,10 +17925,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -15695,7 +17947,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -15761,6 +18021,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -15783,7 +18059,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -15819,7 +18101,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -15871,7 +18157,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -15921,7 +18211,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -15945,7 +18239,37 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -16011,10 +18335,6 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -16037,7 +18357,15 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -16103,6 +18431,22 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -16125,7 +18469,13 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -16161,7 +18511,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -16213,7 +18567,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -16263,7 +18621,11 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -16287,9 +18649,445 @@ Chain[A] superposed to Chain[A]: 9.263
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-6wzo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-6wzq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-6zco<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7acs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7act<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -16361,10 +19159,6 @@ Chain[D] superposed to Chain[D]: 0.427
 
 >6wzo-<
 
->6wzo-6z4u<
-
->6wzo-<
-
 >6wzo-6zco<
 Chain[A] superposed to Chain[A]: 0.295 
 
@@ -16394,10 +19188,18 @@ Chain[C] superposed to Chain[C]: nan
 
 >6wzo-<
 
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
 >6wzo-7act<
 Chain[A] superposed to Chain[A]: 16.288 
 Chain[A] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[B]: nan 
+
+>6wzo-<
 
 >6wzo-<
 
@@ -16484,6 +19286,22 @@ Chain[D] superposed to Chain[D]: 0.527
 >6wzo-7cr5<
 Chain[A] superposed to Chain[A]: 17.71 
 
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
 >6wzo-7de1<
 Chain[A] superposed to Chain[A]: 0.512 
 Chain[A] superposed to Chain[B]: 0.553 
@@ -16506,6 +19324,13 @@ Chain[B] superposed to Chain[B]: 0.326
 >6wzo-<
 
 >6wzo-7kdt<
+Chain[A] superposed to Chain[A]: 23.556 
+Chain[A] superposed to Chain[B]: 14.853 
+Chain[B] superposed to Chain[B]: 14.876 
+
+>6wzo-<
+
+>6wzo-<
 
 >6wzo-<
 
@@ -16516,6 +19341,8 @@ Chain[A] superposed to Chain[C]: 4.166
 Chain[B] superposed to Chain[B]: 16.841 
 Chain[B] superposed to Chain[C]: 4.119 
 Chain[C] superposed to Chain[C]: 4.144 
+
+>6wzo-<
 
 >6wzo-<
 
@@ -16557,6 +19384,8 @@ Chain[C] superposed to Chain[C]: 1.81
 
 >6wzo-<
 
+>6wzo-<
+
 >6wzo-7kgq<
 Chain[A] superposed to Chain[A]: 23.421 
 Chain[A] superposed to Chain[B]: 14.597 
@@ -16564,6 +19393,8 @@ Chain[A] superposed to Chain[C]: 11.358
 Chain[B] superposed to Chain[B]: 17.251 
 Chain[B] superposed to Chain[C]: 11.393 
 Chain[C] superposed to Chain[C]: 11.393 
+
+>6wzo-<
 
 >6wzo-<
 
@@ -16627,10 +19458,14 @@ Chain[C] superposed to Chain[C]: 14.681
 
 >6wzo-<
 
+>6wzo-<
+
 >6wzo-7kgt<
 Chain[A] superposed to Chain[A]: 23.075 
 Chain[A] superposed to Chain[B]: 14.614 
 Chain[B] superposed to Chain[B]: 17.29 
+
+>6wzo-<
 
 >6wzo-<
 
@@ -16689,8 +19524,12 @@ Chain[B] superposed to Chain[B]: 8.003
 
 >6wzo-<
 
+>6wzo-<
+
 >6wzo-7lux<
 Chain[A] superposed to Chain[A]: 8.127 
+
+>6wzo-<
 
 >6wzo-<
 
@@ -16715,6 +19554,16 @@ Chain[A] superposed to Chain[A]: 11.683
 
 >6wzo-<
 
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
 >6wzo-7lv2<
 Chain[A] superposed to Chain[A]: 11.027 
 
@@ -16722,6 +19571,34 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >6wzo-<
 
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-<
+
+>6wzo-7n0r<
+Chain[A] superposed to Chain[A]: 16.948 
+Chain[A] superposed to Chain[B]: 16.969 
+Chain[A] superposed to Chain[C]: 14.803 
+Chain[A] superposed to Chain[D]: 14.756 
+Chain[B] superposed to Chain[B]: 17.806 
+Chain[B] superposed to Chain[C]: 16.772 
+Chain[B] superposed to Chain[D]: 16.686 
+Chain[C] superposed to Chain[C]: 14.808 
+Chain[C] superposed to Chain[D]: 14.761 
+Chain[D] superposed to Chain[D]: 14.766 
+
+>6wzo-<
+
 >-<
 
 >-<
@@ -16778,10 +19655,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -16804,7 +19677,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -16870,6 +19751,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -16892,7 +19789,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -16928,7 +19831,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -16980,7 +19887,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -17030,7 +19941,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -17054,9 +19969,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -17114,10 +20057,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -17140,7 +20079,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -17206,6 +20153,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -17228,7 +20191,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -17264,7 +20233,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -17316,7 +20289,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -17366,7 +20343,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -17390,9 +20371,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -17448,10 +20457,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -17474,7 +20479,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -17540,6 +20553,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -17562,7 +20591,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -17598,7 +20633,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -17650,7 +20689,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -17700,7 +20743,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -17724,9 +20771,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -17780,10 +20855,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -17806,7 +20877,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -17872,6 +20951,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -17894,7 +20989,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -17930,7 +21031,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -17982,7 +21087,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -18032,7 +21141,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -18056,9 +21169,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -18110,10 +21251,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -18136,7 +21273,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -18202,6 +21347,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -18224,7 +21385,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -18260,7 +21427,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -18312,7 +21483,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -18362,7 +21537,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -18386,9 +21565,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -18438,10 +21645,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -18464,7 +21667,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -18530,6 +21741,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -18552,7 +21779,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -18588,7 +21821,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -18640,7 +21877,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -18690,7 +21931,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -18714,9 +21959,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -18764,10 +22037,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -18790,7 +22059,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -18856,6 +22133,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -18878,7 +22171,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -18914,7 +22213,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -18966,7 +22269,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -19016,7 +22323,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -19040,9 +22351,37 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -19088,10 +22427,6 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
->-6z4u<
-
->-<
-
 >-6zco<
 
 >-<
@@ -19114,7 +22449,15 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -19180,6 +22523,22 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -19202,7 +22561,13 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -19238,7 +22603,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -19290,7 +22659,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -19340,7 +22713,11 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -19364,13 +22741,39 @@ Chain[A] superposed to Chain[A]: 11.027
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
 
->6wzq-<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >6wzq-<
 
@@ -19409,8 +22812,6 @@ Chain[A] superposed to Chain[A]: 11.027
 >6wzq-<
 
 >6wzq-<
-
->6wzq-6z4u<
 
 >6wzq-<
 
@@ -19443,10 +22844,18 @@ Chain[C] superposed to Chain[C]: nan
 
 >6wzq-<
 
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
 >6wzq-7act<
 Chain[A] superposed to Chain[A]: 16.287 
 Chain[A] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[B]: nan 
+
+>6wzq-<
 
 >6wzq-<
 
@@ -19533,6 +22942,22 @@ Chain[D] superposed to Chain[D]: 0.588
 >6wzq-7cr5<
 Chain[A] superposed to Chain[A]: 17.913 
 
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
 >6wzq-7de1<
 Chain[A] superposed to Chain[A]: 0.565 
 Chain[A] superposed to Chain[B]: 0.595 
@@ -19555,6 +22980,13 @@ Chain[B] superposed to Chain[B]: 0.326
 >6wzq-<
 
 >6wzq-7kdt<
+Chain[A] superposed to Chain[A]: 24.718 
+Chain[A] superposed to Chain[B]: 14.85 
+Chain[B] superposed to Chain[B]: 14.862 
+
+>6wzq-<
+
+>6wzq-<
 
 >6wzq-<
 
@@ -19565,6 +22997,8 @@ Chain[A] superposed to Chain[C]: 4.139
 Chain[B] superposed to Chain[B]: 17.132 
 Chain[B] superposed to Chain[C]: 4.127 
 Chain[C] superposed to Chain[C]: 4.113 
+
+>6wzq-<
 
 >6wzq-<
 
@@ -19606,6 +23040,8 @@ Chain[C] superposed to Chain[C]: 1.754
 
 >6wzq-<
 
+>6wzq-<
+
 >6wzq-7kgq<
 Chain[A] superposed to Chain[A]: 23.319 
 Chain[A] superposed to Chain[B]: 17.133 
@@ -19613,6 +23049,8 @@ Chain[A] superposed to Chain[C]: 11.385
 Chain[B] superposed to Chain[B]: 17.163 
 Chain[B] superposed to Chain[C]: 11.366 
 Chain[C] superposed to Chain[C]: 11.388 
+
+>6wzq-<
 
 >6wzq-<
 
@@ -19676,10 +23114,14 @@ Chain[C] superposed to Chain[C]: 14.662
 
 >6wzq-<
 
+>6wzq-<
+
 >6wzq-7kgt<
 Chain[A] superposed to Chain[A]: 22.973 
 Chain[A] superposed to Chain[B]: 17.137 
 Chain[B] superposed to Chain[B]: 17.166 
+
+>6wzq-<
 
 >6wzq-<
 
@@ -19738,8 +23180,12 @@ Chain[B] superposed to Chain[B]: 12.044
 
 >6wzq-<
 
+>6wzq-<
+
 >6wzq-7lux<
 Chain[A] superposed to Chain[A]: 12.252 
+
+>6wzq-<
 
 >6wzq-<
 
@@ -19764,6 +23210,16 @@ Chain[A] superposed to Chain[A]: 12.024
 
 >6wzq-<
 
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
 >6wzq-7lv2<
 Chain[A] superposed to Chain[A]: 11.132 
 
@@ -19771,7 +23227,33 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >6wzq-<
 
->-<
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-<
+
+>6wzq-7n0r<
+Chain[A] superposed to Chain[A]: 18.413 
+Chain[A] superposed to Chain[B]: 18.453 
+Chain[A] superposed to Chain[C]: 16.74 
+Chain[A] superposed to Chain[D]: 16.654 
+Chain[B] superposed to Chain[B]: 18.498 
+Chain[B] superposed to Chain[C]: 16.755 
+Chain[B] superposed to Chain[D]: 16.67 
+Chain[C] superposed to Chain[C]: 16.758 
+Chain[C] superposed to Chain[D]: 16.671 
+Chain[D] superposed to Chain[D]: 16.667 
+
+>6wzq-<
 
 >-<
 
@@ -19808,8 +23290,6 @@ Chain[A] superposed to Chain[A]: 11.132
 >-<
 
 >-<
-
->-6z4u<
 
 >-<
 
@@ -19835,7 +23315,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -19901,6 +23389,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -19923,7 +23427,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -19959,7 +23469,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -20011,7 +23525,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -20061,6 +23579,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -20077,7 +23597,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -20105,7 +23637,7 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-<
+>-7n0r<
 
 >-<
 
@@ -20127,7 +23659,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -20153,7 +23699,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -20219,6 +23773,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -20241,7 +23811,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -20277,7 +23853,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -20329,7 +23909,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -20379,6 +23963,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -20395,7 +23981,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -20423,7 +24021,7 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-<
+>-7n0r<
 
 >-<
 
@@ -20443,7 +24041,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -20469,7 +24081,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -20535,6 +24155,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -20557,7 +24193,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -20593,7 +24235,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -20645,7 +24291,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -20695,6 +24345,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -20711,7 +24363,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -20739,7 +24403,7 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-<
+>-7n0r<
 
 >-<
 
@@ -20757,7 +24421,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -20783,7 +24461,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -20849,6 +24535,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -20871,7 +24573,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -20907,7 +24615,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -20959,7 +24671,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -21009,6 +24725,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -21025,7 +24743,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -21053,7 +24783,7 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-<
+>-7n0r<
 
 >-<
 
@@ -21069,7 +24799,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -21095,7 +24839,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -21161,6 +24913,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -21183,7 +24951,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -21219,7 +24993,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -21271,7 +25049,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -21321,6 +25103,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -21337,7 +25121,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -21365,6 +25161,20 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-<
 
 >-<
@@ -21379,7 +25189,7 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
 
 >-<
 
@@ -21405,7 +25215,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -21471,6 +25289,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -21493,7 +25327,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -21529,7 +25369,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -21581,7 +25425,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -21631,6 +25479,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -21647,7 +25497,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -21675,6 +25537,18 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-<
 
 >-<
@@ -21687,7 +25561,9 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
 
 >-<
 
@@ -21713,7 +25589,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -21779,6 +25663,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -21801,7 +25701,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -21837,7 +25743,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -21889,7 +25799,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -21939,6 +25853,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -21955,7 +25871,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -21983,6 +25911,16 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-<
 
 >-<
@@ -21993,7 +25931,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22019,7 +25961,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -22085,6 +26035,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -22107,7 +26073,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -22143,7 +26115,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -22195,7 +26171,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -22245,6 +26225,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -22261,7 +26243,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22289,6 +26283,14 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
 >-<
 
 >-<
@@ -22297,7 +26299,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22323,7 +26331,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -22389,6 +26405,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -22411,7 +26443,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -22447,7 +26485,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -22499,7 +26541,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -22549,6 +26595,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -22565,7 +26613,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22593,13 +26653,27 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
+>-<
+
+>-<
+
 >-<
 
 >-<
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22625,7 +26699,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -22691,6 +26773,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -22713,7 +26811,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -22749,7 +26853,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -22801,7 +26909,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -22851,6 +26963,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -22867,7 +26981,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22895,11 +27021,25 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
+>-<
+
 >-<
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -22925,7 +27065,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -22991,6 +27139,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -23013,7 +27177,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -23049,7 +27219,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -23101,7 +27275,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -23151,6 +27329,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -23167,7 +27347,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -23195,9 +27387,23 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-7n0r<
+
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -23223,7 +27429,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -23289,6 +27503,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -23311,7 +27541,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -23347,7 +27583,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -23399,7 +27639,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -23449,6 +27693,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -23465,7 +27711,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -23493,7 +27751,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -23519,7 +27791,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -23585,6 +27865,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -23607,7 +27903,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -23643,7 +27945,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -23695,7 +28001,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -23745,6 +28055,8 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -23761,7 +28073,19 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -23787,7 +28111,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -23813,7 +28151,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -23879,6 +28225,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -23901,7 +28263,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -23937,7 +28305,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -23989,7 +28361,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -24039,7 +28415,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -24063,6 +28443,16 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -24079,7 +28469,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -24105,7 +28509,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -24171,6 +28583,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -24193,7 +28621,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -24229,7 +28663,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -24281,7 +28719,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -24331,7 +28773,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -24355,6 +28801,16 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -24369,7 +28825,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -24395,7 +28865,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -24461,6 +28939,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -24483,7 +28977,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -24519,7 +29019,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -24571,7 +29075,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -24621,7 +29129,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -24645,6 +29157,16 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -24657,7 +29179,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -24683,7 +29219,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -24749,6 +29293,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -24771,7 +29331,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -24807,7 +29373,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -24859,7 +29429,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -24909,7 +29483,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -24933,6 +29511,16 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -24943,7 +29531,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
 
 >-<
 
@@ -24969,7 +29571,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -25035,6 +29645,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -25057,7 +29683,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -25093,7 +29725,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -25145,7 +29781,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -25195,7 +29835,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -25219,6 +29863,16 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -25227,7 +29881,21 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -25253,7 +29921,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -25319,6 +29995,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -25341,7 +30033,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -25377,7 +30075,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -25429,7 +30131,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -25479,7 +30185,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -25503,13 +30213,37 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
 
->-6z4u<
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -25535,7 +30269,15 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -25601,6 +30343,22 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -25623,7 +30381,13 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -25659,7 +30423,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -25711,7 +30479,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -25761,7 +30533,11 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -25785,557 +30561,9 @@ Chain[A] superposed to Chain[A]: 11.132
 
 >-<
 
->-7lv2<
-
->-<
-
->-<
-
->6z4u-<
-
->6z4u-6zco<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7acs<
-
->6z4u-<
-
->6z4u-7act<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7cdz<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7ce0<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7cr5<
-
->6z4u-7de1<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7kdt<
-
->6z4u-<
-
->6z4u-7kgo<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7kgp<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7kgq<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7kgr<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7kgs<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7kgt<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7lg0<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7ltu<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7lux<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7luz<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-<
-
->6z4u-7lv2<
-
->6z4u-<
-
->6z4u-<
-
->-6zco<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7acs<
-
->-<
-
->-7act<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cdz<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ce0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cr5<
-
->-7de1<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kdt<
-
->-<
-
->-7kgo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgp<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgq<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgr<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgs<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgt<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lg0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ltu<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
 >-<
 
 >-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
 
 >-<
 
@@ -26346,6 +30574,24 @@ Chain[A] superposed to Chain[A]: 11.132
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -26372,9 +30618,17 @@ Chain[A] superposed to Chain[C]: nan
 
 >6zco-<
 
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
 >6zco-7act<
 Chain[A] superposed to Chain[A]: 15.576 
 Chain[A] superposed to Chain[B]: nan 
+
+>6zco-<
 
 >6zco-<
 
@@ -26449,6 +30703,22 @@ Chain[A] superposed to Chain[D]: 0.639
 >6zco-7cr5<
 Chain[A] superposed to Chain[A]: 18.916 
 
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
 >6zco-7de1<
 Chain[A] superposed to Chain[A]: 0.424 
 Chain[A] superposed to Chain[B]: 0.665 
@@ -26470,6 +30740,12 @@ Chain[A] superposed to Chain[B]: 0.665
 >6zco-<
 
 >6zco-7kdt<
+Chain[A] superposed to Chain[A]: 24.74 
+Chain[A] superposed to Chain[B]: 14.49 
+
+>6zco-<
+
+>6zco-<
 
 >6zco-<
 
@@ -26477,6 +30753,8 @@ Chain[A] superposed to Chain[B]: 0.665
 Chain[A] superposed to Chain[A]: 21.5 
 Chain[A] superposed to Chain[B]: 16.731 
 Chain[A] superposed to Chain[C]: 4.139 
+
+>6zco-<
 
 >6zco-<
 
@@ -26515,10 +30793,14 @@ Chain[A] superposed to Chain[C]: 1.822
 
 >6zco-<
 
+>6zco-<
+
 >6zco-7kgq<
 Chain[A] superposed to Chain[A]: 22.525 
 Chain[A] superposed to Chain[B]: 16.763 
 Chain[A] superposed to Chain[C]: 7.933 
+
+>6zco-<
 
 >6zco-<
 
@@ -26576,9 +30858,13 @@ Chain[A] superposed to Chain[C]: 14.454
 
 >6zco-<
 
+>6zco-<
+
 >6zco-7kgt<
 Chain[A] superposed to Chain[A]: 22.598 
 Chain[A] superposed to Chain[B]: 16.769 
+
+>6zco-<
 
 >6zco-<
 
@@ -26633,8 +30919,12 @@ Chain[A] superposed to Chain[B]: 10.485
 
 >6zco-<
 
+>6zco-<
+
 >6zco-7lux<
 Chain[A] superposed to Chain[A]: 10.533 
+
+>6zco-<
 
 >6zco-<
 
@@ -26659,6 +30949,16 @@ Chain[A] superposed to Chain[A]: 11.754
 
 >6zco-<
 
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
 >6zco-7lv2<
 Chain[A] superposed to Chain[A]: 11.009 
 
@@ -26666,6 +30966,28 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >6zco-<
 
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-<
+
+>6zco-7n0r<
+Chain[A] superposed to Chain[A]: 18.349 
+Chain[A] superposed to Chain[B]: 18.383 
+Chain[A] superposed to Chain[C]: 17.376 
+Chain[A] superposed to Chain[D]: 17.298 
+
+>6zco-<
+
 >-<
 
 >-<
@@ -26684,7 +31006,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -26750,6 +31080,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -26772,7 +31118,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -26808,7 +31160,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -26860,7 +31216,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -26910,6 +31270,8 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -26926,7 +31288,19 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -26952,11 +31326,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7acs<
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -27022,6 +31422,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -27044,7 +31460,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -27080,7 +31502,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -27132,7 +31558,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -27182,7 +31612,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -27206,9 +31640,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -27226,7 +31688,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -27292,6 +31762,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -27314,7 +31800,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -27350,7 +31842,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -27402,7 +31898,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -27452,7 +31952,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -27476,9 +31980,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -27494,7 +32026,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -27560,6 +32100,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -27582,7 +32138,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -27618,7 +32180,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -27670,7 +32236,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -27720,7 +32290,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -27744,9 +32318,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -27760,7 +32362,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -27826,6 +32436,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -27848,7 +32474,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -27884,7 +32516,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -27936,7 +32572,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -27986,7 +32626,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -28010,9 +32654,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -28024,7 +32696,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -28090,6 +32770,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -28112,7 +32808,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -28148,7 +32850,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -28200,7 +32906,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -28250,7 +32960,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -28274,9 +32988,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -28286,7 +33028,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -28352,6 +33102,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -28374,7 +33140,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -28410,7 +33182,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -28462,7 +33238,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -28512,7 +33292,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -28536,9 +33320,37 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -28546,7 +33358,15 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -28612,6 +33432,22 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -28634,7 +33470,13 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -28670,7 +33512,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -28722,7 +33568,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -28772,7 +33622,11 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -28796,11 +33650,45 @@ Chain[A] superposed to Chain[A]: 11.009
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
 
 >7acs-<
 
@@ -28808,6 +33696,8 @@ Chain[A] superposed to Chain[A]: 11.009
 Chain[A] superposed to Chain[A]: 3.944 
 Chain[A] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[B]: 1.71 
+
+>7acs-<
 
 >7acs-<
 
@@ -28892,6 +33782,22 @@ Chain[C] superposed to Chain[D]: nan
 >7acs-7cr5<
 Chain[A] superposed to Chain[A]: 5.725 
 
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
 >7acs-7de1<
 Chain[A] superposed to Chain[A]: 17.473 
 Chain[A] superposed to Chain[B]: 18.252 
@@ -28914,6 +33820,13 @@ Chain[B] superposed to Chain[B]: nan
 >7acs-<
 
 >7acs-7kdt<
+Chain[A] superposed to Chain[A]: 29.479 
+Chain[A] superposed to Chain[B]: 15.023 
+Chain[B] superposed to Chain[B]: nan 
+
+>7acs-<
+
+>7acs-<
 
 >7acs-<
 
@@ -28924,6 +33837,8 @@ Chain[A] superposed to Chain[C]: 12.194
 Chain[B] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[C]: nan 
 Chain[C] superposed to Chain[C]: nan 
+
+>7acs-<
 
 >7acs-<
 
@@ -28965,6 +33880,8 @@ Chain[C] superposed to Chain[C]: nan
 
 >7acs-<
 
+>7acs-<
+
 >7acs-7kgq<
 Chain[A] superposed to Chain[A]: 23.851 
 Chain[A] superposed to Chain[B]: 17.225 
@@ -28972,6 +33889,8 @@ Chain[A] superposed to Chain[C]: 11.61
 Chain[B] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[C]: nan 
 Chain[C] superposed to Chain[C]: nan 
+
+>7acs-<
 
 >7acs-<
 
@@ -29035,10 +33954,14 @@ Chain[C] superposed to Chain[C]: nan
 
 >7acs-<
 
+>7acs-<
+
 >7acs-7kgt<
 Chain[A] superposed to Chain[A]: 22.724 
 Chain[A] superposed to Chain[B]: 16.931 
 Chain[B] superposed to Chain[B]: nan 
+
+>7acs-<
 
 >7acs-<
 
@@ -29097,8 +34020,12 @@ Chain[B] superposed to Chain[B]: nan
 
 >7acs-<
 
+>7acs-<
+
 >7acs-7lux<
 Chain[A] superposed to Chain[A]: 9.431 
+
+>7acs-<
 
 >7acs-<
 
@@ -29123,6 +34050,16 @@ Chain[A] superposed to Chain[A]: 10.206
 
 >7acs-<
 
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
 >7acs-7lv2<
 Chain[A] superposed to Chain[A]: 12.706 
 
@@ -29130,7 +34067,42 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >7acs-<
 
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-<
+
+>7acs-7n0r<
+Chain[A] superposed to Chain[A]: 3.368 
+Chain[A] superposed to Chain[B]: 3.341 
+Chain[A] superposed to Chain[C]: 14.874 
+Chain[A] superposed to Chain[D]: 14.878 
+Chain[B] superposed to Chain[B]: nan 
+Chain[B] superposed to Chain[C]: nan 
+Chain[B] superposed to Chain[D]: nan 
+Chain[C] superposed to Chain[C]: nan 
+Chain[C] superposed to Chain[D]: nan 
+
+>7acs-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7act<
+
+>-<
 
 >-<
 
@@ -29196,6 +34168,22 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -29218,7 +34206,13 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -29254,7 +34248,11 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -29306,7 +34304,11 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -29356,7 +34358,11 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -29380,11 +34386,1007 @@ Chain[A] superposed to Chain[A]: 12.706
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-7act<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7act<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7act<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7act-<
 
 >7act-<
 
@@ -29465,6 +35467,22 @@ Chain[B] superposed to Chain[D]: nan
 >7act-7cr5<
 Chain[A] superposed to Chain[A]: 6.657 
 
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
 >7act-7de1<
 Chain[A] superposed to Chain[A]: 18.101 
 Chain[A] superposed to Chain[B]: 17.764 
@@ -29487,6 +35505,13 @@ Chain[B] superposed to Chain[B]: nan
 >7act-<
 
 >7act-7kdt<
+Chain[A] superposed to Chain[A]: 28.36 
+Chain[A] superposed to Chain[B]: 14.379 
+Chain[B] superposed to Chain[B]: nan 
+
+>7act-<
+
+>7act-<
 
 >7act-<
 
@@ -29496,6 +35521,8 @@ Chain[A] superposed to Chain[B]: 17.348
 Chain[A] superposed to Chain[C]: 11.191 
 Chain[B] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[C]: nan 
+
+>7act-<
 
 >7act-<
 
@@ -29536,12 +35563,16 @@ Chain[B] superposed to Chain[C]: nan
 
 >7act-<
 
+>7act-<
+
 >7act-7kgq<
 Chain[A] superposed to Chain[A]: 23.741 
 Chain[A] superposed to Chain[B]: 17.384 
 Chain[A] superposed to Chain[C]: 12.784 
 Chain[B] superposed to Chain[B]: nan 
 Chain[B] superposed to Chain[C]: nan 
+
+>7act-<
 
 >7act-<
 
@@ -29603,10 +35634,14 @@ Chain[B] superposed to Chain[C]: nan
 
 >7act-<
 
+>7act-<
+
 >7act-7kgt<
 Chain[A] superposed to Chain[A]: 22.626 
 Chain[A] superposed to Chain[B]: 17.365 
 Chain[B] superposed to Chain[B]: nan 
+
+>7act-<
 
 >7act-<
 
@@ -29664,8 +35699,12 @@ Chain[B] superposed to Chain[B]: nan
 
 >7act-<
 
+>7act-<
+
 >7act-7lux<
 Chain[A] superposed to Chain[A]: 9.731 
+
+>7act-<
 
 >7act-<
 
@@ -29690,6 +35729,16 @@ Chain[A] superposed to Chain[A]: 10.769
 
 >7act-<
 
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
+>7act-<
+
 >7act-7lv2<
 Chain[A] superposed to Chain[A]: 11.614 
 
@@ -29697,253 +35746,30 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >7act-<
 
->-<
+>7act-<
 
->-<
+>7act-<
 
->-<
+>7act-<
 
->-<
+>7act-<
 
->-<
+>7act-<
 
->-<
+>7act-<
 
->-<
+>7act-<
 
->-<
+>7act-7n0r<
+Chain[A] superposed to Chain[A]: 4.197 
+Chain[A] superposed to Chain[B]: 4.126 
+Chain[A] superposed to Chain[C]: 14.434 
+Chain[A] superposed to Chain[D]: 14.407 
+Chain[B] superposed to Chain[B]: nan 
+Chain[B] superposed to Chain[C]: nan 
+Chain[B] superposed to Chain[D]: nan 
 
->-<
-
->-<
-
->-7cdz<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ce0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7cr5<
-
->-7de1<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kdt<
-
->-<
-
->-7kgo<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgp<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgq<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgr<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgs<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgt<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lg0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ltu<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
+>7act-<
 
 >-<
 
@@ -30009,6 +35835,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -30031,7 +35873,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -30067,7 +35915,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -30119,7 +35971,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -30169,7 +36025,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -30193,7 +36053,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -30257,6 +36149,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -30279,7 +36187,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -30315,7 +36229,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -30367,7 +36285,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -30417,7 +36339,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -30441,7 +36367,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -30503,6 +36461,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -30525,7 +36499,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -30561,7 +36541,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -30613,7 +36597,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -30663,7 +36651,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -30687,7 +36679,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -30747,6 +36771,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -30769,7 +36809,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -30805,7 +36851,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -30857,7 +36907,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -30907,7 +36961,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -30931,7 +36989,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -30989,6 +37079,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -31011,7 +37117,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -31047,7 +37159,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -31099,7 +37215,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -31149,7 +37269,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -31173,7 +37297,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -31229,6 +37385,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -31251,7 +37423,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -31287,7 +37465,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -31339,7 +37521,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -31389,7 +37575,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -31413,7 +37603,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -31467,6 +37689,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -31489,7 +37727,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -31525,7 +37769,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -31577,7 +37825,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -31627,7 +37879,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -31651,7 +37907,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -31703,6 +37991,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -31725,7 +38029,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -31761,7 +38071,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -31813,7 +38127,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -31863,7 +38181,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -31887,7 +38209,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -31937,6 +38291,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -31959,7 +38329,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -31995,7 +38371,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -32047,7 +38427,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -32097,7 +38481,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -32121,7 +38509,39 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -32169,6 +38589,22 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -32191,7 +38627,13 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -32227,7 +38669,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -32279,7 +38725,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -32329,7 +38779,11 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -32353,9 +38807,627 @@ Chain[A] superposed to Chain[A]: 11.614
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7cdz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ce0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -32410,6 +39482,22 @@ Chain[D] superposed to Chain[D]: 17.058
 >7cdz-7cr5<
 Chain[A] superposed to Chain[A]: 5.095 
 
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
 >7cdz-7de1<
 Chain[A] superposed to Chain[A]: 16.966 
 Chain[A] superposed to Chain[B]: 17.767 
@@ -32432,6 +39520,13 @@ Chain[B] superposed to Chain[B]: 17.781
 >7cdz-<
 
 >7cdz-7kdt<
+Chain[A] superposed to Chain[A]: 28.324 
+Chain[A] superposed to Chain[B]: 15.054 
+Chain[B] superposed to Chain[B]: 14.766 
+
+>7cdz-<
+
+>7cdz-<
 
 >7cdz-<
 
@@ -32442,6 +39537,8 @@ Chain[A] superposed to Chain[C]: 12.768
 Chain[B] superposed to Chain[B]: 17.104 
 Chain[B] superposed to Chain[C]: 12.725 
 Chain[C] superposed to Chain[C]: 12.649 
+
+>7cdz-<
 
 >7cdz-<
 
@@ -32483,6 +39580,8 @@ Chain[C] superposed to Chain[C]: 12.481
 
 >7cdz-<
 
+>7cdz-<
+
 >7cdz-7kgq<
 Chain[A] superposed to Chain[A]: 21.998 
 Chain[A] superposed to Chain[B]: 16.981 
@@ -32490,6 +39589,8 @@ Chain[A] superposed to Chain[C]: 10.902
 Chain[B] superposed to Chain[B]: 17.131 
 Chain[B] superposed to Chain[C]: 10.903 
 Chain[C] superposed to Chain[C]: 10.881 
+
+>7cdz-<
 
 >7cdz-<
 
@@ -32553,10 +39654,14 @@ Chain[C] superposed to Chain[C]: 3.242
 
 >7cdz-<
 
+>7cdz-<
+
 >7cdz-7kgt<
 Chain[A] superposed to Chain[A]: 21.609 
 Chain[A] superposed to Chain[B]: 16.978 
 Chain[B] superposed to Chain[B]: 17.124 
+
+>7cdz-<
 
 >7cdz-<
 
@@ -32615,8 +39720,12 @@ Chain[B] superposed to Chain[B]: 9.565
 
 >7cdz-<
 
+>7cdz-<
+
 >7cdz-7lux<
 Chain[A] superposed to Chain[A]: 9.369 
+
+>7cdz-<
 
 >7cdz-<
 
@@ -32641,6 +39750,16 @@ Chain[A] superposed to Chain[A]: 9.725
 
 >7cdz-<
 
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
 >7cdz-7lv2<
 Chain[A] superposed to Chain[A]: 9.064 
 
@@ -32648,6 +39767,34 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >7cdz-<
 
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-<
+
+>7cdz-7n0r<
+Chain[A] superposed to Chain[A]: 0.862 
+Chain[A] superposed to Chain[B]: 0.86 
+Chain[A] superposed to Chain[C]: 14.281 
+Chain[A] superposed to Chain[D]: 14.292 
+Chain[B] superposed to Chain[B]: 0.663 
+Chain[B] superposed to Chain[C]: 14.169 
+Chain[B] superposed to Chain[D]: 14.178 
+Chain[C] superposed to Chain[C]: 14.392 
+Chain[C] superposed to Chain[D]: 14.397 
+Chain[D] superposed to Chain[D]: 14.36 
+
+>7cdz-<
+
 >-<
 
 >-<
@@ -32686,6 +39833,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -32708,7 +39871,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -32744,7 +39913,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -32796,7 +39969,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -32846,7 +40023,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -32870,9 +40051,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -32912,6 +40121,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -32934,7 +40159,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -32970,7 +40201,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -33022,7 +40257,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -33072,7 +40311,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -33096,9 +40339,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -33136,6 +40407,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -33158,7 +40445,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -33194,7 +40487,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -33246,7 +40543,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -33296,7 +40597,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -33320,9 +40625,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -33358,6 +40691,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -33380,7 +40729,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -33416,7 +40771,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -33468,7 +40827,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -33518,7 +40881,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -33542,9 +40909,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -33578,6 +40973,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -33600,7 +41011,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -33636,7 +41053,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -33688,7 +41109,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -33738,7 +41163,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -33762,9 +41191,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -33796,6 +41253,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -33818,7 +41291,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -33854,7 +41333,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -33906,7 +41389,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -33956,7 +41443,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -33980,9 +41471,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -34012,6 +41531,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -34034,7 +41569,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -34070,7 +41611,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -34122,7 +41667,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -34172,7 +41721,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -34196,9 +41749,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -34226,6 +41807,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -34248,7 +41845,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -34284,7 +41887,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -34336,7 +41943,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -34386,7 +41997,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -34410,9 +42025,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -34438,6 +42081,22 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-7cr5<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7de1<
 
 >-<
@@ -34460,7 +42119,13 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -34496,7 +42161,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -34548,7 +42217,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -34598,7 +42271,11 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -34622,9 +42299,37 @@ Chain[A] superposed to Chain[A]: 9.064
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -34649,6 +42354,22 @@ Chain[A] superposed to Chain[A]: 9.064
 >7ce0-7cr5<
 Chain[A] superposed to Chain[A]: 17.718 
 
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
 >7ce0-7de1<
 Chain[A] superposed to Chain[A]: 0.508 
 Chain[A] superposed to Chain[B]: 0.57 
@@ -34671,6 +42392,13 @@ Chain[B] superposed to Chain[B]: 0.56
 >7ce0-<
 
 >7ce0-7kdt<
+Chain[A] superposed to Chain[A]: 24.124 
+Chain[A] superposed to Chain[B]: 14.848 
+Chain[B] superposed to Chain[B]: 14.825 
+
+>7ce0-<
+
+>7ce0-<
 
 >7ce0-<
 
@@ -34681,6 +42409,8 @@ Chain[A] superposed to Chain[C]: 4.149
 Chain[B] superposed to Chain[B]: 16.862 
 Chain[B] superposed to Chain[C]: 4.142 
 Chain[C] superposed to Chain[C]: 4.135 
+
+>7ce0-<
 
 >7ce0-<
 
@@ -34722,6 +42452,8 @@ Chain[C] superposed to Chain[C]: 1.619
 
 >7ce0-<
 
+>7ce0-<
+
 >7ce0-7kgq<
 Chain[A] superposed to Chain[A]: 23.486 
 Chain[A] superposed to Chain[B]: 14.599 
@@ -34729,6 +42461,8 @@ Chain[A] superposed to Chain[C]: 11.359
 Chain[B] superposed to Chain[B]: 14.601 
 Chain[B] superposed to Chain[C]: 11.368 
 Chain[C] superposed to Chain[C]: 11.39 
+
+>7ce0-<
 
 >7ce0-<
 
@@ -34792,10 +42526,14 @@ Chain[C] superposed to Chain[C]: 14.735
 
 >7ce0-<
 
+>7ce0-<
+
 >7ce0-7kgt<
 Chain[A] superposed to Chain[A]: 22.964 
 Chain[A] superposed to Chain[B]: 14.616 
 Chain[B] superposed to Chain[B]: 14.618 
+
+>7ce0-<
 
 >7ce0-<
 
@@ -34854,8 +42592,12 @@ Chain[B] superposed to Chain[B]: 8.134
 
 >7ce0-<
 
+>7ce0-<
+
 >7ce0-7lux<
 Chain[A] superposed to Chain[A]: 8.123 
+
+>7ce0-<
 
 >7ce0-<
 
@@ -34880,6 +42622,16 @@ Chain[A] superposed to Chain[A]: 11.73
 
 >7ce0-<
 
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
 >7ce0-7lv2<
 Chain[A] superposed to Chain[A]: 11.062 
 
@@ -34887,6 +42639,34 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >7ce0-<
 
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-<
+
+>7ce0-7n0r<
+Chain[A] superposed to Chain[A]: 16.957 
+Chain[A] superposed to Chain[B]: 16.977 
+Chain[A] superposed to Chain[C]: 14.804 
+Chain[A] superposed to Chain[D]: 14.757 
+Chain[B] superposed to Chain[B]: 16.97 
+Chain[B] superposed to Chain[C]: 14.807 
+Chain[B] superposed to Chain[D]: 14.759 
+Chain[C] superposed to Chain[C]: 14.812 
+Chain[C] superposed to Chain[D]: 14.766 
+Chain[D] superposed to Chain[D]: 14.763 
+
+>7ce0-<
+
 >-<
 
 >-<
@@ -34904,6 +42684,22 @@ Chain[A] superposed to Chain[A]: 11.062
 >-<
 
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -34927,7 +42723,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -34963,7 +42765,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -35015,7 +42821,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -35065,6 +42875,8 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -35081,7 +42893,19 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -35109,7 +42933,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -35133,7 +42991,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -35169,7 +43033,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -35221,7 +43089,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -35271,6 +43143,8 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -35287,7 +43161,19 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -35313,7 +43199,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -35337,7 +43257,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -35373,7 +43299,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -35425,7 +43355,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -35475,7 +43409,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -35499,6 +43437,16 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -35515,7 +43463,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -35539,7 +43521,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -35575,7 +43563,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -35627,7 +43619,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -35677,7 +43673,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -35701,6 +43701,16 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -35715,7 +43725,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -35739,7 +43783,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -35775,7 +43825,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -35827,7 +43881,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -35877,7 +43935,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -35901,6 +43963,16 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -35913,7 +43985,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -35937,7 +44043,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -35973,7 +44085,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -36025,7 +44141,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -36075,7 +44195,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -36099,6 +44223,16 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -36109,7 +44243,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -36133,7 +44301,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -36169,7 +44343,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -36221,7 +44399,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -36271,7 +44453,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -36295,6 +44481,16 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -36303,7 +44499,41 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -36327,7 +44557,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -36363,7 +44599,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -36415,7 +44655,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -36465,7 +44709,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -36489,13 +44737,57 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
 >-7cr5<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-7de1<
 
@@ -36519,7 +44811,13 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -36555,7 +44853,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -36607,7 +44909,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -36657,7 +44963,11 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -36681,11 +44991,55 @@ Chain[A] superposed to Chain[A]: 11.062
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
 
 >7cr5-7de1<
 Chain[A] superposed to Chain[A]: 18.086 
@@ -36708,6 +45062,12 @@ Chain[A] superposed to Chain[B]: 18.359
 >7cr5-<
 
 >7cr5-7kdt<
+Chain[A] superposed to Chain[A]: 28.522 
+Chain[A] superposed to Chain[B]: 14.291 
+
+>7cr5-<
+
+>7cr5-<
 
 >7cr5-<
 
@@ -36715,6 +45075,8 @@ Chain[A] superposed to Chain[B]: 18.359
 Chain[A] superposed to Chain[A]: 22.994 
 Chain[A] superposed to Chain[B]: 17.244 
 Chain[A] superposed to Chain[C]: 11.549 
+
+>7cr5-<
 
 >7cr5-<
 
@@ -36753,10 +45115,14 @@ Chain[A] superposed to Chain[C]: 12.482
 
 >7cr5-<
 
+>7cr5-<
+
 >7cr5-7kgq<
 Chain[A] superposed to Chain[A]: 21.102 
 Chain[A] superposed to Chain[B]: 17.045 
 Chain[A] superposed to Chain[C]: 10.902 
+
+>7cr5-<
 
 >7cr5-<
 
@@ -36814,9 +45180,13 @@ Chain[A] superposed to Chain[C]: 3.245
 
 >7cr5-<
 
+>7cr5-<
+
 >7cr5-7kgt<
 Chain[A] superposed to Chain[A]: 20.727 
 Chain[A] superposed to Chain[B]: 17.056 
+
+>7cr5-<
 
 >7cr5-<
 
@@ -36871,8 +45241,12 @@ Chain[A] superposed to Chain[B]: 10.242
 
 >7cr5-<
 
+>7cr5-<
+
 >7cr5-7lux<
 Chain[A] superposed to Chain[A]: 10.122 
+
+>7cr5-<
 
 >7cr5-<
 
@@ -36897,12 +45271,1988 @@ Chain[A] superposed to Chain[A]: 11.674
 
 >7cr5-<
 
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
 >7cr5-7lv2<
 Chain[A] superposed to Chain[A]: 9.238 
 
 >7cr5-<
 
 >7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-<
+
+>7cr5-7n0r<
+Chain[A] superposed to Chain[A]: 5.102 
+Chain[A] superposed to Chain[B]: 5.107 
+Chain[A] superposed to Chain[C]: 14.061 
+Chain[A] superposed to Chain[D]: 14.076 
+
+>7cr5-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7de1<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kdt<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >7de1-<
 
@@ -36921,6 +47271,13 @@ Chain[A] superposed to Chain[A]: 9.238
 >7de1-<
 
 >7de1-7kdt<
+Chain[A] superposed to Chain[A]: 23.604 
+Chain[A] superposed to Chain[B]: 14.872 
+Chain[B] superposed to Chain[B]: 14.833 
+
+>7de1-<
+
+>7de1-<
 
 >7de1-<
 
@@ -36930,6 +47287,8 @@ Chain[A] superposed to Chain[B]: 14.534
 Chain[A] superposed to Chain[C]: 4.115 
 Chain[B] superposed to Chain[B]: 16.712 
 Chain[B] superposed to Chain[C]: 4.176 
+
+>7de1-<
 
 >7de1-<
 
@@ -36970,12 +47329,16 @@ Chain[B] superposed to Chain[C]: 1.665
 
 >7de1-<
 
+>7de1-<
+
 >7de1-7kgq<
 Chain[A] superposed to Chain[A]: 23.281 
 Chain[A] superposed to Chain[B]: 14.544 
 Chain[A] superposed to Chain[C]: 11.323 
 Chain[B] superposed to Chain[B]: 16.742 
 Chain[B] superposed to Chain[C]: 11.364 
+
+>7de1-<
 
 >7de1-<
 
@@ -37037,10 +47400,14 @@ Chain[B] superposed to Chain[C]: 14.887
 
 >7de1-<
 
+>7de1-<
+
 >7de1-7kgt<
 Chain[A] superposed to Chain[A]: 22.946 
 Chain[A] superposed to Chain[B]: 14.562 
 Chain[B] superposed to Chain[B]: 16.748 
+
+>7de1-<
 
 >7de1-<
 
@@ -37098,8 +47465,12 @@ Chain[B] superposed to Chain[B]: 11.941
 
 >7de1-<
 
+>7de1-<
+
 >7de1-7lux<
 Chain[A] superposed to Chain[A]: 8.064 
+
+>7de1-<
 
 >7de1-<
 
@@ -37124,6 +47495,16 @@ Chain[A] superposed to Chain[A]: 11.544
 
 >7de1-<
 
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
 >7de1-7lv2<
 Chain[A] superposed to Chain[A]: 11.07 
 
@@ -37131,6 +47512,31 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >7de1-<
 
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-<
+
+>7de1-7n0r<
+Chain[A] superposed to Chain[A]: 16.8 
+Chain[A] superposed to Chain[B]: 16.823 
+Chain[A] superposed to Chain[C]: 14.711 
+Chain[A] superposed to Chain[D]: 14.663 
+Chain[B] superposed to Chain[B]: 18.514 
+Chain[B] superposed to Chain[C]: 16.784 
+Chain[B] superposed to Chain[D]: 16.695 
+
+>7de1-<
+
 >-<
 
 >-<
@@ -37149,7 +47555,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -37185,7 +47597,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -37237,7 +47653,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -37287,6 +47707,8 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -37303,7 +47725,19 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -37329,11 +47763,35 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kdt<
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -37369,7 +47827,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -37421,7 +47883,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -37471,7 +47937,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -37495,9 +47965,37 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -37515,7 +48013,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -37551,7 +48055,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -37603,7 +48111,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -37653,7 +48165,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -37677,9 +48193,37 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -37695,7 +48239,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -37731,7 +48281,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -37783,7 +48337,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -37833,7 +48391,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -37857,9 +48419,37 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -37873,7 +48463,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -37909,7 +48505,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -37961,7 +48561,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -38011,7 +48615,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -38035,9 +48643,37 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -38049,7 +48685,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -38085,7 +48727,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -38137,7 +48783,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -38187,7 +48837,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -38211,9 +48865,37 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -38223,7 +48905,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -38259,7 +48947,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -38311,7 +49003,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -38361,7 +49057,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -38385,9 +49085,37 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -38395,7 +49123,13 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -38431,7 +49165,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -38483,7 +49221,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -38533,7 +49275,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -38557,15 +49303,54 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
 >7kdt-<
 
+>7kdt-<
+
+>7kdt-<
+
 >7kdt-7kgo<
+Chain[A] superposed to Chain[A]: 28.488 
+Chain[A] superposed to Chain[B]: 28.575 
+Chain[A] superposed to Chain[C]: 8.868 
+Chain[B] superposed to Chain[B]: 16.61 
+Chain[B] superposed to Chain[C]: 5.617 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38584,6 +49369,13 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7kgp<
+Chain[A] superposed to Chain[A]: 27.65 
+Chain[A] superposed to Chain[B]: 28.665 
+Chain[A] superposed to Chain[C]: 13.629 
+Chain[B] superposed to Chain[B]: 16.864 
+Chain[B] superposed to Chain[C]: 7.715 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38602,6 +49394,13 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7kgq<
+Chain[A] superposed to Chain[A]: 27.544 
+Chain[A] superposed to Chain[B]: 28.525 
+Chain[A] superposed to Chain[C]: 13.987 
+Chain[B] superposed to Chain[B]: 16.861 
+Chain[B] superposed to Chain[C]: 5.878 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38620,6 +49419,11 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7kgr<
+Chain[A] superposed to Chain[A]: 28.164 
+Chain[A] superposed to Chain[B]: 28.507 
+Chain[A] superposed to Chain[C]: 22.859 
+Chain[B] superposed to Chain[B]: 16.616 
+Chain[B] superposed to Chain[C]: 11.317 
 
 >7kdt-<
 
@@ -38638,6 +49442,13 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7kgs<
+Chain[A] superposed to Chain[A]: 28.429 
+Chain[A] superposed to Chain[B]: 28.554 
+Chain[A] superposed to Chain[C]: 13.302 
+Chain[B] superposed to Chain[B]: 16.838 
+Chain[B] superposed to Chain[C]: 3.117 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38654,6 +49465,11 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7kgt<
+Chain[A] superposed to Chain[A]: 27.814 
+Chain[A] superposed to Chain[B]: 28.456 
+Chain[B] superposed to Chain[B]: 16.876 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38670,6 +49486,11 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7lg0<
+Chain[A] superposed to Chain[A]: 29.087 
+Chain[A] superposed to Chain[B]: 28.34 
+Chain[A] superposed to Chain[C]: 28.16 
+Chain[B] superposed to Chain[B]: 16.575 
+Chain[B] superposed to Chain[C]: 3.397 
 
 >7kdt-<
 
@@ -38688,6 +49509,11 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7ltu<
+Chain[A] superposed to Chain[A]: 11.471 
+Chain[A] superposed to Chain[B]: 11.492 
+Chain[B] superposed to Chain[B]: 2.607 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38704,6 +49530,9 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7lux<
+Chain[A] superposed to Chain[A]: 11.577 
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38720,6 +49549,17 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7luz<
+Chain[A] superposed to Chain[A]: 13.9 
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
 
 >7kdt-<
 
@@ -38728,12 +49568,44 @@ Chain[A] superposed to Chain[A]: 11.07
 >7kdt-<
 
 >7kdt-7lv2<
+Chain[A] superposed to Chain[A]: 9.3 
 
 >7kdt-<
 
 >7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-<
+
+>7kdt-7n0r<
+Chain[A] superposed to Chain[A]: 28.317 
+Chain[A] superposed to Chain[B]: 28.088 
+Chain[A] superposed to Chain[C]: 26.93 
+Chain[A] superposed to Chain[D]: 26.909 
+Chain[B] superposed to Chain[B]: 14.681 
+Chain[B] superposed to Chain[C]: 13.812 
+Chain[B] superposed to Chain[D]: 13.793 
+
+>7kdt-<
+
+>-<
+
+>-<
 
 >-7kgo<
+
+>-<
 
 >-<
 
@@ -38769,7 +49641,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -38821,7 +49697,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -38871,7 +49751,11 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -38895,11 +49779,463 @@ Chain[A] superposed to Chain[A]: 11.07
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7kgo<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7kgo-<
 
 >7kgo-<
 
@@ -38941,6 +50277,8 @@ Chain[C] superposed to Chain[C]: nan
 
 >7kgo-<
 
+>7kgo-<
+
 >7kgo-7kgq<
 Chain[A] superposed to Chain[A]: 0.322 
 Chain[A] superposed to Chain[B]: 21.834 
@@ -38948,6 +50286,8 @@ Chain[A] superposed to Chain[C]: 14.698
 Chain[B] superposed to Chain[B]: 0.167 
 Chain[B] superposed to Chain[C]: 7.624 
 Chain[C] superposed to Chain[C]: 0.002 
+
+>7kgo-<
 
 >7kgo-<
 
@@ -39011,10 +50351,14 @@ Chain[C] superposed to Chain[C]: 3.729
 
 >7kgo-<
 
+>7kgo-<
+
 >7kgo-7kgt<
 Chain[A] superposed to Chain[A]: 0.288 
 Chain[A] superposed to Chain[B]: 21.728 
 Chain[B] superposed to Chain[B]: 0.149 
+
+>7kgo-<
 
 >7kgo-<
 
@@ -39073,8 +50417,12 @@ Chain[B] superposed to Chain[B]: 7.979
 
 >7kgo-<
 
+>7kgo-<
+
 >7kgo-7lux<
 Chain[A] superposed to Chain[A]: 21.349 
+
+>7kgo-<
 
 >7kgo-<
 
@@ -39099,6 +50447,16 @@ Chain[A] superposed to Chain[A]: 10.882
 
 >7kgo-<
 
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
 >7kgo-7lv2<
 Chain[A] superposed to Chain[A]: 19.241 
 
@@ -39106,6 +50464,35 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >7kgo-<
 
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-<
+
+>7kgo-7n0r<
+Chain[A] superposed to Chain[A]: 23.173 
+Chain[A] superposed to Chain[B]: 23.172 
+Chain[A] superposed to Chain[C]: 22.83 
+Chain[A] superposed to Chain[D]: 22.889 
+Chain[B] superposed to Chain[B]: 18.277 
+Chain[B] superposed to Chain[C]: 9.174 
+Chain[B] superposed to Chain[D]: 9.135 
+Chain[C] superposed to Chain[C]: 11.507 
+Chain[C] superposed to Chain[D]: 11.492 
+
+>7kgo-<
+
+>-<
+
 >-<
 
 >-<
@@ -39138,7 +50525,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -39190,7 +50581,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -39240,7 +50635,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -39264,7 +50663,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -39300,7 +50729,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -39352,7 +50785,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -39402,7 +50839,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -39426,7 +50867,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -39460,7 +50931,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -39512,7 +50987,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -39562,7 +51041,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -39586,7 +51069,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -39618,7 +51131,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -39670,7 +51187,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -39720,7 +51241,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -39744,7 +51269,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -39774,7 +51329,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -39826,7 +51385,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -39876,7 +51439,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -39900,7 +51467,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -39928,7 +51525,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -39980,7 +51581,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -40030,7 +51635,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -40054,7 +51663,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -40080,7 +51719,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -40132,7 +51775,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -40182,7 +51829,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -40206,7 +51857,37 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -40230,7 +51911,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -40282,7 +51967,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -40332,7 +52021,11 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -40356,11 +52049,231 @@ Chain[A] superposed to Chain[A]: 19.241
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7kgp<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7kgp-<
 
 >7kgp-<
 
@@ -40385,6 +52298,8 @@ Chain[A] superposed to Chain[C]: 14.77
 Chain[B] superposed to Chain[B]: 0.084 
 Chain[B] superposed to Chain[C]: 7.591 
 Chain[C] superposed to Chain[C]: nan 
+
+>7kgp-<
 
 >7kgp-<
 
@@ -40448,10 +52363,14 @@ Chain[C] superposed to Chain[C]: nan
 
 >7kgp-<
 
+>7kgp-<
+
 >7kgp-7kgt<
 Chain[A] superposed to Chain[A]: 0.28 
 Chain[A] superposed to Chain[B]: 21.226 
 Chain[B] superposed to Chain[B]: 0.137 
+
+>7kgp-<
 
 >7kgp-<
 
@@ -40510,8 +52429,12 @@ Chain[B] superposed to Chain[B]: 8.034
 
 >7kgp-<
 
+>7kgp-<
+
 >7kgp-7lux<
 Chain[A] superposed to Chain[A]: 21.557 
+
+>7kgp-<
 
 >7kgp-<
 
@@ -40536,6 +52459,16 @@ Chain[A] superposed to Chain[A]: 10.892
 
 >7kgp-<
 
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
 >7kgp-7lv2<
 Chain[A] superposed to Chain[A]: 21.435 
 
@@ -40543,6 +52476,35 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >7kgp-<
 
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-<
+
+>7kgp-7n0r<
+Chain[A] superposed to Chain[A]: 21.934 
+Chain[A] superposed to Chain[B]: 21.887 
+Chain[A] superposed to Chain[C]: 23.049 
+Chain[A] superposed to Chain[D]: 23.107 
+Chain[B] superposed to Chain[B]: 18.273 
+Chain[B] superposed to Chain[C]: 9.085 
+Chain[B] superposed to Chain[D]: 9.043 
+Chain[C] superposed to Chain[C]: 7.296 
+Chain[C] superposed to Chain[D]: 7.309 
+
+>7kgp-<
+
+>-<
+
 >-<
 
 >-<
@@ -40558,6 +52520,8 @@ Chain[A] superposed to Chain[A]: 21.435
 >-<
 
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -40609,7 +52573,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -40659,6 +52627,8 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
 
 >-<
@@ -40675,7 +52645,19 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -40701,7 +52683,29 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -40753,7 +52757,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -40803,7 +52811,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -40827,6 +52839,16 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -40843,7 +52865,29 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -40895,7 +52939,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -40945,7 +52993,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -40969,6 +53021,16 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -40983,7 +53045,29 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -41035,7 +53119,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -41085,7 +53173,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -41109,6 +53201,16 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -41121,7 +53223,29 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -41173,7 +53297,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -41223,7 +53351,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -41247,6 +53379,16 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -41257,7 +53399,29 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -41309,7 +53473,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -41359,7 +53527,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -41383,6 +53555,16 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -41391,7 +53573,29 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -41443,7 +53647,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -41493,7 +53701,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -41517,13 +53729,45 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
 >-7kgq<
+
+>-<
 
 >-<
 
@@ -41575,7 +53819,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -41625,7 +53873,11 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -41649,11 +53901,211 @@ Chain[A] superposed to Chain[A]: 21.435
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7kgq<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7kgq-<
 
 >7kgq-<
 
@@ -41717,10 +54169,14 @@ Chain[C] superposed to Chain[C]: nan
 
 >7kgq-<
 
+>7kgq-<
+
 >7kgq-7kgt<
 Chain[A] superposed to Chain[A]: 0.248 
 Chain[A] superposed to Chain[B]: 23.2 
 Chain[B] superposed to Chain[B]: 0.155 
+
+>7kgq-<
 
 >7kgq-<
 
@@ -41779,8 +54235,12 @@ Chain[B] superposed to Chain[B]: 8.039
 
 >7kgq-<
 
+>7kgq-<
+
 >7kgq-7lux<
 Chain[A] superposed to Chain[A]: 21.496 
+
+>7kgq-<
 
 >7kgq-<
 
@@ -41805,6 +54265,16 @@ Chain[A] superposed to Chain[A]: 10.868
 
 >7kgq-<
 
+>7kgq-<
+
+>7kgq-<
+
+>7kgq-<
+
+>7kgq-<
+
+>7kgq-<
+
 >7kgq-7lv2<
 Chain[A] superposed to Chain[A]: 20.68 
 
@@ -41812,129 +54282,32 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >7kgq-<
 
->-<
+>7kgq-<
 
->-<
+>7kgq-<
 
->-<
+>7kgq-<
 
->-<
+>7kgq-<
 
->-<
+>7kgq-<
 
->-<
+>7kgq-<
 
->-<
+>7kgq-<
 
->-7kgr<
+>7kgq-7n0r<
+Chain[A] superposed to Chain[A]: 22.025 
+Chain[A] superposed to Chain[B]: 21.981 
+Chain[A] superposed to Chain[C]: 22.976 
+Chain[A] superposed to Chain[D]: 23.033 
+Chain[B] superposed to Chain[B]: 17.298 
+Chain[B] superposed to Chain[C]: 9.208 
+Chain[B] superposed to Chain[D]: 9.179 
+Chain[C] superposed to Chain[C]: 10.01 
+Chain[C] superposed to Chain[D]: 10.024 
 
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgs<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7kgt<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lg0<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ltu<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
+>7kgq-<
 
 >-<
 
@@ -41986,7 +54359,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42036,7 +54413,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42060,7 +54441,39 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -42110,7 +54523,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42160,7 +54577,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42184,7 +54605,39 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -42232,7 +54685,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42282,7 +54739,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42306,7 +54767,39 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -42352,7 +54845,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42402,7 +54899,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42426,7 +54927,39 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -42470,7 +55003,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42520,7 +55057,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42544,7 +55085,39 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -42586,7 +55159,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42636,7 +55213,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42660,7 +55241,39 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -42700,7 +55313,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42750,7 +55367,11 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -42774,9 +55395,339 @@ Chain[A] superposed to Chain[A]: 20.68
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7kgr<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgs<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -42818,10 +55769,14 @@ Chain[C] superposed to Chain[C]: 0.276
 
 >7kgr-<
 
+>7kgr-<
+
 >7kgr-7kgt<
 Chain[A] superposed to Chain[A]: 0.417 
 Chain[A] superposed to Chain[B]: 23.363 
 Chain[B] superposed to Chain[B]: 0.247 
+
+>7kgr-<
 
 >7kgr-<
 
@@ -42880,8 +55835,12 @@ Chain[B] superposed to Chain[B]: 8.058
 
 >7kgr-<
 
+>7kgr-<
+
 >7kgr-7lux<
 Chain[A] superposed to Chain[A]: 21.483 
+
+>7kgr-<
 
 >7kgr-<
 
@@ -42906,6 +55865,16 @@ Chain[A] superposed to Chain[A]: 11.339
 
 >7kgr-<
 
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
 >7kgr-7lv2<
 Chain[A] superposed to Chain[A]: 20.992 
 
@@ -42913,6 +55882,33 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >7kgr-<
 
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-<
+
+>7kgr-7n0r<
+Chain[A] superposed to Chain[A]: 21.168 
+Chain[A] superposed to Chain[B]: 21.119 
+Chain[A] superposed to Chain[C]: 22.756 
+Chain[A] superposed to Chain[D]: 22.804 
+Chain[B] superposed to Chain[B]: 18.046 
+Chain[B] superposed to Chain[C]: 9.155 
+Chain[B] superposed to Chain[D]: 9.124 
+Chain[C] superposed to Chain[C]: 8.082 
+Chain[C] superposed to Chain[D]: 8.075 
+
+>7kgr-<
+
 >-<
 
 >-<
@@ -42943,7 +55939,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -42993,7 +55993,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43017,9 +56021,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43051,7 +56083,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43101,7 +56137,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43125,9 +56165,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43157,7 +56225,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43207,7 +56279,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43231,9 +56307,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43261,7 +56365,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43311,7 +56419,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43335,9 +56447,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43363,7 +56503,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43413,7 +56557,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43437,9 +56585,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43463,7 +56639,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43513,7 +56693,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43537,9 +56721,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43561,7 +56773,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43611,7 +56827,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43635,9 +56855,37 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -43657,7 +56905,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43707,7 +56959,11 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43731,11 +56987,41 @@ Chain[A] superposed to Chain[A]: 20.992
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7kgs-<
 
 >7kgs-<
 
@@ -43755,6 +57041,8 @@ Chain[A] superposed to Chain[A]: 20.992
 Chain[A] superposed to Chain[A]: 0.295 
 Chain[A] superposed to Chain[B]: 21.098 
 Chain[B] superposed to Chain[B]: 0.16 
+
+>7kgs-<
 
 >7kgs-<
 
@@ -43813,8 +57101,12 @@ Chain[B] superposed to Chain[B]: 7.961
 
 >7kgs-<
 
+>7kgs-<
+
 >7kgs-7lux<
 Chain[A] superposed to Chain[A]: 21.513 
+
+>7kgs-<
 
 >7kgs-<
 
@@ -43839,6 +57131,16 @@ Chain[A] superposed to Chain[A]: 10.826
 
 >7kgs-<
 
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
 >7kgs-7lv2<
 Chain[A] superposed to Chain[A]: 17.752 
 
@@ -43846,6 +57148,35 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >7kgs-<
 
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-<
+
+>7kgs-7n0r<
+Chain[A] superposed to Chain[A]: 21.917 
+Chain[A] superposed to Chain[B]: 21.87 
+Chain[A] superposed to Chain[C]: 22.924 
+Chain[A] superposed to Chain[D]: 22.982 
+Chain[B] superposed to Chain[B]: 17.212 
+Chain[B] superposed to Chain[C]: 9.233 
+Chain[B] superposed to Chain[D]: 9.205 
+Chain[C] superposed to Chain[C]: 10.222 
+Chain[C] superposed to Chain[D]: 10.16 
+
+>7kgs-<
+
+>-<
+
 >-<
 
 >-<
@@ -43859,6 +57190,8 @@ Chain[A] superposed to Chain[A]: 17.752
 >-<
 
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43908,7 +57241,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -43932,6 +57269,16 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -43948,7 +57295,29 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -43998,7 +57367,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44022,6 +57395,16 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -44036,7 +57419,29 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -44086,7 +57491,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44110,6 +57519,16 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -44122,7 +57541,29 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -44172,7 +57613,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44196,6 +57641,16 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -44206,7 +57661,29 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -44256,7 +57733,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44280,6 +57761,16 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
@@ -44288,7 +57779,29 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -44338,7 +57851,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44362,13 +57879,45 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
 >-7kgt<
+
+>-<
 
 >-<
 
@@ -44418,7 +57967,11 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44442,11 +57995,155 @@ Chain[A] superposed to Chain[A]: 17.752
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7kgt<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7kgt-<
 
 >7kgt-<
 
@@ -44504,8 +58201,12 @@ Chain[B] superposed to Chain[B]: 8.004
 
 >7kgt-<
 
+>7kgt-<
+
 >7kgt-7lux<
 Chain[A] superposed to Chain[A]: 21.61 
+
+>7kgt-<
 
 >7kgt-<
 
@@ -44530,6 +58231,16 @@ Chain[A] superposed to Chain[A]: 10.914
 
 >7kgt-<
 
+>7kgt-<
+
+>7kgt-<
+
+>7kgt-<
+
+>7kgt-<
+
+>7kgt-<
+
 >7kgt-7lv2<
 Chain[A] superposed to Chain[A]: 18.607 
 
@@ -44537,77 +58248,30 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >7kgt-<
 
->-<
+>7kgt-<
 
->-<
+>7kgt-<
 
->-<
+>7kgt-<
 
->-<
+>7kgt-<
 
->-<
+>7kgt-<
 
->-<
+>7kgt-<
 
->-7lg0<
+>7kgt-<
 
->-<
+>7kgt-7n0r<
+Chain[A] superposed to Chain[A]: 21.647 
+Chain[A] superposed to Chain[B]: 21.601 
+Chain[A] superposed to Chain[C]: 23.054 
+Chain[A] superposed to Chain[D]: 23.113 
+Chain[B] superposed to Chain[B]: 17.34 
+Chain[B] superposed to Chain[C]: 9.248 
+Chain[B] superposed to Chain[D]: 9.218 
 
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7ltu<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
+>7kgt-<
 
 >-<
 
@@ -44657,7 +58321,11 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44681,7 +58349,39 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -44729,7 +58429,11 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44753,7 +58457,39 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -44799,7 +58535,11 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44823,7 +58563,39 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -44867,7 +58639,11 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44891,7 +58667,39 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -44933,7 +58741,11 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -44957,7 +58769,39 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -44997,7 +58841,11 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45021,9 +58869,231 @@ Chain[A] superposed to Chain[A]: 18.607
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7lg0<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45062,8 +59132,12 @@ Chain[B] superposed to Chain[B]: 8.101
 
 >7lg0-<
 
+>7lg0-<
+
 >7lg0-7lux<
 Chain[A] superposed to Chain[A]: 21.151 
+
+>7lg0-<
 
 >7lg0-<
 
@@ -45088,6 +59162,16 @@ Chain[A] superposed to Chain[A]: 21.531
 
 >7lg0-<
 
+>7lg0-<
+
+>7lg0-<
+
+>7lg0-<
+
+>7lg0-<
+
+>7lg0-<
+
 >7lg0-7lv2<
 Chain[A] superposed to Chain[A]: 21.324 
 
@@ -45095,63 +59179,32 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >7lg0-<
 
->-<
+>7lg0-<
 
->-<
+>7lg0-<
 
->-<
+>7lg0-<
 
->-<
+>7lg0-<
 
->-<
+>7lg0-<
 
->-<
+>7lg0-<
 
->-<
+>7lg0-<
 
->-7ltu<
+>7lg0-7n0r<
+Chain[A] superposed to Chain[A]: 23.668 
+Chain[A] superposed to Chain[B]: 23.494 
+Chain[A] superposed to Chain[C]: 22.321 
+Chain[A] superposed to Chain[D]: 22.396 
+Chain[B] superposed to Chain[B]: 17.031 
+Chain[B] superposed to Chain[C]: 9.201 
+Chain[B] superposed to Chain[D]: 9.163 
+Chain[C] superposed to Chain[C]: 9.195 
+Chain[C] superposed to Chain[D]: 9.189 
 
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7lux<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
-
->-<
+>7lg0-<
 
 >-<
 
@@ -45183,7 +59236,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45207,7 +59264,37 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45239,7 +59326,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45263,7 +59354,37 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45293,7 +59414,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45317,7 +59442,37 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45345,7 +59500,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45369,7 +59528,37 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45395,7 +59584,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45419,7 +59612,37 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45443,7 +59666,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45467,7 +59694,37 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -45489,7 +59746,11 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
 >-7lux<
+
+>-<
 
 >-<
 
@@ -45513,11 +59774,119 @@ Chain[A] superposed to Chain[A]: 21.324
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7ltu<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7ltu-<
 
 >7ltu-<
 
@@ -45550,8 +59919,20 @@ Chain[A] superposed to Chain[A]: 0.413
 
 >7ltu-<
 
+>7ltu-<
+
 >7ltu-7luz<
 Chain[A] superposed to Chain[A]: nan 
+
+>7ltu-<
+
+>7ltu-<
+
+>7ltu-<
+
+>7ltu-<
+
+>7ltu-<
 
 >7ltu-<
 
@@ -45566,43 +59947,30 @@ Chain[A] superposed to Chain[A]: nan
 
 >7ltu-<
 
->-<
+>7ltu-<
 
->-<
+>7ltu-<
 
->-<
+>7ltu-<
 
->-<
+>7ltu-<
 
->-<
+>7ltu-<
 
->-<
+>7ltu-<
 
->-7lux<
+>7ltu-<
 
->-<
+>7ltu-7n0r<
+Chain[A] superposed to Chain[A]: 10.427 
+Chain[A] superposed to Chain[B]: 10.487 
+Chain[A] superposed to Chain[C]: 4.263 
+Chain[A] superposed to Chain[D]: 4.284 
+Chain[B] superposed to Chain[B]: 10.462 
+Chain[B] superposed to Chain[C]: 4.295 
+Chain[B] superposed to Chain[D]: 4.317 
 
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-<
-
->-7luz<
-
->-<
-
->-<
-
->-<
-
->-7lv2<
+>7ltu-<
 
 >-<
 
@@ -45634,6 +60002,8 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
 >-7luz<
 
 >-<
@@ -45642,7 +60012,39 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -45672,6 +60074,8 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
 >-7luz<
 
 >-<
@@ -45680,7 +60084,39 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -45708,6 +60144,8 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
 >-7luz<
 
 >-<
@@ -45716,7 +60154,39 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -45742,6 +60212,8 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
 >-7luz<
 
 >-<
@@ -45750,7 +60222,39 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -45774,6 +60278,8 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
 >-7luz<
 
 >-<
@@ -45782,7 +60288,39 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
 
 >-<
 
@@ -45804,7 +60342,19 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45817,6 +60367,148 @@ Chain[A] superposed to Chain[A]: nan
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7lux<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7lux-<
 
 >7lux-<
 
@@ -45841,6 +60533,16 @@ Chain[A] superposed to Chain[A]: nan
 
 >7lux-<
 
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
 >7lux-7lv2<
 Chain[A] superposed to Chain[A]: nan 
 
@@ -45848,6 +60550,30 @@ Chain[A] superposed to Chain[A]: nan
 
 >7lux-<
 
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-<
+
+>7lux-7n0r<
+Chain[A] superposed to Chain[A]: 10.246 
+Chain[A] superposed to Chain[B]: 10.306 
+Chain[A] superposed to Chain[C]: 4.421 
+Chain[A] superposed to Chain[D]: 4.437 
+
+>7lux-<
+
+>-<
+
 >-<
 
 >-<
@@ -45861,6 +60587,16 @@ Chain[A] superposed to Chain[A]: nan
 >-<
 
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45884,7 +60620,37 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45906,7 +60672,37 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45926,7 +60722,37 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45944,7 +60770,37 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45960,7 +60816,37 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45974,7 +60860,37 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
 >-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
 
 >-<
 
@@ -45987,6 +60903,76 @@ Chain[A] superposed to Chain[A]: nan
 >-<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7luz<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
 
 >7luz-<
 
@@ -46001,6 +60987,38 @@ Chain[A] superposed to Chain[A]: nan
 
 >7luz-<
 
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-<
+
+>7luz-7n0r<
+Chain[A] superposed to Chain[A]: 9.766 
+Chain[A] superposed to Chain[B]: 9.744 
+Chain[A] superposed to Chain[C]: 2.902 
+Chain[A] superposed to Chain[D]: 2.901 
+
+>7luz-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-<
 
 >-<
@@ -46013,15 +61031,229 @@ Chain[A] superposed to Chain[A]: nan
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
 
 >-<
 
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
 >-7lv2<
 
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7lv2<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
 
 >-<
 
@@ -46029,4 +61261,134 @@ Chain[A] superposed to Chain[A]: nan
 
 >7lv2-<
 
+>7lv2-<
+
+>7lv2-<
+
+>7lv2-<
+
+>7lv2-<
+
+>7lv2-<
+
+>7lv2-<
+
+>7lv2-<
+
+>7lv2-7n0r<
+Chain[A] superposed to Chain[A]: 9.296 
+Chain[A] superposed to Chain[B]: 9.264 
+Chain[A] superposed to Chain[C]: 11.821 
+Chain[A] superposed to Chain[D]: 11.858 
+
+>7lv2-<
+
 >-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>-7n0r<
+
+>-<
+
+>7n0r-<

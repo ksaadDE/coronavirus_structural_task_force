@@ -251,10 +251,12 @@ def update_files(repo_path, taxo, pdb_protein_dict, c_rev_pdb_lst, df):
     for pdb_id, protein_name in pdb_protein_dict.items():
         # create protein folder
         folder_path = os.path.join(repo_path, protein_name, taxo)
+        print("folder_path - ", folder_path)
         mk_dir(folder_path)
         # create pdb_id folder
         id_path = os.path.join(repo_path, protein_name, taxo, pdb_id)
         mk_dir(id_path)
+        print("id_path - ", id_path)
         # download relevant files
         get_mtz(pdb_id, id_path)
         get_pdb(pdb_id, id_path, "pdb")
@@ -264,8 +266,9 @@ def update_files(repo_path, taxo, pdb_protein_dict, c_rev_pdb_lst, df):
     for pdb_id in c_rev_pdb_lst:
         # get path to entry
         try:
-            id_path = os.path.join(repo_path[repo_path.find("/pdb")], df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item())
+            id_path = os.path.join(repo_path[:repo_path.find("/pdb")], df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item())
             # moves the old files in old
+            print("rev id_path - ", id_path)
             to_old(pdb_id, id_path, "cif")
             to_old(pdb_id, id_path, "pdb")
             to_old(pdb_id, id_path, "mtz")

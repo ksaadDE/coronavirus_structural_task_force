@@ -1,0 +1,15 @@
+##### 161 revised structures #####
+7nx9, 7nx7, 7nx8, 7nx6, 7nxc, 7nxa, 7nxb, 7nt9, 7ntc, 7nta, 7o7y, 7o7z, 7o80, 7dx5, 7dx6, 7dx3, 7dx9, 7dx7, 7dx8, 7dx1, 7dx2, 7dx0, 7l06, 7l09, 7l02, 7kzb, 5rso, 5rt0, 5rsn, 5rsq, 5rt2, 5rsp, 5rt1, 5rss, 5rt4, 5rsr, 5rt3, 5rsu, 5rt6, 5rst, 5rt5, 5rsg, 5rsf, 5rsi, 5rsh, 5rsk, 5rsj, 5rsm, 5rsl, 5rsc, 5rsb, 5rse, 5rsd, 5rs7, 5rs9, 5rs8, 5rtp, 5ru1, 5rto, 5ru0, 5rtr, 5ru3, 5rtq, 5ru2, 5rtt, 5ru5, 5rts, 5ru4, 5rtv, 5ru7, 5rtu, 5ru6, 5rth, 5rtg, 5rtj, 5rti, 5rtl, 5rtk, 5rtn, 5rtm, 5rtb, 5rta, 5rtd, 5rtc, 5rtf, 5rte, 5rsw, 5rt8, 5rsv, 5rt7, 5rsy, 5rsx, 5rt9, 5rsz, 5ruq, 5rv2, 5rup, 5rv1, 5rus, 5rv4, 5rur, 5rv3, 5ruu, 5rv6, 5rut, 5rv5, 5ruw, 5rv8, 5ruv, 5rv7, 5rui, 5ruh, 5ruk, 5ruj, 5rum, 5rul, 5ruo, 5rv0, 5run, 5rua, 5ruc, 5rue, 5rud, 5rug, 5ruf, 5rtx, 5ru9, 5rtw, 5ru8, 5rtz, 5rty, 5rvr, 5rvq, 5rvt, 5rvs, 5rvv, 5rvu, 5rvj, 5rvi, 5rvl, 5rvk, 5rvn, 5rvm, 5rvp, 5rvo, 5rvb, 5rva, 5rvd, 5rvc, 5rvf, 5rve, 5rvh, 5rvg, 5ruy, 5rux, 5rv9, 5ruz, 6zru, 6zrt, 7b62, 7cbt
+
+##### 30 new structures #####
+7n0s, 7n0i, 7n33, 7ek6, 7eq4, 5sab, 5saa, 5sa4, 5sa6, 5sa5, 5sa8, 5sa7, 5sa9, 5sad, 5sac, 5saf, 5sae, 5sah, 5sag, 5sai, 7djz, 7dk0, 7e8c, 7e8f, 7e7y, 7e88, 7e7x, 7e86, 7cyh, 7cyp
+
+##### new structures by protein #####
+endornase
+>5saa 5sad 5sa5 5sa7 5sag 5sab 5sah 5sa4 5sai 5sa6 5saf 5sa9 5sae 5sa8 5sac 7n33 
+leader_protein
+>7eq4 
+nucleocapsid_protein
+>7n0s 7n0i 
+surface_glycoprotein
+>7e7x 7cyp 7e8f 7e88 7djz 7e8c 7e86 7cyh 7ek6 7dk0 7e7y 

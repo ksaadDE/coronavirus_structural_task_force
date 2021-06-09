@@ -12,7 +12,7 @@ abc_lst = string.ascii_uppercase
 import prody as pry
 pry.confProDy(verbosity='none')
 
-def main (id_dict, path):
+def main (prot_list, path):
     """
     :param id_dict: dict: keys contain the proteins which have to be analysed
     :param path: string: path to repo
@@ -21,7 +21,7 @@ def main (id_dict, path):
     #get all ids out of list.txt
     pdb_id = open(path + "/list.txt")
     pdb_id = pdb_id.read().split("\n")
-    for protein in id_dict:
+    for protein in prot_list:
         #Here exceptions can be added, e.g. for proteins which have to many entries
         repo_path = path+"/"+protein
         file_walker(protein, pdb_id, repo_path+"/SARS-CoV-2/")

@@ -41,6 +41,7 @@ KEYWDS    FAB-DIMERIZED, GLYCAN-REACTIVE, ANTIBODIES, HIV, VIRAL PROTEIN-IMMUNE
 KEYWDS   2 SYSTEM COMPLEX                                                       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    K.MANNE,R.HENDERSON,P.ACHARYA                                         
+REVDAT   3   09-JUN-21 7L02    1       JRNL                                     
 REVDAT   2   02-JUN-21 7L02    1       JRNL                                     
 REVDAT   1   30-DEC-20 7L02    0                                                
 JRNL        AUTH   W.B.WILLIAMS,R.R.MEYERHOFF,R.J.EDWARDS,H.LI,K.MANNE,         
@@ -56,7 +57,7 @@ JRNL        AUTH10 D.FERA,P.D.KWONG,R.A.SEDER,A.BARTESAGHI,G.M.SHAW,P.ACHARYA,
 JRNL        AUTH11 B.F.HAYNES                                                   
 JRNL        TITL   FAB-DIMERIZED GLYCAN-REACTIVE ANTIBODIES ARE A STRUCTURAL    
 JRNL        TITL 2 CATEGORY OF NATURAL ANTIBODIES.                              
-JRNL        REF    CELL                                       2021              
+JRNL        REF    CELL                          V. 184  2955 2021              
 JRNL        REFN                   ISSN 1097-4172                               
 JRNL        PMID   34019795                                                     
 JRNL        DOI    10.1016/J.CELL.2021.04.042                                   

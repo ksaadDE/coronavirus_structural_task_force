@@ -36,7 +36,7 @@ Download all data in the methyltransferase subdirectory: ```python git_fetch.py 
 
 X-ray Crystallography: 1064
 <br>
-3D Electron Microscopy: 387
+3D Electron Microscopy: 390
 <br>
 Solution NMR: 30
 <br>

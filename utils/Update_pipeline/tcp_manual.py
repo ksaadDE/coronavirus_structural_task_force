@@ -2,11 +2,11 @@ import os
 import shutil
 import pandas as pd
 """
-script to manually assign proteins in non_assigned folder
+script to manually assign proteins in non_assigned folder, call main 
 """
 
 def main(pdb_id, protein):
-    repo_path = os.path.abspath(os.join(__file__ ,"../../..","pdb"))
+    repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
     move_n_del(repo_path, pdb_id, protein)
 
 def move_n_del(repo_path, pdb_id, protein):

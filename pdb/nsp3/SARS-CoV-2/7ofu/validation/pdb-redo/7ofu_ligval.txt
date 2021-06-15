@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (HE9 A 601) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.307   0.334
+Real-space correlation            : 0.824   0.777
+EDIAm density fit                 : -0.092   0.075
+OPIA density coverage (%)         : 33.3    33.3
+ 
+Energy of formation (kJ/mol)      : -391.678 -91.620
+Hydrogen bond energy (kJ/mol)     : 0  0
+Number of hydrogen bonds          : 0  0
+Number of bumps                   : 3  2
+Number of hydrophobic interactions: 4  5
+Hydrophobic interaction strength  : 2.716  4.120
+Number of Pi-Pi interactions      : 2  3
+Pi-Pi interaction strength        : 2.000  3.000
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1952
+ 

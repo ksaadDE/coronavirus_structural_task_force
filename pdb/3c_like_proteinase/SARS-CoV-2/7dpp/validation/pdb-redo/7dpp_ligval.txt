@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (MYC A 401) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.131   0.095
+Real-space correlation            : 0.895   0.915
+EDIAm density fit                 : 0.866   0.881
+OPIA density coverage (%)         : 73.9    78.3
+ 
+Energy of formation (kJ/mol)      : -1043.882 -1045.030
+Hydrogen bond energy (kJ/mol)     : 0  -6.65
+Number of hydrogen bonds          : 0  1
+Number of bumps                   : 8  11
+Number of hydrophobic interactions: 6  7
+Hydrophobic interaction strength  : 4.678  5.526
+Number of Pi-Pi interactions      : 3  4
+Pi-Pi interaction strength        : 0.774  1.070
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.2218
+ 

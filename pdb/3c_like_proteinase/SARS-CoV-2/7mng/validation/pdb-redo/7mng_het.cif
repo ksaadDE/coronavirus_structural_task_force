@@ -1,0 +1,482 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ZL7      ZL7 '.                                   ' .                  62  36 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-ZL7  CYS      .        .        ZL7      .        .
+ bond_CYS-SG_=_ZL7-C19
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_ZL7
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ ZL7           O5     O    O         0.000      6.712  -31.583   19.650
+ ZL7           C20    C    C         0.000      7.729  -31.241   20.259
+ ZL7           N3     N    N         0.000      8.233  -31.869   21.332
+ ZL7           C21    C    CH1       0.000      7.719  -33.091   21.860
+ ZL7           H21    H    H         0.000      8.316  -33.987   21.641
+ ZL7           C23    C    CH2       0.000      6.246  -33.304   21.920
+ ZL7           H231   H    H         0.000      5.753  -34.278   21.957
+ ZL7           H232   H    H         0.000      5.493  -32.519   21.820
+ ZL7           C22    C    CH2       0.000      7.029  -33.090   23.181
+ ZL7           H222   H    H         0.000      7.440  -33.884   23.808
+ ZL7           H221   H    H         0.000      7.180  -32.126   23.671
+ ZL7           C19    C    CH1       0.000      8.476  -30.007   19.894
+ ZL7           H19    H    H         0.000      8.568  -29.920   18.802
+ ZL7           O4     O    OH1       0.000      9.783  -30.040   20.513
+ ZL7           HO4    H    H         0.000     10.274  -29.239   20.279
+ ZL7           C3     C    CH1       0.000      7.714  -28.804   20.469
+ ZL7           H3     H    H         0.000      6.657  -28.951   20.206
+ ZL7           C2     C    CH2       0.000      8.126  -27.467   19.869
+ ZL7           H210   H    H         0.000      7.336  -26.744   20.086
+ ZL7           H220   H    H         0.000      8.213  -27.596   18.788
+ ZL7           C1     C    CH3       0.000      9.437  -26.965   20.425
+ ZL7           H130   H    H         0.000      9.350  -26.840   21.473
+ ZL7           H120   H    H         0.000     10.201  -27.667   20.214
+ ZL7           H110   H    H         0.000      9.677  -26.036   19.977
+ ZL7           N1     N    N         0.000      7.775  -28.762   21.925
+ ZL7           C4     C    C         0.000      6.765  -29.198   22.686
+ ZL7           O1     O    O         0.000      5.748  -29.707   22.209
+ ZL7           C5     C    CH1       0.000      6.869  -29.066   24.206
+ ZL7           H5     H    H         0.000      7.155  -30.045   24.616
+ ZL7           C6     C    C1        0.000      5.502  -28.686   24.787
+ ZL7           H6     H    H         0.000      5.125  -27.678   24.743
+ ZL7           S1     S    ST        0.000      4.572  -30.005   25.538
+ ZL7           O2     O    OS       -1.000      3.419  -29.433   26.168
+ ZL7           O3     O    OS       -1.000      5.464  -30.777   26.350
+ ZL7           C7     C    C1        0.000      4.009  -31.043   24.202
+ ZL7           H7     H    H         0.000      4.674  -31.674   23.637
+ ZL7           C8     C    CH1       0.000      2.525  -30.968   23.926
+ ZL7           H8     H    H         0.000      2.111  -29.950   23.955
+ ZL7           C9     C    CH2       0.000      1.876  -31.869   22.922
+ ZL7           H91    H    H         0.000      2.310  -32.793   22.534
+ ZL7           H92    H    H         0.000      0.954  -31.646   22.381
+ ZL7           C10    C    CH2       0.000      1.575  -32.031   24.375
+ ZL7           H102   H    H         0.000      2.089  -32.719   25.050
+ ZL7           H101   H    H         0.000      0.733  -31.572   24.897
+ ZL7           N2     N    NT1       0.000      7.843  -28.070   24.678
+ ZL7           HN2    H    H         0.000      7.997  -27.196   24.149
+ ZL7           C11    C    CH1       0.000      8.599  -28.337   25.921
+ ZL7           H11    H    H         0.000      7.866  -28.398   26.738
+ ZL7           C18    C    CT        0.000      9.510  -27.156   26.226
+ ZL7           F4     F    F         0.000      8.996  -26.023   25.728
+ ZL7           F3     F    F         0.000      9.656  -27.000   27.548
+ ZL7           F2     F    F         0.000     10.743  -27.266   25.726
+ ZL7           C12    C    CR6       0.000      9.301  -29.687   25.850
+ ZL7           C13    C    CR16      0.000     10.117  -30.009   24.779
+ ZL7           H13    H    H         0.000     10.345  -29.261   24.030
+ ZL7           C14    C    CSP       0.000     10.640  -31.281   24.665
+ ZL7           C17    C    CR16      0.000      9.121  -30.636   26.847
+ ZL7           H17    H    H         0.000      8.481  -30.405   27.690
+ ZL7           C16    C    CR16      0.000      9.743  -31.873   26.786
+ ZL7           H16    H    H         0.000      9.597  -32.610   27.567
+ ZL7           C15    C    CR6       0.000     10.544  -32.135   25.715
+ ZL7           F1     F    F         0.000     11.156  -33.342   25.616
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ ZL7      O5     n/a    C20    START
+ ZL7      C20    O5     C19    .
+ ZL7      N3     C20    C21    .
+ ZL7      C21    N3     C23    .
+ ZL7      H21    C21    .      .
+ ZL7      C23    C21    C22    .
+ ZL7      H231   C23    .      .
+ ZL7      H232   C23    .      .
+ ZL7      C22    C23    H221   .
+ ZL7      H222   C22    .      .
+ ZL7      H221   C22    .      .
+ ZL7      C19    C20    C3     .
+ ZL7      H19    C19    .      .
+ ZL7      O4     C19    HO4    .
+ ZL7      HO4    O4     .      .
+ ZL7      C3     C19    N1     .
+ ZL7      H3     C3     .      .
+ ZL7      C2     C3     C1     .
+ ZL7      H210   C2     .      .
+ ZL7      H220   C2     .      .
+ ZL7      C1     C2     H110   .
+ ZL7      H130   C1     .      .
+ ZL7      H120   C1     .      .
+ ZL7      H110   C1     .      .
+ ZL7      N1     C3     C4     .
+ ZL7      C4     N1     C5     .
+ ZL7      O1     C4     .      .
+ ZL7      C5     C4     N2     .
+ ZL7      H5     C5     .      .
+ ZL7      C6     C5     S1     .
+ ZL7      H6     C6     .      .
+ ZL7      S1     C6     C7     .
+ ZL7      O2     S1     .      .
+ ZL7      O3     S1     .      .
+ ZL7      C7     S1     C8     .
+ ZL7      H7     C7     .      .
+ ZL7      C8     C7     C9     .
+ ZL7      H8     C8     .      .
+ ZL7      C9     C8     C10    .
+ ZL7      H91    C9     .      .
+ ZL7      H92    C9     .      .
+ ZL7      C10    C9     H101   .
+ ZL7      H102   C10    .      .
+ ZL7      H101   C10    .      .
+ ZL7      N2     C5     C11    .
+ ZL7      HN2    N2     .      .
+ ZL7      C11    N2     C12    .
+ ZL7      H11    C11    .      .
+ ZL7      C18    C11    F2     .
+ ZL7      F4     C18    .      .
+ ZL7      F3     C18    .      .
+ ZL7      F2     C18    .      .
+ ZL7      C12    C11    C17    .
+ ZL7      C13    C12    C14    .
+ ZL7      H13    C13    .      .
+ ZL7      C14    C13    .      .
+ ZL7      C17    C12    C16    .
+ ZL7      H17    C17    .      .
+ ZL7      C16    C17    C15    .
+ ZL7      H16    C16    .      .
+ ZL7      C15    C16    F1     .
+ ZL7      F1     C15    .      END
+ ZL7      C10    C8     .    ADD
+ ZL7      C15    C14    .    ADD
+ ZL7      C21    C22    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ ZL7      C10    C8        single      1.524    0.020
+ ZL7      C10    C9        single      1.524    0.020
+ ZL7      C15    C14       double      1.285    0.020
+ ZL7      C15    C16       aromatic    1.390    0.020
+ ZL7      F1     C15       single      1.345    0.020
+ ZL7      C19    C20       single      1.500    0.020
+ ZL7      C20    O5        double      1.220    0.020
+ ZL7      N3     C20       deloc       1.330    0.020
+ ZL7      C21    C22       single      1.524    0.020
+ ZL7      C23    C21       single      1.524    0.020
+ ZL7      C21    N3        single      1.455    0.020
+ ZL7      C22    C23       single      1.524    0.020
+ ZL7      C12    C11       single      1.480    0.020
+ ZL7      C18    C11       single      1.524    0.020
+ ZL7      C11    N2        single      1.475    0.020
+ ZL7      C13    C12       aromatic    1.390    0.020
+ ZL7      C17    C12       aromatic    1.390    0.020
+ ZL7      C14    C13       aromatic    1.285    0.020
+ ZL7      C16    C17       aromatic    1.390    0.020
+ ZL7      F2     C18       single      1.320    0.020
+ ZL7      F3     C18       single      1.320    0.020
+ ZL7      F4     C18       single      1.320    0.020
+ ZL7      C3     C19       single      1.524    0.020
+ ZL7      O4     C19       single      1.432    0.020
+ ZL7      C1     C2        single      1.513    0.020
+ ZL7      C2     C3        single      1.524    0.020
+ ZL7      N1     C3        single      1.455    0.020
+ ZL7      C4     N1        deloc       1.330    0.020
+ ZL7      O1     C4        double      1.220    0.020
+ ZL7      C5     C4        single      1.500    0.020
+ ZL7      C6     C5        single      1.510    0.020
+ ZL7      N2     C5        single      1.475    0.020
+ ZL7      S1     C6        double      1.565    0.020
+ ZL7      O2     S1        deloc       1.480    0.020
+ ZL7      O3     S1        deloc       1.480    0.020
+ ZL7      C7     S1        double      1.565    0.020
+ ZL7      C8     C7        single      1.510    0.020
+ ZL7      C9     C8        single      1.524    0.020
+ ZL7      H101   C10       single      1.092    0.020
+ ZL7      H102   C10       single      1.092    0.020
+ ZL7      H21    C21       single      1.099    0.020
+ ZL7      H221   C22       single      1.092    0.020
+ ZL7      H222   C22       single      1.092    0.020
+ ZL7      H11    C11       single      1.099    0.020
+ ZL7      H16    C16       single      1.083    0.020
+ ZL7      H19    C19       single      1.099    0.020
+ ZL7      H231   C23       single      1.092    0.020
+ ZL7      H232   C23       single      1.092    0.020
+ ZL7      H110   C1        single      1.059    0.020
+ ZL7      H120   C1        single      1.059    0.020
+ ZL7      H130   C1        single      1.059    0.020
+ ZL7      H210   C2        single      1.092    0.020
+ ZL7      H220   C2        single      1.092    0.020
+ ZL7      H3     C3        single      1.099    0.020
+ ZL7      H5     C5        single      1.099    0.020
+ ZL7      H6     C6        single      1.077    0.020
+ ZL7      H7     C7        single      1.077    0.020
+ ZL7      H8     C8        single      1.099    0.020
+ ZL7      H91    C9        single      1.092    0.020
+ ZL7      H92    C9        single      1.092    0.020
+ ZL7      HN2    N2        single      1.033    0.020
+ ZL7      H13    C13       single      1.083    0.020
+ ZL7      H17    C17       single      1.083    0.020
+ ZL7      HO4    O4        single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ ZL7      O5     C20    N3      123.000    3.000
+ ZL7      O5     C20    C19     120.500    3.000
+ ZL7      N3     C20    C19     116.500    3.000
+ ZL7      C20    N3     C21     121.000    3.000
+ ZL7      N3     C21    H21     109.470    3.000
+ ZL7      N3     C21    C23     105.000    3.000
+ ZL7      N3     C21    C22     105.000    3.000
+ ZL7      H21    C21    C23     108.340    3.000
+ ZL7      H21    C21    C22     108.340    3.000
+ ZL7      C23    C21    C22      60.000    3.000
+ ZL7      C21    C23    H231    109.470    3.000
+ ZL7      C21    C23    H232    109.470    3.000
+ ZL7      C21    C23    C22      60.000    3.000
+ ZL7      H231   C23    H232    107.900    3.000
+ ZL7      H231   C23    C22     109.470    3.000
+ ZL7      H232   C23    C22     109.470    3.000
+ ZL7      C23    C22    H222    109.470    3.000
+ ZL7      C23    C22    H221    109.470    3.000
+ ZL7      C23    C22    C21      60.000    3.000
+ ZL7      H222   C22    H221    107.900    3.000
+ ZL7      H222   C22    C21     109.470    3.000
+ ZL7      H221   C22    C21     109.470    3.000
+ ZL7      C20    C19    H19     108.810    3.000
+ ZL7      C20    C19    O4      109.470    3.000
+ ZL7      C20    C19    C3      109.470    3.000
+ ZL7      H19    C19    O4      109.470    3.000
+ ZL7      H19    C19    C3      108.340    3.000
+ ZL7      O4     C19    C3      109.470    3.000
+ ZL7      C19    O4     HO4     109.470    3.000
+ ZL7      C19    C3     H3      108.340    3.000
+ ZL7      C19    C3     C2      111.000    3.000
+ ZL7      C19    C3     N1      105.000    3.000
+ ZL7      H3     C3     C2      108.340    3.000
+ ZL7      H3     C3     N1      109.470    3.000
+ ZL7      C2     C3     N1      105.000    3.000
+ ZL7      C3     C2     H210    109.470    3.000
+ ZL7      C3     C2     H220    109.470    3.000
+ ZL7      C3     C2     C1      111.000    3.000
+ ZL7      H210   C2     H220    107.900    3.000
+ ZL7      H210   C2     C1      109.470    3.000
+ ZL7      H220   C2     C1      109.470    3.000
+ ZL7      C2     C1     H130    109.470    3.000
+ ZL7      C2     C1     H120    109.470    3.000
+ ZL7      C2     C1     H110    109.470    3.000
+ ZL7      H130   C1     H120    109.470    3.000
+ ZL7      H130   C1     H110    109.470    3.000
+ ZL7      H120   C1     H110    109.470    3.000
+ ZL7      C3     N1     C4      121.000    3.000
+ ZL7      N1     C4     O1      123.000    3.000
+ ZL7      N1     C4     C5      116.500    3.000
+ ZL7      O1     C4     C5      120.500    3.000
+ ZL7      C4     C5     H5      108.810    3.000
+ ZL7      C4     C5     C6      109.470    3.000
+ ZL7      C4     C5     N2      109.500    3.000
+ ZL7      H5     C5     C6      108.810    3.000
+ ZL7      H5     C5     N2      109.500    3.000
+ ZL7      C6     C5     N2      109.500    3.000
+ ZL7      C5     C6     H6      120.000    3.000
+ ZL7      C5     C6     S1      120.000    3.000
+ ZL7      H6     C6     S1      120.000    3.000
+ ZL7      C6     S1     O2      109.500    3.000
+ ZL7      C6     S1     O3      109.500    3.000
+ ZL7      C6     S1     C7      109.500    3.000
+ ZL7      O2     S1     O3      109.500    3.000
+ ZL7      O2     S1     C7      109.500    3.000
+ ZL7      O3     S1     C7      109.500    3.000
+ ZL7      S1     C7     H7      120.000    3.000
+ ZL7      S1     C7     C8      120.000    3.000
+ ZL7      H7     C7     C8      120.000    3.000
+ ZL7      C7     C8     H8      108.810    3.000
+ ZL7      C7     C8     C9      109.470    3.000
+ ZL7      C7     C8     C10     109.470    3.000
+ ZL7      H8     C8     C9      108.340    3.000
+ ZL7      H8     C8     C10     108.340    3.000
+ ZL7      C9     C8     C10      60.000    3.000
+ ZL7      C8     C9     H91     109.470    3.000
+ ZL7      C8     C9     H92     109.470    3.000
+ ZL7      C8     C9     C10      60.000    3.000
+ ZL7      H91    C9     H92     107.900    3.000
+ ZL7      H91    C9     C10     109.470    3.000
+ ZL7      H92    C9     C10     109.470    3.000
+ ZL7      C9     C10    H102    109.470    3.000
+ ZL7      C9     C10    H101    109.470    3.000
+ ZL7      C9     C10    C8       60.000    3.000
+ ZL7      H102   C10    H101    107.900    3.000
+ ZL7      H102   C10    C8      109.470    3.000
+ ZL7      H101   C10    C8      109.470    3.000
+ ZL7      C5     N2     HN2     109.500    3.000
+ ZL7      C5     N2     C11     109.500    3.000
+ ZL7      HN2    N2     C11     109.500    3.000
+ ZL7      N2     C11    H11     109.500    3.000
+ ZL7      N2     C11    C18     109.500    3.000
+ ZL7      N2     C11    C12     109.500    3.000
+ ZL7      H11    C11    C18     108.340    3.000
+ ZL7      H11    C11    C12     109.470    3.000
+ ZL7      C18    C11    C12     109.470    3.000
+ ZL7      C11    C18    F4      109.470    3.000
+ ZL7      C11    C18    F3      109.470    3.000
+ ZL7      C11    C18    F2      109.470    3.000
+ ZL7      F4     C18    F3      109.470    3.000
+ ZL7      F4     C18    F2      109.470    3.000
+ ZL7      F3     C18    F2      109.470    3.000
+ ZL7      C11    C12    C13     120.000    3.000
+ ZL7      C11    C12    C17     120.000    3.000
+ ZL7      C13    C12    C17     120.000    3.000
+ ZL7      C12    C13    H13     120.000    3.000
+ ZL7      C12    C13    C14     120.000    3.000
+ ZL7      H13    C13    C14     120.000    3.000
+ ZL7      C13    C14    C15     180.000    3.000
+ ZL7      C12    C17    H17     120.000    3.000
+ ZL7      C12    C17    C16     120.000    3.000
+ ZL7      H17    C17    C16     120.000    3.000
+ ZL7      C17    C16    H16     120.000    3.000
+ ZL7      C17    C16    C15     120.000    3.000
+ ZL7      H16    C16    C15     120.000    3.000
+ ZL7      C16    C15    F1      120.000    3.000
+ ZL7      C16    C15    C14     120.000    3.000
+ ZL7      F1     C15    C14     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ ZL7      CONST_1          O5     C20    N3     C21              180.000            0.000   0
+ ZL7      var_1            C20    N3     C21    C23                0.000           20.000   3
+ ZL7      var_2            N3     C21    C22    C23              180.000           20.000   3
+ ZL7      var_3            N3     C21    C23    C22              180.000           20.000   3
+ ZL7      var_4            O5     C20    C19    C3               180.000           20.000   3
+ ZL7      var_5            C20    C19    O4     HO4              180.000           20.000   3
+ ZL7      var_6            C20    C19    C3     N1               180.000           20.000   3
+ ZL7      var_7            C19    C3     C2     C1               180.000           20.000   3
+ ZL7      var_8            C3     C2     C1     H110             180.000           20.000   3
+ ZL7      var_9            C19    C3     N1     C4                 0.000           20.000   3
+ ZL7      CONST_2          C3     N1     C4     C5               180.000            0.000   0
+ ZL7      var_10           N1     C4     C5     N2               180.000           20.000   3
+ ZL7      var_11           C4     C5     C6     S1               101.663           20.000   3
+ ZL7      var_12           C5     C6     S1     C7               -71.688           20.000   3
+ ZL7      var_13           C6     S1     C7     C8              -108.871           20.000   3
+ ZL7      var_14           S1     C7     C8     C9              -174.354           20.000   3
+ ZL7      var_15           C7     C8     C9     C10              180.000           20.000   3
+ ZL7      var_16           C9     C10    C8     C7               180.000           20.000   3
+ ZL7      var_17           C4     C5     N2     C11             -145.031           20.000   3
+ ZL7      var_18           C5     N2     C11    C12               53.735           20.000   3
+ ZL7      var_19           N2     C11    C18    F2               -92.267           20.000   3
+ ZL7      var_20           N2     C11    C12    C17             -126.572           20.000   3
+ ZL7      CONST_3          C11    C12    C13    C14                0.000            0.000   0
+ ZL7      CONST_4          C12    C13    C14    C15              -11.410            0.000   0
+ ZL7      CONST_5          C11    C12    C17    C16                0.000            0.000   0
+ ZL7      CONST_6          C12    C17    C16    C15                0.000            0.000   0
+ ZL7      CONST_7          C17    C16    C15    F1                 0.000            0.000   0
+ ZL7      CONST_8          C16    C15    C14    C13               12.154            0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ ZL7      chir_01          C21    C22    C23    N3        negativ
+ ZL7      chir_02          C11    C12    C18    N2        negativ
+ ZL7      chir_03          C18    C11    F2     F3        positiv
+ ZL7      chir_04          C19    C20    C3     O4        negativ
+ ZL7      chir_05          C3     C19    C2     N1        positiv
+ ZL7      chir_06          C5     C4     C6     N2        positiv
+ ZL7      chir_07          S1     C6     O2     O3        positiv
+ ZL7      chir_08          C8     C10    C7     C9        negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ ZL7      plan-1            C15       0.020
+ ZL7      plan-1            C14       0.020
+ ZL7      plan-1            C16       0.020
+ ZL7      plan-1            F1        0.020
+ ZL7      plan-1            C12       0.020
+ ZL7      plan-1            C13       0.020
+ ZL7      plan-1            C17       0.020
+ ZL7      plan-1            C11       0.020
+ ZL7      plan-1            H16       0.020
+ ZL7      plan-1            H13       0.020
+ ZL7      plan-1            H17       0.020
+ ZL7      plan-2            C20       0.020
+ ZL7      plan-2            C19       0.020
+ ZL7      plan-2            O5        0.020
+ ZL7      plan-2            N3        0.020
+ ZL7      plan-2            C21       0.020
+ ZL7      plan-3            N1        0.020
+ ZL7      plan-3            C3        0.020
+ ZL7      plan-3            C4        0.020
+ ZL7      plan-3            O1        0.020
+ ZL7      plan-3            C5        0.020
+ ZL7      plan-4            C6        0.020
+ ZL7      plan-4            C5        0.020
+ ZL7      plan-4            S1        0.020
+ ZL7      plan-4            H6        0.020
+ ZL7      plan-5            C7        0.020
+ ZL7      plan-5            S1        0.020
+ ZL7      plan-5            C8        0.020
+ ZL7      plan-5            H7        0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-ZL7
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-ZL7  1 SG      2 C19       .           1.620    0.020
+# ------------------------------------------------------

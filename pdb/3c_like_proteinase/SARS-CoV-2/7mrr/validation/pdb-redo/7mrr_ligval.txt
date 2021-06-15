@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (AR7 B 4) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.093   0.105
+Real-space correlation            : 0.874   0.817
+EDIAm density fit                 : 0.485   0.380
+OPIA density coverage (%)         : 9.1    18.2
+ 
+Energy of formation (kJ/mol)      : 817.598 516.743
+Hydrogen bond energy (kJ/mol)     : -31.5  -36.3
+Number of hydrogen bonds          : 2  3
+Number of bumps                   : 21  7
+Number of hydrophobic interactions: 5  5
+Hydrophobic interaction strength  : 3.931  4.515
+Number of Pi-Pi interactions      : 2  0
+Pi-Pi interaction strength        : 1.825  0.000
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 2
+All atom RMSD for residue (A)     : 0.3721
+ 

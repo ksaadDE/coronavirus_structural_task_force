@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (SFG A 301) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.083   0.058
+Real-space correlation            : 0.953   0.971
+EDIAm density fit                 : 0.773   0.794
+OPIA density coverage (%)         : 48.1    51.9
+ 
+Energy of formation (kJ/mol)      : 139.607 95.587
+Hydrogen bond energy (kJ/mol)     : -105.28  -129.05
+Number of hydrogen bonds          : 7  8
+Number of bumps                   : 3  2
+Number of hydrophobic interactions: 3  3
+Hydrophobic interaction strength  : 2.654  2.597
+Number of Pi-Pi interactions      : 2  1
+Pi-Pi interaction strength        : 1.368  1.000
+Number of cation-Pi interactions  : 2  2
+Cation-Pi interaction strength    : 2.000  2.000
+ 
+Atoms shifted more than 0.50A     : 1
+All atom RMSD for residue (A)     : 0.1961
+ 

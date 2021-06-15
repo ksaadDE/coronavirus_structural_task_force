@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (HBA A 410) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.095   0.070
+Real-space correlation            : 0.933   0.971
+EDIAm density fit                 : 0.984   0.974
+OPIA density coverage (%)         : 100.0    100.0
+ 
+Energy of formation (kJ/mol)      : -140.612 -151.441
+Hydrogen bond energy (kJ/mol)     : 0  0
+Number of hydrogen bonds          : 0  0
+Number of bumps                   : 4  5
+Number of hydrophobic interactions: 16  17
+Hydrophobic interaction strength  : 14.626  16.248
+Number of Pi-Pi interactions      : 4  3
+Pi-Pi interaction strength        : 3.247  2.977
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1498
+ 

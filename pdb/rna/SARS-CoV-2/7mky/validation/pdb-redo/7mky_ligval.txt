@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (MPD A 117) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.116   0.122
+Real-space correlation            : 0.922   0.935
+EDIAm density fit                 : 1.494   1.432
+OPIA density coverage (%)         : 12.5    0.0
+ 
+Energy of formation (kJ/mol)      : -479.106 -472.647
+Hydrogen bond energy (kJ/mol)     : 0  0
+Number of hydrogen bonds          : 0  0
+Number of bumps                   : 5  3
+Number of hydrophobic interactions: 0  0
+Hydrophobic interaction strength  : 0.000  0.000
+Number of Pi-Pi interactions      : 0  0
+Pi-Pi interaction strength        : 0.000  0.000
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 1
+All atom RMSD for residue (A)     : 0.4323
+ 

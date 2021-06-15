@@ -1,0 +1,16 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 921 ALYS  NZ   A1302  HOH  O   :0.947
+ A 957 BGLN  OE1  A1301  HOH  O   :0.859
+ A 936 BASP  OD1  A1303  HOH  O   :0.803
+ A 936 BASP  OD1  A1304  HOH  O   :0.752
+ A 936 BASP  OD2  A1304  HOH  O   :0.722
+ A 936 BASP  CG   A1304  HOH  O   :0.661
+ B1178 AASN  ND2  B1304  HOH  O   :0.541
+ A 909  ILE  O    A 913  GLN  HG2 :0.470
+ A 925  ASN  OD1  B1200  LEU HD11 :0.438
+clashscore = 6.82

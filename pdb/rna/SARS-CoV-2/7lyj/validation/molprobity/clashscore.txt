@@ -1,0 +1,10 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ A  13    A  H61  A  66    U  H3  :0.689
+ A  21    U  O2'  A  59    A  N3  :0.460
+ A   9    G  O6   A 101  IRI  N2  :0.449
+clashscore = 1.39

@@ -18,7 +18,10 @@ do
     echo $x
     e="${c,,}" ;
     cd $x ;
-    if [ -f validation/molprobity/molprobity.out ] && [ -f validation/molprobity/clashscore.txt ] && [-f validation/molprobity/$c.H-rama.pdf] ; then
+    if [ "$c" == "7mhl" ] || [ "$c" == "7mhm" ] || [ "$c" == "7mhq" ] ; then
+    	continue
+    fi
+    if [ -f validation/molprobity/molprobity.out ] && [ -f validation/molprobity/clashscore.txt ] && [ -f validation/molprobity/$c.H-rama.pdf ] ; then
     	echo "Done ${c}"
     	cd $base
     	continue

@@ -18,5 +18,3 @@ def change_database_entry(pdb_id, protein):
     df = pd.read_pickle("main_repo_database.pkl")
     df.loc[df["pdb_id"] == pdb_id, "protein"] = protein
     df.to_pickle("main_repo_database.pkl")
-
-main("7exm", "protein_e")

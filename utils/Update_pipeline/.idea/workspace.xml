@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ae1b78-919c-4f9a-a127-b414d3518298" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/tcp_run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weekly_reports/update_report_2021-06-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/weekly_reports/update_report_2021-06-16.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.tcp_run">
+  <component name="RunManager" selected="Python.tcp_manual">
     <configuration name="ID_getter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Update_pipeline" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tcp_run" />
         <item itemvalue="Python.tcp_manual" />
+        <item itemvalue="Python.tcp_run" />
         <item itemvalue="Python.tcp_main" />
         <item itemvalue="Python.mk_SARS_dir" />
         <item itemvalue="Python.ID_getter" />

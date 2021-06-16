@@ -39,17 +39,19 @@ KEYWDS    SARS-COV-2, CM25, NTD, FAB, VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE
 KEYWDS   2 SYSTEM COMPLEX                                                       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    N.V.JOHNSON,J.S.MCLELLAN                                              
+REVDAT   2   16-JUN-21 7M8J    1       JRNL                                     
 REVDAT   1   19-MAY-21 7M8J    0                                                
 JRNL        AUTH   W.N.VOSS,Y.J.HOU,N.V.JOHNSON,G.DELIDAKIS,J.E.KIM,            
 JRNL        AUTH 2 K.JAVANMARDI,A.P.HORTON,F.BARTZOKA,C.J.PARESI,Y.TANNO,       
 JRNL        AUTH 3 C.W.CHOU,S.A.ABBASI,W.PICKENS,K.GEORGE,D.R.BOUTZ,D.M.TOWERS, 
 JRNL        AUTH 4 J.R.MCDANIEL,D.BILLICK,J.GOIKE,L.ROWE,D.BATRA,J.POHL,J.LEE,  
 JRNL        AUTH 5 S.GANGAPPA,S.SAMBHARA,M.GADUSH,N.WANG,M.D.PERSON,            
-JRNL        AUTH 6 B.L.IVERSON,J.D.GOLLIHAR,J.DYE,A.HERBERT,I.J.FINKELSTEIN,    
-JRNL        AUTH 7 R.S.BARIC,J.S.MCLELLAN,G.GEORGIOU,J.J.LAVINDER,G.C.IPPOLITO  
+JRNL        AUTH 6 B.L.IVERSON,J.D.GOLLIHAR,J.M.DYE,A.S.HERBERT,                
+JRNL        AUTH 7 I.J.FINKELSTEIN,R.S.BARIC,J.S.MCLELLAN,G.GEORGIOU,           
+JRNL        AUTH 8 J.J.LAVINDER,G.C.IPPOLITO                                    
 JRNL        TITL   PREVALENT, PROTECTIVE, AND CONVERGENT IGG RECOGNITION OF     
 JRNL        TITL 2 SARS-COV-2 NON-RBD SPIKE EPITOPES.                           
-JRNL        REF    SCIENCE                                    2021              
+JRNL        REF    SCIENCE                       V. 372  1108 2021              
 JRNL        REFN                   ESSN 1095-9203                               
 JRNL        PMID   33947773                                                     
 JRNL        DOI    10.1126/SCIENCE.ABG5268                                      

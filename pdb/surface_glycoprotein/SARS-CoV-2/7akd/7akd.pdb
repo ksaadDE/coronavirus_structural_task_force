@@ -42,13 +42,14 @@ KEYWDS    SARS-COV-2, SPIKE, NEUTRALIZING ANTIBODY, VIRAL PROTEIN
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.FEDRY,D.L.HURDISS,C.WANG,W.LI,G.OBAL,I.DRULYTE,S.C.HOWES,F.J.M.VAN  
 AUTHOR   2 KUPPEVELD,F.FOERSTER,B.J.BOSCH                                       
+REVDAT   2   16-JUN-21 7AKD    1       JRNL                                     
 REVDAT   1   19-MAY-21 7AKD    0                                                
 JRNL        AUTH   J.FEDRY,D.L.HURDISS,C.WANG,W.LI,G.OBAL,I.DRULYTE,W.DU,       
 JRNL        AUTH 2 S.C.HOWES,F.J.M.VAN KUPPEVELD,F.FORSTER,B.J.BOSCH            
 JRNL        TITL   STRUCTURAL INSIGHTS INTO THE CROSS-NEUTRALIZATION OF         
 JRNL        TITL 2 SARS-COV AND SARS-COV-2 BY THE HUMAN MONOCLONAL ANTIBODY     
 JRNL        TITL 3 47D11.                                                       
-JRNL        REF    SCI ADV                                    2021              
+JRNL        REF    SCI ADV                       V.   7       2021              
 JRNL        REFN                   ESSN 2375-2548                               
 JRNL        PMID   33958322                                                     
 JRNL        DOI    10.1126/SCIADV.ABF5632                                       

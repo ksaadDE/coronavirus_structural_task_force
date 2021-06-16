@@ -11,7 +11,8 @@ as part of the Coronavirus Structural Taskforce, insidecorona.net
 
 def main (prot_list, pdb_id, repo_path):
     for element in prot_list:
-        file_walker(protein_chooser(element, repo_path),pdb_id)
+        if element != "not_assigned":
+            file_walker(protein_chooser(element, repo_path),pdb_id)
 
 def protein_chooser (prot_name, repo_path):
     #which protein should be compared

@@ -13,10 +13,9 @@ taxonomy = "Severe acute respiratory syndrome coronavirus 2"
 taxo = "SARS-CoV-2"
 
 repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
-"""print("Searching for new and changed structures")
+print("Searching for new and changed structures")
 c_new_pdb_lst, changed_prot_list = tcp_main.main(taxonomy, taxo)
 print("Doing sequence aligntment")
 align.main(changed_prot_list, c_new_pdb_lst, repo_path)
-print("Calculating RMSD")"""
-changed_prot_list = ["3c_like_proteinase", "surface_glycoprotein", "protein_e", "nsp2"]
+print("Calculating RMSD")
 RMSD.main(changed_prot_list, repo_path)

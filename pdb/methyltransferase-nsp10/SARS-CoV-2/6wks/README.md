@@ -39,7 +39,7 @@ No public deposition. --<br>
 
 |   | Resolution | Completeness| I/sigma |
 |---|-------------:|----------------:|--------------:|
-|   |-- Å|--|<img width=50/>--|
+|   |UBLI Å| HTML %|<img width=50/>DTD H|
 
 **Discrepancy between model and data (the lower, the better)**
 
@@ -51,7 +51,7 @@ No public deposition. --<br>
 
 |   |**MolProbity<br>score**| **Ramachandran<br>outliers** | **CaBLAM<br>Conformation outliers** | **CaBLAM<br>CA outliers** |
 |---|-------------:|----------------:|----------------:|----------------:|
-||--|--| %| %|
+||--|--|--|--|
 
 **Auspex Pathologies**<br> <br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/methyltransferase-nsp10/SARS-CoV-2/6wks/validation/auspex/6wks_auspex_comments.txt)  for results
 

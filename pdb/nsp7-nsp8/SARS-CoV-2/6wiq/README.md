@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: nsp8-nsp7
+**Protein name**: nsp7-nsp8
 
 **Organism**: SARS-CoV-2
 
@@ -26,7 +26,7 @@ C-terminal domain of NSP8 in complex with NSP7 from SARS-CoV2. This X-ray crysta
 
 **old** - contains files from historical revisions
 
-**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV-2/6wiq/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV-2/6wiq/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV-2/6wiq/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV-2/6wiq/validation/Xtriage_output.log)   
+**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/6wiq/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/6wiq/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/6wiq/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV-2/6wiq/validation/Xtriage_output.log)   
 
 
 
@@ -53,7 +53,7 @@ No public deposition. --<br>
 |---|-------------:|----------------:|----------------:|----------------:|
 ||  1.24|  0.00 %|0.0 %|0.00 %|
 
-**Auspex Pathologies**<br> <br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV-2/6wiq/validation/auspex/6wiq_auspex_comments.txt)  for results
+**Auspex Pathologies**<br> <br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV-2/6wiq/validation/auspex/6wiq_auspex_comments.txt)  for results
 
  
 

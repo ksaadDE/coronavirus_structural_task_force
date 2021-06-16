@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: rna polymerase-nsp7-nsp8
+**Protein name**: nsp7-nsp8-rna polymerase
 
 **Organism**: SARS-CoV-2
 
@@ -18,11 +18,11 @@ SARS-CoV2 RNA Polymerase (NSP12) bound with NSP7 & two NSP8 co-factors. This ele
 
 ## Subfolders
 
-**isolde** - contains manual re-refinements from ISOLDE in ChimeraX, done by Tristan Croll. See details [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/rna_polymerase-nsp7-nsp8/SARS-CoV-2/7bv1/isolde/directory_info.txt)
+**isolde** - contains manual re-refinements from ISOLDE in ChimeraX, done by Tristan Croll. See details [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8-rna_polymerase/SARS-CoV-2/7bv1/isolde/directory_info.txt)
 
 **old** - contains files from historical revisions
 
-**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/rna_polymerase-nsp7-nsp8/SARS-CoV-2/7bv1/validation/molprobity)   [**CCPEM**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/rna_polymerase-nsp7-nsp8/SARS-CoV-2/7bv1/validation/ccpem-validation) 
+**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8-rna_polymerase/SARS-CoV-2/7bv1/validation/molprobity)   [**CCPEM**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8-rna_polymerase/SARS-CoV-2/7bv1/validation/ccpem-validation) 
 
 
 

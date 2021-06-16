@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: nsp8-nsp7
+**Protein name**: nsp7-nsp8
 
 **Organism**: SARS-CoV
 
@@ -26,7 +26,7 @@ C-terminal domain of NSP8 in complex with NSP7 from SARS-CoV. This X-ray crystal
 
 
 
-**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV/5f22/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV/5f22/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV/5f22/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV/5f22/validation/Xtriage_output.log)   
+**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV/5f22/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV/5f22/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV/5f22/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV/5f22/validation/Xtriage_output.log)   
 
 
 
@@ -53,7 +53,7 @@ No public deposition. --<br>
 |---|-------------:|----------------:|----------------:|----------------:|
 ||  2.31|  1.05 %|1.6 %|1.08 %|
 
-**Auspex Pathologies**<br> [bad or missing beamstop mask](https://www.auspex.de/pathol/#2)<br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV/5f22/validation/auspex/5f22_auspex_comments.txt)  for results
+**Auspex Pathologies**<br> [bad or missing beamstop mask](https://www.auspex.de/pathol/#2)<br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV/5f22/validation/auspex/5f22_auspex_comments.txt)  for results
 
  
 

@@ -20,7 +20,7 @@ Electron microscopy structure of human Tom70 (mitochondrial import receptor subu
 
 
 
-
+**old** - contains files from historical revisions
 
 **validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/orf9b/SARS-CoV-2/7kdt/validation/molprobity)   [**CCPEM**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/orf9b/SARS-CoV-2/7kdt/validation/ccpem-validation) 
 

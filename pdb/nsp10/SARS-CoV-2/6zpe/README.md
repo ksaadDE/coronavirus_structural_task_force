@@ -24,7 +24,7 @@ The non-structural protein nsp10 of SARS-CoV-2, where it acts as allosteric acti
 
 
 
-
+**old** - contains files from historical revisions
 
 **validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp10/SARS-CoV-2/6zpe/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp10/SARS-CoV-2/6zpe/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp10/SARS-CoV-2/6zpe/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp10/SARS-CoV-2/6zpe/validation/Xtriage_output.log)   
 

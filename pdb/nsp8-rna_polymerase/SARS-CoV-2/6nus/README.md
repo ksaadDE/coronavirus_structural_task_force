@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: rna polymerase-nsp8
+**Protein name**: nsp8-rna polymerase
 
 **Organism**: SARS-CoV-2
 
@@ -22,7 +22,7 @@ SARS-CoV RNA Polymerase (NSP12) bound with a single NSP8 co-factor. This electro
 
 
 
-**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/rna_polymerase-nsp8/SARS-CoV-2/6nus/validation/auspex)  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/rna_polymerase-nsp8/SARS-CoV-2/6nus/validation/molprobity)   [**CCPEM**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/rna_polymerase-nsp8/SARS-CoV-2/6nus/validation/ccpem-validation) 
+**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-rna_polymerase/SARS-CoV-2/6nus/validation/auspex)  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-rna_polymerase/SARS-CoV-2/6nus/validation/molprobity)   [**CCPEM**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-rna_polymerase/SARS-CoV-2/6nus/validation/ccpem-validation) 
 
 
 

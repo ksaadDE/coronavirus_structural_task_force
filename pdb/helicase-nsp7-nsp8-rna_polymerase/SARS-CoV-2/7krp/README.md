@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: helicase-rna polymerase-nsp7-nsp8
+**Protein name**: helicase-nsp7-nsp8-rna polymerase
 
 **Organism**: SARS-CoV-2
 
@@ -18,9 +18,9 @@
 
 
 
+**old** - contains files from historical revisions
 
-
-**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/helicase-rna_polymerase-nsp7-nsp8/SARS-CoV-2/7krp/validation/molprobity)    
+**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/helicase-nsp7-nsp8-rna_polymerase/SARS-CoV-2/7krp/validation/molprobity)    
 
 
 

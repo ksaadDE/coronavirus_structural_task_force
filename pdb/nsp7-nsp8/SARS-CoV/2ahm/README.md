@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: nsp8-nsp7
+**Protein name**: nsp7-nsp8
 
 **Organism**: SARS-CoV
 
@@ -26,7 +26,7 @@ Full length NSP7 in complex with full length NSP8 from SARS-CoV. This X-ray crys
 
 
 
-**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV/2ahm/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV/2ahm/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV/2ahm/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV/2ahm/validation/Xtriage_output.log)   
+**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV/2ahm/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV/2ahm/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV/2ahm/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV/2ahm/validation/Xtriage_output.log)   
 
 
 
@@ -53,7 +53,7 @@ No public deposition. --<br>
 |---|-------------:|----------------:|----------------:|----------------:|
 ||  2.74|  0.72 %|1.7 %|0.95 %|
 
-**Auspex Pathologies**<br> <br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV/2ahm/validation/auspex/2ahm_auspex_comments.txt)  for results
+**Auspex Pathologies**<br> <br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV/2ahm/validation/auspex/2ahm_auspex_comments.txt)  for results
 
  
 

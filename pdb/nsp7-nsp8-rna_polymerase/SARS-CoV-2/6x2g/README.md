@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: rna polymerase-nsp7-nsp8
+**Protein name**: nsp7-nsp8-rna polymerase
 
 **Organism**: SARS-CoV-2
 
@@ -22,7 +22,7 @@ Structure of SARS-CoV-2 RdRp/RNA complex at 3.4 Angstroms resolution. Hetero 4-m
 
 
 
-**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/rna_polymerase-nsp7-nsp8/SARS-CoV-2/6x2g/validation/molprobity)    
+**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8-rna_polymerase/SARS-CoV-2/6x2g/validation/molprobity)    
 
 
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Protein name**: nsp8-nsp7
+**Protein name**: nsp7-nsp8
 
 **Organism**: SARS-CoV-2
 
@@ -24,9 +24,9 @@ Crystal Structure of SARS-CoV-2 nsp7-nsp8 complex. Nsp7 and nsp8 work as co-fact
 
 
 
+**old** - contains files from historical revisions
 
-
-**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV-2/7jlt/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV-2/7jlt/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp8-nsp7/SARS-CoV-2/7jlt/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV-2/7jlt/validation/Xtriage_output.log)   
+**validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/7jlt/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/7jlt/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/7jlt/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV-2/7jlt/validation/Xtriage_output.log)   
 
 
 
@@ -53,7 +53,7 @@ No public deposition. --<br>
 |---|-------------:|----------------:|----------------:|----------------:|
 ||  1.61|  0.00 %|0.0 %|0.27 %|
 
-**Auspex Pathologies**<br> [bad or missing beamstop mask](https://www.auspex.de/pathol/#2)<br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp8-nsp7/SARS-CoV-2/7jlt/validation/auspex/7jlt_auspex_comments.txt)  for results
+**Auspex Pathologies**<br> [bad or missing beamstop mask](https://www.auspex.de/pathol/#2)<br>Click [here](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV-2/7jlt/validation/auspex/7jlt_auspex_comments.txt)  for results
 
  
 

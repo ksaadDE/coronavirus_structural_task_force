@@ -330,14 +330,9 @@ def give_txt_report(pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
 
     doc.close()
 
-def main():
+def main(taxonomy, taxo):
     repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
     df = pd.read_pickle("main_repo_database.pkl")
-
-    # taxonomy name used in PDB search
-    taxonomy = "Severe acute respiratory syndrome coronavirus 2"
-    # taxonomy name used to name files
-    taxo = "SARS-CoV-2"
 
     global time
     time = get_time()

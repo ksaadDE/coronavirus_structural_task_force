@@ -9,9 +9,9 @@ from Bio import SeqIO
 
 def get_time():
     offset = (date.today().weekday() - 2) % 7
-    lastest_update = date.today() - timedelta(days=offset)
-    lastest_update = "20" + lastest_update.strftime('%y-%m-%d')
-    return lastest_update
+    latest_update = date.today() - timedelta(days=offset)
+    latest_update = "20" + latest_update.strftime('%y-%m-%d')
+    return latest_update
 
 def get_id(taxonomy):
     """
@@ -114,7 +114,7 @@ def get_id(taxonomy):
     c_new_pdb_lst, c_rev_pdb_lst = clean_lists(new_pdb_lst, rev_pdb_lst)
     return c_new_pdb_lst, c_rev_pdb_lst
 
-def assign_protein(c_new_pdb_lst):
+def assign_protein(c_new_pdb_lst, taxo):
     """
     Assigns each ID all proteins which have a matching sequence and are in the fasta file
     """
@@ -167,7 +167,7 @@ def assign_protein(c_new_pdb_lst):
             pdb_protein_dict[pdb_id] = "not_assigned"
         return pdb_protein_dict
 
-    fasta = list(SeqIO.parse("fasta/seq_SARS_2.fasta", "fasta"))
+    fasta = list(SeqIO.parse("fasta/seq_{}.fasta".format(taxo), "fasta"))
     pdb_protein_dict = {}
 
     for prot_seq in fasta:
@@ -308,11 +308,12 @@ def new_to_database(repo_path, taxo, pdb_protein_dict, df):
 
     return df
 
-def give_txt_report(pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
+def give_txt_report(taxo, pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
     """
     writes .txt file which summarizes the update
     """
-    doc = open("weekly_reports/update_report_{}.txt".format(time), "w+")
+    doc = open("weekly_reports/{}_update_report_{}.txt".format(time,taxo), "w+")
+    doc.write("{} weekly report for {}".format(time, taxo))
     doc.write("##### {} revised structures #####\n".format(len(c_rev_pdb_lst)))
     doc.write(", ".join(c_rev_pdb_lst) + "\n\n")
 
@@ -332,7 +333,7 @@ def give_txt_report(pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
 
 def main(taxonomy, taxo):
     repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
-    df = pd.read_pickle("main_repo_database.pkl")
+    df = pd.read_pickle("main_repo_database_{}.pkl".format(taxo))
 
     global time
     time = get_time()
@@ -340,16 +341,16 @@ def main(taxonomy, taxo):
     # request pdb_id update report form pdb
     c_new_pdb_lst, c_rev_pdb_lst = get_id(taxonomy)
     # get protein assignment for pdb ids through blast search
-    pdb_protein_dict = assign_protein(c_new_pdb_lst)
+    pdb_protein_dict = assign_protein(c_new_pdb_lst, taxo)
 
     # download new and revised files
     update_files(repo_path, taxo, pdb_protein_dict, c_rev_pdb_lst, df)
     # add new pdb_ids to database
     df = new_to_database(repo_path, taxo, pdb_protein_dict, df)
     # create txt report of the update
-    give_txt_report(pdb_protein_dict, c_new_pdb_lst, c_rev_pdb_lst)
+    give_txt_report(taxo, pdb_protein_dict, c_new_pdb_lst, c_rev_pdb_lst)
 
-    df.to_pickle("main_repo_database.pkl")
+    df.to_pickle("main_repo_database_{}.pkl".format(taxo))
 
     return c_new_pdb_lst, pd.unique(list(pdb_protein_dict.values()))
 

@@ -9,7 +9,7 @@
 >7djr 7ntv 7n5z 7n6n 7nt3 7nt2 7nuk 7nt1 
 surface_glycoprotein:
 >7my2 7my3
-E-protein:
+protein_e:
 >7exm
 Nsp2:
 >7ntk

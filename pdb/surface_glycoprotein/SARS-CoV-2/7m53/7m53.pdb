@@ -35,16 +35,16 @@ KEYWDS   2 FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES, CSGID, ANTIVIRAL
 KEYWDS   3 PROTEIN, SEATTLE STRUCTURAL GENOMICS CENTER FOR INFECTIOUS DISEASE,  
 KEYWDS   4 IMMUNE SYSTEM                                                        
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    M.M.SAUER,Y.J.PARK,D.VEESLER,CENTER FOR STRUCTURAL GENOMICS OF        
-AUTHOR   2 INFECTIOUS DISEASES (CSGID),SEATTLE STRUCTURAL GENOMICS CENTER FOR   
-AUTHOR   3 INFECTIOUS DISEASE (SSGCID)                                          
+AUTHOR    M.M.SAUER,Y.J.PARK,D.VEESLER,SEATTLE STRUCTURAL GENOMICS CENTER FOR   
+AUTHOR   2 INFECTIOUS DISEASE (SSGCID)                                          
+REVDAT   3   23-JUN-21 7M53    1       AUTHOR JRNL                              
 REVDAT   2   02-JUN-21 7M53    1       TITLE                                    
 REVDAT   1   26-MAY-21 7M53    0                                                
 JRNL        AUTH   M.M.SAUER,M.A.TORTORICI,Y.J.PARK,A.C.WALLS,L.HOMAD,          
 JRNL        AUTH 2 O.J.ACTON,J.E.BOWEN,C.WANG,X.XIONG,W.DE VAN DER SCHUEREN,    
 JRNL        AUTH 3 J.QUISPE,B.G.HOFFSTROM,B.J.BOSCH,A.T.MCGUIRE,D.VEESLER       
 JRNL        TITL   STRUCTURAL BASIS FOR BROAD CORONAVIRUS NEUTRALIZATION.       
-JRNL        REF    NAT.STRUCT.MOL.BIOL.                       2021              
+JRNL        REF    NAT.STRUCT.MOL.BIOL.          V.  28   478 2021              
 JRNL        REFN                   ESSN 1545-9985                               
 JRNL        PMID   33981021                                                     
 JRNL        DOI    10.1038/S41594-021-00596-4                                   

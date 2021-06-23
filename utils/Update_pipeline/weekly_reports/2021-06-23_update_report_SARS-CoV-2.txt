@@ -6,8 +6,8 @@
 
 ##### new structures by protein #####
 3c_like_proteinase
->7cut 7mgs 7e18 7e19 7n89 7mgr 7cuu 7n8c 
+>7cuu 7cut 7mgr 7e19 7e18 7n89 7n8c 7mgs 
 not_assigned
->7lc8 7m8t 7m8u 7m8s 
+>7m8t 7m8u 7lc8 7m8s 
 surface_glycoprotein
->7cwt 7eb0 7eb3 7ej5 7eb5 7eb4 7eaz 7e5y 7ej4 
+>7eb4 7eb0 7ej5 7eb5 7cwt 7e5y 7ej4 7eaz 7eb3 

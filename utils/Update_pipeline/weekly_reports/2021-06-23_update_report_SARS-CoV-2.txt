@@ -1,0 +1,13 @@
+2021-06-23 weekly report for SARS-CoV-2##### 16 revised structures #####
+7jv6, 7djr, 7jlt, 7jvc, 7kqe, 7kqb, 7m53, 7m71, 7m6h, 7m6i, 7m6f, 7m6g, 7m6d, 7m6e, 7m7b, 7ls9
+
+##### 21 new structures #####
+7e19, 7e18, 7e5y, 7eb3, 7eb0, 7eb4, 7eb5, 7eaz, 7ej4, 7ej5, 7cut, 7cuu, 7cwt, 7lc8, 7m8t, 7m8u, 7m8s, 7mgs, 7mgr, 7n89, 7n8c
+
+##### new structures by protein #####
+3c_like_proteinase
+>7cut 7mgs 7e18 7e19 7n89 7mgr 7cuu 7n8c 
+not_assigned
+>7lc8 7m8t 7m8u 7m8s 
+surface_glycoprotein
+>7cwt 7eb0 7eb3 7ej5 7eb5 7eb4 7eaz 7e5y 7ej4 

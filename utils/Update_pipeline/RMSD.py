@@ -118,6 +118,8 @@ def matrix_maker (protein, pdb_id, repo_path):
     for id in pdb_id:
         try: pdb_entrys[id] = gm.read_structure(repo_path + id + "/{}.pdb".format(id))[0]
         except RuntimeError: pass
+        except FileNotFoundError:
+            print(repo_path + id + "/{}.pdb".format(id))
 
     #create product of all id combinations
     iter_id= itertools.combinations(pdb_id, 2)

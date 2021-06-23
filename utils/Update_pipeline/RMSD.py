@@ -24,6 +24,8 @@ def main (prot_list, path):
     for protein in prot_list:
         #Here exceptions can be added, e.g. for proteins which have to many entries
         repo_path = path+"/"+protein
+        if protein == 3c_like_proteinase:
+            continue
         file_walker(protein, pdb_id, repo_path+"/SARS-CoV-2/")
 
 def file_walker(protein, pdb_id, repo_path):

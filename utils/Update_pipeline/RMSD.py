@@ -24,8 +24,6 @@ def main (prot_list, path):
     for protein in prot_list:
         #Here exceptions can be added, e.g. for proteins which have to many entries
         repo_path = path+"/"+protein
-        if protein == 3c_like_proteinase:
-            continue
         file_walker(protein, pdb_id, repo_path+"/SARS-CoV-2/")
 
 def file_walker(protein, pdb_id, repo_path):
@@ -109,6 +107,11 @@ def matrix_maker (protein, pdb_id, repo_path):
     :param pdb_id: list: all pdb-ids of the given protein
     :param repo_path: path to protein/taxo folder
     """
+    if pdb_id == "":
+        print("WARNING! Empty pdb_id detected: " + str(protein))
+        return
+    
+    
     doc = open(repo_path + "{}_RMSD_by_chain.txt".format(protein), "w+")
     doc.write("This document contains the RMSD of every combination of chains of this protein."
               "Only use this document if you what you are searching for."

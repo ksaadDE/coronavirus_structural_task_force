@@ -36,6 +36,7 @@ KEYWDS    SARS-COV-2, SPIKE, ANTIBODY, FAB, VIRAL PROTEIN-IMMUNE SYSTEM
 KEYWDS   2 COMPLEX, VIRAL PROTEIN                                               
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    D.ASARNOW,Y.CHENG                                                     
+REVDAT   2   23-JUN-21 7M71    1       JRNL                                     
 REVDAT   1   26-MAY-21 7M71    0                                                
 JRNL        AUTH   D.ASARNOW,B.WANG,W.H.LEE,Y.HU,C.W.HUANG,B.FAUST,P.M.L.NG,    
 JRNL        AUTH 2 E.Z.X.NGOH,M.BOHN,D.BULKLEY,A.PIZZORNO,B.ARY,H.C.TAN,        
@@ -45,7 +46,7 @@ JRNL        AUTH 5 L.RENIA,B.J.HANSON,M.ROSA-CALATRAVA,A.MANGLIK,Y.CHENG,
 JRNL        AUTH 6 C.S.CRAIK,C.I.WANG                                           
 JRNL        TITL   STRUCTURAL INSIGHT INTO SARS-COV-2 NEUTRALIZING ANTIBODIES   
 JRNL        TITL 2 AND MODULATION OF SYNCYTIA.                                  
-JRNL        REF    CELL                                       2021              
+JRNL        REF    CELL                          V. 184  3192 2021              
 JRNL        REFN                   ISSN 1097-4172                               
 JRNL        PMID   33974910                                                     
 JRNL        DOI    10.1016/J.CELL.2021.04.033                                   

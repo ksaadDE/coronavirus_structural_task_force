@@ -44,6 +44,7 @@ KEYWDS   2 RECEPTOR BINDING DOMAIN, SPIKE GLYCOPROTEIN, ANTIVIRAL PROTEIN,
 KEYWDS   3 VIRAL PROTEIN-ANTIVIRAL PROTEIN COMPLEX                              
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    C.O.BARNES,P.J.BJORKMAN                                               
+REVDAT   3   23-JUN-21 7M6H    1       JRNL   SHEET                             
 REVDAT   2   02-JUN-21 7M6H    1       JRNL                                     
 REVDAT   1   05-MAY-21 7M6H    0                                                
 JRNL        AUTH   J.F.SCHEID,C.O.BARNES,B.ERASLAN,A.HUDAK,J.R.KEEFFE,          
@@ -56,7 +57,7 @@ JRNL        AUTH 7 D.B.GRAHAM,J.DEGUINE,P.D.BIENIASZ,A.REGEV,D.HUNG,
 JRNL        AUTH 8 P.J.BJORKMAN,R.J.XAVIER                                      
 JRNL        TITL   B CELL GENOMICS BEHIND CROSS-NEUTRALIZATION OF SARS-COV-2    
 JRNL        TITL 2 VARIANTS AND SARS-COV.                                       
-JRNL        REF    CELL                                       2021              
+JRNL        REF    CELL                          V. 184  3205 2021              
 JRNL        REFN                   ISSN 1097-4172                               
 JRNL        PMID   34015271                                                     
 JRNL        DOI    10.1016/J.CELL.2021.04.032                                   
@@ -2092,196 +2093,196 @@ HELIX   57 AG3 THR E   28  TYR E   32  5                                   5
 HELIX   58 AG4 ARG E   83  THR E   87  5                                   5    
 HELIX   59 AG5 SER F   26  GLY F   30  1                                   8    
 SHEET    1   1 1 TYR A  28  SER A  31  0                                        
-SHEET    1   2 2 VAL A  36  TYR A  37  0                                        
-SHEET    1   3 3 VAL A  47  PHE A  55  0                                        
-SHEET    1   4 4 SER A  60  PHE A  65  0                                        
-SHEET    1   5 5 LEU A  84  PRO A  85  0                                        
-SHEET    1   6 6 VAL A  90  GLU A  96  0                                        
-SHEET    1   7 7 ILE A 101  GLY A 107  0                                        
-SHEET    1   8 8 LEU A 117  ASN A 121  0                                        
-SHEET    1   9 9 VAL A 126  LYS A 129  0                                        
-SHEET    1  1010 LEU A 141  GLY A 142  0                                        
-SHEET    1  1111 GLU A 169  VAL A 171  0                                        
-SHEET    1  1212 ASN A 188  ILE A 197  0                                        
-SHEET    1  1313 TYR A 200  PRO A 209  0                                        
-SHEET    1  1414 ALA A 222  PRO A 230  0                                        
-SHEET    1  1515 ARG A 237  LEU A 244  0                                        
-SHEET    1  1616 TYR A 265  TYR A 269  0                                        
-SHEET    1  1717 GLN A 271  TYR A 279  0                                        
-SHEET    1  1818 ILE A 285  ASP A 290  0                                        
-SHEET    1  1919 GLN A 314  ARG A 319  0                                        
-SHEET    1  2020 SER A 325  ARG A 328  0                                        
-SHEET    1  2121 ASN A 354  ILE A 358  0                                        
-SHEET    1  2222 CYS A 361  VAL A 362  0                                        
-SHEET    1  2323 PHE A 374  LYS A 378  0                                        
-SHEET    1  2424 ASN A 394  ARG A 403  0                                        
-SHEET    1  2525 GLY A 431  ASN A 437  0                                        
-SHEET    1  2626 LEU A 452  ARG A 454  0                                        
-SHEET    1  2727 TYR A 473  GLN A 474  0                                        
-SHEET    1  2828 CYS A 488  TYR A 489  0                                        
-SHEET    1  2929 LEU A 492  SER A 494  0                                        
-SHEET    1  3030 PRO A 507  GLU A 516  0                                        
-SHEET    1  3131 VAL A 524  CYS A 525  0                                        
-SHEET    1  3232 CYS A 538  PHE A 543  0                                        
-SHEET    1  3333 LEU A 546  GLU A 554  0                                        
-SHEET    1  3434 PHE A 565  ARG A 567  0                                        
-SHEET    1  3535 THR A 573  ARG A 577  0                                        
-SHEET    1  3636 ILE A 584  THR A 588  0                                        
-SHEET    1  3737 PHE A 592  ILE A 598  0                                        
-SHEET    1  3838 ALA A 609  GLN A 613  0                                        
-SHEET    1  3939 VAL A 642  THR A 645  0                                        
-SHEET    1  4040 GLY A 648  ILE A 651  0                                        
-SHEET    1  4141 GLU A 654  HIS A 655  0                                        
-SHEET    1  4242 ILE A 664  GLY A 667  0                                        
-SHEET    1  4343 ILE A 670  GLN A 675  0                                        
-SHEET    1  4444 SER A 691  THR A 696  0                                        
-SHEET    1  4545 ALA A 701  GLU A 702  0                                        
-SHEET    1  4646 ILE A 712  PRO A 715  0                                        
-SHEET    1  4747 PHE A 718  PRO A 728  0                                        
-SHEET    1  4848 LYS A 733  VAL A 736  0                                        
-SHEET    1  4949 GLN A 787  LYS A 790  0                                        
-SHEET    1  5050 LEU A 858  LEU A 861  0                                        
-SHEET    1  5151 TYR A1047  ALA A1056  0                                        
-SHEET    1  5252 GLY A1059  PRO A1069  0                                        
-SHEET    1  5353 GLU A1072  PHE A1075  0                                        
-SHEET    1  5454 ILE A1081  CYS A1082  0                                        
-SHEET    1  5555 LYS A1086  PRO A1090  0                                        
-SHEET    1  5656 VAL A1094  SER A1097  0                                        
-SHEET    1  5757 TRP A1102  THR A1105  0                                        
-SHEET    1  5858 THR A1120  ASN A1125  0                                        
-SHEET    1  5959 VAL A1133  ASN A1134  0                                        
-SHEET    1  6060 TYR B  28  SER B  31  0                                        
-SHEET    1  6161 VAL B  36  TYR B  37  0                                        
-SHEET    1  6262 VAL B  47  PHE B  55  0                                        
-SHEET    1  6363 SER B  60  PHE B  65  0                                        
-SHEET    1  6464 LEU B  84  PRO B  85  0                                        
-SHEET    1  6565 VAL B  90  GLU B  96  0                                        
-SHEET    1  6666 ILE B 101  GLY B 107  0                                        
-SHEET    1  6767 LEU B 117  ASN B 122  0                                        
-SHEET    1  6868 ASN B 125  LYS B 129  0                                        
-SHEET    1  6969 LEU B 141  GLY B 142  0                                        
-SHEET    1  7070 GLU B 169  VAL B 171  0                                        
-SHEET    1  7171 ASN B 188  ILE B 197  0                                        
-SHEET    1  7272 TYR B 200  PRO B 209  0                                        
-SHEET    1  7373 ALA B 222  LEU B 223  0                                        
-SHEET    1  7474 PRO B 225  PRO B 230  0                                        
-SHEET    1  7575 ARG B 237  LEU B 244  0                                        
-SHEET    1  7676 TYR B 265  TYR B 269  0                                        
-SHEET    1  7777 GLN B 271  TYR B 279  0                                        
-SHEET    1  7878 ILE B 285  ASP B 290  0                                        
-SHEET    1  7979 GLY B 311  ARG B 319  0                                        
-SHEET    1  8080 SER B 325  ARG B 328  0                                        
-SHEET    1  8181 ASN B 354  ILE B 358  0                                        
-SHEET    1  8282 CYS B 361  VAL B 362  0                                        
-SHEET    1  8383 THR B 376  CYS B 379  0                                        
-SHEET    1  8484 ASN B 394  ARG B 403  0                                        
-SHEET    1  8585 GLY B 431  ASN B 437  0                                        
-SHEET    1  8686 ASN B 448  ARG B 454  0                                        
-SHEET    1  8787 TYR B 473  GLN B 474  0                                        
-SHEET    1  8888 CYS B 488  TYR B 489  0                                        
-SHEET    1  8989 LEU B 492  PHE B 497  0                                        
-SHEET    1  9090 PRO B 507  GLU B 516  0                                        
-SHEET    1  9191 VAL B 524  CYS B 525  0                                        
-SHEET    1  9292 CYS B 538  PHE B 543  0                                        
-SHEET    1  9393 LEU B 546  GLU B 554  0                                        
-SHEET    1  9494 PHE B 565  ARG B 567  0                                        
-SHEET    1  9595 THR B 573  ARG B 577  0                                        
-SHEET    1  9696 ILE B 584  THR B 588  0                                        
-SHEET    1  9797 PHE B 592  THR B 599  0                                        
-SHEET    1  9898 ALA B 609  GLN B 613  0                                        
-SHEET    1  9999 VAL B 642  THR B 645  0                                        
-SHEET    1 10010 GLY B 648  ILE B 651  0                                        
-SHEET    1 10110 GLU B 654  HIS B 655  0                                        
-SHEET    1 10210 ILE B 664  GLY B 667  0                                        
-SHEET    1 10310 ILE B 670  GLN B 675  0                                        
-SHEET    1 10410 SER B 691  THR B 696  0                                        
-SHEET    1 10510 ALA B 701  SER B 704  0                                        
-SHEET    1 10610 SER B 711  PRO B 728  0                                        
-SHEET    1 10710 LYS B 733  VAL B 736  0                                        
-SHEET    1 10810 GLN B 787  ILE B 788  0                                        
-SHEET    1 10910 LEU B 858  LEU B 861  0                                        
-SHEET    1 11011 TYR B1047  ALA B1056  0                                        
-SHEET    1 11111 GLY B1059  THR B1077  0                                        
-SHEET    1 11211 ILE B1081  CYS B1082  0                                        
-SHEET    1 11311 LYS B1086  PRO B1090  0                                        
-SHEET    1 11411 VAL B1094  SER B1097  0                                        
-SHEET    1 11511 TRP B1102  THR B1105  0                                        
-SHEET    1 11611 THR B1120  ASN B1125  0                                        
-SHEET    1 11711 VAL B1133  ASN B1134  0                                        
-SHEET    1 11811 TYR C  28  ASN C  30  0                                        
-SHEET    1 11911 VAL C  42  PHE C  43  0                                        
-SHEET    1 12012 VAL C  47  PHE C  55  0                                        
-SHEET    1 12112 ASN C  61  PHE C  65  0                                        
-SHEET    1 12212 LEU C  84  PRO C  85  0                                        
-SHEET    1 12312 GLY C  89  GLU C  96  0                                        
-SHEET    1 12412 ILE C 101  GLY C 107  0                                        
-SHEET    1 12512 LEU C 117  ASN C 122  0                                        
-SHEET    1 12612 ASN C 125  LYS C 129  0                                        
-SHEET    1 12712 GLU C 169  VAL C 171  0                                        
-SHEET    1 12812 ASN C 188  ILE C 197  0                                        
-SHEET    1 12912 TYR C 200  PRO C 209  0                                        
-SHEET    1 13013 GLU C 224  LEU C 229  0                                        
-SHEET    1 13113 ARG C 237  LEU C 242  0                                        
-SHEET    1 13213 TYR C 265  TYR C 269  0                                        
-SHEET    1 13313 GLN C 271  TYR C 279  0                                        
-SHEET    1 13413 ILE C 285  ASP C 290  0                                        
-SHEET    1 13513 GLY C 311  ARG C 319  0                                        
-SHEET    1 13613 SER C 325  ARG C 328  0                                        
-SHEET    1 13713 ASN C 354  ILE C 358  0                                        
-SHEET    1 13813 CYS C 361  VAL C 362  0                                        
-SHEET    1 13913 THR C 376  CYS C 379  0                                        
-SHEET    1 14014 CYS C 391  PHE C 392  0                                        
-SHEET    1 14114 ASN C 394  ARG C 403  0                                        
-SHEET    1 14214 GLY C 431  ASN C 437  0                                        
-SHEET    1 14314 LEU C 452  ARG C 454  0                                        
-SHEET    1 14414 TYR C 473  GLN C 474  0                                        
-SHEET    1 14514 CYS C 488  TYR C 489  0                                        
-SHEET    1 14614 LEU C 492  SER C 494  0                                        
-SHEET    1 14714 PRO C 507  GLU C 516  0                                        
-SHEET    1 14814 VAL C 524  CYS C 525  0                                        
-SHEET    1 14914 CYS C 538  PHE C 543  0                                        
-SHEET    1 15015 LEU C 546  GLU C 554  0                                        
-SHEET    1 15115 PHE C 565  ARG C 567  0                                        
-SHEET    1 15215 THR C 573  ARG C 577  0                                        
-SHEET    1 15315 ILE C 584  THR C 588  0                                        
-SHEET    1 15415 PHE C 592  THR C 599  0                                        
-SHEET    1 15515 ALA C 609  GLN C 613  0                                        
-SHEET    1 15615 VAL C 642  THR C 645  0                                        
-SHEET    1 15715 GLY C 648  ILE C 651  0                                        
-SHEET    1 15815 GLU C 654  HIS C 655  0                                        
-SHEET    1 15915 ILE C 664  GLY C 667  0                                        
-SHEET    1 16016 ILE C 670  GLN C 675  0                                        
-SHEET    1 16116 SER C 691  THR C 696  0                                        
-SHEET    1 16216 ALA C 701  SER C 704  0                                        
-SHEET    1 16316 ILE C 712  PRO C 728  0                                        
-SHEET    1 16416 THR C 734  VAL C 736  0                                        
-SHEET    1 16516 GLN C 787  LYS C 790  0                                        
-SHEET    1 16616 LEU C 858  VAL C 860  0                                        
-SHEET    1 16716 TYR C1047  ALA C1056  0                                        
-SHEET    1 16816 GLY C1059  ALA C1078  0                                        
-SHEET    1 16916 ILE C1081  CYS C1082  0                                        
-SHEET    1 17017 ALA C1087  PRO C1090  0                                        
-SHEET    1 17117 VAL C1094  SER C1097  0                                        
-SHEET    1 17217 TRP C1102  THR C1105  0                                        
-SHEET    1 17317 GLN C1113  ILE C1114  0                                        
-SHEET    1 17417 THR C1120  VAL C1122  0                                        
-SHEET    1 17517 VAL C1133  ASN C1134  0                                        
-SHEET    1 17617 GLN D   3  GLN D   6  0                                        
-SHEET    1 17717 GLU D  10  LYS D  12  0                                        
-SHEET    1 17817 VAL D  18  SER D  25  0                                        
-SHEET    1 18718 GLN E   3  GLN E   6  0                                        
-SHEET    1 18818 GLU E  10  LYS E  12  0                                        
-SHEET    1 18918 VAL E  18  SER E  25  0                                        
-SHEET    1 19819 SER F   9  GLY F  13  0                                        
-SHEET    1 20020 VAL F  33  GLN F  38  0                                        
-SHEET    1 20120 LYS F  45  ILE F  48  0                                        
-SHEET    1 20220 PHE F  62  SER F  67  0                                        
-SHEET    1 20420 ASP F  85  SER F  90  0                                        
-SHEET    1 20620 SER G   9  GLY G  13  0                                        
-SHEET    1 20820 VAL G  33  GLN G  38  0                                        
-SHEET    1 20920 LYS G  45  ILE G  48  0                                        
-SHEET    1 21021 PHE G  62  SER G  67  0                                        
-SHEET    1 21221 ASP G  85  SER G  90  0                                        
+SHEET    1   2 1 VAL A  36  TYR A  37  0                                        
+SHEET    1   3 1 VAL A  47  PHE A  55  0                                        
+SHEET    1   4 1 SER A  60  PHE A  65  0                                        
+SHEET    1   5 1 LEU A  84  PRO A  85  0                                        
+SHEET    1   6 1 VAL A  90  GLU A  96  0                                        
+SHEET    1   7 1 ILE A 101  GLY A 107  0                                        
+SHEET    1   8 1 LEU A 117  ASN A 121  0                                        
+SHEET    1   9 1 VAL A 126  LYS A 129  0                                        
+SHEET    1  10 1 LEU A 141  GLY A 142  0                                        
+SHEET    1  11 1 GLU A 169  VAL A 171  0                                        
+SHEET    1  12 1 ASN A 188  ILE A 197  0                                        
+SHEET    1  13 1 TYR A 200  PRO A 209  0                                        
+SHEET    1  14 1 ALA A 222  PRO A 230  0                                        
+SHEET    1  15 1 ARG A 237  LEU A 244  0                                        
+SHEET    1  16 1 TYR A 265  TYR A 269  0                                        
+SHEET    1  17 1 GLN A 271  TYR A 279  0                                        
+SHEET    1  18 1 ILE A 285  ASP A 290  0                                        
+SHEET    1  19 1 GLN A 314  ARG A 319  0                                        
+SHEET    1  20 1 SER A 325  ARG A 328  0                                        
+SHEET    1  21 1 ASN A 354  ILE A 358  0                                        
+SHEET    1  22 1 CYS A 361  VAL A 362  0                                        
+SHEET    1  23 1 PHE A 374  LYS A 378  0                                        
+SHEET    1  24 1 ASN A 394  ARG A 403  0                                        
+SHEET    1  25 1 GLY A 431  ASN A 437  0                                        
+SHEET    1  26 1 LEU A 452  ARG A 454  0                                        
+SHEET    1  27 1 TYR A 473  GLN A 474  0                                        
+SHEET    1  28 1 CYS A 488  TYR A 489  0                                        
+SHEET    1  29 1 LEU A 492  SER A 494  0                                        
+SHEET    1  30 1 PRO A 507  GLU A 516  0                                        
+SHEET    1  31 1 VAL A 524  CYS A 525  0                                        
+SHEET    1  32 1 CYS A 538  PHE A 543  0                                        
+SHEET    1  33 1 LEU A 546  GLU A 554  0                                        
+SHEET    1  34 1 PHE A 565  ARG A 567  0                                        
+SHEET    1  35 1 THR A 573  ARG A 577  0                                        
+SHEET    1  36 1 ILE A 584  THR A 588  0                                        
+SHEET    1  37 1 PHE A 592  ILE A 598  0                                        
+SHEET    1  38 1 ALA A 609  GLN A 613  0                                        
+SHEET    1  39 1 VAL A 642  THR A 645  0                                        
+SHEET    1  40 1 GLY A 648  ILE A 651  0                                        
+SHEET    1  41 1 GLU A 654  HIS A 655  0                                        
+SHEET    1  42 1 ILE A 664  GLY A 667  0                                        
+SHEET    1  43 1 ILE A 670  GLN A 675  0                                        
+SHEET    1  44 1 SER A 691  THR A 696  0                                        
+SHEET    1  45 1 ALA A 701  GLU A 702  0                                        
+SHEET    1  46 1 ILE A 712  PRO A 715  0                                        
+SHEET    1  47 1 PHE A 718  PRO A 728  0                                        
+SHEET    1  48 1 LYS A 733  VAL A 736  0                                        
+SHEET    1  49 1 GLN A 787  LYS A 790  0                                        
+SHEET    1  50 1 LEU A 858  LEU A 861  0                                        
+SHEET    1  51 1 TYR A1047  ALA A1056  0                                        
+SHEET    1  52 1 GLY A1059  PRO A1069  0                                        
+SHEET    1  53 1 GLU A1072  PHE A1075  0                                        
+SHEET    1  54 1 ILE A1081  CYS A1082  0                                        
+SHEET    1  55 1 LYS A1086  PRO A1090  0                                        
+SHEET    1  56 1 VAL A1094  SER A1097  0                                        
+SHEET    1  57 1 TRP A1102  THR A1105  0                                        
+SHEET    1  58 1 THR A1120  ASN A1125  0                                        
+SHEET    1  59 1 VAL A1133  ASN A1134  0                                        
+SHEET    1  60 1 TYR B  28  SER B  31  0                                        
+SHEET    1  61 1 VAL B  36  TYR B  37  0                                        
+SHEET    1  62 1 VAL B  47  PHE B  55  0                                        
+SHEET    1  63 1 SER B  60  PHE B  65  0                                        
+SHEET    1  64 1 LEU B  84  PRO B  85  0                                        
+SHEET    1  65 1 VAL B  90  GLU B  96  0                                        
+SHEET    1  66 1 ILE B 101  GLY B 107  0                                        
+SHEET    1  67 1 LEU B 117  ASN B 122  0                                        
+SHEET    1  68 1 ASN B 125  LYS B 129  0                                        
+SHEET    1  69 1 LEU B 141  GLY B 142  0                                        
+SHEET    1  70 1 GLU B 169  VAL B 171  0                                        
+SHEET    1  71 1 ASN B 188  ILE B 197  0                                        
+SHEET    1  72 1 TYR B 200  PRO B 209  0                                        
+SHEET    1  73 1 ALA B 222  LEU B 223  0                                        
+SHEET    1  74 1 PRO B 225  PRO B 230  0                                        
+SHEET    1  75 1 ARG B 237  LEU B 244  0                                        
+SHEET    1  76 1 TYR B 265  TYR B 269  0                                        
+SHEET    1  77 1 GLN B 271  TYR B 279  0                                        
+SHEET    1  78 1 ILE B 285  ASP B 290  0                                        
+SHEET    1  79 1 GLY B 311  ARG B 319  0                                        
+SHEET    1  80 1 SER B 325  ARG B 328  0                                        
+SHEET    1  81 1 ASN B 354  ILE B 358  0                                        
+SHEET    1  82 1 CYS B 361  VAL B 362  0                                        
+SHEET    1  83 1 THR B 376  CYS B 379  0                                        
+SHEET    1  84 1 ASN B 394  ARG B 403  0                                        
+SHEET    1  85 1 GLY B 431  ASN B 437  0                                        
+SHEET    1  86 1 ASN B 448  ARG B 454  0                                        
+SHEET    1  87 1 TYR B 473  GLN B 474  0                                        
+SHEET    1  88 1 CYS B 488  TYR B 489  0                                        
+SHEET    1  89 1 LEU B 492  PHE B 497  0                                        
+SHEET    1  90 1 PRO B 507  GLU B 516  0                                        
+SHEET    1  91 1 VAL B 524  CYS B 525  0                                        
+SHEET    1  92 1 CYS B 538  PHE B 543  0                                        
+SHEET    1  93 1 LEU B 546  GLU B 554  0                                        
+SHEET    1  94 1 PHE B 565  ARG B 567  0                                        
+SHEET    1  95 1 THR B 573  ARG B 577  0                                        
+SHEET    1  96 1 ILE B 584  THR B 588  0                                        
+SHEET    1  97 1 PHE B 592  THR B 599  0                                        
+SHEET    1  98 1 ALA B 609  GLN B 613  0                                        
+SHEET    1  99 1 VAL B 642  THR B 645  0                                        
+SHEET    1 100 1 GLY B 648  ILE B 651  0                                        
+SHEET    1 101 1 GLU B 654  HIS B 655  0                                        
+SHEET    1 102 1 ILE B 664  GLY B 667  0                                        
+SHEET    1 103 1 ILE B 670  GLN B 675  0                                        
+SHEET    1 104 1 SER B 691  THR B 696  0                                        
+SHEET    1 105 1 ALA B 701  SER B 704  0                                        
+SHEET    1 106 1 SER B 711  PRO B 728  0                                        
+SHEET    1 107 1 LYS B 733  VAL B 736  0                                        
+SHEET    1 108 1 GLN B 787  ILE B 788  0                                        
+SHEET    1 109 1 LEU B 858  LEU B 861  0                                        
+SHEET    1 110 1 TYR B1047  ALA B1056  0                                        
+SHEET    1 111 1 GLY B1059  THR B1077  0                                        
+SHEET    1 112 1 ILE B1081  CYS B1082  0                                        
+SHEET    1 113 1 LYS B1086  PRO B1090  0                                        
+SHEET    1 114 1 VAL B1094  SER B1097  0                                        
+SHEET    1 115 1 TRP B1102  THR B1105  0                                        
+SHEET    1 116 1 THR B1120  ASN B1125  0                                        
+SHEET    1 117 1 VAL B1133  ASN B1134  0                                        
+SHEET    1 118 1 TYR C  28  ASN C  30  0                                        
+SHEET    1 119 1 VAL C  42  PHE C  43  0                                        
+SHEET    1 120 1 VAL C  47  PHE C  55  0                                        
+SHEET    1 121 1 ASN C  61  PHE C  65  0                                        
+SHEET    1 122 1 LEU C  84  PRO C  85  0                                        
+SHEET    1 123 1 GLY C  89  GLU C  96  0                                        
+SHEET    1 124 1 ILE C 101  GLY C 107  0                                        
+SHEET    1 125 1 LEU C 117  ASN C 122  0                                        
+SHEET    1 126 1 ASN C 125  LYS C 129  0                                        
+SHEET    1 127 1 GLU C 169  VAL C 171  0                                        
+SHEET    1 128 1 ASN C 188  ILE C 197  0                                        
+SHEET    1 129 1 TYR C 200  PRO C 209  0                                        
+SHEET    1 130 1 GLU C 224  LEU C 229  0                                        
+SHEET    1 131 1 ARG C 237  LEU C 242  0                                        
+SHEET    1 132 1 TYR C 265  TYR C 269  0                                        
+SHEET    1 133 1 GLN C 271  TYR C 279  0                                        
+SHEET    1 134 1 ILE C 285  ASP C 290  0                                        
+SHEET    1 135 1 GLY C 311  ARG C 319  0                                        
+SHEET    1 136 1 SER C 325  ARG C 328  0                                        
+SHEET    1 137 1 ASN C 354  ILE C 358  0                                        
+SHEET    1 138 1 CYS C 361  VAL C 362  0                                        
+SHEET    1 139 1 THR C 376  CYS C 379  0                                        
+SHEET    1 140 1 CYS C 391  PHE C 392  0                                        
+SHEET    1 141 1 ASN C 394  ARG C 403  0                                        
+SHEET    1 142 1 GLY C 431  ASN C 437  0                                        
+SHEET    1 143 1 LEU C 452  ARG C 454  0                                        
+SHEET    1 144 1 TYR C 473  GLN C 474  0                                        
+SHEET    1 145 1 CYS C 488  TYR C 489  0                                        
+SHEET    1 146 1 LEU C 492  SER C 494  0                                        
+SHEET    1 147 1 PRO C 507  GLU C 516  0                                        
+SHEET    1 148 1 VAL C 524  CYS C 525  0                                        
+SHEET    1 149 1 CYS C 538  PHE C 543  0                                        
+SHEET    1 150 1 LEU C 546  GLU C 554  0                                        
+SHEET    1 151 1 PHE C 565  ARG C 567  0                                        
+SHEET    1 152 1 THR C 573  ARG C 577  0                                        
+SHEET    1 153 1 ILE C 584  THR C 588  0                                        
+SHEET    1 154 1 PHE C 592  THR C 599  0                                        
+SHEET    1 155 1 ALA C 609  GLN C 613  0                                        
+SHEET    1 156 1 VAL C 642  THR C 645  0                                        
+SHEET    1 157 1 GLY C 648  ILE C 651  0                                        
+SHEET    1 158 1 GLU C 654  HIS C 655  0                                        
+SHEET    1 159 1 ILE C 664  GLY C 667  0                                        
+SHEET    1 160 1 ILE C 670  GLN C 675  0                                        
+SHEET    1 161 1 SER C 691  THR C 696  0                                        
+SHEET    1 162 1 ALA C 701  SER C 704  0                                        
+SHEET    1 163 1 ILE C 712  PRO C 728  0                                        
+SHEET    1 164 1 THR C 734  VAL C 736  0                                        
+SHEET    1 165 1 GLN C 787  LYS C 790  0                                        
+SHEET    1 166 1 LEU C 858  VAL C 860  0                                        
+SHEET    1 167 1 TYR C1047  ALA C1056  0                                        
+SHEET    1 168 1 GLY C1059  ALA C1078  0                                        
+SHEET    1 169 1 ILE C1081  CYS C1082  0                                        
+SHEET    1 170 1 ALA C1087  PRO C1090  0                                        
+SHEET    1 171 1 VAL C1094  SER C1097  0                                        
+SHEET    1 172 1 TRP C1102  THR C1105  0                                        
+SHEET    1 173 1 GLN C1113  ILE C1114  0                                        
+SHEET    1 174 1 THR C1120  VAL C1122  0                                        
+SHEET    1 175 1 VAL C1133  ASN C1134  0                                        
+SHEET    1 176 1 GLN D   3  GLN D   6  0                                        
+SHEET    1 177 1 GLU D  10  LYS D  12  0                                        
+SHEET    1 178 1 VAL D  18  SER D  25  0                                        
+SHEET    1 187 1 GLN E   3  GLN E   6  0                                        
+SHEET    1 188 1 GLU E  10  LYS E  12  0                                        
+SHEET    1 189 1 VAL E  18  SER E  25  0                                        
+SHEET    1 198 1 SER F   9  GLY F  13  0                                        
+SHEET    1 200 1 VAL F  33  GLN F  38  0                                        
+SHEET    1 201 1 LYS F  45  ILE F  48  0                                        
+SHEET    1 202 1 PHE F  62  SER F  67  0                                        
+SHEET    1 204 1 ASP F  85  SER F  90  0                                        
+SHEET    1 206 1 SER G   9  GLY G  13  0                                        
+SHEET    1 208 1 VAL G  33  GLN G  38  0                                        
+SHEET    1 209 1 LYS G  45  ILE G  48  0                                        
+SHEET    1 210 1 PHE G  62  SER G  67  0                                        
+SHEET    1 212 1 ASP G  85  SER G  90  0                                        
 SSBOND   1 CYS A  131    CYS A  166                          1555   1555  2.02  
 SSBOND   2 CYS A  291    CYS A  301                          1555   1555  2.04  
 SSBOND   3 CYS A  336    CYS A  361                          1555   1555  2.03  

@@ -47,6 +47,7 @@ KEYWDS   2 RECEPTOR BINDING DOMAIN, SPIKE GLYCOPROTEIN, ANTIVIRAL PROTEIN,
 KEYWDS   3 VIRAL PROTEIN-ANTIVIRAL PROTEIN COMPLEX                              
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    C.O.BARNES,P.J.BJORKMAN                                               
+REVDAT   3   23-JUN-21 7M6E    1       JRNL                                     
 REVDAT   2   02-JUN-21 7M6E    1       JRNL                                     
 REVDAT   1   05-MAY-21 7M6E    0                                                
 JRNL        AUTH   J.F.SCHEID,C.O.BARNES,B.ERASLAN,A.HUDAK,J.R.KEEFFE,          
@@ -59,7 +60,7 @@ JRNL        AUTH 7 D.B.GRAHAM,J.DEGUINE,P.D.BIENIASZ,A.REGEV,D.HUNG,
 JRNL        AUTH 8 P.J.BJORKMAN,R.J.XAVIER                                      
 JRNL        TITL   B CELL GENOMICS BEHIND CROSS-NEUTRALIZATION OF SARS-COV-2    
 JRNL        TITL 2 VARIANTS AND SARS-COV.                                       
-JRNL        REF    CELL                                       2021              
+JRNL        REF    CELL                          V. 184  3205 2021              
 JRNL        REFN                   ISSN 1097-4172                               
 JRNL        PMID   34015271                                                     
 JRNL        DOI    10.1016/J.CELL.2021.04.032                                   

@@ -3,7 +3,7 @@ data_7M6H
 _entry.id   7M6H 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.342 
+_audit_conform.dict_version    5.344 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -58,9 +58,9 @@ _citation.journal_id_CSD            ?
 _citation.journal_id_ISSN           1097-4172 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            184 
 _citation.language                  ? 
-_citation.page_first                ? 
+_citation.page_first                3205 
 _citation.page_last                 ? 
 _citation.title                     'B cell genomics behind cross-neutralization of SARS-CoV-2 variants and SARS-CoV.' 
 _citation.year                      2021 
@@ -2630,197 +2630,197 @@ _struct_sheet.id
 _struct_sheet.type 
 _struct_sheet.number_strands 
 _struct_sheet.details 
-1   ? 1  ? 
-2   ? 2  ? 
-3   ? 3  ? 
-4   ? 4  ? 
-5   ? 5  ? 
-6   ? 6  ? 
-7   ? 7  ? 
-8   ? 8  ? 
-9   ? 9  ? 
-10  ? 10 ? 
-11  ? 11 ? 
-12  ? 12 ? 
-13  ? 13 ? 
-14  ? 14 ? 
-15  ? 15 ? 
-16  ? 16 ? 
-17  ? 17 ? 
-18  ? 18 ? 
-19  ? 19 ? 
-20  ? 20 ? 
-21  ? 21 ? 
-22  ? 22 ? 
-23  ? 23 ? 
-24  ? 24 ? 
-25  ? 25 ? 
-26  ? 26 ? 
-27  ? 27 ? 
-28  ? 28 ? 
-29  ? 29 ? 
-30  ? 30 ? 
-31  ? 31 ? 
-32  ? 32 ? 
-33  ? 33 ? 
-34  ? 34 ? 
-35  ? 35 ? 
-36  ? 36 ? 
-37  ? 37 ? 
-38  ? 38 ? 
-39  ? 39 ? 
-40  ? 40 ? 
-41  ? 41 ? 
-42  ? 42 ? 
-43  ? 43 ? 
-44  ? 44 ? 
-45  ? 45 ? 
-46  ? 46 ? 
-47  ? 47 ? 
-48  ? 48 ? 
-49  ? 49 ? 
-50  ? 50 ? 
-51  ? 51 ? 
-52  ? 52 ? 
-53  ? 53 ? 
-54  ? 54 ? 
-55  ? 55 ? 
-56  ? 56 ? 
-57  ? 57 ? 
-58  ? 58 ? 
-59  ? 59 ? 
-60  ? 60 ? 
-61  ? 61 ? 
-62  ? 62 ? 
-63  ? 63 ? 
-64  ? 64 ? 
-65  ? 65 ? 
-66  ? 66 ? 
-67  ? 67 ? 
-68  ? 68 ? 
-69  ? 69 ? 
-70  ? 70 ? 
-71  ? 71 ? 
-72  ? 72 ? 
-73  ? 73 ? 
-74  ? 74 ? 
-75  ? 75 ? 
-76  ? 76 ? 
-77  ? 77 ? 
-78  ? 78 ? 
-79  ? 79 ? 
-80  ? 80 ? 
-81  ? 81 ? 
-82  ? 82 ? 
-83  ? 83 ? 
-84  ? 84 ? 
-85  ? 85 ? 
-86  ? 86 ? 
-87  ? 87 ? 
-88  ? 88 ? 
-89  ? 89 ? 
-90  ? 90 ? 
-91  ? 91 ? 
-92  ? 92 ? 
-93  ? 93 ? 
-94  ? 94 ? 
-95  ? 95 ? 
-96  ? 96 ? 
-97  ? 97 ? 
-98  ? 98 ? 
-99  ? 99 ? 
-100 ? 10 ? 
-101 ? 10 ? 
-102 ? 10 ? 
-103 ? 10 ? 
-104 ? 10 ? 
-105 ? 10 ? 
-106 ? 10 ? 
-107 ? 10 ? 
-108 ? 10 ? 
-109 ? 10 ? 
-110 ? 11 ? 
-111 ? 11 ? 
-112 ? 11 ? 
-113 ? 11 ? 
-114 ? 11 ? 
-115 ? 11 ? 
-116 ? 11 ? 
-117 ? 11 ? 
-118 ? 11 ? 
-119 ? 11 ? 
-120 ? 12 ? 
-121 ? 12 ? 
-122 ? 12 ? 
-123 ? 12 ? 
-124 ? 12 ? 
-125 ? 12 ? 
-126 ? 12 ? 
-127 ? 12 ? 
-128 ? 12 ? 
-129 ? 12 ? 
-130 ? 13 ? 
-131 ? 13 ? 
-132 ? 13 ? 
-133 ? 13 ? 
-134 ? 13 ? 
-135 ? 13 ? 
-136 ? 13 ? 
-137 ? 13 ? 
-138 ? 13 ? 
-139 ? 13 ? 
-140 ? 14 ? 
-141 ? 14 ? 
-142 ? 14 ? 
-143 ? 14 ? 
-144 ? 14 ? 
-145 ? 14 ? 
-146 ? 14 ? 
-147 ? 14 ? 
-148 ? 14 ? 
-149 ? 14 ? 
-150 ? 15 ? 
-151 ? 15 ? 
-152 ? 15 ? 
-153 ? 15 ? 
-154 ? 15 ? 
-155 ? 15 ? 
-156 ? 15 ? 
-157 ? 15 ? 
-158 ? 15 ? 
-159 ? 15 ? 
-160 ? 16 ? 
-161 ? 16 ? 
-162 ? 16 ? 
-163 ? 16 ? 
-164 ? 16 ? 
-165 ? 16 ? 
-166 ? 16 ? 
-167 ? 16 ? 
-168 ? 16 ? 
-169 ? 16 ? 
-170 ? 17 ? 
-171 ? 17 ? 
-172 ? 17 ? 
-173 ? 17 ? 
-174 ? 17 ? 
-175 ? 17 ? 
-176 ? 17 ? 
-177 ? 17 ? 
-178 ? 17 ? 
-187 ? 18 ? 
-188 ? 18 ? 
-189 ? 18 ? 
-198 ? 19 ? 
-200 ? 20 ? 
-201 ? 20 ? 
-202 ? 20 ? 
-204 ? 20 ? 
-206 ? 20 ? 
-208 ? 20 ? 
-209 ? 20 ? 
-210 ? 21 ? 
-212 ? 21 ? 
+1   ? 1 ? 
+2   ? 1 ? 
+3   ? 1 ? 
+4   ? 1 ? 
+5   ? 1 ? 
+6   ? 1 ? 
+7   ? 1 ? 
+8   ? 1 ? 
+9   ? 1 ? 
+10  ? 1 ? 
+11  ? 1 ? 
+12  ? 1 ? 
+13  ? 1 ? 
+14  ? 1 ? 
+15  ? 1 ? 
+16  ? 1 ? 
+17  ? 1 ? 
+18  ? 1 ? 
+19  ? 1 ? 
+20  ? 1 ? 
+21  ? 1 ? 
+22  ? 1 ? 
+23  ? 1 ? 
+24  ? 1 ? 
+25  ? 1 ? 
+26  ? 1 ? 
+27  ? 1 ? 
+28  ? 1 ? 
+29  ? 1 ? 
+30  ? 1 ? 
+31  ? 1 ? 
+32  ? 1 ? 
+33  ? 1 ? 
+34  ? 1 ? 
+35  ? 1 ? 
+36  ? 1 ? 
+37  ? 1 ? 
+38  ? 1 ? 
+39  ? 1 ? 
+40  ? 1 ? 
+41  ? 1 ? 
+42  ? 1 ? 
+43  ? 1 ? 
+44  ? 1 ? 
+45  ? 1 ? 
+46  ? 1 ? 
+47  ? 1 ? 
+48  ? 1 ? 
+49  ? 1 ? 
+50  ? 1 ? 
+51  ? 1 ? 
+52  ? 1 ? 
+53  ? 1 ? 
+54  ? 1 ? 
+55  ? 1 ? 
+56  ? 1 ? 
+57  ? 1 ? 
+58  ? 1 ? 
+59  ? 1 ? 
+60  ? 1 ? 
+61  ? 1 ? 
+62  ? 1 ? 
+63  ? 1 ? 
+64  ? 1 ? 
+65  ? 1 ? 
+66  ? 1 ? 
+67  ? 1 ? 
+68  ? 1 ? 
+69  ? 1 ? 
+70  ? 1 ? 
+71  ? 1 ? 
+72  ? 1 ? 
+73  ? 1 ? 
+74  ? 1 ? 
+75  ? 1 ? 
+76  ? 1 ? 
+77  ? 1 ? 
+78  ? 1 ? 
+79  ? 1 ? 
+80  ? 1 ? 
+81  ? 1 ? 
+82  ? 1 ? 
+83  ? 1 ? 
+84  ? 1 ? 
+85  ? 1 ? 
+86  ? 1 ? 
+87  ? 1 ? 
+88  ? 1 ? 
+89  ? 1 ? 
+90  ? 1 ? 
+91  ? 1 ? 
+92  ? 1 ? 
+93  ? 1 ? 
+94  ? 1 ? 
+95  ? 1 ? 
+96  ? 1 ? 
+97  ? 1 ? 
+98  ? 1 ? 
+99  ? 1 ? 
+100 ? 1 ? 
+101 ? 1 ? 
+102 ? 1 ? 
+103 ? 1 ? 
+104 ? 1 ? 
+105 ? 1 ? 
+106 ? 1 ? 
+107 ? 1 ? 
+108 ? 1 ? 
+109 ? 1 ? 
+110 ? 1 ? 
+111 ? 1 ? 
+112 ? 1 ? 
+113 ? 1 ? 
+114 ? 1 ? 
+115 ? 1 ? 
+116 ? 1 ? 
+117 ? 1 ? 
+118 ? 1 ? 
+119 ? 1 ? 
+120 ? 1 ? 
+121 ? 1 ? 
+122 ? 1 ? 
+123 ? 1 ? 
+124 ? 1 ? 
+125 ? 1 ? 
+126 ? 1 ? 
+127 ? 1 ? 
+128 ? 1 ? 
+129 ? 1 ? 
+130 ? 1 ? 
+131 ? 1 ? 
+132 ? 1 ? 
+133 ? 1 ? 
+134 ? 1 ? 
+135 ? 1 ? 
+136 ? 1 ? 
+137 ? 1 ? 
+138 ? 1 ? 
+139 ? 1 ? 
+140 ? 1 ? 
+141 ? 1 ? 
+142 ? 1 ? 
+143 ? 1 ? 
+144 ? 1 ? 
+145 ? 1 ? 
+146 ? 1 ? 
+147 ? 1 ? 
+148 ? 1 ? 
+149 ? 1 ? 
+150 ? 1 ? 
+151 ? 1 ? 
+152 ? 1 ? 
+153 ? 1 ? 
+154 ? 1 ? 
+155 ? 1 ? 
+156 ? 1 ? 
+157 ? 1 ? 
+158 ? 1 ? 
+159 ? 1 ? 
+160 ? 1 ? 
+161 ? 1 ? 
+162 ? 1 ? 
+163 ? 1 ? 
+164 ? 1 ? 
+165 ? 1 ? 
+166 ? 1 ? 
+167 ? 1 ? 
+168 ? 1 ? 
+169 ? 1 ? 
+170 ? 1 ? 
+171 ? 1 ? 
+172 ? 1 ? 
+173 ? 1 ? 
+174 ? 1 ? 
+175 ? 1 ? 
+176 ? 1 ? 
+177 ? 1 ? 
+178 ? 1 ? 
+187 ? 1 ? 
+188 ? 1 ? 
+189 ? 1 ? 
+198 ? 1 ? 
+200 ? 1 ? 
+201 ? 1 ? 
+202 ? 1 ? 
+204 ? 1 ? 
+206 ? 1 ? 
+208 ? 1 ? 
+209 ? 1 ? 
+210 ? 1 ? 
+212 ? 1 ? 
 # 
 loop_
 _struct_sheet_range.sheet_id 
@@ -35236,6 +35236,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-05-05 
 2 'Structure model' 1 1 2021-06-02 
+3 'Structure model' 1 2 2021-06-23 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -35245,10 +35246,14 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
-_pdbx_audit_revision_group.ordinal             1 
-_pdbx_audit_revision_group.revision_ordinal    2 
-_pdbx_audit_revision_group.data_content_type   'Structure model' 
-_pdbx_audit_revision_group.group               'Database references' 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references'  
+2 3 'Structure model' 'Database references'  
+3 3 'Structure model' 'Derived calculations' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -35257,20 +35262,25 @@ _pdbx_audit_revision_category.data_content_type
 _pdbx_audit_revision_category.category 
 1 2 'Structure model' citation        
 2 2 'Structure model' citation_author 
+3 3 'Structure model' citation        
+4 3 'Structure model' struct_sheet    
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_citation.country'                 
-2 2 'Structure model' '_citation.journal_abbrev'          
-3 2 'Structure model' '_citation.journal_id_ASTM'         
-4 2 'Structure model' '_citation.journal_id_CSD'          
-5 2 'Structure model' '_citation.journal_id_ISSN'         
-6 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
-7 2 'Structure model' '_citation.title'                   
-8 2 'Structure model' '_citation_author.name'             
+1  2 'Structure model' '_citation.country'                 
+2  2 'Structure model' '_citation.journal_abbrev'          
+3  2 'Structure model' '_citation.journal_id_ASTM'         
+4  2 'Structure model' '_citation.journal_id_CSD'          
+5  2 'Structure model' '_citation.journal_id_ISSN'         
+6  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+7  2 'Structure model' '_citation.title'                   
+8  2 'Structure model' '_citation_author.name'             
+9  3 'Structure model' '_citation.journal_volume'          
+10 3 'Structure model' '_citation.page_first'              
+11 3 'Structure model' '_struct_sheet.number_strands'      
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

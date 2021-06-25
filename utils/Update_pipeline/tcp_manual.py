@@ -15,6 +15,7 @@ def move_n_del(repo_path, pdb_id, protein):
     shutil.rmtree(os.path.join(repo_path,"not_assigned","SARS-CoV-2",pdb_id))
 
 def change_database_entry(pdb_id, protein):
-    df = pd.read_pickle("main_repo_database.pkl")
+    df = pd.read_pickle("main_repo_database_SARS-CoV-2.pkl")
     df.loc[df["pdb_id"] == pdb_id, "protein"] = protein
-    df.to_pickle("main_repo_database.pkl")
+    df.to_pickle("main_repo_database_SARS-CoV-2.pkl")
+

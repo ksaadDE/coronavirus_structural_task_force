@@ -107,6 +107,7 @@ def matrix_maker (protein, pdb_id, repo_path):
     :param pdb_id: list: all pdb-ids of the given protein
     :param repo_path: path to protein/taxo folder
     """
+    
     doc = open(repo_path + "{}_RMSD_by_chain.txt".format(protein), "w+")
     doc.write("This document contains the RMSD of every combination of chains of this protein."
               "Only use this document if you what you are searching for."
@@ -116,8 +117,13 @@ def matrix_maker (protein, pdb_id, repo_path):
     pdb_entrys = {}
     #Parse every PDB entry in a dict
     for id in pdb_id:
+        if id == "":
+            print("WARNING! Empty pdb_id detected: " + str(protein))
+            return
         try: pdb_entrys[id] = gm.read_structure(repo_path + id + "/{}.pdb".format(id))[0]
         except RuntimeError: pass
+        except FileNotFoundError:
+            print(repo_path + id + "/{}.pdb".format(id))
 
     #create product of all id combinations
     iter_id= itertools.combinations(pdb_id, 2)

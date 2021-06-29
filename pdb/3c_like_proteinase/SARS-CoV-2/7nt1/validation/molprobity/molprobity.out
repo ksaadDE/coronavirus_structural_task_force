@@ -1,0 +1,169 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 4820
+     H or D atoms   : 0
+     chains         : 6
+     a.a. residues  : 609
+     nucleotides    : 0
+     water          : 54
+     other (ligands): 7
+   Ligands: DMS:6,UQW:1
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.062 (Z=  3.334)
+  Mean delta:    0.014 (Z=  0.718)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 224  THR  C      
+   A 224  THR  CA     
+   A 224  THR  CB        109.10   118.01    -8.91  2.20e+00  1.64e+01   4.0*sigma
+   A 153  ASP  C      
+   A 153  ASP  CA     
+   A 153  ASP  CB        110.10   117.87    -7.77  1.90e+00  1.67e+01   4.1*sigma
+   B 180  ASN  CA     
+   B 180  ASN  CB     
+   B 180  ASN  CG        112.60   108.43     4.17  1.00e+00  1.74e+01   4.2*sigma
+   B 187  ASP  CA     
+   B 187  ASP  CB     
+   B 187  ASP  CG        112.60   116.87    -4.27  1.00e+00  1.82e+01   4.3*sigma
+   B  92  ASP  CA     
+   B  92  ASP  CB     
+   B  92  ASP  CG        112.60   117.12    -4.52  1.00e+00  2.04e+01   4.5*sigma
+   A 187  ASP  C      
+   A 187  ASP  CA     
+   A 187  ASP  CB        110.10   118.88    -8.78  1.90e+00  2.13e+01   4.6*sigma
+   B  64  HIS  CA     
+   B  64  HIS  CB     
+   B  64  HIS  CG        113.80   118.61    -4.81  1.00e+00  2.32e+01   4.8*sigma
+   A 187  ASP  CA     
+   A 187  ASP  CB     
+   A 187  ASP  CG        112.60   117.47    -4.87  1.00e+00  2.37e+01   4.9*sigma
+   A 196  THR  CA     
+   A 196  THR  CB     
+   A 196  THR  OG1       109.60   102.04     7.56  1.50e+00  2.54e+01   5.0*sigma
+   A  92  ASP  CA     
+   A  92  ASP  CB     
+   A  92  ASP  CG        112.60   117.66    -5.06  1.00e+00  2.56e+01   5.1*sigma
+   A 263  ASP  CA     
+   A 263  ASP  CB     
+   A 263  ASP  CG        112.60   118.00    -5.40  1.00e+00  2.92e+01   5.4*sigma
+
+  Min. delta:    0.001 (Z=  0.000)
+  Max. delta:    8.906 (Z=  5.400)
+  Mean delta:    1.894 (Z=  1.034)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 129  ALA  CA     
+   A 129  ALA  C      
+   A 130  MET  N      
+   A 130  MET  CA        180.00   159.88    20.12  5.00e+00  1.62e+01   4.0*sigma
+   B 175  THR  CA     
+   B 175  THR  C      
+   B 176  ASP  N      
+   B 176  ASP  CA        180.00   158.99    21.01  5.00e+00  1.77e+01   4.2*sigma
+   B 150  PHE  CA     
+   B 150  PHE  C      
+   B 151  ASN  N      
+   B 151  ASN  CA        180.00   158.82    21.18  5.00e+00  1.79e+01   4.2*sigma
+   A 175  THR  CA     
+   A 175  THR  C      
+   A 176  ASP  N      
+   A 176  ASP  CA        180.00   158.07    21.93  5.00e+00  1.92e+01   4.4*sigma
+   A 303  VAL  CA     
+   A 303  VAL  C      
+   A 304  THR  N      
+   A 304  THR  CA        180.00  -157.05   -22.95  5.00e+00  2.11e+01   4.6*sigma
+   A 273  GLN  CA     
+   A 273  GLN  C      
+   A 274  ASN  N      
+   A 274  ASN  CA        180.00  -152.72   -27.28  5.00e+00  2.98e+01   5.5*sigma
+
+  Min. delta:    0.001
+  Max. delta:   87.327
+  Mean delta:   16.235
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.294
+  Mean delta:    0.098
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.022
+  Mean delta:    0.006
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.014   0.062   4845
+    Angle     :  1.894   8.906   6581
+    Chirality :  0.098   0.294    741
+    Planarity :  0.006   0.022    854
+    Dihedral  : 16.235  87.327   1728
+    Min Nonbonded Distance : 1.203
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 4.24
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  5.45 %
+      Favored  : 94.55 %
+    Rotamer Outliers :  5.33 %
+    Cbeta Deviations :  0.18 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -3.19 (0.28), residues: 609
+    helix: -3.36 (0.22), residues: 156
+    sheet: -0.04 (1.78), residues: 12
+    loop : -1.81 (0.26), residues: 441
+
+                     ----------Asn/Gln/His flips----------                     
+
+   B 214  ASN
+   A  19  GLN
+   A  41  HIS
+   A 151  ASN
+   A 277  ASN
+   B  41  HIS
+   B 151  ASN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  94.55 %
+  Rotamer outliers      =   5.33 %
+  C-beta deviations     =     1
+  Clashscore            =   4.24
+  RMS(bonds)            =   0.0139
+  RMS(angles)           =   1.89
+  MolProbity score      =   2.13
+  Refinement program    = REFMAC

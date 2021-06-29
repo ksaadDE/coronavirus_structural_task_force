@@ -1,0 +1,25 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 298  ARG  HG3  A 303  VAL  HB  :0.663
+ B 298  ARG  HG3  B 303  VAL  HB  :0.631
+ A 155  ASP  HB3  A 306  GLN  HG3 :0.586
+ B 115  LEU HD11  B 122  PRO  HB3 :0.585
+ B 131  ARG  HD3  B 137  LYS  HE2 :0.531
+ A 276  MET  HE3  A 281  ILE HG13 :0.512
+ A 131  ARG  HD3  A 137  LYS  HE2 :0.471
+ A 109  GLY  HA2  A 200  ILE HD13 :0.469
+ A 298  ARG  HD2  A 305  PHE  HZ  :0.468
+ A  49  MET  HB3  A 189  GLN  HG3 :0.465
+ A  86  VAL HG13  A 179  GLY  HA2 :0.443
+ B  76  ARG  HG2  B  92  ASP  CG  :0.434
+ B 109  GLY  HA2  B 200  ILE HD13 :0.432
+ A  36  VAL  HB   A  89  LEU  HB2 :0.416
+ B 227  LEU  HA   B 227  LEU HD12 :0.409
+ A 102  LYS  HB2  A 102  LYS  HE3 :0.408
+ B  56  ASP  O    B  59  ILE HG22 :0.407
+ A 233  VAL HG11  A 269  LYS  HG3 :0.406
+clashscore = 1.87

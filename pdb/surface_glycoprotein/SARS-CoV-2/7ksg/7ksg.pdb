@@ -4,13 +4,12 @@ CAVEAT     7KSG    NAG B 1302 HAS WRONG CHIRALITY AT ATOM C1
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
 COMPND   3 CHAIN: A, B, C;                                                      
-COMPND   4 SYNONYM: S GLYCOPROTEIN,E2,PEPLOMER PROTEIN,SARS-COV-2 SPIKE         
-COMPND   5 GLYCOPROTEIN;                                                        
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: NANOBODY AGAINST SARS-COV-2 GLYCOPROTEIN;                  
-COMPND   9 CHAIN: D, E, F;                                                      
-COMPND  10 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: S GLYCOPROTEIN, E2, PEPLOMER PROTEIN;                       
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: NANOBODY AGAINST SARS-COV-2 GLYCOPROTEIN;                  
+COMPND   8 CHAIN: D, E, F;                                                      
+COMPND   9 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE   3 2;                                                                   
@@ -20,30 +19,33 @@ SOURCE   6 GENE: S, 2;
 SOURCE   7 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
 SOURCE   8 EXPRESSION_SYSTEM_TAXID: 9606;                                       
 SOURCE   9 MOL_ID: 2;                                                           
-SOURCE  10 ORGANISM_SCIENTIFIC: CAMELUS BACTRIANUS;                             
-SOURCE  11 ORGANISM_TAXID: 9837;                                                
+SOURCE  10 ORGANISM_SCIENTIFIC: LAMA GLAMA;                                     
+SOURCE  11 ORGANISM_TAXID: 9844;                                                
 SOURCE  12 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
 SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562                                         
 KEYWDS    SARS-COV-2, SPIKE PROTEIN, NANOBODY, VIRUS, VIRAL PROTEIN-IMMUNE      
 KEYWDS   2 SYSTEM COMPLEX                                                       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    B.M.HALLBERG,H.DAS                                                    
+REVDAT   2   30-JUN-21 7KSG    1       COMPND SOURCE JRNL   REMARK              
 REVDAT   1   20-JAN-21 7KSG    0                                                
-JRNL        AUTH   P.-A.KOENIG,H.DAS,H.LIU,B.M.KUMMERER,F.N.GOHR,L.-M.JENSTER,  
+JRNL        AUTH   P.A.KOENIG,H.DAS,H.LIU,B.M.KUMMERER,F.N.GOHR,L.M.JENSTER,    
 JRNL        AUTH 2 L.D.J.SCHIFFELERS,Y.M.TESFAMARIAM,M.UCHIMA,J.D.WUERTH,       
 JRNL        AUTH 3 K.GATTERDAM,N.RUETALO,M.H.CHRISTENSEN,C.I.FANDREY,S.NORMANN, 
 JRNL        AUTH 4 J.M.P.TODTMANN,S.PRITZL,L.HANKE,J.BOOS,M.YUAN,X.ZHU,         
 JRNL        AUTH 5 J.L.SCHMID-BURGK,H.KATO,M.SCHINDLER,I.A.WILSON,M.GEYER,      
 JRNL        AUTH 6 K.U.LUDWIG,B.M.HALLBERG,N.C.WU,F.I.SCHMIDT                   
-JRNL        TITL   SARS-COV-2 SPIKE IN COMPLEX WITH NANOBODIES E                
-JRNL        REF    SCIENCE                                    2021              
+JRNL        TITL   STRUCTURE-GUIDED MULTIVALENT NANOBODIES BLOCK SARS-COV-2     
+JRNL        TITL 2 INFECTION AND SUPPRESS MUTATIONAL ESCAPE.                    
+JRNL        REF    SCIENCE                       V. 371       2021              
 JRNL        REFN                   ESSN 1095-9203                               
+JRNL        PMID   33436526                                                     
 JRNL        DOI    10.1126/SCIENCE.ABE6230                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.33 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   SOFTWARE PACKAGES      : WARP, EPU, WARP, CRYOSPARC, CRYOSPARC,    
+REMARK   3   SOFTWARE PACKAGES      : EPU, WARP, CRYOSPARC, CRYOSPARC,          
 REMARK   3                            CRYOSPARC, CRYOSPARC                      
 REMARK   3   RECONSTRUCTION SCHEMA  : NULL                                      
 REMARK   3                                                                      
@@ -104,7 +106,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : 2.70                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 49.00                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 4900.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : 165000                         
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

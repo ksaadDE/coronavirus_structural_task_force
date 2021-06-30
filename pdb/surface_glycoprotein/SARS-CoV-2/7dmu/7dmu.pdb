@@ -36,15 +36,18 @@ SOURCE  17 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, COVID-19, ACE2, VIRAL PROTEIN                             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.ARIMORI,J.TAKAGI                                                    
+REVDAT   3   30-JUN-21 7DMU    1       JRNL                                     
 REVDAT   2   10-MAR-21 7DMU    1       COMPND                                   
 REVDAT   1   23-DEC-20 7DMU    0                                                
 JRNL        AUTH   Y.HIGUCHI,T.SUZUKI,T.ARIMORI,N.IKEMURA,E.MIHARA,Y.KIRITA,    
-JRNL        AUTH 2 E.OHGITANI,O.MAZDA,D.MOTOOKA,S.NAKAMURA,Y.MATSUURA,S.MATOBA, 
-JRNL        AUTH 3 T.OKAMOTO,J.TAKAGI,A.HOSHINO                                 
-JRNL        TITL   HIGH AFFINITY MODIFIED ACE2 RECEPTORS PROTECTS FROM          
-JRNL        TITL 2 SARS-COV-2 INFECTION IN HAMSTERS                             
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH 2 E.OHGITANI,O.MAZDA,D.MOTOOKA,S.NAKAMURA,Y.SAKAI,Y.ITOH,      
+JRNL        AUTH 3 F.SUGIHARA,Y.MATSUURA,S.MATOBA,T.OKAMOTO,J.TAKAGI,A.HOSHINO  
+JRNL        TITL   ENGINEERED ACE2 RECEPTOR THERAPY OVERCOMES MUTATIONAL ESCAPE 
+JRNL        TITL 2 OF SARS-COV-2.                                               
+JRNL        REF    NAT COMMUN                    V.  12  3802 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   34155214                                                     
+JRNL        DOI    10.1038/S41467-021-24013-Y                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.20 ANGSTROMS.                                       
 REMARK   3                                                                      

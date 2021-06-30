@@ -1207,7 +1207,7 @@ _refine_ls_shell.pdbx_fsc_free
 'X-RAY DIFFRACTION' 4.3500 46.5000 2979 . 146 2833 99.0000  . . . 0.1461 0.0000 0.1415 . . . . . . . 30 . . . 
 # 
 _struct.entry_id                     7M53 
-_struct.title                        'B6 Fab fragment bound to the SARS-CoV-2 spike stem helix peptide' 
+_struct.title                        'B6 Fab fragment bound to the SARS-CoV/SARS-CoV-2 spike stem helix peptide' 
 _struct.pdbx_descriptor              
 'Spike glycoprotein stem helix peptide, B6 antigen-binding (Fab) fragment heavy chain, B6 antigen-binding (Fab) fragment light chain' 
 _struct.pdbx_model_details           ? 
@@ -10989,6 +10989,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-05-26 
 2 'Structure model' 1 1 2021-06-02 
 3 'Structure model' 1 2 2021-06-23 
+4 'Structure model' 1 3 2021-06-30 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -11006,6 +11007,7 @@ _pdbx_audit_revision_group.group
 1 2 'Structure model' 'Structure summary'   
 2 3 'Structure model' 'Database references' 
 3 3 'Structure model' 'Structure summary'   
+4 4 'Structure model' 'Structure summary'   
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -11015,6 +11017,7 @@ _pdbx_audit_revision_category.category
 1 2 'Structure model' struct       
 2 3 'Structure model' audit_author 
 3 3 'Structure model' citation     
+4 4 'Structure model' struct       
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -11025,6 +11028,7 @@ _pdbx_audit_revision_item.item
 2 3 'Structure model' '_citation.journal_volume' 
 3 3 'Structure model' '_citation.page_first'     
 4 3 'Structure model' '_citation.page_last'      
+5 4 'Structure model' '_struct.title'            
 # 
 _pdbx_phasing_MR.entry_id                     7M53 
 _pdbx_phasing_MR.method_rotation              ? 

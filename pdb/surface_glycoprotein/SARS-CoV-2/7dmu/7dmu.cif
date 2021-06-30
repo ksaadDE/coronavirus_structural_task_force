@@ -3,7 +3,7 @@ data_7DMU
 _entry.id   7DMU 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.336 
+_audit_conform.dict_version    5.343 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -39,25 +39,25 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Nat Commun' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           2041-1723 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'High affinity modified ACE2 receptors protects from SARS-CoV-2 infection in hamsters' 
-_citation.year                      ? 
+_citation.page_first                3802 
+_citation.page_last                 3802 
+_citation.title                     'Engineered ACE2 receptor therapy overcomes mutational escape of SARS-CoV-2.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1038/s41467-021-24013-y 
+_citation.pdbx_database_id_PubMed   34155214 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -69,17 +69,20 @@ primary 'Higuchi, Y.'  1  ?
 primary 'Suzuki, T.'   2  ?                   
 primary 'Arimori, T.'  3  0000-0002-6063-5572 
 primary 'Ikemura, N.'  4  ?                   
-primary 'Mihara, E.'   5  ?                   
-primary 'Kirita, Y.'   6  ?                   
+primary 'Mihara, E.'   5  0000-0002-9127-8643 
+primary 'Kirita, Y.'   6  0000-0002-5240-5531 
 primary 'Ohgitani, E.' 7  ?                   
-primary 'Mazda, O.'    8  ?                   
+primary 'Mazda, O.'    8  0000-0001-9489-3556 
 primary 'Motooka, D.'  9  ?                   
 primary 'Nakamura, S.' 10 ?                   
-primary 'Matsuura, Y.' 11 ?                   
-primary 'Matoba, S.'   12 ?                   
-primary 'Okamoto, T.'  13 ?                   
-primary 'Takagi, J.'   14 ?                   
-primary 'Hoshino, A.'  15 ?                   
+primary 'Sakai, Y.'    11 0000-0003-0531-8256 
+primary 'Itoh, Y.'     12 ?                   
+primary 'Sugihara, F.' 13 ?                   
+primary 'Matsuura, Y.' 14 0000-0001-9091-8285 
+primary 'Matoba, S.'   15 0000-0002-9373-4331 
+primary 'Okamoto, T.'  16 0000-0003-4000-3102 
+primary 'Takagi, J.'   17 0000-0002-1219-475X 
+primary 'Hoshino, A.'  18 0000-0002-4015-1319 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -30170,6 +30173,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2020-12-23 
 2 'Structure model' 1 1 2021-03-10 
+3 'Structure model' 1 2 2021-06-30 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -30179,10 +30183,13 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
-_pdbx_audit_revision_group.ordinal             1 
-_pdbx_audit_revision_group.revision_ordinal    2 
-_pdbx_audit_revision_group.data_content_type   'Structure model' 
-_pdbx_audit_revision_group.group               'Structure summary' 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Structure summary'   
+2 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -30191,14 +30198,27 @@ _pdbx_audit_revision_category.data_content_type
 _pdbx_audit_revision_category.category 
 1 2 'Structure model' entity          
 2 2 'Structure model' entity_name_com 
+3 3 'Structure model' citation        
+4 3 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_entity.pdbx_description' 
-2 2 'Structure model' '_entity_name_com.name'    
+1  2 'Structure model' '_entity.pdbx_description'          
+2  2 'Structure model' '_entity_name_com.name'             
+3  3 'Structure model' '_citation.country'                 
+4  3 'Structure model' '_citation.journal_abbrev'          
+5  3 'Structure model' '_citation.journal_id_CSD'          
+6  3 'Structure model' '_citation.journal_id_ISSN'         
+7  3 'Structure model' '_citation.journal_volume'          
+8  3 'Structure model' '_citation.page_first'              
+9  3 'Structure model' '_citation.page_last'               
+10 3 'Structure model' '_citation.pdbx_database_id_DOI'    
+11 3 'Structure model' '_citation.pdbx_database_id_PubMed' 
+12 3 'Structure model' '_citation.title'                   
+13 3 'Structure model' '_citation.year'                    
 # 
 loop_
 _pdbx_refine_tls.id 

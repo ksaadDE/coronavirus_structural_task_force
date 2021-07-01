@@ -1,0 +1,13 @@
+{
+  "pdbid": "7mgr",
+  "ddatafit": {
+    "zdfree": 4.5,
+    "range-lower": -12.9,
+    "range-upper": 12.9
+    },
+  "geometry": {
+    "dzscore": 0.925,
+    "range-lower": -1.17,
+    "range-upper": 1.17
+    } 
+}

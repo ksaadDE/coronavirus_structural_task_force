@@ -1,0 +1,209 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+WJD      WJD '.                                   ' .                  23  12 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_WJD
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ WJD           O1     O    O         0.000     29.706  -47.177   -4.540
+ WJD           C2     C    C         0.000     28.739  -47.628   -4.017
+ WJD           C1     C    CH2       0.000     28.067  -48.885   -4.597
+ WJD           H11    H    H         0.000     26.984  -48.764   -4.533
+ WJD           H12    H    H         0.000     28.371  -49.750   -4.004
+ WJD           O      O    O2        0.000     28.441  -49.080   -5.941
+ WJD           C      C    CH3       0.000     27.366  -49.267   -6.818
+ WJD           H3     H    H         0.000     26.820  -50.121   -6.519
+ WJD           H2     H    H         0.000     26.742  -48.414   -6.788
+ WJD           H1     H    H         0.000     27.738  -49.405   -7.798
+ WJD           N      N    NH1       0.000     28.167  -47.018   -2.821
+ WJD           HN     H    H         0.000     27.352  -47.464   -2.426
+ WJD           C3     C    CR6       0.000     28.663  -45.822   -2.141
+ WJD           C4     C    CR16      0.000     27.937  -45.313   -1.073
+ WJD           H4     H    H         0.000     27.026  -45.810   -0.764
+ WJD           C8     C    CR16      0.000     29.828  -45.174   -2.517
+ WJD           H8     H    H         0.000     30.423  -45.573   -3.329
+ WJD           C7     C    CR16      0.000     30.243  -44.019   -1.866
+ WJD           H7     H    H         0.000     31.135  -43.502   -2.198
+ WJD           C6     C    CR16      0.000     29.517  -43.526   -0.791
+ WJD           H6     H    H         0.000     29.852  -42.640   -0.267
+ WJD           C5     C    CR16      0.000     28.360  -44.177   -0.394
+ WJD           H5     H    H         0.000     27.786  -43.801    0.444
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ WJD      O1     n/a    C2     START
+ WJD      C2     O1     N      .
+ WJD      C1     C2     O      .
+ WJD      H11    C1     .      .
+ WJD      H12    C1     .      .
+ WJD      O      C1     C      .
+ WJD      C      O      H1     .
+ WJD      H3     C      .      .
+ WJD      H2     C      .      .
+ WJD      H1     C      .      .
+ WJD      N      C2     C3     .
+ WJD      HN     N      .      .
+ WJD      C3     N      C8     .
+ WJD      C4     C3     H4     .
+ WJD      H4     C4     .      .
+ WJD      C8     C3     C7     .
+ WJD      H8     C8     .      .
+ WJD      C7     C8     C6     .
+ WJD      H7     C7     .      .
+ WJD      C6     C7     C5     .
+ WJD      H6     C6     .      .
+ WJD      C5     C6     H5     .
+ WJD      H5     C5     .      END
+ WJD      C4     C5     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ WJD      C4     C5        aromatic    1.390    0.020
+ WJD      C4     C3        aromatic    1.390    0.020
+ WJD      C5     C6        aromatic    1.390    0.020
+ WJD      C6     C7        aromatic    1.390    0.020
+ WJD      C7     C8        aromatic    1.390    0.020
+ WJD      C8     C3        aromatic    1.390    0.020
+ WJD      N      C2        single      1.330    0.020
+ WJD      C3     N         single      1.350    0.020
+ WJD      C      O         single      1.426    0.020
+ WJD      O      C1        single      1.426    0.020
+ WJD      C1     C2        single      1.510    0.020
+ WJD      C2     O1        double      1.220    0.020
+ WJD      H4     C4        single      1.083    0.020
+ WJD      H5     C5        single      1.083    0.020
+ WJD      H6     C6        single      1.083    0.020
+ WJD      H7     C7        single      1.083    0.020
+ WJD      H8     C8        single      1.083    0.020
+ WJD      HN     N         single      1.010    0.020
+ WJD      H1     C         single      1.059    0.020
+ WJD      H2     C         single      1.059    0.020
+ WJD      H3     C         single      1.059    0.020
+ WJD      H11    C1        single      1.092    0.020
+ WJD      H12    C1        single      1.092    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ WJD      O1     C2     C1      120.500    3.000
+ WJD      O1     C2     N       123.000    3.000
+ WJD      C1     C2     N       116.500    3.000
+ WJD      C2     C1     H11     109.470    3.000
+ WJD      C2     C1     H12     109.470    3.000
+ WJD      C2     C1     O       109.470    3.000
+ WJD      H11    C1     H12     107.900    3.000
+ WJD      H11    C1     O       109.470    3.000
+ WJD      H12    C1     O       109.470    3.000
+ WJD      C1     O      C       111.800    3.000
+ WJD      O      C      H3      109.470    3.000
+ WJD      O      C      H2      109.470    3.000
+ WJD      O      C      H1      109.470    3.000
+ WJD      H3     C      H2      109.470    3.000
+ WJD      H3     C      H1      109.470    3.000
+ WJD      H2     C      H1      109.470    3.000
+ WJD      C2     N      HN      120.000    3.000
+ WJD      C2     N      C3      120.000    3.000
+ WJD      HN     N      C3      120.000    3.000
+ WJD      N      C3     C4      120.000    3.000
+ WJD      N      C3     C8      120.000    3.000
+ WJD      C4     C3     C8      120.000    3.000
+ WJD      C3     C4     H4      120.000    3.000
+ WJD      C3     C4     C5      120.000    3.000
+ WJD      H4     C4     C5      120.000    3.000
+ WJD      C3     C8     H8      120.000    3.000
+ WJD      C3     C8     C7      120.000    3.000
+ WJD      H8     C8     C7      120.000    3.000
+ WJD      C8     C7     H7      120.000    3.000
+ WJD      C8     C7     C6      120.000    3.000
+ WJD      H7     C7     C6      120.000    3.000
+ WJD      C7     C6     H6      120.000    3.000
+ WJD      C7     C6     C5      120.000    3.000
+ WJD      H6     C6     C5      120.000    3.000
+ WJD      C6     C5     H5      120.000    3.000
+ WJD      C6     C5     C4      120.000    3.000
+ WJD      H5     C5     C4      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ WJD      var_1            O1     C2     C1     O                180.000           20.000   3
+ WJD      var_2            C2     C1     O      C               -128.816           20.000   3
+ WJD      var_3            C1     O      C      H1               180.000           20.000   3
+ WJD      var_4            O1     C2     N      C3               180.000           20.000   2
+ WJD      var_5            C2     N      C3     C8                -5.025           20.000   3
+ WJD      CONST_1          N      C3     C4     C5                 0.000            0.000   0
+ WJD      CONST_2          C3     C4     C5     C6                 0.000            0.000   0
+ WJD      CONST_3          N      C3     C8     C7                 0.000            0.000   0
+ WJD      CONST_4          C3     C8     C7     C6                 0.000            0.000   0
+ WJD      CONST_5          C8     C7     C6     C5                 0.000            0.000   0
+ WJD      CONST_6          C7     C6     C5     C4                 0.000            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ WJD      plan-1            C4        0.020
+ WJD      plan-1            C5        0.020
+ WJD      plan-1            C3        0.020
+ WJD      plan-1            H4        0.020
+ WJD      plan-1            C6        0.020
+ WJD      plan-1            C7        0.020
+ WJD      plan-1            C8        0.020
+ WJD      plan-1            H5        0.020
+ WJD      plan-1            H6        0.020
+ WJD      plan-1            H7        0.020
+ WJD      plan-1            H8        0.020
+ WJD      plan-1            N         0.020
+ WJD      plan-1            HN        0.020
+ WJD      plan-2            N         0.020
+ WJD      plan-2            C2        0.020
+ WJD      plan-2            C3        0.020
+ WJD      plan-2            HN        0.020
+ WJD      plan-3            C2        0.020
+ WJD      plan-3            N         0.020
+ WJD      plan-3            C1        0.020
+ WJD      plan-3            O1        0.020
+ WJD      plan-3            HN        0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

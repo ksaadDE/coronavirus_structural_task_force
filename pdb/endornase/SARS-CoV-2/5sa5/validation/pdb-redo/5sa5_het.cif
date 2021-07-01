@@ -1,0 +1,221 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ZQA      ZQA '.                                   ' .                  20  12 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_ZQA
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ ZQA           C01    C    CH3       0.000     66.045  -52.683   20.709
+ ZQA           H011   H    H         0.000     65.268  -53.378   20.898
+ ZQA           H012   H    H         0.000     65.724  -51.987   19.978
+ ZQA           H013   H    H         0.000     66.900  -53.198   20.353
+ ZQA           C02    C    CH2       0.000     66.392  -51.949   21.991
+ ZQA           H021   H    H         0.000     67.197  -51.241   21.786
+ ZQA           H022   H    H         0.000     66.728  -52.675   22.734
+ ZQA           C03    C    CT        0.000     65.182  -51.202   22.522
+ ZQA           N07    N    N         0.000     64.567  -51.389   23.850
+ ZQA           S05    S    ST        0.000     63.270  -49.655   22.658
+ ZQA           C04    C    C1        0.000     64.482  -50.219   21.784
+ ZQA           H04    H    H         0.000     64.729  -49.900   20.785
+ ZQA           C06    C    C         0.000     63.471  -50.536   24.011
+ ZQA           C08    C    CR5       0.000     62.552  -50.463   25.237
+ ZQA           C09    C    CR15      0.000     61.810  -49.383   25.625
+ ZQA           H09    H    H         0.000     61.790  -48.418   25.134
+ ZQA           N10    N    NRD5      0.000     61.126  -49.716   26.694
+ ZQA           C11    C    CR15      0.000     61.412  -50.988   26.996
+ ZQA           H11    H    H         0.000     61.009  -51.548   27.831
+ ZQA           N12    N    NRD5      0.000     62.287  -51.452   26.084
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ ZQA      C01    n/a    C02    START
+ ZQA      H011   C01    .      .
+ ZQA      H012   C01    .      .
+ ZQA      H013   C01    .      .
+ ZQA      C02    C01    C03    .
+ ZQA      H021   C02    .      .
+ ZQA      H022   C02    .      .
+ ZQA      C03    C02    N07    .
+ ZQA      N07    C03    C06    .
+ ZQA      S05    N07    C04    .
+ ZQA      C04    S05    H04    .
+ ZQA      H04    C04    .      .
+ ZQA      C06    N07    C08    .
+ ZQA      C08    C06    C09    .
+ ZQA      C09    C08    N10    .
+ ZQA      H09    C09    .      .
+ ZQA      N10    C09    C11    .
+ ZQA      C11    N10    N12    .
+ ZQA      H11    C11    .      .
+ ZQA      N12    C11    .      END
+ ZQA      N12    C08    .    ADD
+ ZQA      C03    C04    .    ADD
+ ZQA      C03    S05    .    ADD
+ ZQA      S05    C06    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ ZQA      N12    C08       aromat      1.350    0.020
+ ZQA      N12    C11       aromatic    1.350    0.020
+ ZQA      C02    C01       single      1.513    0.020
+ ZQA      C03    C02       single      1.524    0.020
+ ZQA      C03    C04       single      1.510    0.020
+ ZQA      C03    S05       single      1.662    0.020
+ ZQA      N07    C03       single      1.455    0.020
+ ZQA      C04    S05       double      1.565    0.020
+ ZQA      S05    C06       double      1.565    0.020
+ ZQA      S05    N07       single      1.520    0.020
+ ZQA      C06    N07       single      1.330    0.020
+ ZQA      C08    C06       single      1.490    0.020
+ ZQA      C09    C08       aromatic    1.387    0.020
+ ZQA      N10    C09       aromatic    1.350    0.020
+ ZQA      C11    N10       deloc       1.350    0.020
+ ZQA      H011   C01       single      1.059    0.020
+ ZQA      H012   C01       single      1.059    0.020
+ ZQA      H013   C01       single      1.059    0.020
+ ZQA      H021   C02       single      1.092    0.020
+ ZQA      H022   C02       single      1.092    0.020
+ ZQA      H04    C04       single      1.077    0.020
+ ZQA      H09    C09       single      1.083    0.020
+ ZQA      H11    C11       single      1.083    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ ZQA      H011   C01    H012    109.470    3.000
+ ZQA      H011   C01    H013    109.470    3.000
+ ZQA      H012   C01    H013    109.470    3.000
+ ZQA      H011   C01    C02     109.470    3.000
+ ZQA      H012   C01    C02     109.470    3.000
+ ZQA      H013   C01    C02     109.470    3.000
+ ZQA      C01    C02    H021    109.470    3.000
+ ZQA      C01    C02    H022    109.470    3.000
+ ZQA      C01    C02    C03     111.000    3.000
+ ZQA      H021   C02    H022    107.900    3.000
+ ZQA      H021   C02    C03     109.470    3.000
+ ZQA      H022   C02    C03     109.470    3.000
+ ZQA      C02    C03    N07     111.600    3.000
+ ZQA      C02    C03    C04     109.470    3.000
+ ZQA      C02    C03    S05     109.500    3.000
+ ZQA      C04    C03    S05      58.893    3.000
+ ZQA      N07    C03    C04     111.600    3.000
+ ZQA      N07    C03    S05      57.917    3.000
+ ZQA      C03    N07    S05      67.885    3.000
+ ZQA      C03    N07    C06     121.000    3.000
+ ZQA      S05    N07    C06      66.224    3.000
+ ZQA      N07    S05    C04     109.500    3.000
+ ZQA      N07    S05    C03      54.198    3.000
+ ZQA      N07    S05    C06      51.052    3.000
+ ZQA      C03    S05    C06     109.500    3.000
+ ZQA      C04    S05    C03      55.702    3.000
+ ZQA      C04    S05    C06     109.500    3.000
+ ZQA      S05    C04    H04     120.000    3.000
+ ZQA      S05    C04    C03      65.405    3.000
+ ZQA      H04    C04    C03     120.000    3.000
+ ZQA      N07    C06    C08     120.000    3.000
+ ZQA      N07    C06    S05      62.725    3.000
+ ZQA      C08    C06    S05     120.000    3.000
+ ZQA      C06    C08    C09     126.000    3.000
+ ZQA      C06    C08    N12     126.000    3.000
+ ZQA      C09    C08    N12     108.000    3.000
+ ZQA      C08    C09    H09     126.000    3.000
+ ZQA      C08    C09    N10     108.000    3.000
+ ZQA      H09    C09    N10     126.000    3.000
+ ZQA      C09    N10    C11     108.000    3.000
+ ZQA      N10    C11    H11     126.000    3.000
+ ZQA      N10    C11    N12     108.000    3.000
+ ZQA      H11    C11    N12     126.000    3.000
+ ZQA      C11    N12    C08     108.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ ZQA      var_1            H013   C01    C02    C03              180.000           20.000   3
+ ZQA      var_2            C01    C02    C03    N07              121.637           20.000   3
+ ZQA      var_3            C02    C03    C04    S05              179.893           20.000   3
+ ZQA      var_4            C02    C03    S05    N07              179.570           20.000   3
+ ZQA      var_5            C02    C03    N07    C06              179.848           20.000   3
+ ZQA      var_6            C03    N07    S05    C04                0.088           20.000   3
+ ZQA      var_7            N07    S05    C04    C03               -0.097           20.000   3
+ ZQA      var_8            C03    N07    C06    C08              180.000           20.000   2
+ ZQA      var_9            N07    C06    C08    C09              155.323           20.000   3
+ ZQA      CONST_1          C06    C08    C09    N10                0.000            0.000   0
+ ZQA      CONST_2          C08    C09    N10    C11                0.000            0.000   0
+ ZQA      CONST_3          C09    N10    C11    N12                0.000            0.000   0
+ ZQA      CONST_4          N10    C11    N12    C08                0.000            0.000   0
+ ZQA      CONST_5          C11    N12    C08    C06                0.000            0.000   0
+ ZQA      var_1            C04    S05    C06    N07               -0.374           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ ZQA      chir_01          C03    C02    C04    S05       negativ
+ ZQA      chir_02          S05    C03    C04    C06       positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ ZQA      plan-1            N12       0.020
+ ZQA      plan-1            C08       0.020
+ ZQA      plan-1            C11       0.020
+ ZQA      plan-1            C09       0.020
+ ZQA      plan-1            N10       0.020
+ ZQA      plan-1            C06       0.020
+ ZQA      plan-1            H09       0.020
+ ZQA      plan-1            H11       0.020
+ ZQA      plan-2            C04       0.020
+ ZQA      plan-2            C03       0.020
+ ZQA      plan-2            S05       0.020
+ ZQA      plan-2            H04       0.020
+ ZQA      plan-3            C06       0.020
+ ZQA      plan-3            S05       0.020
+ ZQA      plan-3            N07       0.020
+ ZQA      plan-3            C08       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

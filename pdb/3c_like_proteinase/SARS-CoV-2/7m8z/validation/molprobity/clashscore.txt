@@ -1,0 +1,39 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ A 235  MET  HE1  A 241  PRO  HA  :0.705
+ A   5  LYS  HE3  A 518  HOH  O   :0.699
+ A  50  LEU  O    A  50  LEU HD23 :0.662
+ A 235  MET  HE1  A 241  PRO  CA  :0.617
+ A 153  ASP  O    A 155  ASP  N   :0.604
+ A  92  ASP  OD1  A  93  THR HG22 :0.580
+ A 231  ASN  O    A 235  MET  HG2 :0.566
+ A 188  ARG  NH1  A 190  THR HG21 :0.559
+ A 301  SER  HB2  A 631  HOH  O   :0.553
+ A  86  VAL HG23  A 179  GLY  HA2 :0.552
+ A  34  ASP  OD2  A  90  LYS  HE2 :0.539
+ A 241  PRO  HG2  A 675  HOH  O   :0.518
+ A 245  ASP  O    A 249  ILE HG13 :0.499
+ A 228  ASN  O    A 232  LEU HD23 :0.490
+ A 236  LYS  HD2  A 236  LYS  O   :0.489
+ A 190  THR HG22  A 664  HOH  O   :0.484
+ A 224  THR HG22  A 225  THR  N   :0.469
+ A  49  MET  HG3  A  49  MET  O   :0.462
+ A 235  MET  HB3  A 686  HOH  O   :0.453
+ A  75  LEU HD22  A  93  THR  CG2 :0.449
+ A  59  ILE HG13  A 513  HOH  O   :0.438
+ A 231  ASN  O    A 235  MET  HE2 :0.431
+ A 192  GLN HE21  A 401  YTV  C12 :0.430
+ A 256  GLN  OE1  A 501  HOH  O   :0.429
+ A 198  THR HG22  A 238  ASN  OD1 :0.428
+ A  31  TRP  CE2  A  95  ASN  HB2 :0.428
+ A 235  MET  HG3  A 686  HOH  O   :0.427
+ A  40  ARG  HD3  A  85  CYS  HA  :0.422
+ A 236  LYS  HG3  A 237  TYR  CD2 :0.412
+ A  31  TRP  CD2  A  95  ASN  HB2 :0.411
+ A 230  PHE  CD1  A 265  CYS  HB3 :0.411
+ A  56  ASP  OD2  A 502  HOH  O   :0.404
+clashscore = 6.99

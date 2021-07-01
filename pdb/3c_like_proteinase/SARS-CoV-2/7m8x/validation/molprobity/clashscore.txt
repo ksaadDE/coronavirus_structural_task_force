@@ -1,0 +1,42 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ A  67  LEU HD11  A  74  GLN HE21 :0.945
+ A  86  VAL HG23  A 179  GLY  HA2 :0.781
+ A  58  LEU HD22  A  82  MET  HG3 :0.711
+ A 294  PHE  HD2  A 578  HOH  O   :0.652
+ A  53  ASN  O    A  57  LEU HD13 :0.645
+ A  31  TRP  CD2  A  95  ASN  HB2 :0.642
+ A  86  VAL HG23  A 179  GLY  CA  :0.626
+ A  44  CYS  HB3  A  49  MET  HB3 :0.620
+ A  97  LYS  NZ   A 503  HOH  O   :0.608
+ A  31  TRP  CE2  A  95  ASN  HB2 :0.592
+ A  56  ASP  O    A  59  ILE HG22 :0.588
+ A 276  MET  O    A 279  ARG  HG2 :0.549
+ A 137  LYS  HE2  A 566  HOH  O   :0.541
+ A  67  LEU  CD1  A  74  GLN HE21 :0.532
+ A  66  PHE  CE1  A  87  LEU HD21 :0.518
+ A 224  THR HG22  A 225  THR  N   :0.515
+ A 110  GLN  HG3  A 554  HOH  O   :0.509
+ A  92  ASP  OD1  A  93  THR HG22 :0.503
+ A  50  LEU  N    A  50  LEU HD22 :0.488
+ A  67  LEU HD11  A  74  GLN  NE2 :0.484
+ A 188  ARG  NH1  A 190  THR HG21 :0.484
+ A 230  PHE  CD1  A 265  CYS  HB3 :0.479
+ A 293  PRO  HD2  A 578  HOH  O   :0.474
+ A 240  GLU  OE2  A 501  HOH  O   :0.474
+ A  51  ASN  OD1  A 188  ARG  NH1 :0.470
+ A 188  ARG  CZ   A 190  THR HG21 :0.468
+ A  81  SER  O    A  87  LEU HD12 :0.444
+ A 230  PHE  HZ   A 268  LEU HD23 :0.433
+ A  75  LEU HD22  A  93  THR  CG2 :0.428
+ A  50  LEU  H    A  50  LEU HD22 :0.428
+ A  67  LEU HD21  A  74  GLN  NE2 :0.427
+ A 113  SER  O    A 149  GLY  HA2 :0.426
+ A 221  ASN HD22  A 270  GLU  CD  :0.413
+ A  69  GLN  HG3  A  74  GLN  OE1 :0.403
+ A 272  LEU  HA   A 272  LEU HD23 :0.403
+clashscore = 7.60

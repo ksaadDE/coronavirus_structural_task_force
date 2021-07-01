@@ -1,0 +1,527 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HUR      HUR '.                                   ' .                  67  41 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_HUR
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ HUR           O5     O    O         0.000      8.139   -2.345   16.363
+ HUR           C18    C    C         0.000      9.317   -2.354   16.715
+ HUR           N4     N    N         0.000     10.276   -3.084   16.119
+ HUR           C17    C    CH2       0.000     11.556   -2.848   16.877
+ HUR           H171   H    H         0.000     12.427   -2.818   16.218
+ HUR           H172   H    H         0.000     11.718   -3.594   17.658
+ HUR           C16    C    CH2       0.000     11.352   -1.475   17.516
+ HUR           H162   H    H         0.000     11.514   -0.647   16.823
+ HUR           H161   H    H         0.000     11.955   -1.321   18.413
+ HUR           C15    C    CH1       0.000      9.865   -1.540   17.901
+ HUR           H15    H    H         0.000      9.720   -2.072   18.851
+ HUR           C14    C    CH2       0.000      9.238   -0.129   17.946
+ HUR           H141   H    H         0.000      8.154   -0.207   18.061
+ HUR           H142   H    H         0.000      9.467    0.409   17.024
+ HUR           C13    C    CH1       0.000      9.835    0.638   19.157
+ HUR           H13    H    H         0.000     10.911    0.416   19.158
+ HUR           C19    C    C         0.000      9.715    2.164   19.023
+ HUR           O4     O    O         0.000      9.968    2.653   17.912
+ HUR           C20    C    C         0.000     10.151    2.826   20.120
+ HUR           S1     S    ST        0.000      9.372    3.543   21.440
+ HUR           C22    C    C         0.000     10.808    4.071   22.187
+ HUR           C26    C    CSP       0.000     10.972    4.748   23.321
+ HUR           C25    C    C1        0.000     12.249    5.069   23.763
+ HUR           H25    H    H         0.000     12.395    5.613   24.681
+ HUR           C24    C    C1        0.000     13.330    4.672   22.993
+ HUR           H24    H    H         0.000     14.337    4.898   23.302
+ HUR           C23    C    C1        0.000     13.089    3.973   21.808
+ HUR           H23    H    H         0.000     13.922    3.665   21.199
+ HUR           N5     N    N         0.000     11.466    3.006   20.293
+ HUR           C21    C    CT        0.000     11.845    3.678   21.414
+ HUR           N3     N    N         0.000      9.316    0.153   20.446
+ HUR           C12    C    C         0.000     10.110   -0.421   21.368
+ HUR           O3     O    O         0.000     11.324   -0.613   21.234
+ HUR           C11    C    CH1       0.000      9.393   -0.809   22.663
+ HUR           H11    H    H         0.000      8.326   -0.940   22.437
+ HUR           C27    C    CH2       0.000      9.530    0.345   23.671
+ HUR           H271   H    H         0.000      9.241    1.281   23.188
+ HUR           H272   H    H         0.000     10.569    0.413   24.001
+ HUR           C28    C    CH1       0.000      8.624    0.092   24.880
+ HUR           H28    H    H         0.000      8.703   -0.960   25.187
+ HUR           C30    C    CH3       0.000      7.172    0.421   24.544
+ HUR           H303   H    H         0.000      7.096    1.440   24.266
+ HUR           H302   H    H         0.000      6.848   -0.188   23.740
+ HUR           H301   H    H         0.000      6.563    0.240   25.392
+ HUR           C29    C    CH3       0.000      9.053    1.000   26.036
+ HUR           H293   H    H         0.000     10.058    0.790   26.298
+ HUR           H292   H    H         0.000      8.972    2.014   25.740
+ HUR           H291   H    H         0.000      8.428    0.827   26.874
+ HUR           N2     N    N         0.000      9.905   -2.081   23.227
+ HUR           C10    C    C         0.000      9.642   -3.274   22.642
+ HUR           O2     O    O         0.000      9.016   -3.327   21.581
+ HUR           C7     C    CR5       0.000     10.115   -4.421   23.199
+ HUR           N1     N    NRD5      0.000      9.926   -5.613   22.630
+ HUR           C4     C    CR56      0.000     10.506   -6.548   23.402
+ HUR           C3     C    CSP       0.000     10.585   -7.874   23.264
+ HUR           C2     C    CR16      0.000     11.245   -8.678   24.195
+ HUR           H2     H    H         0.000     11.304   -9.752   24.068
+ HUR           C8     C    CSP       0.000     10.823   -4.607   24.334
+ HUR           C5     C    CR56      0.000     11.059   -5.932   24.460
+ HUR           C6     C    CR6       0.000     11.714   -6.668   25.388
+ HUR           C1     C    CR16      0.000     11.822   -8.052   25.287
+ HUR           H1     H    H         0.000     12.344   -8.625   26.043
+ HUR           O1     O    O2        0.000     12.262   -5.979   26.437
+ HUR           C9     C    CH3       0.000     13.020   -6.788   27.367
+ HUR           H93    H    H         0.000     12.393   -7.532   27.789
+ HUR           H92    H    H         0.000     13.825   -7.257   26.860
+ HUR           H91    H    H         0.000     13.406   -6.176   28.143
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ HUR      O5     n/a    C18    START
+ HUR      C18    O5     C15    .
+ HUR      N4     C18    C17    .
+ HUR      C17    N4     C16    .
+ HUR      H171   C17    .      .
+ HUR      H172   C17    .      .
+ HUR      C16    C17    H161   .
+ HUR      H162   C16    .      .
+ HUR      H161   C16    .      .
+ HUR      C15    C18    C14    .
+ HUR      H15    C15    .      .
+ HUR      C14    C15    C13    .
+ HUR      H141   C14    .      .
+ HUR      H142   C14    .      .
+ HUR      C13    C14    N3     .
+ HUR      H13    C13    .      .
+ HUR      C19    C13    C20    .
+ HUR      O4     C19    .      .
+ HUR      C20    C19    S1     .
+ HUR      S1     C20    C21    .
+ HUR      C22    S1     C26    .
+ HUR      C26    C22    C25    .
+ HUR      C25    C26    C24    .
+ HUR      H25    C25    .      .
+ HUR      C24    C25    C23    .
+ HUR      H24    C24    .      .
+ HUR      C23    C24    H23    .
+ HUR      H23    C23    .      .
+ HUR      N5     S1     .      .
+ HUR      C21    S1     .      .
+ HUR      N3     C13    C12    .
+ HUR      C12    N3     C11    .
+ HUR      O3     C12    .      .
+ HUR      C11    C12    N2     .
+ HUR      H11    C11    .      .
+ HUR      C27    C11    C28    .
+ HUR      H271   C27    .      .
+ HUR      H272   C27    .      .
+ HUR      C28    C27    C29    .
+ HUR      H28    C28    .      .
+ HUR      C30    C28    H301   .
+ HUR      H303   C30    .      .
+ HUR      H302   C30    .      .
+ HUR      H301   C30    .      .
+ HUR      C29    C28    H291   .
+ HUR      H293   C29    .      .
+ HUR      H292   C29    .      .
+ HUR      H291   C29    .      .
+ HUR      N2     C11    C10    .
+ HUR      C10    N2     C7     .
+ HUR      O2     C10    .      .
+ HUR      C7     C10    C8     .
+ HUR      N1     C7     C4     .
+ HUR      C4     N1     C3     .
+ HUR      C3     C4     C2     .
+ HUR      C2     C3     H2     .
+ HUR      H2     C2     .      .
+ HUR      C8     C7     C5     .
+ HUR      C5     C8     C6     .
+ HUR      C6     C5     O1     .
+ HUR      C1     C6     H1     .
+ HUR      H1     C1     .      .
+ HUR      O1     C6     C9     .
+ HUR      C9     O1     H91    .
+ HUR      H93    C9     .      .
+ HUR      H92    C9     .      .
+ HUR      H91    C9     .      END
+ HUR      C1     C2     .    ADD
+ HUR      C15    C16    .    ADD
+ HUR      C20    N5     .    ADD
+ HUR      C21    C22    .    ADD
+ HUR      C21    C23    .    ADD
+ HUR      C21    N5     .    ADD
+ HUR      C4     C5     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ HUR      C1     C2        aromatic    1.390    0.020
+ HUR      C1     C6        aromatic    1.390    0.020
+ HUR      C7     C10       deloc       1.490    0.020
+ HUR      C10    N2        deloc       1.330    0.020
+ HUR      O2     C10       double      1.220    0.020
+ HUR      C11    C12       single      1.500    0.020
+ HUR      C27    C11       single      1.524    0.020
+ HUR      N2     C11       single      1.455    0.020
+ HUR      C12    N3        deloc       1.330    0.020
+ HUR      O3     C12       deloc       1.220    0.020
+ HUR      C13    C14       single      1.524    0.020
+ HUR      C19    C13       single      1.500    0.020
+ HUR      N3     C13       single      1.455    0.020
+ HUR      C14    C15       single      1.524    0.020
+ HUR      C15    C16       single      1.524    0.020
+ HUR      C15    C18       single      1.500    0.020
+ HUR      C16    C17       single      1.524    0.020
+ HUR      C17    N4        single      1.455    0.020
+ HUR      N4     C18       aromatic    1.330    0.020
+ HUR      C18    O5        double      1.220    0.020
+ HUR      C20    C19       double      1.330    0.020
+ HUR      O4     C19       deloc       1.220    0.020
+ HUR      C2     C3        aromatic    1.285    0.020
+ HUR      C20    N5        single      1.330    0.020
+ HUR      S1     C20       double      1.565    0.020
+ HUR      C21    C22       single      1.507    0.020
+ HUR      C21    C23       single      1.510    0.020
+ HUR      C21    N5        single      1.455    0.020
+ HUR      C21    S1        single      1.662    0.020
+ HUR      C26    C22       double      1.255    0.020
+ HUR      C22    S1        double      1.565    0.020
+ HUR      C23    C24       aromatic    1.330    0.020
+ HUR      C24    C25       aromatic    1.330    0.020
+ HUR      C25    C26       aromatic    1.255    0.020
+ HUR      C28    C27       single      1.524    0.020
+ HUR      C29    C28       single      1.524    0.020
+ HUR      C30    C28       single      1.524    0.020
+ HUR      C3     C4        double      1.285    0.020
+ HUR      C4     C5        double      1.490    0.020
+ HUR      C4     N1        aromatic    1.350    0.020
+ HUR      C6     C5        double      1.490    0.020
+ HUR      C5     C8        double      1.285    0.020
+ HUR      O1     C6        single      1.370    0.020
+ HUR      C8     C7        double      1.335    0.020
+ HUR      N1     C7        deloc       1.350    0.020
+ HUR      C9     O1        single      1.426    0.020
+ HUR      N5     S1        single      1.520    0.020
+ HUR      H1     C1        single      1.083    0.020
+ HUR      H11    C11       single      1.099    0.020
+ HUR      H13    C13       single      1.099    0.020
+ HUR      H141   C14       single      1.092    0.020
+ HUR      H142   C14       single      1.092    0.020
+ HUR      H15    C15       single      1.099    0.020
+ HUR      H161   C16       single      1.092    0.020
+ HUR      H162   C16       single      1.092    0.020
+ HUR      H171   C17       single      1.092    0.020
+ HUR      H172   C17       single      1.092    0.020
+ HUR      H2     C2        single      1.083    0.020
+ HUR      H23    C23       single      1.077    0.020
+ HUR      H24    C24       single      1.077    0.020
+ HUR      H25    C25       single      1.077    0.020
+ HUR      H271   C27       single      1.092    0.020
+ HUR      H272   C27       single      1.092    0.020
+ HUR      H28    C28       single      1.099    0.020
+ HUR      H291   C29       single      1.059    0.020
+ HUR      H292   C29       single      1.059    0.020
+ HUR      H293   C29       single      1.059    0.020
+ HUR      H301   C30       single      1.059    0.020
+ HUR      H302   C30       single      1.059    0.020
+ HUR      H303   C30       single      1.059    0.020
+ HUR      H91    C9        single      1.059    0.020
+ HUR      H92    C9        single      1.059    0.020
+ HUR      H93    C9        single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ HUR      O5     C18    N4      123.000    3.000
+ HUR      O5     C18    C15     120.500    3.000
+ HUR      N4     C18    C15     116.500    3.000
+ HUR      C18    N4     C17     127.000    3.000
+ HUR      N4     C17    H171    109.470    3.000
+ HUR      N4     C17    H172    109.470    3.000
+ HUR      N4     C17    C16     105.000    3.000
+ HUR      H171   C17    H172    107.900    3.000
+ HUR      H171   C17    C16     109.470    3.000
+ HUR      H172   C17    C16     109.470    3.000
+ HUR      C17    C16    H162    109.470    3.000
+ HUR      C17    C16    H161    109.470    3.000
+ HUR      C17    C16    C15     111.000    3.000
+ HUR      H162   C16    H161    107.900    3.000
+ HUR      H162   C16    C15     109.470    3.000
+ HUR      H161   C16    C15     109.470    3.000
+ HUR      C18    C15    H15     108.810    3.000
+ HUR      C18    C15    C14     109.470    3.000
+ HUR      C18    C15    C16     109.470    3.000
+ HUR      H15    C15    C14     108.340    3.000
+ HUR      H15    C15    C16     108.340    3.000
+ HUR      C14    C15    C16     109.470    3.000
+ HUR      C15    C14    H141    109.470    3.000
+ HUR      C15    C14    H142    109.470    3.000
+ HUR      C15    C14    C13     111.000    3.000
+ HUR      H141   C14    H142    107.900    3.000
+ HUR      H141   C14    C13     109.470    3.000
+ HUR      H142   C14    C13     109.470    3.000
+ HUR      C14    C13    H13     108.340    3.000
+ HUR      C14    C13    C19     109.470    3.000
+ HUR      C14    C13    N3      105.000    3.000
+ HUR      H13    C13    C19     108.810    3.000
+ HUR      H13    C13    N3      109.470    3.000
+ HUR      C19    C13    N3      111.600    3.000
+ HUR      C13    C19    O4      120.500    3.000
+ HUR      C13    C19    C20     120.000    3.000
+ HUR      O4     C19    C20     120.500    3.000
+ HUR      C19    C20    S1      120.000    3.000
+ HUR      C19    C20    N5      116.500    3.000
+ HUR      S1     C20    N5       62.725    3.000
+ HUR      C20    S1     C22     109.500    3.000
+ HUR      C20    S1     N5       51.052    3.000
+ HUR      C20    S1     C21     109.500    3.000
+ HUR      C22    S1     N5      109.500    3.000
+ HUR      C22    S1     C21      55.581    3.000
+ HUR      N5     S1     C21      54.198    3.000
+ HUR      S1     C22    C26     120.000    3.000
+ HUR      S1     C22    C21      65.474    3.000
+ HUR      C26    C22    C21     120.000    3.000
+ HUR      C22    C26    C25     180.000    3.000
+ HUR      C26    C25    H25     120.000    3.000
+ HUR      C26    C25    C24     120.000    3.000
+ HUR      H25    C25    C24     120.000    3.000
+ HUR      C25    C24    H24     120.000    3.000
+ HUR      C25    C24    C23     120.000    3.000
+ HUR      H24    C24    C23     120.000    3.000
+ HUR      C24    C23    H23     120.000    3.000
+ HUR      C24    C23    C21     120.000    3.000
+ HUR      H23    C23    C21     120.000    3.000
+ HUR      S1     N5     C20      66.224    3.000
+ HUR      S1     N5     C21      67.885    3.000
+ HUR      C20    N5     C21     121.000    3.000
+ HUR      S1     C21    C22      58.945    3.000
+ HUR      S1     C21    C23     109.500    3.000
+ HUR      S1     C21    N5       57.917    3.000
+ HUR      C22    C21    C23     109.500    3.000
+ HUR      C22    C21    N5      111.600    3.000
+ HUR      C23    C21    N5      111.600    3.000
+ HUR      C13    N3     C12     121.000    3.000
+ HUR      N3     C12    O3      123.000    3.000
+ HUR      N3     C12    C11     116.500    3.000
+ HUR      O3     C12    C11     120.500    3.000
+ HUR      C12    C11    H11     108.810    3.000
+ HUR      C12    C11    C27     109.470    3.000
+ HUR      C12    C11    N2      111.600    3.000
+ HUR      H11    C11    C27     108.340    3.000
+ HUR      H11    C11    N2      109.470    3.000
+ HUR      C27    C11    N2      105.000    3.000
+ HUR      C11    C27    H271    109.470    3.000
+ HUR      C11    C27    H272    109.470    3.000
+ HUR      C11    C27    C28     111.000    3.000
+ HUR      H271   C27    H272    107.900    3.000
+ HUR      H271   C27    C28     109.470    3.000
+ HUR      H272   C27    C28     109.470    3.000
+ HUR      C27    C28    H28     108.340    3.000
+ HUR      C27    C28    C30     111.000    3.000
+ HUR      C27    C28    C29     111.000    3.000
+ HUR      H28    C28    C30     108.340    3.000
+ HUR      H28    C28    C29     108.340    3.000
+ HUR      C30    C28    C29     111.000    3.000
+ HUR      C28    C30    H303    109.470    3.000
+ HUR      C28    C30    H302    109.470    3.000
+ HUR      C28    C30    H301    109.470    3.000
+ HUR      H303   C30    H302    109.470    3.000
+ HUR      H303   C30    H301    109.470    3.000
+ HUR      H302   C30    H301    109.470    3.000
+ HUR      C28    C29    H293    109.470    3.000
+ HUR      C28    C29    H292    109.470    3.000
+ HUR      C28    C29    H291    109.470    3.000
+ HUR      H293   C29    H292    109.470    3.000
+ HUR      H293   C29    H291    109.470    3.000
+ HUR      H292   C29    H291    109.470    3.000
+ HUR      C11    N2     C10     121.000    3.000
+ HUR      N2     C10    O2      123.000    3.000
+ HUR      N2     C10    C7      120.000    3.000
+ HUR      O2     C10    C7      120.500    3.000
+ HUR      C10    C7     N1      126.000    3.000
+ HUR      C10    C7     C8      108.000    3.000
+ HUR      N1     C7     C8      108.000    3.000
+ HUR      C7     N1     C4      108.000    3.000
+ HUR      N1     C4     C3      120.000    3.000
+ HUR      N1     C4     C5      108.000    3.000
+ HUR      C3     C4     C5      120.000    3.000
+ HUR      C4     C3     C2      180.000    3.000
+ HUR      C3     C2     H2      120.000    3.000
+ HUR      C3     C2     C1      120.000    3.000
+ HUR      H2     C2     C1      120.000    3.000
+ HUR      C7     C8     C5      180.000    3.000
+ HUR      C8     C5     C6      120.000    3.000
+ HUR      C8     C5     C4      120.000    3.000
+ HUR      C6     C5     C4      120.000    3.000
+ HUR      C5     C6     C1      120.000    3.000
+ HUR      C5     C6     O1      120.000    3.000
+ HUR      C1     C6     O1      120.000    3.000
+ HUR      C6     C1     H1      120.000    3.000
+ HUR      C6     C1     C2      120.000    3.000
+ HUR      H1     C1     C2      120.000    3.000
+ HUR      C6     O1     C9      120.000    3.000
+ HUR      O1     C9     H93     109.470    3.000
+ HUR      O1     C9     H92     109.470    3.000
+ HUR      O1     C9     H91     109.470    3.000
+ HUR      H93    C9     H92     109.470    3.000
+ HUR      H93    C9     H91     109.470    3.000
+ HUR      H92    C9     H91     109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ HUR      var_1            O5     C18    N4     C17              180.000           20.000   2
+ HUR      var_2            C18    N4     C17    C16              -25.139           20.000   3
+ HUR      var_3            N4     C17    C16    C15              180.000           20.000   3
+ HUR      var_4            O5     C18    C15    C14              180.000           20.000   3
+ HUR      var_5            C18    C15    C16    C17              180.000           20.000   3
+ HUR      var_6            C18    C15    C14    C13              180.000           20.000   3
+ HUR      var_7            C15    C14    C13    N3               180.000           20.000   3
+ HUR      var_8            C14    C13    C19    C20              180.000           20.000   3
+ HUR      CONST_1          C13    C19    C20    S1              -100.321            0.000   0
+ HUR      CONST_2          C19    C20    N5     S1               180.000            0.000   0
+ HUR      var_9            C19    C20    S1     C21              180.000           20.000   3
+ HUR      var_10           C20    S1     C22    C26              179.674           20.000   3
+ HUR      var_11           S1     C22    C26    C25              179.269           20.000   3
+ HUR      var_12           C22    C26    C25    C24                0.265           20.000   3
+ HUR      var_13           C26    C25    C24    C23                0.220           20.000   3
+ HUR      var_14           C25    C24    C23    C21               -0.382           20.000   3
+ HUR      var_15           C20    S1     C21    C22              179.533           20.000   3
+ HUR      var_16           S1     C21    C23    C24               -0.979           20.000   3
+ HUR      var_17           C14    C13    N3     C12                0.000           20.000   3
+ HUR      CONST_3          C13    N3     C12    C11              180.000            0.000   0
+ HUR      var_18           N3     C12    C11    N2               180.000           20.000   3
+ HUR      var_19           C12    C11    C27    C28              180.000           20.000   3
+ HUR      var_20           C11    C27    C28    C29              180.000           20.000   3
+ HUR      var_21           C27    C28    C30    H301             180.000           20.000   3
+ HUR      var_22           C27    C28    C29    H291             180.000           20.000   3
+ HUR      var_23           C12    C11    N2     C10                0.000           20.000   3
+ HUR      CONST_4          C11    N2     C10    C7               180.000            0.000   0
+ HUR      CONST_5          N2     C10    C7     C8                 2.134            0.000   0
+ HUR      CONST_6          C10    C7     N1     C4                 0.000            0.000   0
+ HUR      CONST_7          C7     N1     C4     C3               180.000            0.000   0
+ HUR      CONST_8          N1     C4     C5     C8               180.000            0.000   0
+ HUR      CONST_9          N1     C4     C3     C2               180.000            0.000   0
+ HUR      CONST_10         C4     C3     C2     C1                 0.204            0.000   0
+ HUR      CONST_11         C10    C7     C8     C5              -179.912            0.000   0
+ HUR      CONST_12         C7     C8     C5     C6               179.722            0.000   0
+ HUR      CONST_13         C8     C5     C6     O1               180.000            0.000   0
+ HUR      CONST_14         C5     C6     C1     C2                 0.000            0.000   0
+ HUR      CONST_15         C6     C1     C2     C3                 0.000            0.000   0
+ HUR      var_24           C5     C6     O1     C9              -176.563           20.000   3
+ HUR      var_25           C6     O1     C9     H91              180.000           20.000   3
+ HUR      var_1            C20    N5     C21    C22               -0.339           20.000   3
+ HUR      var_1            N5     C21    C22    S1                 0.489           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ HUR      chir_01          C11    C12    C27    N2        positiv
+ HUR      chir_02          C13    C14    C19    N3        negativ
+ HUR      chir_03          C15    C14    C16    C18       positiv
+ HUR      chir_04          C21    C22    C23    N5        negativ
+ HUR      chir_05          C28    C27    C29    C30       negativ
+ HUR      chir_06          S1     C20    C21    C22       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ HUR      plan-1            C1        0.020
+ HUR      plan-1            C2        0.020
+ HUR      plan-1            C6        0.020
+ HUR      plan-1            H1        0.020
+ HUR      plan-1            C3        0.020
+ HUR      plan-1            H2        0.020
+ HUR      plan-1            C5        0.020
+ HUR      plan-1            O1        0.020
+ HUR      plan-1            C4        0.020
+ HUR      plan-1            C7        0.020
+ HUR      plan-1            C8        0.020
+ HUR      plan-1            N1        0.020
+ HUR      plan-1            C10       0.020
+ HUR      plan-1            N2        0.020
+ HUR      plan-1            O2        0.020
+ HUR      plan-1            C11       0.020
+ HUR      plan-2            C12       0.020
+ HUR      plan-2            C11       0.020
+ HUR      plan-2            N3        0.020
+ HUR      plan-2            O3        0.020
+ HUR      plan-2            C13       0.020
+ HUR      plan-3            C18       0.020
+ HUR      plan-3            C15       0.020
+ HUR      plan-3            N4        0.020
+ HUR      plan-3            O5        0.020
+ HUR      plan-4            C19       0.020
+ HUR      plan-4            C13       0.020
+ HUR      plan-4            C20       0.020
+ HUR      plan-4            O4        0.020
+ HUR      plan-4            N5        0.020
+ HUR      plan-4            S1        0.020
+ HUR      plan-5            C22       0.020
+ HUR      plan-5            C21       0.020
+ HUR      plan-5            C26       0.020
+ HUR      plan-5            S1        0.020
+ HUR      plan-6            C23       0.020
+ HUR      plan-6            C21       0.020
+ HUR      plan-6            C24       0.020
+ HUR      plan-6            H23       0.020
+ HUR      plan-6            H24       0.020
+ HUR      plan-7            C24       0.020
+ HUR      plan-7            C23       0.020
+ HUR      plan-7            C25       0.020
+ HUR      plan-7            H24       0.020
+ HUR      plan-7            H23       0.020
+ HUR      plan-7            H25       0.020
+ HUR      plan-8            C25       0.020
+ HUR      plan-8            C24       0.020
+ HUR      plan-8            C26       0.020
+ HUR      plan-8            H25       0.020
+ HUR      plan-8            H24       0.020
+ HUR      plan-9            N4        0.020
+ HUR      plan-9            C17       0.020
+ HUR      plan-9            C18       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

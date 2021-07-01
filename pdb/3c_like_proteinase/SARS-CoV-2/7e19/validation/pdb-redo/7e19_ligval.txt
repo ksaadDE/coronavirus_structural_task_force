@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (HUO A 401) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.099   0.170
+Real-space correlation            : 0.910   0.872
+EDIAm density fit                 : 0.737   0.414
+OPIA density coverage (%)         : 57.8    42.2
+ 
+Energy of formation (kJ/mol)      : 462.315 4945.323
+Hydrogen bond energy (kJ/mol)     : -117.75  -115.78
+Number of hydrogen bonds          : 6  6
+Number of bumps                   : 21  10
+Number of hydrophobic interactions: 24  27
+Hydrophobic interaction strength  : 22.381  23.619
+Number of Pi-Pi interactions      : 2  1
+Pi-Pi interaction strength        : 2.000  0.758
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 13
+All atom RMSD for residue (A)     : 0.9251
+ 

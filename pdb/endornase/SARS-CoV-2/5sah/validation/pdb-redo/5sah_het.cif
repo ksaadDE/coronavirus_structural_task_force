@@ -1,0 +1,238 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ZQJ      ZQJ '.                                   ' .                  23  12 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_ZQJ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ ZQJ           O12    O    O         0.000     36.835  -86.013   -1.865
+ ZQJ           C11    C    C         0.000     36.826  -86.286   -0.709
+ ZQJ           C10    C    CH2       0.000     37.746  -87.359   -0.171
+ ZQJ           H102   H    H         0.000     38.745  -87.027   -0.460
+ ZQJ           H101   H    H         0.000     37.481  -88.252   -0.741
+ ZQJ           N02    N    N         0.000     35.907  -85.551    0.217
+ ZQJ           C01    C    CH3       0.000     35.048  -84.503   -0.297
+ ZQJ           H013   H    H         0.000     35.643  -83.740   -0.728
+ ZQJ           H012   H    H         0.000     34.403  -84.907   -1.033
+ ZQJ           H011   H    H         0.000     34.473  -84.099    0.495
+ ZQJ           N03    N    NH1       0.000     35.906  -85.858    1.655
+ ZQJ           HN03   H    H         0.000     35.296  -85.345    2.275
+ ZQJ           C04    C    C         0.000     36.794  -86.916    2.206
+ ZQJ           C09    C    CH1       0.000     37.728  -87.673    1.278
+ ZQJ           H09    H    H         0.000     38.527  -86.941    1.461
+ ZQJ           C08    C    CH2       0.000     38.553  -88.742    1.831
+ ZQJ           H081   H    H         0.000     39.488  -88.324    2.210
+ ZQJ           H082   H    H         0.000     38.773  -89.475    1.052
+ ZQJ           N07    N    N         0.000     37.756  -89.459    3.036
+ ZQJ           C06    C    C1        0.000     37.476  -88.649    4.019
+ ZQJ           H06    H    H         0.000     37.715  -88.886    5.042
+ ZQJ           C05    C    C1        0.000     36.731  -87.235    3.593
+ ZQJ           H05    H    H         0.000     36.235  -86.603    4.310
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ ZQJ      O12    n/a    C11    START
+ ZQJ      C11    O12    N02    .
+ ZQJ      C10    C11    H101   .
+ ZQJ      H102   C10    .      .
+ ZQJ      H101   C10    .      .
+ ZQJ      N02    C11    N03    .
+ ZQJ      C01    N02    H011   .
+ ZQJ      H013   C01    .      .
+ ZQJ      H012   C01    .      .
+ ZQJ      H011   C01    .      .
+ ZQJ      N03    N02    C04    .
+ ZQJ      HN03   N03    .      .
+ ZQJ      C04    N03    C09    .
+ ZQJ      C09    C04    C08    .
+ ZQJ      H09    C09    .      .
+ ZQJ      C08    C09    N07    .
+ ZQJ      H081   C08    .      .
+ ZQJ      H082   C08    .      .
+ ZQJ      N07    C08    C06    .
+ ZQJ      C06    N07    C05    .
+ ZQJ      H06    C06    .      .
+ ZQJ      C05    C06    H05    .
+ ZQJ      H05    C05    .      END
+ ZQJ      C10    C09    .    ADD
+ ZQJ      C04    C05    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ ZQJ      C10    C09       single      1.524    0.020
+ ZQJ      C10    C11       single      1.510    0.020
+ ZQJ      C01    N02       single      1.455    0.020
+ ZQJ      N03    N02       single      1.320    0.020
+ ZQJ      N02    C11       single      1.330    0.020
+ ZQJ      C04    N03       single      1.330    0.020
+ ZQJ      C04    C05       aromatic    1.340    0.020
+ ZQJ      C09    C04       single      1.500    0.020
+ ZQJ      C05    C06       single      1.460    0.020
+ ZQJ      C06    N07       aromatic    1.260    0.020
+ ZQJ      N07    C08       single      1.455    0.020
+ ZQJ      C08    C09       single      1.524    0.020
+ ZQJ      C11    O12       double      1.220    0.020
+ ZQJ      H101   C10       single      1.092    0.020
+ ZQJ      H102   C10       single      1.092    0.020
+ ZQJ      H011   C01       single      1.059    0.020
+ ZQJ      H012   C01       single      1.059    0.020
+ ZQJ      H013   C01       single      1.059    0.020
+ ZQJ      HN03   N03       single      1.010    0.020
+ ZQJ      H05    C05       single      1.077    0.020
+ ZQJ      H06    C06       single      1.077    0.020
+ ZQJ      H081   C08       single      1.092    0.020
+ ZQJ      H082   C08       single      1.092    0.020
+ ZQJ      H09    C09       single      1.099    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ ZQJ      O12    C11    C10     120.500    3.000
+ ZQJ      O12    C11    N02     123.000    3.000
+ ZQJ      C10    C11    N02     116.500    3.000
+ ZQJ      C11    C10    H102    109.470    3.000
+ ZQJ      C11    C10    H101    109.470    3.000
+ ZQJ      C11    C10    C09     109.470    3.000
+ ZQJ      H102   C10    H101    107.900    3.000
+ ZQJ      H102   C10    C09     109.470    3.000
+ ZQJ      H101   C10    C09     109.470    3.000
+ ZQJ      C11    N02    C01     127.000    3.000
+ ZQJ      C11    N02    N03     120.000    3.000
+ ZQJ      C01    N02    N03     120.000    3.000
+ ZQJ      N02    C01    H013    109.470    3.000
+ ZQJ      N02    C01    H012    109.470    3.000
+ ZQJ      N02    C01    H011    109.470    3.000
+ ZQJ      H013   C01    H012    109.470    3.000
+ ZQJ      H013   C01    H011    109.470    3.000
+ ZQJ      H012   C01    H011    109.470    3.000
+ ZQJ      N02    N03    HN03    120.000    3.000
+ ZQJ      N02    N03    C04     120.000    3.000
+ ZQJ      HN03   N03    C04     120.000    3.000
+ ZQJ      N03    C04    C09     116.500    3.000
+ ZQJ      N03    C04    C05     120.000    3.000
+ ZQJ      C09    C04    C05     120.000    3.000
+ ZQJ      C04    C09    H09     108.810    3.000
+ ZQJ      C04    C09    C08     109.470    3.000
+ ZQJ      C04    C09    C10     109.470    3.000
+ ZQJ      H09    C09    C08     108.340    3.000
+ ZQJ      H09    C09    C10     108.340    3.000
+ ZQJ      C08    C09    C10     109.470    3.000
+ ZQJ      C09    C08    H081    109.470    3.000
+ ZQJ      C09    C08    H082    109.470    3.000
+ ZQJ      C09    C08    N07     105.000    3.000
+ ZQJ      H081   C08    H082    107.900    3.000
+ ZQJ      H081   C08    N07     109.470    3.000
+ ZQJ      H082   C08    N07     109.470    3.000
+ ZQJ      C08    N07    C06     120.000    3.000
+ ZQJ      N07    C06    H06     120.000    3.000
+ ZQJ      N07    C06    C05     120.000    3.000
+ ZQJ      H06    C06    C05     120.000    3.000
+ ZQJ      C06    C05    H05     120.000    3.000
+ ZQJ      C06    C05    C04     120.000    3.000
+ ZQJ      H05    C05    C04     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ ZQJ      var_1            O12    C11    C10    C09              180.000           20.000   3
+ ZQJ      var_2            C11    C10    C09    C04              180.000           20.000   3
+ ZQJ      var_3            O12    C11    N02    N03              180.000           20.000   2
+ ZQJ      var_4            C11    N02    C01    H011             180.000           20.000   3
+ ZQJ      var_5            C11    N02    N03    C04               -1.185           20.000   3
+ ZQJ      var_6            N02    N03    C04    C09              180.000           20.000   2
+ ZQJ      var_7            N03    C04    C05    C06              165.765           20.000   3
+ ZQJ      var_8            N03    C04    C09    C08              180.000           20.000   3
+ ZQJ      var_9            C04    C09    C08    N07              180.000           20.000   3
+ ZQJ      var_10           C09    C08    N07    C06              -61.049           20.000   3
+ ZQJ      var_11           C08    N07    C06    C05               51.101           20.000   3
+ ZQJ      var_12           N07    C06    C05    C04              -15.452           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ ZQJ      chir_01          C09    C10    C04    C08       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ ZQJ      plan-1            N02       0.020
+ ZQJ      plan-1            C01       0.020
+ ZQJ      plan-1            N03       0.020
+ ZQJ      plan-1            C11       0.020
+ ZQJ      plan-1            HN03      0.020
+ ZQJ      plan-2            N03       0.020
+ ZQJ      plan-2            N02       0.020
+ ZQJ      plan-2            C04       0.020
+ ZQJ      plan-2            HN03      0.020
+ ZQJ      plan-3            C04       0.020
+ ZQJ      plan-3            N03       0.020
+ ZQJ      plan-3            C05       0.020
+ ZQJ      plan-3            C09       0.020
+ ZQJ      plan-3            HN03      0.020
+ ZQJ      plan-3            H05       0.020
+ ZQJ      plan-4            C05       0.020
+ ZQJ      plan-4            C04       0.020
+ ZQJ      plan-4            C06       0.020
+ ZQJ      plan-4            H05       0.020
+ ZQJ      plan-4            H06       0.020
+ ZQJ      plan-5            C06       0.020
+ ZQJ      plan-5            C05       0.020
+ ZQJ      plan-5            N07       0.020
+ ZQJ      plan-5            H06       0.020
+ ZQJ      plan-5            H05       0.020
+ ZQJ      plan-6            N07       0.020
+ ZQJ      plan-6            C06       0.020
+ ZQJ      plan-6            C08       0.020
+ ZQJ      plan-6            H06       0.020
+ ZQJ      plan-7            C11       0.020
+ ZQJ      plan-7            C10       0.020
+ ZQJ      plan-7            N02       0.020
+ ZQJ      plan-7            O12       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

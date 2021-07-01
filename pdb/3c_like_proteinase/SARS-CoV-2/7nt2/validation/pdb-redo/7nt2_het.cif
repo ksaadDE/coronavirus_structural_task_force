@@ -1,0 +1,420 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+URK      URK '.                                   ' .                  52  29 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-URK  CYS      .        .        URK      .        .
+ bond_CYS-SG_=_URK-C1
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_URK
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ URK           O7     O    O         0.000     21.260    5.920  -25.595
+ URK           C3     C    C         0.000     20.854    4.827  -25.892
+ URK           C2     C    CH2       0.000     20.142    3.893  -24.955
+ URK           H21    H    H         0.000     19.340    3.410  -25.516
+ URK           H22    H    H         0.000     19.711    4.495  -24.152
+ URK           C1     C    CH3       0.000     21.039    2.854  -24.373
+ URK           H13    H    H         0.000     21.453    2.274  -25.154
+ URK           H12    H    H         0.000     21.814    3.327  -23.831
+ URK           H11    H    H         0.000     20.478    2.233  -23.726
+ URK           O1     O    O2        0.000     20.961    4.303  -27.132
+ URK           C4     C    CH1       0.000     21.192    5.229  -28.225
+ URK           H4     H    H         0.000     21.900    6.002  -27.896
+ URK           C5     C    CR6       0.000     21.800    4.462  -29.377
+ URK           C10    C    CR16      0.000     21.638    4.898  -30.690
+ URK           H10    H    H         0.000     21.085    5.809  -30.884
+ URK           C9     C    CR16      0.000     22.171    4.189  -31.750
+ URK           H9     H    H         0.000     22.030    4.521  -32.771
+ URK           C8     C    CR6       0.000     22.895    3.034  -31.464
+ URK           N1     N    N         0.000     23.452    2.260  -32.548
+ URK           O3     O    OH1       0.000     22.756    1.386  -33.028
+ URK           HO3    H    H         0.000     23.262    0.973  -33.724
+ URK           O2     O    OH1       0.000     24.589    2.495  -32.914
+ URK           HO2    H    H         0.000     24.785    1.894  -33.629
+ URK           C7     C    CR16      0.000     23.067    2.568  -30.165
+ URK           H7     H    H         0.000     23.619    1.657  -29.970
+ URK           C6     C    CR16      0.000     22.515    3.298  -29.131
+ URK           H6     H    H         0.000     22.642    2.957  -28.111
+ URK           C11    C    C         0.000     19.868    5.907  -28.652
+ URK           O6     O    O         0.000     18.842    5.231  -28.796
+ URK           N2     N    N         0.000     19.947    7.212  -28.932
+ URK           C12    C    CH2       0.000     19.099    8.223  -28.295
+ URK           H121   H    H         0.000     19.779    8.892  -27.764
+ URK           H122   H    H         0.000     18.483    7.684  -27.572
+ URK           C13    C    CR6       0.000     18.212    9.029  -29.212
+ URK           C20    C    CR16      0.000     18.169    8.832  -30.590
+ URK           H20    H    H         0.000     18.800    8.074  -31.037
+ URK           C19    C    CR16      0.000     17.341    9.580  -31.396
+ URK           H19    H    H         0.000     17.322    9.400  -32.464
+ URK           C18    C    CR16      0.000     16.534   10.560  -30.849
+ URK           H18    H    H         0.000     15.897   11.155  -31.492
+ URK           C16    C    CR6       0.000     16.537   10.784  -29.483
+ URK           O5     O    O2        0.000     15.790   11.738  -28.834
+ URK           C17    C    CH3       0.000     14.390   11.823  -29.095
+ URK           H173   H    H         0.000     14.234   12.021  -30.124
+ URK           H172   H    H         0.000     13.927   10.906  -28.838
+ URK           H171   H    H         0.000     13.970   12.605  -28.517
+ URK           C14    C    CR6       0.000     17.385   10.013  -28.662
+ URK           O4     O    O2        0.000     17.428   10.204  -27.304
+ URK           C15    C    CH3       0.000     16.428    9.528  -26.540
+ URK           H153   H    H         0.000     15.468    9.851  -26.850
+ URK           H152   H    H         0.000     16.514    8.483  -26.691
+ URK           H151   H    H         0.000     16.559    9.748  -25.512
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ URK      O7     n/a    C3     START
+ URK      C3     O7     O1     .
+ URK      C2     C3     C1     .
+ URK      H21    C2     .      .
+ URK      H22    C2     .      .
+ URK      C1     C2     H11    .
+ URK      H13    C1     .      .
+ URK      H12    C1     .      .
+ URK      H11    C1     .      .
+ URK      O1     C3     C4     .
+ URK      C4     O1     C11    .
+ URK      H4     C4     .      .
+ URK      C5     C4     C10    .
+ URK      C10    C5     C9     .
+ URK      H10    C10    .      .
+ URK      C9     C10    C8     .
+ URK      H9     C9     .      .
+ URK      C8     C9     C7     .
+ URK      N1     C8     O2     .
+ URK      O3     N1     HO3    .
+ URK      HO3    O3     .      .
+ URK      O2     N1     HO2    .
+ URK      HO2    O2     .      .
+ URK      C7     C8     C6     .
+ URK      H7     C7     .      .
+ URK      C6     C7     H6     .
+ URK      H6     C6     .      .
+ URK      C11    C4     N2     .
+ URK      O6     C11    .      .
+ URK      N2     C11    C12    .
+ URK      C12    N2     C13    .
+ URK      H121   C12    .      .
+ URK      H122   C12    .      .
+ URK      C13    C12    C20    .
+ URK      C20    C13    C19    .
+ URK      H20    C20    .      .
+ URK      C19    C20    C18    .
+ URK      H19    C19    .      .
+ URK      C18    C19    C16    .
+ URK      H18    C18    .      .
+ URK      C16    C18    C14    .
+ URK      O5     C16    C17    .
+ URK      C17    O5     H171   .
+ URK      H173   C17    .      .
+ URK      H172   C17    .      .
+ URK      H171   C17    .      .
+ URK      C14    C16    O4     .
+ URK      O4     C14    C15    .
+ URK      C15    O4     H151   .
+ URK      H153   C15    .      .
+ URK      H152   C15    .      .
+ URK      H151   C15    .      END
+ URK      C5     C6     .    ADD
+ URK      C13    C14    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ URK      C1     C2        single      1.513    0.020
+ URK      C2     C3        single      1.510    0.020
+ URK      O1     C3        single      1.454    0.020
+ URK      C3     O7        double      1.220    0.020
+ URK      C4     O1        single      1.426    0.020
+ URK      C5     C4        single      1.480    0.020
+ URK      C11    C4        single      1.500    0.020
+ URK      C5     C6        aromatic    1.390    0.020
+ URK      C10    C5        aromatic    1.390    0.020
+ URK      C6     C7        aromatic    1.390    0.020
+ URK      C7     C8        aromatic    1.390    0.020
+ URK      N1     C8        single      1.400    0.020
+ URK      C8     C9        aromatic    1.390    0.020
+ URK      O2     N1        single      1.392    0.020
+ URK      O3     N1        single      1.392    0.020
+ URK      C9     C10       aromatic    1.390    0.020
+ URK      N2     C11       deloc       1.330    0.020
+ URK      O6     C11       deloc       1.220    0.020
+ URK      C12    N2        single      1.455    0.020
+ URK      C13    C12       single      1.511    0.020
+ URK      C13    C14       aromatic    1.384    0.020
+ URK      C20    C13       aromatic    1.390    0.020
+ URK      O4     C14       single      1.370    0.020
+ URK      C14    C16       aromatic    1.384    0.020
+ URK      C15    O4        single      1.426    0.020
+ URK      O5     C16       single      1.370    0.020
+ URK      C16    C18       aromatic    1.390    0.020
+ URK      C17    O5        single      1.426    0.020
+ URK      C18    C19       aromatic    1.390    0.020
+ URK      C19    C20       aromatic    1.390    0.020
+ URK      H11    C1        single      1.059    0.020
+ URK      H12    C1        single      1.059    0.020
+ URK      H13    C1        single      1.059    0.020
+ URK      H21    C2        single      1.092    0.020
+ URK      H22    C2        single      1.092    0.020
+ URK      H4     C4        single      1.099    0.020
+ URK      H6     C6        single      1.083    0.020
+ URK      H7     C7        single      1.083    0.020
+ URK      HO2    O2        single      0.967    0.020
+ URK      HO3    O3        single      0.967    0.020
+ URK      H9     C9        single      1.083    0.020
+ URK      H10    C10       single      1.083    0.020
+ URK      H121   C12       single      1.092    0.020
+ URK      H122   C12       single      1.092    0.020
+ URK      H151   C15       single      1.059    0.020
+ URK      H152   C15       single      1.059    0.020
+ URK      H153   C15       single      1.059    0.020
+ URK      H171   C17       single      1.059    0.020
+ URK      H172   C17       single      1.059    0.020
+ URK      H173   C17       single      1.059    0.020
+ URK      H18    C18       single      1.083    0.020
+ URK      H19    C19       single      1.083    0.020
+ URK      H20    C20       single      1.083    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ URK      O7     C3     C2      120.500    3.000
+ URK      O7     C3     O1      119.000    3.000
+ URK      C2     C3     O1      120.000    3.000
+ URK      C3     C2     H21     109.470    3.000
+ URK      C3     C2     H22     109.470    3.000
+ URK      C3     C2     C1      109.500    3.000
+ URK      H21    C2     H22     107.900    3.000
+ URK      H21    C2     C1      109.470    3.000
+ URK      H22    C2     C1      109.470    3.000
+ URK      C2     C1     H13     109.470    3.000
+ URK      C2     C1     H12     109.470    3.000
+ URK      C2     C1     H11     109.470    3.000
+ URK      H13    C1     H12     109.470    3.000
+ URK      H13    C1     H11     109.470    3.000
+ URK      H12    C1     H11     109.470    3.000
+ URK      C3     O1     C4      111.800    3.000
+ URK      O1     C4     H4      109.470    3.000
+ URK      O1     C4     C5      109.470    3.000
+ URK      O1     C4     C11     109.470    3.000
+ URK      H4     C4     C5      109.470    3.000
+ URK      H4     C4     C11     108.810    3.000
+ URK      C5     C4     C11     109.500    3.000
+ URK      C4     C5     C10     120.000    3.000
+ URK      C4     C5     C6      120.000    3.000
+ URK      C10    C5     C6      120.000    3.000
+ URK      C5     C10    H10     120.000    3.000
+ URK      C5     C10    C9      120.000    3.000
+ URK      H10    C10    C9      120.000    3.000
+ URK      C10    C9     H9      120.000    3.000
+ URK      C10    C9     C8      120.000    3.000
+ URK      H9     C9     C8      120.000    3.000
+ URK      C9     C8     N1      120.000    3.000
+ URK      C9     C8     C7      120.000    3.000
+ URK      N1     C8     C7      120.000    3.000
+ URK      C8     N1     O3      120.000    3.000
+ URK      C8     N1     O2      120.000    3.000
+ URK      O3     N1     O2      120.000    3.000
+ URK      N1     O3     HO3     109.470    3.000
+ URK      N1     O2     HO2     109.470    3.000
+ URK      C8     C7     H7      120.000    3.000
+ URK      C8     C7     C6      120.000    3.000
+ URK      H7     C7     C6      120.000    3.000
+ URK      C7     C6     H6      120.000    3.000
+ URK      C7     C6     C5      120.000    3.000
+ URK      H6     C6     C5      120.000    3.000
+ URK      C4     C11    O6      120.500    3.000
+ URK      C4     C11    N2      116.500    3.000
+ URK      O6     C11    N2      123.000    3.000
+ URK      C11    N2     C12     127.000    3.000
+ URK      N2     C12    H121    109.470    3.000
+ URK      N2     C12    H122    109.470    3.000
+ URK      N2     C12    C13     109.470    3.000
+ URK      H121   C12    H122    107.900    3.000
+ URK      H121   C12    C13     109.470    3.000
+ URK      H122   C12    C13     109.470    3.000
+ URK      C12    C13    C20     120.000    3.000
+ URK      C12    C13    C14     120.000    3.000
+ URK      C20    C13    C14     120.000    3.000
+ URK      C13    C20    H20     120.000    3.000
+ URK      C13    C20    C19     120.000    3.000
+ URK      H20    C20    C19     120.000    3.000
+ URK      C20    C19    H19     120.000    3.000
+ URK      C20    C19    C18     120.000    3.000
+ URK      H19    C19    C18     120.000    3.000
+ URK      C19    C18    H18     120.000    3.000
+ URK      C19    C18    C16     120.000    3.000
+ URK      H18    C18    C16     120.000    3.000
+ URK      C18    C16    O5      120.000    3.000
+ URK      C18    C16    C14     120.000    3.000
+ URK      O5     C16    C14     120.000    3.000
+ URK      C16    O5     C17     120.000    3.000
+ URK      O5     C17    H173    109.470    3.000
+ URK      O5     C17    H172    109.470    3.000
+ URK      O5     C17    H171    109.470    3.000
+ URK      H173   C17    H172    109.470    3.000
+ URK      H173   C17    H171    109.470    3.000
+ URK      H172   C17    H171    109.470    3.000
+ URK      C16    C14    O4      120.000    3.000
+ URK      C16    C14    C13     120.000    3.000
+ URK      O4     C14    C13     120.000    3.000
+ URK      C14    O4     C15     120.000    3.000
+ URK      O4     C15    H153    109.470    3.000
+ URK      O4     C15    H152    109.470    3.000
+ URK      O4     C15    H151    109.470    3.000
+ URK      H153   C15    H152    109.470    3.000
+ URK      H153   C15    H151    109.470    3.000
+ URK      H152   C15    H151    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ URK      var_1            O7     C3     C2     C1               180.000           20.000   3
+ URK      var_2            C3     C2     C1     H11              180.000           20.000   3
+ URK      var_3            O7     C3     O1     C4               -19.334           20.000   3
+ URK      var_4            C3     O1     C4     C11              -79.988           20.000   3
+ URK      var_5            O1     C4     C5     C10              153.612           20.000   3
+ URK      CONST_1          C4     C5     C6     C7                 0.000            0.000   0
+ URK      CONST_2          C4     C5     C10    C9                 0.000            0.000   0
+ URK      CONST_3          C5     C10    C9     C8                 0.000            0.000   0
+ URK      CONST_4          C10    C9     C8     C7                 0.000            0.000   0
+ URK      var_6            C9     C8     N1     O2                92.010           20.000   3
+ URK      var_7            C8     N1     O3     HO3              180.000           20.000   3
+ URK      var_8            C8     N1     O2     HO2              180.000           20.000   3
+ URK      CONST_5          C9     C8     C7     C6                 0.000            0.000   0
+ URK      CONST_6          C8     C7     C6     C5                 0.000            0.000   0
+ URK      var_9            O1     C4     C11    N2               180.000           20.000   3
+ URK      CONST_7          C4     C11    N2     C12              180.000            0.000   0
+ URK      var_10           C11    N2     C12    C13             -119.608           20.000   3
+ URK      var_11           N2     C12    C13    C20                0.000           20.000   2
+ URK      CONST_8          C12    C13    C14    C16                0.000            0.000   0
+ URK      CONST_9          C12    C13    C20    C19                0.000            0.000   0
+ URK      CONST_10         C13    C20    C19    C18                0.000            0.000   0
+ URK      CONST_11         C20    C19    C18    C16                0.000            0.000   0
+ URK      CONST_12         C19    C18    C16    C14                0.000            0.000   0
+ URK      var_12           C18    C16    O5     C17               50.349           20.000   3
+ URK      var_13           C16    O5     C17    H171             180.000           20.000   3
+ URK      CONST_13         C18    C16    C14    O4                 0.000            0.000   0
+ URK      var_14           C16    C14    O4     C15               84.011           20.000   3
+ URK      var_15           C14    O4     C15    H151             180.000           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ URK      chir_01          C4     O1     C5     C11       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ URK      plan-1            C3        0.020
+ URK      plan-1            C2        0.020
+ URK      plan-1            O1        0.020
+ URK      plan-1            O7        0.020
+ URK      plan-2            C5        0.020
+ URK      plan-2            C4        0.020
+ URK      plan-2            C6        0.020
+ URK      plan-2            C10       0.020
+ URK      plan-2            C7        0.020
+ URK      plan-2            C8        0.020
+ URK      plan-2            C9        0.020
+ URK      plan-2            H6        0.020
+ URK      plan-2            H7        0.020
+ URK      plan-2            N1        0.020
+ URK      plan-2            H9        0.020
+ URK      plan-2            H10       0.020
+ URK      plan-3            N1        0.020
+ URK      plan-3            C8        0.020
+ URK      plan-3            O2        0.020
+ URK      plan-3            O3        0.020
+ URK      plan-4            C11       0.020
+ URK      plan-4            C4        0.020
+ URK      plan-4            N2        0.020
+ URK      plan-4            O6        0.020
+ URK      plan-4            C12       0.020
+ URK      plan-5            C13       0.020
+ URK      plan-5            C12       0.020
+ URK      plan-5            C14       0.020
+ URK      plan-5            C20       0.020
+ URK      plan-5            C16       0.020
+ URK      plan-5            C18       0.020
+ URK      plan-5            C19       0.020
+ URK      plan-5            O4        0.020
+ URK      plan-5            O5        0.020
+ URK      plan-5            H18       0.020
+ URK      plan-5            H19       0.020
+ URK      plan-5            H20       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-URK
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-URK  1 SG      2 C1        .           1.810    0.020
+# ------------------------------------------------------

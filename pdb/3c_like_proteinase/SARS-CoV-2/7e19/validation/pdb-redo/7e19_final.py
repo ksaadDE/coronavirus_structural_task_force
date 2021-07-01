@@ -1,0 +1,27 @@
+# Guided tour for Coot written by PDB_REDO
+# Please cite: Joosten et al. 'PDB_REDO: constructive validation, more than just looking for errors' Acta Cryst., D68, 484-496 (2012)
+interesting_things_gui ("PDB_REDO results",[
+["Changed rotamer LYS A  12 " ,  -2.158 , -25.587 , -40.942],
+["Completed THR A  24 " ,  28.301 , -19.636 , -37.272],
+["H-bond flip HIS A  41 " ,  19.989 , -13.001 , -33.041],
+["Completed GLU A  47 " ,  31.907 , -13.142 , -30.239],
+["Changed rotamer ARG A  60 " ,  28.446 ,  -7.404 , -43.175],
+["Changed rotamer SER A  62 " ,  24.575 , -10.362 , -50.386],
+["H-bond flip ASN A  63 " ,  19.883 , -12.055 , -51.564],
+["H-bond flip HIS A  64 " ,  24.181 , -14.978 , -52.236],
+["Changed rotamer GLN A  69 " ,  17.058 , -25.880 , -46.549],
+["Completed ASN A  72 " ,  15.955 , -32.485 , -50.092],
+["H-bond flip GLN A  74 " ,  18.402 , -24.700 , -51.804],
+["Changed rotamer LYS A  90 " ,  11.565 , -11.372 , -50.662],
+["H-bond flip GLN A 107 " ,  -4.204 , -10.245 , -23.883],
+["Changed rotamer PRO A 108 " ,  -1.083 , -11.216 , -19.837],
+["H-bond flip ASN A 151 " ,  -4.938 , -19.736 , -31.812],
+["Completed ASP A 153 " ,  -9.923 , -19.115 , -35.606],
+["Completed TYR A 154 " , -13.045 , -21.619 , -39.013],
+["H-bond flip HIS A 164 " ,  13.755 , -14.453 , -29.239],
+["Changed rotamer ARG A 217 " , -18.777 , -32.064 ,  -7.884],
+["Changed rotamer LYS A 236 " ,  -4.060 , -12.538 ,   0.286],
+["Removed HOH A 502 " , -11.356 , -18.912 , -41.078],
+["Removed HOH A 619 " ,  -2.138 ,  -9.670 , -17.199],
+["Removed HOH A 620 " ,  -7.289 , -13.428 , -19.335],
+])

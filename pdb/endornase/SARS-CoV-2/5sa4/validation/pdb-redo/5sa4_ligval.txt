@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (K3A B 401) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.230   0.141
+Real-space correlation            : 0.845   0.842
+EDIAm density fit                 : 0.762   0.688
+OPIA density coverage (%)         : 60.0    60.0
+ 
+Energy of formation (kJ/mol)      : 332.277 270.315
+Hydrogen bond energy (kJ/mol)     : 0  0
+Number of hydrogen bonds          : 0  0
+Number of bumps                   : 3  4
+Number of hydrophobic interactions: 6  6
+Hydrophobic interaction strength  : 5.514  3.917
+Number of Pi-Pi interactions      : 2  2
+Pi-Pi interaction strength        : 2.000  2.000
+Number of cation-Pi interactions  : 0  1
+Cation-Pi interaction strength    : 0.000  0.010
+ 
+Atoms shifted more than 0.50A     : 1
+All atom RMSD for residue (A)     : 0.2887
+ 

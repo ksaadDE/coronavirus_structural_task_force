@@ -13,7 +13,7 @@ def get_time():
     latest_update = "20" + latest_update.strftime('%y-%m-%d')
     return latest_update
 
-def get_id(taxonomy):
+def get_id(taxonomy_id, negate_taxonomy_id = "6645"):
     """
     requests all PDB of this taxonomy since the time given
     """
@@ -36,9 +36,20 @@ def get_id(taxonomy):
                     "type": "terminal",
                     "service": "text",
                     "parameters": {
-                        "attribute": "rcsb_entity_source_organism.taxonomy_lineage.name",
                         "operator": "exact_match",
-                        "value": "{}".format(taxonomy)
+                        "negation": False,
+                        "value": taxonomy_id,
+                        "attribute": "rcsb_entity_source_organism.taxonomy_lineage.id"
+                    }
+                },
+                {
+                    "type": "terminal",
+                    "service": "text",
+                    "parameters": {
+                        "operator": "exact_match",
+                        "negation": True,
+                        "value": negate_taxonomy_id,
+                        "attribute": "rcsb_entity_source_organism.taxonomy_lineage.id"
                     }
                 }
             ]
@@ -67,9 +78,20 @@ def get_id(taxonomy):
                     "type": "terminal",
                     "service": "text",
                     "parameters": {
-                        "attribute": "rcsb_entity_source_organism.taxonomy_lineage.name",
                         "operator": "exact_match",
-                        "value": "{}".format(taxonomy)
+                        "negation": False,
+                        "value": taxonomy_id,
+                        "attribute": "rcsb_entity_source_organism.taxonomy_lineage.id"
+                    }
+                },
+                {
+                    "type": "terminal",
+                    "service": "text",
+                    "parameters": {
+                        "operator": "exact_match",
+                        "negation": True,
+                        "value": negate_taxonomy_id,
+                        "attribute": "rcsb_entity_source_organism.taxonomy_lineage.id"
                     }
                 }
             ]
@@ -331,7 +353,7 @@ def give_txt_report(taxo, pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
 
     doc.close()
 
-def main(taxonomy, taxo):
+def main(taxonomy_id, negate_taxonomy_id, taxo):
     repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
     df = pd.read_pickle("main_repo_database_{}.pkl".format(taxo))
 
@@ -339,7 +361,7 @@ def main(taxonomy, taxo):
     time = get_time()
 
     # request pdb_id update report form pdb
-    c_new_pdb_lst, c_rev_pdb_lst = get_id(taxonomy)
+    c_new_pdb_lst, c_rev_pdb_lst = get_id(taxonomy_id,negate_taxonomy_id)
     # get protein assignment for pdb ids through blast search
     pdb_protein_dict = assign_protein(c_new_pdb_lst, taxo)
 

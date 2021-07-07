@@ -376,11 +376,11 @@ def main(taxonomy_id, negate_taxonomy_id, taxo):
 
     return c_new_pdb_lst, pd.unique(list(pdb_protein_dict.values()))
 
-def rerun():
+def rerun(taxonomy_id, negate_taxonomy_id, taxo):
     #This function can be used to start a repository beginning from var: time. time has to be set to a Wednesday (the day the pdb updates their entries)
     global time
-    time = date(year=2021, month=6, day=2)
+    time = date(year=2021, month=3, day=17)
     while time < date.today():
         print(time)
-        main()
+        main(taxonomy_id, negate_taxonomy_id, taxo)
         time += timedelta(days=7)

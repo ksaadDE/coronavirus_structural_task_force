@@ -76,10 +76,10 @@ _citation.pdbx_database_id_PubMed
 _citation.pdbx_database_id_patent 
 _citation.unpublished_flag 
 ? ? ? ? ? ? ? US ? ? primary Science SCIEAS 0038 1095-9203 ? ? ? ? ? ? 
-'Effect of natural mutations of SARS-CoV-2 on spike structure, conformation, and antigenicity' 2021 ? 10.1126/science.abi6226   ? 
-? ? 
+'Effect of natural mutations of SARS-CoV-2 on spike structure, conformation, and antigenicity.' 2021 ? 10.1126/science.abi6226   
+34168071 ? ? 
 ? ? ? ? ? ? ? US ? ? 1       Biorxiv ?      ?    ?         ? ? ? ? ? ? 
-'Effect of natural mutations of SARS-CoV-2 on spike structure, conformation and antigenicity.' 2021 ? 10.1101/2021.03.11.435037 
+'Effect of natural mutations of SARS-CoV-2 on spike structure, conformation and antigenicity.'  2021 ? 10.1101/2021.03.11.435037 
 33758838 ? ? 
 # 
 loop_
@@ -87,35 +87,35 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Gobeil, S.M.-C.' 1  ? 
-primary 'Janowska, K.'    2  ? 
-primary 'McDowell, S.'    3  ? 
-primary 'Mansouri, K.'    4  ? 
-primary 'Parks, R.'       5  ? 
-primary 'Stalls, V.'      6  ? 
-primary 'Kopp, M.F.'      7  ? 
-primary 'Manne, K.'       8  ? 
-primary 'Li, D.'          9  ? 
-primary 'Wiehe, K.'       10 ? 
-primary 'Saunders, K.'    11 ? 
-primary 'Edwards, R.J.'   12 ? 
-primary 'Korber, B.'      13 ? 
-primary 'Haynes, B.F.'    14 ? 
-primary 'Henderson, R.C.' 15 ? 
-primary 'Acharya, P.'     16 ? 
-1       'Gobeil, S.M.'    17 ? 
-1       'Janowska, K.'    18 ? 
-1       'McDowell, S.'    19 ? 
-1       'Mansouri, K.'    20 ? 
-1       'Parks, R.'       21 ? 
-1       'Stalls, V.'      22 ? 
-1       'Kopp, M.F.'      23 ? 
-1       'Manne, K.'       24 ? 
-1       'Saunders, K.'    25 ? 
-1       'Edwards, R.J.'   26 ? 
-1       'Haynes, B.F.'    27 ? 
-1       'Henderson, R.C.' 28 ? 
-1       'Acharya, P.'     29 ? 
+primary 'Gobeil, S.M.'    1  0000-0002-0057-2477 
+primary 'Janowska, K.'    2  ?                   
+primary 'McDowell, S.'    3  0000-0002-1112-6974 
+primary 'Mansouri, K.'    4  ?                   
+primary 'Parks, R.'       5  0000-0002-6259-7610 
+primary 'Stalls, V.'      6  0000-0002-1878-0581 
+primary 'Kopp, M.F.'      7  ?                   
+primary 'Manne, K.'       8  0000-0002-7218-4852 
+primary 'Li, D.'          9  ?                   
+primary 'Wiehe, K.'       10 0000-0001-9933-9618 
+primary 'Saunders, K.O.'  11 0000-0001-7399-7954 
+primary 'Edwards, R.J.'   12 0000-0003-4446-1194 
+primary 'Korber, B.'      13 0000-0002-2026-5757 
+primary 'Haynes, B.F.'    14 0000-0002-7643-9023 
+primary 'Henderson, R.'   15 0000-0002-4301-6382 
+primary 'Acharya, P.'     16 0000-0002-0089-277X 
+1       'Gobeil, S.M.'    17 ?                   
+1       'Janowska, K.'    18 ?                   
+1       'McDowell, S.'    19 ?                   
+1       'Mansouri, K.'    20 ?                   
+1       'Parks, R.'       21 ?                   
+1       'Stalls, V.'      22 ?                   
+1       'Kopp, M.F.'      23 ?                   
+1       'Manne, K.'       24 ?                   
+1       'Saunders, K.'    25 ?                   
+1       'Edwards, R.J.'   26 ?                   
+1       'Haynes, B.F.'    27 ?                   
+1       'Henderson, R.C.' 28 ?                   
+1       'Acharya, P.'     29 ?                   
 # 
 loop_
 _entity.id 
@@ -30623,6 +30623,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-03-31 
 2 'Structure model' 1 1 2021-04-07 
 3 'Structure model' 2 0 2021-06-30 
+4 'Structure model' 2 1 2021-07-07 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -30648,6 +30649,7 @@ _pdbx_audit_revision_group.group
 5 3 'Structure model' 'Database references'    
 6 3 'Structure model' 'Derived calculations'   
 7 3 'Structure model' 'Refinement description' 
+8 4 'Structure model' 'Database references'    
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -30674,6 +30676,8 @@ _pdbx_audit_revision_category.category
 18 3 'Structure model' struct_conn                  
 19 3 'Structure model' struct_conn_type             
 20 3 'Structure model' struct_sheet_range           
+21 4 'Structure model' citation                     
+22 4 'Structure model' citation_author              
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -30708,6 +30712,10 @@ _pdbx_audit_revision_item.item
 26 3 'Structure model' '_struct_sheet_range.end_auth_seq_id'            
 27 3 'Structure model' '_struct_sheet_range.end_label_comp_id'          
 28 3 'Structure model' '_struct_sheet_range.end_label_seq_id'           
+29 4 'Structure model' '_citation.pdbx_database_id_PubMed'              
+30 4 'Structure model' '_citation.title'                                
+31 4 'Structure model' '_citation_author.identifier_ORCID'              
+32 4 'Structure model' '_citation_author.name'                          
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

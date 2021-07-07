@@ -1,0 +1,13 @@
+2021-07-07 weekly report for SARS-CoV-2##### 127 revised structures #####
+5rl0, 5rl2, 5rl1, 5rl4, 5rl3, 5rl5, 5s2m, 5s2l, 5s2o, 5s30, 5s2n, 5s2q, 5s32, 5s2p, 5s31, 5s2s, 5s34, 5s2r, 5s33, 5s2e, 5s2d, 5s2g, 5s2f, 5s2i, 5s2h, 5s2k, 5s2j, 5s3n, 5s3m, 5s3p, 5s41, 5s3o, 5s40, 5s3r, 5s43, 5s3q, 5s42, 5s3t, 5s45, 5s3s, 5s44, 5s3f, 5s3e, 5s3h, 5s3g, 5s3j, 5s3i, 5s3l, 5s3k, 5s3b, 5s3a, 5s3d, 5s3c, 5s2u, 5s36, 5s2t, 5s35, 5s2w, 5s38, 5s2v, 5s37, 5s2y, 5s2x, 5s39, 5s2z, 5s4g, 5s4f, 5s4i, 5s4h, 5s4k, 5s4j, 5s4a, 5s4c, 5s4b, 5s4e, 5s4d, 5s3v, 5s47, 5s3u, 5s46, 5s3x, 5s49, 5s3w, 5s48, 5s3z, 5s3y, 6x2c, 7k0f, 7kfi, 7bf5, 7bf6, 7bf3, 7bf4, 7e35, 7e3j, 7dzw, 7dzx, 7dzy, 7ek6, 7cut, 7cuu, 7lwt, 7lwu, 7lwv, 7lww, 7lyn, 7lyo, 7lyl, 7lyp, 7lyq, 7lyk, 7mbg, 7n5z, 7kph, 7kvr, 7kvl, 7n6n, 7lab, 7laa, 7ld1, 7lcn, 7ldx, 7lfp, 7lfe, 6ywm, 6ywl, 6ywk
+
+##### 22 new structures #####
+7aeh, 7aeg, 7k0e, 7ein, 7n1t, 7n1u, 7n1x, 7n1y, 7n1v, 7n1w, 7n1q, 7n3d, 7n3c, 7nw2, 7ldl, 7lco, 7lct, 7lcs, 7or9, 7orb, 7ora, 7r98
+
+##### new structures by protein #####
+3c_like_proteinase
+>7nw2 7ein 7lco 7aeg 7aeh 7k0e 7lcs 7ldl 7lct 
+nucleocapsid_protein
+>7n3d 7n3c 7r98 
+surface_glycoprotein
+>7n1q 7n1w 7orb 7n1v 7n1u 7ora 7n1t 7n1y 7or9 7n1x 

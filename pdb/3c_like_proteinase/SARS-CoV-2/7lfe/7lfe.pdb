@@ -20,14 +20,19 @@ KEYWDS    3CL, PROTEASE, SARS, SARS-COV-2, COVID, MAIN PROTEASE, HYDROLASE
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.D.NOSKE,A.M.NAKAMURA,V.O.GAWRILJUK,G.M.A.LIMA,A.C.M.ZERI,           
 AUTHOR   2 A.F.Z.NASCIMENTO,G.OLIVA,A.S.GODOY                                   
+REVDAT   2   07-JUL-21 7LFE    1       JRNL                                     
 REVDAT   1   03-FEB-21 7LFE    0                                                
 SPRSDE     03-FEB-21 7LFE      7KS5                                             
-JRNL        AUTH   G.D.NOSKE,A.M.NAKAMURA,V.O.GAWRILJUK,G.M.A.LIMA,A.C.M.ZERI,  
-JRNL        AUTH 2 A.F.Z.NASCIMENTO,G.OLIVA,A.S.GODOY                           
-JRNL        TITL   SARS-COV-2 MAIN PROTEASE IMMATURE FORM - F2X ENTRY LIBRARY   
-JRNL        TITL 2 E03 FRAGMENT                                                 
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   G.D.NOSKE,A.M.NAKAMURA,V.O.GAWRILJUK,R.S.FERNANDES,          
+JRNL        AUTH 2 G.M A LIMA,H.V D ROSA,H.D.PEREIRA,A.C M ZERI,                
+JRNL        AUTH 3 A.A F Z NASCIMENTO,M.C L C FREIRE,D.FEARON,A.DOUANGAMATH,    
+JRNL        AUTH 4 F.VON DELFT,G.OLIVA,A.S.GODOY                                
+JRNL        TITL   A CRYSTALLOGRAPHIC SNAPSHOT OF SARS-COV-2 MAIN PROTEASE      
+JRNL        TITL 2 MATURATION PROCESS.                                          
+JRNL        REF    J.MOL.BIOL.                          67118 2021              
+JRNL        REFN                   ESSN 1089-8638                               
+JRNL        PMID   34174328                                                     
+JRNL        DOI    10.1016/J.JMB.2021.167118                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.79 ANGSTROMS.                                       
 REMARK   3                                                                      

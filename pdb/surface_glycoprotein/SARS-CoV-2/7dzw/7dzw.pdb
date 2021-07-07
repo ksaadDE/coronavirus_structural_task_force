@@ -19,18 +19,20 @@ KEYWDS    SARS-COV2, SPIKE PROTEIN, VIRAL PROTEIN
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    Y.LIU,W.T.SOH,S.LI,J.KISHIKAWA,M.HIROSE,T.KATO,D.STANDLEY,M.OKADA,    
 AUTHOR   2 H.ARASE                                                              
+REVDAT   2   07-JUL-21 7DZW    1       JRNL                                     
 REVDAT   1   02-JUN-21 7DZW    0                                                
-JRNL        AUTH   Y.LIU,W.T.SOH,J.KISHIKAWA,M.HIROSE,E.E.NAKAYAMA,S.LI,        
+JRNL        AUTH   Y.LIU,W.T.SOH,J.I.KISHIKAWA,M.HIROSE,E.E.NAKAYAMA,S.LI,      
 JRNL        AUTH 2 M.SASAI,T.SUZUKI,A.TADA,A.ARAKAWA,S.MATSUOKA,K.AKAMATSU,     
 JRNL        AUTH 3 M.MATSUDA,C.ONO,S.TORII,K.KISHIDA,H.JIN,W.NAKAI,N.ARASE,     
 JRNL        AUTH 4 A.NAKAGAWA,M.MATSUMOTO,Y.NAKAZAKI,Y.SHINDO,M.KOHYAMA,        
-JRNL        AUTH 5 K.TOMII,K.OHOMURA,S.OHSHIMA,T.OKAMOTO,M.YAMAMOTO,H.NAKAGAMI, 
+JRNL        AUTH 5 K.TOMII,K.OHMURA,S.OHSHIMA,T.OKAMOTO,M.YAMAMOTO,H.NAKAGAMI,  
 JRNL        AUTH 6 Y.MATSUURA,A.NAKAGAWA,T.KATO,M.OKADA,D.M.STANDLEY,T.SHIODA,  
 JRNL        AUTH 7 H.ARASE                                                      
 JRNL        TITL   AN INFECTIVITY-ENHANCING SITE ON THE SARS-COV-2 SPIKE        
-JRNL        TITL 2 PROTEIN TARGETED BY COVID-19 PATIENT ANTIBODIES              
-JRNL        REF    CELL(CAMBRIDGE,MASS.)                      2021              
-JRNL        REFN                   ISSN 0092-8674                               
+JRNL        TITL 2 PROTEIN TARGETED BY ANTIBODIES.                              
+JRNL        REF    CELL                          V. 184  3452 2021              
+JRNL        REFN                   ISSN 1097-4172                               
+JRNL        PMID   34139176                                                     
 JRNL        DOI    10.1016/J.CELL.2021.05.032                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.45 ANGSTROMS.                                       

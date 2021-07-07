@@ -3,7 +3,7 @@ data_7KVR
 _entry.id   7KVR 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.337 
+_audit_conform.dict_version    5.344 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -46,25 +46,25 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_abbrev            J.Mol.Biol. 
+_citation.journal_id_ASTM           JMOBAK 
+_citation.journal_id_CSD            0070 
+_citation.journal_id_ISSN           1089-8638 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'SARS-CoV-2 Main protease immature form - FMAX Library E09 fragment' 
-_citation.year                      ? 
+_citation.page_first                167118 
+_citation.page_last                 167118 
+_citation.title                     'A Crystallographic Snapshot of SARS-CoV-2 Main Protease Maturation Process.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1016/j.jmb.2021.167118 
+_citation.pdbx_database_id_PubMed   34174328 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -72,14 +72,21 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Noske, G.D.'        1 ? 
-primary 'Nakamura, A.M.'     2 ? 
-primary 'Gawriljuk, V.O.'    3 ? 
-primary 'Lima, G.M.A.'       4 ? 
-primary 'Zeri, A.C.M.'       5 ? 
-primary 'Nascimento, A.F.Z.' 6 ? 
-primary 'Fernandes, R.S.'    7 ? 
-primary 'Godoy, A.S.'        8 ? 
+primary 'Noske, G.D.'          1  ? 
+primary 'Nakamura, A.M.'       2  ? 
+primary 'Gawriljuk, V.O.'      3  ? 
+primary 'Fernandes, R.S.'      4  ? 
+primary 'M A Lima, G.'         5  ? 
+primary 'V D Rosa, H.'         6  ? 
+primary 'Pereira, H.D.'        7  ? 
+primary 'C M Zeri, A.'         8  ? 
+primary 'A F Z Nascimento, A.' 9  ? 
+primary 'C L C Freire, M.'     10 ? 
+primary 'Fearon, D.'           11 ? 
+primary 'Douangamath, A.'      12 ? 
+primary 'von Delft, F.'        13 ? 
+primary 'Oliva, G.'            14 ? 
+primary 'Godoy, A.S.'          15 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -11842,6 +11849,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2020-12-09 
 2 'Structure model' 1 1 2021-01-27 
+3 'Structure model' 1 2 2021-07-07 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -11851,10 +11859,13 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
-_pdbx_audit_revision_group.ordinal             1 
-_pdbx_audit_revision_group.revision_ordinal    2 
-_pdbx_audit_revision_group.data_content_type   'Structure model' 
-_pdbx_audit_revision_group.group               'Structure summary' 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Structure summary'   
+2 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -11863,14 +11874,27 @@ _pdbx_audit_revision_category.data_content_type
 _pdbx_audit_revision_category.category 
 1 2 'Structure model' entity          
 2 2 'Structure model' entity_name_com 
+3 3 'Structure model' citation        
+4 3 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_entity.pdbx_description' 
-2 2 'Structure model' '_entity_name_com.name'    
+1  2 'Structure model' '_entity.pdbx_description'          
+2  2 'Structure model' '_entity_name_com.name'             
+3  3 'Structure model' '_citation.country'                 
+4  3 'Structure model' '_citation.journal_abbrev'          
+5  3 'Structure model' '_citation.journal_id_ASTM'         
+6  3 'Structure model' '_citation.journal_id_CSD'          
+7  3 'Structure model' '_citation.journal_id_ISSN'         
+8  3 'Structure model' '_citation.page_first'              
+9  3 'Structure model' '_citation.page_last'               
+10 3 'Structure model' '_citation.pdbx_database_id_DOI'    
+11 3 'Structure model' '_citation.pdbx_database_id_PubMed' 
+12 3 'Structure model' '_citation.title'                   
+13 3 'Structure model' '_citation.year'                    
 # 
 _pdbx_refine_tls.id               1 
 _pdbx_refine_tls.pdbx_refine_id   'X-RAY DIFFRACTION' 

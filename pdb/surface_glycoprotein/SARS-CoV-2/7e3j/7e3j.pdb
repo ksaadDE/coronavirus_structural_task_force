@@ -26,11 +26,13 @@ SOURCE  14 EXPRESSION_SYSTEM_TAXID: 266783
 KEYWDS    SARS-COV-2, SPIKE, RBD, RECEPTOR BINDING, VIRAL PROTEIN               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Z.Y.ZHANG,Y.F.ZHANG                                                   
+REVDAT   2   07-JUL-21 7E3J    1       JRNL                                     
 REVDAT   1   07-APR-21 7E3J    0                                                
 JRNL        AUTH   Z.Y.ZHANG,Y.F.ZHANG                                          
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 RBD BINDING TO DOG ACE2      
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        TITL   THE MOLECULAR BASIS FOR SARS-COV-2 BINDING TO DOG ACE2       
+JRNL        REF    NAT COMMUN                                 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        DOI    10.1038/S41467-021-24326-Y                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.99 ANGSTROMS.                                       
 REMARK   3                                                                      

@@ -24,13 +24,14 @@ KEYWDS    SARS-COV-2, SPIKE PROTEIN, MEMBRANE FUSION, FUSION INHIBITOR,
 KEYWDS   2 LIPOPEPTIDE, VIRAL PROTEIN                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.YU,B.QIN,S.CUI,Y.HE                                                 
+REVDAT   2   07-JUL-21 7EK6    1       JRNL                                     
 REVDAT   1   09-JUN-21 7EK6    0                                                
-JRNL        AUTH   D.YU,Y.ZHU,T.JIAO,T.WU,X.XIAO,B.QIN,Y.HU,H.CHONG,X.LEI,      
-JRNL        AUTH 2 L.REN,S.CUI,J.WANG,Y.HE                                      
+JRNL        AUTH   D.YU,Y.ZHU,T.JIAO,T.WU,X.XIAO,B.QIN,H.CHONG,X.LEI,L.REN,     
+JRNL        AUTH 2 S.CUI,J.WANG,Y.HE                                            
 JRNL        TITL   STRUCTURE-BASED DESIGN AND CHARACTERIZATION OF NOVEL         
 JRNL        TITL 2 FUSION-INHIBITORY LIPOPEPTIDES AGAINST SARS-COV-2 AND        
 JRNL        TITL 3 EMERGING VARIANTS.                                           
-JRNL        REF    EMERG MICROBES INFECT                    1 2021              
+JRNL        REF    EMERG MICROBES INFECT         V.  10  1227 2021              
 JRNL        REFN                   ESSN 2222-1751                               
 JRNL        PMID   34057039                                                     
 JRNL        DOI    10.1080/22221751.2021.1937329                                

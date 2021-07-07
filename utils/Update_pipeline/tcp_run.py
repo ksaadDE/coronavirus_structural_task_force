@@ -18,8 +18,8 @@ taxo = "SARS-CoV-2"
 sars_cov_1_2_id = "694009" #SARS-CoV-1 & SARS-CoV-2
 sars_cov_2_id = "2697049" #SARS-CoV-2
 dont_negate = "6645"
-taxonomy_id = sars_cov_1_2_id
-negate_taxonomy_id = sars_cov_2_id
+taxonomy_id = sars_cov_2_id
+negate_taxonomy_id = dont_negate
 
 repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
 print("Searching for new and changed structures")

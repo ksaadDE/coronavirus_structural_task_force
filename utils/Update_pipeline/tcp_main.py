@@ -353,12 +353,13 @@ def give_txt_report(taxo, pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
 
     doc.close()
 
-def main(taxonomy_id, negate_taxonomy_id, taxo):
+def main(taxonomy_id, negate_taxonomy_id, taxo, rerun=False):
     repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
     df = pd.read_pickle("main_repo_database_{}.pkl".format(taxo))
 
     global time
-    time = get_time()
+    if not rerun:
+        time = get_time()
 
     # request pdb_id update report form pdb
     c_new_pdb_lst, c_rev_pdb_lst = get_id(taxonomy_id,negate_taxonomy_id)
@@ -382,5 +383,5 @@ def rerun(taxonomy_id, negate_taxonomy_id, taxo):
     time = date(year=2021, month=3, day=17)
     while time < date.today():
         print(time)
-        main(taxonomy_id, negate_taxonomy_id, taxo)
+        main(taxonomy_id, negate_taxonomy_id, taxo, True)
         time += timedelta(days=7)

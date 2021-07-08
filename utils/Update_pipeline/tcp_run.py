@@ -43,6 +43,8 @@ else:
 # taxonomy name used to name files
 taxo = args.taxonomy
 
+tcp_main.rerun(taxonomy_id=taxonomy_id, negate_taxonomy_id=negate_taxonomy_id, taxo=taxo)
+exit("rerun only")
 
 repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
 print("Searching for new and changed structures")

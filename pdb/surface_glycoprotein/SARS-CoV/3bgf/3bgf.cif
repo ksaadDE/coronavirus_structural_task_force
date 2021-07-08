@@ -3,7 +3,7 @@ data_3BGF
 _entry.id   3BGF 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.287 
+_audit_conform.dict_version    5.341 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -34,6 +34,7 @@ _pdbx_database_status.SG_entry                        ?
 _pdbx_database_status.pdb_format_compatible           Y 
 _pdbx_database_status.status_code_cs                  ? 
 _pdbx_database_status.methods_development_category    ? 
+_pdbx_database_status.status_code_nmr_data            ? 
 # 
 loop_
 _audit_author.name 
@@ -61,17 +62,18 @@ loop_
 _citation_author.citation_id 
 _citation_author.name 
 _citation_author.ordinal 
-primary 'Pak, J.E.'        1  
-primary 'Sharon, C.'       2  
-primary 'Satkunarajah, M.' 3  
-primary 'Auperin, T.C.'    4  
-primary 'Cameron, C.M.'    5  
-primary 'Kelvin, D.J.'     6  
-primary 'Seetharaman, J.'  7  
-primary 'Cochrane, A.'     8  
-primary 'Plummer, F.A.'    9  
-primary 'Berry, J.D.'      10 
-primary 'Rini, J.M.'       11 
+_citation_author.identifier_ORCID 
+primary 'Pak, J.E.'        1  ? 
+primary 'Sharon, C.'       2  ? 
+primary 'Satkunarajah, M.' 3  ? 
+primary 'Auperin, T.C.'    4  ? 
+primary 'Cameron, C.M.'    5  ? 
+primary 'Kelvin, D.J.'     6  ? 
+primary 'Seetharaman, J.'  7  ? 
+primary 'Cochrane, A.'     8  ? 
+primary 'Plummer, F.A.'    9  ? 
+primary 'Berry, J.D.'      10 ? 
+primary 'Rini, J.M.'       11 ? 
 # 
 _cell.length_a           183.688 
 _cell.length_b           73.365 
@@ -816,9 +818,9 @@ _entity_src_gen.pdbx_host_org_organ                ?
 _entity_src_gen.host_org_species                   ? 
 _entity_src_gen.pdbx_host_org_tissue               ? 
 _entity_src_gen.pdbx_host_org_tissue_fraction      ? 
-_entity_src_gen.pdbx_host_org_strain               HEK293T 
+_entity_src_gen.pdbx_host_org_strain               ? 
 _entity_src_gen.pdbx_host_org_variant              ? 
-_entity_src_gen.pdbx_host_org_cell_line            ? 
+_entity_src_gen.pdbx_host_org_cell_line            HEK293T 
 _entity_src_gen.pdbx_host_org_atcc                 ? 
 _entity_src_gen.pdbx_host_org_culture_collection   ? 
 _entity_src_gen.pdbx_host_org_cell                 ? 
@@ -1256,9 +1258,6 @@ G N N 4 ?
 H N N 4 ? 
 I N N 4 ? 
 # 
-_struct_biol.id        1 
-_struct_biol.details   ? 
-# 
 loop_
 _struct_conf.conf_type_id 
 _struct_conf.id 
@@ -1349,20 +1348,21 @@ _struct_conn.pdbx_ptnr3_PDB_ins_code
 _struct_conn.details 
 _struct_conn.pdbx_dist_value 
 _struct_conn.pdbx_value_order 
-disulf1  disulf ? ? A CYS 6   SG ? ? ? 1_555 A CYS 31  SG ? ? S CYS 323 S CYS 348 1_555 ? ? ? ? ? ? ? 2.020 ? 
-disulf2  disulf ? ? A CYS 49  SG ? ? ? 1_555 A CYS 102 SG ? ? S CYS 366 S CYS 419 1_555 ? ? ? ? ? ? ? 2.028 ? 
-disulf3  disulf ? ? A CYS 150 SG ? ? ? 1_555 A CYS 157 SG ? ? S CYS 467 S CYS 474 1_555 ? ? ? ? ? ? ? 2.040 ? 
-disulf4  disulf ? ? B CYS 6   SG ? ? ? 1_555 B CYS 31  SG ? ? A CYS 323 A CYS 348 1_555 ? ? ? ? ? ? ? 2.038 ? 
-disulf5  disulf ? ? B CYS 49  SG ? ? ? 1_555 B CYS 102 SG ? ? A CYS 366 A CYS 419 1_555 ? ? ? ? ? ? ? 2.032 ? 
-disulf6  disulf ? ? B CYS 150 SG ? ? ? 1_555 B CYS 157 SG ? ? A CYS 467 A CYS 474 1_555 ? ? ? ? ? ? ? 2.042 ? 
-disulf7  disulf ? ? C CYS 23  SG ? ? ? 1_555 C CYS 88  SG ? ? L CYS 23  L CYS 88  1_555 ? ? ? ? ? ? ? 2.028 ? 
-disulf8  disulf ? ? C CYS 134 SG ? ? ? 1_555 C CYS 194 SG ? ? L CYS 134 L CYS 194 1_555 ? ? ? ? ? ? ? 2.037 ? 
-disulf9  disulf ? ? D CYS 22  SG ? ? ? 1_555 D CYS 96  SG ? ? H CYS 22  H CYS 92  1_555 ? ? ? ? ? ? ? 2.045 ? 
-disulf10 disulf ? ? D CYS 148 SG ? ? ? 1_555 D CYS 203 SG ? ? H CYS 142 H CYS 197 1_555 ? ? ? ? ? ? ? 2.039 ? 
-disulf11 disulf ? ? E CYS 23  SG ? ? ? 1_555 E CYS 88  SG ? ? C CYS 23  C CYS 88  1_555 ? ? ? ? ? ? ? 2.030 ? 
-disulf12 disulf ? ? E CYS 134 SG ? ? ? 1_555 E CYS 194 SG ? ? C CYS 134 C CYS 194 1_555 ? ? ? ? ? ? ? 2.032 ? 
-disulf13 disulf ? ? F CYS 22  SG ? ? ? 1_555 F CYS 96  SG ? ? B CYS 22  B CYS 92  1_555 ? ? ? ? ? ? ? 2.030 ? 
-disulf14 disulf ? ? F CYS 148 SG ? ? ? 1_555 F CYS 203 SG ? ? B CYS 142 B CYS 197 1_555 ? ? ? ? ? ? ? 2.033 ? 
+_struct_conn.pdbx_role 
+disulf1  disulf ? ? A CYS 6   SG ? ? ? 1_555 A CYS 31  SG ? ? S CYS 323 S CYS 348 1_555 ? ? ? ? ? ? ? 2.020 ? ? 
+disulf2  disulf ? ? A CYS 49  SG ? ? ? 1_555 A CYS 102 SG ? ? S CYS 366 S CYS 419 1_555 ? ? ? ? ? ? ? 2.028 ? ? 
+disulf3  disulf ? ? A CYS 150 SG ? ? ? 1_555 A CYS 157 SG ? ? S CYS 467 S CYS 474 1_555 ? ? ? ? ? ? ? 2.040 ? ? 
+disulf4  disulf ? ? B CYS 6   SG ? ? ? 1_555 B CYS 31  SG ? ? A CYS 323 A CYS 348 1_555 ? ? ? ? ? ? ? 2.038 ? ? 
+disulf5  disulf ? ? B CYS 49  SG ? ? ? 1_555 B CYS 102 SG ? ? A CYS 366 A CYS 419 1_555 ? ? ? ? ? ? ? 2.032 ? ? 
+disulf6  disulf ? ? B CYS 150 SG ? ? ? 1_555 B CYS 157 SG ? ? A CYS 467 A CYS 474 1_555 ? ? ? ? ? ? ? 2.042 ? ? 
+disulf7  disulf ? ? C CYS 23  SG ? ? ? 1_555 C CYS 88  SG ? ? L CYS 23  L CYS 88  1_555 ? ? ? ? ? ? ? 2.028 ? ? 
+disulf8  disulf ? ? C CYS 134 SG ? ? ? 1_555 C CYS 194 SG ? ? L CYS 134 L CYS 194 1_555 ? ? ? ? ? ? ? 2.037 ? ? 
+disulf9  disulf ? ? D CYS 22  SG ? ? ? 1_555 D CYS 96  SG ? ? H CYS 22  H CYS 92  1_555 ? ? ? ? ? ? ? 2.045 ? ? 
+disulf10 disulf ? ? D CYS 148 SG ? ? ? 1_555 D CYS 203 SG ? ? H CYS 142 H CYS 197 1_555 ? ? ? ? ? ? ? 2.039 ? ? 
+disulf11 disulf ? ? E CYS 23  SG ? ? ? 1_555 E CYS 88  SG ? ? C CYS 23  C CYS 88  1_555 ? ? ? ? ? ? ? 2.030 ? ? 
+disulf12 disulf ? ? E CYS 134 SG ? ? ? 1_555 E CYS 194 SG ? ? C CYS 134 C CYS 194 1_555 ? ? ? ? ? ? ? 2.032 ? ? 
+disulf13 disulf ? ? F CYS 22  SG ? ? ? 1_555 F CYS 96  SG ? ? B CYS 22  B CYS 92  1_555 ? ? ? ? ? ? ? 2.030 ? ? 
+disulf14 disulf ? ? F CYS 148 SG ? ? ? 1_555 F CYS 203 SG ? ? B CYS 142 B CYS 197 1_555 ? ? ? ? ? ? ? 2.033 ? ? 
 # 
 _struct_conn_type.id          disulf 
 _struct_conn_type.criteria    ? 
@@ -12549,6 +12549,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2008-12-02 
 2 'Structure model' 1 1 2011-07-13 
 3 'Structure model' 1 2 2017-10-25 
+4 'Structure model' 1 3 2021-03-31 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -12556,6 +12557,7 @@ _pdbx_audit_revision_details.data_content_type   'Structure model'
 _pdbx_audit_revision_details.provider            repository 
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
+_pdbx_audit_revision_details.details             ? 
 # 
 loop_
 _pdbx_audit_revision_group.ordinal 
@@ -12564,11 +12566,23 @@ _pdbx_audit_revision_group.data_content_type
 _pdbx_audit_revision_group.group 
 1 2 'Structure model' 'Version format compliance' 
 2 3 'Structure model' 'Refinement description'    
+3 4 'Structure model' 'Source and taxonomy'       
 # 
-_pdbx_audit_revision_category.ordinal             1 
-_pdbx_audit_revision_category.revision_ordinal    3 
-_pdbx_audit_revision_category.data_content_type   'Structure model' 
-_pdbx_audit_revision_category.category            software 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 3 'Structure model' software       
+2 4 'Structure model' entity_src_gen 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 4 'Structure model' '_entity_src_gen.pdbx_host_org_cell_line' 
+2 4 'Structure model' '_entity_src_gen.pdbx_host_org_strain'    
 # 
 _pdbx_phasing_MR.entry_id                     3BGF 
 _pdbx_phasing_MR.method_rotation              ? 

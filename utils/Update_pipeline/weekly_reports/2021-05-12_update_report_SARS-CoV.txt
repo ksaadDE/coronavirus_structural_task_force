@@ -1,0 +1,9 @@
+2021-05-12 weekly report for SARS-CoV##### 1 revised structures #####
+7jn5
+
+##### 2 new structures #####
+7lcp, 7lcq
+
+##### new structures by protein #####
+3c_like_proteinase
+>7lcp 7lcq 

@@ -288,6 +288,14 @@ def update_files(repo_path, taxo, pdb_protein_dict, c_rev_pdb_lst, df):
     for pdb_id in c_rev_pdb_lst:
         # get path to entry
         try:
+            print(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item())
+            if str(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()).find("SARS-CoV-1"):
+                # replace SARS-CoV-1 in path in database to SARS-CoV
+                print("Contains SARS-CoV-1, Fix this")
+                old_path = df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()
+                new_path = old_path.replace("SARS-CoV-1", "SARS-CoV")
+                df["path_in_repo"] = df["path_in_repo"].replace(old_path, new_path)
+                
             id_path = os.path.join(repo_path[:repo_path.find("/pdb")], df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item())
             # moves the old files in old
             print("rev id_path - ", id_path)

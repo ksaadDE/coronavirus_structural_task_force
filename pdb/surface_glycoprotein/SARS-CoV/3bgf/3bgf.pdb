@@ -19,7 +19,7 @@ SOURCE   5 STRAIN: TOR2;
 SOURCE   6 GENE: S;                                                             
 SOURCE   7 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
 SOURCE   8 EXPRESSION_SYSTEM_TAXID: 9606;                                       
-SOURCE   9 EXPRESSION_SYSTEM_STRAIN: HEK293T;                                   
+SOURCE   9 EXPRESSION_SYSTEM_CELL_LINE: HEK293T;                                
 SOURCE  10 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PPA-TEV;                                  
 SOURCE  12 MOL_ID: 2;                                                           
@@ -35,6 +35,7 @@ KEYWDS   2 INTERACTION, MEMBRANE, TRANSMEMBRANE, VIRION, VIRULENCE, VIRAL
 KEYWDS   3 PROTEIN-IMMUNE SYSTEM COMPLEX                                        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.E.PAK,J.M.RINI                                                      
+REVDAT   5   31-MAR-21 3BGF    1       SOURCE                                   
 REVDAT   4   25-OCT-17 3BGF    1       REMARK                                   
 REVDAT   3   19-MAY-09 3BGF    1       JRNL                                     
 REVDAT   2   14-APR-09 3BGF    1       JRNL                                     
@@ -54,7 +55,8 @@ REMARK   2 RESOLUTION.    3.00 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC                                               
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -10210,5 +10212,5 @@ CONECT 7941 8529
 CONECT 8529 7941                                                                
 CONECT 8876 9289                                                                
 CONECT 9289 8876                                                                
-MASTER      435    0    0   29  108    0    0    6 9417    6   28   98          
+MASTER      436    0    0   29  108    0    0    6 9417    6   28   98          
 END                                                                             

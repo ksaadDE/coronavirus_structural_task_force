@@ -1,0 +1,9 @@
+2021-03-31 weekly report for SARS-CoV##### 2 revised structures #####
+3bgf, 6iex
+
+##### 1 new structures #####
+7lm9
+
+##### new structures by protein #####
+surface_glycoprotein
+>7lm9 

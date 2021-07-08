@@ -3,7 +3,7 @@ data_7JN5
 _entry.id   7JN5 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.334 
+_audit_conform.dict_version    5.342 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -41,26 +41,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Plos Pathog.' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           1553-7374 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            16 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                e1009089 
+_citation.page_last                 e1009089 
 _citation.title                     
-'A natural mutation in a highly conserved epitope between SARS-CoV-2 and SARS-CoV determines antibody neutralization' 
-_citation.year                      ? 
+'A natural mutation between SARS-CoV-2 and SARS-CoV determines neutralization by a cross-reactive antibody.' 
+_citation.year                      2020 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1371/journal.ppat.1009089 
+_citation.pdbx_database_id_PubMed   33275640 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -68,17 +68,19 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Wu, N.C.'     1  ? 
-primary 'Yuan, M.'     2  ? 
-primary 'Huang, D.'    3  ? 
-primary 'Bangaru, S.'  4  ? 
-primary 'Zhu, X.'      5  ? 
-primary 'Lee, C.C.D.'  6  ? 
-primary 'Peng, L.'     7  ? 
-primary 'Yang, L.'     8  ? 
-primary 'Nemazee, D.'  9  ? 
-primary 'Ward, A.B.'   10 ? 
-primary 'Wilson, I.A.' 11 ? 
+primary 'Wu, N.C.'     1  0000-0002-9078-6697 
+primary 'Yuan, M.'     2  0000-0001-9754-4503 
+primary 'Bangaru, S.'  3  0000-0001-7994-4693 
+primary 'Huang, D.'    4  0000-0002-6989-639X 
+primary 'Zhu, X.'      5  0000-0002-6021-3740 
+primary 'Lee, C.D.'    6  0000-0002-5470-2484 
+primary 'Turner, H.L.' 7  0000-0002-4745-8057 
+primary 'Peng, L.'     8  ?                   
+primary 'Yang, L.'     9  0000-0001-5602-4157 
+primary 'Burton, D.R.' 10 ?                   
+primary 'Nemazee, D.'  11 ?                   
+primary 'Ward, A.B.'   12 0000-0001-7153-3769 
+primary 'Wilson, I.A.' 13 0000-0002-6469-2419 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -12297,11 +12299,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2020-10-28 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2020-10-28 
+2 'Structure model' 1 1 2021-05-12 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -12310,6 +12315,36 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.country'                 
+2  2 'Structure model' '_citation.journal_abbrev'          
+3  2 'Structure model' '_citation.journal_id_CSD'          
+4  2 'Structure model' '_citation.journal_id_ISSN'         
+5  2 'Structure model' '_citation.journal_volume'          
+6  2 'Structure model' '_citation.page_first'              
+7  2 'Structure model' '_citation.page_last'               
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 2 'Structure model' '_citation.title'                   
+11 2 'Structure model' '_citation.year'                    
 # 
 loop_
 _pdbx_refine_tls.id 

@@ -1,0 +1,9 @@
+2021-03-17 weekly report for SARS-CoV##### 0 revised structures #####
+
+
+##### 1 new structures #####
+6yxj
+
+##### new structures by protein #####
+nsp3
+>6yxj 

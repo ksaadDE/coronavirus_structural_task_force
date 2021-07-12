@@ -1,0 +1,492 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+XV4      XV4 '.                                   ' .                  63  32 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-XV4  CYS      .        .        XV4      .        .
+ bond_CYS-SG_=_XV4-C12
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_XV4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ XV4           O32    O    O         0.000     12.071   12.098   -5.101
+ XV4           C20    C    C         0.000     11.322   12.743   -4.439
+ XV4           C21    C    CR5       0.000     11.049   12.383   -2.944
+ XV4           N31    N    NRD5      0.000     11.607   11.336   -2.190
+ XV4           C30    C    CR56      0.000     11.241   11.197   -0.917
+ XV4           C29    C    CR16      0.000     11.527   10.348    0.072
+ XV4           H29    H    H         0.000     12.192    9.510   -0.095
+ XV4           C28    C    CR16      0.000     10.894   10.583    1.452
+ XV4           H28    H    H         0.000     11.127    9.910    2.268
+ XV4           C27    C    CR16      0.000     10.070   11.594    1.657
+ XV4           H27    H    H         0.000      9.624   11.733    2.634
+ XV4           C24    C    CR6       0.000      9.744   12.558    0.542
+ XV4           O25    O    O2        0.000      8.854   13.656    0.710
+ XV4           C26    C    CH3       0.000      9.006   14.363    1.926
+ XV4           H263   H    H         0.000      8.837   13.705    2.737
+ XV4           H262   H    H         0.000      9.987   14.753    1.984
+ XV4           H261   H    H         0.000      8.306   15.156    1.960
+ XV4           C23    C    CR56      0.000     10.301   12.359   -0.668
+ XV4           C22    C    CR15      0.000     10.195   13.156   -2.082
+ XV4           H22    H    H         0.000      9.625   14.046   -2.316
+ XV4           N19    N    NH1       0.000     10.865   14.110   -4.847
+ XV4           HN19   H    H         0.000     10.416   14.716   -4.176
+ XV4           C14    C    CH1       0.000     11.070   14.556   -6.205
+ XV4           H14    H    H         0.000     10.835   13.726   -6.886
+ XV4           C15    C    CH2       0.000     10.134   15.712   -6.508
+ XV4           H151   H    H         0.000     10.393   16.177   -7.461
+ XV4           H152   H    H         0.000     10.178   16.461   -5.715
+ XV4           C16    C    CH1       0.000      8.700   15.126   -6.589
+ XV4           H16    H    H         0.000      8.562   14.372   -5.801
+ XV4           C18    C    CH3       0.000      8.312   14.543   -7.926
+ XV4           H183   H    H         0.000      8.371   15.296   -8.666
+ XV4           H182   H    H         0.000      8.973   13.753   -8.168
+ XV4           H181   H    H         0.000      7.322   14.173   -7.872
+ XV4           C17    C    CH3       0.000      7.702   16.307   -6.370
+ XV4           H173   H    H         0.000      7.867   16.748   -5.418
+ XV4           H172   H    H         0.000      7.843   17.043   -7.122
+ XV4           H171   H    H         0.000      6.703   15.950   -6.417
+ XV4           C02    C    C         0.000     12.532   14.924   -6.377
+ XV4           O01    O    O         0.000     13.149   15.492   -5.524
+ XV4           N03    N    NH1       0.000     13.157   14.583   -7.673
+ XV4           HN03   H    H         0.000     12.621   14.128   -8.399
+ XV4           C04    C    CH1       0.000     14.590   14.922   -7.887
+ XV4           H04    H    H         0.000     14.948   15.482   -7.012
+ XV4           C12    C    C1        0.000     14.773   15.792   -9.121
+ XV4           H12    H    H         0.000     13.911   16.187   -9.632
+ XV4           O13    O    O         0.000     15.883   16.041   -9.529
+ XV4           C05    C    CH2       0.000     15.390   13.608   -7.984
+ XV4           H051   H    H         0.000     16.323   13.821   -8.510
+ XV4           H052   H    H         0.000     14.799   12.898   -8.567
+ XV4           C06    C    CH1       0.000     15.711   12.991   -6.571
+ XV4           H06    H    H         0.000     14.787   12.658   -6.078
+ XV4           C07    C    CH2       0.000     16.411   14.008   -5.735
+ XV4           H071   H    H         0.000     15.683   14.547   -5.125
+ XV4           H072   H    H         0.000     16.938   14.714   -6.380
+ XV4           C08    C    CH2       0.000     17.405   13.306   -4.835
+ XV4           H081   H    H         0.000     16.980   13.013   -3.873
+ XV4           H082   H    H         0.000     18.316   13.885   -4.668
+ XV4           N09    N    NT1       0.000     17.742   12.035   -5.663
+ XV4           HN09   H    H         0.000     18.561   11.421   -5.523
+ XV4           C10    C    CH1       0.000     16.678   11.853   -6.697
+ XV4           H10    H    H         0.000     16.082   11.259   -5.989
+ XV4           O11    O    OH1       0.000     16.649   10.979   -7.467
+ XV4           HO11   H    H         0.000     15.871   11.117   -7.991
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ XV4      O32    n/a    C20    START
+ XV4      C20    O32    N19    .
+ XV4      C21    C20    N31    .
+ XV4      N31    C21    C30    .
+ XV4      C30    N31    C23    .
+ XV4      C29    C30    C28    .
+ XV4      H29    C29    .      .
+ XV4      C28    C29    C27    .
+ XV4      H28    C28    .      .
+ XV4      C27    C28    C24    .
+ XV4      H27    C27    .      .
+ XV4      C24    C27    O25    .
+ XV4      O25    C24    C26    .
+ XV4      C26    O25    H261   .
+ XV4      H263   C26    .      .
+ XV4      H262   C26    .      .
+ XV4      H261   C26    .      .
+ XV4      C23    C30    C22    .
+ XV4      C22    C23    H22    .
+ XV4      H22    C22    .      .
+ XV4      N19    C20    C14    .
+ XV4      HN19   N19    .      .
+ XV4      C14    N19    C02    .
+ XV4      H14    C14    .      .
+ XV4      C15    C14    C16    .
+ XV4      H151   C15    .      .
+ XV4      H152   C15    .      .
+ XV4      C16    C15    C17    .
+ XV4      H16    C16    .      .
+ XV4      C18    C16    H181   .
+ XV4      H183   C18    .      .
+ XV4      H182   C18    .      .
+ XV4      H181   C18    .      .
+ XV4      C17    C16    H171   .
+ XV4      H173   C17    .      .
+ XV4      H172   C17    .      .
+ XV4      H171   C17    .      .
+ XV4      C02    C14    N03    .
+ XV4      O01    C02    .      .
+ XV4      N03    C02    C04    .
+ XV4      HN03   N03    .      .
+ XV4      C04    N03    C05    .
+ XV4      H04    C04    .      .
+ XV4      C12    C04    O13    .
+ XV4      H12    C12    .      .
+ XV4      O13    C12    .      .
+ XV4      C05    C04    C06    .
+ XV4      H051   C05    .      .
+ XV4      H052   C05    .      .
+ XV4      C06    C05    C07    .
+ XV4      H06    C06    .      .
+ XV4      C07    C06    C08    .
+ XV4      H071   C07    .      .
+ XV4      H072   C07    .      .
+ XV4      C08    C07    N09    .
+ XV4      H081   C08    .      .
+ XV4      H082   C08    .      .
+ XV4      N09    C08    C10    .
+ XV4      HN09   N09    .      .
+ XV4      C10    N09    O11    .
+ XV4      H10    C10    .      .
+ XV4      O11    C10    HO11   .
+ XV4      HO11   O11    .      END
+ XV4      C10    C06    .    ADD
+ XV4      C21    C22    .    ADD
+ XV4      C24    C23    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ XV4      C10    C06       single      1.524    0.020
+ XV4      C10    N09       single      1.475    0.020
+ XV4      O11    C10       single      1.432    0.020
+ XV4      C15    C14       single      1.524    0.020
+ XV4      C16    C15       single      1.524    0.020
+ XV4      C17    C16       single      1.524    0.020
+ XV4      C21    C20       single      1.490    0.020
+ XV4      N19    C20       single      1.330    0.020
+ XV4      C20    O32       double      1.220    0.020
+ XV4      C21    C22       aromatic    1.387    0.020
+ XV4      N31    C21       single      1.350    0.020
+ XV4      C22    C23       single      1.440    0.020
+ XV4      C24    C23       double      1.490    0.020
+ XV4      C24    C27       single      1.390    0.020
+ XV4      O25    C24       single      1.370    0.020
+ XV4      C26    O25       single      1.426    0.020
+ XV4      C27    C28       double      1.390    0.020
+ XV4      C28    C29       single      1.390    0.020
+ XV4      C02    C14       single      1.500    0.020
+ XV4      N03    C02       single      1.330    0.020
+ XV4      O01    C02       double      1.220    0.020
+ XV4      C05    C04       single      1.524    0.020
+ XV4      C12    C04       single      1.510    0.020
+ XV4      C04    N03       single      1.450    0.020
+ XV4      C06    C05       single      1.524    0.020
+ XV4      C07    C06       single      1.524    0.020
+ XV4      C08    C07       single      1.524    0.020
+ XV4      N09    C08       single      1.472    0.020
+ XV4      O13    C12       double      1.220    0.020
+ XV4      C14    N19       single      1.450    0.020
+ XV4      C18    C16       single      1.524    0.020
+ XV4      C23    C30       single      1.490    0.020
+ XV4      C29    C30       double      1.390    0.020
+ XV4      C30    N31       deloc       1.350    0.020
+ XV4      H10    C10       single      1.099    0.020
+ XV4      H151   C15       single      1.092    0.020
+ XV4      H152   C15       single      1.092    0.020
+ XV4      H171   C17       single      1.059    0.020
+ XV4      H172   C17       single      1.059    0.020
+ XV4      H173   C17       single      1.059    0.020
+ XV4      H22    C22       single      1.083    0.020
+ XV4      H261   C26       single      1.059    0.020
+ XV4      H262   C26       single      1.059    0.020
+ XV4      H263   C26       single      1.059    0.020
+ XV4      H28    C28       single      1.083    0.020
+ XV4      H04    C04       single      1.099    0.020
+ XV4      H051   C05       single      1.092    0.020
+ XV4      H052   C05       single      1.092    0.020
+ XV4      H06    C06       single      1.099    0.020
+ XV4      H071   C07       single      1.092    0.020
+ XV4      H072   C07       single      1.092    0.020
+ XV4      H081   C08       single      1.092    0.020
+ XV4      H082   C08       single      1.092    0.020
+ XV4      H12    C12       single      1.077    0.020
+ XV4      H14    C14       single      1.099    0.020
+ XV4      H16    C16       single      1.099    0.020
+ XV4      H181   C18       single      1.059    0.020
+ XV4      H182   C18       single      1.059    0.020
+ XV4      H183   C18       single      1.059    0.020
+ XV4      H27    C27       single      1.083    0.020
+ XV4      H29    C29       single      1.083    0.020
+ XV4      HN03   N03       single      1.010    0.020
+ XV4      HN09   N09       single      1.033    0.020
+ XV4      HN19   N19       single      1.010    0.020
+ XV4      HO11   O11       single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ XV4      O32    C20    C21     120.500    3.000
+ XV4      O32    C20    N19     123.000    3.000
+ XV4      C21    C20    N19     120.000    3.000
+ XV4      C20    C21    N31     126.000    3.000
+ XV4      C20    C21    C22     126.000    3.000
+ XV4      N31    C21    C22     108.000    3.000
+ XV4      C21    N31    C30     108.000    3.000
+ XV4      N31    C30    C29     132.000    3.000
+ XV4      N31    C30    C23     108.000    3.000
+ XV4      C29    C30    C23     120.000    3.000
+ XV4      C30    C29    H29     120.000    3.000
+ XV4      C30    C29    C28     120.000    3.000
+ XV4      H29    C29    C28     120.000    3.000
+ XV4      C29    C28    H28     120.000    3.000
+ XV4      C29    C28    C27     120.000    3.000
+ XV4      H28    C28    C27     120.000    3.000
+ XV4      C28    C27    H27     120.000    3.000
+ XV4      C28    C27    C24     120.000    3.000
+ XV4      H27    C27    C24     120.000    3.000
+ XV4      C27    C24    O25     120.000    3.000
+ XV4      C27    C24    C23     120.000    3.000
+ XV4      O25    C24    C23     120.000    3.000
+ XV4      C24    O25    C26     120.000    3.000
+ XV4      O25    C26    H263    109.470    3.000
+ XV4      O25    C26    H262    109.470    3.000
+ XV4      O25    C26    H261    109.470    3.000
+ XV4      H263   C26    H262    109.470    3.000
+ XV4      H263   C26    H261    109.470    3.000
+ XV4      H262   C26    H261    109.470    3.000
+ XV4      C30    C23    C22     120.000    3.000
+ XV4      C30    C23    C24     120.000    3.000
+ XV4      C22    C23    C24     132.000    3.000
+ XV4      C23    C22    H22     108.000    3.000
+ XV4      C23    C22    C21     108.000    3.000
+ XV4      H22    C22    C21     126.000    3.000
+ XV4      C20    N19    HN19    120.000    3.000
+ XV4      C20    N19    C14     121.500    3.000
+ XV4      HN19   N19    C14     118.500    3.000
+ XV4      N19    C14    H14     108.550    3.000
+ XV4      N19    C14    C15     110.000    3.000
+ XV4      N19    C14    C02     111.600    3.000
+ XV4      H14    C14    C15     108.340    3.000
+ XV4      H14    C14    C02     108.810    3.000
+ XV4      C15    C14    C02     109.470    3.000
+ XV4      C14    C15    H151    109.470    3.000
+ XV4      C14    C15    H152    109.470    3.000
+ XV4      C14    C15    C16     111.000    3.000
+ XV4      H151   C15    H152    107.900    3.000
+ XV4      H151   C15    C16     109.470    3.000
+ XV4      H152   C15    C16     109.470    3.000
+ XV4      C15    C16    H16     108.340    3.000
+ XV4      C15    C16    C18     111.000    3.000
+ XV4      C15    C16    C17     111.000    3.000
+ XV4      H16    C16    C18     108.340    3.000
+ XV4      H16    C16    C17     108.340    3.000
+ XV4      C18    C16    C17     111.000    3.000
+ XV4      C16    C18    H183    109.470    3.000
+ XV4      C16    C18    H182    109.470    3.000
+ XV4      C16    C18    H181    109.470    3.000
+ XV4      H183   C18    H182    109.470    3.000
+ XV4      H183   C18    H181    109.470    3.000
+ XV4      H182   C18    H181    109.470    3.000
+ XV4      C16    C17    H173    109.470    3.000
+ XV4      C16    C17    H172    109.470    3.000
+ XV4      C16    C17    H171    109.470    3.000
+ XV4      H173   C17    H172    109.470    3.000
+ XV4      H173   C17    H171    109.470    3.000
+ XV4      H172   C17    H171    109.470    3.000
+ XV4      C14    C02    O01     120.500    3.000
+ XV4      C14    C02    N03     116.500    3.000
+ XV4      O01    C02    N03     123.000    3.000
+ XV4      C02    N03    HN03    120.000    3.000
+ XV4      C02    N03    C04     121.500    3.000
+ XV4      HN03   N03    C04     118.500    3.000
+ XV4      N03    C04    H04     108.550    3.000
+ XV4      N03    C04    C12     111.600    3.000
+ XV4      N03    C04    C05     110.000    3.000
+ XV4      H04    C04    C12     108.810    3.000
+ XV4      H04    C04    C05     108.340    3.000
+ XV4      C12    C04    C05     109.470    3.000
+ XV4      C04    C12    H12     120.000    3.000
+ XV4      C04    C12    O13     120.500    3.000
+ XV4      H12    C12    O13     123.000    3.000
+ XV4      C04    C05    H051    109.470    3.000
+ XV4      C04    C05    H052    109.470    3.000
+ XV4      C04    C05    C06     111.000    3.000
+ XV4      H051   C05    H052    107.900    3.000
+ XV4      H051   C05    C06     109.470    3.000
+ XV4      H052   C05    C06     109.470    3.000
+ XV4      C05    C06    H06     108.340    3.000
+ XV4      C05    C06    C07     109.470    3.000
+ XV4      C05    C06    C10     111.000    3.000
+ XV4      H06    C06    C07     108.340    3.000
+ XV4      H06    C06    C10     108.340    3.000
+ XV4      C07    C06    C10     111.000    3.000
+ XV4      C06    C07    H071    109.470    3.000
+ XV4      C06    C07    H072    109.470    3.000
+ XV4      C06    C07    C08     111.000    3.000
+ XV4      H071   C07    H072    107.900    3.000
+ XV4      H071   C07    C08     109.470    3.000
+ XV4      H072   C07    C08     109.470    3.000
+ XV4      C07    C08    H081    109.470    3.000
+ XV4      C07    C08    H082    109.470    3.000
+ XV4      C07    C08    N09     109.500    3.000
+ XV4      H081   C08    H082    107.900    3.000
+ XV4      H081   C08    N09     109.500    3.000
+ XV4      H082   C08    N09     109.500    3.000
+ XV4      C08    N09    HN09    109.500    3.000
+ XV4      C08    N09    C10     109.500    3.000
+ XV4      HN09   N09    C10     109.500    3.000
+ XV4      N09    C10    H10     109.500    3.000
+ XV4      N09    C10    O11     109.500    3.000
+ XV4      N09    C10    C06     109.500    3.000
+ XV4      H10    C10    O11     109.470    3.000
+ XV4      H10    C10    C06     108.340    3.000
+ XV4      O11    C10    C06     109.470    3.000
+ XV4      C10    O11    HO11    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ XV4      var_1            O32    C20    C21    N31                0.780           20.000   3
+ XV4      CONST_1          C20    C21    C22    C23                0.000            0.000   0
+ XV4      CONST_2          C20    C21    N31    C30                0.000            0.000   0
+ XV4      CONST_3          C21    N31    C30    C23              180.000            0.000   0
+ XV4      CONST_4          N31    C30    C29    C28              180.000            0.000   0
+ XV4      CONST_5          C30    C29    C28    C27                0.000            0.000   0
+ XV4      CONST_6          C29    C28    C27    C24                0.000            0.000   0
+ XV4      CONST_7          C28    C27    C24    O25                0.000            0.000   0
+ XV4      CONST_8          C27    C24    C23    C30              180.000            0.000   0
+ XV4      var_2            C27    C24    O25    C26               42.191           20.000   3
+ XV4      var_3            C24    O25    C26    H261             180.000           20.000   3
+ XV4      CONST_9          N31    C30    C23    C22              180.000            0.000   0
+ XV4      CONST_10         C30    C23    C22    C21                0.269            0.000   0
+ XV4      var_4            O32    C20    N19    C14              180.000           20.000   2
+ XV4      var_5            C20    N19    C14    C02                0.000           20.000   3
+ XV4      var_6            N19    C14    C15    C16              180.000           20.000   3
+ XV4      var_7            C14    C15    C16    C17              180.000           20.000   3
+ XV4      var_8            C15    C16    C18    H181             180.000           20.000   3
+ XV4      var_9            C15    C16    C17    H171             180.000           20.000   3
+ XV4      var_10           N19    C14    C02    N03              180.000           20.000   3
+ XV4      var_11           C14    C02    N03    C04              180.000           20.000   2
+ XV4      var_12           C02    N03    C04    C05                0.000           20.000   3
+ XV4      var_13           N03    C04    C12    O13             -171.901           20.000   3
+ XV4      var_14           N03    C04    C05    C06              180.000           20.000   3
+ XV4      var_15           C04    C05    C06    C07              180.000           20.000   3
+ XV4      var_16           C05    C06    C07    C08              180.000           20.000   3
+ XV4      var_17           C06    C07    C08    N09              180.000           20.000   3
+ XV4      var_18           C07    C08    N09    C10              -17.432           20.000   3
+ XV4      var_19           C08    N09    C10    O11             -179.466           20.000   3
+ XV4      var_20           N09    C10    C06    C05              180.000           20.000   3
+ XV4      var_21           N09    C10    O11    HO11             180.000           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ XV4      chir_01          C10    C06    N09    O11       positiv
+ XV4      chir_02          C04    C05    C12    N03       negativ
+ XV4      chir_03          C06    C10    C05    C07       positiv
+ XV4      chir_04          C14    C15    C02    N19       negativ
+ XV4      chir_05          C16    C15    C17    C18       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ XV4      plan-1            C20       0.020
+ XV4      plan-1            C21       0.020
+ XV4      plan-1            N19       0.020
+ XV4      plan-1            O32       0.020
+ XV4      plan-1            HN19      0.020
+ XV4      plan-2            C21       0.020
+ XV4      plan-2            C20       0.020
+ XV4      plan-2            C22       0.020
+ XV4      plan-2            N31       0.020
+ XV4      plan-2            C23       0.020
+ XV4      plan-2            H22       0.020
+ XV4      plan-2            C24       0.020
+ XV4      plan-2            C30       0.020
+ XV4      plan-2            C29       0.020
+ XV4      plan-2            C28       0.020
+ XV4      plan-2            C27       0.020
+ XV4      plan-2            O25       0.020
+ XV4      plan-2            H28       0.020
+ XV4      plan-2            H27       0.020
+ XV4      plan-2            H29       0.020
+ XV4      plan-3            C02       0.020
+ XV4      plan-3            C14       0.020
+ XV4      plan-3            N03       0.020
+ XV4      plan-3            O01       0.020
+ XV4      plan-3            HN03      0.020
+ XV4      plan-4            C12       0.020
+ XV4      plan-4            C04       0.020
+ XV4      plan-4            O13       0.020
+ XV4      plan-4            H12       0.020
+ XV4      plan-5            N03       0.020
+ XV4      plan-5            C02       0.020
+ XV4      plan-5            C04       0.020
+ XV4      plan-5            HN03      0.020
+ XV4      plan-6            N19       0.020
+ XV4      plan-6            C20       0.020
+ XV4      plan-6            C14       0.020
+ XV4      plan-6            HN19      0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-XV4
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-XV4  1 SG      2 C12       .           2.150    0.020
+# ------------------------------------------------------

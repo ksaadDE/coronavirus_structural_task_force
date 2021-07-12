@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<emdEntry accessCode="30915" version="1.9.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/emdb-empiar/emdb-schemas/blob/master/v1/v1_9/emdb_v1_9_6.xsd">
+    <admin>
+        <lastUpdate>2021-07-07</lastUpdate>
+    </admin>
+    <deposition>
+        <status>REL</status>
+        <depositionDate>2021-01-22</depositionDate>
+        <depositionSite>PDBj</depositionSite>
+        <processingSite>PDBj</processingSite>
+        <headerReleaseDate>2021-06-02</headerReleaseDate>
+        <mapReleaseDate>2021-06-02</mapReleaseDate>
+        <title>Apo spike protein of SARS-CoV2</title>
+        <authors>Liu Y, Soh WT, Kishikawa J, Hirose M, Kato T, Okada M, Arase H</authors>
+        <fittedPDBEntryIdList>
+            <fittedPDBEntryId>7dzw</fittedPDBEntryId>
+        </fittedPDBEntryIdList>
+        <primaryReference published="true">
+            <journalArticle>
+                <authors>Liu Y, Soh WT, Kishikawa JI, Hirose M, Nakayama EE, Li S, Sasai M, Suzuki T, Tada A, Arakawa A, Matsuoka S, Akamatsu K, Matsuda M, Ono C, Torii S, Kishida K, Jin H, Nakai W, Arase N, Nakagawa A, Matsumoto M, Nakazaki Y, Shindo Y, Kohyama M, Tomii K, Ohmura K, Ohshima S, Okamoto T, Yamamoto M, Nakagami H, Matsuura Y, Nakagawa A, Kato T, Okada M, Standley DM, Shioda T, Arase H</authors>
+                <articleTitle>An infectivity-enhancing site on the SARS-CoV-2 spike protein targeted by antibodies.</articleTitle>
+                <journal>Cell</journal>
+                <volume>184</volume>
+                <firstPage>3452</firstPage>
+                <lastPage>3466.e18</lastPage>
+                <year>2021</year>
+                <externalReference type="pubmed">34139176</externalReference>
+                <externalReference type="doi">doi:10.1016/j.cell.2021.05.032</externalReference>
+                <externalReference type="issn">1097-4172</externalReference>
+            </journalArticle>
+        </primaryReference>
+    </deposition>
+    <map>
+        <file format="CCP4" sizeKb="186625" type="map">emd_30915.map.gz</file>
+        <dataType>Image stored as Reals</dataType>
+        <dimensions>
+            <numRows>360</numRows>
+            <numColumns>360</numColumns>
+            <numSections>360</numSections>
+        </dimensions>
+        <origin>
+            <originRow>0.0</originRow>
+            <originCol>0.0</originCol>
+            <originSec>0.0</originSec>
+        </origin>
+        <limit>
+            <limitRow>359.0</limitRow>
+            <limitCol>359.0</limitCol>
+            <limitSec>359.0</limitSec>
+        </limit>
+        <spacing>
+            <spacingRow>360</spacingRow>
+            <spacingCol>360</spacingCol>
+            <spacingSec>360</spacingSec>
+        </spacing>
+        <cell>
+            <cellA units="A">316.8</cellA>
+            <cellB units="A">316.8</cellB>
+            <cellC units="A">316.8</cellC>
+            <cellAlpha units="degrees">90.0</cellAlpha>
+            <cellBeta units="degrees">90.0</cellBeta>
+            <cellGamma units="degrees">90.0</cellGamma>
+        </cell>
+        <axisOrder>
+            <axisOrderFast>X</axisOrderFast>
+            <axisOrderMedium>Y</axisOrderMedium>
+            <axisOrderSlow>Z</axisOrderSlow>
+        </axisOrder>
+        <statistics>
+            <minimum>-0.502827</minimum>
+            <maximum>1.1506482</maximum>
+            <average>-0.0014785263</average>
+            <std>0.039280977</std>
+        </statistics>
+        <spaceGroupNumber>1</spaceGroupNumber>
+        <details />
+        <pixelSpacing>
+            <pixelX units="A">0.88</pixelX>
+            <pixelY units="A">0.88</pixelY>
+            <pixelZ units="A">0.88</pixelZ>
+        </pixelSpacing>
+        <contourLevel source="author">0.2</contourLevel>
+        <annotationDetails>Apo spike protein of SARS-CoV2</annotationDetails>
+    </map>
+    <sample>
+        <numComponents>1</numComponents>
+        <name>Apo spike protein trimer of SARS-CoV2</name>
+        <sampleComponentList>
+            <sampleComponent componentID="1">
+                <entry>protein</entry>
+                <sciName>Apo spike protein trimer of SARS-CoV2</sciName>
+                <protein>
+                    <sciSpeciesName ncbiTaxId="2697049">Severe acute respiratory syndrome coronavirus 2</sciSpeciesName>
+                    <recombinantExpFlag>false</recombinantExpFlag>
+                    <engSource>
+                        <expSystem ncbiTaxId="9606">Homo sapiens</expSystem>
+                        <expSystemCell>Expi293F</expSystemCell>
+                    </engSource>
+                </protein>
+            </sampleComponent>
+        </sampleComponentList>
+    </sample>
+    <experiment>
+        <vitrification>
+            <cryogenName>ETHANE</cryogenName>
+            <humidity>100</humidity>
+            <temperature units="Kelvin">277</temperature>
+            <instrument>FEI VITROBOT MARK IV</instrument>
+        </vitrification>
+        <imaging>
+            <electronSource>FIELD EMISSION GUN</electronSource>
+            <electronDose units="e/A**2">50.0</electronDose>
+            <imagingMode>BRIGHT FIELD</imagingMode>
+            <illuminationMode>FLOOD BEAM</illuminationMode>
+            <detector>OTHER</detector>
+            <nominalCs units="mm">0.0452</nominalCs>
+            <microscope>FEI TITAN KRIOS</microscope>
+            <specimenHolderModel>OTHER</specimenHolderModel>
+            <acceleratingVoltage units="kV">300</acceleratingVoltage>
+        </imaging>
+        <imageAcquisition />
+        <specimenPreparation>
+            <specimenState>particle</specimenState>
+            <buffer>
+                <ph>8.0</ph>
+            </buffer>
+        </specimenPreparation>
+    </experiment>
+    <processing>
+        <method>singleParticle</method>
+        <reconstruction>
+            <software>cryoSPARC</software>
+            <resolutionByAuthor>3.45</resolutionByAuthor>
+            <resolutionMethod>FSC 0.143 CUT-OFF</resolutionMethod>
+        </reconstruction>
+        <singleParticle>
+            <numProjections>120442</numProjections>
+        </singleParticle>
+    </processing>
+</emdEntry>

@@ -1,0 +1,678 @@
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
+data_7AEG
+#
+_entry.id   7AEG
+#
+_audit_conform.dict_name       mmcif_pdbx.dic
+_audit_conform.dict_version    5.344
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
+#
+loop_
+_database_2.database_id
+_database_2.database_code
+PDB   7AEG
+WWPDB D_1292111232
+#
+_pdbx_database_status.status_code                     REL
+_pdbx_database_status.status_code_sf                  REL
+_pdbx_database_status.status_code_mr                  ?
+_pdbx_database_status.entry_id                        7AEG
+_pdbx_database_status.recvd_initial_deposition_date   2020-09-17
+_pdbx_database_status.SG_entry                        N
+_pdbx_database_status.deposit_site                    PDBE
+_pdbx_database_status.process_site                    PDBE
+_pdbx_database_status.status_code_cs                  ?
+_pdbx_database_status.status_code_nmr_data            ?
+_pdbx_database_status.methods_development_category    ?
+_pdbx_database_status.pdb_format_compatible           Y
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+_audit_author.identifier_ORCID
+'Owen, C.D.'          1  ?
+'Redhead, M.A.'       2  ?
+'Lukacik, P.'         3  ?
+'Strain-Damerell, C.' 4  ?
+'Fearon, D.'          5  ?
+'Brewitz, L.'         6  ?
+'Collette, A.'        7  ?
+'Robinson, C.'        8  ?
+'Collins, P.'         9  ?
+'Radoux, C.'          10 ?
+'Navratilova, I.'     11 ?
+'Douangamath, A.'     12 ?
+'von Delft, F.'       13 ?
+'Malla, T.R.'         14 ?
+'Nugen, T.'           15 ?
+'Hull, H.'            16 ?
+'Tumber, A.'          17 ?
+'Schofield, C.J.'     18 ?
+'Hallet, D.'          19 ?
+'Stuart, D.I.'        20 ?
+'Hopkins, A.L.'       21 ?
+'Walsh, M.A.'         22 ?
+#
+_citation.abstract                  ?
+_citation.abstract_id_CAS           ?
+_citation.book_id_ISBN              ?
+_citation.book_publisher            ?
+_citation.book_publisher_city       ?
+_citation.book_title                ?
+_citation.coordinate_linkage        ?
+_citation.country                   UK
+_citation.database_id_Medline       ?
+_citation.details                   ?
+_citation.id                        primary
+_citation.journal_abbrev            'Sci Rep'
+_citation.journal_id_ASTM           ?
+_citation.journal_id_CSD            ?
+_citation.journal_id_ISSN           2045-2322
+_citation.journal_full              ?
+_citation.journal_issue             ?
+_citation.journal_volume            11
+_citation.language                  ?
+_citation.page_first                13208
+_citation.page_last                 13208
+_citation.title                     'Bispecific repurposed medicines targeting t
+_citation.year                      2021
+_citation.database_id_CSD           ?
+_citation.pdbx_database_id_DOI      10.1038/s41598-021-92416-4
+_citation.pdbx_database_id_PubMed   34168183
+_citation.unpublished_flag          ?
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+_citation_author.identifier_ORCID
+primary 'Redhead, M.A.'       1  ?
+primary 'Owen, C.D.'          2  ?
+primary 'Brewitz, L.'         3  ?
+primary 'Collette, A.H.'      4  ?
+primary 'Lukacik, P.'         5  ?
+primary 'Strain-Damerell, C.' 6  ?
+primary 'Robinson, S.W.'      7  ?
+primary 'Collins, P.M.'       8  ?
+primary 'Schafer, P.'         9  ?
+primary 'Swindells, M.'       10 ?
+primary 'Radoux, C.J.'        11 ?
+primary 'Hopkins, I.N.'       12 ?
+primary 'Fearon, D.'          13 ?
+primary 'Douangamath, A.'     14 ?
+primary 'von Delft, F.'       15 ?
+primary 'Malla, T.R.'         16 ?
+primary 'Vangeel, L.'         17 ?
+primary 'Vercruysse, T.'      18 ?
+primary 'Thibaut, J.'         19 ?
+primary 'Leyssen, P.'         20 ?
+primary 'Nguyen, T.T.'        21 ?
+primary 'Hull, M.'            22 ?
+primary 'Tumber, A.'          23 ?
+primary 'Hallett, D.J.'       24 ?
+primary 'Schofield, C.J.'     25 ?
+primary 'Stuart, D.I.'        26 ?
+primary 'Hopkins, A.L.'       27 ?
+primary 'Walsh, M.A.'         28 ?
+#
+_cell.angle_alpha                  90.000
+_cell.angle_alpha_esd              ?
+_cell.angle_beta                   103.050
+_cell.angle_beta_esd               ?
+_cell.angle_gamma                  90.000
+_cell.angle_gamma_esd              ?
+_cell.entry_id                     7AEG
+_cell.details                      ?
+_cell.formula_units_Z              ?
+_cell.length_a                     112.871
+_cell.length_a_esd                 ?
+_cell.length_b                     52.939
+_cell.length_b_esd                 ?
+_cell.length_c                     45.526
+_cell.length_c_esd                 ?
+_cell.volume                       ?
+_cell.volume_esd                   ?
+_cell.Z_PDB                        4
+_cell.reciprocal_angle_alpha       ?
+_cell.reciprocal_angle_beta        ?
+_cell.reciprocal_angle_gamma       ?
+_cell.reciprocal_angle_alpha_esd   ?
+_cell.reciprocal_angle_beta_esd    ?
+_cell.reciprocal_angle_gamma_esd   ?
+_cell.reciprocal_length_a          ?
+_cell.reciprocal_length_b          ?
+_cell.reciprocal_length_c          ?
+_cell.reciprocal_length_a_esd      ?
+_cell.reciprocal_length_b_esd      ?
+_cell.reciprocal_length_c_esd      ?
+_cell.pdbx_unique_axis             ?
+#
+_symmetry.entry_id                         7AEG
+_symmetry.cell_setting                     ?
+_symmetry.Int_Tables_number                5
+_symmetry.space_group_name_Hall            ?
+_symmetry.space_group_name_H-M             'C 1 2 1'
+_symmetry.pdbx_full_space_group_name_H-M   ?
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.pdbx_ec
+_entity.pdbx_mutation
+_entity.pdbx_fragment
+_entity.details
+1 polymer     man 'Replicase polyprotein 1ab' 33697.418 1
+3.4.19.12,3.4.22.-,3.4.22.69,2.7.7.48,3.6.4.12,3.6.4.13,3.1.13.-,3.1.-.-,2.1.1.-
+2 non-polymer syn 'DIMETHYL SULFOXIDE' 78.133    5   ? ? ? ?
+3 non-polymer syn
+'3-(2-{2-[(CYCLOHEXYLMETHOXY-HYDRO-METHYL)-AMINO]-1-HYDROXY-3-METHYL-BUTYLAMINO}
+451.598   1   ?
+4 water       nat water 18.015    167 ?
+#
+_entity_name_com.entity_id   1
+_entity_name_com.name        'pp1ab,ORF1ab polyprotein'
+#
+_entity_poly.entity_id                      1
+_entity_poly.type                           'polypeptide(L)'
+_entity_poly.nstd_linkage                   no
+_entity_poly.nstd_monomer                   no
+_entity_poly.pdbx_seq_one_letter_code
+;SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIG
+SMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFC
+YMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYE
+PLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTF
+;
+_entity_poly.pdbx_seq_one_letter_code_can
+;SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIG
+SMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFC
+YMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYE
+PLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTF
+;
+_entity_poly.pdbx_strand_id                 A
+_entity_poly.pdbx_target_identifier         ?
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.num
+_entity_poly_seq.mon_id
+_entity_poly_seq.hetero
+1 1   SER n
+1 2   GLY n
+1 3   PHE n
+1 4   ARG n
+1 5   LYS n
+1 6   MET n
+1 7   ALA n
+1 8   PHE n
+1 9   PRO n
+1 10  SER n
+1 11  GLY n
+1 12  LYS n
+1 13  VAL n
+1 14  GLU n
+1 15  GLY n
+1 16  CYS n
+1 17  MET n
+1 18  VAL n
+1 19  GLN n
+1 20  VAL n
+1 21  THR n
+1 22  CYS n
+1 23  GLY n
+1 24  THR n
+1 25  THR n
+1 26  THR n
+1 27  LEU n
+1 28  ASN n
+1 29  GLY n
+1 30  LEU n
+1 31  TRP n
+1 32  LEU n
+1 33  ASP n
+1 34  ASP n
+1 35  VAL n
+1 36  VAL n
+1 37  TYR n
+1 38  CYS n
+1 39  PRO n
+1 40  ARG n
+1 41  HIS n
+1 42  VAL n
+1 43  ILE n
+1 44  CYS n
+1 45  THR n
+1 46  SER n
+1 47  GLU n
+1 48  ASP n
+1 49  MET n
+1 50  LEU n
+1 51  ASN n
+1 52  PRO n
+1 53  ASN n
+1 54  TYR n
+1 55  GLU n
+1 56  ASP n
+1 57  LEU n
+1 58  LEU n
+1 59  ILE n
+1 60  ARG n
+1 61  LYS n
+1 62  SER n
+1 63  ASN n
+1 64  HIS n
+1 65  ASN n
+1 66  PHE n
+1 67  LEU n
+1 68  VAL n
+1 69  GLN n
+1 70  ALA n
+1 71  GLY n
+1 72  ASN n
+1 73  VAL n
+1 74  GLN n
+1 75  LEU n
+1 76  ARG n
+1 77  VAL n
+1 78  ILE n
+1 79  GLY n
+1 80  HIS n
+1 81  SER n
+1 82  MET n
+1 83  GLN n
+1 84  ASN n
+1 85  CYS n
+1 86  VAL n
+1 87  LEU n
+1 88  LYS n
+1 89  LEU n
+1 90  LYS n
+1 91  VAL n
+1 92  ASP n
+1 93  THR n
+1 94  ALA n
+1 95  ASN n
+1 96  PRO n
+1 97  LYS n
+1 98  THR n
+1 99  PRO n
+1 100 LYS n
+1 101 TYR n
+1 102 LYS n
+1 103 PHE n
+1 104 VAL n
+1 105 ARG n
+1 106 ILE n
+1 107 GLN n
+1 108 PRO n
+1 109 GLY n
+1 110 GLN n
+1 111 THR n
+1 112 PHE n
+1 113 SER n
+1 114 VAL n
+1 115 LEU n
+1 116 ALA n
+1 117 CYS n
+1 118 TYR n
+1 119 ASN n
+1 120 GLY n
+1 121 SER n
+1 122 PRO n
+1 123 SER n
+1 124 GLY n
+1 125 VAL n
+1 126 TYR n
+1 127 GLN n
+1 128 CYS n
+1 129 ALA n
+1 130 MET n
+1 131 ARG n
+1 132 PRO n
+1 133 ASN n
+1 134 PHE n
+1 135 THR n
+1 136 ILE n
+1 137 LYS n
+1 138 GLY n
+1 139 SER n
+1 140 PHE n
+1 141 LEU n
+1 142 ASN n
+1 143 GLY n
+1 144 SER n
+1 145 CYS n
+1 146 GLY n
+1 147 SER n
+1 148 VAL n
+1 149 GLY n
+1 150 PHE n
+1 151 ASN n
+1 152 ILE n
+1 153 ASP n
+1 154 TYR n
+1 155 ASP n
+1 156 CYS n
+1 157 VAL n
+1 158 SER n
+1 159 PHE n
+1 160 CYS n
+1 161 TYR n
+1 162 MET n
+1 163 HIS n
+1 164 HIS n
+1 165 MET n
+1 166 GLU n
+1 167 LEU n
+1 168 PRO n
+1 169 THR n
+1 170 GLY n
+1 171 VAL n
+1 172 HIS n
+1 173 ALA n
+1 174 GLY n
+1 175 THR n
+1 176 ASP n
+1 177 LEU n
+1 178 GLU n
+1 179 GLY n
+1 180 ASN n
+1 181 PHE n
+1 182 TYR n
+1 183 GLY n
+1 184 PRO n
+1 185 PHE n
+1 186 VAL n
+1 187 ASP n
+1 188 ARG n
+1 189 GLN n
+1 190 THR n
+1 191 ALA n
+1 192 GLN n
+1 193 ALA n
+1 194 ALA n
+1 195 GLY n
+1 196 THR n
+1 197 ASP n
+1 198 THR n
+1 199 THR n
+1 200 ILE n
+1 201 THR n
+1 202 VAL n
+1 203 ASN n
+1 204 VAL n
+1 205 LEU n
+1 206 ALA n
+1 207 TRP n
+1 208 LEU n
+1 209 TYR n
+1 210 ALA n
+1 211 ALA n
+1 212 VAL n
+1 213 ILE n
+1 214 ASN n
+1 215 GLY n
+1 216 ASP n
+1 217 ARG n
+1 218 TRP n
+1 219 PHE n
+1 220 LEU n
+1 221 ASN n
+1 222 ARG n
+1 223 PHE n
+1 224 THR n
+1 225 THR n
+1 226 THR n
+1 227 LEU n
+1 228 ASN n
+1 229 ASP n
+1 230 PHE n
+1 231 ASN n
+1 232 LEU n
+1 233 VAL n
+1 234 ALA n
+1 235 MET n
+1 236 LYS n
+1 237 TYR n
+1 238 ASN n
+1 239 TYR n
+1 240 GLU n
+1 241 PRO n
+1 242 LEU n
+1 243 THR n
+1 244 GLN n
+1 245 ASP n
+1 246 HIS n
+1 247 VAL n
+1 248 ASP n
+1 249 ILE n
+1 250 LEU n
+1 251 GLY n
+1 252 PRO n
+1 253 LEU n
+1 254 SER n
+1 255 ALA n
+1 256 GLN n
+1 257 THR n
+1 258 GLY n
+1 259 ILE n
+1 260 ALA n
+1 261 VAL n
+1 262 LEU n
+1 263 ASP n
+1 264 MET n
+1 265 CYS n
+1 266 ALA n
+1 267 SER n
+1 268 LEU n
+1 269 LYS n
+1 270 GLU n
+1 271 LEU n
+1 272 LEU n
+1 273 GLN n
+1 274 ASN n
+1 275 GLY n
+1 276 MET n
+1 277 ASN n
+1 278 GLY n
+1 279 ARG n
+1 280 THR n
+1 281 ILE n
+1 282 LEU n
+1 283 GLY n
+1 284 SER n
+1 285 ALA n
+1 286 LEU n
+1 287 LEU n
+1 288 GLU n
+1 289 ASP n
+1 290 GLU n
+1 291 PHE n
+1 292 THR n
+1 293 PRO n
+1 294 PHE n
+1 295 ASP n
+1 296 VAL n
+1 297 VAL n
+1 298 ARG n
+1 299 GLN n
+1 300 CYS n
+1 301 SER n
+1 302 GLY n
+1 303 VAL n
+1 304 THR n
+1 305 PHE n
+#
+_entity_src_gen.entity_id                          1
+_entity_src_gen.pdbx_src_id                        1
+_entity_src_gen.pdbx_alt_source_flag               sample
+_entity_src_gen.pdbx_seq_type                      'Biological sequence'
+_entity_src_gen.pdbx_beg_seq_num                   1
+_entity_src_gen.pdbx_end_seq_num                   305
+_entity_src_gen.gene_src_common_name               2019-nCoV
+_entity_src_gen.gene_src_genus                     ?
+_entity_src_gen.pdbx_gene_src_gene                 'rep, 1a-1b'
+_entity_src_gen.gene_src_species                   ?
+_entity_src_gen.gene_src_strain                    ?
+_entity_src_gen.gene_src_tissue                    ?
+_entity_src_gen.gene_src_tissue_fraction           ?
+_entity_src_gen.gene_src_details                   ?
+_entity_src_gen.pdbx_gene_src_fragment             ?
+_entity_src_gen.pdbx_gene_src_scientific_name      'Severe acute respiratory syn
+_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id     2697049
+_entity_src_gen.pdbx_gene_src_variant              ?
+_entity_src_gen.pdbx_gene_src_cell_line            ?
+_entity_src_gen.pdbx_gene_src_atcc                 ?
+_entity_src_gen.pdbx_gene_src_organ                ?
+_entity_src_gen.pdbx_gene_src_organelle            ?
+_entity_src_gen.pdbx_gene_src_cell                 ?
+_entity_src_gen.pdbx_gene_src_cellular_location    ?
+_entity_src_gen.host_org_common_name               ?
+_entity_src_gen.pdbx_host_org_scientific_name      'Escherichia coli'
+_entity_src_gen.pdbx_host_org_ncbi_taxonomy_id     562
+_entity_src_gen.host_org_genus                     ?
+_entity_src_gen.pdbx_host_org_gene                 ?
+_entity_src_gen.pdbx_host_org_organ                ?
+_entity_src_gen.host_org_species                   ?
+_entity_src_gen.pdbx_host_org_tissue               ?
+_entity_src_gen.pdbx_host_org_tissue_fraction      ?
+_entity_src_gen.pdbx_host_org_strain               ?
+_entity_src_gen.pdbx_host_org_variant              ?
+_entity_src_gen.pdbx_host_org_cell_line            ?
+_entity_src_gen.pdbx_host_org_atcc                 ?
+_entity_src_gen.pdbx_host_org_culture_collection   ?
+_entity_src_gen.pdbx_host_org_cell                 ?
+_entity_src_gen.pdbx_host_org_organelle            ?
+_entity_src_gen.pdbx_host_org_cellular_location    ?
+_entity_src_gen.pdbx_host_org_vector_type          ?
+_entity_src_gen.pdbx_host_org_vector               ?
+_entity_src_gen.host_org_details                   ?
+_entity_src_gen.expression_system_id               ?
+_entity_src_gen.plasmid_name                       ?
+_entity_src_gen.plasmid_details                    ?
+_entity_src_gen.pdbx_description                   ?
+#
+_struct_ref.id                         1
+_struct_ref.db_name                    UNP
+_struct_ref.db_code                    R1AB_SARS2
+_struct_ref.pdbx_db_accession          P0DTD1
+_struct_ref.pdbx_db_isoform            ?
+_struct_ref.entity_id                  1
+_struct_ref.pdbx_seq_one_letter_code
+;SGFRKMAFPSGKVEGCMVQVTCGTTTLNGLWLDDVVYCPRHVICTSEDMLNPNYEDLLIRKSNHNFLVQAGNVQLRVIG
+SMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGSPSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFC
+YMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVINGDRWFLNRFTTTLNDFNLVAMKYNYE
+PLTQDHVDILGPLSAQTGIAVLDMCASLKELLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTF
+;
+_struct_ref.pdbx_align_begin           3264
+#
+_struct_ref_seq.align_id                      1
+_struct_ref_seq.ref_id                        1
+_struct_ref_seq.pdbx_PDB_id_code              7AEG
+_struct_ref_seq.pdbx_strand_id                A
+_struct_ref_seq.seq_align_beg                 1
+_struct_ref_seq.pdbx_seq_align_beg_ins_code   ?
+_struct_ref_seq.seq_align_end                 305
+_struct_ref_seq.pdbx_seq_align_end_ins_code   ?
+_struct_ref_seq.pdbx_db_accession             P0DTD1
+_struct_ref_seq.db_align_beg                  3264
+_struct_ref_seq.pdbx_db_align_beg_ins_code    ?
+_struct_ref_seq.db_align_end                  3568
+_struct_ref_seq.pdbx_db_align_end_ins_code    ?
+_struct_ref_seq.pdbx_auth_seq_align_beg       1
+_struct_ref_seq.pdbx_auth_seq_align_end       305
+#
+loop_
+_chem_comp.id
+_chem_comp.type
+_chem_comp.mon_nstd_flag
+_chem_comp.name
+_chem_comp.pdbx_synonyms
+_chem_comp.formula
+_chem_comp.formula_weight
+ALA 'L-peptide linking' y ALANINE ? 'C3 H7 N O2'     89.093
+ARG 'L-peptide linking' y ARGININE ? 'C6 H15 N4 O2 1' 175.209
+ASN 'L-peptide linking' y ASPARAGINE ? 'C4 H8 N2 O3'    132.118
+ASP 'L-peptide linking' y 'ASPARTIC ACID' ? 'C4 H7 N O4'     133.103
+CYS 'L-peptide linking' y CYSTEINE ? 'C3 H7 N O2 S'   121.158
+DMS non-polymer         . 'DIMETHYL SULFOXIDE' ? 'C2 H6 O S'      78.133
+F2G non-polymer         .
+'3-(2-{2-[(CYCLOHEXYLMETHOXY-HYDRO-METHYL)-AMINO]-1-HYDROXY-3-METHYL-BUTYLAMINO}
+'C21 H45 N3 O7'  451.598
+GLN 'L-peptide linking' y GLUTAMINE ? 'C5 H10 N2 O3'   146.144
+GLU 'L-peptide linking' y 'GLUTAMIC ACID' ? 'C5 H9 N O4'     147.129
+GLY 'peptide linking'   y GLYCINE ? 'C2 H5 N O2'     75.067
+HIS 'L-peptide linking' y HISTIDINE ? 'C6 H10 N3 O2 1' 156.162
+HOH non-polymer         . WATER ? 'H2 O'           18.015
+ILE 'L-peptide linking' y ISOLEUCINE ? 'C6 H13 N O2'    131.173
+LEU 'L-peptide linking' y LEUCINE ? 'C6 H13 N O2'    131.173
+LYS 'L-peptide linking' y LYSINE ? 'C6 H15 N2 O2 1' 147.195
+MET 'L-peptide linking' y METHIONINE ? 'C5 H11 N O2 S'  149.211
+PHE 'L-peptide linking' y PHENYLALANINE ? 'C9 H11 N O2'    165.189
+PRO 'L-peptide linking' y PROLINE ? 'C5 H9 N O2'     115.130
+SER 'L-peptide linking' y SERINE ? 'C3 H7 N O3'     105.093
+THR 'L-peptide linking' y THREONINE ? 'C4 H9 N O3'     119.119
+TRP 'L-peptide linking' y TRYPTOPHAN ? 'C11 H12 N2 O2'  204.225
+TYR 'L-peptide linking' y TYROSINE ? 'C9 H11 N O3'    181.189
+VAL 'L-peptide linking' y VALINE ? 'C5 H11 N O2'    117.146
+#
+_exptl.absorpt_coefficient_mu     ?
+_exptl.absorpt_correction_T_max   ?
+_exptl.absorpt_correction_T_min   ?
+_exptl.absorpt_correction_type    ?
+_exptl.absorpt_process_details    ?
+_exptl.entry_id                   7AEG
+_exptl.crystals_number            1
+_exptl.details                    ?
+_exptl.method                     'X-RAY DIFFRACTION'
+_exptl.method_details             ?
+#
+_exptl_crystal.colour                      ?
+_exptl_crystal.density_diffrn              ?
+_exptl_crystal.density_Matthews            1.93
+_exptl_crystal.density_method              ?
+_exptl_crystal.density_percent_sol         36.32
+_exptl_crystal.description                 'square plates'
+_exptl_crystal.F_000                       ?
+_exptl_crystal.id                          1
+_exptl_crystal.preparation                 ?
+_exptl_crystal.size_max                    ?
+_exptl_crystal.size_mid                    ?
+_exptl_crystal.size_min                    ?
+_exptl_crystal.size_rad                    ?
+_exptl_crystal.colour_lustre               ?
+_exptl_crystal.colour_modifier             ?
+_exptl_crystal.colour_primary              ?
+_exptl_crystal.density_meas                ?
+_exptl_crystal.density_meas_esd            ?
+_exptl_crystal.density_meas_gt             ?
+_exptl_crystal.density_meas_lt             ?
+_exptl_crystal.density_meas_temp           ?
+_exptl_crystal.density_meas_temp_esd       ?
+_exptl_crystal.density_meas_temp_gt        ?
+_exptl_crystal.density_meas_temp_lt        ?
+_exptl_crystal.pdbx_crystal_image_url      ?
+_exptl_crystal.pdbx_crystal_image_format   ?
+_exptl_crystal.pdbx_mosaicity              ?
+_exptl_crystal.pdbx_mosaicity_esd          ?
+#
+_exptl_crystal_grow.apparatus       ?
+_exptl_crystal_grow.atmosphere      ?
+_exptl_crystal_grow.crystal_id      1
+_exptl_crystal_grow.details         ?
+_exptl_crystal_grow.method          'VAPOR DIFFUSION, SITTING DROP'
+_exptl_crystal_grow.method_ref      ?
+_exptl_crystal_grow.pH              6.5
+_exptl_crystal_grow.pressure        ?
+_exptl_crystal_grow.pressure_esd    ?
+_exptl_crystal_grow.seeding         ?
+_exptl_crystal_grow.seeding_ref     ?
+_exptl_crystal_grow.temp            293
+_exptl_crystal_grow.temp_details    ?
+_exptl_crystal_grow.temp_esd        ?
+_exptl_crystal_grow.time            ?
+_exptl_crystal_grow.pdbx_details
+;Mpro was thawed and diluted to 6 mg/ml using 20 mM Hepes pH 7.5, 50 mM NaCl. Th

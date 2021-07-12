@@ -1,0 +1,331 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 26253
+     H or D atoms   : 0
+     chains         : 15
+     a.a. residues  : 3360
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 54
+   Ligands: NAG:54
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   A 859  PRO  C      
+   A 860  LEU  N           1.33     1.42    -0.09  1.40e-02  3.79e+01   6.2*sigma
+   B 859  PRO  C      
+   B 860  LEU  N           1.33     1.42    -0.09  1.40e-02  3.80e+01   6.2*sigma
+   A1067  GLN  C      
+   A1068  GLU  N           1.33     1.49    -0.16  1.40e-02  1.30e+02  11.4*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.160 (Z=  7.978)
+  Mean delta:    0.007 (Z=  0.348)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   C1309  NAG  C1     
+   C1309  NAG  C2     
+   C1309  NAG  C3        110.19   114.11    -3.92  9.25e-01  1.79e+01   4.2*sigma
+   B 802  LEU  CA     
+   B 802  LEU  C      
+   B 803  PRO  N         116.90   123.29    -6.39  1.50e+00  1.81e+01   4.3*sigma
+   B1309  NAG  C1     
+   B1309  NAG  C2     
+   B1309  NAG  C3        110.19   114.33    -4.14  9.25e-01  2.01e+01   4.5*sigma
+   A1304  NAG  C2     
+   A1304  NAG  N2     
+   A1304  NAG  C7        123.12   129.01    -5.89  1.28e+00  2.11e+01   4.6*sigma
+   C1304  NAG  C2     
+   C1304  NAG  N2     
+   C1304  NAG  C7        123.12   129.01    -5.89  1.28e+00  2.11e+01   4.6*sigma
+   B1304  NAG  C2     
+   B1304  NAG  N2     
+   B1304  NAG  C7        123.12   129.06    -5.94  1.28e+00  2.14e+01   4.6*sigma
+   A 122  ASN  C      
+   A 122  ASN  CA     
+   A 122  ASN  CB        110.10   118.99    -8.89  1.90e+00  2.19e+01   4.7*sigma
+   E   1  NAG  C1     
+   E   1  NAG  C2     
+   E   1  NAG  C3        110.19   115.11    -4.92  9.25e-01  2.83e+01   5.3*sigma
+   E   1  NAG  C2     
+   E   1  NAG  C3     
+   E   1  NAG  C4        110.39   117.20    -6.81  1.16e+00  3.48e+01   5.9*sigma
+   B 251  PRO  N      
+   B 251  PRO  CA     
+   B 251  PRO  CB        103.00   110.80    -7.80  1.10e+00  5.02e+01   7.1*sigma
+   A 251  PRO  N      
+   A 251  PRO  CA     
+   A 251  PRO  CB        103.00   110.80    -7.80  1.10e+00  5.03e+01   7.1*sigma
+   C 251  PRO  N      
+   C 251  PRO  CA     
+   C 251  PRO  CB        103.00   110.81    -7.81  1.10e+00  5.04e+01   7.1*sigma
+   H   1  NAG  C2     
+   H   1  NAG  C1     
+   H   1  NAG  O5        109.64   105.59     4.05  5.38e-01  5.67e+01   7.5*sigma
+   G   1  NAG  C2     
+   G   1  NAG  C1     
+   G   1  NAG  O5        109.64   105.58     4.06  5.38e-01  5.69e+01   7.5*sigma
+   F   1  NAG  C2     
+   F   1  NAG  C1     
+   F   1  NAG  O5        109.64   105.58     4.06  5.38e-01  5.70e+01   7.6*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    8.894 (Z=  7.551)
+  Mean delta:    1.079 (Z=  0.545)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 318  PHE  CA     
+   A 318  PHE  C      
+   A 319  ARG  N      
+   A 319  ARG  CA        180.00  -159.08   -20.92  5.00e+00  1.75e+01   4.2*sigma
+   C 318  PHE  CA     
+   C 318  PHE  C      
+   C 319  ARG  N      
+   C 319  ARG  CA        180.00  -159.07   -20.93  5.00e+00  1.75e+01   4.2*sigma
+   B 318  PHE  CA     
+   B 318  PHE  C      
+   B 319  ARG  N      
+   B 319  ARG  CA        180.00  -159.07   -20.93  5.00e+00  1.75e+01   4.2*sigma
+   J   1  NAG  C1     
+   J   1  NAG  C2     
+   J   1  NAG  C3     
+   J   1  NAG  C4        -50.00    36.02   -86.02  2.00e+01  2.23e+01   4.3*sigma
+   C 847  CYS  CA     
+   C 847  CYS  C      
+   C 848  ALA  N      
+   C 848  ALA  CA        180.00   158.41    21.59  5.00e+00  1.86e+01   4.3*sigma
+   A 847  CYS  CA     
+   A 847  CYS  C      
+   A 848  ALA  N      
+   A 848  ALA  CA        180.00   158.38    21.62  5.00e+00  1.87e+01   4.3*sigma
+   B 847  CYS  CA     
+   B 847  CYS  C      
+   B 848  ALA  N      
+   B 848  ALA  CA        180.00   158.35    21.65  5.00e+00  1.87e+01   4.3*sigma
+   J   1  NAG  C2     
+   J   1  NAG  C3     
+   J   1  NAG  C4     
+   J   1  NAG  C5         50.00   -38.36    88.36  2.00e+01  2.33e+01   4.4*sigma
+   L   1  NAG  C1     
+   L   1  NAG  C2     
+   L   1  NAG  C3     
+   L   1  NAG  C4        -50.00    45.04   -95.04  2.00e+01  2.61e+01   4.8*sigma
+   B 536  ASN  CA     
+   B 536  ASN  C      
+   B 537  LYS  N      
+   B 537  LYS  CA        180.00  -154.39   -25.61  5.00e+00  2.62e+01   5.1*sigma
+   A 536  ASN  CA     
+   A 536  ASN  C      
+   A 537  LYS  N      
+   A 537  LYS  CA        180.00  -154.39   -25.61  5.00e+00  2.62e+01   5.1*sigma
+   C 536  ASN  CA     
+   C 536  ASN  C      
+   C 537  LYS  N      
+   C 537  LYS  CA        180.00  -154.39   -25.61  5.00e+00  2.62e+01   5.1*sigma
+   A 882  TRP  CA     
+   A 882  TRP  C      
+   A 883  THR  N      
+   A 883  THR  CA        180.00  -152.02   -27.98  5.00e+00  3.13e+01   5.6*sigma
+   B 882  TRP  CA     
+   B 882  TRP  C      
+   B 883  THR  N      
+   B 883  THR  CA        180.00  -152.01   -27.99  5.00e+00  3.13e+01   5.6*sigma
+   C 882  TRP  CA     
+   C 882  TRP  C      
+   C 883  THR  N      
+   C 883  THR  CA        180.00  -151.99   -28.01  5.00e+00  3.14e+01   5.6*sigma
+   C 352  ALA  CA     
+   C 352  ALA  C      
+   C 353  TRP  N      
+   C 353  TRP  CA        180.00  -150.68   -29.32  5.00e+00  3.44e+01   5.9*sigma
+   B 352  ALA  CA     
+   B 352  ALA  C      
+   B 353  TRP  N      
+   B 353  TRP  CA        180.00  -150.67   -29.33  5.00e+00  3.44e+01   5.9*sigma
+   A 352  ALA  CA     
+   A 352  ALA  C      
+   A 353  TRP  N      
+   A 353  TRP  CA        180.00  -150.67   -29.33  5.00e+00  3.44e+01   5.9*sigma
+
+  Min. delta:    0.001
+  Max. delta:   95.038
+  Mean delta:   13.561
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.604
+  Mean delta:    0.055
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   H   1  NAG  C2     
+   H   1  NAG  C7     
+   H   1  NAG  C8     
+   H   1  NAG  N2     
+   H   1  NAG  O7            0.110       0.133      150.96   6.7*sigma
+   F   1  NAG  C2     
+   F   1  NAG  C7     
+   F   1  NAG  C8     
+   F   1  NAG  N2     
+   F   1  NAG  O7            0.110       0.134      151.20   6.7*sigma
+   I   2  NAG  C2     
+   I   2  NAG  C7     
+   I   2  NAG  C8     
+   I   2  NAG  N2     
+   I   2  NAG  O7            0.091       0.145      103.63   7.2*sigma
+   K   2  NAG  C2     
+   K   2  NAG  C7     
+   K   2  NAG  C8     
+   K   2  NAG  N2     
+   K   2  NAG  O7            0.091       0.145      103.68   7.2*sigma
+   D   2  NAG  C2     
+   D   2  NAG  C7     
+   D   2  NAG  C8     
+   D   2  NAG  N2     
+   D   2  NAG  O7            0.091       0.145      103.77   7.3*sigma
+   G   1  NAG  C2     
+   G   1  NAG  C7     
+   G   1  NAG  C8     
+   G   1  NAG  N2     
+   G   1  NAG  O7            0.110       0.176      151.21   8.8*sigma
+   A1312  NAG  C2     
+   A1312  NAG  C7     
+   A1312  NAG  C8     
+   A1312  NAG  N2     
+   A1312  NAG  O7            0.183       0.216      418.36  10.8*sigma
+   L   1  NAG  C2     
+   L   1  NAG  C7     
+   L   1  NAG  C8     
+   L   1  NAG  N2     
+   L   1  NAG  O7            0.224       0.266      624.99  13.3*sigma
+   E   1  NAG  C2     
+   E   1  NAG  C7     
+   E   1  NAG  C8     
+   E   1  NAG  N2     
+   E   1  NAG  O7            0.236       0.276      696.31  13.8*sigma
+   J   2  NAG  C2     
+   J   2  NAG  C7     
+   J   2  NAG  C8     
+   J   2  NAG  N2     
+   J   2  NAG  O7            0.183       0.302      420.22  15.1*sigma
+   J   1  NAG  C2     
+   J   1  NAG  C7     
+   J   1  NAG  C8     
+   J   1  NAG  N2     
+   J   1  NAG  O7            0.251       0.427      786.61  21.4*sigma
+   B1309  NAG  C2     
+   B1309  NAG  C7     
+   B1309  NAG  C8     
+   B1309  NAG  N2     
+   B1309  NAG  O7            0.270       0.484      911.35  24.2*sigma
+   C1309  NAG  C2     
+   C1309  NAG  C7     
+   C1309  NAG  C8     
+   C1309  NAG  N2     
+   C1309  NAG  O7            0.271       0.486      919.73  24.3*sigma
+   E   2  NAG  C2     
+   E   2  NAG  C7     
+   E   2  NAG  C8     
+   E   2  NAG  N2     
+   E   2  NAG  O7            0.283       0.503     1001.70  25.2*sigma
+   L   2  NAG  C2     
+   L   2  NAG  C7     
+   L   2  NAG  C8     
+   L   2  NAG  N2     
+   L   2  NAG  O7            0.283       0.504     1004.09  25.2*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.283
+  Mean delta:    0.012
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.007   0.160  26826
+    Angle     :  1.079   8.894  36582
+    Chirality :  0.055   0.604   4305
+    Planarity :  0.012   0.283   4698
+    Dihedral  : 13.561  95.038   9468
+    Min Nonbonded Distance : 1.117
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 6.08
+    Ramachandran Plot:
+      Outliers :  0.36 %
+      Allowed  :  6.95 %
+      Favored  : 92.70 %
+    Rotamer Outliers :  1.32 %
+    Cbeta Deviations :  0.06 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -3.46 (0.12), residues: 3354
+    helix: -2.44 (0.16), residues: 657
+    sheet: -1.39 (0.17), residues: 696
+    loop : -2.69 (0.12), residues: 2001
+
+                     ----------Asn/Gln/His flips----------                     
+
+   C 800  GLN
+   C 314  GLN
+   B 800  GLN
+   B 540  ASN
+   B 314  GLN
+   A 314  GLN
+   A 540  ASN
+   A 125  ASN
+   A 137  ASN
+   A 409  GLN
+   A 909  GLN
+   A 921  ASN
+   A 951  ASN
+   A 953  GLN
+   A 974  ASN
+   B 137  ASN
+   B 409  GLN
+   B 897  GLN
+   B 921  ASN
+   B 951  ASN
+   B 953  GLN
+   B 974  ASN
+   C 137  ASN
+   C 409  GLN
+   C 897  GLN
+   C 921  ASN
+   C 951  ASN
+   C 953  GLN
+   C 974  ASN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.36 %
+                favored =  92.70 %
+  Rotamer outliers      =   1.32 %
+  C-beta deviations     =     2
+  Clashscore            =   6.08
+  RMS(bonds)            =   0.0066
+  RMS(angles)           =   1.08
+  MolProbity score      =   1.89

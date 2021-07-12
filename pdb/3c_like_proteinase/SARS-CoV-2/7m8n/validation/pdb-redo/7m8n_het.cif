@@ -1,0 +1,492 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+YSP      YSP '.                                   ' .                  62  37 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_YSP
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ YSP           CL1    CL   CL        0.000    -24.233   -0.773  -32.140
+ YSP           C27    C    CR6       0.000    -23.236   -2.199  -31.798
+ YSP           C26    C    CR16      0.000    -22.801   -2.957  -32.782
+ YSP           H26    H    H         0.000    -23.035   -2.714  -33.811
+ YSP           C17    C    CR6       0.000    -21.965   -4.178  -32.446
+ YSP           O4     O    O2        0.000    -21.491   -4.974  -33.480
+ YSP           C18    C    CH2       0.000    -20.221   -5.551  -33.282
+ YSP           H181   H    H         0.000    -20.230   -6.327  -32.514
+ YSP           H182   H    H         0.000    -19.459   -4.808  -33.038
+ YSP           C19    C    CR6       0.000    -19.908   -6.177  -34.635
+ YSP           C25    C    CR16      0.000    -20.224   -7.641  -34.881
+ YSP           H25    H    H         0.000    -20.651   -8.246  -34.091
+ YSP           C24    C    CR16      0.000    -19.974   -8.176  -36.070
+ YSP           H24    H    H         0.000    -20.192   -9.221  -36.250
+ YSP           C23    C    CR16      0.000    -19.381   -7.321  -37.179
+ YSP           H23    H    H         0.000    -19.176   -7.759  -38.148
+ YSP           C20    C    CR6       0.000    -19.403   -5.433  -35.601
+ YSP           C22    C    CR16      0.000    -19.116   -6.051  -36.964
+ YSP           H22    H    H         0.000    -18.694   -5.444  -37.756
+ YSP           C21    C    CH3       0.000    -19.100   -3.954  -35.360
+ YSP           H213   H    H         0.000    -19.991   -3.445  -35.093
+ YSP           H212   H    H         0.000    -18.394   -3.856  -34.575
+ YSP           H211   H    H         0.000    -18.702   -3.521  -36.243
+ YSP           C28    C    CR16      0.000    -22.911   -2.539  -30.351
+ YSP           H28    H    H         0.000    -23.272   -1.904  -29.551
+ YSP           C15    C    CR6       0.000    -22.194   -3.601  -30.074
+ YSP           C16    C    CR16      0.000    -21.684   -4.481  -31.196
+ YSP           H16    H    H         0.000    -21.089   -5.358  -30.971
+ YSP           C14    C    CR6       0.000    -21.875   -3.895  -28.620
+ YSP           C1     C    CH1       0.000    -20.487   -4.155  -28.192
+ YSP           H1     H    H         0.000    -20.327   -3.079  -28.033
+ YSP           O1     O    OH1       0.000    -19.434   -4.185  -29.107
+ YSP           HO1    H    H         0.000    -18.613   -4.368  -28.635
+ YSP           N1     N    NR6       0.000    -20.217   -4.402  -26.848
+ YSP           C2     C    C         0.000    -18.856   -4.626  -26.442
+ YSP           C3     C    C1        0.000    -18.033   -3.517  -26.451
+ YSP           H3     H    H         0.000    -18.423   -2.561  -26.758
+ YSP           N2     N    N         0.000    -16.750   -3.626  -26.079
+ YSP           C4     C    C1        0.000    -16.267   -4.832  -25.716
+ YSP           H4     H    H         0.000    -15.232   -4.928  -25.432
+ YSP           C5     C    CSP       0.000    -17.091   -5.954  -25.704
+ YSP           C6     C    CSP       0.000    -18.394   -5.845  -26.067
+ YSP           C7     C    CR16      0.000    -21.263   -4.385  -25.887
+ YSP           H7     H    H         0.000    -21.044   -4.570  -24.843
+ YSP           C13    C    CR16      0.000    -22.905   -3.876  -27.682
+ YSP           H13    H    H         0.000    -23.923   -3.676  -27.992
+ YSP           C8     C    CR6       0.000    -22.602   -4.124  -26.301
+ YSP           C9     C    C         0.000    -23.703   -4.152  -25.262
+ YSP           C11    C    C1        0.000    -24.867   -4.840  -25.590
+ YSP           H11    H    H         0.000    -24.959   -5.299  -26.560
+ YSP           N4     N    NH1       0.000    -25.964   -4.946  -24.636
+ YSP           HN4    H    H         0.000    -26.810   -5.437  -24.886
+ YSP           C12    C    CH1       0.000    -25.830   -4.339  -23.320
+ YSP           H12    H    H         0.000    -26.257   -3.403  -23.706
+ YSP           O3     O    OH1       0.000    -26.883   -4.451  -22.422
+ YSP           HO3    H    H         0.000    -26.645   -4.002  -21.603
+ YSP           N3     N    NT1       0.000    -24.626   -3.642  -22.954
+ YSP           HN3    H    H         0.000    -24.538   -3.215  -22.018
+ YSP           C10    C    CH1       0.000    -23.556   -3.544  -23.888
+ YSP           H10    H    H         0.000    -23.136   -4.487  -23.511
+ YSP           O2     O    OH1       0.000    -22.391   -2.880  -23.538
+ YSP           HO2    H    H         0.000    -21.779   -2.910  -24.282
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ YSP      CL1    n/a    C27    START
+ YSP      C27    CL1    C28    .
+ YSP      C26    C27    C17    .
+ YSP      H26    C26    .      .
+ YSP      C17    C26    O4     .
+ YSP      O4     C17    C18    .
+ YSP      C18    O4     C19    .
+ YSP      H181   C18    .      .
+ YSP      H182   C18    .      .
+ YSP      C19    C18    C20    .
+ YSP      C25    C19    C24    .
+ YSP      H25    C25    .      .
+ YSP      C24    C25    C23    .
+ YSP      H24    C24    .      .
+ YSP      C23    C24    H23    .
+ YSP      H23    C23    .      .
+ YSP      C20    C19    C21    .
+ YSP      C22    C20    H22    .
+ YSP      H22    C22    .      .
+ YSP      C21    C20    H211   .
+ YSP      H213   C21    .      .
+ YSP      H212   C21    .      .
+ YSP      H211   C21    .      .
+ YSP      C28    C27    C15    .
+ YSP      H28    C28    .      .
+ YSP      C15    C28    C14    .
+ YSP      C16    C15    H16    .
+ YSP      H16    C16    .      .
+ YSP      C14    C15    C13    .
+ YSP      C1     C14    N1     .
+ YSP      H1     C1     .      .
+ YSP      O1     C1     HO1    .
+ YSP      HO1    O1     .      .
+ YSP      N1     C1     C7     .
+ YSP      C2     N1     C3     .
+ YSP      C3     C2     N2     .
+ YSP      H3     C3     .      .
+ YSP      N2     C3     C4     .
+ YSP      C4     N2     C5     .
+ YSP      H4     C4     .      .
+ YSP      C5     C4     C6     .
+ YSP      C6     C5     .      .
+ YSP      C7     N1     H7     .
+ YSP      H7     C7     .      .
+ YSP      C13    C14    C8     .
+ YSP      H13    C13    .      .
+ YSP      C8     C13    C9     .
+ YSP      C9     C8     C11    .
+ YSP      C11    C9     N4     .
+ YSP      H11    C11    .      .
+ YSP      N4     C11    C12    .
+ YSP      HN4    N4     .      .
+ YSP      C12    N4     N3     .
+ YSP      H12    C12    .      .
+ YSP      O3     C12    HO3    .
+ YSP      HO3    O3     .      .
+ YSP      N3     C12    C10    .
+ YSP      HN3    N3     .      .
+ YSP      C10    N3     O2     .
+ YSP      H10    C10    .      .
+ YSP      O2     C10    HO2    .
+ YSP      HO2    O2     .      END
+ YSP      C7     C8     .    ADD
+ YSP      C6     C2     .    ADD
+ YSP      C10    C9     .    ADD
+ YSP      C16    C17    .    ADD
+ YSP      C22    C23    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ YSP      C7     C8        aromatic    1.390    0.020
+ YSP      C7     N1        single      1.337    0.020
+ YSP      C6     C2        double      1.255    0.020
+ YSP      C6     C5        double      1.180    0.020
+ YSP      C1     C14       single      1.480    0.020
+ YSP      N1     C1        single      1.465    0.020
+ YSP      O1     C1        single      1.432    0.020
+ YSP      C3     C2        aromatic    1.340    0.020
+ YSP      C2     N1        single      1.365    0.020
+ YSP      C5     C4        aromatic    1.255    0.020
+ YSP      C4     N2        aromatic    1.260    0.020
+ YSP      C10    C9        single      1.500    0.020
+ YSP      C10    N3        single      1.475    0.020
+ YSP      O2     C10       single      1.432    0.020
+ YSP      C11    C9        aromatic    1.340    0.020
+ YSP      N4     C11       single      1.330    0.020
+ YSP      C16    C17       double      1.390    0.020
+ YSP      C16    C15       single      1.390    0.020
+ YSP      C17    C26       single      1.390    0.020
+ YSP      O4     C17       single      1.370    0.020
+ YSP      C21    C20       single      1.506    0.020
+ YSP      C22    C23       double      1.390    0.020
+ YSP      C22    C20       single      1.390    0.020
+ YSP      C23    C24       single      1.390    0.020
+ YSP      C20    C19       double      1.487    0.020
+ YSP      C24    C25       double      1.390    0.020
+ YSP      C25    C19       single      1.390    0.020
+ YSP      C26    C27       double      1.390    0.020
+ YSP      C28    C27       single      1.390    0.020
+ YSP      C27    CL1       single      1.795    0.020
+ YSP      C15    C28       double      1.390    0.020
+ YSP      N3     C12       single      1.475    0.020
+ YSP      C12    N4        single      1.450    0.020
+ YSP      O3     C12       single      1.432    0.020
+ YSP      C13    C14       aromatic    1.390    0.020
+ YSP      C8     C13       aromatic    1.390    0.020
+ YSP      C14    C15       single      1.487    0.020
+ YSP      C19    C18       single      1.511    0.020
+ YSP      C18    O4        single      1.426    0.020
+ YSP      N2     C3        aromatic    1.260    0.020
+ YSP      C9     C8        single      1.500    0.020
+ YSP      H7     C7        single      1.083    0.020
+ YSP      H1     C1        single      1.099    0.020
+ YSP      H4     C4        single      1.077    0.020
+ YSP      H10    C10       single      1.099    0.020
+ YSP      H11    C11       single      1.077    0.020
+ YSP      H16    C16       single      1.083    0.020
+ YSP      H211   C21       single      1.059    0.020
+ YSP      H212   C21       single      1.059    0.020
+ YSP      H213   C21       single      1.059    0.020
+ YSP      H22    C22       single      1.083    0.020
+ YSP      H23    C23       single      1.083    0.020
+ YSP      H24    C24       single      1.083    0.020
+ YSP      H25    C25       single      1.083    0.020
+ YSP      H26    C26       single      1.083    0.020
+ YSP      H28    C28       single      1.083    0.020
+ YSP      H12    C12       single      1.099    0.020
+ YSP      H13    C13       single      1.083    0.020
+ YSP      H181   C18       single      1.092    0.020
+ YSP      H182   C18       single      1.092    0.020
+ YSP      H3     C3        single      1.077    0.020
+ YSP      HN3    N3        single      1.033    0.020
+ YSP      HN4    N4        single      1.010    0.020
+ YSP      HO1    O1        single      0.967    0.020
+ YSP      HO2    O2        single      0.967    0.020
+ YSP      HO3    O3        single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ YSP      CL1    C27    C26     120.000    3.000
+ YSP      CL1    C27    C28     120.000    3.000
+ YSP      C26    C27    C28     120.000    3.000
+ YSP      C27    C26    H26     120.000    3.000
+ YSP      C27    C26    C17     120.000    3.000
+ YSP      H26    C26    C17     120.000    3.000
+ YSP      C26    C17    O4      120.000    3.000
+ YSP      C26    C17    C16     120.000    3.000
+ YSP      O4     C17    C16     120.000    3.000
+ YSP      C17    O4     C18     120.000    3.000
+ YSP      O4     C18    H181    109.470    3.000
+ YSP      O4     C18    H182    109.470    3.000
+ YSP      O4     C18    C19     109.470    3.000
+ YSP      H181   C18    H182    107.900    3.000
+ YSP      H181   C18    C19     109.470    3.000
+ YSP      H182   C18    C19     109.470    3.000
+ YSP      C18    C19    C25     120.000    3.000
+ YSP      C18    C19    C20     120.000    3.000
+ YSP      C25    C19    C20     120.000    3.000
+ YSP      C19    C25    H25     120.000    3.000
+ YSP      C19    C25    C24     120.000    3.000
+ YSP      H25    C25    C24     120.000    3.000
+ YSP      C25    C24    H24     120.000    3.000
+ YSP      C25    C24    C23     120.000    3.000
+ YSP      H24    C24    C23     120.000    3.000
+ YSP      C24    C23    H23     120.000    3.000
+ YSP      C24    C23    C22     120.000    3.000
+ YSP      H23    C23    C22     120.000    3.000
+ YSP      C19    C20    C22     120.000    3.000
+ YSP      C19    C20    C21     120.000    3.000
+ YSP      C22    C20    C21     120.000    3.000
+ YSP      C20    C22    H22     120.000    3.000
+ YSP      C20    C22    C23     120.000    3.000
+ YSP      H22    C22    C23     120.000    3.000
+ YSP      C20    C21    H213    109.470    3.000
+ YSP      C20    C21    H212    109.470    3.000
+ YSP      C20    C21    H211    109.470    3.000
+ YSP      H213   C21    H212    109.470    3.000
+ YSP      H213   C21    H211    109.470    3.000
+ YSP      H212   C21    H211    109.470    3.000
+ YSP      C27    C28    H28     120.000    3.000
+ YSP      C27    C28    C15     120.000    3.000
+ YSP      H28    C28    C15     120.000    3.000
+ YSP      C28    C15    C16     120.000    3.000
+ YSP      C28    C15    C14     120.000    3.000
+ YSP      C16    C15    C14     120.000    3.000
+ YSP      C15    C16    H16     120.000    3.000
+ YSP      C15    C16    C17     120.000    3.000
+ YSP      H16    C16    C17     120.000    3.000
+ YSP      C15    C14    C1      120.000    3.000
+ YSP      C15    C14    C13     120.000    3.000
+ YSP      C1     C14    C13     120.000    3.000
+ YSP      C14    C1     H1      109.470    3.000
+ YSP      C14    C1     O1      109.470    3.000
+ YSP      C14    C1     N1      109.500    3.000
+ YSP      H1     C1     O1      109.470    3.000
+ YSP      H1     C1     N1      109.470    3.000
+ YSP      O1     C1     N1      109.500    3.000
+ YSP      C1     O1     HO1     109.470    3.000
+ YSP      C1     N1     C2      120.000    3.000
+ YSP      C1     N1     C7      120.000    3.000
+ YSP      C2     N1     C7      120.000    3.000
+ YSP      N1     C2     C3      120.000    3.000
+ YSP      N1     C2     C6      120.000    3.000
+ YSP      C3     C2     C6      120.000    3.000
+ YSP      C2     C3     H3      120.000    3.000
+ YSP      C2     C3     N2      120.000    3.000
+ YSP      H3     C3     N2      120.000    3.000
+ YSP      C3     N2     C4      120.000    3.000
+ YSP      N2     C4     H4      120.000    3.000
+ YSP      N2     C4     C5      120.000    3.000
+ YSP      H4     C4     C5      120.000    3.000
+ YSP      C4     C5     C6      180.000    3.000
+ YSP      C5     C6     C2      180.000    3.000
+ YSP      N1     C7     H7      120.000    3.000
+ YSP      N1     C7     C8      120.000    3.000
+ YSP      H7     C7     C8      120.000    3.000
+ YSP      C14    C13    H13     120.000    3.000
+ YSP      C14    C13    C8      120.000    3.000
+ YSP      H13    C13    C8      120.000    3.000
+ YSP      C13    C8     C9      120.000    3.000
+ YSP      C13    C8     C7      120.000    3.000
+ YSP      C9     C8     C7      120.000    3.000
+ YSP      C8     C9     C11     120.000    3.000
+ YSP      C8     C9     C10     120.000    3.000
+ YSP      C11    C9     C10     120.000    3.000
+ YSP      C9     C11    H11     120.000    3.000
+ YSP      C9     C11    N4      120.000    3.000
+ YSP      H11    C11    N4      120.000    3.000
+ YSP      C11    N4     HN4     120.000    3.000
+ YSP      C11    N4     C12     120.000    3.000
+ YSP      HN4    N4     C12     118.500    3.000
+ YSP      N4     C12    H12     108.550    3.000
+ YSP      N4     C12    O3      109.470    3.000
+ YSP      N4     C12    N3      109.500    3.000
+ YSP      H12    C12    O3      109.470    3.000
+ YSP      H12    C12    N3      109.500    3.000
+ YSP      O3     C12    N3      109.500    3.000
+ YSP      C12    O3     HO3     109.470    3.000
+ YSP      C12    N3     HN3     109.500    3.000
+ YSP      C12    N3     C10     109.500    3.000
+ YSP      HN3    N3     C10     109.500    3.000
+ YSP      N3     C10    H10     109.500    3.000
+ YSP      N3     C10    O2      109.500    3.000
+ YSP      N3     C10    C9      109.500    3.000
+ YSP      H10    C10    O2      109.470    3.000
+ YSP      H10    C10    C9      108.810    3.000
+ YSP      O2     C10    C9      109.470    3.000
+ YSP      C10    O2     HO2     109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ YSP      CONST_1          CL1    C27    C26    C17                0.000            0.000   0
+ YSP      CONST_2          C27    C26    C17    O4                 0.000            0.000   0
+ YSP      var_1            C26    C17    O4     C18              145.110           20.000   3
+ YSP      var_2            C17    O4     C18    C19             -172.220           20.000   3
+ YSP      var_3            O4     C18    C19    C20                0.000           20.000   2
+ YSP      CONST_3          C18    C19    C25    C24                0.000            0.000   0
+ YSP      CONST_4          C19    C25    C24    C23                0.000            0.000   0
+ YSP      CONST_5          C25    C24    C23    C22                0.000            0.000   0
+ YSP      CONST_6          C18    C19    C20    C21                0.000            0.000   0
+ YSP      CONST_7          C19    C20    C22    C23                0.000            0.000   0
+ YSP      CONST_8          C20    C22    C23    C24                0.000            0.000   0
+ YSP      var_4            C19    C20    C21    H211             180.000           20.000   3
+ YSP      CONST_9          CL1    C27    C28    C15                0.000            0.000   0
+ YSP      CONST_10         C27    C28    C15    C14                0.000            0.000   0
+ YSP      CONST_11         C28    C15    C16    C17                0.000            0.000   0
+ YSP      CONST_12         C15    C16    C17    C26                0.000            0.000   0
+ YSP      var_5            C28    C15    C14    C13                0.000           20.000   2
+ YSP      CONST_13         C15    C14    C1     N1               179.010            0.000   0
+ YSP      var_6            C14    C1     O1     HO1              180.000           20.000   3
+ YSP      CONST_14         C14    C1     N1     C7                -0.965            0.000   0
+ YSP      var_7            C1     N1     C2     C3                71.902           20.000   3
+ YSP      var_8            N1     C2     C3     N2               179.524           20.000   3
+ YSP      var_9            C2     C3     N2     C4                 1.002           20.000   3
+ YSP      var_10           C3     N2     C4     C5                -1.035           20.000   3
+ YSP      var_11           N2     C4     C5     C6                 0.373           20.000   3
+ YSP      var_12           C4     C5     C6     C2                 0.313           20.000   3
+ YSP      var_13           C5     C6     C2     N1               179.825           20.000   3
+ YSP      CONST_15         C1     N1     C7     C8                 0.000            0.000   0
+ YSP      CONST_16         N1     C7     C8     C13                0.000            0.000   0
+ YSP      CONST_17         C15    C14    C13    C8                 0.000            0.000   0
+ YSP      CONST_18         C14    C13    C8     C9                 0.000            0.000   0
+ YSP      var_14           C13    C8     C9     C11               44.051           20.000   3
+ YSP      var_15           C8     C9     C11    N4               178.444           20.000   3
+ YSP      var_16           C9     C11    N4     C12               -0.805           20.000   3
+ YSP      var_17           C11    N4     C12    N3                 0.000           20.000   3
+ YSP      var_18           N4     C12    O3     HO3              180.000           20.000   3
+ YSP      var_19           N4     C12    N3     C10                0.048           20.000   3
+ YSP      var_20           C12    N3     C10    O2              -179.646           20.000   3
+ YSP      var_21           N3     C10    C9     C8               180.000           20.000   3
+ YSP      var_22           N3     C10    O2     HO2              180.000           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ YSP      chir_01          C1     C14    N1     O1        negativ
+ YSP      chir_02          C10    C9     N3     O2        positiv
+ YSP      chir_03          C12    N3     N4     O3        negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ YSP      plan-1            C7        0.020
+ YSP      plan-1            C8        0.020
+ YSP      plan-1            N1        0.020
+ YSP      plan-1            H7        0.020
+ YSP      plan-1            C1        0.020
+ YSP      plan-1            C13       0.020
+ YSP      plan-1            C14       0.020
+ YSP      plan-1            H13       0.020
+ YSP      plan-1            C15       0.020
+ YSP      plan-1            C9        0.020
+ YSP      plan-1            C2        0.020
+ YSP      plan-2            C2        0.020
+ YSP      plan-2            C6        0.020
+ YSP      plan-2            C3        0.020
+ YSP      plan-2            N1        0.020
+ YSP      plan-2            H3        0.020
+ YSP      plan-3            C4        0.020
+ YSP      plan-3            C5        0.020
+ YSP      plan-3            N2        0.020
+ YSP      plan-3            H4        0.020
+ YSP      plan-4            C11       0.020
+ YSP      plan-4            C9        0.020
+ YSP      plan-4            N4        0.020
+ YSP      plan-4            H11       0.020
+ YSP      plan-4            HN4       0.020
+ YSP      plan-5            C16       0.020
+ YSP      plan-5            C17       0.020
+ YSP      plan-5            C15       0.020
+ YSP      plan-5            H16       0.020
+ YSP      plan-5            C26       0.020
+ YSP      plan-5            C27       0.020
+ YSP      plan-5            C28       0.020
+ YSP      plan-5            O4        0.020
+ YSP      plan-5            H26       0.020
+ YSP      plan-5            CL1       0.020
+ YSP      plan-5            H28       0.020
+ YSP      plan-5            C14       0.020
+ YSP      plan-6            C22       0.020
+ YSP      plan-6            C23       0.020
+ YSP      plan-6            C20       0.020
+ YSP      plan-6            H22       0.020
+ YSP      plan-6            C24       0.020
+ YSP      plan-6            C25       0.020
+ YSP      plan-6            C19       0.020
+ YSP      plan-6            H23       0.020
+ YSP      plan-6            C21       0.020
+ YSP      plan-6            H24       0.020
+ YSP      plan-6            H25       0.020
+ YSP      plan-6            C18       0.020
+ YSP      plan-7            C3        0.020
+ YSP      plan-7            C2        0.020
+ YSP      plan-7            N2        0.020
+ YSP      plan-7            H3        0.020
+ YSP      plan-8            C9        0.020
+ YSP      plan-8            C10       0.020
+ YSP      plan-8            C11       0.020
+ YSP      plan-8            C8        0.020
+ YSP      plan-8            H11       0.020
+ YSP      plan-9            N2        0.020
+ YSP      plan-9            C4        0.020
+ YSP      plan-9            C3        0.020
+ YSP      plan-9            H4        0.020
+ YSP      plan-9            H3        0.020
+ YSP      plan-10           N4        0.020
+ YSP      plan-10           C11       0.020
+ YSP      plan-10           C12       0.020
+ YSP      plan-10           HN4       0.020
+ YSP      plan-10           H11       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

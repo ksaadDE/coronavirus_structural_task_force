@@ -1,0 +1,436 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+YSM      YSM '.                                   ' .                  56  37 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_YSM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ YSM           CL1    CL   CL        0.000    -24.163   -1.164  -31.146
+ YSM           C17    C    CR6       0.000    -23.285   -2.622  -30.632
+ YSM           C16    C    CR16      0.000    -22.976   -2.784  -29.281
+ YSM           H16    H    H         0.000    -23.277   -2.033  -28.562
+ YSM           C18    C    CR16      0.000    -22.913   -3.580  -31.568
+ YSM           H18    H    H         0.000    -23.156   -3.450  -32.615
+ YSM           C19    C    CR6       0.000    -22.221   -4.713  -31.135
+ YSM           O4     O    O2        0.000    -21.801   -5.690  -32.040
+ YSM           C20    C    CH2       0.000    -20.410   -5.668  -32.268
+ YSM           H201   H    H         0.000    -19.880   -6.050  -31.393
+ YSM           H202   H    H         0.000    -20.080   -4.648  -32.476
+ YSM           C21    C    CR6       0.000    -20.113   -6.554  -33.470
+ YSM           C26    C    CR16      0.000    -19.665   -5.993  -34.653
+ YSM           H26    H    H         0.000    -19.507   -4.924  -34.729
+ YSM           C25    C    CR6       0.000    -19.420   -6.822  -35.744
+ YSM           C24    C    CR16      0.000    -19.631   -8.194  -35.656
+ YSM           H24    H    H         0.000    -19.438   -8.827  -36.513
+ YSM           C23    C    CR16      0.000    -20.088   -8.751  -34.473
+ YSM           H23    H    H         0.000    -20.258   -9.818  -34.400
+ YSM           C22    C    CR16      0.000    -20.326   -7.925  -33.381
+ YSM           H22    H    H         0.000    -20.681   -8.353  -32.452
+ YSM           F1     F    F         0.000    -18.966   -6.292  -36.914
+ YSM           C27    C    CR16      0.000    -21.905   -4.880  -29.785
+ YSM           H27    H    H         0.000    -21.368   -5.762  -29.459
+ YSM           C15    C    CR6       0.000    -22.280   -3.913  -28.860
+ YSM           C14    C    CR6       0.000    -21.938   -4.099  -27.386
+ YSM           C1     C    CR6       0.000    -20.641   -4.348  -26.985
+ YSM           O1     O    OH1       0.000    -19.640   -4.429  -27.965
+ YSM           HO1    H    H         0.000    -18.782   -4.607  -27.549
+ YSM           C13    C    CR16      0.000    -22.937   -4.012  -26.441
+ YSM           H13    H    H         0.000    -23.957   -3.817  -26.748
+ YSM           C8     C    CR6       0.000    -22.637   -4.173  -25.104
+ YSM           C9     C    CR6       0.000    -23.786   -4.072  -24.092
+ YSM           C10    C    CR6       0.000    -23.592   -3.796  -22.742
+ YSM           O2     O    OH1       0.000    -22.314   -3.598  -22.216
+ YSM           HO2    H    H         0.000    -22.372   -3.418  -21.265
+ YSM           C11    C    CR16      0.000    -25.102   -4.250  -24.532
+ YSM           H11    H    H         0.000    -25.294   -4.464  -25.576
+ YSM           N4     N    NRD6      0.000    -26.133   -4.158  -23.669
+ YSM           C12    C    CR6       0.000    -25.899   -3.896  -22.371
+ YSM           O3     O    OH1       0.000    -26.960   -3.804  -21.472
+ YSM           HO3    H    H         0.000    -26.624   -3.612  -20.583
+ YSM           N3     N    NRD6      0.000    -24.654   -3.720  -21.916
+ YSM           C7     C    CR16      0.000    -21.313   -4.429  -24.754
+ YSM           H7     H    H         0.000    -21.054   -4.558  -23.710
+ YSM           N1     N    NR6       0.000    -20.354   -4.519  -25.686
+ YSM           C2     C    CR6       0.000    -18.969   -4.759  -25.269
+ YSM           C6     C    CR16      0.000    -18.523   -6.013  -24.886
+ YSM           H6     H    H         0.000    -19.189   -6.867  -24.892
+ YSM           C5     C    CR16      0.000    -17.199   -6.145  -24.494
+ YSM           H5     H    H         0.000    -16.825   -7.116  -24.193
+ YSM           C4     C    CR16      0.000    -16.340   -5.041  -24.482
+ YSM           H4     H    H         0.000    -15.310   -5.161  -24.170
+ YSM           N2     N    NRD6      0.000    -16.789   -3.837  -24.855
+ YSM           C3     C    CR16      0.000    -18.073   -3.687  -25.234
+ YSM           H3     H    H         0.000    -18.423   -2.703  -25.521
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ YSM      CL1    n/a    C17    START
+ YSM      C17    CL1    C18    .
+ YSM      C16    C17    H16    .
+ YSM      H16    C16    .      .
+ YSM      C18    C17    C19    .
+ YSM      H18    C18    .      .
+ YSM      C19    C18    C27    .
+ YSM      O4     C19    C20    .
+ YSM      C20    O4     C21    .
+ YSM      H201   C20    .      .
+ YSM      H202   C20    .      .
+ YSM      C21    C20    C26    .
+ YSM      C26    C21    C25    .
+ YSM      H26    C26    .      .
+ YSM      C25    C26    F1     .
+ YSM      C24    C25    C23    .
+ YSM      H24    C24    .      .
+ YSM      C23    C24    C22    .
+ YSM      H23    C23    .      .
+ YSM      C22    C23    H22    .
+ YSM      H22    C22    .      .
+ YSM      F1     C25    .      .
+ YSM      C27    C19    C15    .
+ YSM      H27    C27    .      .
+ YSM      C15    C27    C14    .
+ YSM      C14    C15    C13    .
+ YSM      C1     C14    O1     .
+ YSM      O1     C1     HO1    .
+ YSM      HO1    O1     .      .
+ YSM      C13    C14    C8     .
+ YSM      H13    C13    .      .
+ YSM      C8     C13    C7     .
+ YSM      C9     C8     C11    .
+ YSM      C10    C9     O2     .
+ YSM      O2     C10    HO2    .
+ YSM      HO2    O2     .      .
+ YSM      C11    C9     N4     .
+ YSM      H11    C11    .      .
+ YSM      N4     C11    C12    .
+ YSM      C12    N4     N3     .
+ YSM      O3     C12    HO3    .
+ YSM      HO3    O3     .      .
+ YSM      N3     C12    .      .
+ YSM      C7     C8     N1     .
+ YSM      H7     C7     .      .
+ YSM      N1     C7     C2     .
+ YSM      C2     N1     C6     .
+ YSM      C6     C2     C5     .
+ YSM      H6     C6     .      .
+ YSM      C5     C6     C4     .
+ YSM      H5     C5     .      .
+ YSM      C4     C5     N2     .
+ YSM      H4     C4     .      .
+ YSM      N2     C4     C3     .
+ YSM      C3     N2     H3     .
+ YSM      H3     C3     .      END
+ YSM      C1     N1     .    ADD
+ YSM      C2     C3     .    ADD
+ YSM      N3     C10    .    ADD
+ YSM      C15    C16    .    ADD
+ YSM      C21    C22    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ YSM      C1     N1        single      1.410    0.020
+ YSM      C1     C14       aromatic    1.384    0.020
+ YSM      O1     C1        single      1.362    0.020
+ YSM      F1     C25       single      1.345    0.020
+ YSM      C2     N1        single      1.410    0.020
+ YSM      N1     C7        single      1.337    0.020
+ YSM      C2     C3        aromatic    1.390    0.020
+ YSM      C6     C2        aromatic    1.390    0.020
+ YSM      C3     N2        aromatic    1.337    0.020
+ YSM      N3     C10       aromatic    1.350    0.020
+ YSM      N3     C12       aromatic    1.350    0.020
+ YSM      O3     C12       single      1.362    0.020
+ YSM      C4     C5        aromatic    1.390    0.020
+ YSM      N2     C4        deloc       1.337    0.020
+ YSM      C20    O4        single      1.426    0.020
+ YSM      O4     C19       single      1.370    0.020
+ YSM      C5     C6        aromatic    1.390    0.020
+ YSM      C7     C8        aromatic    1.390    0.020
+ YSM      C9     C8        single      1.487    0.020
+ YSM      C8     C13       aromatic    1.390    0.020
+ YSM      C10    C9        aromatic    1.384    0.020
+ YSM      C11    C9        aromatic    1.390    0.020
+ YSM      O2     C10       single      1.362    0.020
+ YSM      N4     C11       aromatic    1.337    0.020
+ YSM      C12    N4        aromatic    1.350    0.020
+ YSM      C13    C14       aromatic    1.390    0.020
+ YSM      C14    C15       single      1.487    0.020
+ YSM      C15    C16       aromatic    1.390    0.020
+ YSM      C15    C27       aromatic    1.390    0.020
+ YSM      C16    C17       aromatic    1.390    0.020
+ YSM      C18    C17       aromatic    1.390    0.020
+ YSM      C17    CL1       single      1.795    0.020
+ YSM      C19    C18       aromatic    1.390    0.020
+ YSM      C21    C20       single      1.511    0.020
+ YSM      C21    C22       aromatic    1.390    0.020
+ YSM      C26    C21       aromatic    1.390    0.020
+ YSM      C22    C23       aromatic    1.390    0.020
+ YSM      C23    C24       aromatic    1.390    0.020
+ YSM      C24    C25       aromatic    1.390    0.020
+ YSM      C25    C26       aromatic    1.390    0.020
+ YSM      C27    C19       aromatic    1.390    0.020
+ YSM      H3     C3        single      1.083    0.020
+ YSM      HO3    O3        single      0.967    0.020
+ YSM      H4     C4        single      1.083    0.020
+ YSM      H5     C5        single      1.083    0.020
+ YSM      H6     C6        single      1.083    0.020
+ YSM      H7     C7        single      1.083    0.020
+ YSM      H11    C11       single      1.083    0.020
+ YSM      H13    C13       single      1.083    0.020
+ YSM      H16    C16       single      1.083    0.020
+ YSM      H18    C18       single      1.083    0.020
+ YSM      H201   C20       single      1.092    0.020
+ YSM      H202   C20       single      1.092    0.020
+ YSM      H22    C22       single      1.083    0.020
+ YSM      H23    C23       single      1.083    0.020
+ YSM      H24    C24       single      1.083    0.020
+ YSM      H26    C26       single      1.083    0.020
+ YSM      H27    C27       single      1.083    0.020
+ YSM      HO1    O1        single      0.967    0.020
+ YSM      HO2    O2        single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ YSM      CL1    C17    C16     120.000    3.000
+ YSM      CL1    C17    C18     120.000    3.000
+ YSM      C16    C17    C18     120.000    3.000
+ YSM      C17    C16    H16     120.000    3.000
+ YSM      C17    C16    C15     120.000    3.000
+ YSM      H16    C16    C15     120.000    3.000
+ YSM      C17    C18    H18     120.000    3.000
+ YSM      C17    C18    C19     120.000    3.000
+ YSM      H18    C18    C19     120.000    3.000
+ YSM      C18    C19    O4      120.000    3.000
+ YSM      C18    C19    C27     120.000    3.000
+ YSM      O4     C19    C27     120.000    3.000
+ YSM      C19    O4     C20     120.000    3.000
+ YSM      O4     C20    H201    109.470    3.000
+ YSM      O4     C20    H202    109.470    3.000
+ YSM      O4     C20    C21     109.470    3.000
+ YSM      H201   C20    H202    107.900    3.000
+ YSM      H201   C20    C21     109.470    3.000
+ YSM      H202   C20    C21     109.470    3.000
+ YSM      C20    C21    C26     120.000    3.000
+ YSM      C20    C21    C22     120.000    3.000
+ YSM      C26    C21    C22     120.000    3.000
+ YSM      C21    C26    H26     120.000    3.000
+ YSM      C21    C26    C25     120.000    3.000
+ YSM      H26    C26    C25     120.000    3.000
+ YSM      C26    C25    C24     120.000    3.000
+ YSM      C26    C25    F1      120.000    3.000
+ YSM      C24    C25    F1      120.000    3.000
+ YSM      C25    C24    H24     120.000    3.000
+ YSM      C25    C24    C23     120.000    3.000
+ YSM      H24    C24    C23     120.000    3.000
+ YSM      C24    C23    H23     120.000    3.000
+ YSM      C24    C23    C22     120.000    3.000
+ YSM      H23    C23    C22     120.000    3.000
+ YSM      C23    C22    H22     120.000    3.000
+ YSM      C23    C22    C21     120.000    3.000
+ YSM      H22    C22    C21     120.000    3.000
+ YSM      C19    C27    H27     120.000    3.000
+ YSM      C19    C27    C15     120.000    3.000
+ YSM      H27    C27    C15     120.000    3.000
+ YSM      C27    C15    C14     120.000    3.000
+ YSM      C27    C15    C16     120.000    3.000
+ YSM      C14    C15    C16     120.000    3.000
+ YSM      C15    C14    C1      120.000    3.000
+ YSM      C15    C14    C13     120.000    3.000
+ YSM      C1     C14    C13     120.000    3.000
+ YSM      C14    C1     O1      120.000    3.000
+ YSM      C14    C1     N1      120.000    3.000
+ YSM      O1     C1     N1      120.000    3.000
+ YSM      C1     O1     HO1     109.470    3.000
+ YSM      C14    C13    H13     120.000    3.000
+ YSM      C14    C13    C8      120.000    3.000
+ YSM      H13    C13    C8      120.000    3.000
+ YSM      C13    C8     C9      120.000    3.000
+ YSM      C13    C8     C7      120.000    3.000
+ YSM      C9     C8     C7      120.000    3.000
+ YSM      C8     C9     C10     120.000    3.000
+ YSM      C8     C9     C11     120.000    3.000
+ YSM      C10    C9     C11     120.000    3.000
+ YSM      C9     C10    O2      120.000    3.000
+ YSM      C9     C10    N3      120.000    3.000
+ YSM      O2     C10    N3      120.000    3.000
+ YSM      C10    O2     HO2     109.470    3.000
+ YSM      C9     C11    H11     120.000    3.000
+ YSM      C9     C11    N4      120.000    3.000
+ YSM      H11    C11    N4      120.000    3.000
+ YSM      C11    N4     C12     120.000    3.000
+ YSM      N4     C12    O3      120.000    3.000
+ YSM      N4     C12    N3      120.000    3.000
+ YSM      O3     C12    N3      120.000    3.000
+ YSM      C12    O3     HO3     109.470    3.000
+ YSM      C12    N3     C10     120.000    3.000
+ YSM      C8     C7     H7      120.000    3.000
+ YSM      C8     C7     N1      120.000    3.000
+ YSM      H7     C7     N1      120.000    3.000
+ YSM      C7     N1     C2      120.000    3.000
+ YSM      C7     N1     C1      120.000    3.000
+ YSM      C2     N1     C1      120.000    3.000
+ YSM      N1     C2     C6      120.000    3.000
+ YSM      N1     C2     C3      120.000    3.000
+ YSM      C6     C2     C3      120.000    3.000
+ YSM      C2     C6     H6      120.000    3.000
+ YSM      C2     C6     C5      120.000    3.000
+ YSM      H6     C6     C5      120.000    3.000
+ YSM      C6     C5     H5      120.000    3.000
+ YSM      C6     C5     C4      120.000    3.000
+ YSM      H5     C5     C4      120.000    3.000
+ YSM      C5     C4     H4      120.000    3.000
+ YSM      C5     C4     N2      120.000    3.000
+ YSM      H4     C4     N2      120.000    3.000
+ YSM      C4     N2     C3      120.000    3.000
+ YSM      N2     C3     H3      120.000    3.000
+ YSM      N2     C3     C2      120.000    3.000
+ YSM      H3     C3     C2      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ YSM      CONST_1          CL1    C17    C16    C15                0.000            0.000   0
+ YSM      CONST_2          CL1    C17    C18    C19                0.000            0.000   0
+ YSM      CONST_3          C17    C18    C19    C27                0.000            0.000   0
+ YSM      var_1            C18    C19    O4     C20              106.551           20.000   3
+ YSM      var_2            C19    O4     C20    C21             -168.069           20.000   3
+ YSM      var_3            O4     C20    C21    C26                0.000           20.000   2
+ YSM      CONST_4          C20    C21    C22    C23                0.000            0.000   0
+ YSM      CONST_5          C20    C21    C26    C25                0.000            0.000   0
+ YSM      CONST_6          C21    C26    C25    F1                 0.000            0.000   0
+ YSM      CONST_7          C26    C25    C24    C23                0.000            0.000   0
+ YSM      CONST_8          C25    C24    C23    C22                0.000            0.000   0
+ YSM      CONST_9          C24    C23    C22    C21                0.000            0.000   0
+ YSM      CONST_10         C18    C19    C27    C15                0.000            0.000   0
+ YSM      CONST_11         C19    C27    C15    C14                0.000            0.000   0
+ YSM      CONST_12         C27    C15    C16    C17                0.000            0.000   0
+ YSM      var_4            C27    C15    C14    C13                0.000           20.000   2
+ YSM      CONST_13         C15    C14    C1     O1                 0.000            0.000   0
+ YSM      CONST_14         C14    C1     N1     C7                 0.000            0.000   0
+ YSM      var_5            C14    C1     O1     HO1              180.000           20.000   3
+ YSM      CONST_15         C15    C14    C13    C8                 0.000            0.000   0
+ YSM      CONST_16         C14    C13    C8     C7                 0.000            0.000   0
+ YSM      var_6            C13    C8     C9     C11                0.000           20.000   2
+ YSM      CONST_17         C8     C9     C10    O2                 0.000            0.000   0
+ YSM      var_7            C9     C10    O2     HO2              180.000           20.000   3
+ YSM      CONST_18         C8     C9     C11    N4                 0.000            0.000   0
+ YSM      CONST_19         C9     C11    N4     C12                0.000            0.000   0
+ YSM      CONST_20         C11    N4     C12    N3                 0.000            0.000   0
+ YSM      var_8            N4     C12    O3     HO3              180.000           20.000   3
+ YSM      CONST_21         N4     C12    N3     C10                0.000            0.000   0
+ YSM      CONST_22         C12    N3     C10    C9                 0.000            0.000   0
+ YSM      CONST_23         C13    C8     C7     N1                 0.000            0.000   0
+ YSM      CONST_24         C8     C7     N1     C2                 0.000            0.000   0
+ YSM      var_9            C7     N1     C2     C6                 0.000           20.000   2
+ YSM      CONST_25         N1     C2     C3     N2                 0.000            0.000   0
+ YSM      CONST_26         N1     C2     C6     C5                 0.000            0.000   0
+ YSM      CONST_27         C2     C6     C5     C4                 0.000            0.000   0
+ YSM      CONST_28         C6     C5     C4     N2                 0.000            0.000   0
+ YSM      CONST_29         C5     C4     N2     C3                 0.000            0.000   0
+ YSM      CONST_30         C4     N2     C3     C2                 0.000            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ YSM      plan-1            C1        0.020
+ YSM      plan-1            N1        0.020
+ YSM      plan-1            C14       0.020
+ YSM      plan-1            O1        0.020
+ YSM      plan-1            C7        0.020
+ YSM      plan-1            C8        0.020
+ YSM      plan-1            C13       0.020
+ YSM      plan-1            C2        0.020
+ YSM      plan-1            H7        0.020
+ YSM      plan-1            C9        0.020
+ YSM      plan-1            H13       0.020
+ YSM      plan-1            C15       0.020
+ YSM      plan-2            C2        0.020
+ YSM      plan-2            N1        0.020
+ YSM      plan-2            C3        0.020
+ YSM      plan-2            C6        0.020
+ YSM      plan-2            C4        0.020
+ YSM      plan-2            C5        0.020
+ YSM      plan-2            N2        0.020
+ YSM      plan-2            H3        0.020
+ YSM      plan-2            H4        0.020
+ YSM      plan-2            H5        0.020
+ YSM      plan-2            H6        0.020
+ YSM      plan-3            N3        0.020
+ YSM      plan-3            C10       0.020
+ YSM      plan-3            C12       0.020
+ YSM      plan-3            C9        0.020
+ YSM      plan-3            C11       0.020
+ YSM      plan-3            N4        0.020
+ YSM      plan-3            C8        0.020
+ YSM      plan-3            O2        0.020
+ YSM      plan-3            H11       0.020
+ YSM      plan-3            O3        0.020
+ YSM      plan-4            C15       0.020
+ YSM      plan-4            C14       0.020
+ YSM      plan-4            C16       0.020
+ YSM      plan-4            C27       0.020
+ YSM      plan-4            C17       0.020
+ YSM      plan-4            C18       0.020
+ YSM      plan-4            C19       0.020
+ YSM      plan-4            H16       0.020
+ YSM      plan-4            CL1       0.020
+ YSM      plan-4            H18       0.020
+ YSM      plan-4            O4        0.020
+ YSM      plan-4            H27       0.020
+ YSM      plan-5            C21       0.020
+ YSM      plan-5            C20       0.020
+ YSM      plan-5            C22       0.020
+ YSM      plan-5            C26       0.020
+ YSM      plan-5            C23       0.020
+ YSM      plan-5            C24       0.020
+ YSM      plan-5            C25       0.020
+ YSM      plan-5            H22       0.020
+ YSM      plan-5            H23       0.020
+ YSM      plan-5            H24       0.020
+ YSM      plan-5            H26       0.020
+ YSM      plan-5            F1        0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

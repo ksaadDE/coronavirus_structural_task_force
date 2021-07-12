@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (UED A 603) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.076   0.081
+Real-space correlation            : 0.958   0.948
+EDIAm density fit                 : 0.678   0.716
+OPIA density coverage (%)         : 62.1    62.1
+ 
+Energy of formation (kJ/mol)      : 81.662 -150.137
+Hydrogen bond energy (kJ/mol)     : -73.1  -49.35
+Number of hydrogen bonds          : 3  2
+Number of bumps                   : 10  9
+Number of hydrophobic interactions: 14  17
+Hydrophobic interaction strength  : 15.852  18.747
+Number of Pi-Pi interactions      : 0  0
+Pi-Pi interaction strength        : 0.000  0.000
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.2508
+ 

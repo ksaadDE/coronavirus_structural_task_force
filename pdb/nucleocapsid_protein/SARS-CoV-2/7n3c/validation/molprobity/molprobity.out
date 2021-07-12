@@ -1,0 +1,106 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 4882
+     H or D atoms   : 0
+     chains         : 9
+     a.a. residues  : 570
+     nucleotides    : 0
+     water          : 364
+     other (ligands): 22
+   Ligands: PO4:1,IOD:12,EDO:9
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.097 (Z=  6.600)
+  Mean delta:    0.012 (Z=  0.731)
+
+                        ----------Bond angles----------                        
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   11.608 (Z=  3.992)
+  Mean delta:    1.101 (Z=  0.593)
+
+                      ----------Dihedral angles----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.014
+  Max. delta:   85.280
+  Mean delta:   14.163
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.377
+  Mean delta:    0.073
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.101
+  Mean delta:    0.010
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.012   0.097   4620
+    Angle     :  1.101  11.608   6288
+    Chirality :  0.073   0.377    679
+    Planarity :  0.010   0.101    820
+    Dihedral  : 14.163  85.280   1676
+    Min Nonbonded Distance : 2.210
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 3.36
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  1.95 %
+      Favored  : 98.05 %
+    Rotamer Outliers :  1.83 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 16.22 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  0.53 (0.33), residues: 603
+    helix: -2.28 (0.71), residues: 18
+    sheet:  0.61 (0.33), residues: 241
+    loop :  0.45 (0.32), residues: 344
+
+                     ----------Asn/Gln/His flips----------                     
+
+  No backwards Asn/Gln/His sidechains found.
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  98.05 %
+  Rotamer outliers      =   1.83 %
+  C-beta deviations     =     0
+  Clashscore            =   3.36
+  RMS(bonds)            =   0.0118
+  RMS(angles)           =   1.10
+  MolProbity score      =   1.33
+  Refinement program    = PHENIX

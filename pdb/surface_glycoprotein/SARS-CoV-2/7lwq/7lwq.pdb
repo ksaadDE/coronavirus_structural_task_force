@@ -22,17 +22,19 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2 SPIKE PROTEIN TRIMER, VIRAL PROTEIN                        
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    S.GOBEIL,P.ACHARYA                                                    
+REVDAT   4   14-JUL-21 7LWQ    1       JRNL                                     
 REVDAT   3   30-JUN-21 7LWQ    1       COMPND JRNL   REMARK HELIX               
 REVDAT   3 2                   1       SHEET  SSBOND LINK   ATOM                
 REVDAT   2   07-APR-21 7LWQ    1       JRNL                                     
 REVDAT   1   31-MAR-21 7LWQ    0                                                
-JRNL        AUTH   S.M.-C.GOBEIL,K.JANOWSKA,S.MCDOWELL,K.MANSOURI,R.PARKS,      
+JRNL        AUTH   S.M.GOBEIL,K.JANOWSKA,S.MCDOWELL,K.MANSOURI,R.PARKS,         
 JRNL        AUTH 2 V.STALLS,M.F.KOPP,K.MANNE,D.LI,K.WIEHE,K.O.SAUNDERS,         
-JRNL        AUTH 3 R.J.EDWARDS,B.KORBER,B.F.HAYNES,R.C.HENDERSON,P.ACHARYA      
+JRNL        AUTH 3 R.J.EDWARDS,B.KORBER,B.F.HAYNES,R.HENDERSON,P.ACHARYA        
 JRNL        TITL   EFFECT OF NATURAL MUTATIONS OF SARS-COV-2 ON SPIKE           
-JRNL        TITL 2 STRUCTURE, CONFORMATION AND ANTIGENICITY.                    
+JRNL        TITL 2 STRUCTURE, CONFORMATION, AND ANTIGENICITY.                   
 JRNL        REF    SCIENCE                                    2021              
 JRNL        REFN                   ESSN 1095-9203                               
+JRNL        PMID   34168071                                                     
 JRNL        DOI    10.1126/SCIENCE.ABI6226                                      
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          

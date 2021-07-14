@@ -3,7 +3,7 @@ data_7M8X
 _entry.id   7M8X 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.344 
+_audit_conform.dict_version    5.345 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -59,11 +59,11 @@ _citation.language                  ?
 _citation.page_first                ? 
 _citation.page_last                 ? 
 _citation.title                     
-'Structure-guided design of a perampanel-derived pharmacophore targeting the SARS-CoV-2 main protease' 
+'Structure-guided design of a perampanel-derived pharmacophore targeting the SARS-CoV-2 main protease.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.str.2021.06.002 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34161756 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -72,14 +72,14 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Deshmukh, M.G.'  1 0000-0002-3704-3229 
-primary 'Ippolito, J.A.'  2 0000-0002-1461-3372 
-primary 'Zhang, C.-H.'    3 ?                   
-primary 'Stone, E.A.'     4 0000-0002-2253-3452 
-primary 'Reilly, R.A.'    5 ?                   
-primary 'Miller, S.J.'    6 ?                   
-primary 'Jorgensen, W.L.' 7 0000-0002-3993-9520 
-primary 'Anderson, K.S.'  8 0000-0003-3433-0780 
+primary 'Deshmukh, M.G.'  1 ? 
+primary 'Ippolito, J.A.'  2 ? 
+primary 'Zhang, C.H.'     3 ? 
+primary 'Stone, E.A.'     4 ? 
+primary 'Reilly, R.A.'    5 ? 
+primary 'Miller, S.J.'    6 ? 
+primary 'Jorgensen, W.L.' 7 ? 
+primary 'Anderson, K.S.'  8 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -1053,7 +1053,6 @@ _refine_ls_shell.pdbx_fsc_free
 # 
 _struct.entry_id                     7M8X 
 _struct.title                        'CRYSTAL STRUCTURE OF THE SARS-COV-2(2019-NCOV) MAIN PROTEASE IN COMPLEX WITH COMPOUND 6' 
-_struct.pdbx_descriptor              '3C-like proteinase (E.C.3.4.22.69)' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -4325,11 +4324,14 @@ _pdbx_struct_oper_list.vector[3]
 2 'crystal symmetry operation' 2_555 -x,y,-z -1.0000000000 0.0000000000 0.0000000000 0.0000000000 0.0000000000 1.0000000000 
 0.0000000000 0.0000000000 0.0000000000 0.0000000000 -1.0000000000 0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-06-30 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-06-30 
+2 'Structure model' 1 1 2021-07-14 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -4338,6 +4340,29 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+2 2 'Structure model' '_citation.title'                   
+3 2 'Structure model' '_citation_author.identifier_ORCID' 
+4 2 'Structure model' '_citation_author.name'             
 # 
 loop_
 _software.citation_id 

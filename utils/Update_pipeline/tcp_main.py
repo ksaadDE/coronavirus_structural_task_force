@@ -343,7 +343,7 @@ def give_txt_report(taxo, pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
     writes .txt file which summarizes the update
     """
     doc = open("weekly_reports/{}_update_report_{}.txt".format(time,taxo), "w+")
-    doc.write("{} weekly report for {}".format(time, taxo))
+    doc.write("{} weekly report for {}\n".format(time, taxo))
     doc.write("##### {} revised structures #####\n".format(len(c_rev_pdb_lst)))
     doc.write(", ".join(c_rev_pdb_lst) + "\n\n")
 

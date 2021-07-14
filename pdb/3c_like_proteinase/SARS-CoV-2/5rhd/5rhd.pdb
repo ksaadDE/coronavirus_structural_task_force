@@ -22,6 +22,7 @@ AUTHOR    D.FEARON,C.D.OWEN,A.DOUANGAMATH,P.LUKACIK,A.J.POWELL,C.M.STRAIN-
 AUTHOR   2 DAMERELL,E.RESNICK,T.KROJER,P.GEHRTZ,C.WILD,A.AIMON,J.BRANDAO-NETO,  
 AUTHOR   3 A.CARBERY,L.DUNNETT,R.SKYNER,M.SNEE,A.KEELEY,G.M.KESERU,N.LONDON,    
 AUTHOR   4 M.A.WALSH,F.VON DELFT                                                
+REVDAT   4   14-JUL-21 5RHD    1       JRNL                                     
 REVDAT   3   24-FEB-21 5RHD    1       JRNL                                     
 REVDAT   2   17-JUN-20 5RHD    1       AUTHOR JRNL                              
 REVDAT   1   10-JUN-20 5RHD    0                                                
@@ -38,6 +39,18 @@ JRNL        REF    NAT COMMUN                    V.  11  5047 2020
 JRNL        REFN                   ESSN 2041-1723                               
 JRNL        PMID   33028810                                                     
 JRNL        DOI    10.1038/S41467-020-18709-W                                   
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   D.BAJUSZ,W.S.WADE,G.SATALA,A.J.BOJARSKI,J.ILAS,J.EBNER,      
+REMARK   1  AUTH 2 F.GREBIEN,H.PAPP,F.JAKAB,A.DOUANGAMATH,D.FEARON,F.VON DELFT, 
+REMARK   1  AUTH 3 M.SCHULLER,I.AHEL,A.WAKEFIELD,S.VAJDA,J.GERENCSER,P.PALLAI,  
+REMARK   1  AUTH 4 G.M.KESERU                                                   
+REMARK   1  TITL   EXPLORING PROTEIN HOTSPOTS BY OPTIMIZED FRAGMENT             
+REMARK   1  TITL 2 PHARMACOPHORES.                                              
+REMARK   1  REF    NAT COMMUN                    V.  12  3201 2021              
+REMARK   1  REFN                   ESSN 2041-1723                               
+REMARK   1  PMID   34045440                                                     
+REMARK   1  DOI    10.1038/S41467-021-23443-Y                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.57 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -5632,5 +5645,5 @@ CONECT 2411 2400 2412
 CONECT 2412 2410 2411                                                           
 CONECT 2413 2400 2403 2405                                                      
 CONECT 2414 2399 2405                                                           
-MASTER      314    0    8   10   15    0   13    6 2717    1   44   24          
+MASTER      326    0    8   10   15    0   13    6 2717    1   44   24          
 END                                                                             

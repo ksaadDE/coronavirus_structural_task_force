@@ -289,7 +289,7 @@ def update_files(repo_path, taxo, pdb_protein_dict, c_rev_pdb_lst, df):
         # get path to entry
         try:
             print(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item())
-            if str(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()).find("SARS-CoV-1"):
+            if str(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()).find("SARS-CoV-1") > -1:
                 # replace SARS-CoV-1 in path in database to SARS-CoV
                 print("Contains SARS-CoV-1, Fix this")
                 old_path = df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()

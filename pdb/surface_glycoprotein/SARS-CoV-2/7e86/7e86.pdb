@@ -33,6 +33,7 @@ SOURCE  18 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, ANTIBODY, VIRAL PROTEIN, IMMUNE SYSTEM                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.GAO,J.XIAO                                                          
+REVDAT   2   14-JUL-21 7E86    1       JRNL                                     
 REVDAT   1   09-JUN-21 7E86    0                                                
 JRNL        AUTH   Y.CAO,A.YISIMAYI,Y.BAI,W.HUANG,X.LI,Z.ZHANG,T.YUAN,R.AN,     
 JRNL        AUTH 2 J.WANG,T.XIAO,S.DU,W.MA,L.SONG,Y.LI,X.LI,W.SONG,J.WU,S.LIU,  
@@ -41,7 +42,7 @@ JRNL        AUTH 4 X.XU,R.SHI,B.LU,R.JIN,Y.MA,C.QIN,Y.WANG,Y.FENG,J.XIAO,
 JRNL        AUTH 5 X.S.XIE                                                      
 JRNL        TITL   HUMORAL IMMUNE RESPONSE TO CIRCULATING SARS-COV-2 VARIANTS   
 JRNL        TITL 2 ELICITED BY INACTIVATED AND RBD-SUBUNIT VACCINES.            
-JRNL        REF    CELL RES.                                  2021              
+JRNL        REF    CELL RES.                     V.  31   732 2021              
 JRNL        REFN                   ISSN 1001-0602                               
 JRNL        PMID   34021265                                                     
 JRNL        DOI    10.1038/S41422-021-00514-9                                   

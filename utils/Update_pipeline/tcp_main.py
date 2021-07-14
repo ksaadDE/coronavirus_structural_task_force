@@ -289,7 +289,7 @@ def update_files(repo_path, taxo, pdb_protein_dict, c_rev_pdb_lst, df):
         # get path to entry
         try:
             print(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item())
-            if str(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()).find("SARS-CoV-1"):
+            if str(df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()).find("SARS-CoV-1") > -1:
                 # replace SARS-CoV-1 in path in database to SARS-CoV
                 print("Contains SARS-CoV-1, Fix this")
                 old_path = df.loc[df["pdb_id"] == pdb_id]["path_in_repo"].item()
@@ -343,7 +343,7 @@ def give_txt_report(taxo, pdb_protein_dict,c_new_pdb_lst, c_rev_pdb_lst):
     writes .txt file which summarizes the update
     """
     doc = open("weekly_reports/{}_update_report_{}.txt".format(time,taxo), "w+")
-    doc.write("{} weekly report for {}".format(time, taxo))
+    doc.write("{} weekly report for {}\n".format(time, taxo))
     doc.write("##### {} revised structures #####\n".format(len(c_rev_pdb_lst)))
     doc.write(", ".join(c_rev_pdb_lst) + "\n\n")
 

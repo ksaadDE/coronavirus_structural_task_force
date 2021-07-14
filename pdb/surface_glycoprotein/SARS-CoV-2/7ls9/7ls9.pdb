@@ -42,6 +42,7 @@ KEYWDS   2 RBD, RBD-DIRECTED ANTIBODY, 1-57, VIRAL PROTEIN, IMMUNE SYSTEM,
 KEYWDS   3 VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX                                  
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    G.CERUTTI,L.SHAPIRO                                                   
+REVDAT   3   14-JUL-21 7LS9    1       JRNL                                     
 REVDAT   2   23-JUN-21 7LS9    1       JRNL                                     
 REVDAT   1   17-MAR-21 7LS9    0                                                
 JRNL        AUTH   G.CERUTTI,M.RAPP,Y.GUO,F.BAHNA,J.BIMELA,E.R.REDDEM,J.YU,     
@@ -49,7 +50,7 @@ JRNL        AUTH 2 P.WANG,L.LIU,Y.HUANG,D.D.HO,P.D.KWONG,Z.SHENG,L.SHAPIRO
 JRNL        TITL   STRUCTURAL BASIS FOR ACCOMMODATION OF EMERGING B.1.351 AND   
 JRNL        TITL 2 B.1.1.7 VARIANTS BY TWO POTENT SARS-COV-2 NEUTRALIZING       
 JRNL        TITL 3 ANTIBODIES.                                                  
-JRNL        REF    STRUCTURE                                  2021              
+JRNL        REF    STRUCTURE                     V.  29   655 2021              
 JRNL        REFN                   ISSN 0969-2126                               
 JRNL        PMID   34111408                                                     
 JRNL        DOI    10.1016/J.STR.2021.05.014                                    

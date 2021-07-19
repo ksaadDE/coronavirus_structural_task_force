@@ -1,0 +1,182 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 33465
+     H or D atoms   : 0
+     chains         : 34
+     a.a. residues  : 4152
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 84
+   Ligands: BMA:7,NAG:71,MAN:6
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.075 (Z=  3.822)
+  Mean delta:    0.005 (Z=  0.271)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A1303  NAG  C2     
+   A1303  NAG  N2     
+   A1303  NAG  C7        123.12   128.95    -5.83  1.28e+00  2.06e+01   4.5*sigma
+   d   2  NAG  C2     
+   d   2  NAG  N2     
+   d   2  NAG  C7        123.12   129.04    -5.92  1.28e+00  2.13e+01   4.6*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    8.385 (Z=  4.616)
+  Mean delta:    0.985 (Z=  0.460)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A  77  LYS  CA     
+   A  77  LYS  C      
+   A  78  ARG  N      
+   A  78  ARG  CA        180.00   159.93    20.07  5.00e+00  1.61e+01   4.0*sigma
+   A 617  CYS  CA     
+   A 617  CYS  C      
+   A 618  THR  N      
+   A 618  THR  CA        180.00   159.06    20.94  5.00e+00  1.75e+01   4.2*sigma
+   C 327  VAL  CA     
+   C 327  VAL  C      
+   C 328  ARG  N      
+   C 328  ARG  CA        180.00  -158.56   -21.44  5.00e+00  1.84e+01   4.3*sigma
+   A 590  CYS  CA     
+   A 590  CYS  C      
+   A 591  SER  N      
+   A 591  SER  CA        180.00  -158.47   -21.53  5.00e+00  1.85e+01   4.3*sigma
+   C 616  ASN  CA     
+   C 616  ASN  C      
+   C 617  CYS  N      
+   C 617  CYS  CA        180.00  -157.98   -22.02  5.00e+00  1.94e+01   4.4*sigma
+   U   2  NAG  C3     
+   U   2  NAG  C4     
+   U   2  NAG  C5     
+   U   2  NAG  O5        -50.00    43.31   -93.31  2.00e+01  2.54e+01   4.7*sigma
+   U   2  NAG  C1     
+   U   2  NAG  C5     
+   U   2  NAG  O5     
+   U   2  NAG  C4        -50.00    44.73   -94.73  2.00e+01  2.60e+01   4.7*sigma
+   C 904  TYR  CA     
+   C 904  TYR  C      
+   C 905  ARG  N      
+   C 905  ARG  CA        180.00   154.78    25.22  5.00e+00  2.54e+01   5.0*sigma
+   U   2  NAG  C2     
+   U   2  NAG  C1     
+   U   2  NAG  O5     
+   U   2  NAG  C5        -50.00    51.38  -101.38  2.00e+01  2.87e+01   5.1*sigma
+   U   2  NAG  C2     
+   U   2  NAG  C3     
+   U   2  NAG  C4     
+   U   2  NAG  C5         50.00   -51.38   101.38  2.00e+01  2.87e+01   5.1*sigma
+   U   2  NAG  C3     
+   U   2  NAG  C1     
+   U   2  NAG  C2     
+   U   2  NAG  O5        -50.00    56.61  -106.61  2.00e+01  3.09e+01   5.3*sigma
+   U   2  NAG  C1     
+   U   2  NAG  C2     
+   U   2  NAG  C3     
+   U   2  NAG  C4        -50.00    58.46  -108.46  2.00e+01  3.16e+01   5.4*sigma
+   B 616  ASN  CA     
+   B 616  ASN  C      
+   B 617  CYS  N      
+   B 617  CYS  CA        180.00  -150.52   -29.48  5.00e+00  3.48e+01   5.9*sigma
+   C 812  PRO  CA     
+   C 812  PRO  C      
+   C 813  SER  N      
+   C 813  SER  CA        180.00  -150.21   -29.79  5.00e+00  3.55e+01   6.0*sigma
+   A 327  VAL  CA     
+   A 327  VAL  C      
+   A 328  ARG  N      
+   A 328  ARG  CA        180.00  -146.60   -33.40  5.00e+00  4.46e+01   6.7*sigma
+   A 330  PRO  CA     
+   A 330  PRO  C      
+   A 331  ASN  N      
+   A 331  ASN  CA        180.00  -145.70   -34.30  5.00e+00  4.71e+01   6.9*sigma
+
+  Min. delta:    0.001
+  Max. delta:  108.458
+  Mean delta:   13.614
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.219
+  Mean delta:    0.044
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   C 329  PHE  C      
+   C 330  PRO  N      
+   C 330  PRO  CA     
+   C 330  PRO  CD            0.121       0.210       23.49   4.2*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.121
+  Mean delta:    0.005
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.005   0.075  34227
+    Angle     :  0.985   8.385  46584
+    Chirality :  0.044   0.219   5418
+    Planarity :  0.005   0.121   5902
+    Dihedral  : 13.614 108.458  12411
+    Min Nonbonded Distance : 1.432
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 9.07
+    Ramachandran Plot:
+      Outliers :  0.29 %
+      Allowed  :  6.87 %
+      Favored  : 92.84 %
+    Rotamer Outliers :  0.00 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 1.37 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.05 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.42 (0.13), residues: 4106
+    helix:  1.94 (0.21), residues: 604
+    sheet: -0.60 (0.16), residues: 1068
+    loop : -1.96 (0.12), residues: 2434
+
+                     ----------Asn/Gln/His flips----------                     
+
+   C1106  GLN
+   B 354  ASN
+   D 197  ASN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.29 %
+                favored =  92.84 %
+  Rotamer outliers      =   0.00 %
+  C-beta deviations     =     0
+  Clashscore            =   9.07
+  RMS(bonds)            =   0.0052
+  RMS(angles)           =   0.98
+  MolProbity score      =   1.94
+  Refinement program    = PHENIX

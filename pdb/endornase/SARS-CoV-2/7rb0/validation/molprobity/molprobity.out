@@ -1,0 +1,130 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 16350
+     H or D atoms   : 0
+     chains         : 6
+     a.a. residues  : 2082
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 0
+   Ligands: None
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.055 (Z=  2.340)
+  Mean delta:    0.010 (Z=  0.383)
+
+                        ----------Bond angles----------                        
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   11.430 (Z=  3.266)
+  Mean delta:    1.091 (Z=  0.510)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   E 297  LEU  CA     
+   E 297  LEU  C      
+   E 298  LEU  N      
+   E 298  LEU  CA        180.00   159.45    20.55  5.00e+00  1.69e+01   4.1*sigma
+   F 297  LEU  CA     
+   F 297  LEU  C      
+   F 298  LEU  N      
+   F 298  LEU  CA        180.00   159.43    20.57  5.00e+00  1.69e+01   4.1*sigma
+   B 297  LEU  CA     
+   B 297  LEU  C      
+   B 298  LEU  N      
+   B 298  LEU  CA        180.00   159.25    20.75  5.00e+00  1.72e+01   4.1*sigma
+   C 297  LEU  CA     
+   C 297  LEU  C      
+   C 298  LEU  N      
+   C 298  LEU  CA        180.00   159.24    20.76  5.00e+00  1.72e+01   4.2*sigma
+   A 297  LEU  CA     
+   A 297  LEU  C      
+   A 298  LEU  N      
+   A 298  LEU  CA        180.00   158.72    21.28  5.00e+00  1.81e+01   4.3*sigma
+
+  Min. delta:    0.001
+  Max. delta:   85.227
+  Mean delta:   13.468
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.220
+  Mean delta:    0.052
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.040
+  Mean delta:    0.004
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.010   0.055  16698
+    Angle     :  1.091  11.430  22692
+    Chirality :  0.052   0.220   2622
+    Planarity :  0.004   0.040   2922
+    Dihedral  : 13.468  85.227   6054
+    Min Nonbonded Distance : 2.115
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 12.84
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  4.88 %
+      Favored  : 95.12 %
+    Rotamer Outliers :  0.00 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.42 (0.18), residues: 2076
+    helix: -1.13 (0.20), residues: 516
+    sheet: -0.81 (0.28), residues: 354
+    loop : -0.83 (0.18), residues: 1206
+
+                     ----------Asn/Gln/His flips----------                     
+
+   F 175  GLN
+   E 175  GLN
+   C 175  GLN
+   B 175  GLN
+   A 175  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  95.12 %
+  Rotamer outliers      =   0.00 %
+  C-beta deviations     =     0
+  Clashscore            =  12.84
+  RMS(bonds)            =   0.0097
+  RMS(angles)           =   1.09
+  MolProbity score      =   1.96
+  Refinement program    = PHENIX

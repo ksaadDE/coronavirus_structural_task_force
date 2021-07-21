@@ -25,11 +25,15 @@ SOURCE  13 ORGANISM_TAXID: 694009
 KEYWDS    CELL POLARITY, PALS1, SARS-COV-1, CELL ADHESION                       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.JAVORSKY,M.KVANSAKUL                                                
+REVDAT   2   21-JUL-21 7NTJ    1       JRNL   REMARK                            
 REVDAT   1   16-JUN-21 7NTJ    0                                                
-JRNL        AUTH   A.JAVORSKY,M.KVANSAKUL                                       
-JRNL        TITL   PALS1 PDZ1 DOMAIN WITH SARS-COV-1_E PBM COMPLEX              
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   A.JAVORSKY,P.O.HUMBERT,M.KVANSAKUL                           
+JRNL        TITL   STRUCTURAL BASIS OF CORONAVIRUS E PROTEIN INTERACTIONS WITH  
+JRNL        TITL 2 HUMAN PALS1 PDZ DOMAIN.                                      
+JRNL        REF    COMMUN BIOL                   V.   4   724 2021              
+JRNL        REFN                   ESSN 2399-3642                               
+JRNL        PMID   34117354                                                     
+JRNL        DOI    10.1038/S42003-021-02250-7                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.74 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -447,7 +451,7 @@ REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000
 REMARK 290                                                                      
 REMARK 290 REMARK: NULL                                                         
 REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 BIOMOLECULE: 1, 2                                                    
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
@@ -460,13 +464,25 @@ REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TETRAMERIC                        
-REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TETRAMERIC                 
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: DIMERIC                    
 REMARK 350 SOFTWARE USED: PISA                                                  
-REMARK 350 TOTAL BURIED SURFACE AREA: 2430 ANGSTROM**2                          
-REMARK 350 SURFACE AREA OF THE COMPLEX: 10020 ANGSTROM**2                       
-REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -12.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: B, G, A, C                            
+REMARK 350 TOTAL BURIED SURFACE AREA: 790 ANGSTROM**2                           
+REMARK 350 SURFACE AREA OF THE COMPLEX: 5140 ANGSTROM**2                        
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -6.0 KCAL/MOL                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: B, G                                  
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 2                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: DIMERIC                    
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 TOTAL BURIED SURFACE AREA: 800 ANGSTROM**2                           
+REMARK 350 SURFACE AREA OF THE COMPLEX: 5810 ANGSTROM**2                        
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -6.0 KCAL/MOL                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, C                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -5103,5 +5119,5 @@ HETATM 3118  O   HOH C 312       0.594  -5.988   9.358  1.00 28.97           O
 HETATM 3119  O   HOH C 313       3.188  -7.535   9.016  1.00 26.42           O  
 HETATM 3120  O   HOH C 314      -3.085  -1.554   9.305  1.00 24.05           O  
 HETATM 3121  O   HOH C 315      -2.025  -7.305   9.273  1.00 35.43           O  
-MASTER      526    0    0    0   10    0    0    6 1686    4    0   16          
+MASTER      538    0    0    0   10    0    0    6 1686    4    0   16          
 END                                                                             

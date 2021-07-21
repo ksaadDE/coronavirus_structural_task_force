@@ -66,22 +66,39 @@ KEYWDS   2 PROTEIN-IMMUNE SYSTEM COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.SNELL,N.CZUDNOCHOWSKI,T.I.CROLL,J.C.NIX,D.CORTI,E.CAMERONI,D.PINTO, 
 AUTHOR   2 M.BELTRAMELLO                                                        
+REVDAT   2   21-JUL-21 7M7W    1       JRNL                                     
 REVDAT   1   05-MAY-21 7M7W    0                                                
 JRNL        AUTH   T.N.STARR,N.CZUDNOCHOWSKI,F.ZATTA,Y.J.PARK,Z.LIU,A.ADDETIA,  
-JRNL        AUTH 2 D.PINTO,M.BELTRAMELLO,P.HERNANDEZ,A.J.GREANEY,R.MARZI,       
+JRNL        AUTH 2 D.PINTO,M BELTRAMELLO,P.HERNANDEZ,A.J.GREANEY,R.MARZI,       
 JRNL        AUTH 3 W.G.GLASS,I.ZHANG,A.S.DINGENS,J.E.BOWEN,J.A.WOJCECHOWSKYJ,   
 JRNL        AUTH 4 A.DE MARCO,L.E.ROSEN,J.ZHOU,M.MONTIEL-RUIZ,H.KAISER,         
-JRNL        AUTH 5 H.TUCKER,M.P.HOUSLEY,J.DI IULIO,G.LOMBARDO,M.AGOSTINI,       
+JRNL        AUTH 5 H.TUCKER,M.P.HOUSLEY,J.DE IULIO,G.LOMBARDO,M.AGOSTINI,       
 JRNL        AUTH 6 N.SPRUGASCI,K.CULAP,S.JACONI,M.MEURY,E.DELLOTA,E.CAMERONI,   
 JRNL        AUTH 7 T.I.CROLL,J.C.NIX,C.HAVENAR-DAUGHTON,A.TELENTI,F.A.LEMPP,    
 JRNL        AUTH 8 M.S.PIZZUTO,J.D.CHODERA,C.M.HEBNER,S.P.J.WHELAN,H.W.VIRGIN,  
 JRNL        AUTH 9 D.VEESLER,D.CORTI,J.D.BLOOM,G.SNELL                          
-JRNL        TITL   ANTIBODIES TO THE SARS-COV-2 RECEPTOR-BINDING DOMAIN THAT    
-JRNL        TITL 2 MAXIMIZE BREADTH AND RESISTANCE TO VIRAL ESCAPE.             
-JRNL        REF    BIORXIV                                    2021              
-JRNL        REFN                                                                
-JRNL        PMID   33851154                                                     
-JRNL        DOI    10.1101/2021.04.06.438709                                    
+JRNL        TITL   SARS-COV-2 RBD ANTIBODIES THAT MAXIMIZE BREADTH AND          
+JRNL        TITL 2 RESISTANCE TO ESCAPE                                         
+JRNL        REF    NATURE                                     2021              
+JRNL        REFN                   ESSN 1476-4687                               
+JRNL        DOI    10.1038/S41586-021-03807-6                                   
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   T.N.STARR,N.CZUDNOCHOWSKI,F.ZATTA,Y.J.PARK,Z.LIU,A.ADDETIA,  
+REMARK   1  AUTH 2 D.PINTO,M.BELTRAMELLO,P.HERNANDEZ,A.J.GREANEY,R.MARZI,       
+REMARK   1  AUTH 3 W.G.GLASS,I.ZHANG,A.S.DINGENS,J.E.BOWEN,J.A.WOJCECHOWSKYJ,   
+REMARK   1  AUTH 4 A.DE MARCO,L.E.ROSEN,J.ZHOU,M.MONTIEL-RUIZ,H.KAISER,         
+REMARK   1  AUTH 5 H.TUCKER,M.P.HOUSLEY,J.DI IULIO,G.LOMBARDO,M.AGOSTINI,       
+REMARK   1  AUTH 6 N.SPRUGASCI,K.CULAP,S.JACONI,M.MEURY,E.DELLOTA,E.CAMERONI,   
+REMARK   1  AUTH 7 T.I.CROLL,J.C.NIX,C.HAVENAR-DAUGHTON,A.TELENTI,F.A.LEMPP,    
+REMARK   1  AUTH 8 M.S.PIZZUTO,J.D.CHODERA,C.M.HEBNER,S.P.J.WHELAN,H.W.VIRGIN,  
+REMARK   1  AUTH 9 D.VEESLER,D.CORTI,J.D.BLOOM,G.SNELL                          
+REMARK   1  TITL   ANTIBODIES TO THE SARS-COV-2 RECEPTOR-BINDING DOMAIN THAT    
+REMARK   1  TITL 2 MAXIMIZE BREADTH AND RESISTANCE TO VIRAL ESCAPE.             
+REMARK   1  REF    BIORXIV                                    2021              
+REMARK   1  REFN                                                                
+REMARK   1  PMID   33851154                                                     
+REMARK   1  DOI    10.1101/2021.04.06.438709                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.65 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -33657,5 +33674,5 @@ CONECT1618716180
 CONECT161881617716181                                                           
 CONECT1618916182                                                                
 CONECT1619016183                                                                
-MASTER      568    0    2   49  222    0    0    616275   10   78  174          
+MASTER      585    0    2   49  222    0    0    616275   10   78  174          
 END                                                                             

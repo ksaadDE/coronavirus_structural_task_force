@@ -3,7 +3,7 @@ data_7ORB
 _entry.id   7ORB 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.344 
+_audit_conform.dict_version    5.346 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -49,18 +49,18 @@ _citation.id                        primary
 _citation.journal_abbrev            Cell 
 _citation.journal_id_ASTM           ? 
 _citation.journal_id_CSD            ? 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_ISSN           1097-4172 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     'Reduced neutralization of SARS-CoV-2 B.1.617 by vaccine and convalescent serum' 
+_citation.title                     'Reduced neutralization of SARS-CoV-2 B.1.617 by vaccine and convalescent serum.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.cell.2021.06.020 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34242578 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -79,7 +79,7 @@ primary 'Nutalai, R.'             7  ?
 primary 'Zhou, D.'                8  ? 
 primary 'Mentzer, A.J.'           9  ? 
 primary 'Zhao, Y.'                10 ? 
-primary 'Duyvesteyn, H.M.'        11 ? 
+primary 'Duyvesteyn, H.M.E.'      11 ? 
 primary 'Lopez-Camacho, C.'       12 ? 
 primary 'Slon-Campos, J.'         13 ? 
 primary 'Walter, T.S.'            14 ? 
@@ -87,44 +87,47 @@ primary 'Skelly, D.'              15 ?
 primary 'Johnson, S.A.'           16 ? 
 primary 'Ritter, T.G.'            17 ? 
 primary 'Mason, C.'               18 ? 
-primary 'Naveca, F.G.'            19 ? 
-primary 'Nascimento, V.'          20 ? 
-primary 'Nascimento, F.'          21 ? 
-primary 'Resende, P.C.'           22 ? 
-primary 'Pauvolid-Correa, A.'     23 ? 
-primary 'Siqueira, M.M.'          24 ? 
-primary 'Dold, C.'                25 ? 
-primary 'Temperton, N.'           26 ? 
-primary 'Dong, T.'                27 ? 
-primary 'Pollard, A.J.'           28 ? 
-primary 'Knight, J.C.'            29 ? 
-primary 'Crook, D.'               30 ? 
-primary 'Lambe, T.'               31 ? 
-primary 'Clutterbuck, E.'         32 ? 
-primary 'Bibi, S.'                33 ? 
-primary 'Flaxman, A.'             34 ? 
-primary 'Bittaye, M.'             35 ? 
-primary 'Belij-Rammerstorfer, S.' 36 ? 
-primary 'Gilbert, S.C.'           37 ? 
-primary 'Malik, T.'               38 ? 
-primary 'Carroll, M.W.'           39 ? 
-primary 'Klenerman, P.'           40 ? 
-primary 'Barnes, E.'              41 ? 
-primary 'Dunachie, S.J.'          42 ? 
-primary 'Baillie, V.'             43 ? 
-primary 'Serafin, N.'             44 ? 
-primary 'Ditse, Z.'               45 ? 
-primary 'Paterson, N.G.'          46 ? 
-primary 'Williams, M.A.'          47 ? 
-primary 'Hall, D.R.'              48 ? 
-primary 'Madhi, S.'               49 ? 
-primary 'Nunes, M.C.'             50 ? 
-primary 'Goulder, P.'             51 ? 
-primary 'Fry, E.E.'               52 ? 
-primary 'Mongkolsapaya, J.'       53 ? 
-primary 'Ren, J.'                 54 ? 
-primary 'Stuart, D.I.'            55 ? 
-primary 'Screaton, G.R.'          56 ? 
+primary 'Costa Clemens, S.A.'     19 ? 
+primary 'Gomes Naveca, F.'        20 ? 
+primary 'Nascimento, V.'          21 ? 
+primary 'Nascimento, F.'          22 ? 
+primary 'Fernandes da Costa, C.'  23 ? 
+primary 'Resende, P.C.'           24 ? 
+primary 'Pauvolid-Correa, A.'     25 ? 
+primary 'Siqueira, M.M.'          26 ? 
+primary 'Dold, C.'                27 ? 
+primary 'Temperton, N.'           28 ? 
+primary 'Dong, T.'                29 ? 
+primary 'Pollard, A.J.'           30 ? 
+primary 'Knight, J.C.'            31 ? 
+primary 'Crook, D.'               32 ? 
+primary 'Lambe, T.'               33 ? 
+primary 'Clutterbuck, E.'         34 ? 
+primary 'Bibi, S.'                35 ? 
+primary 'Flaxman, A.'             36 ? 
+primary 'Bittaye, M.'             37 ? 
+primary 'Belij-Rammerstorfer, S.' 38 ? 
+primary 'Gilbert, S.C.'           39 ? 
+primary 'Malik, T.'               40 ? 
+primary 'Carroll, M.W.'           41 ? 
+primary 'Klenerman, P.'           42 ? 
+primary 'Barnes, E.'              43 ? 
+primary 'Dunachie, S.J.'          44 ? 
+primary 'Baillie, V.'             45 ? 
+primary 'Serafin, N.'             46 ? 
+primary 'Ditse, Z.'               47 ? 
+primary 'Da Silva, K.'            48 ? 
+primary 'Paterson, N.G.'          49 ? 
+primary 'Williams, M.A.'          50 ? 
+primary 'Hall, D.R.'              51 ? 
+primary 'Madhi, S.'               52 ? 
+primary 'Nunes, M.C.'             53 ? 
+primary 'Goulder, P.'             54 ? 
+primary 'Fry, E.E.'               55 ? 
+primary 'Mongkolsapaya, J.'       56 ? 
+primary 'Ren, J.'                 57 ? 
+primary 'Stuart, D.I.'            58 ? 
+primary 'Screaton, G.R.'          59 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -2247,8 +2250,6 @@ _struct.entry_id                     7ORB
 _struct.title                        
 ;Crystal structure of the L452R mutant receptor binding domain of SARS-CoV-2 Spike glycoprotein in complex with COVOX-75 and COVOX-253 Fabs
 ;
-_struct.pdbx_descriptor              
-'Surface glycoprotein, COVOX-253 Fab heavy chain, COVOX-253 Fab light chain, COVOX-75 Fab heavy chain, COVOX-75 Fab light chain' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -39055,11 +39056,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-07-07 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-07-07 
+2 'Structure model' 1 1 2021-07-21 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -39068,6 +39072,28 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.journal_id_ISSN'         
+2 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+3 2 'Structure model' '_citation.title'                   
 # 
 loop_
 _pdbx_refine_tls.pdbx_refine_id 

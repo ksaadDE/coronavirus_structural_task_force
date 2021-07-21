@@ -19,14 +19,17 @@ SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3)
 KEYWDS    SARS-COV-2, 3CLPRO, INHIBITOR, COMPLEX, MYRICETIN, VIRAL PROTEIN      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    H.X.SU,W.F.ZHAO,H.XIE,M.J.LI,Y.C.XU                                   
+REVDAT   2   21-JUL-21 7DPV    1       JRNL                                     
 REVDAT   1   12-MAY-21 7DPV    0                                                
-JRNL        AUTH   H.X.SU,S.YAO,W.F.ZHAO,Q.X.WANG,J.LIU,Q.SHAO,M.J.LI,H.XIE,    
-JRNL        AUTH 2 W.J.SHANG,C.Q.KE,L.FENG,X.R.JIANG,J.S.SHEN,G.F.XIAO,         
-JRNL        AUTH 3 H.L.JIANG,L.K.ZHANG,Y.YE,Y.C.XU                              
-JRNL        TITL   IDENTIFICATION OF PYROGALLOL AS A NOVEL WARHEAD IN DESIGN OF 
-JRNL        TITL 2 COVALENT INHIBITORS FOR SARS-COV-2 3CL PROTEASE              
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   H.SU,S.YAO,W.ZHAO,Y.ZHANG,J.LIU,Q.SHAO,Q.WANG,M.LI,H.XIE,    
+JRNL        AUTH 2 W.SHANG,C.KE,L.FENG,X.JIANG,J.SHEN,G.XIAO,H.JIANG,L.ZHANG,   
+JRNL        AUTH 3 Y.YE,Y.XU                                                    
+JRNL        TITL   IDENTIFICATION OF PYROGALLOL AS A WARHEAD IN DESIGN OF       
+JRNL        TITL 2 COVALENT INHIBITORS FOR THE SARS-COV-2 3CL PROTEASE.         
+JRNL        REF    NAT COMMUN                    V.  12  3623 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   34131140                                                     
+JRNL        DOI    10.1038/S41467-021-23751-3                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.35 ANGSTROMS.                                       
 REMARK   3                                                                      

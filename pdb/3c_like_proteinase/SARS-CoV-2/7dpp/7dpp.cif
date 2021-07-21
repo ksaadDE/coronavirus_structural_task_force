@@ -3,7 +3,7 @@ data_7DPP
 _entry.id   7DPP 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.341 
+_audit_conform.dict_version    5.344 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -42,26 +42,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Nat Commun' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           2041-1723 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                3623 
+_citation.page_last                 3623 
 _citation.title                     
-'Identification of pyrogallol as a novel warhead in design of covalent inhibitors for SARS-CoV-2 3CL protease' 
-_citation.year                      ? 
+'Identification of pyrogallol as a warhead in design of covalent inhibitors for the SARS-CoV-2 3CL protease.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1038/s41467-021-23751-3 
+_citation.pdbx_database_id_PubMed   34131140 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -69,24 +69,25 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Su, H.X.'    1  ? 
-primary 'Yao, S.'     2  ? 
-primary 'Zhao, W.F.'  3  ? 
-primary 'Wang, Q.X.'  4  ? 
-primary 'Liu, J.'     5  ? 
-primary 'Shao, Q.'    6  ? 
-primary 'Li, M.J.'    7  ? 
-primary 'Xie, H.'     8  ? 
-primary 'Shang, W.J.' 9  ? 
-primary 'Ke, C.Q.'    10 ? 
-primary 'Feng, L.'    11 ? 
-primary 'Jiang, X.R.' 12 ? 
-primary 'Shen, J.S.'  13 ? 
-primary 'Xiao, G.F.'  14 ? 
-primary 'Jiang, H.L.' 15 ? 
-primary 'Zhang, L.K.' 16 ? 
-primary 'Ye, Y.'      17 ? 
-primary 'Xu, Y.C.'    18 ? 
+primary 'Su, H.'    1  0000-0002-7174-3851 
+primary 'Yao, S.'   2  ?                   
+primary 'Zhao, W.'  3  0000-0003-2517-4747 
+primary 'Zhang, Y.' 4  0000-0003-0767-1221 
+primary 'Liu, J.'   5  0000-0002-8167-9750 
+primary 'Shao, Q.'  6  ?                   
+primary 'Wang, Q.'  7  0000-0003-1028-1267 
+primary 'Li, M.'    8  ?                   
+primary 'Xie, H.'   9  ?                   
+primary 'Shang, W.' 10 ?                   
+primary 'Ke, C.'    11 ?                   
+primary 'Feng, L.'  12 ?                   
+primary 'Jiang, X.' 13 ?                   
+primary 'Shen, J.'  14 0000-0001-9679-9934 
+primary 'Xiao, G.'  15 ?                   
+primary 'Jiang, H.' 16 0000-0003-0656-6315 
+primary 'Zhang, L.' 17 0000-0002-2593-2571 
+primary 'Ye, Y.'    18 0000-0003-1316-5915 
+primary 'Xu, Y.'    19 0000-0002-1581-6155 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -6290,11 +6291,14 @@ _pdbx_struct_special_symmetry.label_seq_id
 2 1 A HOH 541 ? C HOH . 
 3 1 A HOH 560 ? C HOH . 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-05-12 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-05-12 
+2 'Structure model' 1 1 2021-07-21 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -6303,6 +6307,36 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.country'                 
+2  2 'Structure model' '_citation.journal_abbrev'          
+3  2 'Structure model' '_citation.journal_id_CSD'          
+4  2 'Structure model' '_citation.journal_id_ISSN'         
+5  2 'Structure model' '_citation.journal_volume'          
+6  2 'Structure model' '_citation.page_first'              
+7  2 'Structure model' '_citation.page_last'               
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 2 'Structure model' '_citation.title'                   
+11 2 'Structure model' '_citation.year'                    
 # 
 loop_
 _pdbx_refine_tls.id 

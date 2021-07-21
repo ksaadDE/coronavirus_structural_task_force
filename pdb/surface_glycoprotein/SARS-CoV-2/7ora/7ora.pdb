@@ -56,22 +56,26 @@ KEYWDS   2 VARIANT, ANTIBODY, RECEPTOR-BINDING-DOMAIN, SPIKE, NEUTRALISATION,
 KEYWDS   3 VIRAL PROTEIN/IMMUNE SYSTEM, VIRAL PROTEIN                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.ZHOU,J.REN,D.I.STUART                                               
+REVDAT   2   21-JUL-21 7ORA    1       JRNL                                     
 REVDAT   1   07-JUL-21 7ORA    0                                                
 JRNL        AUTH   C.LIU,H.M.GINN,W.DEJNIRATTISAI,P.SUPASA,B.WANG,              
 JRNL        AUTH 2 A.TUEKPRAKHON,R.NUTALAI,D.ZHOU,A.J.MENTZER,Y.ZHAO,           
-JRNL        AUTH 3 H.M.DUYVESTEYN,C.LOPEZ-CAMACHO,J.SLON-CAMPOS,T.S.WALTER,     
-JRNL        AUTH 4 D.SKELLY,S.A.JOHNSON,T.G.RITTER,C.MASON,F.G.NAVECA,          
-JRNL        AUTH 5 V.NASCIMENTO,F.NASCIMENTO,P.C.RESENDE,A.PAUVOLID-CORREA,     
-JRNL        AUTH 6 M.M.SIQUEIRA,C.DOLD,N.TEMPERTON,T.DONG,A.J.POLLARD,          
-JRNL        AUTH 7 J.C.KNIGHT,D.CROOK,T.LAMBE,E.CLUTTERBUCK,S.BIBI,A.FLAXMAN,   
-JRNL        AUTH 8 M.BITTAYE,S.BELIJ-RAMMERSTORFER,S.C.GILBERT,T.MALIK,         
-JRNL        AUTH 9 M.W.CARROLL,P.KLENERMAN,E.BARNES,S.J.DUNACHIE,V.BAILLIE,     
-JRNL        AUTH10 N.SERAFIN,Z.DITSE,N.G.PATERSON,M.A.WILLIAMS,D.R.HALL,        
-JRNL        AUTH11 S.MADHI,M.C.NUNES,P.GOULDER,E.E.FRY,J.MONGKOLSAPAYA,J.REN,   
-JRNL        AUTH12 D.I.STUART,G.R.SCREATON                                      
+JRNL        AUTH 3 H.M.E.DUYVESTEYN,C.LOPEZ-CAMACHO,J.SLON-CAMPOS,T.S.WALTER,   
+JRNL        AUTH 4 D.SKELLY,S.A.JOHNSON,T.G.RITTER,C.MASON,S.A.COSTA CLEMENS,   
+JRNL        AUTH 5 F.GOMES NAVECA,V.NASCIMENTO,F.NASCIMENTO,                    
+JRNL        AUTH 6 C.FERNANDES DA COSTA,P.C.RESENDE,A.PAUVOLID-CORREA,          
+JRNL        AUTH 7 M.M.SIQUEIRA,C.DOLD,N.TEMPERTON,T.DONG,A.J.POLLARD,          
+JRNL        AUTH 8 J.C.KNIGHT,D.CROOK,T.LAMBE,E.CLUTTERBUCK,S.BIBI,A.FLAXMAN,   
+JRNL        AUTH 9 M.BITTAYE,S.BELIJ-RAMMERSTORFER,S.C.GILBERT,T.MALIK,         
+JRNL        AUTH10 M.W.CARROLL,P.KLENERMAN,E.BARNES,S.J.DUNACHIE,V.BAILLIE,     
+JRNL        AUTH11 N.SERAFIN,Z.DITSE,K.DA SILVA,N.G.PATERSON,M.A.WILLIAMS,      
+JRNL        AUTH12 D.R.HALL,S.MADHI,M.C.NUNES,P.GOULDER,E.E.FRY,                
+JRNL        AUTH13 J.MONGKOLSAPAYA,J.REN,D.I.STUART,G.R.SCREATON                
 JRNL        TITL   REDUCED NEUTRALIZATION OF SARS-COV-2 B.1.617 BY VACCINE AND  
-JRNL        TITL 2 CONVALESCENT SERUM                                           
+JRNL        TITL 2 CONVALESCENT SERUM.                                          
 JRNL        REF    CELL                                       2021              
+JRNL        REFN                   ISSN 1097-4172                               
+JRNL        PMID   34242578                                                     
 JRNL        DOI    10.1016/J.CELL.2021.06.020                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.60 ANGSTROMS.                                       

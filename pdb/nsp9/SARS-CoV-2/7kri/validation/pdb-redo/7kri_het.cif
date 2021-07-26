@@ -1,0 +1,199 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+X0Y      X0Y '.                                   ' .                  21  13 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_X0Y
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ X0Y           O13    O    O         0.000     60.180    1.926   -4.064
+ X0Y           C01    C    CR6       0.000     60.783    1.412   -3.174
+ X0Y           N09    N    NR6       0.000     60.124    0.961   -1.994
+ X0Y           C10    C    CH3       0.000     58.686    1.134   -1.863
+ X0Y           H103   H    H         0.000     58.451    2.164   -1.915
+ X0Y           H102   H    H         0.000     58.198    0.618   -2.648
+ X0Y           H101   H    H         0.000     58.370    0.745   -0.931
+ X0Y           C08    C    CR6       0.000     60.832    0.330   -0.924
+ X0Y           O11    O    O         0.000     60.235   -0.026    0.036
+ X0Y           N07    N    NR6       0.000     62.268    0.142   -1.047
+ X0Y           C12    C    CH3       0.000     63.006   -0.501    0.036
+ X0Y           H123   H    H         0.000     62.892    0.065    0.923
+ X0Y           H122   H    H         0.000     62.627   -1.478    0.188
+ X0Y           H121   H    H         0.000     64.032   -0.555   -0.221
+ X0Y           C06    C    CR56      0.000     62.961    0.615   -2.267
+ X0Y           C02    C    CR56      0.000     62.276    1.212   -3.296
+ X0Y           C05    C    CR15      0.000     64.304    0.570   -2.668
+ X0Y           H05    H    H         0.000     65.125    0.153   -2.098
+ X0Y           N04    N    NRD5      0.000     64.395    1.137   -3.887
+ X0Y           C03    C    CR15      0.000     63.179    1.541   -4.306
+ X0Y           H03    H    H         0.000     62.948    2.027   -5.246
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ X0Y      O13    n/a    C01    START
+ X0Y      C01    O13    N09    .
+ X0Y      N09    C01    C08    .
+ X0Y      C10    N09    H101   .
+ X0Y      H103   C10    .      .
+ X0Y      H102   C10    .      .
+ X0Y      H101   C10    .      .
+ X0Y      C08    N09    N07    .
+ X0Y      O11    C08    .      .
+ X0Y      N07    C08    C06    .
+ X0Y      C12    N07    H121   .
+ X0Y      H123   C12    .      .
+ X0Y      H122   C12    .      .
+ X0Y      H121   C12    .      .
+ X0Y      C06    N07    C05    .
+ X0Y      C02    C06    .      .
+ X0Y      C05    C06    N04    .
+ X0Y      H05    C05    .      .
+ X0Y      N04    C05    C03    .
+ X0Y      C03    N04    H03    .
+ X0Y      H03    C03    .      END
+ X0Y      C01    C02    .    ADD
+ X0Y      C02    C03    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ X0Y      C01    C02       single      1.490    0.020
+ X0Y      N09    C01       single      1.410    0.020
+ X0Y      C01    O13       double      1.250    0.020
+ X0Y      C02    C03       aromatic    1.440    0.020
+ X0Y      C02    C06       aromatic    1.390    0.020
+ X0Y      C03    N04       aromatic    1.350    0.020
+ X0Y      C05    C06       aromatic    1.440    0.020
+ X0Y      N04    C05       deloc       1.350    0.020
+ X0Y      C06    N07       single      1.337    0.020
+ X0Y      N07    C08       single      1.410    0.020
+ X0Y      C08    N09       single      1.410    0.020
+ X0Y      O11    C08       double      1.250    0.020
+ X0Y      C10    N09       single      1.465    0.020
+ X0Y      C12    N07       single      1.465    0.020
+ X0Y      H03    C03       single      1.083    0.020
+ X0Y      H05    C05       single      1.083    0.020
+ X0Y      H101   C10       single      1.059    0.020
+ X0Y      H102   C10       single      1.059    0.020
+ X0Y      H103   C10       single      1.059    0.020
+ X0Y      H121   C12       single      1.059    0.020
+ X0Y      H122   C12       single      1.059    0.020
+ X0Y      H123   C12       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ X0Y      O13    C01    N09     120.000    3.000
+ X0Y      O13    C01    C02     120.000    3.000
+ X0Y      N09    C01    C02     120.000    3.000
+ X0Y      C01    N09    C10     120.000    3.000
+ X0Y      C01    N09    C08     120.000    3.000
+ X0Y      C10    N09    C08     120.000    3.000
+ X0Y      N09    C10    H103    109.470    3.000
+ X0Y      N09    C10    H102    109.470    3.000
+ X0Y      N09    C10    H101    109.470    3.000
+ X0Y      H103   C10    H102    109.470    3.000
+ X0Y      H103   C10    H101    109.470    3.000
+ X0Y      H102   C10    H101    109.470    3.000
+ X0Y      N09    C08    O11     120.000    3.000
+ X0Y      N09    C08    N07     120.000    3.000
+ X0Y      O11    C08    N07     120.000    3.000
+ X0Y      C08    N07    C12     120.000    3.000
+ X0Y      C08    N07    C06     120.000    3.000
+ X0Y      C12    N07    C06     120.000    3.000
+ X0Y      N07    C12    H123    109.470    3.000
+ X0Y      N07    C12    H122    109.470    3.000
+ X0Y      N07    C12    H121    109.470    3.000
+ X0Y      H123   C12    H122    109.470    3.000
+ X0Y      H123   C12    H121    109.470    3.000
+ X0Y      H122   C12    H121    109.470    3.000
+ X0Y      N07    C06    C02     120.000    3.000
+ X0Y      N07    C06    C05     120.000    3.000
+ X0Y      C02    C06    C05     120.000    3.000
+ X0Y      C06    C02    C01     120.000    3.000
+ X0Y      C06    C02    C03     120.000    3.000
+ X0Y      C01    C02    C03     132.000    3.000
+ X0Y      C06    C05    H05     108.000    3.000
+ X0Y      C06    C05    N04     108.000    3.000
+ X0Y      H05    C05    N04     126.000    3.000
+ X0Y      C05    N04    C03     108.000    3.000
+ X0Y      N04    C03    H03     126.000    3.000
+ X0Y      N04    C03    C02     108.000    3.000
+ X0Y      H03    C03    C02     108.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ X0Y      CONST_1          O13    C01    C02    C06              180.000            0.000   0
+ X0Y      CONST_2          O13    C01    N09    C08                0.000            0.000   0
+ X0Y      var_1            C01    N09    C10    H101             180.000           20.000   3
+ X0Y      CONST_3          C01    N09    C08    N07                0.000            0.000   0
+ X0Y      CONST_4          N09    C08    N07    C06                0.000            0.000   0
+ X0Y      var_2            C08    N07    C12    H121             180.000           20.000   3
+ X0Y      CONST_5          C08    N07    C06    C05              180.000            0.000   0
+ X0Y      CONST_6          N07    C06    C02    C01              180.000            0.000   0
+ X0Y      CONST_7          C06    C02    C03    N04                0.320            0.000   0
+ X0Y      CONST_8          N07    C06    C05    N04              179.457            0.000   0
+ X0Y      CONST_9          C06    C05    N04    C03                0.000            0.000   0
+ X0Y      CONST_10         C05    N04    C03    C02                0.000            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ X0Y      plan-1            C01       0.020
+ X0Y      plan-1            C02       0.020
+ X0Y      plan-1            N09       0.020
+ X0Y      plan-1            O13       0.020
+ X0Y      plan-1            C08       0.020
+ X0Y      plan-1            N07       0.020
+ X0Y      plan-1            C03       0.020
+ X0Y      plan-1            C06       0.020
+ X0Y      plan-1            C05       0.020
+ X0Y      plan-1            N04       0.020
+ X0Y      plan-1            H03       0.020
+ X0Y      plan-1            H05       0.020
+ X0Y      plan-1            O11       0.020
+ X0Y      plan-1            C12       0.020
+ X0Y      plan-1            C10       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

@@ -1,0 +1,694 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+YWJ      YWJ '.                                   ' .                  65  34 .
+FN7      FN7 '.                                   ' .                  22  12 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-YWJ  CYS      .        .        YWJ      .        .
+ bond_CYS-SG_=_YWJ-C34
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_YWJ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ YWJ           O33    O    O         0.000      4.334   28.136   46.965
+ YWJ           C32    C    C         0.000      4.562   28.477   48.085
+ YWJ           N31    N    NH1       0.000      4.269   29.917   48.490
+ YWJ           HN31   H    H         0.000      3.902   30.589   47.831
+ YWJ           C30    C    CH2       0.000      4.556   30.292   49.935
+ YWJ           H301   H    H         0.000      3.611   30.274   50.482
+ YWJ           H302   H    H         0.000      4.962   31.306   49.946
+ YWJ           C29    C    CH2       0.000      5.523   29.361   50.579
+ YWJ           H291   H    H         0.000      5.624   29.663   51.623
+ YWJ           H292   H    H         0.000      6.483   29.482   50.072
+ YWJ           C28    C    C1        0.000      5.107   27.958   50.513
+ YWJ           H28    H    H         0.000      4.820   27.379   51.374
+ YWJ           C27    C    C         0.000      5.124   27.441   49.179
+ YWJ           C26    C    CH2       0.000      4.232   26.126   49.005
+ YWJ           H261   H    H         0.000      4.371   25.781   47.978
+ YWJ           H262   H    H         0.000      3.192   26.426   49.149
+ YWJ           C03    C    CH1       0.000      4.578   24.993   49.978
+ YWJ           H03    H    H         0.000      4.677   25.416   50.988
+ YWJ           C02    C    C         0.000      3.531   23.891   50.013
+ YWJ           O01    O    O         0.000      2.356   24.148   49.856
+ YWJ           C34    C    CH3       0.000      4.019   22.451   50.274
+ YWJ           H343   H    H         0.000      4.703   22.156   49.516
+ YWJ           H342   H    H         0.000      4.505   22.398   51.217
+ YWJ           H341   H    H         0.000      3.194   21.782   50.273
+ YWJ           N04    N    NH1       0.000      5.865   24.429   49.581
+ YWJ           HN04   H    H         0.000      5.936   23.920   48.712
+ YWJ           C05    C    C         0.000      7.048   24.587   50.414
+ YWJ           O25    O    O         0.000      6.967   25.176   51.464
+ YWJ           C06    C    CH1       0.000      8.385   23.993   49.967
+ YWJ           H06    H    H         0.000      8.397   23.939   48.869
+ YWJ           C07    C    CH2       0.000      8.607   22.597   50.525
+ YWJ           H071   H    H         0.000      7.691   22.018   50.391
+ YWJ           H072   H    H         0.000      8.832   22.679   51.590
+ YWJ           C08    C    CH1       0.000      9.760   21.899   49.812
+ YWJ           H08    H    H         0.000     10.595   22.605   49.703
+ YWJ           C09    C    CH3       0.000     10.250   20.654   50.562
+ YWJ           H093   H    H         0.000     10.586   20.931   51.528
+ YWJ           H092   H    H         0.000      9.456   19.958   50.652
+ YWJ           H091   H    H         0.000     11.049   20.208   50.027
+ YWJ           C10    C    CH3       0.000      9.300   21.455   48.431
+ YWJ           H103   H    H         0.000      8.486   20.786   48.529
+ YWJ           H102   H    H         0.000      8.997   22.301   47.872
+ YWJ           H101   H    H         0.000     10.098   20.970   47.933
+ YWJ           N11    N    NH1       0.000      9.426   24.912   50.399
+ YWJ           HN11   H    H         0.000     10.029   24.688   51.178
+ YWJ           C12    C    C         0.000      9.570   26.159   49.675
+ YWJ           O24    O    O         0.000      8.837   26.434   48.756
+ YWJ           C13    C    CR5       0.000     10.677   27.084   50.156
+ YWJ           N23    N    NRD5      0.000     10.901   28.327   49.750
+ YWJ           C22    C    CR56      0.000     11.985   28.835   50.382
+ YWJ           C21    C    CR16      0.000     12.616   30.101   50.288
+ YWJ           H21    H    H         0.000     12.240   30.839   49.590
+ YWJ           C14    C    CR15      0.000     11.622   26.763   51.123
+ YWJ           H14    H    H         0.000     11.705   25.826   51.660
+ YWJ           C15    C    CR56      0.000     12.448   27.890   51.269
+ YWJ           C16    C    CR6       0.000     13.578   28.187   52.076
+ YWJ           O17    O    O2        0.000     14.050   27.208   52.957
+ YWJ           C18    C    CH3       0.000     14.073   27.637   54.294
+ YWJ           H183   H    H         0.000     14.706   28.480   54.378
+ YWJ           H182   H    H         0.000     13.092   27.896   54.593
+ YWJ           H181   H    H         0.000     14.438   26.854   54.904
+ YWJ           C19    C    CR16      0.000     14.204   29.443   51.974
+ YWJ           H19    H    H         0.000     15.068   29.667   52.587
+ YWJ           C20    C    CR16      0.000     13.715   30.401   51.086
+ YWJ           H20    H    H         0.000     14.188   31.373   51.018
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ YWJ      O33    n/a    C32    START
+ YWJ      C32    O33    C27    .
+ YWJ      N31    C32    C30    .
+ YWJ      HN31   N31    .      .
+ YWJ      C30    N31    C29    .
+ YWJ      H301   C30    .      .
+ YWJ      H302   C30    .      .
+ YWJ      C29    C30    C28    .
+ YWJ      H291   C29    .      .
+ YWJ      H292   C29    .      .
+ YWJ      C28    C29    H28    .
+ YWJ      H28    C28    .      .
+ YWJ      C27    C32    C26    .
+ YWJ      C26    C27    C03    .
+ YWJ      H261   C26    .      .
+ YWJ      H262   C26    .      .
+ YWJ      C03    C26    N04    .
+ YWJ      H03    C03    .      .
+ YWJ      C02    C03    C34    .
+ YWJ      O01    C02    .      .
+ YWJ      C34    C02    H341   .
+ YWJ      H343   C34    .      .
+ YWJ      H342   C34    .      .
+ YWJ      H341   C34    .      .
+ YWJ      N04    C03    C05    .
+ YWJ      HN04   N04    .      .
+ YWJ      C05    N04    C06    .
+ YWJ      O25    C05    .      .
+ YWJ      C06    C05    N11    .
+ YWJ      H06    C06    .      .
+ YWJ      C07    C06    C08    .
+ YWJ      H071   C07    .      .
+ YWJ      H072   C07    .      .
+ YWJ      C08    C07    C10    .
+ YWJ      H08    C08    .      .
+ YWJ      C09    C08    H091   .
+ YWJ      H093   C09    .      .
+ YWJ      H092   C09    .      .
+ YWJ      H091   C09    .      .
+ YWJ      C10    C08    H101   .
+ YWJ      H103   C10    .      .
+ YWJ      H102   C10    .      .
+ YWJ      H101   C10    .      .
+ YWJ      N11    C06    C12    .
+ YWJ      HN11   N11    .      .
+ YWJ      C12    N11    C13    .
+ YWJ      O24    C12    .      .
+ YWJ      C13    C12    C14    .
+ YWJ      N23    C13    C22    .
+ YWJ      C22    N23    C21    .
+ YWJ      C21    C22    H21    .
+ YWJ      H21    C21    .      .
+ YWJ      C14    C13    C15    .
+ YWJ      H14    C14    .      .
+ YWJ      C15    C14    C16    .
+ YWJ      C16    C15    C19    .
+ YWJ      O17    C16    C18    .
+ YWJ      C18    O17    H181   .
+ YWJ      H183   C18    .      .
+ YWJ      H182   C18    .      .
+ YWJ      H181   C18    .      .
+ YWJ      C19    C16    C20    .
+ YWJ      H19    C19    .      .
+ YWJ      C20    C19    H20    .
+ YWJ      H20    C20    .      END
+ YWJ      C15    C22    .    ADD
+ YWJ      C20    C21    .    ADD
+ YWJ      C28    C27    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ YWJ      C10    C08       single      1.524    0.020
+ YWJ      C13    C12       single      1.490    0.020
+ YWJ      C14    C13       aromatic    1.387    0.020
+ YWJ      N23    C13       aromatic    1.350    0.020
+ YWJ      C15    C22       aromatic    1.390    0.020
+ YWJ      C15    C14       aromatic    1.440    0.020
+ YWJ      C16    C15       aromatic    1.390    0.020
+ YWJ      C20    C21       aromatic    1.390    0.020
+ YWJ      C20    C19       aromatic    1.390    0.020
+ YWJ      C21    C22       aromatic    1.390    0.020
+ YWJ      C22    N23       aromatic    1.350    0.020
+ YWJ      C03    C26       single      1.524    0.020
+ YWJ      C26    C27       single      1.510    0.020
+ YWJ      C28    C27       aromatic    1.340    0.020
+ YWJ      C28    C29       single      1.510    0.020
+ YWJ      C02    C03       single      1.500    0.020
+ YWJ      C34    C02       single      1.500    0.020
+ YWJ      O01    C02       double      1.220    0.020
+ YWJ      N04    C03       single      1.450    0.020
+ YWJ      C06    C05       single      1.500    0.020
+ YWJ      C05    N04       single      1.330    0.020
+ YWJ      O25    C05       double      1.220    0.020
+ YWJ      C07    C06       single      1.524    0.020
+ YWJ      N11    C06       single      1.450    0.020
+ YWJ      C08    C07       single      1.524    0.020
+ YWJ      C09    C08       single      1.524    0.020
+ YWJ      C12    N11       single      1.330    0.020
+ YWJ      O24    C12       double      1.220    0.020
+ YWJ      C19    C16       aromatic    1.390    0.020
+ YWJ      O17    C16       single      1.370    0.020
+ YWJ      C18    O17       single      1.426    0.020
+ YWJ      C27    C32       single      1.460    0.020
+ YWJ      C29    C30       single      1.524    0.020
+ YWJ      C30    N31       single      1.450    0.020
+ YWJ      N31    C32       single      1.330    0.020
+ YWJ      C32    O33       double      1.220    0.020
+ YWJ      H101   C10       single      1.059    0.020
+ YWJ      H102   C10       single      1.059    0.020
+ YWJ      H103   C10       single      1.059    0.020
+ YWJ      H20    C20       single      1.083    0.020
+ YWJ      H21    C21       single      1.083    0.020
+ YWJ      H261   C26       single      1.092    0.020
+ YWJ      H262   C26       single      1.092    0.020
+ YWJ      H28    C28       single      1.077    0.020
+ YWJ      H03    C03       single      1.099    0.020
+ YWJ      H06    C06       single      1.099    0.020
+ YWJ      H071   C07       single      1.092    0.020
+ YWJ      H072   C07       single      1.092    0.020
+ YWJ      H08    C08       single      1.099    0.020
+ YWJ      H091   C09       single      1.059    0.020
+ YWJ      H092   C09       single      1.059    0.020
+ YWJ      H093   C09       single      1.059    0.020
+ YWJ      H14    C14       single      1.083    0.020
+ YWJ      H181   C18       single      1.059    0.020
+ YWJ      H182   C18       single      1.059    0.020
+ YWJ      H183   C18       single      1.059    0.020
+ YWJ      H19    C19       single      1.083    0.020
+ YWJ      H291   C29       single      1.092    0.020
+ YWJ      H292   C29       single      1.092    0.020
+ YWJ      H301   C30       single      1.092    0.020
+ YWJ      H302   C30       single      1.092    0.020
+ YWJ      H341   C34       single      1.059    0.020
+ YWJ      H342   C34       single      1.059    0.020
+ YWJ      H343   C34       single      1.059    0.020
+ YWJ      HN04   N04       single      1.010    0.020
+ YWJ      HN11   N11       single      1.010    0.020
+ YWJ      HN31   N31       single      1.010    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ YWJ      O33    C32    N31     123.000    3.000
+ YWJ      O33    C32    C27     120.500    3.000
+ YWJ      N31    C32    C27     120.000    3.000
+ YWJ      C32    N31    HN31    120.000    3.000
+ YWJ      C32    N31    C30     121.500    3.000
+ YWJ      HN31   N31    C30     118.500    3.000
+ YWJ      N31    C30    H301    109.470    3.000
+ YWJ      N31    C30    H302    109.470    3.000
+ YWJ      N31    C30    C29     112.000    3.000
+ YWJ      H301   C30    H302    107.900    3.000
+ YWJ      H301   C30    C29     109.470    3.000
+ YWJ      H302   C30    C29     109.470    3.000
+ YWJ      C30    C29    H291    109.470    3.000
+ YWJ      C30    C29    H292    109.470    3.000
+ YWJ      C30    C29    C28     109.470    3.000
+ YWJ      H291   C29    H292    107.900    3.000
+ YWJ      H291   C29    C28     109.470    3.000
+ YWJ      H292   C29    C28     109.470    3.000
+ YWJ      C29    C28    H28     120.000    3.000
+ YWJ      C29    C28    C27     120.500    3.000
+ YWJ      H28    C28    C27     120.000    3.000
+ YWJ      C32    C27    C26     120.000    3.000
+ YWJ      C32    C27    C28     120.000    3.000
+ YWJ      C26    C27    C28     120.000    3.000
+ YWJ      C27    C26    H261    109.470    3.000
+ YWJ      C27    C26    H262    109.470    3.000
+ YWJ      C27    C26    C03     109.470    3.000
+ YWJ      H261   C26    H262    107.900    3.000
+ YWJ      H261   C26    C03     109.470    3.000
+ YWJ      H262   C26    C03     109.470    3.000
+ YWJ      C26    C03    H03     108.340    3.000
+ YWJ      C26    C03    C02     109.470    3.000
+ YWJ      C26    C03    N04     110.000    3.000
+ YWJ      H03    C03    C02     108.810    3.000
+ YWJ      H03    C03    N04     108.550    3.000
+ YWJ      C02    C03    N04     111.600    3.000
+ YWJ      C03    C02    O01     120.500    3.000
+ YWJ      C03    C02    C34     120.000    3.000
+ YWJ      O01    C02    C34     123.000    3.000
+ YWJ      C02    C34    H343    109.470    3.000
+ YWJ      C02    C34    H342    109.470    3.000
+ YWJ      C02    C34    H341    109.470    3.000
+ YWJ      H343   C34    H342    109.470    3.000
+ YWJ      H343   C34    H341    109.470    3.000
+ YWJ      H342   C34    H341    109.470    3.000
+ YWJ      C03    N04    HN04    118.500    3.000
+ YWJ      C03    N04    C05     121.500    3.000
+ YWJ      HN04   N04    C05     120.000    3.000
+ YWJ      N04    C05    O25     123.000    3.000
+ YWJ      N04    C05    C06     116.500    3.000
+ YWJ      O25    C05    C06     120.500    3.000
+ YWJ      C05    C06    H06     108.810    3.000
+ YWJ      C05    C06    C07     109.470    3.000
+ YWJ      C05    C06    N11     111.600    3.000
+ YWJ      H06    C06    C07     108.340    3.000
+ YWJ      H06    C06    N11     108.550    3.000
+ YWJ      C07    C06    N11     110.000    3.000
+ YWJ      C06    C07    H071    109.470    3.000
+ YWJ      C06    C07    H072    109.470    3.000
+ YWJ      C06    C07    C08     111.000    3.000
+ YWJ      H071   C07    H072    107.900    3.000
+ YWJ      H071   C07    C08     109.470    3.000
+ YWJ      H072   C07    C08     109.470    3.000
+ YWJ      C07    C08    H08     108.340    3.000
+ YWJ      C07    C08    C09     111.000    3.000
+ YWJ      C07    C08    C10     111.000    3.000
+ YWJ      H08    C08    C09     108.340    3.000
+ YWJ      H08    C08    C10     108.340    3.000
+ YWJ      C09    C08    C10     111.000    3.000
+ YWJ      C08    C09    H093    109.470    3.000
+ YWJ      C08    C09    H092    109.470    3.000
+ YWJ      C08    C09    H091    109.470    3.000
+ YWJ      H093   C09    H092    109.470    3.000
+ YWJ      H093   C09    H091    109.470    3.000
+ YWJ      H092   C09    H091    109.470    3.000
+ YWJ      C08    C10    H103    109.470    3.000
+ YWJ      C08    C10    H102    109.470    3.000
+ YWJ      C08    C10    H101    109.470    3.000
+ YWJ      H103   C10    H102    109.470    3.000
+ YWJ      H103   C10    H101    109.470    3.000
+ YWJ      H102   C10    H101    109.470    3.000
+ YWJ      C06    N11    HN11    118.500    3.000
+ YWJ      C06    N11    C12     121.500    3.000
+ YWJ      HN11   N11    C12     120.000    3.000
+ YWJ      N11    C12    O24     123.000    3.000
+ YWJ      N11    C12    C13     120.000    3.000
+ YWJ      O24    C12    C13     120.500    3.000
+ YWJ      C12    C13    N23     126.000    3.000
+ YWJ      C12    C13    C14     126.000    3.000
+ YWJ      N23    C13    C14     108.000    3.000
+ YWJ      C13    N23    C22     108.000    3.000
+ YWJ      N23    C22    C21     132.000    3.000
+ YWJ      N23    C22    C15     108.000    3.000
+ YWJ      C21    C22    C15     120.000    3.000
+ YWJ      C22    C21    H21     120.000    3.000
+ YWJ      C22    C21    C20     120.000    3.000
+ YWJ      H21    C21    C20     120.000    3.000
+ YWJ      C13    C14    H14     126.000    3.000
+ YWJ      C13    C14    C15     108.000    3.000
+ YWJ      H14    C14    C15     108.000    3.000
+ YWJ      C14    C15    C16     132.000    3.000
+ YWJ      C14    C15    C22     120.000    3.000
+ YWJ      C16    C15    C22     120.000    3.000
+ YWJ      C15    C16    O17     120.000    3.000
+ YWJ      C15    C16    C19     120.000    3.000
+ YWJ      O17    C16    C19     120.000    3.000
+ YWJ      C16    O17    C18     120.000    3.000
+ YWJ      O17    C18    H183    109.470    3.000
+ YWJ      O17    C18    H182    109.470    3.000
+ YWJ      O17    C18    H181    109.470    3.000
+ YWJ      H183   C18    H182    109.470    3.000
+ YWJ      H183   C18    H181    109.470    3.000
+ YWJ      H182   C18    H181    109.470    3.000
+ YWJ      C16    C19    H19     120.000    3.000
+ YWJ      C16    C19    C20     120.000    3.000
+ YWJ      H19    C19    C20     120.000    3.000
+ YWJ      C19    C20    H20     120.000    3.000
+ YWJ      C19    C20    C21     120.000    3.000
+ YWJ      H20    C20    C21     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ YWJ      var_1            O33    C32    N31    C30              180.000           20.000   2
+ YWJ      var_2            C32    N31    C30    C29                0.000           20.000   3
+ YWJ      var_3            N31    C30    C29    C28              180.000           20.000   3
+ YWJ      var_4            C30    C29    C28    C27               67.714           20.000   3
+ YWJ      var_5            C29    C28    C27    C32              -40.925           20.000   3
+ YWJ      var_6            O33    C32    C27    C26              -45.231           20.000   3
+ YWJ      var_7            C32    C27    C26    C03              180.000           20.000   3
+ YWJ      var_8            C27    C26    C03    N04              180.000           20.000   3
+ YWJ      var_9            C26    C03    C02    C34              180.000           20.000   3
+ YWJ      var_10           C03    C02    C34    H341             180.000           20.000   3
+ YWJ      var_11           C26    C03    N04    C05                0.000           20.000   3
+ YWJ      var_12           C03    N04    C05    C06              180.000           20.000   2
+ YWJ      var_13           N04    C05    C06    N11              180.000           20.000   3
+ YWJ      var_14           C05    C06    C07    C08              180.000           20.000   3
+ YWJ      var_15           C06    C07    C08    C10              180.000           20.000   3
+ YWJ      var_16           C07    C08    C09    H091             180.000           20.000   3
+ YWJ      var_17           C07    C08    C10    H101             180.000           20.000   3
+ YWJ      var_18           C05    C06    N11    C12                0.000           20.000   3
+ YWJ      var_19           C06    N11    C12    C13              180.000           20.000   2
+ YWJ      var_20           N11    C12    C13    C14                6.962           20.000   3
+ YWJ      CONST_1          C12    C13    N23    C22                0.000            0.000   0
+ YWJ      CONST_2          C13    N23    C22    C21              180.000            0.000   0
+ YWJ      CONST_3          N23    C22    C21    C20              180.000            0.000   0
+ YWJ      CONST_4          C12    C13    C14    C15                0.000            0.000   0
+ YWJ      CONST_5          C13    C14    C15    C16             -179.558            0.000   0
+ YWJ      CONST_6          C14    C15    C22    N23              180.000            0.000   0
+ YWJ      CONST_7          C14    C15    C16    C19              180.000            0.000   0
+ YWJ      var_21           C15    C16    O17    C18             -122.198           20.000   3
+ YWJ      var_22           C16    O17    C18    H181             180.000           20.000   3
+ YWJ      CONST_8          C15    C16    C19    C20                0.000            0.000   0
+ YWJ      CONST_9          C16    C19    C20    C21                0.000            0.000   0
+ YWJ      CONST_10         C19    C20    C21    C22                0.000            0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ YWJ      chir_01          C03    C26    C02    N04       negativ
+ YWJ      chir_02          C06    C05    C07    N11       positiv
+ YWJ      chir_03          C08    C10    C07    C09       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ YWJ      plan-1            C13       0.020
+ YWJ      plan-1            C12       0.020
+ YWJ      plan-1            C14       0.020
+ YWJ      plan-1            N23       0.020
+ YWJ      plan-1            C15       0.020
+ YWJ      plan-1            H14       0.020
+ YWJ      plan-1            C22       0.020
+ YWJ      plan-1            C20       0.020
+ YWJ      plan-1            C21       0.020
+ YWJ      plan-1            C16       0.020
+ YWJ      plan-1            C19       0.020
+ YWJ      plan-1            H20       0.020
+ YWJ      plan-1            H21       0.020
+ YWJ      plan-1            O17       0.020
+ YWJ      plan-1            H19       0.020
+ YWJ      plan-2            C28       0.020
+ YWJ      plan-2            C27       0.020
+ YWJ      plan-2            C29       0.020
+ YWJ      plan-2            H28       0.020
+ YWJ      plan-3            C02       0.020
+ YWJ      plan-3            C03       0.020
+ YWJ      plan-3            C34       0.020
+ YWJ      plan-3            O01       0.020
+ YWJ      plan-4            C05       0.020
+ YWJ      plan-4            C06       0.020
+ YWJ      plan-4            N04       0.020
+ YWJ      plan-4            O25       0.020
+ YWJ      plan-4            HN04      0.020
+ YWJ      plan-5            C12       0.020
+ YWJ      plan-5            C13       0.020
+ YWJ      plan-5            N11       0.020
+ YWJ      plan-5            O24       0.020
+ YWJ      plan-5            HN11      0.020
+ YWJ      plan-6            C27       0.020
+ YWJ      plan-6            C26       0.020
+ YWJ      plan-6            C28       0.020
+ YWJ      plan-6            C32       0.020
+ YWJ      plan-6            H28       0.020
+ YWJ      plan-7            C32       0.020
+ YWJ      plan-7            C27       0.020
+ YWJ      plan-7            N31       0.020
+ YWJ      plan-7            O33       0.020
+ YWJ      plan-7            HN31      0.020
+ YWJ      plan-8            N04       0.020
+ YWJ      plan-8            C03       0.020
+ YWJ      plan-8            C05       0.020
+ YWJ      plan-8            HN04      0.020
+ YWJ      plan-9            N11       0.020
+ YWJ      plan-9            C06       0.020
+ YWJ      plan-9            C12       0.020
+ YWJ      plan-9            HN11      0.020
+ YWJ      plan-10           N31       0.020
+ YWJ      plan-10           C30       0.020
+ YWJ      plan-10           C32       0.020
+ YWJ      plan-10           HN31      0.020
+#
+data_comp_FN7
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ FN7           O12    O    OC       -0.500     34.263   42.484   80.976
+ FN7           C02    C    C         0.000     34.721   41.254   81.023
+ FN7           O01    O    OC       -0.500     34.066   40.264   81.446
+ FN7           C03    C    CR6       0.000     36.115   41.009   80.581
+ FN7           C10    C    CR6       0.000     37.066   40.599   81.472
+ FN7           C11    C    CH3       0.000     36.774   40.602   82.981
+ FN7           H113   H    H         0.000     36.543   41.587   83.301
+ FN7           H112   H    H         0.000     35.949   39.967   83.190
+ FN7           H111   H    H         0.000     37.624   40.254   83.513
+ FN7           C09    C    CR16      0.000     38.325   40.287   80.949
+ FN7           H09    H    H         0.000     39.148   40.055   81.613
+ FN7           C07    C    CR6       0.000     38.513   40.277   79.575
+ FN7           C08    C    CH3       0.000     39.874   39.950   78.946
+ FN7           H083   H    H         0.000     40.600   40.649   79.277
+ FN7           H082   H    H         0.000     40.177   38.973   79.231
+ FN7           H081   H    H         0.000     39.802   39.997   77.888
+ FN7           N06    N    NRD6      0.000     37.516   40.541   78.762
+ FN7           C04    C    CR6       0.000     36.314   40.835   79.241
+ FN7           C05    C    CH3       0.000     35.162   41.165   78.286
+ FN7           H053   H    H         0.000     35.413   42.014   77.701
+ FN7           H052   H    H         0.000     34.981   40.340   77.644
+ FN7           H051   H    H         0.000     34.283   41.373   78.842
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ FN7      O12    n/a    C02    START
+ FN7      C02    O12    C03    .
+ FN7      O01    C02    .      .
+ FN7      C03    C02    C10    .
+ FN7      C10    C03    C09    .
+ FN7      C11    C10    H111   .
+ FN7      H113   C11    .      .
+ FN7      H112   C11    .      .
+ FN7      H111   C11    .      .
+ FN7      C09    C10    C07    .
+ FN7      H09    C09    .      .
+ FN7      C07    C09    N06    .
+ FN7      C08    C07    H081   .
+ FN7      H083   C08    .      .
+ FN7      H082   C08    .      .
+ FN7      H081   C08    .      .
+ FN7      N06    C07    C04    .
+ FN7      C04    N06    C05    .
+ FN7      C05    C04    H051   .
+ FN7      H053   C05    .      .
+ FN7      H052   C05    .      .
+ FN7      H051   C05    .      END
+ FN7      C03    C04    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ FN7      C03    C02       single      1.500    0.020
+ FN7      O01    C02       deloc       1.250    0.020
+ FN7      C02    O12       deloc       1.250    0.020
+ FN7      C03    C04       aromatic    1.384    0.020
+ FN7      C10    C03       aromatic    1.384    0.020
+ FN7      C05    C04       single      1.506    0.020
+ FN7      C04    N06       aromatic    1.350    0.020
+ FN7      C08    C07       single      1.506    0.020
+ FN7      C07    C09       aromatic    1.390    0.020
+ FN7      N06    C07       aromatic    1.350    0.020
+ FN7      C09    C10       aromatic    1.390    0.020
+ FN7      C11    C10       single      1.506    0.020
+ FN7      H051   C05       single      1.059    0.020
+ FN7      H052   C05       single      1.059    0.020
+ FN7      H053   C05       single      1.059    0.020
+ FN7      H081   C08       single      1.059    0.020
+ FN7      H082   C08       single      1.059    0.020
+ FN7      H083   C08       single      1.059    0.020
+ FN7      H09    C09       single      1.083    0.020
+ FN7      H111   C11       single      1.059    0.020
+ FN7      H112   C11       single      1.059    0.020
+ FN7      H113   C11       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ FN7      O12    C02    O01     123.000    3.000
+ FN7      O12    C02    C03     120.000    3.000
+ FN7      O01    C02    C03     120.000    3.000
+ FN7      C02    C03    C10     120.000    3.000
+ FN7      C02    C03    C04     120.000    3.000
+ FN7      C10    C03    C04     120.000    3.000
+ FN7      C03    C10    C11     120.000    3.000
+ FN7      C03    C10    C09     120.000    3.000
+ FN7      C11    C10    C09     120.000    3.000
+ FN7      C10    C11    H113    109.470    3.000
+ FN7      C10    C11    H112    109.470    3.000
+ FN7      C10    C11    H111    109.470    3.000
+ FN7      H113   C11    H112    109.470    3.000
+ FN7      H113   C11    H111    109.470    3.000
+ FN7      H112   C11    H111    109.470    3.000
+ FN7      C10    C09    H09     120.000    3.000
+ FN7      C10    C09    C07     120.000    3.000
+ FN7      H09    C09    C07     120.000    3.000
+ FN7      C09    C07    C08     120.000    3.000
+ FN7      C09    C07    N06     120.000    3.000
+ FN7      C08    C07    N06     120.000    3.000
+ FN7      C07    C08    H083    109.470    3.000
+ FN7      C07    C08    H082    109.470    3.000
+ FN7      C07    C08    H081    109.470    3.000
+ FN7      H083   C08    H082    109.470    3.000
+ FN7      H083   C08    H081    109.470    3.000
+ FN7      H082   C08    H081    109.470    3.000
+ FN7      C07    N06    C04     120.000    3.000
+ FN7      N06    C04    C05     120.000    3.000
+ FN7      N06    C04    C03     120.000    3.000
+ FN7      C05    C04    C03     120.000    3.000
+ FN7      C04    C05    H053    109.470    3.000
+ FN7      C04    C05    H052    109.470    3.000
+ FN7      C04    C05    H051    109.470    3.000
+ FN7      H053   C05    H052    109.470    3.000
+ FN7      H053   C05    H051    109.470    3.000
+ FN7      H052   C05    H051    109.470    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ FN7      var_1            O12    C02    C03    C10              113.845           20.000   3
+ FN7      CONST_1          C02    C03    C04    N06                0.000            0.000   0
+ FN7      CONST_2          C02    C03    C10    C09                0.000            0.000   0
+ FN7      var_2            C03    C10    C11    H111             180.000           20.000   3
+ FN7      CONST_3          C03    C10    C09    C07                0.000            0.000   0
+ FN7      CONST_4          C10    C09    C07    N06                0.000            0.000   0
+ FN7      var_3            C09    C07    C08    H081             180.000           20.000   3
+ FN7      CONST_5          C09    C07    N06    C04                0.000            0.000   0
+ FN7      CONST_6          C07    N06    C04    C05                0.000            0.000   0
+ FN7      var_4            N06    C04    C05    H051             180.000           20.000   3
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ FN7      plan-1            C02       0.020
+ FN7      plan-1            C03       0.020
+ FN7      plan-1            O01       0.020
+ FN7      plan-1            O12       0.020
+ FN7      plan-2            C03       0.020
+ FN7      plan-2            C02       0.020
+ FN7      plan-2            C04       0.020
+ FN7      plan-2            C10       0.020
+ FN7      plan-2            C07       0.020
+ FN7      plan-2            C09       0.020
+ FN7      plan-2            N06       0.020
+ FN7      plan-2            C05       0.020
+ FN7      plan-2            C08       0.020
+ FN7      plan-2            H09       0.020
+ FN7      plan-2            C11       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-YWJ
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-YWJ  1 SG      2 C34       .           1.970    0.020
+# ------------------------------------------------------

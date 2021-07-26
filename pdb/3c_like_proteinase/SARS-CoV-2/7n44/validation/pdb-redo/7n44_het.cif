@@ -1,0 +1,441 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+06I      06I '.                                   ' .                  56  36 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_06I
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ 06I           CL1    CL   CL        0.000    -19.813  -28.521   -0.694
+ 06I           C5     C    CR6       0.000    -18.430  -27.405   -0.593
+ 06I           C4     C    CR16      0.000    -17.178  -27.851   -0.178
+ 06I           H4     H    H         0.000    -17.043  -28.885    0.115
+ 06I           C3     C    CR6       0.000    -16.100  -26.971   -0.139
+ 06I           C13    C    CR16      0.000    -16.295  -25.647   -0.508
+ 06I           H13    H    H         0.000    -15.463  -24.954   -0.480
+ 06I           C7     C    CR6       0.000    -17.542  -25.205   -0.911
+ 06I           O2     O    O2        0.000    -17.769  -23.880   -1.280
+ 06I           C8     C    CH2       0.000    -16.955  -22.849   -0.763
+ 06I           H81    H    H         0.000    -15.907  -22.966   -1.048
+ 06I           H82    H    H         0.000    -17.029  -22.768    0.323
+ 06I           C9     C    CR5       0.000    -17.523  -21.584   -1.410
+ 06I           N1     N    NR5       0.000    -16.954  -20.948   -2.460
+ 06I           S1     S    ST        0.000    -18.978  -19.626   -2.029
+ 06I           HS1    H    H         0.000    -18.359  -18.903   -1.244
+ 06I           C12    C    CR15      0.000    -17.566  -19.855   -2.968
+ 06I           H12    H    H         0.000    -17.231  -19.248   -3.800
+ 06I           C10    C    CR5       0.000    -18.724  -20.987   -1.012
+ 06I           C11    C    CH3       0.000    -19.640  -21.436    0.114
+ 06I           H113   H    H         0.000    -19.723  -20.663    0.835
+ 06I           H112   H    H         0.000    -20.601  -21.657   -0.275
+ 06I           H111   H    H         0.000    -19.240  -22.303    0.574
+ 06I           C6     C    CR16      0.000    -18.613  -26.090   -0.965
+ 06I           H6     H    H         0.000    -19.586  -25.748   -1.297
+ 06I           C2     C    CR6       0.000    -14.735  -27.500    0.318
+ 06I           C14    C    CR16      0.000    -14.283  -28.733   -0.139
+ 06I           H14    H    H         0.000    -14.887  -29.318   -0.821
+ 06I           C15    C    CR6       0.000    -13.041  -29.210    0.290
+ 06I           C16    C    CR6       0.000    -12.517  -30.563   -0.187
+ 06I           C18    C    CR16      0.000    -12.926  -30.982   -1.442
+ 06I           H18    H    H         0.000    -13.589  -30.364   -2.035
+ 06I           C17    C    CR6       0.000    -11.659  -31.389    0.556
+ 06I           O3     O    OH1       0.000    -11.178  -31.076    1.840
+ 06I           HO3    H    H         0.000    -10.602  -31.788    2.162
+ 06I           N2     N    NRD6      0.000    -11.269  -32.556    0.030
+ 06I           C19    C    CR6       0.000    -11.682  -32.931   -1.192
+ 06I           O4     O    OH1       0.000    -11.260  -34.150   -1.735
+ 06I           HO4    H    H         0.000    -11.645  -34.270   -2.617
+ 06I           N3     N    NRD6      0.000    -12.497  -32.150   -1.912
+ 06I           C20    C    CR16      0.000    -12.267  -28.439    1.132
+ 06I           H20    H    H         0.000    -11.300  -28.798    1.461
+ 06I           N4     N    NR6       0.000    -12.711  -27.256    1.538
+ 06I           C1     C    CR6       0.000    -13.912  -26.777    1.157
+ 06I           O1     O    OH1       0.000    -14.359  -25.542    1.593
+ 06I           HO1    H    H         0.000    -15.236  -25.361    1.222
+ 06I           C21    C    CR6       0.000    -11.905  -26.493    2.464
+ 06I           C22    C    CR16      0.000    -10.798  -25.761    2.104
+ 06I           H22    H    H         0.000    -10.463  -25.728    1.075
+ 06I           C25    C    CR16      0.000    -12.287  -26.528    3.799
+ 06I           H25    H    H         0.000    -13.152  -27.118    4.076
+ 06I           N5     N    NRD6      0.000    -11.634  -25.867    4.752
+ 06I           C24    C    CR16      0.000    -10.555  -25.138    4.418
+ 06I           H24    H    H         0.000    -10.015  -24.600    5.188
+ 06I           C23    C    CR16      0.000    -10.121  -25.065    3.098
+ 06I           H23    H    H         0.000     -9.255  -24.465    2.845
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ 06I      CL1    n/a    C5     START
+ 06I      C5     CL1    C4     .
+ 06I      C4     C5     C3     .
+ 06I      H4     C4     .      .
+ 06I      C3     C4     C2     .
+ 06I      C13    C3     C7     .
+ 06I      H13    C13    .      .
+ 06I      C7     C13    C6     .
+ 06I      O2     C7     C8     .
+ 06I      C8     O2     C9     .
+ 06I      H81    C8     .      .
+ 06I      H82    C8     .      .
+ 06I      C9     C8     N1     .
+ 06I      N1     C9     S1     .
+ 06I      S1     N1     C10    .
+ 06I      HS1    S1     .      .
+ 06I      C12    S1     H12    .
+ 06I      H12    C12    .      .
+ 06I      C10    S1     C11    .
+ 06I      C11    C10    H111   .
+ 06I      H113   C11    .      .
+ 06I      H112   C11    .      .
+ 06I      H111   C11    .      .
+ 06I      C6     C7     H6     .
+ 06I      H6     C6     .      .
+ 06I      C2     C3     C14    .
+ 06I      C14    C2     C15    .
+ 06I      H14    C14    .      .
+ 06I      C15    C14    C20    .
+ 06I      C16    C15    C17    .
+ 06I      C18    C16    H18    .
+ 06I      H18    C18    .      .
+ 06I      C17    C16    N2     .
+ 06I      O3     C17    HO3    .
+ 06I      HO3    O3     .      .
+ 06I      N2     C17    C19    .
+ 06I      C19    N2     N3     .
+ 06I      O4     C19    HO4    .
+ 06I      HO4    O4     .      .
+ 06I      N3     C19    .      .
+ 06I      C20    C15    N4     .
+ 06I      H20    C20    .      .
+ 06I      N4     C20    C21    .
+ 06I      C1     N4     O1     .
+ 06I      O1     C1     HO1    .
+ 06I      HO1    O1     .      .
+ 06I      C21    N4     C25    .
+ 06I      C22    C21    H22    .
+ 06I      H22    C22    .      .
+ 06I      C25    C21    N5     .
+ 06I      H25    C25    .      .
+ 06I      N5     C25    C24    .
+ 06I      C24    N5     C23    .
+ 06I      H24    C24    .      .
+ 06I      C23    C24    H23    .
+ 06I      H23    C23    .      END
+ 06I      C1     C2     .    ADD
+ 06I      N3     C18    .    ADD
+ 06I      C5     C6     .    ADD
+ 06I      C9     C10    .    ADD
+ 06I      C12    N1     .    ADD
+ 06I      C22    C23    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ 06I      C1     C2        aromatic    1.384    0.020
+ 06I      C1     N4        single      1.410    0.020
+ 06I      O1     C1        single      1.362    0.020
+ 06I      C14    C2        aromatic    1.390    0.020
+ 06I      C2     C3        single      1.487    0.020
+ 06I      N3     C18       aromat      1.337    0.020
+ 06I      N3     C19       aromatic    1.350    0.020
+ 06I      N4     C20       single      1.337    0.020
+ 06I      C21    N4        single      1.410    0.020
+ 06I      C5     C6        aromatic    1.390    0.020
+ 06I      C4     C5        aromatic    1.390    0.020
+ 06I      C5     CL1       single      1.795    0.020
+ 06I      C6     C7        aromatic    1.390    0.020
+ 06I      C7     C13       aromatic    1.390    0.020
+ 06I      O2     C7        single      1.370    0.020
+ 06I      C9     C8        single      1.510    0.020
+ 06I      C8     O2        single      1.426    0.020
+ 06I      C9     C10       aromatic    1.390    0.020
+ 06I      N1     C9        single      1.337    0.020
+ 06I      C11    C10       single      1.506    0.020
+ 06I      C10    S1        double      1.645    0.020
+ 06I      C12    N1        single      1.337    0.020
+ 06I      C12    S1        double      1.645    0.020
+ 06I      C15    C14       aromatic    1.390    0.020
+ 06I      C20    C15       aromatic    1.390    0.020
+ 06I      C16    C15       single      1.487    0.020
+ 06I      C17    C16       aromatic    1.384    0.020
+ 06I      N2     C17       aromatic    1.350    0.020
+ 06I      O3     C17       single      1.362    0.020
+ 06I      C18    C16       aromatic    1.390    0.020
+ 06I      C19    N2        aromatic    1.350    0.020
+ 06I      O4     C19       single      1.362    0.020
+ 06I      C22    C23       aromatic    1.390    0.020
+ 06I      C22    C21       aromatic    1.390    0.020
+ 06I      C23    C24       aromatic    1.390    0.020
+ 06I      C24    N5        aromatic    1.337    0.020
+ 06I      C13    C3        aromatic    1.390    0.020
+ 06I      C25    C21       aromatic    1.390    0.020
+ 06I      N5     C25       deloc       1.337    0.020
+ 06I      C3     C4        aromatic    1.390    0.020
+ 06I      S1     N1        single      1.600    0.020
+ 06I      H6     C6        single      1.083    0.020
+ 06I      H81    C8        single      1.092    0.020
+ 06I      H82    C8        single      1.092    0.020
+ 06I      H111   C11       single      1.059    0.020
+ 06I      H112   C11       single      1.059    0.020
+ 06I      H113   C11       single      1.059    0.020
+ 06I      H12    C12       single      1.083    0.020
+ 06I      H14    C14       single      1.083    0.020
+ 06I      H18    C18       single      1.083    0.020
+ 06I      H20    C20       single      1.083    0.020
+ 06I      H22    C22       single      1.083    0.020
+ 06I      H23    C23       single      1.083    0.020
+ 06I      H24    C24       single      1.083    0.020
+ 06I      H13    C13       single      1.083    0.020
+ 06I      H25    C25       single      1.083    0.020
+ 06I      H4     C4        single      1.083    0.020
+ 06I      HO1    O1        single      0.967    0.020
+ 06I      HO3    O3        single      0.967    0.020
+ 06I      HO4    O4        single      0.967    0.020
+ 06I      HS1    S1        single      1.234    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ 06I      CL1    C5     C4      120.000    3.000
+ 06I      CL1    C5     C6      120.000    3.000
+ 06I      C4     C5     C6      120.000    3.000
+ 06I      C5     C4     H4      120.000    3.000
+ 06I      C5     C4     C3      120.000    3.000
+ 06I      H4     C4     C3      120.000    3.000
+ 06I      C4     C3     C13     120.000    3.000
+ 06I      C4     C3     C2      120.000    3.000
+ 06I      C13    C3     C2      120.000    3.000
+ 06I      C3     C13    H13     120.000    3.000
+ 06I      C3     C13    C7      120.000    3.000
+ 06I      H13    C13    C7      120.000    3.000
+ 06I      C13    C7     O2      120.000    3.000
+ 06I      C13    C7     C6      120.000    3.000
+ 06I      O2     C7     C6      120.000    3.000
+ 06I      C7     O2     C8      120.000    3.000
+ 06I      O2     C8     H81     109.470    3.000
+ 06I      O2     C8     H82     109.470    3.000
+ 06I      O2     C8     C9      109.500    3.000
+ 06I      H81    C8     H82     107.900    3.000
+ 06I      H81    C8     C9      109.470    3.000
+ 06I      H82    C8     C9      109.470    3.000
+ 06I      C8     C9     N1      126.000    3.000
+ 06I      C8     C9     C10     126.000    3.000
+ 06I      N1     C9     C10     108.000    3.000
+ 06I      C9     N1     S1      108.000    3.000
+ 06I      C9     N1     C12     108.000    3.000
+ 06I      S1     N1     C12      67.438    3.000
+ 06I      N1     S1     HS1     109.500    3.000
+ 06I      N1     S1     C12      48.639    3.000
+ 06I      N1     S1     C10     109.500    3.000
+ 06I      HS1    S1     C12     109.500    3.000
+ 06I      HS1    S1     C10     109.500    3.000
+ 06I      C12    S1     C10     109.500    3.000
+ 06I      S1     C12    H12     108.000    3.000
+ 06I      S1     C12    N1       63.923    3.000
+ 06I      H12    C12    N1      126.000    3.000
+ 06I      S1     C10    C11     108.000    3.000
+ 06I      S1     C10    C9      108.000    3.000
+ 06I      C11    C10    C9      126.000    3.000
+ 06I      C10    C11    H113    109.470    3.000
+ 06I      C10    C11    H112    109.470    3.000
+ 06I      C10    C11    H111    109.470    3.000
+ 06I      H113   C11    H112    109.470    3.000
+ 06I      H113   C11    H111    109.470    3.000
+ 06I      H112   C11    H111    109.470    3.000
+ 06I      C7     C6     H6      120.000    3.000
+ 06I      C7     C6     C5      120.000    3.000
+ 06I      H6     C6     C5      120.000    3.000
+ 06I      C3     C2     C14     120.000    3.000
+ 06I      C3     C2     C1      120.000    3.000
+ 06I      C14    C2     C1      120.000    3.000
+ 06I      C2     C14    H14     120.000    3.000
+ 06I      C2     C14    C15     120.000    3.000
+ 06I      H14    C14    C15     120.000    3.000
+ 06I      C14    C15    C16     120.000    3.000
+ 06I      C14    C15    C20     120.000    3.000
+ 06I      C16    C15    C20     120.000    3.000
+ 06I      C15    C16    C18     120.000    3.000
+ 06I      C15    C16    C17     120.000    3.000
+ 06I      C18    C16    C17     120.000    3.000
+ 06I      C16    C18    H18     120.000    3.000
+ 06I      C16    C18    N3      120.000    3.000
+ 06I      H18    C18    N3      120.000    3.000
+ 06I      C16    C17    O3      120.000    3.000
+ 06I      C16    C17    N2      120.000    3.000
+ 06I      O3     C17    N2      120.000    3.000
+ 06I      C17    O3     HO3     109.470    3.000
+ 06I      C17    N2     C19     120.000    3.000
+ 06I      N2     C19    O4      120.000    3.000
+ 06I      N2     C19    N3      120.000    3.000
+ 06I      O4     C19    N3      120.000    3.000
+ 06I      C19    O4     HO4     109.470    3.000
+ 06I      C19    N3     C18     120.000    3.000
+ 06I      C15    C20    H20     120.000    3.000
+ 06I      C15    C20    N4      120.000    3.000
+ 06I      H20    C20    N4      120.000    3.000
+ 06I      C20    N4     C1      120.000    3.000
+ 06I      C20    N4     C21     120.000    3.000
+ 06I      C1     N4     C21     120.000    3.000
+ 06I      N4     C1     O1      120.000    3.000
+ 06I      N4     C1     C2      120.000    3.000
+ 06I      O1     C1     C2      120.000    3.000
+ 06I      C1     O1     HO1     109.470    3.000
+ 06I      N4     C21    C22     120.000    3.000
+ 06I      N4     C21    C25     120.000    3.000
+ 06I      C22    C21    C25     120.000    3.000
+ 06I      C21    C22    H22     120.000    3.000
+ 06I      C21    C22    C23     120.000    3.000
+ 06I      H22    C22    C23     120.000    3.000
+ 06I      C21    C25    H25     120.000    3.000
+ 06I      C21    C25    N5      120.000    3.000
+ 06I      H25    C25    N5      120.000    3.000
+ 06I      C25    N5     C24     120.000    3.000
+ 06I      N5     C24    H24     120.000    3.000
+ 06I      N5     C24    C23     120.000    3.000
+ 06I      H24    C24    C23     120.000    3.000
+ 06I      C24    C23    H23     120.000    3.000
+ 06I      C24    C23    C22     120.000    3.000
+ 06I      H23    C23    C22     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ 06I      CONST_1          CL1    C5     C6     C7                 0.000            0.000   0
+ 06I      CONST_2          CL1    C5     C4     C3                 0.000            0.000   0
+ 06I      CONST_3          C5     C4     C3     C2                 0.000            0.000   0
+ 06I      CONST_4          C4     C3     C13    C7                 0.000            0.000   0
+ 06I      CONST_5          C3     C13    C7     C6                 0.000            0.000   0
+ 06I      var_1            C13    C7     O2     C8               -26.153           20.000   3
+ 06I      var_2            C7     O2     C8     C9               179.715           20.000   3
+ 06I      var_3            O2     C8     C9     N1                 0.000           20.000   2
+ 06I      CONST_6          C8     C9     C10    S1                 0.000            0.000   0
+ 06I      CONST_7          C8     C9     N1     S1               178.399            0.000   0
+ 06I      CONST_8          C9     N1     S1     C10               -0.717            0.000   0
+ 06I      CONST_9          S1     C12    N1     C9               180.000            0.000   0
+ 06I      CONST_10         N1     S1     C10    C11             -179.773            0.000   0
+ 06I      var_4            S1     C10    C11    H111             180.000           20.000   3
+ 06I      CONST_11         C13    C7     C6     C5                 0.000            0.000   0
+ 06I      var_5            C4     C3     C2     C14                0.000           20.000   2
+ 06I      CONST_12         C3     C2     C14    C15                0.000            0.000   0
+ 06I      CONST_13         C2     C14    C15    C20                0.000            0.000   0
+ 06I      var_6            C14    C15    C16    C17                0.000           20.000   2
+ 06I      CONST_14         C15    C16    C18    N3                 0.000            0.000   0
+ 06I      CONST_15         C15    C16    C17    N2                 0.000            0.000   0
+ 06I      var_7            C16    C17    O3     HO3              180.000           20.000   3
+ 06I      CONST_16         C16    C17    N2     C19                0.000            0.000   0
+ 06I      CONST_17         C17    N2     C19    N3                 0.000            0.000   0
+ 06I      var_8            N2     C19    O4     HO4              180.000           20.000   3
+ 06I      CONST_18         N2     C19    N3     C18                0.000            0.000   0
+ 06I      CONST_19         C19    N3     C18    C16                0.000            0.000   0
+ 06I      CONST_20         C14    C15    C20    N4                 0.000            0.000   0
+ 06I      CONST_21         C15    C20    N4     C21                0.000            0.000   0
+ 06I      CONST_22         C20    N4     C1     O1                 0.000            0.000   0
+ 06I      CONST_23         N4     C1     C2     C3                 0.000            0.000   0
+ 06I      var_9            N4     C1     O1     HO1              180.000           20.000   3
+ 06I      var_10           C20    N4     C21    C25                0.000           20.000   2
+ 06I      CONST_24         N4     C21    C22    C23                0.000            0.000   0
+ 06I      CONST_25         C21    C22    C23    C24                0.000            0.000   0
+ 06I      CONST_26         N4     C21    C25    N5                 0.000            0.000   0
+ 06I      CONST_27         C21    C25    N5     C24                0.000            0.000   0
+ 06I      CONST_28         C25    N5     C24    C23                0.000            0.000   0
+ 06I      CONST_29         N5     C24    C23    C22                0.000            0.000   0
+ 06I      CONST_1          C10    S1     C12    N1                -0.619            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ 06I      plan-1            C1        0.020
+ 06I      plan-1            C2        0.020
+ 06I      plan-1            N4        0.020
+ 06I      plan-1            O1        0.020
+ 06I      plan-1            C14       0.020
+ 06I      plan-1            C15       0.020
+ 06I      plan-1            C20       0.020
+ 06I      plan-1            C3        0.020
+ 06I      plan-1            C21       0.020
+ 06I      plan-1            H14       0.020
+ 06I      plan-1            C16       0.020
+ 06I      plan-1            H20       0.020
+ 06I      plan-2            N3        0.020
+ 06I      plan-2            C18       0.020
+ 06I      plan-2            C19       0.020
+ 06I      plan-2            C17       0.020
+ 06I      plan-2            C16       0.020
+ 06I      plan-2            N2        0.020
+ 06I      plan-2            O3        0.020
+ 06I      plan-2            H18       0.020
+ 06I      plan-2            O4        0.020
+ 06I      plan-2            C15       0.020
+ 06I      plan-3            C5        0.020
+ 06I      plan-3            C6        0.020
+ 06I      plan-3            C4        0.020
+ 06I      plan-3            CL1       0.020
+ 06I      plan-3            C7        0.020
+ 06I      plan-3            C13       0.020
+ 06I      plan-3            C3        0.020
+ 06I      plan-3            H6        0.020
+ 06I      plan-3            O2        0.020
+ 06I      plan-3            H13       0.020
+ 06I      plan-3            C2        0.020
+ 06I      plan-3            H4        0.020
+ 06I      plan-4            C9        0.020
+ 06I      plan-4            C8        0.020
+ 06I      plan-4            C10       0.020
+ 06I      plan-4            N1        0.020
+ 06I      plan-4            C12       0.020
+ 06I      plan-4            S1        0.020
+ 06I      plan-4            C11       0.020
+ 06I      plan-4            H12       0.020
+ 06I      plan-5            C22       0.020
+ 06I      plan-5            C23       0.020
+ 06I      plan-5            C21       0.020
+ 06I      plan-5            H22       0.020
+ 06I      plan-5            C24       0.020
+ 06I      plan-5            C25       0.020
+ 06I      plan-5            N5        0.020
+ 06I      plan-5            H23       0.020
+ 06I      plan-5            H24       0.020
+ 06I      plan-5            N4        0.020
+ 06I      plan-5            H25       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

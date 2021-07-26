@@ -1,0 +1,161 @@
+ 
+****** Ligand validation details (X0Y A 202) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.080   0.036
+Real-space correlation            : 0.959   0.991
+EDIAm density fit                 : 1.010   1.020
+OPIA density coverage (%)         : 100.0    100.0
+ 
+Energy of formation (kJ/mol)      : 205.650 137.707
+Hydrogen bond energy (kJ/mol)     : -21.5  -21.88
+Number of hydrogen bonds          : 1  1
+Number of bumps                   : 2  1
+Number of hydrophobic interactions: 18  19
+Hydrophobic interaction strength  : 16.151  16.288
+Number of Pi-Pi interactions      : 4  4
+Pi-Pi interaction strength        : 5.131  4.175
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1032
+ 
+ 
+****** Ligand validation details (X0Y A 203) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.112   0.057
+Real-space correlation            : 0.925   0.983
+EDIAm density fit                 : 0.962   0.968
+OPIA density coverage (%)         : 92.3    100.0
+ 
+Energy of formation (kJ/mol)      : 213.737 152.898
+Hydrogen bond energy (kJ/mol)     : -16.12  -16.73
+Number of hydrogen bonds          : 1  1
+Number of bumps                   : 1  0
+Number of hydrophobic interactions: 14  15
+Hydrophobic interaction strength  : 10.742  10.776
+Number of Pi-Pi interactions      : 7  7
+Pi-Pi interaction strength        : 6.950  6.957
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1260
+ 
+ 
+****** Ligand validation details (X0Y B 202) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.070   0.043
+Real-space correlation            : 0.968   0.988
+EDIAm density fit                 : 1.036   1.034
+OPIA density coverage (%)         : 100.0    100.0
+ 
+Energy of formation (kJ/mol)      : 202.730 124.233
+Hydrogen bond energy (kJ/mol)     : -47.88  -46.7
+Number of hydrogen bonds          : 2  2
+Number of bumps                   : 3  3
+Number of hydrophobic interactions: 20  19
+Hydrophobic interaction strength  : 16.717  15.330
+Number of Pi-Pi interactions      : 5  5
+Pi-Pi interaction strength        : 5.700  6.100
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.0897
+ 
+ 
+****** Ligand validation details (X0Y B 203) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.133   0.063
+Real-space correlation            : 0.909   0.975
+EDIAm density fit                 : 0.925   0.925
+OPIA density coverage (%)         : 84.6    76.9
+ 
+Energy of formation (kJ/mol)      : 207.661 140.139
+Hydrogen bond energy (kJ/mol)     : -25.98  -31.85
+Number of hydrogen bonds          : 2  2
+Number of bumps                   : 1  1
+Number of hydrophobic interactions: 14  12
+Hydrophobic interaction strength  : 12.149  11.268
+Number of Pi-Pi interactions      : 5  5
+Pi-Pi interaction strength        : 8.034  8.432
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1631
+ 
+ 
+****** Ligand validation details (MLI C 202) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.153   0.100
+Real-space correlation            : 0.813   0.926
+EDIAm density fit                 : 0.823   0.845
+OPIA density coverage (%)         : 71.4    71.4
+ 
+Energy of formation (kJ/mol)      : -1625.868 -1550.086
+Hydrogen bond energy (kJ/mol)     : -29.23  -38.55
+Number of hydrogen bonds          : 2  2
+Number of bumps                   : 1  1
+Number of hydrophobic interactions: 0  1
+Hydrophobic interaction strength  : 0.000  0.025
+Number of Pi-Pi interactions      : 0  0
+Pi-Pi interaction strength        : 0.000  0.000
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 1
+All atom RMSD for residue (A)     : 0.3107
+ 
+ 
+****** Ligand validation details (X0Y C 203) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.094   0.049
+Real-space correlation            : 0.943   0.982
+EDIAm density fit                 : 1.006   1.011
+OPIA density coverage (%)         : 100.0    100.0
+ 
+Energy of formation (kJ/mol)      : 204.177 190.065
+Hydrogen bond energy (kJ/mol)     : -43  -37.85
+Number of hydrogen bonds          : 2  2
+Number of bumps                   : 4  3
+Number of hydrophobic interactions: 16  15
+Hydrophobic interaction strength  : 12.204  11.549
+Number of Pi-Pi interactions      : 5  5
+Pi-Pi interaction strength        : 4.639  4.880
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1252
+ 
+ 
+****** Ligand validation details (X0Y C 204) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.138   0.061
+Real-space correlation            : 0.897   0.978
+EDIAm density fit                 : 0.933   0.957
+OPIA density coverage (%)         : 84.6    92.3
+ 
+Energy of formation (kJ/mol)      : 213.179 154.157
+Hydrogen bond energy (kJ/mol)     : -14.85  -19.68
+Number of hydrogen bonds          : 1  1
+Number of bumps                   : 1  1
+Number of hydrophobic interactions: 10  9
+Hydrophobic interaction strength  : 7.277  7.022
+Number of Pi-Pi interactions      : 4  4
+Pi-Pi interaction strength        : 6.264  7.231
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1587
+ 

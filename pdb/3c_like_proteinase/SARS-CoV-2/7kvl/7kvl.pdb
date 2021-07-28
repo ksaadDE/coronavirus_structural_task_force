@@ -20,16 +20,17 @@ KEYWDS    MPRO, MAIN PROTEASE, COVID-19, SARS-COV-2, 3CL, HYDROLASE
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.D.NOSKE,A.M.NAKAMURA,V.O.GAWRILJUK,G.M.A.LIMA,A.C.M.ZERI,           
 AUTHOR   2 A.F.Z.NASCIMENTO,R.S.FERNANDES,G.OLIVA,A.S.GODOY                     
+REVDAT   4   28-JUL-21 7KVL    1       JRNL                                     
 REVDAT   3   07-JUL-21 7KVL    1       JRNL                                     
 REVDAT   2   27-JAN-21 7KVL    1       COMPND                                   
 REVDAT   1   09-DEC-20 7KVL    0                                                
 JRNL        AUTH   G.D.NOSKE,A.M.NAKAMURA,V.O.GAWRILJUK,R.S.FERNANDES,          
-JRNL        AUTH 2 G.M A LIMA,H.V D ROSA,H.D.PEREIRA,A.C M ZERI,                
-JRNL        AUTH 3 A.A F Z NASCIMENTO,M.C L C FREIRE,D.FEARON,A.DOUANGAMATH,    
+JRNL        AUTH 2 G.M.A.LIMA,H.V.D.ROSA,H.D.PEREIRA,A.C.M.ZERI,                
+JRNL        AUTH 3 A.F.Z.NASCIMENTO,M.C.L.C.FREIRE,D.FEARON,A.DOUANGAMATH,      
 JRNL        AUTH 4 F.VON DELFT,G.OLIVA,A.S.GODOY                                
 JRNL        TITL   A CRYSTALLOGRAPHIC SNAPSHOT OF SARS-COV-2 MAIN PROTEASE      
 JRNL        TITL 2 MATURATION PROCESS.                                          
-JRNL        REF    J.MOL.BIOL.                          67118 2021              
+JRNL        REF    J.MOL.BIOL.                   V. 433 67118 2021              
 JRNL        REFN                   ESSN 1089-8638                               
 JRNL        PMID   34174328                                                     
 JRNL        DOI    10.1016/J.JMB.2021.167118                                    

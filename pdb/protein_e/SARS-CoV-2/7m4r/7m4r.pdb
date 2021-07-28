@@ -30,12 +30,15 @@ KEYWDS    SARS-COV-2 ENVELOPE PROTEIN, PDZ-BINDING MOTIF, COMPLEX, PATHOGEN-
 KEYWDS   2 HOST INTERACTION, CELL ADHESION-VIRAL PROTEIN COMPLEX                
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    Q.LIU,J.CHAI                                                          
+REVDAT   2   28-JUL-21 7M4R    1       JRNL                                     
 REVDAT   1   31-MAR-21 7M4R    0                                                
 JRNL        AUTH   J.CHAI,Y.CAI,C.PANG,L.WANG,S.MCSWEENEY,J.SHANKLIN,Q.LIU      
-JRNL        TITL   STRUCTURAL BASIS FOR SARS-COV-2 ENVELOPE PROTEIN IN          
-JRNL        TITL 2 RECOGNITION OF HUMAN CELL JUNCTION PROTEIN PALS1             
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        TITL   STRUCTURAL BASIS FOR SARS-COV-2 ENVELOPE PROTEIN RECOGNITION 
+JRNL        TITL 2 OF HUMAN CELL JUNCTION PROTEIN PALS1.                        
+JRNL        REF    NAT COMMUN                    V.  12  3433 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   34103506                                                     
+JRNL        DOI    10.1038/S41467-021-23533-X                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.65 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -99,7 +102,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 64.00                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 6400.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

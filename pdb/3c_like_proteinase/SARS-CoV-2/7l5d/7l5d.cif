@@ -3,7 +3,7 @@ data_7L5D
 _entry.id   7L5D 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.336 
+_audit_conform.dict_version    5.347 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -42,25 +42,24 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_abbrev            Science 
+_citation.journal_id_ASTM           SCIEAS 
+_citation.journal_id_CSD            0038 
+_citation.journal_id_ISSN           1095-9203 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     
-'The crystal structure of SARS-CoV-2 Main Protease in complex with demethylated analog of masitinib' 
-_citation.year                      ? 
+_citation.title                     'Masitinib is a broad coronavirus 3CL inhibitor that blocks replication of SARS-CoV-2' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
+_citation.pdbx_database_id_DOI      10.1126/science.abg5827 
 _citation.pdbx_database_id_PubMed   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -69,10 +68,47 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Tan, K.'           1 0000-0002-4003-7903 
-primary 'Maltseva, N.I.'    2 ?                   
-primary 'Jedrzejczak, R.P.' 3 ?                   
-primary 'Joachimiak, A.'    4 0000-0003-2535-6209 
+primary 'Drayman, N.'        1  ? 
+primary 'DeMarco, J.K.'      2  ? 
+primary 'Jones, K.A.'        3  ? 
+primary 'Azizi, S.-A.'       4  ? 
+primary 'Froggatt, H.M.'     5  ? 
+primary 'Tan, K.'            6  ? 
+primary 'Maltseva, N.I.'     7  ? 
+primary 'Chen, S.'           8  ? 
+primary 'Nicolaescu, V.'     9  ? 
+primary 'Dvorkin, S.'        10 ? 
+primary 'Furlong, K.'        11 ? 
+primary 'Kathayat, R.S.'     12 ? 
+primary 'Firpo, M.R.'        13 ? 
+primary 'Mastrodomenico, V.' 14 ? 
+primary 'Bruce, E.A.'        15 ? 
+primary 'Schmidt, M.M.'      16 ? 
+primary 'Jedrzejczak, R.P.'  17 ? 
+primary 'MuNoz-AlIa, M.A.'   18 ? 
+primary 'Schuster, B.'       19 ? 
+primary 'Nair, V.'           20 ? 
+primary 'Han, K.'            21 ? 
+primary 
+;O'Brien, A.
+;
+22 ? 
+primary 'Tomatsidou, A.'     23 ? 
+primary 'Meyer, B.'          24 ? 
+primary 'Vignuzzi, M.'       25 ? 
+primary 'Missiakas, D.'      26 ? 
+primary 'Botten, J.W.'       27 ? 
+primary 'Brooke, C.B.'       28 ? 
+primary 'Lee, H.'            29 ? 
+primary 'Baker, S.C.'        30 ? 
+primary 'Mounce, B.C.'       31 ? 
+primary 'Heaton, N.S.'       32 ? 
+primary 'Severson, W.E.'     33 ? 
+primary 'Palmer, K.E.'       34 ? 
+primary 'Dickinson, B.C.'    35 ? 
+primary 'Joachimiak, A.'     36 ? 
+primary 'Randall, G.'        37 ? 
+primary 'Tay, S.'            38 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -1030,7 +1066,6 @@ _refine_ls_shell.pdbx_fsc_free
 _struct.entry_id                     7L5D 
 _struct.title                        
 'The crystal structure of SARS-CoV-2 Main Protease in complex with demethylated analog of masitinib' 
-_struct.pdbx_descriptor              '3C-like proteinase (E.C.3.4.22.69)' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -7043,11 +7078,14 @@ _pdbx_struct_special_symmetry.label_seq_id
 3 1 A HOH 636 ? K HOH . 
 4 1 A HOH 688 ? K HOH . 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2020-12-30 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2020-12-30 
+2 'Structure model' 1 1 2021-07-28 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7056,6 +7094,33 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.country'              
+2 2 'Structure model' '_citation.journal_abbrev'       
+3 2 'Structure model' '_citation.journal_id_ASTM'      
+4 2 'Structure model' '_citation.journal_id_CSD'       
+5 2 'Structure model' '_citation.journal_id_ISSN'      
+6 2 'Structure model' '_citation.pdbx_database_id_DOI' 
+7 2 'Structure model' '_citation.title'                
+8 2 'Structure model' '_citation.year'                 
 # 
 loop_
 _pdbx_refine_tls.id 

@@ -63,11 +63,11 @@ _citation.journal_volume            ?
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     'SARS-CoV-2 RBD antibodies that maximize breadth and resistance to escape' 
+_citation.title                     'SARS-CoV-2 RBD antibodies that maximize breadth and resistance to escape.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1038/s41586-021-03807-6 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34261126 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -94,43 +94,45 @@ primary 'Bowen, J.E.'          15 ?
 primary 'Tortorici, M.A.'      16 ? 
 primary 'Walls, A.C.'          17 ? 
 primary 'Wojcechowskyj, J.A.'  18 ? 
-primary 'Rosen, L.E.'          19 ? 
-primary 'Zhou, J.'             20 ? 
-primary 'Montiel-Ruiz, M.'     21 ? 
-primary 'Kaiser, H.'           22 ? 
-primary 'Dillen, J.'           23 ? 
-primary 'Tucker, H.'           24 ? 
-primary 'Bassi, J.'            25 ? 
-primary 'Silacci-Fregni, C.'   26 ? 
-primary 'Housley, M.P.'        27 ? 
-primary 'Lombardo, G.'         28 ? 
-primary 'Agostini, M.'         29 ? 
-primary 'Sprugasci, N.'        30 ? 
-primary 'Culap, K.'            31 ? 
-primary 'Jaconi, S.'           32 ? 
-primary 'Meury, M.'            33 ? 
-primary 'Dellota, E.'          34 ? 
-primary 'Abdelnabi, R.'        35 ? 
-primary 'Foo, S.Y.C.'          36 ? 
-primary 'Cameroni, E.'         37 ? 
-primary 'Stumpf, S.'           38 ? 
-primary 'Croll, T.I.'          39 ? 
-primary 'Nix, J.C.'            40 ? 
-primary 'Havenar-Daughton, C.' 41 ? 
-primary 'Piccoli, L.'          42 ? 
-primary 'Benigni, F.'          43 ? 
-primary 'Neyts, J.'            44 ? 
-primary 'Telenti, A.'          45 ? 
-primary 'Lempp, F.A.'          46 ? 
-primary 'Pizzuto, M.S.'        47 ? 
-primary 'Chodera, J.D.'        48 ? 
-primary 'Hebner, C.M.'         49 ? 
-primary 'Virgin, H.W.'         50 ? 
-primary 'Whelan, S.P.J.'       51 ? 
-primary 'Veesler, D.'          52 ? 
-primary 'Corti, D.'            53 ? 
-primary 'Bloom, J.D.'          54 ? 
-primary 'Snell, G.'            55 ? 
+primary 'De Marco, A.'         19 ? 
+primary 'Rosen, L.E.'          20 ? 
+primary 'Zhou, J.'             21 ? 
+primary 'Montiel-Ruiz, M.'     22 ? 
+primary 'Kaiser, H.'           23 ? 
+primary 'Dillen, J.'           24 ? 
+primary 'Tucker, H.'           25 ? 
+primary 'Bassi, J.'            26 ? 
+primary 'Silacci-Fregni, C.'   27 ? 
+primary 'Housley, M.P.'        28 ? 
+primary 'di Iulio, J.'         29 ? 
+primary 'Lombardo, G.'         30 ? 
+primary 'Agostini, M.'         31 ? 
+primary 'Sprugasci, N.'        32 ? 
+primary 'Culap, K.'            33 ? 
+primary 'Jaconi, S.'           34 ? 
+primary 'Meury, M.'            35 ? 
+primary 'Dellota, E.'          36 ? 
+primary 'Abdelnabi, R.'        37 ? 
+primary 'Foo, S.C.'            38 ? 
+primary 'Cameroni, E.'         39 ? 
+primary 'Stumpf, S.'           40 ? 
+primary 'Croll, T.I.'          41 ? 
+primary 'Nix, J.C.'            42 ? 
+primary 'Havenar-Daughton, C.' 43 ? 
+primary 'Piccoli, L.'          44 ? 
+primary 'Benigni, F.'          45 ? 
+primary 'Neyts, J.'            46 ? 
+primary 'Telenti, A.'          47 ? 
+primary 'Lempp, F.A.'          48 ? 
+primary 'Pizzuto, M.S.'        49 ? 
+primary 'Chodera, J.D.'        50 ? 
+primary 'Hebner, C.M.'         51 ? 
+primary 'Virgin, H.W.'         52 ? 
+primary 'Whelan, S.P.J.'       53 ? 
+primary 'Veesler, D.'          54 ? 
+primary 'Corti, D.'            55 ? 
+primary 'Bloom, J.D.'          56 ? 
+primary 'Snell, G.'            57 ? 
 # 
 loop_
 _entity.id 
@@ -6721,11 +6723,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-07-21 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-07-21 
+2 'Structure model' 1 1 2021-07-28 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -6734,6 +6739,27 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+2 2 'Structure model' '_citation.title'                   
 # 
 _pdbx_entry_details.entry_id                 7R7N 
 _pdbx_entry_details.nonpolymer_details       ? 

@@ -3,7 +3,7 @@ data_7LD1
 _entry.id   7LD1 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.344 
+_audit_conform.dict_version    5.346 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -74,10 +74,10 @@ _citation.pdbx_database_id_DOI
 _citation.pdbx_database_id_PubMed 
 _citation.pdbx_database_id_patent 
 _citation.unpublished_flag 
-? ? ? ? ? ? ? US ? ? primary 'Cell(Cambridge,Mass.)' CELLB5 0998 0092-8674 ? ? ? ? ? ? 
-'In vitro and in vivo functions of SARS-CoV-2 infection-enhancing and neutralizing antibodies'                            2021 ? 
-10.1016/j.cell.2021.06.021 ?        ? ? 
-? ? ? ? ? ? ? US ? ? 1       Biorxiv                 ?      ?    ?         ? ? ? ? ? ? 
+? ? ? ? ? ? ? ?  ? ? primary Cell    ? ? 1097-4172 ? ? ? ? ? ? 
+'In vitro and in vivo functions of SARS-CoV-2 infection-enhancing and neutralizing antibodies.'                           2021 ? 
+10.1016/j.cell.2021.06.021 34242577 ? ? 
+? ? ? ? ? ? ? US ? ? 1       Biorxiv ? ? ?         ? ? ? ? ? ? 
 'The functions of SARS-CoV-2 neutralizing and infection-enhancing antibodies in vitro and in mice and nonhuman primates.' 2021 ? 
 10.1101/2020.12.31.424729  33442694 ? ? 
 # 
@@ -96,7 +96,7 @@ primary 'Wiehe, K.'        7   ?
 primary 'Lu, X.'           8   ? 
 primary 'Parks, R.'        9   ? 
 primary 'Sutherland, L.L.' 10  ? 
-primary 'Oguin, T.H.'      11  ? 
+primary 'Oguin 3rd, T.H.'  11  ? 
 primary 'McDanal, C.'      12  ? 
 primary 'Perez, L.G.'      13  ? 
 primary 'Mansouri, K.'     14  ? 
@@ -126,90 +126,92 @@ primary 'Feldman, J.'      37  ?
 primary 'Hauser, B.M.'     38  ? 
 primary 'Caradonna, T.M.'  39  ? 
 primary 'Scobey, T.D.'     40  ? 
-primary 'Moody, M.A.'      41  ? 
-primary 'Cain, D.W.'       42  ? 
-primary 'DeMarco, C.T.'    43  ? 
-primary 'Denny, T.N.'      44  ? 
-primary 'Woods, C.W.'      45  ? 
-primary 'Petzold, E.W.'    46  ? 
-primary 'Schmidt, A.G.'    47  ? 
-primary 'Teng, I.T.'       48  ? 
-primary 'Zhou, T.'         49  ? 
-primary 'Kwong, P.D.'      50  ? 
-primary 'Mascola, J.R.'    51  ? 
-primary 'Graham, B.S.'     52  ? 
-primary 'Moore, I.N.'      53  ? 
-primary 'Seder, R.'        54  ? 
-primary 'Andersen, H.'     55  ? 
-primary 'Lewis, M.G.'      56  ? 
-primary 'Montefiori, D.C.' 57  ? 
-primary 'Sempowski, G.D.'  58  ? 
-primary 'Baric, R.S.'      59  ? 
-primary 'Acharya, P.'      60  ? 
-primary 'Haynes, B.F.'     61  ? 
-primary 'Saunders, K.O.'   62  ? 
-1       'Li, D.'           63  ? 
-1       'Edwards, R.J.'    64  ? 
-1       'Manne, K.'        65  ? 
-1       'Martinez, D.R.'   66  ? 
-1       'Schafer, A.'      67  ? 
-1       'Alam, S.M.'       68  ? 
-1       'Wiehe, K.'        69  ? 
-1       'Lu, X.'           70  ? 
-1       'Parks, R.'        71  ? 
-1       'Sutherland, L.L.' 72  ? 
-1       'Oguin, T.H.'      73  ? 
-1       'McDanal, C.'      74  ? 
-1       'Perez, L.G.'      75  ? 
-1       'Mansouri, K.'     76  ? 
-1       'Gobeil, S.M.C.'   77  ? 
-1       'Janowska, K.'     78  ? 
-1       'Stalls, V.'       79  ? 
-1       'Kopp, M.'         80  ? 
-1       'Cai, F.'          81  ? 
-1       'Lee, E.'          82  ? 
-1       'Foulger, A.'      83  ? 
-1       'Hernandez, G.E.'  84  ? 
-1       'Sanzone, A.'      85  ? 
-1       'Tilahun, K.'      86  ? 
-1       'Jiang, C.'        87  ? 
-1       'Tse, L.V.'        88  ? 
-1       'Bock, K.W.'       89  ? 
-1       'Minai, M.'        90  ? 
-1       'Nagata, B.M.'     91  ? 
-1       'Cronin, K.'       92  ? 
-1       'Gee-Lai, V.'      93  ? 
-1       'Deyton, M.'       94  ? 
-1       'Barr, M.'         95  ? 
-1       'Von Holle, T.'    96  ? 
-1       'Macintyre, A.N.'  97  ? 
-1       'Stover, E.'       98  ? 
-1       'Feldman, J.'      99  ? 
-1       'Hauser, B.M.'     100 ? 
-1       'Caradonna, T.M.'  101 ? 
-1       'Scobey, T.D.'     102 ? 
-1       'Moody, M.A.'      103 ? 
-1       'Cain, D.W.'       104 ? 
-1       'DeMarco, C.T.'    105 ? 
-1       'Denny, T.N.'      106 ? 
-1       'Woods, C.W.'      107 ? 
-1       'Petzold, E.W.'    108 ? 
-1       'Schmidt, A.G.'    109 ? 
-1       'Teng, I.T.'       110 ? 
-1       'Zhou, T.'         111 ? 
-1       'Kwong, P.D.'      112 ? 
-1       'Mascola, J.R.'    113 ? 
-1       'Graham, B.S.'     114 ? 
-1       'Moore, I.N.'      115 ? 
-1       'Seder, R.'        116 ? 
-1       'Andersen, H.'     117 ? 
-1       'Lewis, M.G.'      118 ? 
-1       'Montefiori, D.C.' 119 ? 
-1       'Sempowski, G.D.'  120 ? 
-1       'Baric, R.S.'      121 ? 
-1       'Acharya, P.'      122 ? 
-1       'Haynes, B.F.'     123 ? 
-1       'Saunders, K.O.'   124 ? 
+primary 'Rountree, W.'     41  ? 
+primary 'Wang, Y.'         42  ? 
+primary 'Moody, M.A.'      43  ? 
+primary 'Cain, D.W.'       44  ? 
+primary 'DeMarco, C.T.'    45  ? 
+primary 'Denny, T.N.'      46  ? 
+primary 'Woods, C.W.'      47  ? 
+primary 'Petzold, E.W.'    48  ? 
+primary 'Schmidt, A.G.'    49  ? 
+primary 'Teng, I.T.'       50  ? 
+primary 'Zhou, T.'         51  ? 
+primary 'Kwong, P.D.'      52  ? 
+primary 'Mascola, J.R.'    53  ? 
+primary 'Graham, B.S.'     54  ? 
+primary 'Moore, I.N.'      55  ? 
+primary 'Seder, R.'        56  ? 
+primary 'Andersen, H.'     57  ? 
+primary 'Lewis, M.G.'      58  ? 
+primary 'Montefiori, D.C.' 59  ? 
+primary 'Sempowski, G.D.'  60  ? 
+primary 'Baric, R.S.'      61  ? 
+primary 'Acharya, P.'      62  ? 
+primary 'Haynes, B.F.'     63  ? 
+primary 'Saunders, K.O.'   64  ? 
+1       'Li, D.'           65  ? 
+1       'Edwards, R.J.'    66  ? 
+1       'Manne, K.'        67  ? 
+1       'Martinez, D.R.'   68  ? 
+1       'Schafer, A.'      69  ? 
+1       'Alam, S.M.'       70  ? 
+1       'Wiehe, K.'        71  ? 
+1       'Lu, X.'           72  ? 
+1       'Parks, R.'        73  ? 
+1       'Sutherland, L.L.' 74  ? 
+1       'Oguin, T.H.'      75  ? 
+1       'McDanal, C.'      76  ? 
+1       'Perez, L.G.'      77  ? 
+1       'Mansouri, K.'     78  ? 
+1       'Gobeil, S.M.C.'   79  ? 
+1       'Janowska, K.'     80  ? 
+1       'Stalls, V.'       81  ? 
+1       'Kopp, M.'         82  ? 
+1       'Cai, F.'          83  ? 
+1       'Lee, E.'          84  ? 
+1       'Foulger, A.'      85  ? 
+1       'Hernandez, G.E.'  86  ? 
+1       'Sanzone, A.'      87  ? 
+1       'Tilahun, K.'      88  ? 
+1       'Jiang, C.'        89  ? 
+1       'Tse, L.V.'        90  ? 
+1       'Bock, K.W.'       91  ? 
+1       'Minai, M.'        92  ? 
+1       'Nagata, B.M.'     93  ? 
+1       'Cronin, K.'       94  ? 
+1       'Gee-Lai, V.'      95  ? 
+1       'Deyton, M.'       96  ? 
+1       'Barr, M.'         97  ? 
+1       'Von Holle, T.'    98  ? 
+1       'Macintyre, A.N.'  99  ? 
+1       'Stover, E.'       100 ? 
+1       'Feldman, J.'      101 ? 
+1       'Hauser, B.M.'     102 ? 
+1       'Caradonna, T.M.'  103 ? 
+1       'Scobey, T.D.'     104 ? 
+1       'Moody, M.A.'      105 ? 
+1       'Cain, D.W.'       106 ? 
+1       'DeMarco, C.T.'    107 ? 
+1       'Denny, T.N.'      108 ? 
+1       'Woods, C.W.'      109 ? 
+1       'Petzold, E.W.'    110 ? 
+1       'Schmidt, A.G.'    111 ? 
+1       'Teng, I.T.'       112 ? 
+1       'Zhou, T.'         113 ? 
+1       'Kwong, P.D.'      114 ? 
+1       'Mascola, J.R.'    115 ? 
+1       'Graham, B.S.'     116 ? 
+1       'Moore, I.N.'      117 ? 
+1       'Seder, R.'        118 ? 
+1       'Andersen, H.'     119 ? 
+1       'Lewis, M.G.'      120 ? 
+1       'Montefiori, D.C.' 121 ? 
+1       'Sempowski, G.D.'  122 ? 
+1       'Baric, R.S.'      123 ? 
+1       'Acharya, P.'      124 ? 
+1       'Haynes, B.F.'     125 ? 
+1       'Saunders, K.O.'   126 ? 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -2249,7 +2251,6 @@ _refine_ls_restr.pdbx_restraint_function
 # 
 _struct.entry_id                     7LD1 
 _struct.title                        'Structure of SARS-CoV-2 S protein in complex with Receptor Binding Domain antibody DH1047' 
-_struct.pdbx_descriptor              '2G12 heavy chain, 2G12 light chain, Spike glycoprotein' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -37645,6 +37646,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-01-27 
 2 'Structure model' 1 1 2021-02-03 
 3 'Structure model' 2 0 2021-07-07 
+4 'Structure model' 2 1 2021-07-28 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -37670,6 +37672,7 @@ _pdbx_audit_revision_group.group
 6 3 'Structure model' 'Derived calculations'   
 7 3 'Structure model' 'Refinement description' 
 8 3 'Structure model' 'Structure summary'      
+9 4 'Structure model' 'Database references'    
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -37696,6 +37699,8 @@ _pdbx_audit_revision_category.category
 18 3 'Structure model' struct_conn                     
 19 3 'Structure model' struct_ref_seq                  
 20 3 'Structure model' struct_sheet_range              
+21 4 'Structure model' citation                        
+22 4 'Structure model' citation_author                 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -37743,6 +37748,13 @@ _pdbx_audit_revision_item.item
 39 3 'Structure model' '_struct_sheet_range.end_auth_seq_id'           
 40 3 'Structure model' '_struct_sheet_range.pdbx_beg_PDB_ins_code'     
 41 3 'Structure model' '_struct_sheet_range.pdbx_end_PDB_ins_code'     
+42 4 'Structure model' '_citation.country'                             
+43 4 'Structure model' '_citation.journal_abbrev'                      
+44 4 'Structure model' '_citation.journal_id_ASTM'                     
+45 4 'Structure model' '_citation.journal_id_CSD'                      
+46 4 'Structure model' '_citation.journal_id_ISSN'                     
+47 4 'Structure model' '_citation.pdbx_database_id_PubMed'             
+48 4 'Structure model' '_citation.title'                               
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

@@ -63,18 +63,33 @@ KEYWDS    SARS-COV-2, RECEPTOR BINDING DOMAIN, NEUTRALIZING ANTIBODIES, IMMUNE
 KEYWDS   2 SYSTEM                                                               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.C.NEWTON,I.KUCHARSKA,E.RUJAS,H.CUI,J.P.JULIEN                       
+REVDAT   3   28-JUL-21 7K9Z    1       JRNL                                     
 REVDAT   2   27-JAN-21 7K9Z    1       COMPND                                   
 REVDAT   1   28-OCT-20 7K9Z    0                                                
 JRNL        AUTH   E.RUJAS,I.KUCHARSKA,Y.Z.TAN,S.BENLEKBIR,H.CUI,T.ZHAO,        
-JRNL        AUTH 2 G.WASNEY,P.BUDYLOWSKI,F.GUVENC,J.C.NEWTON,T.SICARD,A.SEMESI, 
-JRNL        AUTH 3 K.MUTHURAMAN,A.NOUANESENGSY,K.PRIETO,S.A.BUELER,S.YOUSSEF,   
-JRNL        AUTH 4 S.LIAO-CHAN,J.GLANVILLE,N.CHRISTIE-HOLMES,S.MUBAREKA,        
-JRNL        AUTH 5 S.D.GRAY-OWEN,J.L.RUBINSTEIN,B.TREANOR,J.P.JULIEN            
-JRNL        TITL   MULTIVALENCY TRANSFORMS SARS-COV-2 ANTIBODIES INTO BROAD AND 
-JRNL        TITL 2 ULTRAPOTENT NEUTRALIZERS                                     
-JRNL        REF    BIORXIV                                    2020              
-JRNL        REFN                                                                
-JRNL        DOI    10.1101/2020.10.15.341636                                    
+JRNL        AUTH 2 G.A.WASNEY,P.BUDYLOWSKI,F.GUVENC,J.C.NEWTON,T.SICARD,        
+JRNL        AUTH 3 A.SEMESI,K.MUTHURAMAN,A.NOUANESENGSY,C.B.ASCHNER,K.PRIETO,   
+JRNL        AUTH 4 S.A.BUELER,S.YOUSSEF,S.LIAO-CHAN,J.GLANVILLE,                
+JRNL        AUTH 5 N.CHRISTIE-HOLMES,S.MUBAREKA,S.D.GRAY-OWEN,J.L.RUBINSTEIN,   
+JRNL        AUTH 6 B.TREANOR,J.P.JULIEN                                         
+JRNL        TITL   MULTIVALENCY TRANSFORMS SARS-COV-2 ANTIBODIES INTO           
+JRNL        TITL 2 ULTRAPOTENT NEUTRALIZERS.                                    
+JRNL        REF    NAT COMMUN                    V.  12  3661 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   34135340                                                     
+JRNL        DOI    10.1038/S41467-021-23825-2                                   
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   E.RUJAS,I.KUCHARSKA,Y.Z.TAN,S.BENLEKBIR,H.CUI,T.ZHAO,        
+REMARK   1  AUTH 2 G.WASNEY,P.BUDYLOWSKI,F.GUVENC,J.C.NEWTON,T.SICARD,A.SEMESI, 
+REMARK   1  AUTH 3 K.MUTHURAMAN,A.NOUANESENGSY,K.PRIETO,S.A.BUELER,S.YOUSSEF,   
+REMARK   1  AUTH 4 S.LIAO-CHAN,J.GLANVILLE,N.CHRISTIE-HOLMES,S.MUBAREKA,        
+REMARK   1  AUTH 5 S.D.GRAY-OWEN,J.L.RUBINSTEIN,B.TREANOR,J.P.JULIEN            
+REMARK   1  TITL   MULTIVALENCY TRANSFORMS SARS-COV-2 ANTIBODIES INTO BROAD AND 
+REMARK   1  TITL 2 ULTRAPOTENT NEUTRALIZERS                                     
+REMARK   1  REF    BIORXIV                                    2020              
+REMARK   1  REFN                                                                
+REMARK   1  DOI    10.1101/2020.10.15.341636                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.95 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -17167,5 +17182,5 @@ CONECT 8063 8056
 CONECT 8064 8053 8057                                                           
 CONECT 8065 8058                                                                
 CONECT 8066 8059                                                                
-MASTER      692    0    1   15  101    0    0    6 8061    5   41   87          
+MASTER      704    0    1   15  101    0    0    6 8061    5   41   87          
 END                                                                             

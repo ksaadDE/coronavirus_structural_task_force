@@ -10,22 +10,24 @@ COMPND   7 CHAIN: B;
 COMPND   8 SYNONYM: S GLYCOPROTEIN,E2,PEPLOMER PROTEIN;                         
 COMPND   9 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE   3 ORGANISM_TAXID: 9606;                                                
-SOURCE   4 EXPRESSION_SYSTEM: ESCHERICHIA COLI K-12;                            
-SOURCE   5 EXPRESSION_SYSTEM_TAXID: 83333;                                      
-SOURCE   6 EXPRESSION_SYSTEM_STRAIN: K-12;                                      
-SOURCE   7 MOL_ID: 2;                                                           
-SOURCE   8 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
-SOURCE   9 2;                                                                   
-SOURCE  10 ORGANISM_COMMON: 2019-NCOV;                                          
-SOURCE  11 ORGANISM_TAXID: 2697049;                                             
-SOURCE  12 GENE: S, 2;                                                          
-SOURCE  13 EXPRESSION_SYSTEM: INSECT CELL EXPRESSION VECTOR PTIE1;              
-SOURCE  14 EXPRESSION_SYSTEM_TAXID: 266783                                      
+SOURCE   2 ORGANISM_SCIENTIFIC: CANIS LUPUS FAMILIARIS;                         
+SOURCE   3 ORGANISM_COMMON: DOGS;                                               
+SOURCE   4 ORGANISM_TAXID: 9615;                                                
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI K-12;                            
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 83333;                                      
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: K-12;                                      
+SOURCE   8 MOL_ID: 2;                                                           
+SOURCE   9 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
+SOURCE  10 2;                                                                   
+SOURCE  11 ORGANISM_COMMON: 2019-NCOV;                                          
+SOURCE  12 ORGANISM_TAXID: 2697049;                                             
+SOURCE  13 GENE: S, 2;                                                          
+SOURCE  14 EXPRESSION_SYSTEM: INSECT CELL EXPRESSION VECTOR PTIE1;              
+SOURCE  15 EXPRESSION_SYSTEM_TAXID: 266783                                      
 KEYWDS    SARS-COV-2, SPIKE, RBD, RECEPTOR BINDING, VIRAL PROTEIN               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Z.Y.ZHANG,Y.F.ZHANG                                                   
+REVDAT   3   28-JUL-21 7E3J    1       SOURCE                                   
 REVDAT   2   07-JUL-21 7E3J    1       JRNL                                     
 REVDAT   1   07-APR-21 7E3J    0                                                
 JRNL        AUTH   Z.Y.ZHANG,Y.F.ZHANG                                          

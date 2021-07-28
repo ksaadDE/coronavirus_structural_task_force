@@ -8,7 +8,5 @@
 ##### new structures by protein #####
 exonuclease-nsp10
 >7n0b 7n0c 7n0d 
-not_assigned
->7n1f 7n6e 7n1b 7n6d 7n1e 7p3d 7n1a 
 surface_glycoprotein
->7mlz 7mm0 7m42 
+>7mlz 7mm0 7m42 7n1f 7n6e 7n1b 7n6d 7n1e 7p3d 7n1a 

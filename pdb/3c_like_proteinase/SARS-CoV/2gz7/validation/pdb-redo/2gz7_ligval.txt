@@ -2,19 +2,22 @@
 ****** Ligand validation details (D3F A 307) ******
  
                                     Before  Final
-Real-space R-factor               : 0.293   0.292
-Real-space correlation            : 0.54    0.66
-Energy of formation (kJ/mol)      : NA NA
+Real-space R-factor               : 0.299   0.295
+Real-space correlation            : 0.522   0.659
+EDIAm density fit                 : -0.090   -0.049
+OPIA density coverage (%)         : 3.6    3.6
+ 
+Energy of formation (kJ/mol)      : 718.251 -421.784
 Hydrogen bond energy (kJ/mol)     : 0  0
 Number of hydrogen bonds          : 0  0
-Number of bumps                   : 23  14
-Number of hydrophobic interactions: 9  13
-Hydrophobic interaction strength  : 9.494  10.544
-Number of Pi-Pi interactions      : 4  2
-Pi-Pi interaction strength        : 2.265  0.359
+Number of bumps                   : 23  18
+Number of hydrophobic interactions: 10  8
+Hydrophobic interaction strength  : 9.494  9.083
+Number of Pi-Pi interactions      : 4  3
+Pi-Pi interaction strength        : 2.265  0.431
 Number of cation-Pi interactions  : 0  0
 Cation-Pi interaction strength    : 0.000  0.000
  
-Atoms shifted more than 0.50A     : 20
-All atom RMSD for residue (A)     : 1.0059
+Atoms shifted more than 0.50A     : 18
+All atom RMSD for residue (A)     : 0.8279
  

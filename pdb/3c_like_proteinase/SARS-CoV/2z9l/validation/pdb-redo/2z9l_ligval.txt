@@ -2,10 +2,13 @@
 ****** Ligand validation details (DAZ A 701) ******
  
                                     Before  Final
-Real-space R-factor               : 0.045   0.088
-Real-space correlation            : 0.99    0.98
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : 0  -10.75
+Real-space R-factor               : 0.044   0.083
+Real-space correlation            : 0.992   0.981
+EDIAm density fit                 : 0.695   0.375
+OPIA density coverage (%)         : 33.3    0.0
+ 
+Energy of formation (kJ/mol)      : 819.526 836.155
+Hydrogen bond energy (kJ/mol)     : 0  -10.95
 Number of hydrogen bonds          : 0  1
 Number of bumps                   : 6  10
 Number of hydrophobic interactions: 0  0
@@ -13,28 +16,31 @@ Hydrophobic interaction strength  : 0.000  0.000
 Number of Pi-Pi interactions      : 0  0
 Pi-Pi interaction strength        : 0.000  0.000
 Number of cation-Pi interactions  : 3  3
-Cation-Pi interaction strength    : 2.348  2.322
+Cation-Pi interaction strength    : 2.348  2.360
  
 Atoms shifted more than 0.50A     : 2
-All atom RMSD for residue (A)     : 1.0532
+All atom RMSD for residue (A)     : 0.9864
  
  
 ****** Ligand validation details (DAZ B 702) ******
  
                                     Before  Final
-Real-space R-factor               : 0.049   0.070
-Real-space correlation            : 0.99    0.98
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : 0  -18.57
+Real-space R-factor               : 0.047   0.055
+Real-space correlation            : 0.994   0.989
+EDIAm density fit                 : 0.782   0.583
+OPIA density coverage (%)         : 33.3    0.0
+ 
+Energy of formation (kJ/mol)      : 819.561 834.255
+Hydrogen bond energy (kJ/mol)     : 0  -20.33
 Number of hydrogen bonds          : 0  1
-Number of bumps                   : 6  10
+Number of bumps                   : 6  8
 Number of hydrophobic interactions: 0  0
 Hydrophobic interaction strength  : 0.000  0.000
 Number of Pi-Pi interactions      : 0  0
 Pi-Pi interaction strength        : 0.000  0.000
 Number of cation-Pi interactions  : 3  3
-Cation-Pi interaction strength    : 2.211  2.269
+Cation-Pi interaction strength    : 2.211  2.304
  
 Atoms shifted more than 0.50A     : 2
-All atom RMSD for residue (A)     : 1.0631
+All atom RMSD for residue (A)     : 0.7954
  

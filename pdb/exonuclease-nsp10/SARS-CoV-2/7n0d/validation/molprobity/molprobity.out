@@ -1,0 +1,194 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 21846
+     H or D atoms   : 0
+     chains         : 26
+     a.a. residues  : 2572
+     nucleotides    : 76
+     water          : 4
+     other (ligands): 28
+   Ligands: ZN:20,1N7:2,MG:6
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.052 (Z=  3.347)
+  Mean delta:    0.006 (Z=  0.310)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A  83  HIS  CB     
+   A  83  HIS  CG     
+   A  83  HIS  CD2       131.20   125.97     5.23  1.30e+00  1.62e+01   4.0*sigma
+   F 486  HIS  CB     
+   F 486  HIS  CG     
+   F 486  HIS  CD2       131.20   125.93     5.27  1.30e+00  1.65e+01   4.1*sigma
+   E  83  HIS  CB     
+   E  83  HIS  CG     
+   E  83  HIS  CD2       131.20   125.92     5.28  1.30e+00  1.65e+01   4.1*sigma
+   B 486  HIS  CB     
+   B 486  HIS  CG     
+   B 486  HIS  CD2       131.20   125.92     5.28  1.30e+00  1.65e+01   4.1*sigma
+   H 486  HIS  CB     
+   H 486  HIS  CG     
+   H 486  HIS  CD2       131.20   125.84     5.36  1.30e+00  1.70e+01   4.1*sigma
+   D 486  HIS  CB     
+   D 486  HIS  CG     
+   D 486  HIS  CD2       131.20   125.81     5.39  1.30e+00  1.72e+01   4.1*sigma
+   H  83  VAL  C      
+   H  84  ARG  N      
+   H  84  ARG  CA        121.70   129.26    -7.56  1.80e+00  1.76e+01   4.2*sigma
+   D  83  VAL  C      
+   D  84  ARG  N      
+   D  84  ARG  CA        121.70   129.27    -7.57  1.80e+00  1.77e+01   4.2*sigma
+   D 208  CYS  N      
+   D 208  CYS  CA     
+   D 208  CYS  C         111.00    99.14    11.86  2.80e+00  1.80e+01   4.2*sigma
+   H 208  CYS  N      
+   H 208  CYS  CA     
+   H 208  CYS  C         111.00    99.08    11.92  2.80e+00  1.81e+01   4.3*sigma
+   F 487  HIS  CB     
+   F 487  HIS  CG     
+   F 487  HIS  CD2       131.20   124.74     6.46  1.30e+00  2.47e+01   5.0*sigma
+   B 487  HIS  CB     
+   B 487  HIS  CG     
+   B 487  HIS  CD2       131.20   124.72     6.48  1.30e+00  2.48e+01   5.0*sigma
+   B 229  HIS  CB     
+   B 229  HIS  CG     
+   B 229  HIS  CD2       131.20   124.46     6.74  1.30e+00  2.69e+01   5.2*sigma
+   F 229  HIS  CB     
+   F 229  HIS  CG     
+   F 229  HIS  CD2       131.20   124.45     6.75  1.30e+00  2.69e+01   5.2*sigma
+   H 229  HIS  CB     
+   H 229  HIS  CG     
+   H 229  HIS  CD2       131.20   124.20     7.00  1.30e+00  2.90e+01   5.4*sigma
+   D 229  HIS  CB     
+   D 229  HIS  CG     
+   D 229  HIS  CD2       131.20   124.19     7.01  1.30e+00  2.91e+01   5.4*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   11.923 (Z=  5.393)
+  Mean delta:    1.148 (Z=  0.577)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   B 268  HIS  CA     
+   B 268  HIS  C      
+   B 269  VAL  N      
+   B 269  VAL  CA        180.00   159.14    20.86  5.00e+00  1.74e+01   4.2*sigma
+   F 268  HIS  CA     
+   F 268  HIS  C      
+   F 269  VAL  N      
+   F 269  VAL  CA        180.00   159.14    20.86  5.00e+00  1.74e+01   4.2*sigma
+   H  83  VAL  CA     
+   H  83  VAL  C      
+   H  84  ARG  N      
+   H  84  ARG  CA        180.00  -153.92   -26.08  5.00e+00  2.72e+01   5.2*sigma
+   D  83  VAL  CA     
+   D  83  VAL  C      
+   D  84  ARG  N      
+   D  84  ARG  CA        180.00  -153.90   -26.10  5.00e+00  2.72e+01   5.2*sigma
+
+  Min. delta:    0.001
+  Max. delta:   88.240
+  Mean delta:   13.201
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.416
+  Mean delta:    0.052
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.072
+  Mean delta:    0.006
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.006   0.052  22504
+    Angle     :  1.148  11.923  30936
+    Chirality :  0.052   0.416   3456
+    Planarity :  0.006   0.072   3688
+    Dihedral  : 13.201  88.240   8242
+    Min Nonbonded Distance : 1.396
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 4.17
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  1.10 %
+      Favored  : 98.90 %
+    Rotamer Outliers :  0.00 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -2.65 (0.14), residues: 2548
+    helix: -2.15 (0.15), residues: 640
+    sheet: -1.58 (0.30), residues: 224
+    loop : -1.69 (0.13), residues: 1684
+
+                     ----------Asn/Gln/His flips----------                     
+
+   F 245  GLN
+   H 521  ASN
+   H 313  GLN
+   F 313  GLN
+   D 521  ASN
+   D 441  GLN
+   D 313  GLN
+   H 441  GLN
+   B 313  GLN
+   B 245  GLN
+   A  40  ASN
+   B 246  GLN
+   B 388  ASN
+   D  22  GLN
+   D 246  GLN
+   D 499  ASN
+   E  40  ASN
+   F 246  GLN
+   F 388  ASN
+   H  22  GLN
+   H 246  GLN
+   H 499  ASN
+
+================================ RNA validation ===============================
+
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  98.90 %
+  Rotamer outliers      =   0.00 %
+  C-beta deviations     =     0
+  Clashscore            =   4.17
+  RMS(bonds)            =   0.0059
+  RMS(angles)           =   1.15
+  MolProbity score      =   1.20
+  Refinement program    = PHENIX

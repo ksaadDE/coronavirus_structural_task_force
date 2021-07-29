@@ -24,7 +24,7 @@ This crystal structure shows the SARS-CoV-2 complex of nsp 7 and the C-terminal 
 
 
 
-
+**old** - contains files from historical revisions
 
 **validation** - contains validation reports. This structure has been analyzed by <br>[**AUSPEX**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/6xip/validation/auspex) [**PDB-REDO**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/6xip/validation/pdb-redo) [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/nsp7-nsp8/SARS-CoV-2/6xip/validation/molprobity) [**XTRIAGE**](https://github.com/thorn-lab/coronavirus_structural_task_force/blob/master/pdb/nsp7-nsp8/SARS-CoV-2/6xip/validation/Xtriage_output.log)   
 
@@ -39,7 +39,7 @@ No public deposition. --<br>
 
 |   | Resolution | Completeness| I/sigma |
 |---|-------------:|----------------:|--------------:|
-|   |-- Å|--|<img width=50/>--|
+|   |1.50 Å|97.6  %|<img width=50/>30.20|
 
 **Discrepancy between model and data (the lower, the better)**
 

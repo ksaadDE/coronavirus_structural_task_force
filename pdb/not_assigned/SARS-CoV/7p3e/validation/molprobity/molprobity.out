@@ -1,0 +1,216 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 6526
+     H or D atoms   : 0
+     chains         : 17
+     a.a. residues  : 770
+     nucleotides    : 0
+     water          : 131
+     other (ligands): 26
+   Ligands: PEG:2,IOD:24
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   D 256  ARG  CD     
+   D 256  ARG  NE          1.46     1.40     0.06  1.40e-02  1.75e+01   4.2*sigma
+   D  75  ARG  NE     
+   D  75  ARG  CZ          1.33     1.37    -0.05  1.10e-02  1.81e+01   4.3*sigma
+   E  31  HIS  CE1    
+   E  31  HIS  NE2         1.32     1.37    -0.04  1.00e-02  1.98e+01   4.5*sigma
+   D   3  HIS  CE1    
+   D   3  HIS  NE2         1.32     1.37    -0.05  1.00e-02  2.04e+01   4.5*sigma
+   A  97  ARG  CD     
+   A  97  ARG  NE          1.46     1.39     0.06  1.40e-02  2.06e+01   4.5*sigma
+   D  70  HIS  CE1    
+   D  70  HIS  NE2         1.32     1.37    -0.05  1.00e-02  2.54e+01   5.0*sigma
+   A  70  HIS  CE1    
+   A  70  HIS  NE2         1.32     1.37    -0.05  1.00e-02  2.66e+01   5.2*sigma
+   B  31  HIS  CE1    
+   B  31  HIS  NE2         1.32     1.37    -0.05  1.00e-02  2.88e+01   5.4*sigma
+   D  53  GLU  CD     
+   D  53  GLU  OE2         1.25     1.39    -0.14  1.90e-02  5.42e+01   7.4*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.140 (Z=  6.044)
+  Mean delta:    0.016 (Z=  0.885)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   B   4  THR  CA     
+   B   4  THR  CB     
+   B   4  THR  OG1       109.60   103.60     6.00  1.50e+00  1.60e+01   4.0*sigma
+   E  41  LYS  C      
+   E  42  ASN  N      
+   E  42  ASN  CA        121.70   129.02    -7.32  1.80e+00  1.66e+01   4.1*sigma
+   A 178  THR  CA     
+   A 178  THR  CB     
+   A 178  THR  OG1       109.60   102.90     6.70  1.50e+00  2.00e+01   4.5*sigma
+   A 122  ASP  CA     
+   A 122  ASP  CB     
+   A 122  ASP  CG        112.60   117.32    -4.72  1.00e+00  2.23e+01   4.7*sigma
+   D 154  GLU  C      
+   D 154  GLU  CA     
+   D 154  GLU  CB        110.10   119.76    -9.66  1.90e+00  2.58e+01   5.1*sigma
+   D  53  GLU  CB     
+   D  53  GLU  CG     
+   D  53  GLU  CD        112.60   122.19    -9.59  1.70e+00  3.18e+01   5.6*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    9.660 (Z=  5.642)
+  Mean delta:    1.795 (Z=  0.969)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   D 133  TRP  CA     
+   D 133  TRP  C      
+   D 134  THR  N      
+   D 134  THR  CA        180.00   159.91    20.09  5.00e+00  1.61e+01   4.0*sigma
+   A 133  TRP  CA     
+   A 133  TRP  C      
+   A 134  THR  N      
+   A 134  THR  CA        180.00   159.90    20.10  5.00e+00  1.62e+01   4.0*sigma
+   D 181  ARG  CA     
+   D 181  ARG  C      
+   D 182  THR  N      
+   D 182  THR  CA        180.00   159.65    20.35  5.00e+00  1.66e+01   4.1*sigma
+   A  44  ARG  CA     
+   A  44  ARG  C      
+   A  45  MET  N      
+   A  45  MET  CA        180.00   159.28    20.72  5.00e+00  1.72e+01   4.1*sigma
+   D  44  ARG  CA     
+   D  44  ARG  C      
+   D  45  MET  N      
+   D  45  MET  CA        180.00   159.06    20.94  5.00e+00  1.75e+01   4.2*sigma
+   E  40  LEU  CA     
+   E  40  LEU  C      
+   E  41  LYS  N      
+   E  41  LYS  CA        180.00   158.97    21.03  5.00e+00  1.77e+01   4.2*sigma
+   A 181  ARG  CA     
+   A 181  ARG  C      
+   A 182  THR  N      
+   A 182  THR  CA        180.00   158.35    21.65  5.00e+00  1.87e+01   4.3*sigma
+   D  16  GLY  CA     
+   D  16  GLY  C      
+   D  17  ARG  N      
+   D  17  ARG  CA        180.00  -157.00   -23.00  5.00e+00  2.12e+01   4.6*sigma
+   D  27  TYR  CA     
+   D  27  TYR  C      
+   D  28  VAL  N      
+   D  28  VAL  CA        180.00   155.72    24.28  5.00e+00  2.36e+01   4.9*sigma
+   D  41  ALA  CA     
+   D  41  ALA  C      
+   D  42  SER  N      
+   D  42  SER  CA        180.00  -153.86   -26.14  5.00e+00  2.73e+01   5.2*sigma
+   A  16  GLY  CA     
+   A  16  GLY  C      
+   A  17  ARG  N      
+   A  17  ARG  CA        180.00  -153.77   -26.23  5.00e+00  2.75e+01   5.2*sigma
+   A  27  TYR  CA     
+   A  27  TYR  C      
+   A  28  VAL  N      
+   A  28  VAL  CA        180.00   150.23    29.77  5.00e+00  3.55e+01   6.0*sigma
+   E  39  LEU  CA     
+   E  39  LEU  C      
+   E  40  LEU  N      
+   E  40  LEU  CA        180.00  -147.10   -32.90  5.00e+00  4.33e+01   6.6*sigma
+   E  41  LYS  CA     
+   E  41  LYS  C      
+   E  42  ASN  N      
+   E  42  ASN  CA        180.00   143.06    36.94  5.00e+00  5.46e+01   7.4*sigma
+
+  Min. delta:    0.003
+  Max. delta:   83.294
+  Mean delta:   16.549
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.256
+  Mean delta:    0.093
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.057
+  Mean delta:    0.012
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.016   0.140   6550
+    Angle     :  1.795   9.660   8881
+    Chirality :  0.093   0.256    903
+    Planarity :  0.012   0.057   1159
+    Dihedral  : 16.549  83.294   2401
+    Min Nonbonded Distance : 2.183
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 6.04
+    Ramachandran Plot:
+      Outliers :  0.26 %
+      Allowed  :  2.11 %
+      Favored  : 97.63 %
+    Rotamer Outliers :  3.12 %
+    Cbeta Deviations :  0.14 %
+    Peptide Plane:
+      Cis-proline     : 11.76 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.27 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  0.06 (0.27), residues: 761
+    helix: -0.93 (0.34), residues: 147
+    sheet:  1.22 (0.28), residues: 276
+    loop : -0.44 (0.31), residues: 338
+
+                     ----------Asn/Gln/His flips----------                     
+
+   D  87  GLN
+   A  87  GLN
+   A  32  GLN
+   A  43  GLN
+   A 141  GLN
+   A 188  HIS
+   A 191  HIS
+   A 253  GLN
+   B  51  HIS
+   D  32  GLN
+   D  72  GLN
+   D  74  HIS
+   D 141  GLN
+   D 191  HIS
+   D 192  HIS
+   D 253  GLN
+   E  51  HIS
+   E  89  GLN
+   F   3  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.26 %
+                favored =  97.63 %
+  Rotamer outliers      =   3.12 %
+  C-beta deviations     =     1
+  Clashscore            =   6.04
+  RMS(bonds)            =   0.0164
+  RMS(angles)           =   1.79
+  MolProbity score      =   1.79
+  Refinement program    = REFMAC

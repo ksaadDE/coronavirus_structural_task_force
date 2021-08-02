@@ -1,0 +1,12 @@
+2021-07-28 weekly report for SARS-CoV-2
+##### 37 revised structures #####
+6wiq, 7r6w, 7r6x, 7r7n, 7e3j, 7b3o, 7m4r, 7m7w, 7mbg, 7mbi, 7n3d, 7n3c, 7n5z, 7n6n, 7my3, 7my2, 7m3i, 7jpe, 7ju7, 7jhe, 7jib, 7k9z, 7kfi, 7kph, 7l5d, 7kvr, 7kvl, 7lab, 7laa, 7ld1, 7lcn, 7ldx, 7lfp, 7lfe, 6xip, 6xkm, 6wqd
+
+##### 13 new structures #####
+7p3d, 7mm0, 7mlz, 7n0c, 7n0d, 7n0b, 7n1e, 7n1b, 7n1f, 7n1a, 7n6e, 7n6d, 7m42
+
+##### new structures by protein #####
+exonuclease-nsp10
+>7n0b 7n0c 7n0d 
+surface_glycoprotein
+>7mlz 7mm0 7m42 7n1f 7n6e 7n1b 7n6d 7n1e 7p3d 7n1a 

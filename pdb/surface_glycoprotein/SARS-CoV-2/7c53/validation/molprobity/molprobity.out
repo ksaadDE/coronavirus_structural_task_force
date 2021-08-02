@@ -1,0 +1,230 @@
+
+=============================== Model properties ==============================
+
+  Overall:
+    Number of atoms = 4504  (anisotropic = 4346)
+    B_iso: mean =  46.8  max = 129.1  min =  18.0
+    Occupancy: mean = 1.00  max = 1.00  min = 0.50
+    1 total B-factor or occupancy problem(s) detected
+  Macromolecules:
+    Number of atoms = 4346  (anisotropic = 4346)
+    B_iso: mean =  46.8  max = 129.1  min =  18.0
+  Ligands:
+    Number of atoms = 2  (anisotropic = 0)
+    B_iso: mean =  90.0  max =  97.7  min =  82.4
+  Waters:
+    Number of atoms = 156  (anisotropic = 0)
+    B_iso: mean =  45.1  max =  72.7  min =  24.1
+    Occupancy: mean = 1.00  max = 1.00  min = 0.50
+    1 total B-factor or occupancy problem(s) detected
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.079 (Z=  3.929)
+  Mean delta:    0.007 (Z=  0.350)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   D 954  GLN  CB     
+   D 954  GLN  CG     
+   D 954  GLN  CD        112.60   121.01    -8.41  1.70e+00  2.45e+01   4.9*sigma
+   A1013  GLU  C      
+   A1013  GLU  CA     
+   A1013  GLU  CB        110.10   117.87    -7.77  1.90e+00  1.67e+01   4.1*sigma
+   D1017  LYS  CB     
+   D1017  LYS  CG     
+   D1017  LYS  CD        111.30   101.97     9.33  2.30e+00  1.65e+01   4.1*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    9.331 (Z=  4.947)
+  Mean delta:    1.024 (Z=  0.515)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   C1015  GLU  CB     
+   C1015  GLU  CG     
+   C1015  GLU  CD     
+   C1015  GLU  OE1         0.00   178.75  -178.75  3.00e+01  2.13e+01   6.0*sigma
+   E1021  GLU  CB     
+   E1021  GLU  CG     
+   E1021  GLU  CD     
+   E1021  GLU  OE1         0.00  -172.90   172.90  3.00e+01  2.13e+01   5.8*sigma
+   F1015  GLU  CB     
+   F1015  GLU  CG     
+   F1015  GLU  CD     
+   F1015  GLU  OE1         0.00  -171.00   171.00  3.00e+01  2.12e+01   5.7*sigma
+   E1015  GLU  CB     
+   E1015  GLU  CG     
+   E1015  GLU  CD     
+   E1015  GLU  OE1         0.00  -170.95   170.95  3.00e+01  2.12e+01   5.7*sigma
+   D1015  GLU  CB     
+   D1015  GLU  CG     
+   D1015  GLU  CD     
+   D1015  GLU  OE1         0.00  -168.73   168.73  3.00e+01  2.11e+01   5.6*sigma
+   F1013  GLU  CB     
+   F1013  GLU  CG     
+   F1013  GLU  CD     
+   F1013  GLU  OE1         0.00   167.69  -167.69  3.00e+01  2.11e+01   5.6*sigma
+   B1015  GLU  CB     
+   B1015  GLU  CG     
+   B1015  GLU  CD     
+   B1015  GLU  OE1         0.00  -166.26   166.26  3.00e+01  2.10e+01   5.5*sigma
+   C1013  GLU  CB     
+   C1013  GLU  CG     
+   C1013  GLU  CD     
+   C1013  GLU  OE1         0.00  -164.25   164.25  3.00e+01  2.09e+01   5.5*sigma
+   A1015  GLU  CB     
+   A1015  GLU  CG     
+   A1015  GLU  CD     
+   A1015  GLU  OE1         0.00  -161.96   161.96  3.00e+01  2.08e+01   5.4*sigma
+   C1021  GLU  CB     
+   C1021  GLU  CG     
+   C1021  GLU  CD     
+   C1021  GLU  OE1         0.00   161.43  -161.43  3.00e+01  2.08e+01   5.4*sigma
+   B1035  GLU  CB     
+   B1035  GLU  CG     
+   B1035  GLU  CD     
+   B1035  GLU  OE1         0.00  -160.33   160.33  3.00e+01  2.07e+01   5.3*sigma
+   B1020  GLU  CB     
+   B1020  GLU  CG     
+   B1020  GLU  CD     
+   B1020  GLU  OE1         0.00   159.33  -159.33  3.00e+01  2.06e+01   5.3*sigma
+   E1020  GLU  CB     
+   E1020  GLU  CG     
+   E1020  GLU  CD     
+   E1020  GLU  OE1         0.00   158.45  -158.45  3.00e+01  2.06e+01   5.3*sigma
+   A1027  GLU  CB     
+   A1027  GLU  CG     
+   A1027  GLU  CD     
+   A1027  GLU  OE1         0.00  -150.46   150.46  3.00e+01  1.99e+01   5.0*sigma
+   A1028  GLU  CB     
+   A1028  GLU  CG     
+   A1028  GLU  CD     
+   A1028  GLU  OE1         0.00  -149.81   149.81  3.00e+01  1.99e+01   5.0*sigma
+   A1035  GLU  CB     
+   A1035  GLU  CG     
+   A1035  GLU  CD     
+   A1035  GLU  OE1         0.00  -143.15   143.15  3.00e+01  1.92e+01   4.8*sigma
+   E1013  GLU  CB     
+   E1013  GLU  CG     
+   E1013  GLU  CD     
+   E1013  GLU  OE1         0.00  -141.44   141.44  3.00e+01  1.90e+01   4.7*sigma
+   E1028  GLU  CB     
+   E1028  GLU  CG     
+   E1028  GLU  CD     
+   E1028  GLU  OE1         0.00  -140.99   140.99  3.00e+01  1.90e+01   4.7*sigma
+   D1027  GLU  CB     
+   D1027  GLU  CG     
+   D1027  GLU  CD     
+   D1027  GLU  OE1         0.00  -140.31   140.31  3.00e+01  1.89e+01   4.7*sigma
+   F1028  GLU  CB     
+   F1028  GLU  CG     
+   F1028  GLU  CD     
+   F1028  GLU  OE1         0.00   130.80  -130.80  3.00e+01  1.76e+01   4.4*sigma
+   B1013  GLU  CB     
+   B1013  GLU  CG     
+   B1013  GLU  CD     
+   B1013  GLU  OE1         0.00  -129.92   129.92  3.00e+01  1.75e+01   4.3*sigma
+   E1035  GLU  CB     
+   E1035  GLU  CG     
+   E1035  GLU  CD     
+   E1035  GLU  OE1         0.00  -125.88   125.88  3.00e+01  1.69e+01   4.2*sigma
+   F 918  GLU  CB     
+   F 918  GLU  CG     
+   F 918  GLU  CD     
+   F 918  GLU  OE1         0.00  -122.31   122.31  3.00e+01  1.64e+01   4.1*sigma
+   C1028  GLU  CB     
+   C1028  GLU  CG     
+   C1028  GLU  CD     
+   C1028  GLU  OE1         0.00  -121.92   121.92  3.00e+01  1.63e+01   4.1*sigma
+   D1028  GLU  CB     
+   D1028  GLU  CG     
+   D1028  GLU  CD     
+   D1028  GLU  OE1         0.00   121.24  -121.24  3.00e+01  1.62e+01   4.0*sigma
+   F1020  GLU  CB     
+   F1020  GLU  CG     
+   F1020  GLU  CD     
+   F1020  GLU  OE1         0.00  -121.24   121.24  3.00e+01  1.62e+01   4.0*sigma
+
+  Min. delta:    0.001
+  Max. delta:  178.747
+  Mean delta:   26.709
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.347
+  Mean delta:    0.049
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.035
+  Mean delta:    0.004
+
+============================ Molprobity validation ============================
+
+  
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.007   0.079   4365
+    Angle     :  1.024   9.331   5870
+    Chirality :  0.049   0.347    714
+    Planarity :  0.004   0.035    754
+    Dihedral  : 26.709 178.747   1659
+    Min Nonbonded Distance : 2.007
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 4.34
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  0.57 %
+      Favored  : 99.43 %
+    Rotamer Outliers :  1.21 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  3.77 (0.33), residues: 527
+    helix:  2.97 (0.22), residues: 431
+    sheet:  None (None), residues: 0
+    loop :  0.15 (0.52), residues: 96
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 969  ASN
+   D 965  GLN
+   F 965  GLN
+   F 969  ASN
+   F1004  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  99.43 %
+  Rotamer outliers      =   1.21 %
+  C-beta deviations     =     0
+  Clashscore            =   4.34
+  RMS(bonds)            =   0.0074
+  RMS(angles)           =   1.02
+  MolProbity score      =   1.28
+  Refinement program    = PHENIX

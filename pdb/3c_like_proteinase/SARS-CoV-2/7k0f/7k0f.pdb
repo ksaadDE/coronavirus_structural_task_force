@@ -23,13 +23,18 @@ KEYWDS   3 INHIBITOR
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.LOVELL,M.M.KASHIPATHY,K.P.BATTAILE,S.D.CHAMANDI,H.N.NGUYEN,Y.KIM,   
 AUTHOR   2 K.O.CHANG,W.C.GROUTAS                                                
+REVDAT   3   14-JUL-21 7K0F    1       JRNL                                     
+REVDAT   2   07-JUL-21 7K0F    1       JRNL                                     
 REVDAT   1   13-JAN-21 7K0F    0                                                
-JRNL        AUTH   S.D.CHAMANDI,J.ZHANG,Y.KIM,P.PERERA,S.MAKIN,D.MEYERHOLZM,    
-JRNL        AUTH 2 H.N.NGUYEN,M.M.KASHIPATHY,K.P.BATTAILE,S.LOVELL,S.PERLMAN,   
-JRNL        AUTH 3 W.C.GROUTAS,K.O.CHANG                                        
-JRNL        TITL   TO BE DETERMINED                                             
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   C.S.DAMPALLA,J.ZHENG,K.D.PERERA,L.R.WONG,D.K.MEYERHOLZ,      
+JRNL        AUTH 2 H.N.NGUYEN,M.M.KASHIPATHY,K.P.BATTAILE,S.LOVELL,Y.KIM,       
+JRNL        AUTH 3 S.PERLMAN,W.C.GROUTAS,K.O.CHANG                              
+JRNL        TITL   POSTINFECTION TREATMENT WITH A PROTEASE INHIBITOR INCREASES  
+JRNL        TITL 2 SURVIVAL OF MICE WITH A FATAL SARS-COV-2 INFECTION.          
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 118       2021              
+JRNL        REFN                   ESSN 1091-6490                               
+JRNL        PMID   34210738                                                     
+JRNL        DOI    10.1073/PNAS.2101555118                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.65 ANGSTROMS.                                       
 REMARK   3                                                                      

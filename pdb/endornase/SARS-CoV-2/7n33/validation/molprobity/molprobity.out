@@ -1,0 +1,149 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 16524
+     H or D atoms   : 0
+     chains         : 12
+     a.a. residues  : 2076
+     nucleotides    : 12
+     water          : 0
+     other (ligands): 0
+   Ligands: None
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.036 (Z=  0.968)
+  Mean delta:    0.005 (Z=  0.231)
+
+                        ----------Bond angles----------                        
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    5.594 (Z=  2.254)
+  Mean delta:    0.555 (Z=  0.299)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A  28  ILE  CA     
+   A  28  ILE  C      
+   A  29  ASN  N      
+   A  29  ASN  CA        180.00  -150.50   -29.50  5.00e+00  3.48e+01   5.9*sigma
+   D  28  ILE  CA     
+   D  28  ILE  C      
+   D  29  ASN  N      
+   D  29  ASN  CA        180.00  -150.50   -29.50  5.00e+00  3.48e+01   5.9*sigma
+   B  28  ILE  CA     
+   B  28  ILE  C      
+   B  29  ASN  N      
+   B  29  ASN  CA        180.00  -150.49   -29.51  5.00e+00  3.48e+01   5.9*sigma
+   E  28  ILE  CA     
+   E  28  ILE  C      
+   E  29  ASN  N      
+   E  29  ASN  CA        180.00  -150.49   -29.51  5.00e+00  3.48e+01   5.9*sigma
+   F  28  ILE  CA     
+   F  28  ILE  C      
+   F  29  ASN  N      
+   F  29  ASN  CA        180.00  -150.47   -29.53  5.00e+00  3.49e+01   5.9*sigma
+   C  28  ILE  CA     
+   C  28  ILE  C      
+   C  29  ASN  N      
+   C  29  ASN  CA        180.00  -150.46   -29.54  5.00e+00  3.49e+01   5.9*sigma
+
+  Min. delta:    0.001
+  Max. delta:   88.770
+  Mean delta:   13.040
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.143
+  Mean delta:    0.047
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.020
+  Mean delta:    0.003
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.005   0.036  16758
+    Angle     :  0.555   5.594  22722
+    Chirality :  0.047   0.143   2610
+    Planarity :  0.003   0.020   2916
+    Dihedral  : 13.040  88.770   6120
+    Min Nonbonded Distance : 1.217
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 4.01
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  2.62 %
+      Favored  : 97.38 %
+    Rotamer Outliers :  2.93 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  0.50 (0.18), residues: 2064
+    helix:  0.66 (0.23), residues: 522
+    sheet:  1.00 (0.30), residues: 318
+    loop :  0.10 (0.17), residues: 1224
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 310  GLN
+   B 310  GLN
+   C 310  GLN
+   D 310  GLN
+   E 310  GLN
+   F 310  GLN
+
+================================ RNA validation ===============================
+
+
+                    ----------Backbone bond lenths----------                   
+
+  residue               atom 1  atom 2  sigmas
+   G 401  UFT              O3'     P     -5.39
+   H 401  UFT              O3'     P     -5.28
+   I 401  UFT              O3'     P     -5.34
+   J 401  UFT              O3'     P     -5.40
+   K 401  UFT              O3'     P     -5.40
+   L 401  UFT              O3'     P     -5.25
+  6/30 bond outliers present
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  97.38 %
+  Rotamer outliers      =   2.93 %
+  C-beta deviations     =     0
+  Clashscore            =   4.01
+  RMS(bonds)            =   0.0054
+  RMS(angles)           =   0.56
+  MolProbity score      =   1.66
+  Refinement program    = phenix.real_space_refine

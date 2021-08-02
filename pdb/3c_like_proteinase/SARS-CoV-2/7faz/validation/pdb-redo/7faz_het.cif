@@ -1,0 +1,526 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+2RI      2RI '.                                   ' .                  64  38 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-2RI  CYS      .        .        2RI      .        .
+ bond_CYS-SG_=_2RI-C32
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_2RI
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ 2RI           O36    O    O         0.000     19.502    6.132  -27.858
+ 2RI           C09    C    C         0.000     19.922    7.017  -27.170
+ 2RI           N08    N    NH1       0.000     20.238    8.300  -27.768
+ 2RI           HN08   H    H         0.000     20.591    9.031  -27.167
+ 2RI           C06    C    CH1       0.000     20.076    8.595  -29.180
+ 2RI           H06    H    H         0.000     19.051    8.344  -29.488
+ 2RI           C07    C    CH3       0.000     20.303   10.100  -29.357
+ 2RI           H073   H    H         0.000     19.593   10.636  -28.781
+ 2RI           H072   H    H         0.000     21.280   10.352  -29.034
+ 2RI           H071   H    H         0.000     20.193   10.358  -30.379
+ 2RI           C05    C    CR6       0.000     21.065    7.822  -30.045
+ 2RI           C04    C    CR16      0.000     22.406    7.797  -29.686
+ 2RI           H04    H    H         0.000     22.738    8.315  -28.795
+ 2RI           C03    C    CR16      0.000     23.319    7.110  -30.467
+ 2RI           H03    H    H         0.000     24.365    7.088  -30.189
+ 2RI           C37    C    CR16      0.000     20.628    7.171  -31.192
+ 2RI           H37    H    H         0.000     19.583    7.206  -31.473
+ 2RI           C38    C    CR16      0.000     21.539    6.475  -31.977
+ 2RI           H38    H    H         0.000     21.207    5.956  -32.868
+ 2RI           C02    C    CR6       0.000     22.887    6.450  -31.608
+ 2RI           F01    F    F         0.000     23.801    5.769  -32.355
+ 2RI           C10    C    CH1       0.000     20.110    6.862  -25.652
+ 2RI           H10    H    H         0.000     20.461    7.809  -25.219
+ 2RI           C11    C    CR6       0.000     18.665    6.571  -25.185
+ 2RI           C12    C    CR16      0.000     17.846    7.636  -24.812
+ 2RI           H12    H    H         0.000     18.230    8.649  -24.824
+ 2RI           C16    C    CR16      0.000     18.132    5.283  -25.150
+ 2RI           H16    H    H         0.000     18.745    4.435  -25.430
+ 2RI           N15    N    NRD6      0.000     16.856    5.093  -24.768
+ 2RI           C14    C    CR16      0.000     16.046    6.080  -24.412
+ 2RI           H14    H    H         0.000     15.025    5.870  -24.117
+ 2RI           C13    C    CR16      0.000     16.518    7.387  -24.420
+ 2RI           H13    H    H         0.000     15.871    8.205  -24.128
+ 2RI           N17    N    N         0.000     21.073    5.796  -25.370
+ 2RI           C31    C    C         0.000     21.107    5.104  -24.067
+ 2RI           O35    O    O         0.000     20.311    5.388  -23.226
+ 2RI           C32    C    CH1       0.000     22.032    3.931  -23.687
+ 2RI           H32    H    H         0.000     21.701    3.012  -24.191
+ 2RI           O33    O    OH1       0.000     21.866    3.804  -22.296
+ 2RI           HO33   H    H         0.000     22.419    3.081  -21.976
+ 2RI           C34    C    CH3       0.000     23.524    4.099  -23.847
+ 2RI           H343   H    H         0.000     23.747    4.299  -24.862
+ 2RI           H342   H    H         0.000     23.852    4.905  -23.246
+ 2RI           H341   H    H         0.000     24.010    3.209  -23.545
+ 2RI           C18    C    CR6       0.000     22.106    5.490  -26.367
+ 2RI           C30    C    CR16      0.000     23.268    6.278  -26.248
+ 2RI           H30    H    H         0.000     23.308    7.047  -25.486
+ 2RI           C29    C    CR16      0.000     24.371    6.094  -27.087
+ 2RI           H29    H    H         0.000     25.260    6.701  -26.970
+ 2RI           C28    C    CR56      0.000     24.304    5.106  -28.086
+ 2RI           C23    C    CR56      0.000     25.257    4.650  -29.146
+ 2RI           C19    C    CR16      0.000     22.052    4.505  -27.344
+ 2RI           H19    H    H         0.000     21.173    3.880  -27.441
+ 2RI           C20    C    CR56      0.000     23.158    4.323  -28.215
+ 2RI           O21    O    O2        0.000     23.345    3.472  -29.229
+ 2RI           C22    C    CR56      0.000     24.563    3.639  -29.792
+ 2RI           C27    C    CR16      0.000     25.166    2.959  -30.895
+ 2RI           H27    H    H         0.000     24.624    2.178  -31.414
+ 2RI           C26    C    CR16      0.000     26.454    3.304  -31.301
+ 2RI           H26    H    H         0.000     26.916    2.781  -32.129
+ 2RI           C25    C    CR16      0.000     27.158    4.329  -30.640
+ 2RI           H25    H    H         0.000     28.159    4.592  -30.959
+ 2RI           C24    C    CR16      0.000     26.562    5.010  -29.567
+ 2RI           H24    H    H         0.000     27.096    5.806  -29.063
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ 2RI      O36    n/a    C09    START
+ 2RI      C09    O36    C10    .
+ 2RI      N08    C09    C06    .
+ 2RI      HN08   N08    .      .
+ 2RI      C06    N08    C05    .
+ 2RI      H06    C06    .      .
+ 2RI      C07    C06    H071   .
+ 2RI      H073   C07    .      .
+ 2RI      H072   C07    .      .
+ 2RI      H071   C07    .      .
+ 2RI      C05    C06    C37    .
+ 2RI      C04    C05    C03    .
+ 2RI      H04    C04    .      .
+ 2RI      C03    C04    H03    .
+ 2RI      H03    C03    .      .
+ 2RI      C37    C05    C38    .
+ 2RI      H37    C37    .      .
+ 2RI      C38    C37    C02    .
+ 2RI      H38    C38    .      .
+ 2RI      C02    C38    F01    .
+ 2RI      F01    C02    .      .
+ 2RI      C10    C09    N17    .
+ 2RI      H10    C10    .      .
+ 2RI      C11    C10    C16    .
+ 2RI      C12    C11    H12    .
+ 2RI      H12    C12    .      .
+ 2RI      C16    C11    N15    .
+ 2RI      H16    C16    .      .
+ 2RI      N15    C16    C14    .
+ 2RI      C14    N15    C13    .
+ 2RI      H14    C14    .      .
+ 2RI      C13    C14    H13    .
+ 2RI      H13    C13    .      .
+ 2RI      N17    C10    C18    .
+ 2RI      C31    N17    C32    .
+ 2RI      O35    C31    .      .
+ 2RI      C32    C31    C34    .
+ 2RI      H32    C32    .      .
+ 2RI      O33    C32    HO33   .
+ 2RI      HO33   O33    .      .
+ 2RI      C34    C32    H341   .
+ 2RI      H343   C34    .      .
+ 2RI      H342   C34    .      .
+ 2RI      H341   C34    .      .
+ 2RI      C18    N17    C19    .
+ 2RI      C30    C18    C29    .
+ 2RI      H30    C30    .      .
+ 2RI      C29    C30    C28    .
+ 2RI      H29    C29    .      .
+ 2RI      C28    C29    C23    .
+ 2RI      C23    C28    .      .
+ 2RI      C19    C18    C20    .
+ 2RI      H19    C19    .      .
+ 2RI      C20    C19    O21    .
+ 2RI      O21    C20    C22    .
+ 2RI      C22    O21    C27    .
+ 2RI      C27    C22    C26    .
+ 2RI      H27    C27    .      .
+ 2RI      C26    C27    C25    .
+ 2RI      H26    C26    .      .
+ 2RI      C25    C26    C24    .
+ 2RI      H25    C25    .      .
+ 2RI      C24    C25    H24    .
+ 2RI      H24    C24    .      END
+ 2RI      C13    C12    .    ADD
+ 2RI      C20    C28    .    ADD
+ 2RI      C22    C23    .    ADD
+ 2RI      C24    C23    .    ADD
+ 2RI      C02    C03    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ 2RI      C10    C09       single      1.500    0.020
+ 2RI      C11    C10       single      1.480    0.020
+ 2RI      N17    C10       single      1.455    0.020
+ 2RI      C13    C12       aromatic    1.390    0.020
+ 2RI      C13    C14       aromatic    1.390    0.020
+ 2RI      C20    C28       aromatic    1.390    0.020
+ 2RI      C20    C19       aromatic    1.390    0.020
+ 2RI      O21    C20       single      1.329    0.020
+ 2RI      C22    C23       aromatic    1.390    0.020
+ 2RI      C27    C22       aromatic    1.390    0.020
+ 2RI      C22    O21       single      1.329    0.020
+ 2RI      C24    C23       aromatic    1.390    0.020
+ 2RI      C24    C25       aromatic    1.390    0.020
+ 2RI      C25    C26       aromatic    1.390    0.020
+ 2RI      C26    C27       aromatic    1.390    0.020
+ 2RI      C23    C28       single      1.490    0.020
+ 2RI      C28    C29       aromatic    1.390    0.020
+ 2RI      C02    C03       aromatic    1.390    0.020
+ 2RI      C02    C38       aromatic    1.390    0.020
+ 2RI      F01    C02       single      1.345    0.020
+ 2RI      C03    C04       aromatic    1.390    0.020
+ 2RI      C04    C05       aromatic    1.390    0.020
+ 2RI      C05    C06       single      1.480    0.020
+ 2RI      C37    C05       aromatic    1.390    0.020
+ 2RI      C07    C06       single      1.524    0.020
+ 2RI      C06    N08       single      1.450    0.020
+ 2RI      N08    C09       single      1.330    0.020
+ 2RI      C09    O36       double      1.220    0.020
+ 2RI      C12    C11       aromatic    1.390    0.020
+ 2RI      C16    C11       aromatic    1.390    0.020
+ 2RI      C14    N15       aromatic    1.337    0.020
+ 2RI      N15    C16       deloc       1.337    0.020
+ 2RI      C19    C18       aromatic    1.390    0.020
+ 2RI      C30    C18       aromatic    1.390    0.020
+ 2RI      C18    N17       single      1.400    0.020
+ 2RI      C29    C30       aromatic    1.390    0.020
+ 2RI      C32    C31       single      1.500    0.020
+ 2RI      C31    N17       single      1.330    0.020
+ 2RI      O35    C31       double      1.220    0.020
+ 2RI      C34    C32       single      1.524    0.020
+ 2RI      O33    C32       single      1.432    0.020
+ 2RI      C38    C37       aromatic    1.390    0.020
+ 2RI      H10    C10       single      1.099    0.020
+ 2RI      H13    C13       single      1.083    0.020
+ 2RI      H24    C24       single      1.083    0.020
+ 2RI      H26    C26       single      1.083    0.020
+ 2RI      H03    C03       single      1.083    0.020
+ 2RI      H04    C04       single      1.083    0.020
+ 2RI      H06    C06       single      1.099    0.020
+ 2RI      H071   C07       single      1.059    0.020
+ 2RI      H072   C07       single      1.059    0.020
+ 2RI      H073   C07       single      1.059    0.020
+ 2RI      H12    C12       single      1.083    0.020
+ 2RI      H14    C14       single      1.083    0.020
+ 2RI      H16    C16       single      1.083    0.020
+ 2RI      H19    C19       single      1.083    0.020
+ 2RI      H25    C25       single      1.083    0.020
+ 2RI      H27    C27       single      1.083    0.020
+ 2RI      H29    C29       single      1.083    0.020
+ 2RI      H30    C30       single      1.083    0.020
+ 2RI      H32    C32       single      1.099    0.020
+ 2RI      H341   C34       single      1.059    0.020
+ 2RI      H342   C34       single      1.059    0.020
+ 2RI      H343   C34       single      1.059    0.020
+ 2RI      H37    C37       single      1.083    0.020
+ 2RI      H38    C38       single      1.083    0.020
+ 2RI      HN08   N08       single      1.010    0.020
+ 2RI      HO33   O33       single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ 2RI      O36    C09    N08     123.000    3.000
+ 2RI      O36    C09    C10     120.500    3.000
+ 2RI      N08    C09    C10     116.500    3.000
+ 2RI      C09    N08    HN08    120.000    3.000
+ 2RI      C09    N08    C06     121.500    3.000
+ 2RI      HN08   N08    C06     118.500    3.000
+ 2RI      N08    C06    H06     108.550    3.000
+ 2RI      N08    C06    C07     110.000    3.000
+ 2RI      N08    C06    C05     109.470    3.000
+ 2RI      H06    C06    C07     108.340    3.000
+ 2RI      H06    C06    C05     109.470    3.000
+ 2RI      C07    C06    C05     109.470    3.000
+ 2RI      C06    C07    H073    109.470    3.000
+ 2RI      C06    C07    H072    109.470    3.000
+ 2RI      C06    C07    H071    109.470    3.000
+ 2RI      H073   C07    H072    109.470    3.000
+ 2RI      H073   C07    H071    109.470    3.000
+ 2RI      H072   C07    H071    109.470    3.000
+ 2RI      C06    C05    C04     120.000    3.000
+ 2RI      C06    C05    C37     120.000    3.000
+ 2RI      C04    C05    C37     120.000    3.000
+ 2RI      C05    C04    H04     120.000    3.000
+ 2RI      C05    C04    C03     120.000    3.000
+ 2RI      H04    C04    C03     120.000    3.000
+ 2RI      C04    C03    H03     120.000    3.000
+ 2RI      C04    C03    C02     120.000    3.000
+ 2RI      H03    C03    C02     120.000    3.000
+ 2RI      C05    C37    H37     120.000    3.000
+ 2RI      C05    C37    C38     120.000    3.000
+ 2RI      H37    C37    C38     120.000    3.000
+ 2RI      C37    C38    H38     120.000    3.000
+ 2RI      C37    C38    C02     120.000    3.000
+ 2RI      H38    C38    C02     120.000    3.000
+ 2RI      C38    C02    F01     120.000    3.000
+ 2RI      C38    C02    C03     120.000    3.000
+ 2RI      F01    C02    C03     120.000    3.000
+ 2RI      C09    C10    H10     108.810    3.000
+ 2RI      C09    C10    C11     109.500    3.000
+ 2RI      C09    C10    N17     111.600    3.000
+ 2RI      H10    C10    C11     109.470    3.000
+ 2RI      H10    C10    N17     109.470    3.000
+ 2RI      C11    C10    N17     109.500    3.000
+ 2RI      C10    C11    C12     120.000    3.000
+ 2RI      C10    C11    C16     120.000    3.000
+ 2RI      C12    C11    C16     120.000    3.000
+ 2RI      C11    C12    H12     120.000    3.000
+ 2RI      C11    C12    C13     120.000    3.000
+ 2RI      H12    C12    C13     120.000    3.000
+ 2RI      C11    C16    H16     120.000    3.000
+ 2RI      C11    C16    N15     120.000    3.000
+ 2RI      H16    C16    N15     120.000    3.000
+ 2RI      C16    N15    C14     120.000    3.000
+ 2RI      N15    C14    H14     120.000    3.000
+ 2RI      N15    C14    C13     120.000    3.000
+ 2RI      H14    C14    C13     120.000    3.000
+ 2RI      C14    C13    H13     120.000    3.000
+ 2RI      C14    C13    C12     120.000    3.000
+ 2RI      H13    C13    C12     120.000    3.000
+ 2RI      C10    N17    C31     121.000    3.000
+ 2RI      C10    N17    C18     120.000    3.000
+ 2RI      C31    N17    C18     120.000    3.000
+ 2RI      N17    C31    O35     123.000    3.000
+ 2RI      N17    C31    C32     116.500    3.000
+ 2RI      O35    C31    C32     120.500    3.000
+ 2RI      C31    C32    H32     108.810    3.000
+ 2RI      C31    C32    O33     109.470    3.000
+ 2RI      C31    C32    C34     109.470    3.000
+ 2RI      H32    C32    O33     109.470    3.000
+ 2RI      H32    C32    C34     108.340    3.000
+ 2RI      O33    C32    C34     109.470    3.000
+ 2RI      C32    O33    HO33    109.470    3.000
+ 2RI      C32    C34    H343    109.470    3.000
+ 2RI      C32    C34    H342    109.470    3.000
+ 2RI      C32    C34    H341    109.470    3.000
+ 2RI      H343   C34    H342    109.470    3.000
+ 2RI      H343   C34    H341    109.470    3.000
+ 2RI      H342   C34    H341    109.470    3.000
+ 2RI      N17    C18    C30     120.000    3.000
+ 2RI      N17    C18    C19     120.000    3.000
+ 2RI      C30    C18    C19     120.000    3.000
+ 2RI      C18    C30    H30     120.000    3.000
+ 2RI      C18    C30    C29     120.000    3.000
+ 2RI      H30    C30    C29     120.000    3.000
+ 2RI      C30    C29    H29     120.000    3.000
+ 2RI      C30    C29    C28     120.000    3.000
+ 2RI      H29    C29    C28     120.000    3.000
+ 2RI      C29    C28    C23     120.000    3.000
+ 2RI      C29    C28    C20     120.000    3.000
+ 2RI      C23    C28    C20     120.000    3.000
+ 2RI      C28    C23    C22     120.000    3.000
+ 2RI      C28    C23    C24     120.000    3.000
+ 2RI      C22    C23    C24     120.000    3.000
+ 2RI      C18    C19    H19     120.000    3.000
+ 2RI      C18    C19    C20     120.000    3.000
+ 2RI      H19    C19    C20     120.000    3.000
+ 2RI      C19    C20    O21     120.000    3.000
+ 2RI      C19    C20    C28     120.000    3.000
+ 2RI      O21    C20    C28     120.000    3.000
+ 2RI      C20    O21    C22     120.000    3.000
+ 2RI      O21    C22    C27     120.000    3.000
+ 2RI      O21    C22    C23     120.000    3.000
+ 2RI      C27    C22    C23     120.000    3.000
+ 2RI      C22    C27    H27     120.000    3.000
+ 2RI      C22    C27    C26     120.000    3.000
+ 2RI      H27    C27    C26     120.000    3.000
+ 2RI      C27    C26    H26     120.000    3.000
+ 2RI      C27    C26    C25     120.000    3.000
+ 2RI      H26    C26    C25     120.000    3.000
+ 2RI      C26    C25    H25     120.000    3.000
+ 2RI      C26    C25    C24     120.000    3.000
+ 2RI      H25    C25    C24     120.000    3.000
+ 2RI      C25    C24    H24     120.000    3.000
+ 2RI      C25    C24    C23     120.000    3.000
+ 2RI      H24    C24    C23     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ 2RI      var_1            O36    C09    N08    C06              180.000           20.000   2
+ 2RI      var_2            C09    N08    C06    C05                0.000           20.000   3
+ 2RI      var_3            N08    C06    C07    H071             180.000           20.000   3
+ 2RI      var_4            N08    C06    C05    C37              133.737           20.000   3
+ 2RI      CONST_1          C06    C05    C04    C03                0.000            0.000   0
+ 2RI      CONST_2          C05    C04    C03    C02                0.000            0.000   0
+ 2RI      CONST_3          C06    C05    C37    C38                0.000            0.000   0
+ 2RI      CONST_4          C05    C37    C38    C02                0.000            0.000   0
+ 2RI      CONST_5          C37    C38    C02    F01                0.000            0.000   0
+ 2RI      CONST_6          C38    C02    C03    C04                0.000            0.000   0
+ 2RI      var_5            O36    C09    C10    N17              180.000           20.000   3
+ 2RI      var_6            C09    C10    C11    C16               87.351           20.000   3
+ 2RI      CONST_7          C10    C11    C12    C13                0.000            0.000   0
+ 2RI      CONST_8          C10    C11    C16    N15                0.000            0.000   0
+ 2RI      CONST_9          C11    C16    N15    C14                0.000            0.000   0
+ 2RI      CONST_10         C16    N15    C14    C13                0.000            0.000   0
+ 2RI      CONST_11         N15    C14    C13    C12                0.000            0.000   0
+ 2RI      CONST_12         C14    C13    C12    C11                0.000            0.000   0
+ 2RI      var_7            C09    C10    N17    C18                0.000           20.000   3
+ 2RI      var_8            C10    N17    C31    C32              180.000           20.000   2
+ 2RI      var_9            N17    C31    C32    C34              180.000           20.000   3
+ 2RI      var_10           C31    C32    O33    HO33             180.000           20.000   3
+ 2RI      var_11           C31    C32    C34    H341             180.000           20.000   3
+ 2RI      var_12           C10    N17    C18    C19              -95.391           20.000   3
+ 2RI      CONST_13         N17    C18    C30    C29                0.000            0.000   0
+ 2RI      CONST_14         C18    C30    C29    C28                0.000            0.000   0
+ 2RI      CONST_15         C30    C29    C28    C23              180.000            0.000   0
+ 2RI      CONST_16         C29    C28    C23    C22              180.000            0.000   0
+ 2RI      CONST_17         N17    C18    C19    C20                0.000            0.000   0
+ 2RI      CONST_18         C18    C19    C20    O21              180.000            0.000   0
+ 2RI      CONST_19         C19    C20    C28    C29              180.000            0.000   0
+ 2RI      CONST_20         C19    C20    O21    C22             -179.771            0.000   0
+ 2RI      CONST_21         C20    O21    C22    C27             -179.427            0.000   0
+ 2RI      CONST_22         O21    C22    C23    C28              180.000            0.000   0
+ 2RI      CONST_23         O21    C22    C27    C26              180.000            0.000   0
+ 2RI      CONST_24         C22    C27    C26    C25                0.000            0.000   0
+ 2RI      CONST_25         C27    C26    C25    C24                0.000            0.000   0
+ 2RI      CONST_26         C26    C25    C24    C23                0.000            0.000   0
+ 2RI      CONST_27         C25    C24    C23    C28              180.000            0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ 2RI      chir_01          C10    C09    C11    N17       negativ
+ 2RI      chir_02          C06    C05    C07    N08       positiv
+ 2RI      chir_03          C32    C31    C34    O33       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ 2RI      plan-1            C13       0.020
+ 2RI      plan-1            C12       0.020
+ 2RI      plan-1            C14       0.020
+ 2RI      plan-1            H13       0.020
+ 2RI      plan-1            C11       0.020
+ 2RI      plan-1            C16       0.020
+ 2RI      plan-1            N15       0.020
+ 2RI      plan-1            C10       0.020
+ 2RI      plan-1            H12       0.020
+ 2RI      plan-1            H14       0.020
+ 2RI      plan-1            H16       0.020
+ 2RI      plan-2            C20       0.020
+ 2RI      plan-2            C28       0.020
+ 2RI      plan-2            C19       0.020
+ 2RI      plan-2            O21       0.020
+ 2RI      plan-2            C18       0.020
+ 2RI      plan-2            C29       0.020
+ 2RI      plan-2            C30       0.020
+ 2RI      plan-2            C23       0.020
+ 2RI      plan-2            N17       0.020
+ 2RI      plan-2            H19       0.020
+ 2RI      plan-2            C22       0.020
+ 2RI      plan-2            C24       0.020
+ 2RI      plan-2            H29       0.020
+ 2RI      plan-2            H30       0.020
+ 2RI      plan-2            C26       0.020
+ 2RI      plan-2            C25       0.020
+ 2RI      plan-2            C27       0.020
+ 2RI      plan-2            H24       0.020
+ 2RI      plan-2            H26       0.020
+ 2RI      plan-2            H25       0.020
+ 2RI      plan-2            H27       0.020
+ 2RI      plan-3            C02       0.020
+ 2RI      plan-3            C03       0.020
+ 2RI      plan-3            C38       0.020
+ 2RI      plan-3            F01       0.020
+ 2RI      plan-3            C04       0.020
+ 2RI      plan-3            C05       0.020
+ 2RI      plan-3            C37       0.020
+ 2RI      plan-3            H03       0.020
+ 2RI      plan-3            H04       0.020
+ 2RI      plan-3            C06       0.020
+ 2RI      plan-3            H37       0.020
+ 2RI      plan-3            H38       0.020
+ 2RI      plan-4            C09       0.020
+ 2RI      plan-4            C10       0.020
+ 2RI      plan-4            N08       0.020
+ 2RI      plan-4            O36       0.020
+ 2RI      plan-4            HN08      0.020
+ 2RI      plan-5            C31       0.020
+ 2RI      plan-5            C32       0.020
+ 2RI      plan-5            N17       0.020
+ 2RI      plan-5            O35       0.020
+ 2RI      plan-6            N08       0.020
+ 2RI      plan-6            C06       0.020
+ 2RI      plan-6            C09       0.020
+ 2RI      plan-6            HN08      0.020
+ 2RI      plan-7            N17       0.020
+ 2RI      plan-7            C10       0.020
+ 2RI      plan-7            C18       0.020
+ 2RI      plan-7            C31       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-2RI
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-2RI  1 SG      2 C32       .           1.780    0.020
+# ------------------------------------------------------

@@ -1,0 +1,9 @@
+2021-05-19 weekly report for SARS-CoV##### 2 revised structures #####
+7lcp, 7lcq
+
+##### 1 new structures #####
+7akj
+
+##### new structures by protein #####
+surface_glycoprotein
+>7akj 

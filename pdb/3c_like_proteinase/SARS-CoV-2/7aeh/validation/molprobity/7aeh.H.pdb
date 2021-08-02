@@ -1,0 +1,178 @@
+USER  MOD reduce.3.7.201124 H: found=0, std=0, add=0, rem=0, adj=0
+data_7AEH
+#
+_entry.id   7AEH
+#
+_audit_conform.dict_name       mmcif_pdbx.dic
+_audit_conform.dict_version    5.344
+_audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
+#
+loop_
+_database_2.database_id
+_database_2.database_code
+PDB   7AEH
+WWPDB D_1292111158
+#
+_pdbx_database_status.status_code                     REL
+_pdbx_database_status.status_code_sf                  REL
+_pdbx_database_status.status_code_mr                  ?
+_pdbx_database_status.entry_id                        7AEH
+_pdbx_database_status.recvd_initial_deposition_date   2020-09-17
+_pdbx_database_status.SG_entry                        N
+_pdbx_database_status.deposit_site                    PDBE
+_pdbx_database_status.process_site                    PDBE
+_pdbx_database_status.status_code_cs                  ?
+_pdbx_database_status.status_code_nmr_data            ?
+_pdbx_database_status.methods_development_category    ?
+_pdbx_database_status.pdb_format_compatible           Y
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+_audit_author.identifier_ORCID
+'Owen, C.D.'          1  ?
+'Redhead, M.A.'       2  ?
+'Lukacik, P.'         3  ?
+'Strain-Damerell, C.' 4  ?
+'Fearon, D.'          5  ?
+'Brewitz, L.'         6  ?
+'Collette, A.'        7  ?
+'Robinson, C.'        8  ?
+'Collins, P.'         9  ?
+'Radoux, C.'          10 ?
+'Navratilova, I.'     11 ?
+'Douangamath, A.'     12 ?
+'von Delft, F.'       13 ?
+'Malla, T.R.'         14 ?
+'Nugen, T.'           15 ?
+'Hull, H.'            16 ?
+'Tumber, A.'          17 ?
+'Schofield, C.J.'     18 ?
+'Hallet, D.'          19 ?
+'Stuart, D.I.'        20 ?
+'Hopkins, A.L.'       21 ?
+'Walsh, M.A.'         22 ?
+#
+_citation.abstract                  ?
+_citation.abstract_id_CAS           ?
+_citation.book_id_ISBN              ?
+_citation.book_publisher            ?
+_citation.book_publisher_city       ?
+_citation.book_title                ?
+_citation.coordinate_linkage        ?
+_citation.country                   UK
+_citation.database_id_Medline       ?
+_citation.details                   ?
+_citation.id                        primary
+_citation.journal_abbrev            'Sci Rep'
+_citation.journal_id_ASTM           ?
+_citation.journal_id_CSD            ?
+_citation.journal_id_ISSN           2045-2322
+_citation.journal_full              ?
+_citation.journal_issue             ?
+_citation.journal_volume            11
+_citation.language                  ?
+_citation.page_first                13208
+_citation.page_last                 13208
+_citation.title                     'Bispecific repurposed medicines targeting t
+_citation.year                      2021
+_citation.database_id_CSD           ?
+_citation.pdbx_database_id_DOI      10.1038/s41598-021-92416-4
+_citation.pdbx_database_id_PubMed   34168183
+_citation.unpublished_flag          ?
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+_citation_author.identifier_ORCID
+primary 'Redhead, M.A.'       1  ?
+primary 'Owen, C.D.'          2  ?
+primary 'Brewitz, L.'         3  ?
+primary 'Collette, A.H.'      4  ?
+primary 'Lukacik, P.'         5  ?
+primary 'Strain-Damerell, C.' 6  ?
+primary 'Robinson, S.W.'      7  ?
+primary 'Collins, P.M.'       8  ?
+primary 'Schafer, P.'         9  ?
+primary 'Swindells, M.'       10 ?
+primary 'Radoux, C.J.'        11 ?
+primary 'Hopkins, I.N.'       12 ?
+primary 'Fearon, D.'          13 ?
+primary 'Douangamath, A.'     14 ?
+primary 'von Delft, F.'       15 ?
+primary 'Malla, T.R.'         16 ?
+primary 'Vangeel, L.'         17 ?
+primary 'Vercruysse, T.'      18 ?
+primary 'Thibaut, J.'         19 ?
+primary 'Leyssen, P.'         20 ?
+primary 'Nguyen, T.T.'        21 ?
+primary 'Hull, M.'            22 ?
+primary 'Tumber, A.'          23 ?
+primary 'Hallett, D.J.'       24 ?
+primary 'Schofield, C.J.'     25 ?
+primary 'Stuart, D.I.'        26 ?
+primary 'Hopkins, A.L.'       27 ?
+primary 'Walsh, M.A.'         28 ?
+#
+_cell.angle_alpha                  90.000
+_cell.angle_alpha_esd              ?
+_cell.angle_beta                   103.020
+_cell.angle_beta_esd               ?
+_cell.angle_gamma                  90.000
+_cell.angle_gamma_esd              ?
+_cell.entry_id                     7AEH
+_cell.details                      ?
+_cell.formula_units_Z              ?
+_cell.length_a                     113.954
+_cell.length_a_esd                 ?
+_cell.length_b                     53.080
+_cell.length_b_esd                 ?
+_cell.length_c                     44.546
+_cell.length_c_esd                 ?
+_cell.volume                       ?
+_cell.volume_esd                   ?
+_cell.Z_PDB                        4
+_cell.reciprocal_angle_alpha       ?
+_cell.reciprocal_angle_beta        ?
+_cell.reciprocal_angle_gamma       ?
+_cell.reciprocal_angle_alpha_esd   ?
+_cell.reciprocal_angle_beta_esd    ?
+_cell.reciprocal_angle_gamma_esd   ?
+_cell.reciprocal_length_a          ?
+_cell.reciprocal_length_b          ?
+_cell.reciprocal_length_c          ?
+_cell.reciprocal_length_a_esd      ?
+_cell.reciprocal_length_b_esd      ?
+_cell.reciprocal_length_c_esd      ?
+_cell.pdbx_unique_axis             ?
+#
+_symmetry.entry_id                         7AEH
+_symmetry.cell_setting                     ?
+_symmetry.Int_Tables_number                5
+_symmetry.space_group_name_Hall            ?
+_symmetry.space_group_name_H-M             'C 1 2 1'
+_symmetry.pdbx_full_space_group_name_H-M   ?
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.pdbx_ec
+_entity.pdbx_mutation
+_entity.pdbx_fragment
+_entity.details
+1 polymer     man "2'-O-methyltransferase" 33697.418 1   2.7.7.48,3.4.19.12,3.4.
+2 non-polymer syn 'DIMETHYL SULFOXIDE' 78.133    3   ?
+3 non-polymer syn
+;(2~{R})-5-oxidanylidene-~{N}-[(2~{R},3~{S})-3-oxidanyl-4-oxidanylidene-1-phenyl
+;
+486.562   1   ?                                              ? ? ?
+4 water       nat water 18.015    299 ?
+#
+_entity_name_com.entity_id   1
+_entity_name_com.name
+;3C-like proteinase,Growth factor-like peptide,Guanine-N7 methyltransferase,Heli

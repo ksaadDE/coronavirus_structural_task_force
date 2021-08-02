@@ -3,7 +3,7 @@ data_7KSG
 _entry.id   7KSG 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.337 
+_audit_conform.dict_version    5.344 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -55,15 +55,16 @@ _citation.journal_id_CSD            0038
 _citation.journal_id_ISSN           1095-9203 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            371 
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     'SARS-CoV-2 spike in complex with nanobodies E' 
+_citation.title                     
+'Structure-guided multivalent nanobodies block SARS-CoV-2 infection and suppress mutational escape.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1126/science.abe6230 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   33436526 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -71,36 +72,36 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Koenig, P.-A.'       1  ?                   
-primary 'Das, H.'             2  ?                   
-primary 'Liu, H.'             3  ?                   
+primary 'Koenig, P.A.'        1  0000-0001-5995-2557 
+primary 'Das, H.'             2  0000-0001-7495-7065 
+primary 'Liu, H.'             3  0000-0002-2412-7853 
 primary 'Kummerer, B.M.'      4  ?                   
-primary 'Gohr, F.N.'          5  ?                   
-primary 'Jenster, L.-M.'      6  ?                   
-primary 'Schiffelers, L.D.J.' 7  ?                   
-primary 'Tesfamariam, Y.M.'   8  ?                   
-primary 'Uchima, M.'          9  ?                   
-primary 'Wuerth, J.D.'        10 ?                   
-primary 'Gatterdam, K.'       11 ?                   
+primary 'Gohr, F.N.'          5  0000-0001-7167-8431 
+primary 'Jenster, L.M.'       6  0000-0001-8580-4590 
+primary 'Schiffelers, L.D.J.' 7  0000-0003-2301-1610 
+primary 'Tesfamariam, Y.M.'   8  0000-0003-0106-7277 
+primary 'Uchima, M.'          9  0000-0002-1570-8445 
+primary 'Wuerth, J.D.'        10 0000-0002-3391-9633 
+primary 'Gatterdam, K.'       11 0000-0003-0114-5730 
 primary 'Ruetalo, N.'         12 ?                   
-primary 'Christensen, M.H.'   13 ?                   
-primary 'Fandrey, C.I.'       14 ?                   
+primary 'Christensen, M.H.'   13 0000-0003-4778-3009 
+primary 'Fandrey, C.I.'       14 0000-0001-6513-8877 
 primary 'Normann, S.'         15 ?                   
-primary 'Todtmann, J.M.P.'    16 ?                   
+primary 'Todtmann, J.M.P.'    16 0000-0002-9104-5858 
 primary 'Pritzl, S.'          17 ?                   
-primary 'Hanke, L.'           18 ?                   
-primary 'Boos, J.'            19 ?                   
-primary 'Yuan, M.'            20 ?                   
-primary 'Zhu, X.'             21 ?                   
-primary 'Schmid-Burgk, J.L.'  22 ?                   
+primary 'Hanke, L.'           18 0000-0001-5514-2418 
+primary 'Boos, J.'            19 0000-0003-3675-6523 
+primary 'Yuan, M.'            20 0000-0001-9754-4503 
+primary 'Zhu, X.'             21 0000-0002-6021-3740 
+primary 'Schmid-Burgk, J.L.'  22 0000-0003-0988-2487 
 primary 'Kato, H.'            23 ?                   
-primary 'Schindler, M.'       24 ?                   
-primary 'Wilson, I.A.'        25 ?                   
-primary 'Geyer, M.'           26 ?                   
-primary 'Ludwig, K.U.'        27 ?                   
+primary 'Schindler, M.'       24 0000-0001-8989-5813 
+primary 'Wilson, I.A.'        25 0000-0002-6469-2419 
+primary 'Geyer, M.'           26 0000-0002-7718-5002 
+primary 'Ludwig, K.U.'        27 0000-0002-8541-2519 
 primary 'Hallberg, B.M.'      28 0000-0002-6781-0345 
-primary 'Wu, N.C.'            29 ?                   
-primary 'Schmidt, F.I.'       30 ?                   
+primary 'Wu, N.C.'            29 0000-0002-9078-6697 
+primary 'Schmidt, F.I.'       30 0000-0002-9979-9769 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -157,7 +158,7 @@ _entity.details
 3 non-polymer syn 2-acetamido-2-deoxy-beta-D-glucopyranose   221.208    51 ? ? ? ? 
 # 
 _entity_name_com.entity_id   1 
-_entity_name_com.name        'S glycoprotein,E2,Peplomer protein,SARS-CoV-2 spike glycoprotein' 
+_entity_name_com.name        'S glycoprotein, E2, Peplomer protein' 
 # 
 loop_
 _entity_poly.entity_id 
@@ -1703,7 +1704,7 @@ _entity_src_gen.plasmid_details
 _entity_src_gen.pdbx_description 
 1 1 sample 'Biological sequence' 1 1288 2019-nCoV ? 'S, 2' ? ? ? ? ? ? 'Severe acute respiratory syndrome coronavirus 2' 2697049 ? 
 ? ? ? ? ? ? ? 'Homo sapiens'     9606 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
-2 1 sample 'Biological sequence' 1 143  ?         ? ?      ? ? ? ? ? ? 'Camelus bactrianus'                              9837    ? 
+2 1 sample 'Biological sequence' 1 143  ?         ? ?      ? ? ? ? ? ? 'Lama glama'                                      9844    ? 
 ? ? ? ? ? ? ? 'Escherichia coli' 562  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
 # 
 loop_
@@ -35915,11 +35916,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-01-20 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-01-20 
+2 'Structure model' 1 1 2021-06-30 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -35929,12 +35933,54 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Data collection'     
+2 2 'Structure model' 'Database references' 
+3 2 'Structure model' 'Source and taxonomy' 
+4 2 'Structure model' 'Structure summary'   
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation                         
+2 2 'Structure model' citation_author                  
+3 2 'Structure model' em_entity_assembly_naturalsource 
+4 2 'Structure model' em_software                      
+5 2 'Structure model' entity_name_com                  
+6 2 'Structure model' entity_src_gen                   
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.journal_volume'                       
+2  2 'Structure model' '_citation.pdbx_database_id_PubMed'              
+3  2 'Structure model' '_citation.title'                                
+4  2 'Structure model' '_citation_author.identifier_ORCID'              
+5  2 'Structure model' '_citation_author.name'                          
+6  2 'Structure model' '_em_entity_assembly_naturalsource.ncbi_tax_id'  
+7  2 'Structure model' '_em_entity_assembly_naturalsource.organism'     
+8  2 'Structure model' '_em_software.category'                          
+9  2 'Structure model' '_em_software.fitting_id'                        
+10 2 'Structure model' '_em_software.imaging_id'                        
+11 2 'Structure model' '_em_software.name'                              
+12 2 'Structure model' '_entity_name_com.name'                          
+13 2 'Structure model' '_entity_src_gen.pdbx_gene_src_ncbi_taxonomy_id' 
+14 2 'Structure model' '_entity_src_gen.pdbx_gene_src_scientific_name'  
+# 
 _pdbx_entry_details.entry_id                 7KSG 
-_pdbx_entry_details.has_ligand_of_interest   N 
-_pdbx_entry_details.compound_details         ? 
-_pdbx_entry_details.source_details           ? 
 _pdbx_entry_details.nonpolymer_details       ? 
 _pdbx_entry_details.sequence_details         ? 
+_pdbx_entry_details.compound_details         ? 
+_pdbx_entry_details.source_details           ? 
+_pdbx_entry_details.has_ligand_of_interest   N 
 # 
 _em_3d_fitting.entry_id          7KSG 
 _em_3d_fitting.id                1 
@@ -37006,7 +37052,7 @@ _em_entity_assembly_naturalsource.organism
 _em_entity_assembly_naturalsource.strain 
 _em_entity_assembly_naturalsource.tissue 
 1 2 ? ? 2697049 ? ? 'Severe acute respiratory syndrome coronavirus 2' ? ? 
-2 3 ? ? 9837    ? ? 'Camelus bactrianus'                              ? ? 
+2 3 ? ? 9844    ? ? 'Lama glama'                                      ? ? 
 # 
 loop_
 _em_entity_assembly_recombinant.id 
@@ -37043,7 +37089,7 @@ _em_software.version
 _em_software.image_processing_id 
 _em_software.fitting_id 
 _em_software.imaging_id 
-1  'PARTICLE SELECTION'       ? Warp      ?    1 ? ? 
+1  'CRYSTALLOGRAPHY MERGING'  ? ?         ?    1 1 1 
 2  'IMAGE ACQUISITION'        ? EPU       ?    ? ? 1 
 3  MASKING                    ? ?         ?    ? ? ? 
 4  'CTF CORRECTION'           ? Warp      ?    1 ? ? 

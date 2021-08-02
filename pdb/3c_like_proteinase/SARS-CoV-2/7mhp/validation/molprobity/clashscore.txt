@@ -1,0 +1,182 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom MODEL24
+Bad Clashes >= 0.4 Angstrom MODEL25
+Bad Clashes >= 0.4 Angstrom MODEL26
+Bad Clashes >= 0.4 Angstrom MODEL27
+Bad Clashes >= 0.4 Angstrom MODEL20
+Bad Clashes >= 0.4 Angstrom MODEL21
+Bad Clashes >= 0.4 Angstrom MODEL22
+Bad Clashes >= 0.4 Angstrom MODEL23
+Bad Clashes >= 0.4 Angstrom MODEL28
+Bad Clashes >= 0.4 Angstrom MODEL29
+Bad Clashes >= 0.4 Angstrom MODEL1
+Bad Clashes >= 0.4 Angstrom MODEL3
+Bad Clashes >= 0.4 Angstrom MODEL2
+Bad Clashes >= 0.4 Angstrom MODEL5
+Bad Clashes >= 0.4 Angstrom MODEL4
+Bad Clashes >= 0.4 Angstrom MODEL7
+Bad Clashes >= 0.4 Angstrom MODEL6
+Bad Clashes >= 0.4 Angstrom MODEL9
+Bad Clashes >= 0.4 Angstrom MODEL8
+Bad Clashes >= 0.4 Angstrom MODEL11
+Bad Clashes >= 0.4 Angstrom MODEL10
+Bad Clashes >= 0.4 Angstrom MODEL13
+Bad Clashes >= 0.4 Angstrom MODEL12
+Bad Clashes >= 0.4 Angstrom MODEL15
+Bad Clashes >= 0.4 Angstrom MODEL14
+Bad Clashes >= 0.4 Angstrom MODEL17
+Bad Clashes >= 0.4 Angstrom MODEL16
+Bad Clashes >= 0.4 Angstrom MODEL19
+Bad Clashes >= 0.4 Angstrom MODEL18
+Bad Clashes >= 0.4 Angstrom MODEL31
+Bad Clashes >= 0.4 Angstrom MODEL30
+Bad Clashes >= 0.4 Angstrom MODEL36
+Bad Clashes >= 0.4 Angstrom MODEL35
+Bad Clashes >= 0.4 Angstrom MODEL34
+Bad Clashes >= 0.4 Angstrom MODEL33
+Bad Clashes >= 0.4 Angstrom MODEL32
+MODEL 1 clashscore = 0.00
+MODEL 10 clashscore = 0.00
+MODEL 11 clashscore = 0.00
+MODEL 12 clashscore = 0.00
+MODEL 13 clashscore = 0.00
+MODEL 14 clashscore = 0.00
+MODEL 15 clashscore = 0.00
+MODEL 16 clashscore = 0.00
+MODEL 17 clashscore = 0.00
+MODEL 18 clashscore = 0.00
+MODEL 19 clashscore = 0.00
+MODEL 2 clashscore = 0.00
+MODEL 20 clashscore = 0.00
+MODEL 21 clashscore = 0.00
+MODEL 22 clashscore = 0.00
+MODEL 23 clashscore = 0.00
+MODEL 24 clashscore = 0.00
+MODEL 25 clashscore = 0.00
+MODEL 26 clashscore = 0.00
+MODEL 27 clashscore = 0.00
+MODEL 28 clashscore = 0.00
+MODEL 29 clashscore = 0.00
+MODEL 3 clashscore = 0.00
+MODEL 30 clashscore = 0.00
+MODEL 31 clashscore = 0.00
+MODEL 32 clashscore = 0.00
+MODEL 33 clashscore = 0.00
+MODEL 34 clashscore = 0.00
+MODEL 35 clashscore = 0.00
+MODEL 36 clashscore = 0.00
+MODEL 4 clashscore = 0.00
+MODEL 5 clashscore = 0.00
+MODEL 6 clashscore = 0.00
+MODEL 7 clashscore = 0.00
+MODEL 8 clashscore = 0.00
+MODEL 9 clashscore = 0.00

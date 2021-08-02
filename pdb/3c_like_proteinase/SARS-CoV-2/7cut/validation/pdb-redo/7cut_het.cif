@@ -1,0 +1,249 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+FL6      FL6 '.                                   ' .                  18   9 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-CF0  CYS      .        .        CF0      .        .
+ bond_CYS-SG_=_CF0-C1
+PHQ-VAL  PHQ      .        .        VAL      .        .
+ bond_PHQ-C1_=_VAL-N
+ALA-FL6  ALA      .        .        FL6      .        .
+ bond_ALA-C_=_FL6-N
+FL6-CF0  FL6      .        .        CF0      .        .
+ bond_FL6-C_=_CF0-C1
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_FL6
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ FL6           OD1    O    O         0.000    -10.894   12.391   64.673
+ FL6           CG     C    C         0.000    -11.444   13.454   64.723
+ FL6           OD2    O    O2        0.000    -12.826   13.597   64.416
+ FL6           CM1    C    CH3       0.000    -13.560   12.767   63.499
+ FL6           HM13   H    H         0.000    -13.129   12.836   62.533
+ FL6           HM12   H    H         0.000    -13.528   11.759   63.827
+ FL6           HM11   H    H         0.000    -14.569   13.089   63.456
+ FL6           CB     C    CH2       0.000    -10.568   14.663   65.157
+ FL6           HB1    H    H         0.000    -10.262   15.110   64.209
+ FL6           HB2    H    H         0.000     -9.704   14.195   65.633
+ FL6           CA     C    CH1       0.000    -11.137   15.756   66.082
+ FL6           HA     H    H         0.000    -10.301   16.324   66.513
+ FL6           N      N    NT2       0.000    -11.876   15.109   67.169
+ FL6           HN2    H    H         0.000    -11.835   14.085   67.049
+ FL6           HN1    H    H         0.000    -12.263   15.831   67.797
+ FL6           C      C    C1        0.000    -12.074   16.734   65.347
+ FL6           H      H    H         0.000    -13.085   16.414   65.157
+ FL6           O      O    O         0.000    -11.749   17.843   64.967
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ FL6      OD1    n/a    CG     START
+ FL6      CG     OD1    CB     .
+ FL6      OD2    CG     CM1    .
+ FL6      CM1    OD2    HM11   .
+ FL6      HM13   CM1    .      .
+ FL6      HM12   CM1    .      .
+ FL6      HM11   CM1    .      .
+ FL6      CB     CG     CA     .
+ FL6      HB1    CB     .      .
+ FL6      HB2    CB     .      .
+ FL6      CA     CB     C      .
+ FL6      HA     CA     .      .
+ FL6      N      CA     HN1    .
+ FL6      HN2    N      .      .
+ FL6      HN1    N      .      .
+ FL6      C      CA     O      .
+ FL6      H      C      .      .
+ FL6      O      C      .      END
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ FL6      N      CA        single      1.475    0.020
+ FL6      C      CA        single      1.510    0.020
+ FL6      CA     CB        single      1.524    0.020
+ FL6      O      C         double      1.220    0.020
+ FL6      CB     CG        single      1.510    0.020
+ FL6      CG     OD1       double      1.220    0.020
+ FL6      OD2    CG        single      1.454    0.020
+ FL6      CM1    OD2       single      1.426    0.020
+ FL6      HN1    N         single      1.033    0.020
+ FL6      HN2    N         single      1.033    0.020
+ FL6      HA     CA        single      1.099    0.020
+ FL6      H      C         single      1.077    0.020
+ FL6      HB1    CB        single      1.092    0.020
+ FL6      HB2    CB        single      1.092    0.020
+ FL6      HM11   CM1       single      1.059    0.020
+ FL6      HM12   CM1       single      1.059    0.020
+ FL6      HM13   CM1       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ FL6      OD1    CG     OD2     119.000    3.000
+ FL6      OD1    CG     CB      120.500    3.000
+ FL6      OD2    CG     CB      120.000    3.000
+ FL6      CG     OD2    CM1     120.000    3.000
+ FL6      OD2    CM1    HM13    109.470    3.000
+ FL6      OD2    CM1    HM12    109.470    3.000
+ FL6      OD2    CM1    HM11    109.470    3.000
+ FL6      HM13   CM1    HM12    109.470    3.000
+ FL6      HM13   CM1    HM11    109.470    3.000
+ FL6      HM12   CM1    HM11    109.470    3.000
+ FL6      CG     CB     HB1     109.470    3.000
+ FL6      CG     CB     HB2     109.470    3.000
+ FL6      CG     CB     CA      109.470    3.000
+ FL6      HB1    CB     HB2     107.900    3.000
+ FL6      HB1    CB     CA      109.470    3.000
+ FL6      HB2    CB     CA      109.470    3.000
+ FL6      CB     CA     HA      108.340    3.000
+ FL6      CB     CA     N       109.500    3.000
+ FL6      CB     CA     C       109.470    3.000
+ FL6      HA     CA     N       109.500    3.000
+ FL6      HA     CA     C       108.810    3.000
+ FL6      N      CA     C       109.500    3.000
+ FL6      CA     N      HN2     109.500    3.000
+ FL6      CA     N      HN1     109.500    3.000
+ FL6      HN2    N      HN1     109.500    3.000
+ FL6      CA     C      H       120.000    3.000
+ FL6      CA     C      O       120.500    3.000
+ FL6      H      C      O       123.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ FL6      var_1            OD1    CG     OD2    CM1              -29.231           20.000   3
+ FL6      var_2            CG     OD2    CM1    HM11             180.000           20.000   3
+ FL6      var_3            OD1    CG     CB     CA               180.000           20.000   3
+ FL6      var_4            CG     CB     CA     C                180.000           20.000   3
+ FL6      var_5            CB     CA     N      HN1              180.000           20.000   3
+ FL6      var_6            CB     CA     C      O               -100.687           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ FL6      chir_01          CA     N      C      CB        positiv
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ FL6      plan-1            C         0.020
+ FL6      plan-1            CA        0.020
+ FL6      plan-1            O         0.020
+ FL6      plan-1            H         0.020
+ FL6      plan-2            CG        0.020
+ FL6      plan-2            CB        0.020
+ FL6      plan-2            OD1       0.020
+ FL6      plan-2            OD2       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-CF0
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-CF0  1 SG      2 C1        .           1.790    0.020
+#
+data_link_PHQ-VAL
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ PHQ-VAL  1 C1      2 N         .           1.450    0.020
+#
+data_link_ALA-FL6
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ ALA-FL6  1 C       2 N         .           1.450    0.020
+#
+data_link_FL6-CF0
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ FL6-CF0  1 C       2 C1        .           1.520    0.020
+# ------------------------------------------------------

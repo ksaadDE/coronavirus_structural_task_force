@@ -1,0 +1,83 @@
+{
+  "Data": {
+    "pdb_id": "7lcq",
+    "coordinates_revision_date_pdb": "2021-05-12",
+    "coordinates_revision_major_mmCIF": null,
+    "coordinates_revision_minor_mmCIF": null,
+    "coordinates_edited": false,
+    "reflections_revision": "1_0",
+    "reflections_edited": false,
+    "pdb_redo_version": "7.34",
+    "pdb_redo_used": true
+  },
+  "Ligand_validation_data": [
+    {
+      "asymID": "D",
+      "compID": "UED",
+      "seqID": 0,
+      "pdb": {
+        "compID": "UED",
+        "insCode": "",
+        "seqNum": 603,
+        "strandID": "A"
+      },
+      "added": false,
+      "all_atom_rmsd_in_A": 0.2508,
+      "atoms_shifted_more_than_0.5A": 0.0,
+      "original model": {
+        "density_fit": {
+          "real_space_Rfactor": 0.076,
+          "real_space_correlation": 0.958,
+          "EDIAm_density_fit": 0.678,
+          "OPIA_Density_coverage": 62.1
+        },
+        "heat_of_formation": {
+          "energy": 81.662,
+          "energy_unit": "kJ/mol"
+        },
+        "interactions": {
+          "bumps_count": 10.0,
+          "H_bonds_count": 3.0,
+          "H_bonds_strength": -73.1,
+          "H_bonds_unit": "kJ/mol",
+          "hydrophobic_count": 14.0,
+          "hydrophobic_strength": 15.852,
+          "hydrophobic_unit": "knowledge_based_potential",
+          "pi_pi_count": 0.0,
+          "pi_pi_strength": 0.0,
+          "pi_pi_unit": "knowledge_based_potential",
+          "cation_pi_count": 0.0,
+          "cation_pi_strength": 0.0,
+          "cation_pi_unit": "knowledge_based_potential"
+        }
+      },
+      "pdb_redo_model": {
+        "density_fit": {
+          "real_space_Rfactor": 0.081,
+          "real_space_correlation": 0.948,
+          "EDIAm_density_fit": 0.716,
+          "OPIA_Density_coverage": 62.1
+        },
+        "heat_of_formation": {
+          "energy": -150.137,
+          "energy_unit": "kJ/mol"
+        },
+        "interactions": {
+          "bumps_count": 9.0,
+          "H_bonds_count": 2.0,
+          "H_bonds_strength": -49.35,
+          "H_bonds_unit": "kJ/mol",
+          "hydrophobic_count": 17.0,
+          "hydrophobic_strength": 18.747,
+          "hydrophobic_unit": "knowledge_based_potential",
+          "pi_pi_count": 0.0,
+          "pi_pi_strength": 0.0,
+          "pi_pi_unit": "knowledge_based_potential",
+          "cation_pi_count": 0.0,
+          "cation_pi_strength": 0.0,
+          "cation_pi_unit": "knowledge_based_potential"
+        }
+      }
+    }
+  ]
+}

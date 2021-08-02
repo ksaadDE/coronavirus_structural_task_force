@@ -27,12 +27,19 @@ KEYWDS    SARS-COV-2, RBD, ANTIBODY, VIRAL PROTEIN, ANTIVIRAL PROTEIN, VIRAL
 KEYWDS   2 PROTEIN-ANTIVIRAL PROTEIN COMPLEX                                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Y.WANG,G.ZHANG,X.LI,Z.RAO,Y.GUO                                       
+REVDAT   2   26-MAY-21 7DET    1       JRNL                                     
 REVDAT   1   31-MAR-21 7DET    0                                                
-JRNL        AUTH   D.FU,G.ZHANG,X.LI,Z.RAO,Y.GUO                                
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 RBD IN COMPLEX WITH A        
-JRNL        TITL 2 NEUTRALIZING ANTIBODY SCFV                                   
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   D.FU,G.ZHANG,Y.WANG,Z.ZHANG,H.HU,S.SHEN,J.WU,B.LI,X.LI,      
+JRNL        AUTH 2 Y.FANG,J.LIU,Q.WANG,Y.ZHOU,W.WANG,Y.LI,Z.LU,X.WANG,C.NIE,    
+JRNL        AUTH 3 Y.TIAN,D.CHEN,Y.WANG,X.ZHOU,Q.WANG,F.YU,C.ZHANG,C.DENG,      
+JRNL        AUTH 4 L.ZHOU,G.GUAN,N.SHAO,Z.LOU,F.DENG,H.ZHANG,X.CHEN,M.WANG,     
+JRNL        AUTH 5 L.LIU,Z.RAO,Y.GUO                                            
+JRNL        TITL   STRUCTURAL BASIS FOR SARS-COV-2 NEUTRALIZING ANTIBODIES WITH 
+JRNL        TITL 2 NOVEL BINDING EPITOPES.                                      
+JRNL        REF    PLOS BIOL.                    V.  19 01209 2021              
+JRNL        REFN                   ESSN 1545-7885                               
+JRNL        PMID   33961621                                                     
+JRNL        DOI    10.1371/JOURNAL.PBIO.3001209                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
 REMARK   3                                                                      

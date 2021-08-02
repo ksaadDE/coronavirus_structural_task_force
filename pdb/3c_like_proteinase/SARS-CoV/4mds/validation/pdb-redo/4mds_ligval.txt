@@ -2,19 +2,22 @@
 ****** Ligand validation details (23H A 401) ******
  
                                     Before  Final
-Real-space R-factor               : 0.063   0.064
-Real-space correlation            : 0.94    0.95
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : -33.08  -36.62
+Real-space R-factor               : 0.065   0.045
+Real-space correlation            : 0.943   0.982
+EDIAm density fit                 : 0.990   1.008
+OPIA density coverage (%)         : 94.7    97.4
+ 
+Energy of formation (kJ/mol)      : 1225.691 1140.017
+Hydrogen bond energy (kJ/mol)     : -33.08  -43.3
 Number of hydrogen bonds          : 2  2
-Number of bumps                   : 4  4
-Number of hydrophobic interactions: 20  19
-Hydrophobic interaction strength  : 19.749  19.230
+Number of bumps                   : 4  2
+Number of hydrophobic interactions: 24  23
+Hydrophobic interaction strength  : 19.746  20.094
 Number of Pi-Pi interactions      : 6  7
-Pi-Pi interaction strength        : 3.678  4.865
+Pi-Pi interaction strength        : 3.677  4.813
 Number of cation-Pi interactions  : 0  0
 Cation-Pi interaction strength    : 0.000  0.000
  
 Atoms shifted more than 0.50A     : 0
-All atom RMSD for residue (A)     : 0.0632
+All atom RMSD for residue (A)     : 0.1654
  

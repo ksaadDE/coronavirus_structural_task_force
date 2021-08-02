@@ -2,14 +2,17 @@
 ****** Ligand validation details (ZU3 A 501) ******
  
                                     Before  Final
-Real-space R-factor               : 0.096   0.082
-Real-space correlation            : 0.95    0.97
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : -113.97  -105.6
+Real-space R-factor               : 0.097   0.084
+Real-space correlation            : 0.950   0.965
+EDIAm density fit                 : 0.821   0.833
+OPIA density coverage (%)         : 70.5    77.3
+ 
+Energy of formation (kJ/mol)      : 45.241 -57.262
+Hydrogen bond energy (kJ/mol)     : -113.98  -101.2
 Number of hydrogen bonds          : 6  5
-Number of bumps                   : 15  14
+Number of bumps                   : 15  12
 Number of hydrophobic interactions: 25  29
-Hydrophobic interaction strength  : 23.112  27.079
+Hydrophobic interaction strength  : 23.114  27.704
 Number of Pi-Pi interactions      : 0  0
 Pi-Pi interaction strength        : 0.000  0.000
 Number of cation-Pi interactions  : 0  0

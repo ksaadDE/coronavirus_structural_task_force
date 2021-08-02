@@ -2,19 +2,22 @@
 ****** Ligand validation details (ECC H 5) ******
  
                                     Before  Final
-Real-space R-factor               : 0.213   0.115
-Real-space correlation            : 0.89    0.92
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : -35.95  0
-Number of hydrogen bonds          : 2  0
-Number of bumps                   : 31  32
+Real-space R-factor               : 0.204   0.068
+Real-space correlation            : 0.859   0.942
+EDIAm density fit                 : 0.491   0.437
+OPIA density coverage (%)         : 11.1    11.1
+ 
+Energy of formation (kJ/mol)      : 37255.415 125882.257
+Hydrogen bond energy (kJ/mol)     : -35.95  -25.68
+Number of hydrogen bonds          : 2  2
+Number of bumps                   : 31  20
 Number of hydrophobic interactions: 2  2
-Hydrophobic interaction strength  : 1.535  1.689
+Hydrophobic interaction strength  : 1.535  1.802
 Number of Pi-Pi interactions      : 0  0
 Pi-Pi interaction strength        : 0.000  0.000
-Number of cation-Pi interactions  : 1  0
-Cation-Pi interaction strength    : 1.000  0.000
+Number of cation-Pi interactions  : 1  1
+Cation-Pi interaction strength    : 1.000  1.000
  
 Atoms shifted more than 0.50A     : 3
-All atom RMSD for residue (A)     : 0.7910
+All atom RMSD for residue (A)     : 0.6863
  

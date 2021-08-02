@@ -3,7 +3,7 @@ data_5S45
 _entry.id   5S45 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.337 
+_audit_conform.dict_version    5.344 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -47,42 +47,82 @@ _audit_author.pdbx_ordinal
 'von Delft, F.'      17 
 # 
 _citation.id                        primary 
-_citation.title                     'PanDDA analysis group deposition' 
-_citation.journal_abbrev            'To Be Published' 
-_citation.journal_volume            ? 
+_citation.title                     
+'Fragment binding to the Nsp3 macrodomain of SARS-CoV-2 identified through crystallographic screening and computational docking.' 
+_citation.journal_abbrev            'Sci Adv' 
+_citation.journal_volume            7 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.year                      ? 
+_citation.year                      2021 
 _citation.journal_id_ASTM           ? 
-_citation.country                   ? 
-_citation.journal_id_ISSN           ? 
-_citation.journal_id_CSD            0353 
+_citation.country                   US 
+_citation.journal_id_ISSN           2375-2548 
+_citation.journal_id_CSD            ? 
 _citation.book_publisher            ? 
-_citation.pdbx_database_id_PubMed   ? 
-_citation.pdbx_database_id_DOI      ? 
+_citation.pdbx_database_id_PubMed   33853786 
+_citation.pdbx_database_id_DOI      10.1126/sciadv.abf8711 
 # 
 loop_
 _citation_author.citation_id 
 _citation_author.name 
 _citation_author.identifier_ORCID 
 _citation_author.ordinal 
-primary 'Fearon, D.'         ? 1  
-primary 'Schuller, M.'       ? 2  
-primary 'Rangel, V.L.'       ? 3  
-primary 'Douangamath, A.'    ? 4  
-primary 'Rack, J.G.M.'       ? 5  
-primary 'Zhu, K.'            ? 6  
-primary 'Aimon, A.'          ? 7  
-primary 'Brandao-Neto, J.'   ? 8  
-primary 'Dias, A.'           ? 9  
-primary 'Dunnet, L.'         ? 10 
-primary 'Gorrie-Stone, T.J.' ? 11 
-primary 'Powell, A.J.'       ? 12 
-primary 'Krojer, T.'         ? 13 
-primary 'Skyner, R.'         ? 14 
-primary 'Thompson, W.'       ? 15 
-primary 'Ahel, I.'           ? 16 
-primary 'von Delft, F.'      ? 17 
+primary 'Schuller, M.'         0000-0002-1551-0359 1  
+primary 'Correy, G.J.'         0000-0001-5155-7325 2  
+primary 'Gahbauer, S.'         0000-0002-3115-9757 3  
+primary 'Fearon, D.'           0000-0003-3529-7863 4  
+primary 'Wu, T.'               0000-0001-6988-1414 5  
+primary 'Diaz, R.E.'           0000-0002-1172-9919 6  
+primary 'Young, I.D.'          0000-0003-4713-9504 7  
+primary 'Carvalho Martins, L.' 0000-0002-7747-6782 8  
+primary 'Smith, D.H.'          0000-0002-5136-4491 9  
+primary 'Schulze-Gahmen, U.'   0000-0003-3919-4474 10 
+primary 'Owens, T.W.'          0000-0001-7423-4879 11 
+primary 'Deshpande, I.'        0000-0002-8276-9635 12 
+primary 'Merz, G.E.'           0000-0003-0842-4935 13 
+primary 'Thwin, A.C.'          0000-0002-1423-8189 14 
+primary 'Biel, J.T.'           0000-0002-0935-8362 15 
+primary 'Peters, J.K.'         0000-0003-3541-7431 16 
+primary 'Moritz, M.'           0000-0003-3811-5623 17 
+primary 'Herrera, N.'          0000-0003-4157-9429 18 
+primary 'Kratochvil, H.T.'     0000-0001-8039-6823 19 
+primary 'Aimon, A.'            0000-0002-9135-129X 20 
+primary 'Bennett, J.M.'        0000-0003-1396-8400 21 
+primary 'Brandao Neto, J.'     0000-0001-6015-320X 22 
+primary 'Cohen, A.E.'          0000-0003-2414-9427 23 
+primary 'Dias, A.'             0000-0003-3609-7003 24 
+primary 'Douangamath, A.'      ?                   25 
+primary 'Dunnett, L.'          0000-0001-6710-6959 26 
+primary 'Fedorov, O.'          0000-0002-8662-7300 27 
+primary 'Ferla, M.P.'          ?                   28 
+primary 'Fuchs, M.R.'          0000-0001-9784-0927 29 
+primary 'Gorrie-Stone, T.J.'   0000-0002-1817-1495 30 
+primary 'Holton, J.M.'         0000-0002-0596-0137 31 
+primary 'Johnson, M.G.'        0000-0001-9213-0598 32 
+primary 'Krojer, T.'           0000-0003-0661-0814 33 
+primary 'Meigs, G.'            0000-0002-8530-661X 34 
+primary 'Powell, A.J.'         0000-0002-0462-2240 35 
+primary 'Rack, J.G.M.'         0000-0001-8341-6439 36 
+primary 'Rangel, V.L.'         0000-0002-7580-3452 37 
+primary 'Russi, S.'            ?                   38 
+primary 'Skyner, R.E.'         0000-0003-3614-6661 39 
+primary 'Smith, C.A.'          0000-0002-1885-1511 40 
+primary 'Soares, A.S.'         0000-0002-6565-8503 41 
+primary 'Wierman, J.L.'        0000-0002-5206-9662 42 
+primary 'Zhu, K.'              ?                   43 
+primary 
+;O'Brien, P.
+;
+0000-0002-9966-1962 44 
+primary 'Jura, N.'             0000-0001-5129-641X 45 
+primary 'Ashworth, A.'         0000-0003-1446-7878 46 
+primary 'Irwin, J.J.'          0000-0002-1195-6417 47 
+primary 'Thompson, M.C.'       0000-0002-6099-2027 48 
+primary 'Gestwicki, J.E.'      ?                   49 
+primary 'von Delft, F.'        0000-0003-0378-0017 50 
+primary 'Shoichet, B.K.'       0000-0002-6098-7367 51 
+primary 'Fraser, J.S.'         0000-0002-5080-2859 52 
+primary 'Ahel, I.'             0000-0002-9446-3756 53 
 # 
 _cell.entry_id           5S45 
 _cell.length_a           88.140 
@@ -7782,6 +7822,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-01-13 
 2 'Structure model' 1 1 2021-01-27 
+3 'Structure model' 1 2 2021-07-07 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7791,10 +7832,13 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
-_pdbx_audit_revision_group.ordinal             1 
-_pdbx_audit_revision_group.revision_ordinal    2 
-_pdbx_audit_revision_group.data_content_type   'Structure model' 
-_pdbx_audit_revision_group.group               'Structure summary' 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Structure summary'   
+2 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -7803,14 +7847,25 @@ _pdbx_audit_revision_category.data_content_type
 _pdbx_audit_revision_category.category 
 1 2 'Structure model' entity          
 2 2 'Structure model' entity_name_com 
+3 3 'Structure model' citation        
+4 3 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_entity.pdbx_ec'       
-2 2 'Structure model' '_entity_name_com.name' 
+1  2 'Structure model' '_entity.pdbx_ec'                   
+2  2 'Structure model' '_entity_name_com.name'             
+3  3 'Structure model' '_citation.country'                 
+4  3 'Structure model' '_citation.journal_abbrev'          
+5  3 'Structure model' '_citation.journal_id_CSD'          
+6  3 'Structure model' '_citation.journal_id_ISSN'         
+7  3 'Structure model' '_citation.journal_volume'          
+8  3 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  3 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 3 'Structure model' '_citation.title'                   
+11 3 'Structure model' '_citation.year'                    
 # 
 _phasing.method   MR 
 # 

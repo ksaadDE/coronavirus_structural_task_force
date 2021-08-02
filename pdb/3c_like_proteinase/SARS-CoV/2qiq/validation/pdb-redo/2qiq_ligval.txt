@@ -2,19 +2,22 @@
 ****** Ligand validation details (CYV A 302) ******
  
                                     Before  Final
-Real-space R-factor               : 0.201   0.151
-Real-space correlation            : 0.79    0.86
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : -98.1  -138.38
-Number of hydrogen bonds          : 5  7
-Number of bumps                   : 9  8
-Number of hydrophobic interactions: 24  29
-Hydrophobic interaction strength  : 19.184  22.506
+Real-space R-factor               : 0.206   0.145
+Real-space correlation            : 0.769   0.869
+EDIAm density fit                 : -0.009   0.309
+OPIA density coverage (%)         : 28.9    33.3
+ 
+Energy of formation (kJ/mol)      : -200.490 195.869
+Hydrogen bond energy (kJ/mol)     : -98.1  -91.88
+Number of hydrogen bonds          : 5  5
+Number of bumps                   : 9  10
+Number of hydrophobic interactions: 23  27
+Hydrophobic interaction strength  : 19.184  22.199
 Number of Pi-Pi interactions      : 0  0
 Pi-Pi interaction strength        : 0.000  0.000
 Number of cation-Pi interactions  : 0  0
 Cation-Pi interaction strength    : 0.000  0.000
  
 Atoms shifted more than 0.50A     : 2
-All atom RMSD for residue (A)     : 0.2442
+All atom RMSD for residue (A)     : 0.2626
  

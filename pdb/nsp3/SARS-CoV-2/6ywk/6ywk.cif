@@ -3,7 +3,7 @@ data_6YWK
 _entry.id   6YWK 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.325 
+_audit_conform.dict_version    5.345 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -46,25 +46,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Acs Med.Chem.Lett.' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           1948-5875 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Crystal structure of SARS-CoV-2 (Covid-19) NSP3 macrodomain in complex with HEPES' 
-_citation.year                      ? 
+_citation.page_first                603 
+_citation.page_last                 609 
+_citation.title                     
+'Structural Insights into Plasticity and Discovery of Remdesivir Metabolite GS-441524 Binding in SARS-CoV-2 Macrodomain.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1021/acsmedchemlett.0c00684 
+_citation.pdbx_database_id_PubMed   33850605 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -72,15 +73,15 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Ni, X.'                               1 ? 
-primary 'Schroeder, M.'                        2 ? 
-primary 'Olieric, V.'                          3 ? 
-primary 'Sharpe, E.M.'                         4 ? 
-primary 'Wojdyla, J.A.'                        5 ? 
-primary 'Wang, M.'                             6 ? 
-primary 'Knapp, S.'                            7 ? 
-primary 'Chaikuad, A.'                         8 ? 
-primary 'Structural Genomics Consortium (SGC)' 9 ? 
+primary 'Ni, X.'              1 ? 
+primary 'Schroder, M.'        2 ? 
+primary 'Olieric, V.'         3 ? 
+primary 'Sharpe, M.E.'        4 ? 
+primary 'Hernandez-Olmos, V.' 5 ? 
+primary 'Proschak, E.'        6 ? 
+primary 'Merk, D.'            7 ? 
+primary 'Knapp, S.'           8 ? 
+primary 'Chaikuad, A.'        9 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -1014,8 +1015,6 @@ _struct_ncs_ens.details
 # 
 _struct.entry_id                     6YWK 
 _struct.title                        'Crystal structure of SARS-CoV-2 (Covid-19) NSP3 macrodomain in complex with HEPES' 
-_struct.pdbx_descriptor              
-'NSP3 macrodomain (E.C.3.4.19.12,3.4.22.-,3.4.22.69,2.7.7.48,3.6.4.12,3.6.4.13,3.1.13.-,3.1.-.-,2.1.1.-)' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -1178,9 +1177,10 @@ _struct_conn.pdbx_ptnr3_PDB_ins_code
 _struct_conn.details 
 _struct_conn.pdbx_dist_value 
 _struct_conn.pdbx_value_order 
-metalc1 metalc ? ? C  GLU 121 OE1 ? ? ? 1_555 I  MG  . MG ? ? C GLU 120 C MG  201 1_555 ? ? ? ? ? ? ? 2.168 ? 
-metalc2 metalc ? ? C  GLU 121 OE2 ? ? ? 1_555 I  MG  . MG ? ? C GLU 120 C MG  201 1_555 ? ? ? ? ? ? ? 1.958 ? 
-metalc3 metalc ? ? BA MG  .   MG  ? ? ? 1_555 KA HOH . O  ? ? E MG  201 E HOH 305 1_555 ? ? ? ? ? ? ? 1.733 ? 
+_struct_conn.pdbx_role 
+metalc1 metalc ? ? C  GLU 121 OE1 ? ? ? 1_555 I  MG  . MG ? ? C GLU 120 C MG  201 1_555 ? ? ? ? ? ? ? 2.168 ? ? 
+metalc2 metalc ? ? C  GLU 121 OE2 ? ? ? 1_555 I  MG  . MG ? ? C GLU 120 C MG  201 1_555 ? ? ? ? ? ? ? 1.958 ? ? 
+metalc3 metalc ? ? BA MG  .   MG  ? ? ? 1_555 KA HOH . O  ? ? E MG  201 E HOH 305 1_555 ? ? ? ? ? ? ? 1.733 ? ? 
 # 
 _struct_conn_type.id          metalc 
 _struct_conn_type.criteria    ? 
@@ -16334,11 +16334,14 @@ _pdbx_struct_conn_angle.ptnr3_symmetry        1_555
 _pdbx_struct_conn_angle.value                 64.8 
 _pdbx_struct_conn_angle.value_esd             ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2020-05-06 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2020-05-06 
+2 'Structure model' 1 1 2021-07-07 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -16347,6 +16350,37 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.country'                 
+2  2 'Structure model' '_citation.journal_abbrev'          
+3  2 'Structure model' '_citation.journal_id_CSD'          
+4  2 'Structure model' '_citation.journal_id_ISSN'         
+5  2 'Structure model' '_citation.journal_volume'          
+6  2 'Structure model' '_citation.page_first'              
+7  2 'Structure model' '_citation.page_last'               
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 2 'Structure model' '_citation.title'                   
+11 2 'Structure model' '_citation.year'                    
+12 2 'Structure model' '_citation_author.name'             
 # 
 loop_
 _pdbx_refine_tls.id 

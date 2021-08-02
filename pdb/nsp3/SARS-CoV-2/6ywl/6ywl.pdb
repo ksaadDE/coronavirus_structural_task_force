@@ -24,13 +24,17 @@ KEYWDS   3 CONSORTIUM, SGC, VIRAL PROTEIN
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.SCHROEDER,X.NI,V.OLIERIC,E.M.SHARPE,J.A.WOJDYLA,M.WANG,S.KNAPP,     
 AUTHOR   2 A.CHAIKUAD,STRUCTURAL GENOMICS CONSORTIUM (SGC)                      
+REVDAT   2   07-JUL-21 6YWL    1       JRNL                                     
 REVDAT   1   06-MAY-20 6YWL    0                                                
-JRNL        AUTH   M.SCHROEDER,X.NI,V.OLIERIC,E.M.SHARPE,J.A.WOJDYLA,M.WANG,    
-JRNL        AUTH 2 S.KNAPP,A.CHAIKUAD,STRUCTURAL GENOMICS CONSORTIUM (SGC)      
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 (COVID-19) NSP3 MACRODOMAIN  
-JRNL        TITL 2 IN COMPLEX WITH ADP-RIBOSE                                   
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   X.NI,M.SCHRODER,V.OLIERIC,M.E.SHARPE,V.HERNANDEZ-OLMOS,      
+JRNL        AUTH 2 E.PROSCHAK,D.MERK,S.KNAPP,A.CHAIKUAD                         
+JRNL        TITL   STRUCTURAL INSIGHTS INTO PLASTICITY AND DISCOVERY OF         
+JRNL        TITL 2 REMDESIVIR METABOLITE GS-441524 BINDING IN SARS-COV-2        
+JRNL        TITL 3 MACRODOMAIN.                                                 
+JRNL        REF    ACS MED.CHEM.LETT.            V.  12   603 2021              
+JRNL        REFN                   ISSN 1948-5875                               
+JRNL        PMID   33850605                                                     
+JRNL        DOI    10.1021/ACSMEDCHEMLETT.0C00684                               
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      

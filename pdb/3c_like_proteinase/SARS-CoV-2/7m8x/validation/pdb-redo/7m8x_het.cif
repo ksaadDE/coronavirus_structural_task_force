@@ -1,0 +1,411 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+YTJ      YTJ '.                                   ' .                  54  33 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_YTJ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ YTJ           CL1    CL   CL        0.000      5.099    1.528   26.993
+ YTJ           C20    C    CR6       0.000      5.959    0.363   25.959
+ YTJ           C21    C    CR16      0.000      5.938   -0.980   26.291
+ YTJ           H21    H    H         0.000      5.385   -1.313   27.161
+ YTJ           C22    C    CR6       0.000      6.619   -1.894   25.518
+ YTJ           O2     O    O2        0.000      6.569   -3.238   25.903
+ YTJ           C23    C    CH2       0.000      6.636   -4.159   24.859
+ YTJ           H231   H    H         0.000      7.651   -4.178   24.458
+ YTJ           H232   H    H         0.000      5.940   -3.865   24.071
+ YTJ           C24    C    CH2       0.000      6.264   -5.549   25.377
+ YTJ           H241   H    H         0.000      6.569   -5.630   26.423
+ YTJ           H242   H    H         0.000      6.792   -6.300   24.786
+ YTJ           O3     O    O2        0.000      4.881   -5.758   25.274
+ YTJ           C25    C    CH3       0.000      4.182   -5.438   26.439
+ YTJ           H253   H    H         0.000      4.539   -6.039   27.232
+ YTJ           H252   H    H         0.000      4.336   -4.417   26.665
+ YTJ           H251   H    H         0.000      3.153   -5.620   26.286
+ YTJ           C19    C    CR16      0.000      6.653    0.797   24.831
+ YTJ           H19    H    H         0.000      6.651    1.847   24.565
+ YTJ           C18    C    CR6       0.000      7.343   -0.111   24.053
+ YTJ           C26    C    CR16      0.000      7.326   -1.465   24.384
+ YTJ           H26    H    H         0.000      7.856   -2.182   23.769
+ YTJ           C17    C    CR6       0.000      8.111    0.418   22.833
+ YTJ           C16    C    CR16      0.000      8.909    1.554   22.948
+ YTJ           H16    H    H         0.000      8.995    2.066   23.898
+ YTJ           C8     C    CR6       0.000      9.596    2.026   21.832
+ YTJ           C9     C    CR6       0.000     10.504    3.255   21.948
+ YTJ           C15    C    CR16      0.000     11.311    3.311   23.090
+ YTJ           H15    H    H         0.000     11.249    2.518   23.825
+ YTJ           C14    C    CR16      0.000     12.189    4.365   23.296
+ YTJ           H14    H    H         0.000     12.807    4.392   24.185
+ YTJ           C13    C    CR16      0.000     12.272    5.385   22.358
+ YTJ           H13    H    H         0.000     12.950    6.214   22.518
+ YTJ           C12    C    CR16      0.000     11.483    5.341   21.212
+ YTJ           H12    H    H         0.000     11.553    6.137   20.481
+ YTJ           C10    C    CR6       0.000     10.605    4.282   20.997
+ YTJ           C11    C    CSP       0.000      9.789    4.343   19.708
+ YTJ           N3     N    NS        0.000      9.193    4.402   18.750
+ YTJ           C7     C    CR16      0.000      9.481    1.331   20.631
+ YTJ           H7     H    H         0.000     10.020    1.677   19.758
+ YTJ           N1     N    NR6       0.000      8.711    0.240   20.544
+ YTJ           C1     C    CR6       0.000      8.033   -0.223   21.610
+ YTJ           O1     O    OH1       0.000      7.235   -1.358   21.495
+ YTJ           HO1    H    H         0.000      6.819   -1.556   22.348
+ YTJ           C2     C    CR6       0.000      8.599   -0.430   19.259
+ YTJ           C6     C    CR16      0.000      9.703   -0.981   18.619
+ YTJ           H6     H    H         0.000     10.682   -0.931   19.079
+ YTJ           C5     C    CR16      0.000      9.541   -1.598   17.382
+ YTJ           H5     H    H         0.000     10.388   -2.038   16.871
+ YTJ           C4     C    CR16      0.000      8.269   -1.639   16.813
+ YTJ           H4     H    H         0.000      8.123   -2.111   15.849
+ YTJ           N2     N    NRD6      0.000      7.225   -1.092   17.460
+ YTJ           C3     C    CR16      0.000      7.356   -0.488   18.649
+ YTJ           H3     H    H         0.000      6.493   -0.046   19.132
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ YTJ      CL1    n/a    C20    START
+ YTJ      C20    CL1    C19    .
+ YTJ      C21    C20    C22    .
+ YTJ      H21    C21    .      .
+ YTJ      C22    C21    O2     .
+ YTJ      O2     C22    C23    .
+ YTJ      C23    O2     C24    .
+ YTJ      H231   C23    .      .
+ YTJ      H232   C23    .      .
+ YTJ      C24    C23    O3     .
+ YTJ      H241   C24    .      .
+ YTJ      H242   C24    .      .
+ YTJ      O3     C24    C25    .
+ YTJ      C25    O3     H251   .
+ YTJ      H253   C25    .      .
+ YTJ      H252   C25    .      .
+ YTJ      H251   C25    .      .
+ YTJ      C19    C20    C18    .
+ YTJ      H19    C19    .      .
+ YTJ      C18    C19    C17    .
+ YTJ      C26    C18    H26    .
+ YTJ      H26    C26    .      .
+ YTJ      C17    C18    C16    .
+ YTJ      C16    C17    C8     .
+ YTJ      H16    C16    .      .
+ YTJ      C8     C16    C7     .
+ YTJ      C9     C8     C10    .
+ YTJ      C15    C9     C14    .
+ YTJ      H15    C15    .      .
+ YTJ      C14    C15    C13    .
+ YTJ      H14    C14    .      .
+ YTJ      C13    C14    C12    .
+ YTJ      H13    C13    .      .
+ YTJ      C12    C13    H12    .
+ YTJ      H12    C12    .      .
+ YTJ      C10    C9     C11    .
+ YTJ      C11    C10    N3     .
+ YTJ      N3     C11    .      .
+ YTJ      C7     C8     N1     .
+ YTJ      H7     C7     .      .
+ YTJ      N1     C7     C2     .
+ YTJ      C1     N1     O1     .
+ YTJ      O1     C1     HO1    .
+ YTJ      HO1    O1     .      .
+ YTJ      C2     N1     C6     .
+ YTJ      C6     C2     C5     .
+ YTJ      H6     C6     .      .
+ YTJ      C5     C6     C4     .
+ YTJ      H5     C5     .      .
+ YTJ      C4     C5     N2     .
+ YTJ      H4     C4     .      .
+ YTJ      N2     C4     C3     .
+ YTJ      C3     N2     H3     .
+ YTJ      H3     C3     .      END
+ YTJ      C22    C26    .    ADD
+ YTJ      C10    C12    .    ADD
+ YTJ      C1     C17    .    ADD
+ YTJ      C2     C3     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ YTJ      C24    C23       single      1.524    0.020
+ YTJ      O3     C24       single      1.426    0.020
+ YTJ      C23    O2        single      1.426    0.020
+ YTJ      C22    C26       aromatic    1.390    0.020
+ YTJ      C22    C21       aromatic    1.390    0.020
+ YTJ      O2     C22       single      1.370    0.020
+ YTJ      C25    O3        single      1.426    0.020
+ YTJ      C26    C18       aromatic    1.390    0.020
+ YTJ      C21    C20       aromatic    1.390    0.020
+ YTJ      C11    C10       single      1.285    0.020
+ YTJ      N3     C11       triple      1.158    0.020
+ YTJ      C10    C12       aromatic    1.390    0.020
+ YTJ      C10    C9        aromatic    1.384    0.020
+ YTJ      C1     C17       aromatic    1.384    0.020
+ YTJ      C1     N1        single      1.410    0.020
+ YTJ      O1     C1        single      1.362    0.020
+ YTJ      C12    C13       aromatic    1.390    0.020
+ YTJ      C13    C14       aromatic    1.390    0.020
+ YTJ      C14    C15       aromatic    1.390    0.020
+ YTJ      C15    C9        aromatic    1.390    0.020
+ YTJ      C16    C17       aromatic    1.390    0.020
+ YTJ      C8     C16       aromatic    1.390    0.020
+ YTJ      C17    C18       single      1.487    0.020
+ YTJ      C18    C19       aromatic    1.390    0.020
+ YTJ      C19    C20       aromatic    1.390    0.020
+ YTJ      C2     C3        aromatic    1.390    0.020
+ YTJ      C6     C2        aromatic    1.390    0.020
+ YTJ      C2     N1        single      1.410    0.020
+ YTJ      C20    CL1       single      1.795    0.020
+ YTJ      C3     N2        aromatic    1.337    0.020
+ YTJ      C4     C5        aromatic    1.390    0.020
+ YTJ      N2     C4        deloc       1.337    0.020
+ YTJ      C5     C6        aromatic    1.390    0.020
+ YTJ      C7     C8        aromatic    1.390    0.020
+ YTJ      N1     C7        single      1.337    0.020
+ YTJ      C9     C8        single      1.487    0.020
+ YTJ      H241   C24       single      1.092    0.020
+ YTJ      H242   C24       single      1.092    0.020
+ YTJ      H231   C23       single      1.092    0.020
+ YTJ      H232   C23       single      1.092    0.020
+ YTJ      H251   C25       single      1.059    0.020
+ YTJ      H252   C25       single      1.059    0.020
+ YTJ      H253   C25       single      1.059    0.020
+ YTJ      H26    C26       single      1.083    0.020
+ YTJ      H21    C21       single      1.083    0.020
+ YTJ      H12    C12       single      1.083    0.020
+ YTJ      H13    C13       single      1.083    0.020
+ YTJ      H14    C14       single      1.083    0.020
+ YTJ      H15    C15       single      1.083    0.020
+ YTJ      H16    C16       single      1.083    0.020
+ YTJ      H19    C19       single      1.083    0.020
+ YTJ      H3     C3        single      1.083    0.020
+ YTJ      H4     C4        single      1.083    0.020
+ YTJ      H5     C5        single      1.083    0.020
+ YTJ      H6     C6        single      1.083    0.020
+ YTJ      H7     C7        single      1.083    0.020
+ YTJ      HO1    O1        single      0.967    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ YTJ      CL1    C20    C21     120.000    3.000
+ YTJ      CL1    C20    C19     120.000    3.000
+ YTJ      C21    C20    C19     120.000    3.000
+ YTJ      C20    C21    H21     120.000    3.000
+ YTJ      C20    C21    C22     120.000    3.000
+ YTJ      H21    C21    C22     120.000    3.000
+ YTJ      C21    C22    O2      120.000    3.000
+ YTJ      C21    C22    C26     120.000    3.000
+ YTJ      O2     C22    C26     120.000    3.000
+ YTJ      C22    O2     C23     120.000    3.000
+ YTJ      O2     C23    H231    109.470    3.000
+ YTJ      O2     C23    H232    109.470    3.000
+ YTJ      O2     C23    C24     109.470    3.000
+ YTJ      H231   C23    H232    107.900    3.000
+ YTJ      H231   C23    C24     109.470    3.000
+ YTJ      H232   C23    C24     109.470    3.000
+ YTJ      C23    C24    H241    109.470    3.000
+ YTJ      C23    C24    H242    109.470    3.000
+ YTJ      C23    C24    O3      109.470    3.000
+ YTJ      H241   C24    H242    107.900    3.000
+ YTJ      H241   C24    O3      109.470    3.000
+ YTJ      H242   C24    O3      109.470    3.000
+ YTJ      C24    O3     C25     111.800    3.000
+ YTJ      O3     C25    H253    109.470    3.000
+ YTJ      O3     C25    H252    109.470    3.000
+ YTJ      O3     C25    H251    109.470    3.000
+ YTJ      H253   C25    H252    109.470    3.000
+ YTJ      H253   C25    H251    109.470    3.000
+ YTJ      H252   C25    H251    109.470    3.000
+ YTJ      C20    C19    H19     120.000    3.000
+ YTJ      C20    C19    C18     120.000    3.000
+ YTJ      H19    C19    C18     120.000    3.000
+ YTJ      C19    C18    C26     120.000    3.000
+ YTJ      C19    C18    C17     120.000    3.000
+ YTJ      C26    C18    C17     120.000    3.000
+ YTJ      C18    C26    H26     120.000    3.000
+ YTJ      C18    C26    C22     120.000    3.000
+ YTJ      H26    C26    C22     120.000    3.000
+ YTJ      C18    C17    C16     120.000    3.000
+ YTJ      C18    C17    C1      120.000    3.000
+ YTJ      C16    C17    C1      120.000    3.000
+ YTJ      C17    C16    H16     120.000    3.000
+ YTJ      C17    C16    C8      120.000    3.000
+ YTJ      H16    C16    C8      120.000    3.000
+ YTJ      C16    C8     C9      120.000    3.000
+ YTJ      C16    C8     C7      120.000    3.000
+ YTJ      C9     C8     C7      120.000    3.000
+ YTJ      C8     C9     C15     120.000    3.000
+ YTJ      C8     C9     C10     120.000    3.000
+ YTJ      C15    C9     C10     120.000    3.000
+ YTJ      C9     C15    H15     120.000    3.000
+ YTJ      C9     C15    C14     120.000    3.000
+ YTJ      H15    C15    C14     120.000    3.000
+ YTJ      C15    C14    H14     120.000    3.000
+ YTJ      C15    C14    C13     120.000    3.000
+ YTJ      H14    C14    C13     120.000    3.000
+ YTJ      C14    C13    H13     120.000    3.000
+ YTJ      C14    C13    C12     120.000    3.000
+ YTJ      H13    C13    C12     120.000    3.000
+ YTJ      C13    C12    H12     120.000    3.000
+ YTJ      C13    C12    C10     120.000    3.000
+ YTJ      H12    C12    C10     120.000    3.000
+ YTJ      C9     C10    C11     120.000    3.000
+ YTJ      C9     C10    C12     120.000    3.000
+ YTJ      C11    C10    C12     120.000    3.000
+ YTJ      C10    C11    N3      180.000    3.000
+ YTJ      C8     C7     H7      120.000    3.000
+ YTJ      C8     C7     N1      120.000    3.000
+ YTJ      H7     C7     N1      120.000    3.000
+ YTJ      C7     N1     C1      120.000    3.000
+ YTJ      C7     N1     C2      120.000    3.000
+ YTJ      C1     N1     C2      120.000    3.000
+ YTJ      N1     C1     O1      120.000    3.000
+ YTJ      N1     C1     C17     120.000    3.000
+ YTJ      O1     C1     C17     120.000    3.000
+ YTJ      C1     O1     HO1     109.470    3.000
+ YTJ      N1     C2     C6      120.000    3.000
+ YTJ      N1     C2     C3      120.000    3.000
+ YTJ      C6     C2     C3      120.000    3.000
+ YTJ      C2     C6     H6      120.000    3.000
+ YTJ      C2     C6     C5      120.000    3.000
+ YTJ      H6     C6     C5      120.000    3.000
+ YTJ      C6     C5     H5      120.000    3.000
+ YTJ      C6     C5     C4      120.000    3.000
+ YTJ      H5     C5     C4      120.000    3.000
+ YTJ      C5     C4     H4      120.000    3.000
+ YTJ      C5     C4     N2      120.000    3.000
+ YTJ      H4     C4     N2      120.000    3.000
+ YTJ      C4     N2     C3      120.000    3.000
+ YTJ      N2     C3     H3      120.000    3.000
+ YTJ      N2     C3     C2      120.000    3.000
+ YTJ      H3     C3     C2      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ YTJ      CONST_1          CL1    C20    C21    C22                0.000            0.000   0
+ YTJ      CONST_2          C20    C21    C22    O2                 0.000            0.000   0
+ YTJ      CONST_3          C21    C22    C26    C18                0.000            0.000   0
+ YTJ      var_1            C21    C22    O2     C23              148.718           20.000   3
+ YTJ      var_2            C22    O2     C23    C24             -167.574           20.000   3
+ YTJ      var_3            O2     C23    C24    O3               180.000           20.000   3
+ YTJ      var_4            C23    C24    O3     C25              -93.776           20.000   3
+ YTJ      var_5            C24    O3     C25    H251             180.000           20.000   3
+ YTJ      CONST_4          CL1    C20    C19    C18                0.000            0.000   0
+ YTJ      CONST_5          C20    C19    C18    C17                0.000            0.000   0
+ YTJ      CONST_6          C19    C18    C26    C22                0.000            0.000   0
+ YTJ      var_6            C19    C18    C17    C16                0.000           20.000   2
+ YTJ      CONST_7          C18    C17    C16    C8                 0.000            0.000   0
+ YTJ      CONST_8          C17    C16    C8     C7                 0.000            0.000   0
+ YTJ      var_7            C16    C8     C9     C10                0.000           20.000   2
+ YTJ      CONST_9          C8     C9     C15    C14                0.000            0.000   0
+ YTJ      CONST_10         C9     C15    C14    C13                0.000            0.000   0
+ YTJ      CONST_11         C15    C14    C13    C12                0.000            0.000   0
+ YTJ      CONST_12         C14    C13    C12    C10                0.000            0.000   0
+ YTJ      CONST_13         C8     C9     C10    C11                0.000            0.000   0
+ YTJ      CONST_14         C9     C10    C12    C13                0.000            0.000   0
+ YTJ      var_8            C9     C10    C11    N3              -178.308           20.000   3
+ YTJ      CONST_15         C16    C8     C7     N1                 0.000            0.000   0
+ YTJ      CONST_16         C8     C7     N1     C2                 0.000            0.000   0
+ YTJ      CONST_17         C7     N1     C1     O1                 0.000            0.000   0
+ YTJ      CONST_18         N1     C1     C17    C18                0.000            0.000   0
+ YTJ      var_9            N1     C1     O1     HO1              180.000           20.000   3
+ YTJ      var_10           C7     N1     C2     C6                 0.000           20.000   2
+ YTJ      CONST_19         N1     C2     C3     N2                 0.000            0.000   0
+ YTJ      CONST_20         N1     C2     C6     C5                 0.000            0.000   0
+ YTJ      CONST_21         C2     C6     C5     C4                 0.000            0.000   0
+ YTJ      CONST_22         C6     C5     C4     N2                 0.000            0.000   0
+ YTJ      CONST_23         C5     C4     N2     C3                 0.000            0.000   0
+ YTJ      CONST_24         C4     N2     C3     C2                 0.000            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ YTJ      plan-1            C22       0.020
+ YTJ      plan-1            C26       0.020
+ YTJ      plan-1            C21       0.020
+ YTJ      plan-1            O2        0.020
+ YTJ      plan-1            C18       0.020
+ YTJ      plan-1            C19       0.020
+ YTJ      plan-1            C20       0.020
+ YTJ      plan-1            H26       0.020
+ YTJ      plan-1            H21       0.020
+ YTJ      plan-1            C17       0.020
+ YTJ      plan-1            H19       0.020
+ YTJ      plan-1            CL1       0.020
+ YTJ      plan-2            C10       0.020
+ YTJ      plan-2            C11       0.020
+ YTJ      plan-2            C12       0.020
+ YTJ      plan-2            C9        0.020
+ YTJ      plan-2            C13       0.020
+ YTJ      plan-2            C14       0.020
+ YTJ      plan-2            C15       0.020
+ YTJ      plan-2            H12       0.020
+ YTJ      plan-2            H13       0.020
+ YTJ      plan-2            H14       0.020
+ YTJ      plan-2            H15       0.020
+ YTJ      plan-2            C8        0.020
+ YTJ      plan-3            C1        0.020
+ YTJ      plan-3            C17       0.020
+ YTJ      plan-3            N1        0.020
+ YTJ      plan-3            O1        0.020
+ YTJ      plan-3            C16       0.020
+ YTJ      plan-3            C7        0.020
+ YTJ      plan-3            C8        0.020
+ YTJ      plan-3            H16       0.020
+ YTJ      plan-3            C18       0.020
+ YTJ      plan-3            H7        0.020
+ YTJ      plan-3            C9        0.020
+ YTJ      plan-3            C2        0.020
+ YTJ      plan-4            C2        0.020
+ YTJ      plan-4            C3        0.020
+ YTJ      plan-4            C6        0.020
+ YTJ      plan-4            N1        0.020
+ YTJ      plan-4            C4        0.020
+ YTJ      plan-4            C5        0.020
+ YTJ      plan-4            N2        0.020
+ YTJ      plan-4            H3        0.020
+ YTJ      plan-4            H4        0.020
+ YTJ      plan-4            H5        0.020
+ YTJ      plan-4            H6        0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

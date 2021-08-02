@@ -1,6 +1,6 @@
 HEADER    VIRAL PROTEIN, HYDROLASE                28-SEP-20   5RVC              
-TITLE     CRYSTAL STRUCTURE OF SARS-COV-2 NSP3 MACRODOMAIN IN COMPLEX WITH      
-TITLE    2 ZINC000933940912                                                     
+TITLE     PANDDA ANALYSIS GROUP DEPOSITION -- CRYSTAL STRUCTURE OF SARS-COV-2   
+TITLE    2 NSP3 MACRODOMAIN IN COMPLEX WITH ZINC000933940912                    
 CAVEAT     5RVC    W7V A 201 HAS WRONG CHIRALITY AT ATOM C05 W7V A 201 HAS      
 CAVEAT   2 5RVC    WRONG CHIRALITY AT ATOM C07                                  
 COMPND    MOL_ID: 1;                                                            
@@ -25,6 +25,8 @@ SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET22B(+)
 KEYWDS    MACRODOMAIN, ADP-RIBOSE, SARS-COV-2, VIRAL PROTEIN, HYDROLASE         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.J.CORREY,I.D.YOUNG,M.C.THOMPSON,J.S.FRASER                          
+REVDAT   4   09-JUN-21 5RVC    1       TITLE                                    
+REVDAT   3   12-MAY-21 5RVC    1       REMARK                                   
 REVDAT   2   27-JAN-21 5RVC    1       COMPND                                   
 REVDAT   1   16-DEC-20 5RVC    0                                                
 JRNL        AUTH   G.J.CORREY,J.S.FRASER                                        

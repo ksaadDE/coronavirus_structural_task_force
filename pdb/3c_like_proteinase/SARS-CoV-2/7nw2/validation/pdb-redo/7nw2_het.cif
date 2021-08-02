@@ -1,0 +1,507 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+USZ      USZ '.                                   ' .                  65  34 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-USZ  CYS      .        .        USZ      .        .
+ bond_CYS-SG_=_USZ-C
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_USZ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ USZ           O      O    O         0.000    -20.892    5.225   24.376
+ USZ           C2     C    C         0.000    -21.456    4.706   25.329
+ USZ           C1     C    CH2       0.000    -22.585    3.726   25.095
+ USZ           H110   H    H         0.000    -23.393    4.248   24.578
+ USZ           H120   H    H         0.000    -22.942    3.373   26.065
+ USZ           C      C    CH3       0.000    -22.130    2.543   24.261
+ USZ           H30    H    H         0.000    -21.783    2.885   23.320
+ USZ           H2     H    H         0.000    -21.346    2.037   24.762
+ USZ           H1     H    H         0.000    -22.942    1.878   24.116
+ USZ           N      N    N         0.000    -21.097    4.984   26.620
+ USZ           C18    C    CR6       0.000    -21.908    4.572   27.735
+ USZ           C23    C    CR16      0.000    -21.726    3.322   28.322
+ USZ           H23    H    H         0.000    -20.971    2.649   27.935
+ USZ           C22    C    CR16      0.000    -22.508    2.938   29.399
+ USZ           H22    H    H         0.000    -22.348    1.967   29.852
+ USZ           C21    C    CR6       0.000    -23.497    3.776   29.911
+ USZ           C24    C    CT        0.000    -24.387    3.361   31.092
+ USZ           C25    C    CH3       0.000    -24.105    4.270   32.294
+ USZ           H253   H    H         0.000    -23.087    4.182   32.574
+ USZ           H252   H    H         0.000    -24.313    5.276   32.035
+ USZ           H251   H    H         0.000    -24.719    3.983   33.108
+ USZ           C27    C    CH3       0.000    -25.863    3.499   30.701
+ USZ           H273   H    H         0.000    -26.070    4.506   30.444
+ USZ           H272   H    H         0.000    -26.070    2.875   29.870
+ USZ           H271   H    H         0.000    -26.475    3.212   31.517
+ USZ           C26    C    CH3       0.000    -24.159    1.906   31.535
+ USZ           H263   H    H         0.000    -24.371    1.251   30.729
+ USZ           H262   H    H         0.000    -23.150    1.779   31.834
+ USZ           H261   H    H         0.000    -24.798    1.677   32.350
+ USZ           C19    C    CR16      0.000    -22.897    5.421   28.240
+ USZ           H19    H    H         0.000    -23.055    6.393   27.790
+ USZ           C20    C    CR16      0.000    -23.675    5.022   29.314
+ USZ           H20    H    H         0.000    -24.436    5.691   29.697
+ USZ           C3     C    CH1       0.000    -19.905    5.826   26.910
+ USZ           H3     H    H         0.000    -20.193    6.838   26.591
+ USZ           C13    C    CR6       0.000    -18.633    5.519   26.128
+ USZ           C17    C    CR16      0.000    -17.820    6.543   25.663
+ USZ           H17    H    H         0.000    -18.164    7.569   25.711
+ USZ           C16    C    CR16      0.000    -16.571    6.259   25.138
+ USZ           H16    H    H         0.000    -15.922    7.052   24.786
+ USZ           C14    C    CR16      0.000    -18.146    4.224   25.992
+ USZ           H14    H    H         0.000    -18.780    3.408   26.317
+ USZ           N2     N    NRD6      0.000    -16.943    3.919   25.485
+ USZ           C15    C    CR16      0.000    -16.174    4.935   25.075
+ USZ           H15    H    H         0.000    -15.193    4.710   24.674
+ USZ           C4     C    C         0.000    -19.636    5.953   28.421
+ USZ           O1     O    O         0.000    -19.163    5.023   29.059
+ USZ           N1     N    N         0.000    -19.935    7.132   28.967
+ USZ           C5     C    CH2       0.000    -19.734    7.393   30.388
+ USZ           H51    H    H         0.000    -19.706    8.475   30.532
+ USZ           H52    H    H         0.000    -18.772    6.964   30.677
+ USZ           C6     C    CH2       0.000    -20.844    6.790   31.251
+ USZ           H61    H    H         0.000    -21.309    5.994   30.666
+ USZ           H62    H    H         0.000    -21.575    7.581   31.433
+ USZ           C7     C    CR6       0.000    -20.363    6.232   32.572
+ USZ           C12    C    CR16      0.000    -20.247    4.861   32.763
+ USZ           H12    H    H         0.000    -20.514    4.186   31.959
+ USZ           C11    C    CR16      0.000    -19.794    4.344   33.969
+ USZ           H11    H    H         0.000    -19.713    3.272   34.099
+ USZ           C10    C    CR16      0.000    -19.445    5.192   35.008
+ USZ           H10    H    H         0.000    -19.082    4.802   35.951
+ USZ           C9     C    CR6       0.000    -19.574    6.539   34.803
+ USZ           F      F    F         0.000    -19.233    7.383   35.817
+ USZ           C8     C    CR16      0.000    -20.026    7.084   33.621
+ USZ           H8     H    H         0.000    -20.118    8.157   33.509
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ USZ      O      n/a    C2     START
+ USZ      C2     O      N      .
+ USZ      C1     C2     C      .
+ USZ      H110   C1     .      .
+ USZ      H120   C1     .      .
+ USZ      C      C1     H1     .
+ USZ      H30    C      .      .
+ USZ      H2     C      .      .
+ USZ      H1     C      .      .
+ USZ      N      C2     C3     .
+ USZ      C18    N      C19    .
+ USZ      C23    C18    C22    .
+ USZ      H23    C23    .      .
+ USZ      C22    C23    C21    .
+ USZ      H22    C22    .      .
+ USZ      C21    C22    C24    .
+ USZ      C24    C21    C26    .
+ USZ      C25    C24    H251   .
+ USZ      H253   C25    .      .
+ USZ      H252   C25    .      .
+ USZ      H251   C25    .      .
+ USZ      C27    C24    H271   .
+ USZ      H273   C27    .      .
+ USZ      H272   C27    .      .
+ USZ      H271   C27    .      .
+ USZ      C26    C24    H261   .
+ USZ      H263   C26    .      .
+ USZ      H262   C26    .      .
+ USZ      H261   C26    .      .
+ USZ      C19    C18    C20    .
+ USZ      H19    C19    .      .
+ USZ      C20    C19    H20    .
+ USZ      H20    C20    .      .
+ USZ      C3     N      C4     .
+ USZ      H3     C3     .      .
+ USZ      C13    C3     C14    .
+ USZ      C17    C13    C16    .
+ USZ      H17    C17    .      .
+ USZ      C16    C17    H16    .
+ USZ      H16    C16    .      .
+ USZ      C14    C13    N2     .
+ USZ      H14    C14    .      .
+ USZ      N2     C14    C15    .
+ USZ      C15    N2     H15    .
+ USZ      H15    C15    .      .
+ USZ      C4     C3     N1     .
+ USZ      O1     C4     .      .
+ USZ      N1     C4     C5     .
+ USZ      C5     N1     C6     .
+ USZ      H51    C5     .      .
+ USZ      H52    C5     .      .
+ USZ      C6     C5     C7     .
+ USZ      H61    C6     .      .
+ USZ      H62    C6     .      .
+ USZ      C7     C6     C12    .
+ USZ      C12    C7     C11    .
+ USZ      H12    C12    .      .
+ USZ      C11    C12    C10    .
+ USZ      H11    C11    .      .
+ USZ      C10    C11    C9     .
+ USZ      H10    C10    .      .
+ USZ      C9     C10    C8     .
+ USZ      F      C9     .      .
+ USZ      C8     C9     H8     .
+ USZ      H8     C8     .      END
+ USZ      C7     C8     .    ADD
+ USZ      C15    C16    .    ADD
+ USZ      C20    C21    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ USZ      N1     C4        deloc       1.330    0.020
+ USZ      C5     N1        single      1.455    0.020
+ USZ      O1     C4        double      1.220    0.020
+ USZ      C4     C3        single      1.500    0.020
+ USZ      C6     C5        single      1.524    0.020
+ USZ      C7     C6        single      1.511    0.020
+ USZ      C7     C8        aromatic    1.390    0.020
+ USZ      C12    C7        aromatic    1.390    0.020
+ USZ      C8     C9        aromatic    1.390    0.020
+ USZ      C9     C10       aromatic    1.390    0.020
+ USZ      C10    C11       aromatic    1.390    0.020
+ USZ      C17    C13       aromatic    1.390    0.020
+ USZ      C13    C3        single      1.480    0.020
+ USZ      C14    C13       aromatic    1.390    0.020
+ USZ      C15    C16       aromatic    1.390    0.020
+ USZ      C15    N2        aromatic    1.337    0.020
+ USZ      C16    C17       aromatic    1.390    0.020
+ USZ      C20    C21       aromatic    1.390    0.020
+ USZ      C20    C19       aromatic    1.390    0.020
+ USZ      C21    C22       aromatic    1.390    0.020
+ USZ      C24    C21       single      1.500    0.020
+ USZ      C22    C23       aromatic    1.390    0.020
+ USZ      C26    C24       single      1.524    0.020
+ USZ      C27    C24       single      1.524    0.020
+ USZ      C25    C24       single      1.524    0.020
+ USZ      F      C9        single      1.345    0.020
+ USZ      C11    C12       aromatic    1.390    0.020
+ USZ      C3     N         single      1.455    0.020
+ USZ      N2     C14       aromatic    1.337    0.020
+ USZ      N      C2        single      1.330    0.020
+ USZ      C18    N         single      1.400    0.020
+ USZ      C1     C2        single      1.510    0.020
+ USZ      C2     O         double      1.220    0.020
+ USZ      C      C1        single      1.513    0.020
+ USZ      C23    C18       aromatic    1.390    0.020
+ USZ      C19    C18       aromatic    1.390    0.020
+ USZ      H51    C5        single      1.092    0.020
+ USZ      H52    C5        single      1.092    0.020
+ USZ      H61    C6        single      1.092    0.020
+ USZ      H62    C6        single      1.092    0.020
+ USZ      H8     C8        single      1.083    0.020
+ USZ      H10    C10       single      1.083    0.020
+ USZ      H15    C15       single      1.083    0.020
+ USZ      H17    C17       single      1.083    0.020
+ USZ      H20    C20       single      1.083    0.020
+ USZ      H22    C22       single      1.083    0.020
+ USZ      H261   C26       single      1.059    0.020
+ USZ      H262   C26       single      1.059    0.020
+ USZ      H263   C26       single      1.059    0.020
+ USZ      H11    C11       single      1.083    0.020
+ USZ      H12    C12       single      1.083    0.020
+ USZ      H3     C3        single      1.099    0.020
+ USZ      H16    C16       single      1.083    0.020
+ USZ      H14    C14       single      1.083    0.020
+ USZ      H110   C1        single      1.092    0.020
+ USZ      H120   C1        single      1.092    0.020
+ USZ      H1     C         single      1.059    0.020
+ USZ      H2     C         single      1.059    0.020
+ USZ      H30    C         single      1.059    0.020
+ USZ      H23    C23       single      1.083    0.020
+ USZ      H271   C27       single      1.059    0.020
+ USZ      H272   C27       single      1.059    0.020
+ USZ      H273   C27       single      1.059    0.020
+ USZ      H251   C25       single      1.059    0.020
+ USZ      H252   C25       single      1.059    0.020
+ USZ      H253   C25       single      1.059    0.020
+ USZ      H19    C19       single      1.083    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ USZ      O      C2     C1      120.500    3.000
+ USZ      O      C2     N       123.000    3.000
+ USZ      C1     C2     N       116.500    3.000
+ USZ      C2     C1     H110    109.470    3.000
+ USZ      C2     C1     H120    109.470    3.000
+ USZ      C2     C1     C       109.500    3.000
+ USZ      H110   C1     H120    107.900    3.000
+ USZ      H110   C1     C       109.470    3.000
+ USZ      H120   C1     C       109.470    3.000
+ USZ      C1     C      H30     109.470    3.000
+ USZ      C1     C      H2      109.470    3.000
+ USZ      C1     C      H1      109.470    3.000
+ USZ      H30    C      H2      109.470    3.000
+ USZ      H30    C      H1      109.470    3.000
+ USZ      H2     C      H1      109.470    3.000
+ USZ      C2     N      C18     120.000    3.000
+ USZ      C2     N      C3      121.000    3.000
+ USZ      C18    N      C3      120.000    3.000
+ USZ      N      C18    C23     120.000    3.000
+ USZ      N      C18    C19     120.000    3.000
+ USZ      C23    C18    C19     120.000    3.000
+ USZ      C18    C23    H23     120.000    3.000
+ USZ      C18    C23    C22     120.000    3.000
+ USZ      H23    C23    C22     120.000    3.000
+ USZ      C23    C22    H22     120.000    3.000
+ USZ      C23    C22    C21     120.000    3.000
+ USZ      H22    C22    C21     120.000    3.000
+ USZ      C22    C21    C24     120.000    3.000
+ USZ      C22    C21    C20     120.000    3.000
+ USZ      C24    C21    C20     120.000    3.000
+ USZ      C21    C24    C25     109.500    3.000
+ USZ      C21    C24    C27     109.500    3.000
+ USZ      C21    C24    C26     109.500    3.000
+ USZ      C25    C24    C27     111.000    3.000
+ USZ      C25    C24    C26     111.000    3.000
+ USZ      C27    C24    C26     111.000    3.000
+ USZ      C24    C25    H253    109.470    3.000
+ USZ      C24    C25    H252    109.470    3.000
+ USZ      C24    C25    H251    109.470    3.000
+ USZ      H253   C25    H252    109.470    3.000
+ USZ      H253   C25    H251    109.470    3.000
+ USZ      H252   C25    H251    109.470    3.000
+ USZ      C24    C27    H273    109.470    3.000
+ USZ      C24    C27    H272    109.470    3.000
+ USZ      C24    C27    H271    109.470    3.000
+ USZ      H273   C27    H272    109.470    3.000
+ USZ      H273   C27    H271    109.470    3.000
+ USZ      H272   C27    H271    109.470    3.000
+ USZ      C24    C26    H263    109.470    3.000
+ USZ      C24    C26    H262    109.470    3.000
+ USZ      C24    C26    H261    109.470    3.000
+ USZ      H263   C26    H262    109.470    3.000
+ USZ      H263   C26    H261    109.470    3.000
+ USZ      H262   C26    H261    109.470    3.000
+ USZ      C18    C19    H19     120.000    3.000
+ USZ      C18    C19    C20     120.000    3.000
+ USZ      H19    C19    C20     120.000    3.000
+ USZ      C19    C20    H20     120.000    3.000
+ USZ      C19    C20    C21     120.000    3.000
+ USZ      H20    C20    C21     120.000    3.000
+ USZ      N      C3     H3      109.470    3.000
+ USZ      N      C3     C13     109.500    3.000
+ USZ      N      C3     C4      111.600    3.000
+ USZ      H3     C3     C13     109.470    3.000
+ USZ      H3     C3     C4      108.810    3.000
+ USZ      C13    C3     C4      109.500    3.000
+ USZ      C3     C13    C17     120.000    3.000
+ USZ      C3     C13    C14     120.000    3.000
+ USZ      C17    C13    C14     120.000    3.000
+ USZ      C13    C17    H17     120.000    3.000
+ USZ      C13    C17    C16     120.000    3.000
+ USZ      H17    C17    C16     120.000    3.000
+ USZ      C17    C16    H16     120.000    3.000
+ USZ      C17    C16    C15     120.000    3.000
+ USZ      H16    C16    C15     120.000    3.000
+ USZ      C13    C14    H14     120.000    3.000
+ USZ      C13    C14    N2      120.000    3.000
+ USZ      H14    C14    N2      120.000    3.000
+ USZ      C14    N2     C15     120.000    3.000
+ USZ      N2     C15    H15     120.000    3.000
+ USZ      N2     C15    C16     120.000    3.000
+ USZ      H15    C15    C16     120.000    3.000
+ USZ      C3     C4     O1      120.500    3.000
+ USZ      C3     C4     N1      116.500    3.000
+ USZ      O1     C4     N1      123.000    3.000
+ USZ      C4     N1     C5      127.000    3.000
+ USZ      N1     C5     H51     109.470    3.000
+ USZ      N1     C5     H52     109.470    3.000
+ USZ      N1     C5     C6      105.000    3.000
+ USZ      H51    C5     H52     107.900    3.000
+ USZ      H51    C5     C6      109.470    3.000
+ USZ      H52    C5     C6      109.470    3.000
+ USZ      C5     C6     H61     109.470    3.000
+ USZ      C5     C6     H62     109.470    3.000
+ USZ      C5     C6     C7      109.470    3.000
+ USZ      H61    C6     H62     107.900    3.000
+ USZ      H61    C6     C7      109.470    3.000
+ USZ      H62    C6     C7      109.470    3.000
+ USZ      C6     C7     C12     120.000    3.000
+ USZ      C6     C7     C8      120.000    3.000
+ USZ      C12    C7     C8      120.000    3.000
+ USZ      C7     C12    H12     120.000    3.000
+ USZ      C7     C12    C11     120.000    3.000
+ USZ      H12    C12    C11     120.000    3.000
+ USZ      C12    C11    H11     120.000    3.000
+ USZ      C12    C11    C10     120.000    3.000
+ USZ      H11    C11    C10     120.000    3.000
+ USZ      C11    C10    H10     120.000    3.000
+ USZ      C11    C10    C9      120.000    3.000
+ USZ      H10    C10    C9      120.000    3.000
+ USZ      C10    C9     F       120.000    3.000
+ USZ      C10    C9     C8      120.000    3.000
+ USZ      F      C9     C8      120.000    3.000
+ USZ      C9     C8     H8      120.000    3.000
+ USZ      C9     C8     C7      120.000    3.000
+ USZ      H8     C8     C7      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ USZ      var_1            O      C2     C1     C                180.000           20.000   3
+ USZ      var_2            C2     C1     C      H1               180.000           20.000   3
+ USZ      var_3            O      C2     N      C3               180.000           20.000   2
+ USZ      var_4            C2     N      C18    C19              -91.060           20.000   3
+ USZ      CONST_1          N      C18    C23    C22                0.000            0.000   0
+ USZ      CONST_2          C18    C23    C22    C21                0.000            0.000   0
+ USZ      CONST_3          C23    C22    C21    C24                0.000            0.000   0
+ USZ      var_5            C22    C21    C24    C26               -5.592           20.000   3
+ USZ      var_6            C21    C24    C25    H251             180.000           20.000   3
+ USZ      var_7            C21    C24    C27    H271             180.000           20.000   3
+ USZ      var_8            C21    C24    C26    H261             180.000           20.000   3
+ USZ      CONST_4          N      C18    C19    C20                0.000            0.000   0
+ USZ      CONST_5          C18    C19    C20    C21                0.000            0.000   0
+ USZ      CONST_6          C19    C20    C21    C22                0.000            0.000   0
+ USZ      var_9            C2     N      C3     C4                 0.000           20.000   3
+ USZ      var_10           N      C3     C13    C14              -47.886           20.000   3
+ USZ      CONST_7          C3     C13    C17    C16                0.000            0.000   0
+ USZ      CONST_8          C13    C17    C16    C15                0.000            0.000   0
+ USZ      CONST_9          C3     C13    C14    N2                 0.000            0.000   0
+ USZ      CONST_10         C13    C14    N2     C15                0.000            0.000   0
+ USZ      CONST_11         C14    N2     C15    C16                0.000            0.000   0
+ USZ      CONST_12         N2     C15    C16    C17                0.000            0.000   0
+ USZ      var_11           N      C3     C4     N1               180.000           20.000   3
+ USZ      CONST_13         C3     C4     N1     C5               180.000            0.000   0
+ USZ      var_12           C4     N1     C5     C6               -78.692           20.000   3
+ USZ      var_13           N1     C5     C6     C7               180.000           20.000   3
+ USZ      var_14           C5     C6     C7     C12                0.000           20.000   2
+ USZ      CONST_14         C6     C7     C8     C9                 0.000            0.000   0
+ USZ      CONST_15         C6     C7     C12    C11                0.000            0.000   0
+ USZ      CONST_16         C7     C12    C11    C10                0.000            0.000   0
+ USZ      CONST_17         C12    C11    C10    C9                 0.000            0.000   0
+ USZ      CONST_18         C11    C10    C9     C8                 0.000            0.000   0
+ USZ      CONST_19         C10    C9     C8     C7                 0.000            0.000   0
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ USZ      chir_01          C24    C21    C26    C27       positiv
+ USZ      chir_02          C3     C4     C13    N         negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ USZ      plan-1            N1        0.020
+ USZ      plan-1            C4        0.020
+ USZ      plan-1            C5        0.020
+ USZ      plan-1            O1        0.020
+ USZ      plan-1            C3        0.020
+ USZ      plan-2            C7        0.020
+ USZ      plan-2            C6        0.020
+ USZ      plan-2            C8        0.020
+ USZ      plan-2            C12       0.020
+ USZ      plan-2            C10       0.020
+ USZ      plan-2            C9        0.020
+ USZ      plan-2            C11       0.020
+ USZ      plan-2            H8        0.020
+ USZ      plan-2            H10       0.020
+ USZ      plan-2            F         0.020
+ USZ      plan-2            H11       0.020
+ USZ      plan-2            H12       0.020
+ USZ      plan-3            C13       0.020
+ USZ      plan-3            C17       0.020
+ USZ      plan-3            C3        0.020
+ USZ      plan-3            C14       0.020
+ USZ      plan-3            C15       0.020
+ USZ      plan-3            C16       0.020
+ USZ      plan-3            N2        0.020
+ USZ      plan-3            H15       0.020
+ USZ      plan-3            H17       0.020
+ USZ      plan-3            H16       0.020
+ USZ      plan-3            H14       0.020
+ USZ      plan-4            C20       0.020
+ USZ      plan-4            C21       0.020
+ USZ      plan-4            C19       0.020
+ USZ      plan-4            H20       0.020
+ USZ      plan-4            C22       0.020
+ USZ      plan-4            C18       0.020
+ USZ      plan-4            C23       0.020
+ USZ      plan-4            C24       0.020
+ USZ      plan-4            H22       0.020
+ USZ      plan-4            N         0.020
+ USZ      plan-4            H23       0.020
+ USZ      plan-4            H19       0.020
+ USZ      plan-5            N         0.020
+ USZ      plan-5            C3        0.020
+ USZ      plan-5            C2        0.020
+ USZ      plan-5            C18       0.020
+ USZ      plan-6            C2        0.020
+ USZ      plan-6            N         0.020
+ USZ      plan-6            C1        0.020
+ USZ      plan-6            O         0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-USZ
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-USZ  1 SG      2 C         .           1.820    0.020
+# ------------------------------------------------------

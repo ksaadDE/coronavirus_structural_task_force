@@ -1,0 +1,167 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 24946
+     H or D atoms   : 0
+     chains         : 35
+     a.a. residues  : 3055
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 80
+   Ligands: BMA:3,NAG:77
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.043 (Z=  2.715)
+  Mean delta:    0.004 (Z=  0.231)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   W   1  NAG  C2     
+   W   1  NAG  N2     
+   W   1  NAG  C7        123.12   128.95    -5.83  1.28e+00  2.07e+01   4.5*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    7.924 (Z=  4.546)
+  Mean delta:    0.970 (Z=  0.458)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   B 431  GLY  CA     
+   B 431  GLY  C      
+   B 432  CYS  N      
+   B 432  CYS  CA        180.00   158.07    21.93  5.00e+00  1.92e+01   4.4*sigma
+   X   2  NAG  C3     
+   X   2  NAG  C4     
+   X   2  NAG  C5     
+   X   2  NAG  O5        -50.00    40.05   -90.05  2.00e+01  2.40e+01   4.5*sigma
+   X   2  NAG  C1     
+   X   2  NAG  C5     
+   X   2  NAG  O5     
+   X   2  NAG  C4        -50.00    43.93   -93.93  2.00e+01  2.56e+01   4.7*sigma
+   P   1  NAG  C3     
+   P   1  NAG  C4     
+   P   1  NAG  C5     
+   P   1  NAG  O5        -50.00    46.32   -96.32  2.00e+01  2.66e+01   4.8*sigma
+   P   1  NAG  C1     
+   P   1  NAG  C5     
+   P   1  NAG  O5     
+   P   1  NAG  C4        -50.00    48.12   -98.12  2.00e+01  2.74e+01   4.9*sigma
+   X   2  NAG  C2     
+   X   2  NAG  C3     
+   X   2  NAG  C4     
+   X   2  NAG  C5         50.00   -48.21    98.21  2.00e+01  2.74e+01   4.9*sigma
+   P   1  NAG  C2     
+   P   1  NAG  C3     
+   P   1  NAG  C4     
+   P   1  NAG  C5         50.00   -51.80   101.80  2.00e+01  2.89e+01   5.1*sigma
+   P   1  NAG  C2     
+   P   1  NAG  C1     
+   P   1  NAG  O5     
+   P   1  NAG  C5        -50.00    51.92  -101.92  2.00e+01  2.90e+01   5.1*sigma
+   X   2  NAG  C2     
+   X   2  NAG  C1     
+   X   2  NAG  O5     
+   X   2  NAG  C5        -50.00    53.39  -103.39  2.00e+01  2.96e+01   5.2*sigma
+   P   1  NAG  C3     
+   P   1  NAG  C1     
+   P   1  NAG  C2     
+   P   1  NAG  O5        -50.00    54.07  -104.07  2.00e+01  2.98e+01   5.2*sigma
+   P   1  NAG  C1     
+   P   1  NAG  C2     
+   P   1  NAG  C3     
+   P   1  NAG  C4        -50.00    56.09  -106.09  2.00e+01  3.07e+01   5.3*sigma
+   X   2  NAG  C1     
+   X   2  NAG  C2     
+   X   2  NAG  C3     
+   X   2  NAG  C4        -50.00    57.86  -107.86  2.00e+01  3.14e+01   5.4*sigma
+   C 431  GLY  CA     
+   C 431  GLY  C      
+   C 432  CYS  N      
+   C 432  CYS  CA        180.00   153.03    26.97  5.00e+00  2.91e+01   5.4*sigma
+   X   2  NAG  C3     
+   X   2  NAG  C1     
+   X   2  NAG  C2     
+   X   2  NAG  O5        -50.00    58.79  -108.79  2.00e+01  3.17e+01   5.4*sigma
+
+  Min. delta:    0.000
+  Max. delta:  108.790
+  Mean delta:   14.087
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.211
+  Mean delta:    0.043
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.049
+  Mean delta:    0.004
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.004   0.043  25488
+    Angle     :  0.970   7.924  34691
+    Chirality :  0.043   0.211   4107
+    Planarity :  0.004   0.049   4381
+    Dihedral  : 14.087 108.790   9180
+    Min Nonbonded Distance : 1.437
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 7.08
+    Ramachandran Plot:
+      Outliers :  0.03 %
+      Allowed  :  5.88 %
+      Favored  : 94.08 %
+    Rotamer Outliers :  0.00 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.14 (0.15), residues: 3009
+    helix:  1.47 (0.21), residues: 662
+    sheet: -0.48 (0.20), residues: 656
+    loop : -1.87 (0.14), residues: 1691
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 487  ASN
+   A1106  GLN
+   C1106  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.03 %
+                favored =  94.08 %
+  Rotamer outliers      =   0.00 %
+  C-beta deviations     =     0
+  Clashscore            =   7.08
+  RMS(bonds)            =   0.0044
+  RMS(angles)           =   0.97
+  MolProbity score      =   1.79
+  Refinement program    = PHENIX

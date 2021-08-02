@@ -1,6 +1,6 @@
 HEADER    VIRAL PROTEIN                           02-OCT-20   5RVJ              
-TITLE     CRYSTAL STRUCTURE OF SARS-COV-2 NSP3 MACRODOMAIN IN COMPLEX WITH      
-TITLE    2 ZINC000001612349                                                     
+TITLE     PANDDA ANALYSIS GROUP DEPOSITION -- CRYSTAL STRUCTURE OF SARS-COV-2   
+TITLE    2 NSP3 MACRODOMAIN IN COMPLEX WITH ZINC000001612349                    
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: NON-STRUCTURAL PROTEIN 3;                                  
 COMPND   3 CHAIN: A;                                                            
@@ -24,6 +24,8 @@ SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET22B(+)
 KEYWDS    MACRODOMAIN, ADP-RIBOSE, SARS-COV-2, VIRAL PROTEIN                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.C.CORREY,I.D.YOUNG,M.C.THOMPSON,J.S.FRASER                          
+REVDAT   4   09-JUN-21 5RVJ    1       TITLE                                    
+REVDAT   3   12-MAY-21 5RVJ    1       REMARK                                   
 REVDAT   2   27-JAN-21 5RVJ    1       COMPND                                   
 REVDAT   1   16-DEC-20 5RVJ    0                                                
 JRNL        AUTH   G.C.CORREY,J.S.FRASER                                        

@@ -3,7 +3,7 @@ data_7B3O
 _entry.id   7B3O 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.336 
+_audit_conform.dict_version    5.347 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -32,75 +32,168 @@ _audit_author.identifier_ORCID
 'Kluenemann, T.'     1 0000-0002-2897-0936 
 'Van den Heuvel, J.' 2 0000-0001-5085-4010 
 # 
-_citation.abstract                  ? 
-_citation.abstract_id_CAS           ? 
-_citation.book_id_ISBN              ? 
-_citation.book_publisher            ? 
-_citation.book_publisher_city       ? 
-_citation.book_title                ? 
-_citation.coordinate_linkage        ? 
-_citation.country                   US 
-_citation.database_id_Medline       ? 
-_citation.details                   ? 
-_citation.id                        primary 
-_citation.journal_abbrev            Biorxiv 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            ? 
-_citation.journal_id_ISSN           ? 
-_citation.journal_full              ? 
-_citation.journal_issue             ? 
-_citation.journal_volume            ? 
-_citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     
+loop_
+_citation.abstract 
+_citation.abstract_id_CAS 
+_citation.book_id_ISBN 
+_citation.book_publisher 
+_citation.book_publisher_city 
+_citation.book_title 
+_citation.coordinate_linkage 
+_citation.country 
+_citation.database_id_Medline 
+_citation.details 
+_citation.id 
+_citation.journal_abbrev 
+_citation.journal_id_ASTM 
+_citation.journal_id_CSD 
+_citation.journal_id_ISSN 
+_citation.journal_full 
+_citation.journal_issue 
+_citation.journal_volume 
+_citation.language 
+_citation.page_first 
+_citation.page_last 
+_citation.title 
+_citation.year 
+_citation.database_id_CSD 
+_citation.pdbx_database_id_DOI 
+_citation.pdbx_database_id_PubMed 
+_citation.unpublished_flag 
+? ? ? ? ? ? ? US ? ? primary 'Cell Rep' ? ? 2211-1247 ? ? ? ? 109433 109433 
+;A SARS-CoV-2 neutralizing antibody selected from COVID-19 patients binds to the ACE2-RBD interface and is tolerant to most known RBD mutations.
+;
+2021 ? 10.1016/j.celrep.2021.109433 34273271 ? 
+? ? ? ? ? ? ? US ? ? 1       'Cell Rep' ? ? 2211-1247 ? ? ? ? 109433 109433 
+;A SARS-CoV-2 neutralizing antibody selected from COVID-19 patients binds to the ACE2-RBD interface and is tolerant to most known RBD mutations.
+;
+2021 ? 10.1016/j.celrep.2021.109433 34273271 ? 
+? ? ? ? ? ? ? US ? ? 2       Biorxiv    ? ? ?         ? ? ? ? ?      ?      
 ;A SARS-CoV-2 neutralizing antibody selected from COVID-19 patients by phage display is binding to the ACE2-RBD interface and is tolerant to known RBD mutations
 ;
-_citation.year                      2020 
-_citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.1101/2020.12.03.409318 
-_citation.pdbx_database_id_PubMed   ? 
-_citation.unpublished_flag          ? 
+2020 ? 10.1101/2020.12.03.409318    ?        ? 
 # 
 loop_
 _citation_author.citation_id 
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Bertoglio, F.'      1  ? 
-primary 'Fuhner, V.'         2  ? 
-primary 'Ruschig, M.'        3  ? 
-primary 'Heine, P.A.'        4  ? 
-primary 'Rand, U.'           5  ? 
-primary 'Klunemann, T.'      6  ? 
-primary 'Meier, D.'          7  ? 
-primary 'Langreder, N.'      8  ? 
-primary 'Steinke, S.'        9  ? 
-primary 'Ballmann, R.'       10 ? 
-primary 'Schneider, K.'      11 ? 
-primary 'Roth, K.D.R.'       12 ? 
-primary 'Kuhn, P.'           13 ? 
-primary 'Riese, P.'          14 ? 
-primary 'Schackermann, D.'   15 ? 
-primary 'Korn, J.'           16 ? 
-primary 'Koch, A.'           17 ? 
-primary 'Zock-Emmenthal, S.' 18 ? 
-primary 'Becker, M.'         19 ? 
-primary 'Scholz, M.'         20 ? 
-primary 'Moreira, G.M.S.G.'  21 ? 
-primary 'Wenzel, E.V.'       22 ? 
-primary 'Russo, G.'          23 ? 
-primary 'Garritsen, H.S.'    24 ? 
-primary 'Casu, S.'           25 ? 
-primary 'Gerstner, A.'       26 ? 
-primary 'Roth, G.'           27 ? 
-primary 'Hermann, A.'        28 ? 
-primary 'Schirrmann, T.'     29 ? 
-primary 'Dubel, S.'          30 ? 
-primary 'Frenzel, A.'        31 ? 
-primary 'Cicin-Sain, L.'     32 ? 
-primary 'Schubert, M.'       33 ? 
-primary 'Hust, M.'           34 ? 
+primary 'Bertoglio, F.'      1   ? 
+primary 'Fuhner, V.'         2   ? 
+primary 'Ruschig, M.'        3   ? 
+primary 'Heine, P.A.'        4   ? 
+primary 'Abassi, L.'         5   ? 
+primary 'Klunemann, T.'      6   ? 
+primary 'Rand, U.'           7   ? 
+primary 'Meier, D.'          8   ? 
+primary 'Langreder, N.'      9   ? 
+primary 'Steinke, S.'        10  ? 
+primary 'Ballmann, R.'       11  ? 
+primary 'Schneider, K.T.'    12  ? 
+primary 'Roth, K.D.R.'       13  ? 
+primary 'Kuhn, P.'           14  ? 
+primary 'Riese, P.'          15  ? 
+primary 'Schackermann, D.'   16  ? 
+primary 'Korn, J.'           17  ? 
+primary 'Koch, A.'           18  ? 
+primary 'Chaudhry, M.Z.'     19  ? 
+primary 'Eschke, K.'         20  ? 
+primary 'Kim, Y.'            21  ? 
+primary 'Zock-Emmenthal, S.' 22  ? 
+primary 'Becker, M.'         23  ? 
+primary 'Scholz, M.'         24  ? 
+primary 'Moreira, G.M.S.G.'  25  ? 
+primary 'Wenzel, E.V.'       26  ? 
+primary 'Russo, G.'          27  ? 
+primary 'Garritsen, H.S.P.'  28  ? 
+primary 'Casu, S.'           29  ? 
+primary 'Gerstner, A.'       30  ? 
+primary 'Roth, G.'           31  ? 
+primary 'Adler, J.'          32  ? 
+primary 'Trimpert, J.'       33  ? 
+primary 'Hermann, A.'        34  ? 
+primary 'Schirrmann, T.'     35  ? 
+primary 'Dubel, S.'          36  ? 
+primary 'Frenzel, A.'        37  ? 
+primary 'Van den Heuvel, J.' 38  ? 
+primary 'Cicin-Sain, L.'     39  ? 
+primary 'Schubert, M.'       40  ? 
+primary 'Hust, M.'           41  ? 
+1       'Bertoglio, F.'      42  ? 
+1       'Fuhner, V.'         43  ? 
+1       'Ruschig, M.'        44  ? 
+1       'Heine, P.A.'        45  ? 
+1       'Abassi, L.'         46  ? 
+1       'Klunemann, T.'      47  ? 
+1       'Rand, U.'           48  ? 
+1       'Meier, D.'          49  ? 
+1       'Langreder, N.'      50  ? 
+1       'Steinke, S.'        51  ? 
+1       'Ballmann, R.'       52  ? 
+1       'Schneider, K.T.'    53  ? 
+1       'Roth, K.D.R.'       54  ? 
+1       'Kuhn, P.'           55  ? 
+1       'Riese, P.'          56  ? 
+1       'Schackermann, D.'   57  ? 
+1       'Korn, J.'           58  ? 
+1       'Koch, A.'           59  ? 
+1       'Chaudhry, M.Z.'     60  ? 
+1       'Eschke, K.'         61  ? 
+1       'Kim, Y.'            62  ? 
+1       'Zock-Emmenthal, S.' 63  ? 
+1       'Becker, M.'         64  ? 
+1       'Scholz, M.'         65  ? 
+1       'Moreira, G.M.S.G.'  66  ? 
+1       'Wenzel, E.V.'       67  ? 
+1       'Russo, G.'          68  ? 
+1       'Garritsen, H.S.P.'  69  ? 
+1       'Casu, S.'           70  ? 
+1       'Gerstner, A.'       71  ? 
+1       'Roth, G.'           72  ? 
+1       'Adler, J.'          73  ? 
+1       'Trimpert, J.'       74  ? 
+1       'Hermann, A.'        75  ? 
+1       'Schirrmann, T.'     76  ? 
+1       'Dubel, S.'          77  ? 
+1       'Frenzel, A.'        78  ? 
+1       'Van den Heuvel, J.' 79  ? 
+1       'Cicin-Sain, L.'     80  ? 
+1       'Schubert, M.'       81  ? 
+1       'Hust, M.'           82  ? 
+2       'Bertoglio, F.'      83  ? 
+2       'Fuhner, V.'         84  ? 
+2       'Ruschig, M.'        85  ? 
+2       'Heine, P.A.'        86  ? 
+2       'Rand, U.'           87  ? 
+2       'Klunemann, T.'      88  ? 
+2       'Meier, D.'          89  ? 
+2       'Langreder, N.'      90  ? 
+2       'Steinke, S.'        91  ? 
+2       'Ballmann, R.'       92  ? 
+2       'Schneider, K.'      93  ? 
+2       'Roth, K.D.R.'       94  ? 
+2       'Kuhn, P.'           95  ? 
+2       'Riese, P.'          96  ? 
+2       'Schackermann, D.'   97  ? 
+2       'Korn, J.'           98  ? 
+2       'Koch, A.'           99  ? 
+2       'Zock-Emmenthal, S.' 100 ? 
+2       'Becker, M.'         101 ? 
+2       'Scholz, M.'         102 ? 
+2       'Moreira, G.M.S.G.'  103 ? 
+2       'Wenzel, E.V.'       104 ? 
+2       'Russo, G.'          105 ? 
+2       'Garritsen, H.S.'    106 ? 
+2       'Casu, S.'           107 ? 
+2       'Gerstner, A.'       108 ? 
+2       'Roth, G.'           109 ? 
+2       'Hermann, A.'        110 ? 
+2       'Schirrmann, T.'     111 ? 
+2       'Dubel, S.'          112 ? 
+2       'Frenzel, A.'        113 ? 
+2       'Cicin-Sain, L.'     114 ? 
+2       'Schubert, M.'       115 ? 
+2       'Hust, M.'           116 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -152,7 +245,7 @@ _entity.pdbx_ec
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
 _entity.details 
-1 polymer  man 'Surface glycoprotein'                                                                    23087.838 1   ? ? ? ? 
+1 polymer  man 'Spike protein S1'                                                                        23087.838 1   ? ? ? ? 
 2 polymer  man 'Light Chain of Fab Fragment'                                                             23481.197 1   ? ? ? ? 
 3 polymer  man 'Heavy Chain of Fab Fragment'                                                             24081.908 1   ? ? ? ? 
 4 branched man '2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose' 424.401   1   ? ? ? ? 
@@ -901,12 +994,13 @@ _entity_src_gen.expression_system_id
 _entity_src_gen.plasmid_name 
 _entity_src_gen.plasmid_details 
 _entity_src_gen.pdbx_description 
-1 1 sample 'Biological sequence' 1 205 2019-nCoV ? ? ? ? ? ? ? ? 'Severe acute respiratory syndrome coronavirus 2' 2697049 ? ? ? ? 
-? ? ? ? 'Trichoplusia ni' 7111 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
-2 1 sample 'Biological sequence' 1 215 ?         ? ? ? ? ? ? ? ? 'Homo sapiens'                                    9606    ? ? ? ? 
-? ? ? ? 'Homo sapiens'    9606 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
-3 1 sample 'Biological sequence' 1 228 ?         ? ? ? ? ? ? ? ? 'Homo sapiens'                                    9606    ? ? ? ? 
-? ? ? ? 'Homo sapiens'    9606 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+1 1 sample 'Biological sequence' 1 205 '2019-nCoV, SARS-CoV-2' ? 'S, 2' ? ? ? ? ? ? 
+'Severe acute respiratory syndrome coronavirus 2' 2697049 ? ? ? ? ? ? ? ? 'Trichoplusia ni' 7111 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+? ? ? ? 
+2 1 sample 'Biological sequence' 1 215 ?                       ? ?      ? ? ? ? ? ? 'Homo sapiens' 9606    ? ? ? ? ? ? ? ? 
+'Homo sapiens'    9606 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+3 1 sample 'Biological sequence' 1 228 ?                       ? ?      ? ? ? ? ? ? 'Homo sapiens' 9606    ? ? ? ? ? ? ? ? 
+'Homo sapiens'    9606 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
 # 
 loop_
 _struct_ref.id 
@@ -917,14 +1011,14 @@ _struct_ref.pdbx_db_isoform
 _struct_ref.entity_id 
 _struct_ref.pdbx_seq_one_letter_code 
 _struct_ref.pdbx_align_begin 
-1 UNP A0A6N1NAV4_SARS2 A0A6N1NAV4 ? 1 
+1 UNP SPIKE_SARS2 P0DTC2 ? 1 
 ;NITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQI
 APGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYF
 PLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATV
 ;
 331 
-2 PDB 7B3O             7B3O       ? 2 ? 1   
-3 PDB 7B3O             7B3O       ? 3 ? 1   
+2 PDB 7B3O        7B3O   ? 2 ? 1   
+3 PDB 7B3O        7B3O   ? 3 ? 1   
 # 
 loop_
 _struct_ref_seq.align_id 
@@ -942,9 +1036,9 @@ _struct_ref_seq.db_align_end
 _struct_ref_seq.pdbx_db_align_end_ins_code 
 _struct_ref_seq.pdbx_auth_seq_align_beg 
 _struct_ref_seq.pdbx_auth_seq_align_end 
-1 1 7B3O E 3 ? 196 ? A0A6N1NAV4 331 ? 524 ? 331 524 
-2 2 7B3O L 1 ? 215 ? 7B3O       1   ? 215 ? 1   215 
-3 3 7B3O H 1 ? 228 ? 7B3O       1   ? 228 ? 1   228 
+1 1 7B3O E 3 ? 196 ? P0DTC2 331 ? 524 ? 331 524 
+2 2 7B3O L 1 ? 215 ? 7B3O   1   ? 215 ? 1   215 
+3 3 7B3O H 1 ? 228 ? 7B3O   1   ? 228 ? 1   228 
 # 
 loop_
 _struct_ref_seq_dif.align_id 
@@ -960,17 +1054,17 @@ _struct_ref_seq_dif.pdbx_seq_db_seq_num
 _struct_ref_seq_dif.details 
 _struct_ref_seq_dif.pdbx_auth_seq_num 
 _struct_ref_seq_dif.pdbx_ordinal 
-1 7B3O MET E 1   ? UNP A0A6N1NAV4 ? ? 'initiating methionine' 329 1  
-1 7B3O ALA E 2   ? UNP A0A6N1NAV4 ? ? 'cloning artifact'      330 2  
-1 7B3O ALA E 197 ? UNP A0A6N1NAV4 ? ? 'expression tag'        525 3  
-1 7B3O ALA E 198 ? UNP A0A6N1NAV4 ? ? 'expression tag'        526 4  
-1 7B3O ALA E 199 ? UNP A0A6N1NAV4 ? ? 'expression tag'        527 5  
-1 7B3O HIS E 200 ? UNP A0A6N1NAV4 ? ? 'expression tag'        528 6  
-1 7B3O HIS E 201 ? UNP A0A6N1NAV4 ? ? 'expression tag'        529 7  
-1 7B3O HIS E 202 ? UNP A0A6N1NAV4 ? ? 'expression tag'        530 8  
-1 7B3O HIS E 203 ? UNP A0A6N1NAV4 ? ? 'expression tag'        531 9  
-1 7B3O HIS E 204 ? UNP A0A6N1NAV4 ? ? 'expression tag'        532 10 
-1 7B3O HIS E 205 ? UNP A0A6N1NAV4 ? ? 'expression tag'        533 11 
+1 7B3O MET E 1   ? UNP P0DTC2 ? ? 'initiating methionine' 329 1  
+1 7B3O ALA E 2   ? UNP P0DTC2 ? ? 'expression tag'        330 2  
+1 7B3O ALA E 197 ? UNP P0DTC2 ? ? 'expression tag'        525 3  
+1 7B3O ALA E 198 ? UNP P0DTC2 ? ? 'expression tag'        526 4  
+1 7B3O ALA E 199 ? UNP P0DTC2 ? ? 'expression tag'        527 5  
+1 7B3O HIS E 200 ? UNP P0DTC2 ? ? 'expression tag'        528 6  
+1 7B3O HIS E 201 ? UNP P0DTC2 ? ? 'expression tag'        529 7  
+1 7B3O HIS E 202 ? UNP P0DTC2 ? ? 'expression tag'        530 8  
+1 7B3O HIS E 203 ? UNP P0DTC2 ? ? 'expression tag'        531 9  
+1 7B3O HIS E 204 ? UNP P0DTC2 ? ? 'expression tag'        532 10 
+1 7B3O HIS E 205 ? UNP P0DTC2 ? ? 'expression tag'        533 11 
 # 
 loop_
 _chem_comp.id 
@@ -1412,7 +1506,6 @@ _refine_ls_shell.pdbx_fsc_free
 # 
 _struct.entry_id                     7B3O 
 _struct.title                        'Crystal structure of the SARS-CoV-2 RBD in complex with STE90-C11 Fab' 
-_struct.pdbx_descriptor              'Surface glycoprotein, Light Chain of Fab Fragment, Heavy Chain of Fab Fragment' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -12727,11 +12820,14 @@ _pdbx_struct_special_symmetry.label_asym_id   G
 _pdbx_struct_special_symmetry.label_comp_id   HOH 
 _pdbx_struct_special_symmetry.label_seq_id    . 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2020-12-16 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2020-12-16 
+2 'Structure model' 1 1 2021-07-28 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -12740,6 +12836,42 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references' 
+2 2 'Structure model' 'Source and taxonomy' 
+3 2 'Structure model' 'Structure summary'   
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation           
+2 2 'Structure model' citation_author    
+3 2 'Structure model' entity             
+4 2 'Structure model' entity_src_gen     
+5 2 'Structure model' struct_ref         
+6 2 'Structure model' struct_ref_seq     
+7 2 'Structure model' struct_ref_seq_dif 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_entity.pdbx_description'                       
+2 2 'Structure model' '_entity_src_gen.gene_src_common_name'           
+3 2 'Structure model' '_entity_src_gen.pdbx_gene_src_gene'             
+4 2 'Structure model' '_struct_ref.db_code'                            
+5 2 'Structure model' '_struct_ref.pdbx_db_accession'                  
+6 2 'Structure model' '_struct_ref_seq.pdbx_db_accession'              
+7 2 'Structure model' '_struct_ref_seq_dif.details'                    
+8 2 'Structure model' '_struct_ref_seq_dif.pdbx_seq_db_accession_code' 
 # 
 _pdbx_phasing_MR.entry_id                     7B3O 
 _pdbx_phasing_MR.method_rotation              ? 

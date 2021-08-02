@@ -1,0 +1,9 @@
+2021-07-07 weekly report for SARS-CoV##### 0 revised structures #####
+
+
+##### 2 new structures #####
+7k0g, 7k0h
+
+##### new structures by protein #####
+3c_like_proteinase
+>7k0h 7k0g 

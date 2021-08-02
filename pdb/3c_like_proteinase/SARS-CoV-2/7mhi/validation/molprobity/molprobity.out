@@ -1,0 +1,169 @@
+
+=============================== Model properties ==============================
+
+  Overall:
+    Number of atoms = 2503  (anisotropic = 0)
+    B_iso: mean =  44.5  max = 129.9  min =  20.7
+    Occupancy: mean = 0.99  max = 1.00  min = 0.35
+    29 total B-factor or occupancy problem(s) detected
+  Macromolecules:
+    Number of atoms = 2394  (anisotropic = 0)
+    B_iso: mean =  44.4  max = 129.9  min =  20.7
+    Occupancy: mean = 0.99  max = 1.00  min = 0.35
+    6 total B-factor or occupancy problem(s) detected
+  Ligands:
+    Number of atoms = 8  (anisotropic = 0)
+    B_iso: mean =  46.4  max =  60.4  min =  37.9
+    Occupancy: mean = 0.71  max = 0.77  min = 0.65
+    20 total B-factor or occupancy problem(s) detected
+  Waters:
+    Number of atoms = 101  (anisotropic = 0)
+    B_iso: mean =  45.0  max =  61.7  min =  27.6
+    Occupancy: mean = 0.99  max = 1.00  min = 0.50
+    2 total B-factor or occupancy problem(s) detected
+  (Hydrogen atoms not included in overall counts.)
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.030 (Z=  0.989)
+  Mean delta:    0.003 (Z=  0.140)
+
+                        ----------Bond angles----------                        
+
+  Using conformation-dependent library for mainchain bond angle targets
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    4.583 (Z=  2.497)
+  Mean delta:    0.580 (Z=  0.317)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A  55  GLU  CB     
+   A  55  GLU  CG     
+   A  55  GLU  CD     
+   A  55  GLU  OE1         0.00  -169.26   169.26  3.00e+01  2.11e+01   5.6*sigma
+   A 270  GLU  CB     
+   A 270  GLU  CG     
+   A 270  GLU  CD     
+   A 270  GLU  OE1         0.00  -160.27   160.27  3.00e+01  2.07e+01   5.3*sigma
+   A 164  HIS  CA     
+   A 164  HIS  C      
+   A 165 AMET  N      
+   A 165 AMET  CA        180.00  -159.67   -20.33  5.00e+00  1.65e+01   4.1*sigma
+   A 175  THR  CA     
+   A 175  THR  C      
+   A 176  ASP  N      
+   A 176  ASP  CA        180.00   159.99    20.01  5.00e+00  1.60e+01   4.0*sigma
+
+  Min. delta:    0.002
+  Max. delta:  169.259
+  Mean delta:   15.901
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.129
+  Mean delta:    0.041
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.063
+  Mean delta:    0.005
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 2352
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 2340
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 12
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 101
+  Number of water with 0 H (or D)            : 101
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 0
+  Number of water without oxygen atom        : 0
+
+                    ----------MISSING H or D atoms----------                   
+
+  HIS A  41  conformer  : HD1 
+  HIS A  64  conformer  : HD1 
+  HIS A  80  conformer  : HE2 
+  HIS A 163  conformer  : HD1 
+  HIS A 164  conformer  : HD1 
+  HIS A 172  conformer  : HD1 
+  HIS A 246  conformer  : HD1 
+
+============================ Molprobity validation ============================
+
+  
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.003   0.030   2456
+    Angle     :  0.580   4.583   3339
+    Chirality :  0.041   0.129    374
+    Planarity :  0.005   0.063    436
+    Dihedral  : 15.901 169.259    880
+    Min Nonbonded Distance : 2.017
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 2.73
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  2.63 %
+      Favored  : 97.37 %
+    Rotamer Outliers :  0.75 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.32 (0.41), residues: 313
+    helix: -0.43 (0.51), residues: 79
+    sheet: -0.18 (0.74), residues: 42
+    loop : -1.25 (0.40), residues: 192
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A  69  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  97.37 %
+  Rotamer outliers      =   0.75 %
+  C-beta deviations     =     0
+  Clashscore            =   2.73
+  RMS(bonds)            =   0.0032
+  RMS(angles)           =   0.58
+  MolProbity score      =   1.18
+  Refinement program    = PHENIX

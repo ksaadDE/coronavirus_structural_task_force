@@ -1,7 +1,7 @@
 HEADER    ANTIVIRAL PROTEIN                       01-DEC-20   7B3O              
 TITLE     CRYSTAL STRUCTURE OF THE SARS-COV-2 RBD IN COMPLEX WITH STE90-C11 FAB 
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: SURFACE GLYCOPROTEIN;                                      
+COMPND   2 MOLECULE: SPIKE PROTEIN S1;                                          
 COMPND   3 CHAIN: E;                                                            
 COMPND   4 ENGINEERED: YES;                                                     
 COMPND   5 MOL_ID: 2;                                                           
@@ -15,37 +15,73 @@ COMPND  12 ENGINEERED: YES
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE   3 2;                                                                   
-SOURCE   4 ORGANISM_COMMON: 2019-NCOV;                                          
+SOURCE   4 ORGANISM_COMMON: 2019-NCOV, SARS-COV-2;                              
 SOURCE   5 ORGANISM_TAXID: 2697049;                                             
-SOURCE   6 EXPRESSION_SYSTEM: TRICHOPLUSIA NI;                                  
-SOURCE   7 EXPRESSION_SYSTEM_TAXID: 7111;                                       
-SOURCE   8 MOL_ID: 2;                                                           
-SOURCE   9 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE  10 ORGANISM_TAXID: 9606;                                                
-SOURCE  11 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
-SOURCE  12 EXPRESSION_SYSTEM_TAXID: 9606;                                       
-SOURCE  13 MOL_ID: 3;                                                           
-SOURCE  14 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE  15 ORGANISM_TAXID: 9606;                                                
-SOURCE  16 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
-SOURCE  17 EXPRESSION_SYSTEM_TAXID: 9606                                        
+SOURCE   6 GENE: S, 2;                                                          
+SOURCE   7 EXPRESSION_SYSTEM: TRICHOPLUSIA NI;                                  
+SOURCE   8 EXPRESSION_SYSTEM_TAXID: 7111;                                       
+SOURCE   9 MOL_ID: 2;                                                           
+SOURCE  10 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  11 ORGANISM_TAXID: 9606;                                                
+SOURCE  12 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
+SOURCE  13 EXPRESSION_SYSTEM_TAXID: 9606;                                       
+SOURCE  14 MOL_ID: 3;                                                           
+SOURCE  15 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  16 ORGANISM_TAXID: 9606;                                                
+SOURCE  17 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
+SOURCE  18 EXPRESSION_SYSTEM_TAXID: 9606                                        
 KEYWDS    NEUTRALIZING ANTIBODIES, SARS-COV-2, RBD, ANTIVIRAL PROTEIN           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.KLUENEMANN,J.VAN DEN HEUVEL                                         
+REVDAT   2   28-JUL-21 7B3O    1       COMPND SOURCE JRNL   DBREF               
+REVDAT   2 2                   1       SEQADV                                   
 REVDAT   1   16-DEC-20 7B3O    0                                                
-JRNL        AUTH   F.BERTOGLIO,V.FUHNER,M.RUSCHIG,P.A.HEINE,U.RAND,T.KLUNEMANN, 
-JRNL        AUTH 2 D.MEIER,N.LANGREDER,S.STEINKE,R.BALLMANN,K.SCHNEIDER,        
-JRNL        AUTH 3 K.D.R.ROTH,P.KUHN,P.RIESE,D.SCHACKERMANN,J.KORN,A.KOCH,      
-JRNL        AUTH 4 S.ZOCK-EMMENTHAL,M.BECKER,M.SCHOLZ,G.M.S.G.MOREIRA,          
-JRNL        AUTH 5 E.V.WENZEL,G.RUSSO,H.S.GARRITSEN,S.CASU,A.GERSTNER,G.ROTH,   
-JRNL        AUTH 6 A.HERMANN,T.SCHIRRMANN,S.DUBEL,A.FRENZEL,L.CICIN-SAIN,       
-JRNL        AUTH 7 M.SCHUBERT,M.HUST                                            
+JRNL        AUTH   F.BERTOGLIO,V.FUHNER,M.RUSCHIG,P.A.HEINE,L.ABASSI,           
+JRNL        AUTH 2 T.KLUNEMANN,U.RAND,D.MEIER,N.LANGREDER,S.STEINKE,R.BALLMANN, 
+JRNL        AUTH 3 K.T.SCHNEIDER,K.D.R.ROTH,P.KUHN,P.RIESE,D.SCHACKERMANN,      
+JRNL        AUTH 4 J.KORN,A.KOCH,M.Z.CHAUDHRY,K.ESCHKE,Y.KIM,S.ZOCK-EMMENTHAL,  
+JRNL        AUTH 5 M.BECKER,M.SCHOLZ,G.M.S.G.MOREIRA,E.V.WENZEL,G.RUSSO,        
+JRNL        AUTH 6 H.S.P.GARRITSEN,S.CASU,A.GERSTNER,G.ROTH,J.ADLER,J.TRIMPERT, 
+JRNL        AUTH 7 A.HERMANN,T.SCHIRRMANN,S.DUBEL,A.FRENZEL,J.VAN DEN HEUVEL,   
+JRNL        AUTH 8 L.CICIN-SAIN,M.SCHUBERT,M.HUST                               
 JRNL        TITL   A SARS-COV-2 NEUTRALIZING ANTIBODY SELECTED FROM COVID-19    
-JRNL        TITL 2 PATIENTS BY PHAGE DISPLAY IS BINDING TO THE ACE2-RBD         
-JRNL        TITL 3 INTERFACE AND IS TOLERANT TO KNOWN RBD MUTATIONS             
-JRNL        REF    BIORXIV                                    2020              
-JRNL        REFN                                                                
-JRNL        DOI    10.1101/2020.12.03.409318                                    
+JRNL        TITL 2 PATIENTS BINDS TO THE ACE2-RBD INTERFACE AND IS TOLERANT TO  
+JRNL        TITL 3 MOST KNOWN RBD MUTATIONS.                                    
+JRNL        REF    CELL REP                             09433 2021              
+JRNL        REFN                   ESSN 2211-1247                               
+JRNL        PMID   34273271                                                     
+JRNL        DOI    10.1016/J.CELREP.2021.109433                                 
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   F.BERTOGLIO,V.FUHNER,M.RUSCHIG,P.A.HEINE,L.ABASSI,           
+REMARK   1  AUTH 2 T.KLUNEMANN,U.RAND,D.MEIER,N.LANGREDER,S.STEINKE,R.BALLMANN, 
+REMARK   1  AUTH 3 K.T.SCHNEIDER,K.D.R.ROTH,P.KUHN,P.RIESE,D.SCHACKERMANN,      
+REMARK   1  AUTH 4 J.KORN,A.KOCH,M.Z.CHAUDHRY,K.ESCHKE,Y.KIM,S.ZOCK-EMMENTHAL,  
+REMARK   1  AUTH 5 M.BECKER,M.SCHOLZ,G.M.S.G.MOREIRA,E.V.WENZEL,G.RUSSO,        
+REMARK   1  AUTH 6 H.S.P.GARRITSEN,S.CASU,A.GERSTNER,G.ROTH,J.ADLER,J.TRIMPERT, 
+REMARK   1  AUTH 7 A.HERMANN,T.SCHIRRMANN,S.DUBEL,A.FRENZEL,J.VAN DEN HEUVEL,   
+REMARK   1  AUTH 8 L.CICIN-SAIN,M.SCHUBERT,M.HUST                               
+REMARK   1  TITL   A SARS-COV-2 NEUTRALIZING ANTIBODY SELECTED FROM COVID-19    
+REMARK   1  TITL 2 PATIENTS BINDS TO THE ACE2-RBD INTERFACE AND IS TOLERANT TO  
+REMARK   1  TITL 3 MOST KNOWN RBD MUTATIONS.                                    
+REMARK   1  REF    CELL REP                             09433 2021              
+REMARK   1  REFN                   ESSN 2211-1247                               
+REMARK   1  PMID   34273271                                                     
+REMARK   1  DOI    10.1016/J.CELREP.2021.109433                                 
+REMARK   1 REFERENCE 2                                                          
+REMARK   1  AUTH   F.BERTOGLIO,V.FUHNER,M.RUSCHIG,P.A.HEINE,U.RAND,T.KLUNEMANN, 
+REMARK   1  AUTH 2 D.MEIER,N.LANGREDER,S.STEINKE,R.BALLMANN,K.SCHNEIDER,        
+REMARK   1  AUTH 3 K.D.R.ROTH,P.KUHN,P.RIESE,D.SCHACKERMANN,J.KORN,A.KOCH,      
+REMARK   1  AUTH 4 S.ZOCK-EMMENTHAL,M.BECKER,M.SCHOLZ,G.M.S.G.MOREIRA,          
+REMARK   1  AUTH 5 E.V.WENZEL,G.RUSSO,H.S.GARRITSEN,S.CASU,A.GERSTNER,G.ROTH,   
+REMARK   1  AUTH 6 A.HERMANN,T.SCHIRRMANN,S.DUBEL,A.FRENZEL,L.CICIN-SAIN,       
+REMARK   1  AUTH 7 M.SCHUBERT,M.HUST                                            
+REMARK   1  TITL   A SARS-COV-2 NEUTRALIZING ANTIBODY SELECTED FROM COVID-19    
+REMARK   1  TITL 2 PATIENTS BY PHAGE DISPLAY IS BINDING TO THE ACE2-RBD         
+REMARK   1  TITL 3 INTERFACE AND IS TOLERANT TO KNOWN RBD MUTATIONS             
+REMARK   1  REF    BIORXIV                                    2020              
+REMARK   1  REFN                                                                
+REMARK   1  DOI    10.1101/2020.12.03.409318                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.00 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -348,21 +384,20 @@ REMARK 500    SER H  84       56.24     39.16
 REMARK 500    ASP H 147       60.95     61.83                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-DBREF1 7B3O E  331   524  UNP                  A0A6N1NAV4_SARS2                 
-DBREF2 7B3O E     A0A6N1NAV4                        331         524             
+DBREF  7B3O E  331   524  UNP    P0DTC2   SPIKE_SARS2    331    524             
 DBREF  7B3O L    1   215  PDB    7B3O     7B3O             1    215             
 DBREF  7B3O H    1   228  PDB    7B3O     7B3O             1    228             
-SEQADV 7B3O MET E  329  UNP  A0A6N1NAV           INITIATING METHIONINE          
-SEQADV 7B3O ALA E  330  UNP  A0A6N1NAV           CLONING ARTIFACT               
-SEQADV 7B3O ALA E  525  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O ALA E  526  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O ALA E  527  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O HIS E  528  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O HIS E  529  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O HIS E  530  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O HIS E  531  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O HIS E  532  UNP  A0A6N1NAV           EXPRESSION TAG                 
-SEQADV 7B3O HIS E  533  UNP  A0A6N1NAV           EXPRESSION TAG                 
+SEQADV 7B3O MET E  329  UNP  P0DTC2              INITIATING METHIONINE          
+SEQADV 7B3O ALA E  330  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O ALA E  525  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O ALA E  526  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O ALA E  527  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O HIS E  528  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O HIS E  529  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O HIS E  530  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O HIS E  531  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O HIS E  532  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7B3O HIS E  533  UNP  P0DTC2              EXPRESSION TAG                 
 SEQRES   1 E  205  MET ALA ASN ILE THR ASN LEU CYS PRO PHE GLY GLU VAL          
 SEQRES   2 E  205  PHE ASN ALA THR ARG PHE ALA SER VAL TYR ALA TRP ASN          
 SEQRES   3 E  205  ARG LYS ARG ILE SER ASN CYS VAL ALA ASP TYR SER VAL          
@@ -10342,5 +10377,5 @@ CONECT 9326 9311
 CONECT 9327 9312                                                                
 CONECT 9328 9313                                                                
 CONECT 9329 9315                                                                
-MASTER      302    0    2   16   56    0    0    6 5122    3   70   51          
+MASTER      333    0    2   16   56    0    0    6 5122    3   70   51          
 END                                                                             

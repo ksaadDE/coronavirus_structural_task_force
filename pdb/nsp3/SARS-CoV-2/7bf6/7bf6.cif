@@ -3,7 +3,7 @@ data_7BF6
 _entry.id   7BF6 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.337 
+_audit_conform.dict_version    5.345 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -42,25 +42,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Acs Med.Chem.Lett.' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           1948-5875 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Crystal structure of SARS-CoV-2 macrodomain in complex with remdesivir metabolite GS-441524' 
-_citation.year                      ? 
+_citation.page_first                603 
+_citation.page_last                 609 
+_citation.title                     
+'Structural Insights into Plasticity and Discovery of Remdesivir Metabolite GS-441524 Binding in SARS-CoV-2 Macrodomain.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1021/acsmedchemlett.0c00684 
+_citation.pdbx_database_id_PubMed   33850605 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -68,10 +69,15 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Ni, X.'                         1 ? 
-primary 'Knapp, S.'                      2 ? 
-primary 'Chaikuad, A.'                   3 ? 
-primary 'Structural Genomics Consortium' 4 ? 
+primary 'Ni, X.'              1 ? 
+primary 'Schroder, M.'        2 ? 
+primary 'Olieric, V.'         3 ? 
+primary 'Sharpe, M.E.'        4 ? 
+primary 'Hernandez-Olmos, V.' 5 ? 
+primary 'Proschak, E.'        6 ? 
+primary 'Merk, D.'            7 ? 
+primary 'Knapp, S.'           8 ? 
+primary 'Chaikuad, A.'        9 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -951,8 +957,6 @@ _struct_ncs_ens.details
 # 
 _struct.entry_id                     7BF6 
 _struct.title                        'Crystal structure of SARS-CoV-2 macrodomain in complex with remdesivir metabolite GS-441524' 
-_struct.pdbx_descriptor              
-'NSP3 macrodomain (E.C.3.4.19.12,3.4.22.-,3.4.22.69,2.7.7.48,3.6.4.12,3.6.4.13,3.1.13.-,3.1.-.-,2.1.1.-)' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -9984,6 +9988,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-01-13 
 2 'Structure model' 2 0 2021-01-27 
+3 'Structure model' 2 1 2021-07-07 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -10005,21 +10010,24 @@ _pdbx_audit_revision_group.group
 5 2 'Structure model' 'Derived calculations'       
 6 2 'Structure model' 'Non-polymer description'    
 7 2 'Structure model' 'Structure summary'          
+8 3 'Structure model' 'Database references'        
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
 _pdbx_audit_revision_category.revision_ordinal 
 _pdbx_audit_revision_category.data_content_type 
 _pdbx_audit_revision_category.category 
-1 2 'Structure model' atom_site                    
-2 2 'Structure model' chem_comp                    
-3 2 'Structure model' entity                       
-4 2 'Structure model' pdbx_entity_instance_feature 
-5 2 'Structure model' pdbx_entity_nonpoly          
-6 2 'Structure model' pdbx_nonpoly_scheme          
-7 2 'Structure model' pdbx_unobs_or_zero_occ_atoms 
-8 2 'Structure model' struct_site                  
-9 2 'Structure model' struct_site_gen              
+1  2 'Structure model' atom_site                    
+2  2 'Structure model' chem_comp                    
+3  2 'Structure model' entity                       
+4  2 'Structure model' pdbx_entity_instance_feature 
+5  2 'Structure model' pdbx_entity_nonpoly          
+6  2 'Structure model' pdbx_nonpoly_scheme          
+7  2 'Structure model' pdbx_unobs_or_zero_occ_atoms 
+8  2 'Structure model' struct_site                  
+9  2 'Structure model' struct_site_gen              
+10 3 'Structure model' citation                     
+11 3 'Structure model' citation_author              
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -10047,6 +10055,17 @@ _pdbx_audit_revision_item.item
 19 2 'Structure model' '_struct_site.pdbx_auth_comp_id'             
 20 2 'Structure model' '_struct_site_gen.auth_comp_id'              
 21 2 'Structure model' '_struct_site_gen.label_comp_id'             
+22 3 'Structure model' '_citation.country'                          
+23 3 'Structure model' '_citation.journal_abbrev'                   
+24 3 'Structure model' '_citation.journal_id_CSD'                   
+25 3 'Structure model' '_citation.journal_id_ISSN'                  
+26 3 'Structure model' '_citation.journal_volume'                   
+27 3 'Structure model' '_citation.page_first'                       
+28 3 'Structure model' '_citation.page_last'                        
+29 3 'Structure model' '_citation.pdbx_database_id_DOI'             
+30 3 'Structure model' '_citation.pdbx_database_id_PubMed'          
+31 3 'Structure model' '_citation.title'                            
+32 3 'Structure model' '_citation.year'                             
 # 
 loop_
 _pdbx_refine_tls.id 

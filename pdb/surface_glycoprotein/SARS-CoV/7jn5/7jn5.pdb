@@ -34,13 +34,16 @@ KEYWDS    SARS, CORONAVIRUS, ANTIBODY, IMMUNE SYSTEM, VIRAL PROTEIN-IMMUNE
 KEYWDS   2 SYSTEM COMPLEX                                                       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.C.WU,M.YUAN,X.ZHU,I.A.WILSON                                        
+REVDAT   2   12-MAY-21 7JN5    1       JRNL                                     
 REVDAT   1   28-OCT-20 7JN5    0                                                
-JRNL        AUTH   N.C.WU,M.YUAN,D.HUANG,S.BANGARU,X.ZHU,C.C.D.LEE,L.PENG,      
-JRNL        AUTH 2 L.YANG,D.NEMAZEE,A.B.WARD,I.A.WILSON                         
-JRNL        TITL   A NATURAL MUTATION IN A HIGHLY CONSERVED EPITOPE BETWEEN     
-JRNL        TITL 2 SARS-COV-2 AND SARS-COV DETERMINES ANTIBODY NEUTRALIZATION   
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   N.C.WU,M.YUAN,S.BANGARU,D.HUANG,X.ZHU,C.D.LEE,H.L.TURNER,    
+JRNL        AUTH 2 L.PENG,L.YANG,D.R.BURTON,D.NEMAZEE,A.B.WARD,I.A.WILSON       
+JRNL        TITL   A NATURAL MUTATION BETWEEN SARS-COV-2 AND SARS-COV           
+JRNL        TITL 2 DETERMINES NEUTRALIZATION BY A CROSS-REACTIVE ANTIBODY.      
+JRNL        REF    PLOS PATHOG.                  V.  16 09089 2020              
+JRNL        REFN                   ESSN 1553-7374                               
+JRNL        PMID   33275640                                                     
+JRNL        DOI    10.1371/JOURNAL.PPAT.1009089                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.71 ANGSTROMS.                                       
 REMARK   3                                                                      

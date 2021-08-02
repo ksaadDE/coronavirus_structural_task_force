@@ -3,7 +3,7 @@ data_7DEO
 _entry.id   7DEO 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.339 
+_audit_conform.dict_version    5.341 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -44,25 +44,25 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Plos Biol.' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           1545-7885 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            19 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Crystal structure of SARS-CoV-2 RBD in complex with a neutralizing antibody ScFv' 
-_citation.year                      ? 
+_citation.page_first                e3001209 
+_citation.page_last                 e3001209 
+_citation.title                     'Structural basis for SARS-CoV-2 neutralizing antibodies with novel binding epitopes.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1371/journal.pbio.3001209 
+_citation.pdbx_database_id_PubMed   33961621 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -71,11 +71,43 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Fu, D.'    1 ?                   
-primary 'Zhang, G.' 2 ?                   
-primary 'Li, X.'    3 0000-0003-0896-8713 
-primary 'Rao, Z.'   4 ?                   
-primary 'Guo, Y.'   5 0000-0002-8109-7515 
+primary 'Fu, D.'    1  ?                   
+primary 'Zhang, G.' 2  ?                   
+primary 'Wang, Y.'  3  ?                   
+primary 'Zhang, Z.' 4  ?                   
+primary 'Hu, H.'    5  ?                   
+primary 'Shen, S.'  6  ?                   
+primary 'Wu, J.'    7  0000-0002-4457-5485 
+primary 'Li, B.'    8  ?                   
+primary 'Li, X.'    9  ?                   
+primary 'Fang, Y.'  10 ?                   
+primary 'Liu, J.'   11 ?                   
+primary 'Wang, Q.'  12 ?                   
+primary 'Zhou, Y.'  13 0000-0002-0937-3570 
+primary 'Wang, W.'  14 ?                   
+primary 'Li, Y.'    15 ?                   
+primary 'Lu, Z.'    16 ?                   
+primary 'Wang, X.'  17 ?                   
+primary 'Nie, C.'   18 ?                   
+primary 'Tian, Y.'  19 ?                   
+primary 'Chen, D.'  20 ?                   
+primary 'Wang, Y.'  21 ?                   
+primary 'Zhou, X.'  22 ?                   
+primary 'Wang, Q.'  23 ?                   
+primary 'Yu, F.'    24 ?                   
+primary 'Zhang, C.' 25 ?                   
+primary 'Deng, C.'  26 ?                   
+primary 'Zhou, L.'  27 ?                   
+primary 'Guan, G.'  28 ?                   
+primary 'Shao, N.'  29 ?                   
+primary 'Lou, Z.'   30 ?                   
+primary 'Deng, F.'  31 ?                   
+primary 'Zhang, H.' 32 ?                   
+primary 'Chen, X.'  33 ?                   
+primary 'Wang, M.'  34 ?                   
+primary 'Liu, L.'   35 ?                   
+primary 'Rao, Z.'   36 ?                   
+primary 'Guo, Y.'   37 0000-0002-8109-7515 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -10236,11 +10268,14 @@ _pdbx_struct_conn_angle.value_esd
 29 O   ? C ARG 106 ? C ARG 104 ? 1_555 CA ? G CA . ? C CA 501 ? 1_555 O ? K HOH .   ? C HOH 666 ? 1_555 88.8  ? 
 30 O   ? K HOH .   ? C HOH 660 ? 1_555 CA ? G CA . ? C CA 501 ? 1_555 O ? K HOH .   ? C HOH 666 ? 1_555 158.5 ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-03-31 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-03-31 
+2 'Structure model' 1 1 2021-05-26 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -10249,6 +10284,36 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.country'                 
+2  2 'Structure model' '_citation.journal_abbrev'          
+3  2 'Structure model' '_citation.journal_id_CSD'          
+4  2 'Structure model' '_citation.journal_id_ISSN'         
+5  2 'Structure model' '_citation.journal_volume'          
+6  2 'Structure model' '_citation.page_first'              
+7  2 'Structure model' '_citation.page_last'               
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'    
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+10 2 'Structure model' '_citation.title'                   
+11 2 'Structure model' '_citation.year'                    
 # 
 loop_
 _software.citation_id 

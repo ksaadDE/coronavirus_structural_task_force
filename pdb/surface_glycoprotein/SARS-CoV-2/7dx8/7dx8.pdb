@@ -1,5 +1,6 @@
 HEADER    VIRUS                                   18-JAN-21   7DX8              
-TITLE     S(P) PROTEIN OF SARS-COV-2 BOUND WITH PD OF ACE2 IN THE CONFORMATION 2
+TITLE     TRYPSIN-DIGESTED S PROTEIN OF SARS-COV-2 BOUND WITH PD OF ACE2 IN THE 
+TITLE    2 CONFORMATION 2 (2 UP RBD AND 2 PD BOUND)                             
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
 COMPND   3 CHAIN: A, B, C;                                                      
@@ -31,11 +32,13 @@ KEYWDS    SARS-COV-2, VIRUS
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    R.H.YAN,Y.Y.ZHANG,Y.N.LI,F.F.YE,Y.Y.GUO,L.XIA,X.Y.ZHONG,X.M.CHI,      
 AUTHOR   2 Q.ZHOU                                                               
+REVDAT   3   16-JUN-21 7DX8    1       JRNL                                     
+REVDAT   2   09-JUN-21 7DX8    1       TITLE                                    
 REVDAT   1   31-MAR-21 7DX8    0                                                
 JRNL        AUTH   R.YAN,Y.ZHANG,Y.LI,F.YE,Y.GUO,L.XIA,X.ZHONG,X.CHI,Q.ZHOU     
 JRNL        TITL   STRUCTURAL BASIS FOR THE DIFFERENT STATES OF THE SPIKE       
 JRNL        TITL 2 PROTEIN OF SARS-COV-2 IN COMPLEX WITH ACE2.                  
-JRNL        REF    CELL RES.                                  2021              
+JRNL        REF    CELL RES.                     V.  31   717 2021              
 JRNL        REFN                   ISSN 1001-0602                               
 JRNL        PMID   33737693                                                     
 JRNL        DOI    10.1038/S41422-021-00490-0                                   
@@ -102,7 +105,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 50.00                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 5000.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

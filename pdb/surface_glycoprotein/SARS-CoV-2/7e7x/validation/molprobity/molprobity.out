@@ -1,0 +1,217 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 9767
+     H or D atoms   : 0
+     chains         : 6
+     a.a. residues  : 1280
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 0
+   Ligands: None
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   A 156  GLU  CD     
+   A 156  GLU  OE2         1.25     1.33    -0.08  1.90e-02  1.72e+01   4.1*sigma
+   M  62  GLN  CG     
+   M  62  GLN  CD          1.52     1.63    -0.12  2.50e-02  2.23e+01   4.7*sigma
+   H 181  GLN  CD     
+   H 181  GLN  NE2         1.33     1.43    -0.10  2.10e-02  2.40e+01   4.9*sigma
+   B 226  LEU  C      
+   B 227  VAL  N           1.33     1.38    -0.05  9.00e-03  3.08e+01   5.6*sigma
+   A 150  LYS  CE     
+   A 150  LYS  NZ          1.49     1.74    -0.25  3.00e-02  7.10e+01   8.4*sigma
+   A 150  LYS  CD     
+   A 150  LYS  CE          1.52     1.81    -0.29  3.00e-02  9.15e+01   9.6*sigma
+   M  23  LYS  CE     
+   M  23  LYS  NZ          1.49     1.79    -0.31  3.00e-02  1.03e+02  10.2*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.305 (Z= 15.253)
+  Mean delta:    0.007 (Z=  0.425)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   M  23  LYS  CA     
+   M  23  LYS  CB     
+   M  23  LYS  CG        114.10   122.51    -8.41  2.00e+00  1.77e+01   4.2*sigma
+   B 242  LEU  CB     
+   B 242  LEU  CG     
+   B 242  LEU  CD1       110.70    97.92    12.78  3.00e+00  1.81e+01   4.3*sigma
+   A 273  ARG  CA     
+   A 273  ARG  CB     
+   A 273  ARG  CG        114.10   105.44     8.66  2.00e+00  1.88e+01   4.3*sigma
+   H 181  GLN  N      
+   H 181  GLN  CA     
+   H 181  GLN  C         109.86   103.14     6.72  1.55e+00  1.88e+01   4.3*sigma
+   H 181  GLN  CG     
+   H 181  GLN  CD     
+   H 181  GLN  OE1       120.80   110.90     9.90  2.00e+00  2.45e+01   4.9*sigma
+   L  44  LYS  C      
+   L  44  LYS  CA     
+   L  44  LYS  CB        109.79   120.40   -10.61  2.05e+00  2.68e+01   5.2*sigma
+   B  90  VAL  CA     
+   B  90  VAL  CB     
+   B  90  VAL  CG2       110.40   119.56    -9.16  1.70e+00  2.90e+01   5.4*sigma
+   A 150  LYS  CD     
+   A 150  LYS  CE     
+   A 150  LYS  NZ        111.90    94.62    17.28  3.20e+00  2.92e+01   5.4*sigma
+   H 180  LEU  C      
+   H 181  GLN  N      
+   H 181  GLN  CA        122.12   112.37     9.75  1.76e+00  3.07e+01   5.5*sigma
+   B  89  GLY  C      
+   B  90  VAL  N      
+   B  90  VAL  CA        122.23   114.06     8.17  1.44e+00  3.22e+01   5.7*sigma
+   M  62  GLN  C      
+   M  62  GLN  CA     
+   M  62  GLN  CB        110.63   100.07    10.56  1.85e+00  3.26e+01   5.7*sigma
+   B  90  VAL  CG1    
+   B  90  VAL  CB     
+   B  90  VAL  CG2       110.80   123.69   -12.89  2.20e+00  3.43e+01   5.9*sigma
+   A 150  LYS  CG     
+   A 150  LYS  CD     
+   A 150  LYS  CE        111.30    96.76    14.54  2.30e+00  3.99e+01   6.3*sigma
+   A 150  LYS  C      
+   A 151  SER  N      
+   A 151  SER  CA        122.21   111.69    10.52  1.62e+00  4.22e+01   6.5*sigma
+   A 150  LYS  CA     
+   A 150  LYS  CB     
+   A 150  LYS  CG        114.10   127.29   -13.19  2.00e+00  4.35e+01   6.6*sigma
+   A 150  LYS  C      
+   A 150  LYS  CA     
+   A 150  LYS  CB        111.66   101.19    10.47  1.57e+00  4.44e+01   6.7*sigma
+   M  23  LYS  CD     
+   M  23  LYS  CE     
+   M  23  LYS  NZ        111.90    90.40    21.50  3.20e+00  4.51e+01   6.7*sigma
+   M  62  GLN  CA     
+   M  62  GLN  CB     
+   M  62  GLN  CG        114.10   128.34   -14.24  2.00e+00  5.07e+01   7.1*sigma
+   B 195  LYS  CD     
+   B 195  LYS  CE     
+   B 195  LYS  NZ        111.90    88.55    23.35  3.20e+00  5.33e+01   7.3*sigma
+   M  62  GLN  CB     
+   M  62  GLN  CG     
+   M  62  GLN  CD        112.60    99.26    13.34  1.70e+00  6.15e+01   7.8*sigma
+   H 181  GLN  CA     
+   H 181  GLN  CB     
+   H 181  GLN  CG        114.10   130.62   -16.52  2.00e+00  6.83e+01   8.3*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   23.354 (Z=  8.262)
+  Mean delta:    0.988 (Z=  0.514)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   M 152  VAL  CA     
+   M 152  VAL  C      
+   M 153  LYS  N      
+   M 153  LYS  CA        180.00  -159.23   -20.77  5.00e+00  1.72e+01   4.2*sigma
+   B  65  PHE  CA     
+   B  65  PHE  C      
+   B  66  HIS  N      
+   B  66  HIS  CA        180.00   158.37    21.63  5.00e+00  1.87e+01   4.3*sigma
+   A 156  GLU  CA     
+   A 156  GLU  C      
+   A 157  PHE  N      
+   A 157  PHE  CA        180.00   157.81    22.19  5.00e+00  1.97e+01   4.4*sigma
+   A 228  ASP  CA     
+   A 228  ASP  C      
+   A 229  LEU  N      
+   A 229  LEU  CA        180.00  -154.44   -25.56  5.00e+00  2.61e+01   5.1*sigma
+   B 228  ASP  CA     
+   B 228  ASP  C      
+   B 229  LEU  N      
+   B 229  LEU  CA        180.00  -150.62   -29.38  5.00e+00  3.45e+01   5.9*sigma
+
+  Min. delta:    0.003
+  Max. delta:   89.236
+  Mean delta:   14.061
+
+                       ----------Chiral volumes----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   B  90  VAL  CB     
+   B  90  VAL  CA     
+   B  90  VAL  CG1    
+   B  90  VAL  CG2        -2.63     0.17    -2.79  2.00e-01  1.95e+02  14.0*sigma
+
+  Min. delta:    0.000
+  Max. delta:    2.795
+  Mean delta:    0.091
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   H 181  GLN  CG     
+   H 181  GLN  CD     
+   H 181  GLN  OE1    
+   H 181  GLN  NE2           0.082       0.141       66.45   7.0*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.084
+  Mean delta:    0.007
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.007   0.305  10019
+    Angle     :  0.988  23.354  13664
+    Chirality :  0.091   2.795   1546
+    Planarity :  0.007   0.084   1728
+    Dihedral  : 14.061  89.236   3482
+    Min Nonbonded Distance : 2.168
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 7.73
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  5.06 %
+      Favored  : 94.94 %
+    Rotamer Outliers :  0.18 %
+    Cbeta Deviations :  0.17 %
+    Peptide Plane:
+      Cis-proline     : 8.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -0.77 (0.22), residues: 1244
+    helix: -2.22 (0.56), residues: 28
+    sheet:  0.40 (0.21), residues: 518
+    loop : -1.18 (0.22), residues: 698
+
+                     ----------Asn/Gln/His flips----------                     
+
+   B 115  GLN
+   A 146  HIS
+   A 149  ASN
+   A  66  HIS
+   B  14  GLN
+   B 245  HIS
+   N 198  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  94.94 %
+  Rotamer outliers      =   0.18 %
+  C-beta deviations     =     2
+  Clashscore            =   7.73
+  RMS(bonds)            =   0.0075
+  RMS(angles)           =   0.99
+  MolProbity score      =   1.77
+  Refinement program    = PHENIX

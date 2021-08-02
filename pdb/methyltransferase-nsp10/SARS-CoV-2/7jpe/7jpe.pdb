@@ -42,17 +42,17 @@ AUTHOR    M.WILAMOWSKI,D.A.SHERRELL,G.MINASOV,Y.KIM,L.SHUVALOVA,A.LAVENS,
 AUTHOR   2 R.CHARD,M.ROSAS-LEMUS,N.MALTSEVA,R.JEDRZEJCZAK,K.MICHALSKA,          
 AUTHOR   3 K.J.F.SATCHELL,A.JOACHIMIAK,CENTER FOR STRUCTURAL GENOMICS OF        
 AUTHOR   4 INFECTIOUS DISEASES (CSGID)                                          
+REVDAT   2   28-JUL-21 7JPE    1       JRNL                                     
 REVDAT   1   26-AUG-20 7JPE    0                                                
 JRNL        AUTH   M.WILAMOWSKI,D.A.SHERRELL,G.MINASOV,Y.KIM,L.SHUVALOVA,       
-JRNL        AUTH 2 A.LAVENS,R.CHARD,M.ROSAS-LEMUS,N.MALTSEVA,R.JEDRZEJCZAK,     
-JRNL        AUTH 3 K.MICHALSKA,K.J.F.SATCHELL,A.JOACHIMIAK,                     
-JRNL        AUTH 4 CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES        
-JRNL        AUTH 5 (CSGID)                                                      
-JRNL        TITL   ROOM TEMPERATURE STRUCTURE OF SARS-COV-2 NSP10/NSP16         
-JRNL        TITL 2 METHYLTRANSFERASE IN A COMPLEX WITH M7GPPPA CAP-0 AND SAM    
-JRNL        TITL 3 DETERMINED BY FIXED-TARGET SERIAL CRYSTALLOGRAPHY            
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH 2 A.LAVENS,R.CHARD,N.MALTSEVA,R.JEDRZEJCZAK,M.ROSAS-LEMUS,     
+JRNL        AUTH 3 N.SAINT,I.T.FOSTER,K.MICHALSKA,K.J.F.SATCHELL,A.JOACHIMIAK   
+JRNL        TITL   2'-O METHYLATION OF RNA CAP IN SARS-COV-2 CAPTURED BY SERIAL 
+JRNL        TITL 2 CRYSTALLOGRAPHY.                                             
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 118       2021              
+JRNL        REFN                   ESSN 1091-6490                               
+JRNL        PMID   33972410                                                     
+JRNL        DOI    10.1073/PNAS.2100170118                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.18 ANGSTROMS.                                       
 REMARK   3                                                                      

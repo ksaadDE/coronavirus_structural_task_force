@@ -3,7 +3,7 @@ data_6XKM
 _entry.id   6XKM 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.331 
+_audit_conform.dict_version    5.347 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -63,27 +63,27 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_abbrev            Proc.Natl.Acad.Sci.USA 
+_citation.journal_id_ASTM           PNASA6 
+_citation.journal_id_CSD            0040 
+_citation.journal_id_ISSN           1091-6490 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            118 
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
 _citation.title                     
-;Room Temperature Structure of SARS-CoV-2 NSP10/NSP16 Methyltransferase in a Complex with SAM Determined by Fixed-Target Serial Crystallography
+;2'-O methylation of RNA cap in SARS-CoV-2 captured by serial crystallography.
 ;
-_citation.year                      ? 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1073/pnas.2100170118 
+_citation.pdbx_database_id_PubMed   33972410 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -91,20 +91,21 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Wilamowski, M.'                                                1  ? 
-primary 'Sherrell, D.A.'                                                2  ? 
-primary 'Minasov, G.'                                                   3  ? 
-primary 'Kim, Y.'                                                       4  ? 
-primary 'Shuvalova, L.'                                                 5  ? 
-primary 'Lavens, A.'                                                    6  ? 
-primary 'Chard, R.'                                                     7  ? 
-primary 'Rosas-Lemus, M.'                                               8  ? 
-primary 'Maltseva, N.'                                                  9  ? 
-primary 'Jedrzejczak, R.'                                               10 ? 
-primary 'Michalska, K.'                                                 11 ? 
-primary 'Satchell, K.J.F.'                                              12 ? 
-primary 'Joachimiak, A.'                                                13 ? 
-primary 'Center for Structural Genomics of Infectious Diseases (CSGID)' 14 ? 
+primary 'Wilamowski, M.'   1  ?                   
+primary 'Sherrell, D.A.'   2  0000-0002-6393-8800 
+primary 'Minasov, G.'      3  0000-0001-5460-3462 
+primary 'Kim, Y.'          4  0000-0002-1610-4889 
+primary 'Shuvalova, L.'    5  0000-0003-1702-6998 
+primary 'Lavens, A.'       6  0000-0002-3856-9919 
+primary 'Chard, R.'        7  ?                   
+primary 'Maltseva, N.'     8  0000-0002-2871-465X 
+primary 'Jedrzejczak, R.'  9  ?                   
+primary 'Rosas-Lemus, M.'  10 0000-0002-6243-0271 
+primary 'Saint, N.'        11 ?                   
+primary 'Foster, I.T.'     12 0000-0003-2129-5269 
+primary 'Michalska, K.'    13 0000-0001-7140-3649 
+primary 'Satchell, K.J.F.' 14 0000-0003-3274-7611 
+primary 'Joachimiak, A.'   15 ?                   
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -1210,9 +1211,6 @@ _refine_ls_shell.pdbx_fsc_free                    ?
 _struct.entry_id                     6XKM 
 _struct.title                        
 ;Room Temperature Structure of SARS-CoV-2 NSP10/NSP16 Methyltransferase in a Complex with SAM Determined by Fixed-Target Serial Crystallography
-;
-_struct.pdbx_descriptor              
-;2'-O-methyltransferase,Non-structural protein 10
 ;
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
@@ -8838,6 +8836,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2020-07-08 
 2 'Structure model' 2 0 2020-08-26 
+3 'Structure model' 2 1 2021-07-28 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -8858,6 +8857,7 @@ _pdbx_audit_revision_group.group
 4 2 'Structure model' 'Database references'  
 5 2 'Structure model' 'Derived calculations' 
 6 2 'Structure model' 'Structure summary'    
+7 3 'Structure model' 'Database references'  
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -8877,6 +8877,8 @@ _pdbx_audit_revision_category.category
 11 2 'Structure model' struct_ref_seq_dif              
 12 2 'Structure model' struct_sheet_range              
 13 2 'Structure model' struct_site_gen                 
+14 3 'Structure model' citation                        
+15 3 'Structure model' citation_author                 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -8901,6 +8903,16 @@ _pdbx_audit_revision_item.item
 16 2 'Structure model' '_struct_sheet_range.beg_auth_seq_id'          
 17 2 'Structure model' '_struct_sheet_range.end_auth_seq_id'          
 18 2 'Structure model' '_struct_site_gen.auth_seq_id'                 
+19 3 'Structure model' '_citation.country'                            
+20 3 'Structure model' '_citation.journal_abbrev'                     
+21 3 'Structure model' '_citation.journal_id_ASTM'                    
+22 3 'Structure model' '_citation.journal_id_CSD'                     
+23 3 'Structure model' '_citation.journal_id_ISSN'                    
+24 3 'Structure model' '_citation.journal_volume'                     
+25 3 'Structure model' '_citation.pdbx_database_id_DOI'               
+26 3 'Structure model' '_citation.pdbx_database_id_PubMed'            
+27 3 'Structure model' '_citation.title'                              
+28 3 'Structure model' '_citation.year'                               
 # 
 loop_
 _pdbx_refine_tls.id 

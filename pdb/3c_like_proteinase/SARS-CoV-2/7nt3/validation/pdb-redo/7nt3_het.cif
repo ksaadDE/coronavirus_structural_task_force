@@ -1,0 +1,403 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+UQZ      UQZ '.                                   ' .                  52  29 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_UQZ
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ UQZ           O1     O    O         0.000     20.610    6.191  -30.891
+ UQZ           C3     C    C         0.000     20.652    7.308  -30.374
+ UQZ           C2     C    C1        0.000     21.194    8.418  -31.199
+ UQZ           H2     H    H         0.000     21.599    9.283  -30.701
+ UQZ           C1     C    C2        0.000     21.198    8.385  -32.520
+ UQZ           H12    H    H         0.000     20.798    7.530  -33.039
+ UQZ           H11    H    H         0.000     21.601    9.213  -33.079
+ UQZ           N1     N    N         0.000     20.154    7.517  -29.074
+ UQZ           C4     C    CH2       0.000     19.640    8.860  -28.736
+ UQZ           H41    H    H         0.000     20.195    9.572  -29.350
+ UQZ           H42    H    H         0.000     19.875    9.029  -27.683
+ UQZ           C5     C    CH2       0.000     18.144    9.050  -28.962
+ UQZ           H51    H    H         0.000     17.846    9.978  -28.470
+ UQZ           H52    H    H         0.000     17.625    8.210  -28.496
+ UQZ           C6     C    CH3       0.000     17.782    9.117  -30.438
+ UQZ           H63    H    H         0.000     18.286    9.932  -30.890
+ UQZ           H62    H    H         0.000     18.071    8.216  -30.916
+ UQZ           H61    H    H         0.000     16.736    9.249  -30.541
+ UQZ           C7     C    CH1       0.000     20.229    6.442  -28.011
+ UQZ           H7     H    H         0.000     21.169    6.586  -27.459
+ UQZ           C17    C    CR6       0.000     19.098    6.350  -26.982
+ UQZ           C22    C    CR16      0.000     18.620    5.103  -26.583
+ UQZ           H22    H    H         0.000     19.061    4.208  -27.004
+ UQZ           C21    C    CR6       0.000     17.590    4.983  -25.657
+ UQZ           O5     O    OH1       0.000     17.126    3.745  -25.308
+ UQZ           HO5    H    H         0.000     16.415    3.837  -24.659
+ UQZ           C20    C    CR16      0.000     17.036    6.120  -25.097
+ UQZ           H20    H    H         0.000     16.235    6.037  -24.373
+ UQZ           C19    C    CR16      0.000     17.514    7.363  -25.469
+ UQZ           H19    H    H         0.000     17.079    8.256  -25.037
+ UQZ           C18    C    CR16      0.000     18.543    7.477  -26.388
+ UQZ           H18    H    H         0.000     18.921    8.458  -26.648
+ UQZ           C8     C    C         0.000     20.297    5.057  -28.697
+ UQZ           O2     O    O         0.000     19.344    4.637  -29.348
+ UQZ           N2     N    N         0.000     21.421    4.365  -28.517
+ UQZ           C9     C    CH2       0.000     21.588    3.017  -29.043
+ UQZ           H91    H    H         0.000     20.792    2.842  -29.769
+ UQZ           H92    H    H         0.000     21.480    2.319  -28.210
+ UQZ           C10    C    CR6       0.000     22.926    2.810  -29.703
+ UQZ           C15    C    CR16      0.000     23.003    2.513  -31.069
+ UQZ           H15    H    H         0.000     22.114    2.421  -31.680
+ UQZ           C14    C    CR6       0.000     24.254    2.345  -31.596
+ UQZ           C13    C    CR6       0.000     25.396    2.453  -30.831
+ UQZ           C12    C    CR16      0.000     25.349    2.736  -29.500
+ UQZ           H120   H    H         0.000     26.248    2.818  -28.901
+ UQZ           C11    C    CR16      0.000     24.078    2.914  -28.950
+ UQZ           H110   H    H         0.000     23.993    3.142  -27.895
+ UQZ           O4     O    O2        0.000     26.504    2.223  -31.613
+ UQZ           C16    C    CH2       0.000     25.968    1.635  -32.795
+ UQZ           H162   H    H         0.000     26.022    0.546  -32.738
+ UQZ           H161   H    H         0.000     26.515    1.980  -33.675
+ UQZ           O3     O    O2        0.000     24.601    2.041  -32.892
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ UQZ      O1     n/a    C3     START
+ UQZ      C3     O1     N1     .
+ UQZ      C2     C3     C1     .
+ UQZ      H2     C2     .      .
+ UQZ      C1     C2     H11    .
+ UQZ      H12    C1     .      .
+ UQZ      H11    C1     .      .
+ UQZ      N1     C3     C7     .
+ UQZ      C4     N1     C5     .
+ UQZ      H41    C4     .      .
+ UQZ      H42    C4     .      .
+ UQZ      C5     C4     C6     .
+ UQZ      H51    C5     .      .
+ UQZ      H52    C5     .      .
+ UQZ      C6     C5     H61    .
+ UQZ      H63    C6     .      .
+ UQZ      H62    C6     .      .
+ UQZ      H61    C6     .      .
+ UQZ      C7     N1     C8     .
+ UQZ      H7     C7     .      .
+ UQZ      C17    C7     C22    .
+ UQZ      C22    C17    C21    .
+ UQZ      H22    C22    .      .
+ UQZ      C21    C22    C20    .
+ UQZ      O5     C21    HO5    .
+ UQZ      HO5    O5     .      .
+ UQZ      C20    C21    C19    .
+ UQZ      H20    C20    .      .
+ UQZ      C19    C20    C18    .
+ UQZ      H19    C19    .      .
+ UQZ      C18    C19    H18    .
+ UQZ      H18    C18    .      .
+ UQZ      C8     C7     N2     .
+ UQZ      O2     C8     .      .
+ UQZ      N2     C8     C9     .
+ UQZ      C9     N2     C10    .
+ UQZ      H91    C9     .      .
+ UQZ      H92    C9     .      .
+ UQZ      C10    C9     C15    .
+ UQZ      C15    C10    C14    .
+ UQZ      H15    C15    .      .
+ UQZ      C14    C15    C13    .
+ UQZ      C13    C14    O4     .
+ UQZ      C12    C13    C11    .
+ UQZ      H120   C12    .      .
+ UQZ      C11    C12    H110   .
+ UQZ      H110   C11    .      .
+ UQZ      O4     C13    C16    .
+ UQZ      C16    O4     O3     .
+ UQZ      H162   C16    .      .
+ UQZ      H161   C16    .      .
+ UQZ      O3     C16    .      END
+ UQZ      O3     C14    .    ADD
+ UQZ      C10    C11    .    ADD
+ UQZ      C17    C18    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ UQZ      C1     C2        double      1.320    0.020
+ UQZ      O2     C8        double      1.220    0.020
+ UQZ      O3     C14       single      1.370    0.020
+ UQZ      O3     C16       single      1.426    0.020
+ UQZ      C5     C4        single      1.524    0.020
+ UQZ      C4     N1        single      1.455    0.020
+ UQZ      C6     C5        single      1.513    0.020
+ UQZ      C8     C7        single      1.500    0.020
+ UQZ      C7     N1        single      1.455    0.020
+ UQZ      C17    C7        single      1.480    0.020
+ UQZ      N2     C8        deloc       1.330    0.020
+ UQZ      C10    C9        single      1.511    0.020
+ UQZ      C9     N2        single      1.455    0.020
+ UQZ      C10    C11       aromatic    1.390    0.020
+ UQZ      C15    C10       aromatic    1.390    0.020
+ UQZ      C11    C12       aromatic    1.390    0.020
+ UQZ      C12    C13       aromatic    1.390    0.020
+ UQZ      C13    C14       aromatic    1.384    0.020
+ UQZ      O4     C13       single      1.370    0.020
+ UQZ      C2     C3        single      1.475    0.020
+ UQZ      C3     O1        double      1.220    0.020
+ UQZ      N1     C3        single      1.330    0.020
+ UQZ      C14    C15       aromatic    1.390    0.020
+ UQZ      C16    O4        single      1.426    0.020
+ UQZ      C17    C18       aromatic    1.390    0.020
+ UQZ      C22    C17       aromatic    1.390    0.020
+ UQZ      C18    C19       aromatic    1.390    0.020
+ UQZ      C19    C20       aromatic    1.390    0.020
+ UQZ      C20    C21       aromatic    1.390    0.020
+ UQZ      O5     C21       single      1.362    0.020
+ UQZ      C21    C22       aromatic    1.390    0.020
+ UQZ      H11    C1        single      1.077    0.020
+ UQZ      H12    C1        single      1.077    0.020
+ UQZ      H41    C4        single      1.092    0.020
+ UQZ      H42    C4        single      1.092    0.020
+ UQZ      H51    C5        single      1.092    0.020
+ UQZ      H52    C5        single      1.092    0.020
+ UQZ      H61    C6        single      1.059    0.020
+ UQZ      H62    C6        single      1.059    0.020
+ UQZ      H63    C6        single      1.059    0.020
+ UQZ      H7     C7        single      1.099    0.020
+ UQZ      H91    C9        single      1.092    0.020
+ UQZ      H92    C9        single      1.092    0.020
+ UQZ      H110   C11       single      1.083    0.020
+ UQZ      H120   C12       single      1.083    0.020
+ UQZ      H2     C2        single      1.077    0.020
+ UQZ      H15    C15       single      1.083    0.020
+ UQZ      H161   C16       single      1.092    0.020
+ UQZ      H162   C16       single      1.092    0.020
+ UQZ      H18    C18       single      1.083    0.020
+ UQZ      H19    C19       single      1.083    0.020
+ UQZ      H20    C20       single      1.083    0.020
+ UQZ      HO5    O5        single      0.967    0.020
+ UQZ      H22    C22       single      1.083    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ UQZ      O1     C3     C2      120.500    3.000
+ UQZ      O1     C3     N1      123.000    3.000
+ UQZ      C2     C3     N1      116.500    3.000
+ UQZ      C3     C2     H2      120.000    3.000
+ UQZ      C3     C2     C1      120.000    3.000
+ UQZ      H2     C2     C1      120.000    3.000
+ UQZ      C2     C1     H12     120.000    3.000
+ UQZ      C2     C1     H11     120.000    3.000
+ UQZ      H12    C1     H11     120.000    3.000
+ UQZ      C3     N1     C4      127.000    3.000
+ UQZ      C3     N1     C7      121.000    3.000
+ UQZ      C4     N1     C7      112.000    3.000
+ UQZ      N1     C4     H41     109.470    3.000
+ UQZ      N1     C4     H42     109.470    3.000
+ UQZ      N1     C4     C5      105.000    3.000
+ UQZ      H41    C4     H42     107.900    3.000
+ UQZ      H41    C4     C5      109.470    3.000
+ UQZ      H42    C4     C5      109.470    3.000
+ UQZ      C4     C5     H51     109.470    3.000
+ UQZ      C4     C5     H52     109.470    3.000
+ UQZ      C4     C5     C6      111.000    3.000
+ UQZ      H51    C5     H52     107.900    3.000
+ UQZ      H51    C5     C6      109.470    3.000
+ UQZ      H52    C5     C6      109.470    3.000
+ UQZ      C5     C6     H63     109.470    3.000
+ UQZ      C5     C6     H62     109.470    3.000
+ UQZ      C5     C6     H61     109.470    3.000
+ UQZ      H63    C6     H62     109.470    3.000
+ UQZ      H63    C6     H61     109.470    3.000
+ UQZ      H62    C6     H61     109.470    3.000
+ UQZ      N1     C7     H7      109.470    3.000
+ UQZ      N1     C7     C17     109.500    3.000
+ UQZ      N1     C7     C8      111.600    3.000
+ UQZ      H7     C7     C17     109.470    3.000
+ UQZ      H7     C7     C8      108.810    3.000
+ UQZ      C17    C7     C8      109.500    3.000
+ UQZ      C7     C17    C22     120.000    3.000
+ UQZ      C7     C17    C18     120.000    3.000
+ UQZ      C22    C17    C18     120.000    3.000
+ UQZ      C17    C22    H22     120.000    3.000
+ UQZ      C17    C22    C21     120.000    3.000
+ UQZ      H22    C22    C21     120.000    3.000
+ UQZ      C22    C21    O5      120.000    3.000
+ UQZ      C22    C21    C20     120.000    3.000
+ UQZ      O5     C21    C20     120.000    3.000
+ UQZ      C21    O5     HO5     109.470    3.000
+ UQZ      C21    C20    H20     120.000    3.000
+ UQZ      C21    C20    C19     120.000    3.000
+ UQZ      H20    C20    C19     120.000    3.000
+ UQZ      C20    C19    H19     120.000    3.000
+ UQZ      C20    C19    C18     120.000    3.000
+ UQZ      H19    C19    C18     120.000    3.000
+ UQZ      C19    C18    H18     120.000    3.000
+ UQZ      C19    C18    C17     120.000    3.000
+ UQZ      H18    C18    C17     120.000    3.000
+ UQZ      C7     C8     O2      120.500    3.000
+ UQZ      C7     C8     N2      116.500    3.000
+ UQZ      O2     C8     N2      123.000    3.000
+ UQZ      C8     N2     C9      127.000    3.000
+ UQZ      N2     C9     H91     109.470    3.000
+ UQZ      N2     C9     H92     109.470    3.000
+ UQZ      N2     C9     C10     109.470    3.000
+ UQZ      H91    C9     H92     107.900    3.000
+ UQZ      H91    C9     C10     109.470    3.000
+ UQZ      H92    C9     C10     109.470    3.000
+ UQZ      C9     C10    C15     120.000    3.000
+ UQZ      C9     C10    C11     120.000    3.000
+ UQZ      C15    C10    C11     120.000    3.000
+ UQZ      C10    C15    H15     120.000    3.000
+ UQZ      C10    C15    C14     120.000    3.000
+ UQZ      H15    C15    C14     120.000    3.000
+ UQZ      C15    C14    C13     120.000    3.000
+ UQZ      C15    C14    O3      120.000    3.000
+ UQZ      C13    C14    O3      120.000    3.000
+ UQZ      C14    C13    C12     120.000    3.000
+ UQZ      C14    C13    O4      120.000    3.000
+ UQZ      C12    C13    O4      120.000    3.000
+ UQZ      C13    C12    H120    120.000    3.000
+ UQZ      C13    C12    C11     120.000    3.000
+ UQZ      H120   C12    C11     120.000    3.000
+ UQZ      C12    C11    H110    120.000    3.000
+ UQZ      C12    C11    C10     120.000    3.000
+ UQZ      H110   C11    C10     120.000    3.000
+ UQZ      C13    O4     C16     120.000    3.000
+ UQZ      O4     C16    H162    109.470    3.000
+ UQZ      O4     C16    H161    109.470    3.000
+ UQZ      O4     C16    O3      109.500    3.000
+ UQZ      H162   C16    H161    107.900    3.000
+ UQZ      H162   C16    O3      109.470    3.000
+ UQZ      H161   C16    O3      109.470    3.000
+ UQZ      C16    O3     C14     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ UQZ      var_1            O1     C3     C2     C1                23.462           20.000   3
+ UQZ      CONST_1          C3     C2     C1     H11              180.000            0.000   0
+ UQZ      var_2            O1     C3     N1     C7               180.000           20.000   2
+ UQZ      var_3            C3     N1     C4     C5                92.233           20.000   3
+ UQZ      var_4            N1     C4     C5     C6               180.000           20.000   3
+ UQZ      var_5            C4     C5     C6     H61              180.000           20.000   3
+ UQZ      var_6            C3     N1     C7     C8                 0.000           20.000   3
+ UQZ      var_7            N1     C7     C17    C22              139.744           20.000   3
+ UQZ      CONST_2          C7     C17    C18    C19                0.000            0.000   0
+ UQZ      CONST_3          C7     C17    C22    C21                0.000            0.000   0
+ UQZ      CONST_4          C17    C22    C21    C20                0.000            0.000   0
+ UQZ      var_8            C22    C21    O5     HO5              180.000           20.000   3
+ UQZ      CONST_5          C22    C21    C20    C19                0.000            0.000   0
+ UQZ      CONST_6          C21    C20    C19    C18                0.000            0.000   0
+ UQZ      CONST_7          C20    C19    C18    C17                0.000            0.000   0
+ UQZ      var_9            N1     C7     C8     N2               180.000           20.000   3
+ UQZ      CONST_8          C7     C8     N2     C9               180.000            0.000   0
+ UQZ      var_10           C8     N2     C9     C10              135.372           20.000   3
+ UQZ      var_11           N2     C9     C10    C15                0.000           20.000   2
+ UQZ      CONST_9          C9     C10    C11    C12                0.000            0.000   0
+ UQZ      CONST_10         C9     C10    C15    C14                0.000            0.000   0
+ UQZ      CONST_11         C10    C15    C14    C13                0.000            0.000   0
+ UQZ      CONST_12         C15    C14    C13    O4                 0.000            0.000   0
+ UQZ      CONST_13         C14    C13    C12    C11                0.000            0.000   0
+ UQZ      CONST_14         C13    C12    C11    C10                0.000            0.000   0
+ UQZ      var_12           C14    C13    O4     C16              -14.554           20.000   3
+ UQZ      var_13           C13    O4     C16    O3                23.465           20.000   3
+ UQZ      var_14           O4     C16    O3     C14              -23.494           20.000   3
+ UQZ      var_15           C16    O3     C14    C15             -164.801           20.000   3
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ UQZ      chir_01          C7     C8     N1     C17       negativ
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ UQZ      plan-1            C1        0.020
+ UQZ      plan-1            C2        0.020
+ UQZ      plan-1            H11       0.020
+ UQZ      plan-1            H12       0.020
+ UQZ      plan-1            C3        0.020
+ UQZ      plan-1            H2        0.020
+ UQZ      plan-2            C8        0.020
+ UQZ      plan-2            O2        0.020
+ UQZ      plan-2            C7        0.020
+ UQZ      plan-2            N2        0.020
+ UQZ      plan-2            C9        0.020
+ UQZ      plan-3            C10       0.020
+ UQZ      plan-3            C9        0.020
+ UQZ      plan-3            C11       0.020
+ UQZ      plan-3            C15       0.020
+ UQZ      plan-3            C12       0.020
+ UQZ      plan-3            C13       0.020
+ UQZ      plan-3            C14       0.020
+ UQZ      plan-3            H110      0.020
+ UQZ      plan-3            H120      0.020
+ UQZ      plan-3            O4        0.020
+ UQZ      plan-3            O3        0.020
+ UQZ      plan-3            H15       0.020
+ UQZ      plan-4            C3        0.020
+ UQZ      plan-4            C2        0.020
+ UQZ      plan-4            O1        0.020
+ UQZ      plan-4            N1        0.020
+ UQZ      plan-4            H2        0.020
+ UQZ      plan-5            N1        0.020
+ UQZ      plan-5            C4        0.020
+ UQZ      plan-5            C7        0.020
+ UQZ      plan-5            C3        0.020
+ UQZ      plan-6            C17       0.020
+ UQZ      plan-6            C7        0.020
+ UQZ      plan-6            C18       0.020
+ UQZ      plan-6            C22       0.020
+ UQZ      plan-6            C19       0.020
+ UQZ      plan-6            C20       0.020
+ UQZ      plan-6            C21       0.020
+ UQZ      plan-6            H18       0.020
+ UQZ      plan-6            H19       0.020
+ UQZ      plan-6            H20       0.020
+ UQZ      plan-6            O5        0.020
+ UQZ      plan-6            H22       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

@@ -1,0 +1,12 @@
+177 Revised structures: (NOT INCLUDED IN THIS UPDATE)
+'5rso,5rt0,5rsn,5rsq,5rt2,5rsp,5rt1,5rss,5rt4,5rsr,5rt3,5rsu,5rt6,5rst,5rt5,5rsg,5rsf,5rsi,5rsh,5rsk,5rsj,5rsm,5rsl,5rsc,5rsb,5rse,5rsd,5rs7,5rs9,5rs8,5rtp,5ru1,5rto,5ru0,5rtr,5ru3,5rtq,5ru2,5rtt,5ru5,5rts,5ru4,5rtv,5ru7,5rtu,5ru6,5rth,5rtg,5rtj,5rti,5rtl,5rtk,5rtn,5rtm,5rtb,5rta,5rtd,5rtc,5rtf,5rte,5rsw,5rt8,5rsv,5rt7,5rsy,5rsx,5rt9,5rsz,5ruq,5rv2,5rup,5rv1,5rus,5rv4,5rur,5rv3,5ruu,5rv6,5rut,5rv5,5ruw,5rv8,5ruv,5rv7,5rui,5ruh,5ruk,5ruj,5rum,5rul,5ruo,5rv0,5run,5rua,5ruc,5rue,5rud,5rug,5ruf,5rtx,5ru9,5rtw,5ru8,5rtz,5rty,5rvr,5rvq,5rvt,5rvs,5rvv,5rvu,5rvj,5rvi,5rvl,5rvk,5rvn,5rvm,5rvp,5rvo,5rvb,5rva,5rvd,5rvc,5rvf,5rve,5rvh,5rvg,5ruy,5rux,5rv9,5ruz,7b27,7krq,7krr,7krs,7lxy,7lxz,7lxw,7lxx,7ly2,7ly3,7ly0,7oft,7ofu,7ofs,7mf1,7mhl,7mhm,7mhj,7mhk,7mhp,7mhq,7mhn,7mho,7mhh,7mhi,7mhf,7mhg,7mjn,7mjl,7mjm,7mjg,7mjj,7mjk,7mjh,7mji,7mkm,7mkl,7mmo,7mng,7mpb,7nkt,7m3i,7dhg,7dpu,7dpv,7dpp'
+
+36 new structures: 
+3c_like_proteinase:
+>7mhl 7mhm 7mhj 7mhk 7mhp 7mhq 7mhn 7mho 7mhh 7mhi 7mhf 7mhg 7mng 7mjn 7mjl 7mpb 7nkt 7m3i 7dpu 7dpv 7dpp
+surface_glycoprotein:
+>7b27 7mf1 7mjm 7mjg 7mjj 7mjk 7mjh 7mji 7mkm 7mkl 7mmo 
+Nsp3:
+>7oft 7ofu 7ofs
+ORF9b:
+>7dhg

@@ -42,16 +42,37 @@ KEYWDS   2 PROTEIN-IMMUNE SYSTEM COMPLEX SARS-COV-2 2P S ECTODOMAIN, VIRAL
 KEYWDS   3 PROTEIN-IMMUNE SYSTEM COMPLEX                                        
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    K.MANNE,R.HENDERSON,P.ACHARYA                                         
+REVDAT   3   09-JUN-21 7L09    1       JRNL                                     
+REVDAT   2   02-JUN-21 7L09    1       JRNL                                     
 REVDAT   1   30-DEC-20 7L09    0                                                
-JRNL        AUTH   P.ACHARYA,W.WILLIAMS,R.HENDERSON,K.JANOWSKA,K.MANNE,R.PARKS, 
-JRNL        AUTH 2 M.DEYTON,J.SPRENZ,V.STALLS,M.KOPP,K.MANSOURI,R.J.EDWARDS,    
-JRNL        AUTH 3 R.R.MEYERHOFF,T.OGUIN,G.SEMPOWSKI,K.SAUNDERS,B.F.HAYNES      
-JRNL        TITL   A GLYCAN CLUSTER ON THE SARS-COV-2 SPIKE ECTODOMAIN IS       
-JRNL        TITL 2 RECOGNIZED BY FAB-DIMERIZED GLYCAN-REACTIVE ANTIBODIES.      
-JRNL        REF    BIORXIV                                    2020              
-JRNL        REFN                                                                
-JRNL        PMID   32637953                                                     
-JRNL        DOI    10.1101/2020.06.30.178897                                    
+JRNL        AUTH   W.B.WILLIAMS,R.R.MEYERHOFF,R.J.EDWARDS,H.LI,K.MANNE,         
+JRNL        AUTH 2 N.I.NICELY,R.HENDERSON,Y.ZHOU,K.JANOWSKA,K.MANSOURI,         
+JRNL        AUTH 3 S.GOBEIL,T.EVANGELOUS,B.HORA,M.BERRY,A.Y.ABUAHMAD,J.SPRENZ,  
+JRNL        AUTH 4 M.DEYTON,V.STALLS,M.KOPP,A.L.HSU,M.J.BORGNIA,                
+JRNL        AUTH 5 G.B.E.STEWART-JONES,M.S.LEE,N.BRONKEMA,M.A.MOODY,K.WIEHE,    
+JRNL        AUTH 6 T.BRADLEY,S.M.ALAM,R.J.PARKS,A.FOULGER,T.OGUIN,              
+JRNL        AUTH 7 G.D.SEMPOWSKI,M.BONSIGNORI,C.C.LABRANCHE,D.C.MONTEFIORI,     
+JRNL        AUTH 8 M.SEAMAN,S.SANTRA,J.PERFECT,J.R.FRANCICA,G.M.LYNN,           
+JRNL        AUTH 9 B.AUSSEDAT,W.E.WALKOWICZ,R.LAGA,G.KELSOE,K.O.SAUNDERS,       
+JRNL        AUTH10 D.FERA,P.D.KWONG,R.A.SEDER,A.BARTESAGHI,G.M.SHAW,P.ACHARYA,  
+JRNL        AUTH11 B.F.HAYNES                                                   
+JRNL        TITL   FAB-DIMERIZED GLYCAN-REACTIVE ANTIBODIES ARE A STRUCTURAL    
+JRNL        TITL 2 CATEGORY OF NATURAL ANTIBODIES.                              
+JRNL        REF    CELL                          V. 184  2955 2021              
+JRNL        REFN                   ISSN 1097-4172                               
+JRNL        PMID   34019795                                                     
+JRNL        DOI    10.1016/J.CELL.2021.04.042                                   
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   P.ACHARYA,W.WILLIAMS,R.HENDERSON,K.JANOWSKA,K.MANNE,R.PARKS, 
+REMARK   1  AUTH 2 M.DEYTON,J.SPRENZ,V.STALLS,M.KOPP,K.MANSOURI,R.J.EDWARDS,    
+REMARK   1  AUTH 3 R.R.MEYERHOFF,T.OGUIN,G.SEMPOWSKI,K.SAUNDERS,B.F.HAYNES      
+REMARK   1  TITL   A GLYCAN CLUSTER ON THE SARS-COV-2 SPIKE ECTODOMAIN IS       
+REMARK   1  TITL 2 RECOGNIZED BY FAB-DIMERIZED GLYCAN-REACTIVE ANTIBODIES.      
+REMARK   1  REF    BIORXIV                                    2020              
+REMARK   1  REFN                                                                
+REMARK   1  PMID   32637953                                                     
+REMARK   1  DOI    10.1101/2020.06.30.178897                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.10 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -119,7 +140,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 66.43                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 6643.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           
@@ -47410,5 +47431,5 @@ CONECT4438944382
 CONECT443904437944383                                                           
 CONECT4439144384                                                                
 CONECT4439244385                                                                
-MASTER      727    0   70   79  272    0    0    630283    7 1336  331          
+MASTER      738    0   70   79  272    0    0    630283    7 1336  331          
 END                                                                             

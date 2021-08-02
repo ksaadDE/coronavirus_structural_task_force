@@ -21,13 +21,19 @@ KEYWDS    PROTEASE, DEUBIQUITINASE, VIRAL PROTEIN, HYDROLASE-HYDROLASE
 KEYWDS   2 INHIBITOR COMPLEX                                                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.LIU,Y.WANG,X.XU,L.PAN                                               
+REVDAT   4   07-JUL-21 7E35    1       JRNL                                     
+REVDAT   3   26-MAY-21 7E35    1       JRNL                                     
+REVDAT   2   19-MAY-21 7E35    1       JRNL                                     
 REVDAT   1   17-MAR-21 7E35    0                                                
 SPRSDE     17-MAR-21 7E35      7D7T                                             
-JRNL        AUTH   J.LIU,Y.WANG,L.PAN                                           
-JRNL        TITL   CRYSTAL STRUCTURE OF THE SARS-COV-2 PAPAIN-LIKE PROTEASE     
-JRNL        TITL 2 (PLPRO) C112S MUTANT                                         
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   H.SHAN,J.LIU,J.SHEN,J.DAI,G.XU,K.LU,C.HAN,Y.WANG,X.XU,       
+JRNL        AUTH 2 Y.TONG,H.XIANG,Z.AI,G.ZHUANG,J.HU,Z.ZHANG,Y.LI,L.PAN,L.TAN   
+JRNL        TITL   DEVELOPMENT OF POTENT AND SELECTIVE INHIBITORS TARGETING THE 
+JRNL        TITL 2 PAPAIN-LIKE PROTEASE OF SARS-COV-2.                          
+JRNL        REF    CELL CHEM BIOL                V.  28   855 2021              
+JRNL        REFN                   ESSN 2451-9456                               
+JRNL        PMID   33979649                                                     
+JRNL        DOI    10.1016/J.CHEMBIOL.2021.04.020                               
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.40 ANGSTROMS.                                       
 REMARK   3                                                                      

@@ -1,24 +1,29 @@
 HEADER    VIRAL PROTEIN                           23-NOV-20   7B17              
-TITLE     SARS-COV-SPIKE RBD BOUND TO TWO NEUTRALISING NANOBODIES               
+TITLE     SARS-COV-SPIKE RBD BOUND TO TWO NEUTRALISING NANOBODIES.              
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
+COMPND   2 MOLECULE: SPIKE PROTEIN S1;                                          
 COMPND   3 CHAIN: A;                                                            
-COMPND   4 SYNONYM: S GLYCOPROTEIN,E2,PEPLOMER PROTEIN;                         
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: SARS-COV-2 NEUTRALIZING BIPARATOPIC NANOBODY VE,NANOBODY E 
-COMPND   8 FROM LAMA GLAMA;                                                     
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MOL_ID: 2;                                                           
+COMPND   6 MOLECULE: SARS-COV-2 NEUTRALIZING BIPARATOPIC NANOBODY VE,NANOBODY E 
+COMPND   7 FROM LAMA GLAMA,SARS-COV-2 NEUTRALIZING BIPARATOPIC NANOBODY VE,     
+COMPND   8 NANOBODY E FROM LAMA GLAMA;                                          
 COMPND   9 CHAIN: B;                                                            
 COMPND  10 ENGINEERED: YES;                                                     
 COMPND  11 OTHER_DETAILS: NANOBODY V FROM VICUGNA PACOS AND NANOBODY E FROM LAMA
 COMPND  12 GLAMA CONNECTED WITH A 15 RESIDUE LINKER,NANOBODY V FROM VICUGNA     
 COMPND  13 PACOS AND NANOBODY E FROM LAMA GLAMA CONNECTED WITH A 15 RESIDUE     
 COMPND  14 LINKER, 1-119 NANOBODY FROM ALPACKA, 120-136: LINKER, 137-263:       
-COMPND  15 NANOBODY FROM LLAMA, 264-283: CLONING AND PURIFICATION TAG           
+COMPND  15 NANOBODY FROM LLAMA, 264-283: CLONING AND PURIFICATION TAG,NANOBODY V
+COMPND  16 FROM VICUGNA PACOS AND NANOBODY E FROM LAMA GLAMA CONNECTED WITH A 15
+COMPND  17 RESIDUE LINKER,NANOBODY V FROM VICUGNA PACOS AND NANOBODY E FROM LAMA
+COMPND  18 GLAMA CONNECTED WITH A 15 RESIDUE LINKER, 1-119 NANOBODY FROM        
+COMPND  19 ALPACKA, 120-136: LINKER, 137-263: NANOBODY FROM LLAMA, 264-283:     
+COMPND  20 CLONING AND PURIFICATION TAG                                         
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE   3 2;                                                                   
-SOURCE   4 ORGANISM_COMMON: 2019-NCOV;                                          
+SOURCE   4 ORGANISM_COMMON: 2019-NCOV, SARS-COV-2;                              
 SOURCE   5 ORGANISM_TAXID: 2697049;                                             
 SOURCE   6 GENE: S, 2;                                                          
 SOURCE   7 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
@@ -31,6 +36,9 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    SPIKE GLYCOPROTEIN, SARS-COV-2, NANOBODY, VIRAL PROTEIN               
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    B.M.HALLBERG,H.DAS                                                    
+REVDAT   5   02-JUN-21 7B17    1       COMPND SOURCE                            
+REVDAT   4   26-MAY-21 7B17    1       TITLE                                    
+REVDAT   3   28-APR-21 7B17    1       JRNL                                     
 REVDAT   2   24-FEB-21 7B17    1       JRNL                                     
 REVDAT   1   10-FEB-21 7B17    0                                                
 JRNL        AUTH   P.A.KOENIG,H.DAS,H.LIU,B.M.KUMMERER,F.N.GOHR,L.M.JENSTER,    
@@ -112,7 +120,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 48.60                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 4860.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

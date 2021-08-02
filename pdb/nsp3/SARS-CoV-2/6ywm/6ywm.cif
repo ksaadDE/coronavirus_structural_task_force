@@ -3,7 +3,7 @@ data_6YWM
 _entry.id   6YWM 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.325 
+_audit_conform.dict_version    5.345 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -46,25 +46,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   US 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Acs Med.Chem.Lett.' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           1948-5875 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Crystal structure of SARS-CoV-2 (Covid-19) NSP3 macrodomain in complex with MES' 
-_citation.year                      ? 
+_citation.page_first                603 
+_citation.page_last                 609 
+_citation.title                     
+'Structural Insights into Plasticity and Discovery of Remdesivir Metabolite GS-441524 Binding in SARS-CoV-2 Macrodomain.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1021/acsmedchemlett.0c00684 
+_citation.pdbx_database_id_PubMed   33850605 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -72,15 +73,15 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Ni, X.'                               1 ? 
-primary 'Schroeder, M.'                        2 ? 
-primary 'Olieric, V.'                          3 ? 
-primary 'Sharpe, E.M.'                         4 ? 
-primary 'Wojdyla, J.A.'                        5 ? 
-primary 'Wang, M.'                             6 ? 
-primary 'Knapp, S.'                            7 ? 
-primary 'Chaikuad, A.'                         8 ? 
-primary 'Structural Genomics Consortium (SGC)' 9 ? 
+primary 'Ni, X.'              1 ? 
+primary 'Schroder, M.'        2 ? 
+primary 'Olieric, V.'         3 ? 
+primary 'Sharpe, M.E.'        4 ? 
+primary 'Hernandez-Olmos, V.' 5 ? 
+primary 'Proschak, E.'        6 ? 
+primary 'Merk, D.'            7 ? 
+primary 'Knapp, S.'           8 ? 
+primary 'Chaikuad, A.'        9 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -957,8 +958,6 @@ _struct_ncs_ens.details
 # 
 _struct.entry_id                     6YWM 
 _struct.title                        'Crystal structure of SARS-CoV-2 (Covid-19) NSP3 macrodomain in complex with MES' 
-_struct.pdbx_descriptor              
-'NSP3 macrodomain (E.C.3.4.19.12,3.4.22.-,3.4.22.69,2.7.7.48,3.6.4.12,3.6.4.13,3.1.13.-,3.1.-.-,2.1.1.-)' 
 _struct.pdbx_model_details           ? 
 _struct.pdbx_formula_weight          ? 
 _struct.pdbx_formula_weight_method   ? 
@@ -1086,12 +1085,13 @@ _struct_conn.pdbx_ptnr3_PDB_ins_code
 _struct_conn.details 
 _struct_conn.pdbx_dist_value 
 _struct_conn.pdbx_value_order 
-metalc1 metalc ? ? C ASP 158 OD2 ? ? ? 1_555 O MG  . MG ? ? C ASP 157 C MG  202 1_555 ? ? ? ? ? ? ? 2.073 ? 
-metalc2 metalc ? ? J MG  .   MG  ? ? ? 1_555 U HOH . O  ? ? B MG  201 B HOH 312 1_555 ? ? ? ? ? ? ? 1.913 ? 
-metalc3 metalc ? ? J MG  .   MG  ? ? ? 1_555 U HOH . O  ? ? B MG  201 B HOH 325 1_555 ? ? ? ? ? ? ? 2.007 ? 
-metalc4 metalc ? ? O MG  .   MG  ? ? ? 1_555 P EDO . O2 ? ? C MG  202 C EDO 203 1_555 ? ? ? ? ? ? ? 2.054 ? 
-metalc5 metalc ? ? O MG  .   MG  ? ? ? 1_555 V HOH . O  ? ? C MG  202 C HOH 306 1_555 ? ? ? ? ? ? ? 2.619 ? 
-metalc6 metalc ? ? A ASP 163 OD1 ? ? ? 1_555 O MG  . MG ? ? A ASP 162 C MG  202 2_354 ? ? ? ? ? ? ? 1.995 ? 
+_struct_conn.pdbx_role 
+metalc1 metalc ? ? A ASP 163 OD1 ? ? ? 1_555 O MG  . MG ? ? A ASP 162 C MG  202 2_354 ? ? ? ? ? ? ? 1.995 ? ? 
+metalc2 metalc ? ? J MG  .   MG  ? ? ? 1_555 U HOH . O  ? ? B MG  201 B HOH 312 1_555 ? ? ? ? ? ? ? 1.913 ? ? 
+metalc3 metalc ? ? J MG  .   MG  ? ? ? 1_555 U HOH . O  ? ? B MG  201 B HOH 325 1_555 ? ? ? ? ? ? ? 2.007 ? ? 
+metalc4 metalc ? ? C ASP 158 OD2 ? ? ? 1_555 O MG  . MG ? ? C ASP 157 C MG  202 1_555 ? ? ? ? ? ? ? 2.073 ? ? 
+metalc5 metalc ? ? O MG  .   MG  ? ? ? 1_555 P EDO . O2 ? ? C MG  202 C EDO 203 1_555 ? ? ? ? ? ? ? 2.054 ? ? 
+metalc6 metalc ? ? O MG  .   MG  ? ? ? 1_555 V HOH . O  ? ? C MG  202 C HOH 306 1_555 ? ? ? ? ? ? ? 2.619 ? ? 
 # 
 _struct_conn_type.id          metalc 
 _struct_conn_type.criteria    ? 
@@ -10363,19 +10363,22 @@ _pdbx_struct_conn_angle.ptnr3_PDB_ins_code
 _pdbx_struct_conn_angle.ptnr3_symmetry 
 _pdbx_struct_conn_angle.value 
 _pdbx_struct_conn_angle.value_esd 
-1 OD2 ? C ASP 158 ? C ASP 157 ? 1_555 MG ? O MG . ? C MG 202 ? 1_555 O2  ? P EDO .   ? C EDO 203 ? 1_555 92.0  ? 
-2 OD2 ? C ASP 158 ? C ASP 157 ? 1_555 MG ? O MG . ? C MG 202 ? 1_555 O   ? V HOH .   ? C HOH 306 ? 1_555 82.4  ? 
-3 O2  ? P EDO .   ? C EDO 203 ? 1_555 MG ? O MG . ? C MG 202 ? 1_555 O   ? V HOH .   ? C HOH 306 ? 1_555 140.2 ? 
-4 OD2 ? C ASP 158 ? C ASP 157 ? 1_555 MG ? O MG . ? C MG 202 ? 1_555 OD1 ? A ASP 163 ? A ASP 162 ? 1_555 70.0  ? 
-5 O2  ? P EDO .   ? C EDO 203 ? 1_555 MG ? O MG . ? C MG 202 ? 1_555 OD1 ? A ASP 163 ? A ASP 162 ? 1_555 24.4  ? 
-6 O   ? V HOH .   ? C HOH 306 ? 1_555 MG ? O MG . ? C MG 202 ? 1_555 OD1 ? A ASP 163 ? A ASP 162 ? 1_555 140.3 ? 
-7 O   ? U HOH .   ? B HOH 312 ? 1_555 MG ? J MG . ? B MG 201 ? 1_555 O   ? U HOH .   ? B HOH 325 ? 1_555 91.0  ? 
+1 OD1 ? A ASP 163 ? A ASP 162 ? 1_555 MG ? O MG . ? C MG 202 ? 2_354 OD2 ? C ASP 158 ? C ASP 157 ? 1_555 65.3 ? 
+2 OD1 ? A ASP 163 ? A ASP 162 ? 1_555 MG ? O MG . ? C MG 202 ? 2_354 O2  ? P EDO .   ? C EDO 203 ? 1_555 67.9 ? 
+3 OD2 ? C ASP 158 ? C ASP 157 ? 1_555 MG ? O MG . ? C MG 202 ? 2_354 O2  ? P EDO .   ? C EDO 203 ? 1_555 2.7  ? 
+4 OD1 ? A ASP 163 ? A ASP 162 ? 1_555 MG ? O MG . ? C MG 202 ? 2_354 O   ? V HOH .   ? C HOH 306 ? 1_555 66.5 ? 
+5 OD2 ? C ASP 158 ? C ASP 157 ? 1_555 MG ? O MG . ? C MG 202 ? 2_354 O   ? V HOH .   ? C HOH 306 ? 1_555 1.5  ? 
+6 O2  ? P EDO .   ? C EDO 203 ? 1_555 MG ? O MG . ? C MG 202 ? 2_354 O   ? V HOH .   ? C HOH 306 ? 1_555 1.9  ? 
+7 O   ? U HOH .   ? B HOH 312 ? 1_555 MG ? J MG . ? B MG 201 ? 1_555 O   ? U HOH .   ? B HOH 325 ? 1_555 91.0 ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2020-05-06 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2020-05-06 
+2 'Structure model' 1 1 2021-07-07 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -10384,6 +10387,72 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references'  
+2 2 'Structure model' 'Derived calculations' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation               
+2 2 'Structure model' citation_author        
+3 2 'Structure model' pdbx_struct_conn_angle 
+4 2 'Structure model' struct_conn            
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_citation.country'                           
+2  2 'Structure model' '_citation.journal_abbrev'                    
+3  2 'Structure model' '_citation.journal_id_CSD'                    
+4  2 'Structure model' '_citation.journal_id_ISSN'                   
+5  2 'Structure model' '_citation.journal_volume'                    
+6  2 'Structure model' '_citation.page_first'                        
+7  2 'Structure model' '_citation.page_last'                         
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'              
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed'           
+10 2 'Structure model' '_citation.title'                             
+11 2 'Structure model' '_citation.year'                              
+12 2 'Structure model' '_citation_author.name'                       
+13 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_auth_asym_id'  
+14 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_auth_comp_id'  
+15 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_auth_seq_id'   
+16 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_label_asym_id' 
+17 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_label_atom_id' 
+18 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_label_comp_id' 
+19 2 'Structure model' '_pdbx_struct_conn_angle.ptnr1_label_seq_id'  
+20 2 'Structure model' '_pdbx_struct_conn_angle.ptnr2_symmetry'      
+21 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_auth_asym_id'  
+22 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_auth_comp_id'  
+23 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_auth_seq_id'   
+24 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_label_asym_id' 
+25 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_label_atom_id' 
+26 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_label_comp_id' 
+27 2 'Structure model' '_pdbx_struct_conn_angle.ptnr3_label_seq_id'  
+28 2 'Structure model' '_pdbx_struct_conn_angle.value'               
+29 2 'Structure model' '_struct_conn.pdbx_dist_value'                
+30 2 'Structure model' '_struct_conn.ptnr1_auth_asym_id'             
+31 2 'Structure model' '_struct_conn.ptnr1_auth_comp_id'             
+32 2 'Structure model' '_struct_conn.ptnr1_auth_seq_id'              
+33 2 'Structure model' '_struct_conn.ptnr1_label_asym_id'            
+34 2 'Structure model' '_struct_conn.ptnr1_label_atom_id'            
+35 2 'Structure model' '_struct_conn.ptnr1_label_comp_id'            
+36 2 'Structure model' '_struct_conn.ptnr1_label_seq_id'             
+37 2 'Structure model' '_struct_conn.ptnr2_auth_comp_id'             
+38 2 'Structure model' '_struct_conn.ptnr2_auth_seq_id'              
+39 2 'Structure model' '_struct_conn.ptnr2_label_asym_id'            
+40 2 'Structure model' '_struct_conn.ptnr2_label_atom_id'            
+41 2 'Structure model' '_struct_conn.ptnr2_label_comp_id'            
+42 2 'Structure model' '_struct_conn.ptnr2_symmetry'                 
 # 
 loop_
 _pdbx_refine_tls.id 

@@ -2,19 +2,22 @@
 ****** Ligand validation details (G83 A 501) ******
  
                                     Before  Final
-Real-space R-factor               : 0.091   0.078
-Real-space correlation            : 0.94    0.95
-Energy of formation (kJ/mol)      : NA NA
-Hydrogen bond energy (kJ/mol)     : -110.67  -86.78
+Real-space R-factor               : 0.089   0.072
+Real-space correlation            : 0.940   0.956
+EDIAm density fit                 : 0.970   0.948
+OPIA density coverage (%)         : 91.8    89.8
+ 
+Energy of formation (kJ/mol)      : -163.520 -254.023
+Hydrogen bond energy (kJ/mol)     : -110.67  -87.53
 Number of hydrogen bonds          : 5  4
-Number of bumps                   : 18  15
-Number of hydrophobic interactions: 40  39
-Hydrophobic interaction strength  : 38.668  38.527
+Number of bumps                   : 18  14
+Number of hydrophobic interactions: 40  36
+Hydrophobic interaction strength  : 38.668  37.279
 Number of Pi-Pi interactions      : 0  0
 Pi-Pi interaction strength        : 0.000  0.000
 Number of cation-Pi interactions  : 0  0
 Cation-Pi interaction strength    : 0.000  0.000
  
-Atoms shifted more than 0.50A     : 1
-All atom RMSD for residue (A)     : 0.1403
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1308
  

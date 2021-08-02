@@ -1,0 +1,73 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ B 587  ILE  CA   C 841  LEU  CA  :0.841
+ B 575  ALA  N    C 844  ILE  N   :0.804
+ C 729  VAL  H    C1059  GLY  HA2 :0.697
+ B 575  ALA  N    C 844  ILE  H   :0.677
+ B 183  GLN  CA   B 262  ALA  H   :0.668
+ C 199  GLY  HA2  C 232  GLY  HA2 :0.665
+ B 575  ALA  N    C 843  ASP  N   :0.658
+ B 729  VAL  H    B1059  GLY  HA2 :0.652
+ B 143  VAL  N    B 245  HIS  H   :0.645
+ B 575  ALA  CA   C 844  ILE  H   :0.641
+ B 142  GLY  HA2  B 244  LEU  N   :0.631
+ B 587  ILE  CA   C 842  GLY  H   :0.625
+ C 363  ALA  O    C 526  GLY  HA2 :0.618
+ B 587  ILE  CA   C 842  GLY  N   :0.616
+ B 587  ILE  N    C 840  CYS  O   :0.614
+ B  97  LYS  CA   B 186  PHE  H   :0.608
+ B 143  VAL  C    B 245  HIS  H   :0.604
+ B 574  ASP  C    C 845  ALA  H   :0.587
+ H 109  GLY  HA2  L  49  TYR  CA  :0.571
+ O 109  GLY  HA2  P  49  TYR  CA  :0.566
+ A  67  ALA  O    A 261  GLY  HA2 :0.564
+ M 109  GLY  HA2  N  49  TYR  CA  :0.560
+ B 574  ASP  O    B 587  ILE  N   :0.545
+ A 729  VAL  H    A1059  GLY  HA2 :0.540
+ B 575  ALA  N    C 843  ASP  CA  :0.533
+ B 574  ASP  N    C 843  ASP  CA  :0.532
+ B 575  ALA  N    C 843  ASP  C   :0.530
+ B 575  ALA  C    C 843  ASP  N   :0.528
+ B 587  ILE  C    C 840  CYS  C   :0.527
+ C 729  VAL  N    C1059  GLY  HA2 :0.516
+ B 575  ALA  C    C 843  ASP  H   :0.512
+ B 142  GLY  HA3  B 244  LEU  C   :0.510
+ H 106  ASP  O    L  32  ASN  N   :0.493
+ M 106  ASP  O    N  32  ASN  N   :0.491
+ O 106  ASP  O    P  32  ASN  N   :0.490
+ B 586  ASP  O    C 841  LEU  N   :0.476
+ C 199  GLY  CA   C 232  GLY  HA2 :0.472
+ B 143  VAL  N    B 245  HIS  N   :0.466
+ B 574  ASP  CA   C 843  ASP  C   :0.466
+ B 588  THR  N    C 841  LEU  CA  :0.466
+ A 114  THR  C    A 116  SER  H   :0.465
+ B 142  GLY  CA   B 244  LEU  N   :0.452
+ B 574  ASP  H    C 843  ASP  CA  :0.449
+ H 106  ASP  O    L  31  SER  C   :0.441
+ B 588  THR  N    C 841  LEU  N   :0.439
+ M 106  ASP  O    N  31  SER  C   :0.439
+ O 106  ASP  O    P  31  SER  C   :0.438
+ B 575  ALA  CA   C 843  ASP  N   :0.437
+ B 587  ILE  N    C 841  LEU  CA  :0.436
+ A 566  GLY  HA2  B  43  PHE  O   :0.436
+ A 729  VAL  N    A1059  GLY  HA2 :0.435
+ B 575  ALA  O    C 843  ASP  CA  :0.433
+ A 111  ASP  C    A 113  LYS  H   :0.431
+ B 575  ALA  N    C 842  GLY  C   :0.430
+ A  43  PHE  O    C 566  GLY  HA2 :0.430
+ C 122  ASN  C    C 124  THR  H   :0.427
+ B 587  ILE  N    C 842  GLY  N   :0.421
+ B 729  VAL  N    B1059  GLY  HA2 :0.414
+ B 586  ASP  O    C 841  LEU  CA  :0.413
+ B 587  ILE  CA   C 841  LEU  N   :0.412
+ B 587  ILE  N    C 841  LEU  C   :0.410
+ A 253  ASP  O    A 257  GLY  HA3 :0.409
+ B  97  LYS  CA   B 186  PHE  N   :0.406
+ B 586  ASP  C    C 841  LEU  C   :0.404
+ B 182  LYS  O    B 261  GLY  HA3 :0.403
+ B 574  ASP  H    C 843  ASP  C   :0.400
+clashscore = 2.77

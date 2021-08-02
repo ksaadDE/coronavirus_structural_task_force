@@ -1,0 +1,452 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+YTM      YTM '.                                   ' .                  59  37 .
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_YTM
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ YTM           CL1    CL   CL        0.000    -19.607  -29.032   -1.695
+ YTM           C5     C    CR6       0.000    -18.187  -27.958   -1.507
+ YTM           C4     C    CR16      0.000    -16.959  -28.378   -1.011
+ YTM           H4     H    H         0.000    -16.825  -29.406   -0.697
+ YTM           C6     C    CR16      0.000    -18.333  -26.652   -1.894
+ YTM           H6     H    H         0.000    -19.284  -26.313   -2.286
+ YTM           C7     C    CR6       0.000    -17.279  -25.762   -1.789
+ YTM           O2     O    O2        0.000    -17.502  -24.445   -2.152
+ YTM           C8     C    CH2       0.000    -18.596  -23.991   -1.393
+ YTM           H81    H    H         0.000    -18.897  -24.771   -0.690
+ YTM           H82    H    H         0.000    -19.429  -23.762   -2.061
+ YTM           C9     C    CH2       0.000    -18.202  -22.741   -0.626
+ YTM           H91    H    H         0.000    -17.273  -22.882   -0.070
+ YTM           H92    H    H         0.000    -18.989  -22.421    0.060
+ YTM           C10    C    CR6       0.000    -18.000  -21.690   -1.688
+ YTM           C15    C    CR16      0.000    -16.809  -21.685   -2.397
+ YTM           H15    H    H         0.000    -16.039  -22.416   -2.183
+ YTM           C14    C    CR16      0.000    -16.618  -20.733   -3.382
+ YTM           H14    H    H         0.000    -15.691  -20.703   -3.941
+ YTM           C13    C    CR16      0.000    -17.627  -19.815   -3.648
+ YTM           H13    H    H         0.000    -17.476  -19.070   -4.420
+ YTM           C12    C    CR16      0.000    -18.827  -19.832   -2.945
+ YTM           H12    H    H         0.000    -19.603  -19.111   -3.171
+ YTM           C11    C    CR16      0.000    -19.021  -20.781   -1.951
+ YTM           H11    H    H         0.000    -19.948  -20.814   -1.391
+ YTM           C16    C    CR16      0.000    -16.059  -26.156   -1.282
+ YTM           H16    H    H         0.000    -15.249  -25.445   -1.174
+ YTM           C3     C    CR6       0.000    -15.894  -27.471   -0.917
+ YTM           C2     C    CR6       0.000    -14.549  -27.942   -0.386
+ YTM           C17    C    CR16      0.000    -14.038  -29.137   -0.875
+ YTM           H17    H    H         0.000    -14.591  -29.702   -1.615
+ YTM           C18    C    CR6       0.000    -12.813  -29.606   -0.410
+ YTM           C19    C    CR6       0.000    -12.256  -30.916   -0.970
+ YTM           C21    C    CR16      0.000    -12.344  -31.064   -2.349
+ YTM           H21    H    H         0.000    -12.800  -30.282   -2.943
+ YTM           N2     N    NRD6      0.000    -11.873  -32.160   -2.951
+ YTM           C22    C    CR6       0.000    -11.305  -33.129   -2.225
+ YTM           O4     O    OH1       0.000    -10.826  -34.275   -2.870
+ YTM           HO4    H    H         0.000    -10.444  -34.885   -2.220
+ YTM           N1     N    NRD6      0.000    -11.196  -33.022   -0.893
+ YTM           C20    C    CR6       0.000    -11.636  -31.941   -0.240
+ YTM           O3     O    OH1       0.000    -11.454  -31.926    1.151
+ YTM           HO3    H    H         0.000    -11.806  -31.102    1.523
+ YTM           C23    C    CR16      0.000    -12.116  -28.854    0.519
+ YTM           H23    H    H         0.000    -11.163  -29.205    0.896
+ YTM           N3     N    NR6       0.000    -12.619  -27.695    0.950
+ YTM           C1     C    CR6       0.000    -13.804  -27.223    0.536
+ YTM           O1     O    OH1       0.000    -14.261  -26.011    1.021
+ YTM           HO1    H    H         0.000    -15.124  -25.807    0.632
+ YTM           C24    C    CR6       0.000    -11.906  -26.955    1.961
+ YTM           C28    C    CR16      0.000    -12.353  -27.111    3.266
+ YTM           H28    H    H         0.000    -13.194  -27.766    3.456
+ YTM           N4     N    NRD6      0.000    -11.782  -26.481    4.294
+ YTM           C27    C    CR16      0.000    -10.716  -25.682    4.071
+ YTM           H27    H    H         0.000    -10.240  -25.180    4.904
+ YTM           C26    C    CR16      0.000    -10.219  -25.495    2.778
+ YTM           H26    H    H         0.000     -9.369  -24.845    2.612
+ YTM           C25    C    CR16      0.000    -10.819  -26.146    1.703
+ YTM           H25    H    H         0.000    -10.443  -26.021    0.695
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ YTM      CL1    n/a    C5     START
+ YTM      C5     CL1    C6     .
+ YTM      C4     C5     H4     .
+ YTM      H4     C4     .      .
+ YTM      C6     C5     C7     .
+ YTM      H6     C6     .      .
+ YTM      C7     C6     C16    .
+ YTM      O2     C7     C8     .
+ YTM      C8     O2     C9     .
+ YTM      H81    C8     .      .
+ YTM      H82    C8     .      .
+ YTM      C9     C8     C10    .
+ YTM      H91    C9     .      .
+ YTM      H92    C9     .      .
+ YTM      C10    C9     C15    .
+ YTM      C15    C10    C14    .
+ YTM      H15    C15    .      .
+ YTM      C14    C15    C13    .
+ YTM      H14    C14    .      .
+ YTM      C13    C14    C12    .
+ YTM      H13    C13    .      .
+ YTM      C12    C13    C11    .
+ YTM      H12    C12    .      .
+ YTM      C11    C12    H11    .
+ YTM      H11    C11    .      .
+ YTM      C16    C7     C3     .
+ YTM      H16    C16    .      .
+ YTM      C3     C16    C2     .
+ YTM      C2     C3     C17    .
+ YTM      C17    C2     C18    .
+ YTM      H17    C17    .      .
+ YTM      C18    C17    C23    .
+ YTM      C19    C18    C21    .
+ YTM      C21    C19    N2     .
+ YTM      H21    C21    .      .
+ YTM      N2     C21    C22    .
+ YTM      C22    N2     N1     .
+ YTM      O4     C22    HO4    .
+ YTM      HO4    O4     .      .
+ YTM      N1     C22    C20    .
+ YTM      C20    N1     O3     .
+ YTM      O3     C20    HO3    .
+ YTM      HO3    O3     .      .
+ YTM      C23    C18    N3     .
+ YTM      H23    C23    .      .
+ YTM      N3     C23    C24    .
+ YTM      C1     N3     O1     .
+ YTM      O1     C1     HO1    .
+ YTM      HO1    O1     .      .
+ YTM      C24    N3     C28    .
+ YTM      C28    C24    N4     .
+ YTM      H28    C28    .      .
+ YTM      N4     C28    C27    .
+ YTM      C27    N4     C26    .
+ YTM      H27    C27    .      .
+ YTM      C26    C27    C25    .
+ YTM      H26    C26    .      .
+ YTM      C25    C26    H25    .
+ YTM      H25    C25    .      END
+ YTM      C1     C2     .    ADD
+ YTM      C3     C4     .    ADD
+ YTM      C10    C11    .    ADD
+ YTM      C19    C20    .    ADD
+ YTM      C24    C25    .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ YTM      C1     C2        aromatic    1.384    0.020
+ YTM      O1     C1        single      1.362    0.020
+ YTM      C1     N3        single      1.410    0.020
+ YTM      C2     C3        single      1.487    0.020
+ YTM      C17    C2        aromatic    1.390    0.020
+ YTM      C3     C4        aromatic    1.390    0.020
+ YTM      C3     C16       aromatic    1.390    0.020
+ YTM      C4     C5        aromatic    1.390    0.020
+ YTM      C6     C5        aromatic    1.390    0.020
+ YTM      C5     CL1       single      1.795    0.020
+ YTM      C7     C6        aromatic    1.390    0.020
+ YTM      O2     C7        single      1.370    0.020
+ YTM      C8     O2        single      1.426    0.020
+ YTM      C16    C7        aromatic    1.390    0.020
+ YTM      C9     C8        single      1.524    0.020
+ YTM      C10    C9        single      1.511    0.020
+ YTM      O3     C20       single      1.362    0.020
+ YTM      O4     C22       single      1.362    0.020
+ YTM      C10    C11       aromatic    1.390    0.020
+ YTM      C15    C10       aromatic    1.390    0.020
+ YTM      C11    C12       aromatic    1.390    0.020
+ YTM      C12    C13       aromatic    1.390    0.020
+ YTM      C13    C14       aromatic    1.390    0.020
+ YTM      C14    C15       aromatic    1.390    0.020
+ YTM      C18    C17       aromatic    1.390    0.020
+ YTM      C19    C18       single      1.487    0.020
+ YTM      C23    C18       aromatic    1.390    0.020
+ YTM      C19    C20       aromatic    1.384    0.020
+ YTM      C21    C19       aromatic    1.390    0.020
+ YTM      C20    N1        aromatic    1.350    0.020
+ YTM      N2     C21       aromatic    1.337    0.020
+ YTM      N1     C22       aromatic    1.350    0.020
+ YTM      C22    N2        aromatic    1.350    0.020
+ YTM      N3     C23       single      1.337    0.020
+ YTM      C24    C25       aromatic    1.390    0.020
+ YTM      C28    C24       aromatic    1.390    0.020
+ YTM      C24    N3        single      1.410    0.020
+ YTM      C25    C26       aromatic    1.390    0.020
+ YTM      C26    C27       aromatic    1.390    0.020
+ YTM      C27    N4        aromatic    1.337    0.020
+ YTM      N4     C28       deloc       1.337    0.020
+ YTM      H4     C4        single      1.083    0.020
+ YTM      H6     C6        single      1.083    0.020
+ YTM      HO1    O1        single      0.967    0.020
+ YTM      H81    C8        single      1.092    0.020
+ YTM      H82    C8        single      1.092    0.020
+ YTM      H91    C9        single      1.092    0.020
+ YTM      H92    C9        single      1.092    0.020
+ YTM      HO3    O3        single      0.967    0.020
+ YTM      HO4    O4        single      0.967    0.020
+ YTM      H11    C11       single      1.083    0.020
+ YTM      H12    C12       single      1.083    0.020
+ YTM      H13    C13       single      1.083    0.020
+ YTM      H14    C14       single      1.083    0.020
+ YTM      H15    C15       single      1.083    0.020
+ YTM      H16    C16       single      1.083    0.020
+ YTM      H17    C17       single      1.083    0.020
+ YTM      H21    C21       single      1.083    0.020
+ YTM      H23    C23       single      1.083    0.020
+ YTM      H25    C25       single      1.083    0.020
+ YTM      H26    C26       single      1.083    0.020
+ YTM      H27    C27       single      1.083    0.020
+ YTM      H28    C28       single      1.083    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ YTM      CL1    C5     C4      120.000    3.000
+ YTM      CL1    C5     C6      120.000    3.000
+ YTM      C4     C5     C6      120.000    3.000
+ YTM      C5     C4     H4      120.000    3.000
+ YTM      C5     C4     C3      120.000    3.000
+ YTM      H4     C4     C3      120.000    3.000
+ YTM      C5     C6     H6      120.000    3.000
+ YTM      C5     C6     C7      120.000    3.000
+ YTM      H6     C6     C7      120.000    3.000
+ YTM      C6     C7     O2      120.000    3.000
+ YTM      C6     C7     C16     120.000    3.000
+ YTM      O2     C7     C16     120.000    3.000
+ YTM      C7     O2     C8      120.000    3.000
+ YTM      O2     C8     H81     109.470    3.000
+ YTM      O2     C8     H82     109.470    3.000
+ YTM      O2     C8     C9      109.470    3.000
+ YTM      H81    C8     H82     107.900    3.000
+ YTM      H81    C8     C9      109.470    3.000
+ YTM      H82    C8     C9      109.470    3.000
+ YTM      C8     C9     H91     109.470    3.000
+ YTM      C8     C9     H92     109.470    3.000
+ YTM      C8     C9     C10     109.470    3.000
+ YTM      H91    C9     H92     107.900    3.000
+ YTM      H91    C9     C10     109.470    3.000
+ YTM      H92    C9     C10     109.470    3.000
+ YTM      C9     C10    C15     120.000    3.000
+ YTM      C9     C10    C11     120.000    3.000
+ YTM      C15    C10    C11     120.000    3.000
+ YTM      C10    C15    H15     120.000    3.000
+ YTM      C10    C15    C14     120.000    3.000
+ YTM      H15    C15    C14     120.000    3.000
+ YTM      C15    C14    H14     120.000    3.000
+ YTM      C15    C14    C13     120.000    3.000
+ YTM      H14    C14    C13     120.000    3.000
+ YTM      C14    C13    H13     120.000    3.000
+ YTM      C14    C13    C12     120.000    3.000
+ YTM      H13    C13    C12     120.000    3.000
+ YTM      C13    C12    H12     120.000    3.000
+ YTM      C13    C12    C11     120.000    3.000
+ YTM      H12    C12    C11     120.000    3.000
+ YTM      C12    C11    H11     120.000    3.000
+ YTM      C12    C11    C10     120.000    3.000
+ YTM      H11    C11    C10     120.000    3.000
+ YTM      C7     C16    H16     120.000    3.000
+ YTM      C7     C16    C3      120.000    3.000
+ YTM      H16    C16    C3      120.000    3.000
+ YTM      C16    C3     C2      120.000    3.000
+ YTM      C16    C3     C4      120.000    3.000
+ YTM      C2     C3     C4      120.000    3.000
+ YTM      C3     C2     C17     120.000    3.000
+ YTM      C3     C2     C1      120.000    3.000
+ YTM      C17    C2     C1      120.000    3.000
+ YTM      C2     C17    H17     120.000    3.000
+ YTM      C2     C17    C18     120.000    3.000
+ YTM      H17    C17    C18     120.000    3.000
+ YTM      C17    C18    C19     120.000    3.000
+ YTM      C17    C18    C23     120.000    3.000
+ YTM      C19    C18    C23     120.000    3.000
+ YTM      C18    C19    C21     120.000    3.000
+ YTM      C18    C19    C20     120.000    3.000
+ YTM      C21    C19    C20     120.000    3.000
+ YTM      C19    C21    H21     120.000    3.000
+ YTM      C19    C21    N2      120.000    3.000
+ YTM      H21    C21    N2      120.000    3.000
+ YTM      C21    N2     C22     120.000    3.000
+ YTM      N2     C22    O4      120.000    3.000
+ YTM      N2     C22    N1      120.000    3.000
+ YTM      O4     C22    N1      120.000    3.000
+ YTM      C22    O4     HO4     109.470    3.000
+ YTM      C22    N1     C20     120.000    3.000
+ YTM      N1     C20    O3      120.000    3.000
+ YTM      N1     C20    C19     120.000    3.000
+ YTM      O3     C20    C19     120.000    3.000
+ YTM      C20    O3     HO3     109.470    3.000
+ YTM      C18    C23    H23     120.000    3.000
+ YTM      C18    C23    N3      120.000    3.000
+ YTM      H23    C23    N3      120.000    3.000
+ YTM      C23    N3     C1      120.000    3.000
+ YTM      C23    N3     C24     120.000    3.000
+ YTM      C1     N3     C24     120.000    3.000
+ YTM      N3     C1     O1      120.000    3.000
+ YTM      N3     C1     C2      120.000    3.000
+ YTM      O1     C1     C2      120.000    3.000
+ YTM      C1     O1     HO1     109.470    3.000
+ YTM      N3     C24    C28     120.000    3.000
+ YTM      N3     C24    C25     120.000    3.000
+ YTM      C28    C24    C25     120.000    3.000
+ YTM      C24    C28    H28     120.000    3.000
+ YTM      C24    C28    N4      120.000    3.000
+ YTM      H28    C28    N4      120.000    3.000
+ YTM      C28    N4     C27     120.000    3.000
+ YTM      N4     C27    H27     120.000    3.000
+ YTM      N4     C27    C26     120.000    3.000
+ YTM      H27    C27    C26     120.000    3.000
+ YTM      C27    C26    H26     120.000    3.000
+ YTM      C27    C26    C25     120.000    3.000
+ YTM      H26    C26    C25     120.000    3.000
+ YTM      C26    C25    H25     120.000    3.000
+ YTM      C26    C25    C24     120.000    3.000
+ YTM      H25    C25    C24     120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ YTM      CONST_1          CL1    C5     C4     C3                 0.000            0.000   0
+ YTM      CONST_2          CL1    C5     C6     C7                 0.000            0.000   0
+ YTM      CONST_3          C5     C6     C7     C16                0.000            0.000   0
+ YTM      var_1            C6     C7     O2     C8                55.341           20.000   3
+ YTM      var_2            C7     O2     C8     C9               124.557           20.000   3
+ YTM      var_3            O2     C8     C9     C10              180.000           20.000   3
+ YTM      var_4            C8     C9     C10    C15                0.000           20.000   2
+ YTM      CONST_4          C9     C10    C11    C12                0.000            0.000   0
+ YTM      CONST_5          C9     C10    C15    C14                0.000            0.000   0
+ YTM      CONST_6          C10    C15    C14    C13                0.000            0.000   0
+ YTM      CONST_7          C15    C14    C13    C12                0.000            0.000   0
+ YTM      CONST_8          C14    C13    C12    C11                0.000            0.000   0
+ YTM      CONST_9          C13    C12    C11    C10                0.000            0.000   0
+ YTM      CONST_10         C6     C7     C16    C3                 0.000            0.000   0
+ YTM      CONST_11         C7     C16    C3     C2                 0.000            0.000   0
+ YTM      CONST_12         C16    C3     C4     C5                 0.000            0.000   0
+ YTM      var_5            C16    C3     C2     C17                0.000           20.000   2
+ YTM      CONST_13         C3     C2     C17    C18                0.000            0.000   0
+ YTM      CONST_14         C2     C17    C18    C23                0.000            0.000   0
+ YTM      var_6            C17    C18    C19    C21                0.000           20.000   2
+ YTM      CONST_15         C18    C19    C20    N1                 0.000            0.000   0
+ YTM      CONST_16         C18    C19    C21    N2                 0.000            0.000   0
+ YTM      CONST_17         C19    C21    N2     C22                0.000            0.000   0
+ YTM      CONST_18         C21    N2     C22    N1                 0.000            0.000   0
+ YTM      var_7            N2     C22    O4     HO4              180.000           20.000   3
+ YTM      CONST_19         N2     C22    N1     C20                0.000            0.000   0
+ YTM      CONST_20         C22    N1     C20    O3                 0.000            0.000   0
+ YTM      var_8            N1     C20    O3     HO3              180.000           20.000   3
+ YTM      CONST_21         C17    C18    C23    N3                 0.000            0.000   0
+ YTM      CONST_22         C18    C23    N3     C24                0.000            0.000   0
+ YTM      CONST_23         C23    N3     C1     O1                 0.000            0.000   0
+ YTM      CONST_24         N3     C1     C2     C3                 0.000            0.000   0
+ YTM      var_9            N3     C1     O1     HO1              180.000           20.000   3
+ YTM      var_10           C23    N3     C24    C28                0.000           20.000   2
+ YTM      CONST_25         N3     C24    C25    C26                0.000            0.000   0
+ YTM      CONST_26         N3     C24    C28    N4                 0.000            0.000   0
+ YTM      CONST_27         C24    C28    N4     C27                0.000            0.000   0
+ YTM      CONST_28         C28    N4     C27    C26                0.000            0.000   0
+ YTM      CONST_29         N4     C27    C26    C25                0.000            0.000   0
+ YTM      CONST_30         C27    C26    C25    C24                0.000            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ YTM      plan-1            C1        0.020
+ YTM      plan-1            C2        0.020
+ YTM      plan-1            O1        0.020
+ YTM      plan-1            N3        0.020
+ YTM      plan-1            C17       0.020
+ YTM      plan-1            C18       0.020
+ YTM      plan-1            C23       0.020
+ YTM      plan-1            C3        0.020
+ YTM      plan-1            H17       0.020
+ YTM      plan-1            C19       0.020
+ YTM      plan-1            H23       0.020
+ YTM      plan-1            C24       0.020
+ YTM      plan-2            C3        0.020
+ YTM      plan-2            C2        0.020
+ YTM      plan-2            C4        0.020
+ YTM      plan-2            C16       0.020
+ YTM      plan-2            C5        0.020
+ YTM      plan-2            C6        0.020
+ YTM      plan-2            C7        0.020
+ YTM      plan-2            H4        0.020
+ YTM      plan-2            CL1       0.020
+ YTM      plan-2            H6        0.020
+ YTM      plan-2            O2        0.020
+ YTM      plan-2            H16       0.020
+ YTM      plan-3            C10       0.020
+ YTM      plan-3            C9        0.020
+ YTM      plan-3            C11       0.020
+ YTM      plan-3            C15       0.020
+ YTM      plan-3            C12       0.020
+ YTM      plan-3            C13       0.020
+ YTM      plan-3            C14       0.020
+ YTM      plan-3            H11       0.020
+ YTM      plan-3            H12       0.020
+ YTM      plan-3            H13       0.020
+ YTM      plan-3            H14       0.020
+ YTM      plan-3            H15       0.020
+ YTM      plan-4            C19       0.020
+ YTM      plan-4            C18       0.020
+ YTM      plan-4            C20       0.020
+ YTM      plan-4            C21       0.020
+ YTM      plan-4            C22       0.020
+ YTM      plan-4            N1        0.020
+ YTM      plan-4            N2        0.020
+ YTM      plan-4            O3        0.020
+ YTM      plan-4            H21       0.020
+ YTM      plan-4            O4        0.020
+ YTM      plan-5            C24       0.020
+ YTM      plan-5            C25       0.020
+ YTM      plan-5            C28       0.020
+ YTM      plan-5            N3        0.020
+ YTM      plan-5            C26       0.020
+ YTM      plan-5            C27       0.020
+ YTM      plan-5            N4        0.020
+ YTM      plan-5            H25       0.020
+ YTM      plan-5            H26       0.020
+ YTM      plan-5            H27       0.020
+ YTM      plan-5            H28       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------

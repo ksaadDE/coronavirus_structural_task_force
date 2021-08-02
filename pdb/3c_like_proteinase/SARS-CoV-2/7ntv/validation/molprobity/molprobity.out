@@ -1,0 +1,596 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 9657
+     H or D atoms   : 4714
+     chains         : 6
+     a.a. residues  : 606
+     nucleotides    : 0
+     water          : 122
+     other (ligands): 8
+   Ligands: DMS:7,US8:1
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   B 164  HIS  CE1    
+   B 164  HIS  NE2         1.32     1.38    -0.05  1.00e-02  3.00e+01   5.5*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.074 (Z=  5.481)
+  Mean delta:    0.015 (Z=  0.750)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 172  HIS  CA     
+   A 172  HIS  CB     
+   A 172  HIS  CG        113.80   109.72     4.08  1.00e+00  1.66e+01   4.1*sigma
+   B 187  ASP  CA     
+   B 187  ASP  CB     
+   B 187  ASP  CG        112.60   116.75    -4.15  1.00e+00  1.72e+01   4.1*sigma
+   A 135  THR  CA     
+   A 135  THR  CB     
+   A 135  THR  OG1       109.60   103.37     6.23  1.50e+00  1.72e+01   4.2*sigma
+   B  55  GLU  CB     
+   B  55  GLU  CG     
+   B  55  GLU  CD        112.60   119.68    -7.08  1.70e+00  1.74e+01   4.2*sigma
+   B 289  ASP  CA     
+   B 289  ASP  CB     
+   B 289  ASP  CG        112.60   116.80    -4.20  1.00e+00  1.76e+01   4.2*sigma
+   A 263  ASP  CA     
+   A 263  ASP  CB     
+   A 263  ASP  CG        112.60   116.85    -4.25  1.00e+00  1.80e+01   4.2*sigma
+   A 181  PHE  CA     
+   A 181  PHE  CB     
+   A 181  PHE  CG        113.80   109.51     4.29  1.00e+00  1.84e+01   4.3*sigma
+   A  26  THR  CA     
+   A  26  THR  CB     
+   A  26  THR  OG1       109.60   103.12     6.48  1.50e+00  1.87e+01   4.3*sigma
+   B  53  ASN  C      
+   B  53  ASN  CA     
+   B  53  ASN  CB        110.10   118.42    -8.32  1.90e+00  1.92e+01   4.4*sigma
+   A 289  ASP  CA     
+   A 289  ASP  CB     
+   A 289  ASP  CG        112.60   116.99    -4.39  1.00e+00  1.93e+01   4.4*sigma
+   A 224  THR  C      
+   A 224  THR  CA     
+   A 224  THR  CB        109.10   119.19   -10.09  2.20e+00  2.10e+01   4.6*sigma
+   A 224  THR  CA     
+   A 224  THR  CB     
+   A 224  THR  OG1       109.60   102.51     7.09  1.50e+00  2.23e+01   4.7*sigma
+   B 290  GLU  CB     
+   B 290  GLU  CG     
+   B 290  GLU  CD        112.60   120.82    -8.22  1.70e+00  2.34e+01   4.8*sigma
+   A 196  THR  CA     
+   A 196  THR  CB     
+   A 196  THR  OG1       109.60   102.11     7.49  1.50e+00  2.50e+01   5.0*sigma
+   B  24  THR  CA     
+   B  24  THR  CB     
+   B  24  THR  OG1       109.60   102.10     7.50  1.50e+00  2.50e+01   5.0*sigma
+   A 154  TYR  C      
+   A 154  TYR  CA     
+   A 154  TYR  CB        110.10   119.91    -9.81  1.90e+00  2.67e+01   5.2*sigma
+   B 153  ASP  C      
+   B 153  ASP  CA     
+   B 153  ASP  CB        110.10   123.88   -13.78  1.90e+00  5.26e+01   7.3*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   13.776 (Z=  7.251)
+  Mean delta:    1.972 (Z=  1.057)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 216  ASP  CA     
+   A 216  ASP  C      
+   A 217  ARG  N      
+   A 217  ARG  CA        180.00  -159.75   -20.25  5.00e+00  1.64e+01   4.1*sigma
+   B 274  ASN  CA     
+   B 274  ASN  C      
+   B 275  GLY  N      
+   B 275  GLY  CA        180.00  -159.28   -20.72  5.00e+00  1.72e+01   4.1*sigma
+   B 171  VAL  CA     
+   B 171  VAL  C      
+   B 172  HIS  N      
+   B 172  HIS  CA        180.00  -159.01   -20.99  5.00e+00  1.76e+01   4.2*sigma
+   B 194  ALA  CA     
+   B 194  ALA  C      
+   B 195  GLY  N      
+   B 195  GLY  CA        180.00   158.63    21.37  5.00e+00  1.83e+01   4.3*sigma
+   B 214  ASN  CA     
+   B 214  ASN  C      
+   B 215  GLY  N      
+   B 215  GLY  CA        180.00   158.06    21.94  5.00e+00  1.93e+01   4.4*sigma
+   B 153  ASP  CA     
+   B 153  ASP  C      
+   B 154  TYR  N      
+   B 154  TYR  CA        180.00  -156.79   -23.21  5.00e+00  2.15e+01   4.6*sigma
+   A 181  PHE  CA     
+   A 181  PHE  C      
+   A 182  TYR  N      
+   A 182  TYR  CA        180.00   156.18    23.82  5.00e+00  2.27e+01   4.8*sigma
+
+  Min. delta:    0.012
+  Max. delta:   85.826
+  Mean delta:   14.640
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.383
+  Mean delta:    0.093
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.035
+  Mean delta:    0.009
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 4714
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 4636
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 78
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 122
+  Number of water with 0 H (or D)            : 117
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 5
+  Number of water without oxygen atom        : 0
+
+             ----------H (or D) atoms with zero occupancy----------            
+
+  pdb=" HG  SER A   1 "
+  pdb=" HG  SER A  10 "
+  pdb=" HG  CYS A  16 "
+  pdb="HE21 GLN A  19 "
+  pdb="HE22 GLN A  19 "
+  pdb=" HG1 THR A  21 "
+  pdb=" HG  CYS A  22 "
+  pdb=" HG1 THR A  24 "
+  pdb=" HG1 THR A  25 "
+  pdb=" HG1 THR A  26 "
+  pdb="HD21 ASN A  28 "
+  pdb="HD22 ASN A  28 "
+  pdb=" HH  TYR A  37 "
+  pdb=" HG  CYS A  38 "
+  pdb=" HD1 HIS A  41 "
+  pdb=" HE2 HIS A  41 "
+  pdb=" HG  CYS A  44 "
+  pdb=" HG1 THR A  45 "
+  pdb=" HG  SER A  46 "
+  pdb="HD21 ASN A  51 "
+  pdb="HD22 ASN A  51 "
+  pdb="HD21 ASN A  53 "
+  pdb="HD22 ASN A  53 "
+  pdb=" HH  TYR A  54 "
+  pdb=" HG  SER A  62 "
+  pdb="HD21 ASN A  63 "
+  pdb="HD22 ASN A  63 "
+  pdb=" HD1 HIS A  64 "
+  pdb=" HE2 HIS A  64 "
+  pdb="HD21 ASN A  65 "
+  pdb="HD22 ASN A  65 "
+  pdb="HE21 GLN A  69 "
+  pdb="HE22 GLN A  69 "
+  pdb="HD21 ASN A  72 "
+  pdb="HD22 ASN A  72 "
+  pdb="HE21 GLN A  74 "
+  pdb="HE22 GLN A  74 "
+  pdb=" HD1 HIS A  80 "
+  pdb=" HE2 HIS A  80 "
+  pdb=" HG  SER A  81 "
+  pdb="HE21 GLN A  83 "
+  pdb="HE22 GLN A  83 "
+  pdb="HD21 ASN A  84 "
+  pdb="HD22 ASN A  84 "
+  pdb=" HG  CYS A  85 "
+  pdb=" HG1 THR A  93 "
+  pdb="HD21 ASN A  95 "
+  pdb="HD22 ASN A  95 "
+  pdb=" HG1 THR A  98 "
+  pdb=" HH  TYR A 101 "
+  pdb="HE21 GLN A 107 "
+  pdb="HE22 GLN A 107 "
+  pdb="HE21 GLN A 110 "
+  pdb="HE22 GLN A 110 "
+  pdb=" HG1 THR A 111 "
+  pdb=" HG  SER A 113 "
+  pdb=" HG  CYS A 117 "
+  pdb=" HH  TYR A 118 "
+  pdb="HD21 ASN A 119 "
+  pdb="HD22 ASN A 119 "
+  pdb=" HG  SER A 121 "
+  pdb=" HG  SER A 123 "
+  pdb=" HH  TYR A 126 "
+  pdb="HE21 GLN A 127 "
+  pdb="HE22 GLN A 127 "
+  pdb=" HG  CYS A 128 "
+  pdb="HD21 ASN A 133 "
+  pdb="HD22 ASN A 133 "
+  pdb=" HG1 THR A 135 "
+  pdb=" HG  SER A 139 "
+  pdb="HD21 ASN A 142 "
+  pdb="HD22 ASN A 142 "
+  pdb=" HG  SER A 144 "
+  pdb=" HG  CYS A 145 "
+  pdb=" HG  SER A 147 "
+  pdb="HD21 ASN A 151 "
+  pdb="HD22 ASN A 151 "
+  pdb=" HH  TYR A 154 "
+  pdb=" HG  CYS A 156 "
+  pdb=" HG  SER A 158 "
+  pdb=" HG  CYS A 160 "
+  pdb=" HH  TYR A 161 "
+  pdb=" HD1 HIS A 163 "
+  pdb=" HE2 HIS A 163 "
+  pdb=" HD1 HIS A 164 "
+  pdb=" HE2 HIS A 164 "
+  pdb=" HG1 THR A 169 "
+  pdb=" HD1 HIS A 172 "
+  pdb=" HE2 HIS A 172 "
+  pdb=" HG1 THR A 175 "
+  pdb="HD21 ASN A 180 "
+  pdb="HD22 ASN A 180 "
+  pdb=" HH  TYR A 182 "
+  pdb="HE21 GLN A 189 "
+  pdb="HE22 GLN A 189 "
+  pdb=" HG1 THR A 190 "
+  pdb="HE21 GLN A 192 "
+  pdb="HE22 GLN A 192 "
+  pdb=" HG1 THR A 196 "
+  pdb=" HG1 THR A 198 "
+  pdb=" HG1 THR A 199 "
+  pdb=" HG1 THR A 201 "
+  pdb="HD21 ASN A 203 "
+  pdb="HD22 ASN A 203 "
+  pdb=" HH  TYR A 209 "
+  pdb="HD21 ASN A 214 "
+  pdb="HD22 ASN A 214 "
+  pdb="HD21 ASN A 221 "
+  pdb="HD22 ASN A 221 "
+  pdb=" HG1 THR A 224 "
+  pdb=" HG1 THR A 225 "
+  pdb=" HG1 THR A 226 "
+  pdb="HD21 ASN A 228 "
+  pdb="HD22 ASN A 228 "
+  pdb="HD21 ASN A 231 "
+  pdb="HD22 ASN A 231 "
+  pdb=" HH  TYR A 237 "
+  pdb="HD21 ASN A 238 "
+  pdb="HD22 ASN A 238 "
+  pdb=" HH  TYR A 239 "
+  pdb=" HG1 THR A 243 "
+  pdb="HE21 GLN A 244 "
+  pdb="HE22 GLN A 244 "
+  pdb=" HD1 HIS A 246 "
+  pdb=" HE2 HIS A 246 "
+  pdb=" HG  SER A 254 "
+  pdb="HE21 GLN A 256 "
+  pdb="HE22 GLN A 256 "
+  pdb=" HG1 THR A 257 "
+  pdb=" HG  CYS A 265 "
+  pdb=" HG  SER A 267 "
+  pdb="HE21 GLN A 273 "
+  pdb="HE22 GLN A 273 "
+  pdb="HD21 ASN A 274 "
+  pdb="HD22 ASN A 274 "
+  pdb="HD21 ASN A 277 "
+  pdb="HD22 ASN A 277 "
+  pdb=" HG1 THR A 280 "
+  pdb=" HG  SER A 284 "
+  pdb=" HG1 THR A 292 "
+  pdb="HE21 GLN A 299 "
+  pdb="HE22 GLN A 299 "
+  pdb=" HG  CYS A 300 "
+  pdb=" HG  SER A 301 "
+  pdb=" HG1 THR A 304 "
+  pdb=" HG  SER B   1 "
+  pdb=" HG  SER B  10 "
+  pdb=" HG  CYS B  16 "
+  pdb="HE21 GLN B  19 "
+  pdb="HE22 GLN B  19 "
+  pdb=" HG1 THR B  21 "
+  pdb=" HG  CYS B  22 "
+  pdb=" HG1 THR B  24 "
+  pdb=" HG1 THR B  25 "
+  pdb=" HG1 THR B  26 "
+  pdb="HD21 ASN B  28 "
+  pdb="HD22 ASN B  28 "
+  pdb=" HH  TYR B  37 "
+  pdb=" HG  CYS B  38 "
+  pdb=" HD1 HIS B  41 "
+  pdb=" HE2 HIS B  41 "
+  pdb=" HG  CYS B  44 "
+  pdb=" HG1 THR B  45 "
+  pdb=" HG  SER B  46 "
+  pdb="HD21 ASN B  51 "
+  pdb="HD22 ASN B  51 "
+  pdb="HD21 ASN B  53 "
+  pdb="HD22 ASN B  53 "
+  pdb=" HH  TYR B  54 "
+  pdb=" HG  SER B  62 "
+  pdb="HD21 ASN B  63 "
+  pdb="HD22 ASN B  63 "
+  pdb=" HD1 HIS B  64 "
+  pdb=" HE2 HIS B  64 "
+  pdb="HD21 ASN B  65 "
+  pdb="HD22 ASN B  65 "
+  pdb="HE21 GLN B  69 "
+  pdb="HE22 GLN B  69 "
+  pdb="HD21 ASN B  72 "
+  pdb="HD22 ASN B  72 "
+  pdb="HE21 GLN B  74 "
+  pdb="HE22 GLN B  74 "
+  pdb=" HD1 HIS B  80 "
+  pdb=" HE2 HIS B  80 "
+  pdb=" HG  SER B  81 "
+  pdb="HE21 GLN B  83 "
+  pdb="HE22 GLN B  83 "
+  pdb="HD21 ASN B  84 "
+  pdb="HD22 ASN B  84 "
+  pdb=" HG  CYS B  85 "
+  pdb=" HG1 THR B  93 "
+  pdb="HD21 ASN B  95 "
+  pdb="HD22 ASN B  95 "
+  pdb=" HG1 THR B  98 "
+  pdb=" HH  TYR B 101 "
+  pdb="HE21 GLN B 107 "
+  pdb="HE22 GLN B 107 "
+  pdb="HE21 GLN B 110 "
+  pdb="HE22 GLN B 110 "
+  pdb=" HG1 THR B 111 "
+  pdb=" HG  SER B 113 "
+  pdb=" HG  CYS B 117 "
+  pdb=" HH  TYR B 118 "
+  pdb="HD21 ASN B 119 "
+  pdb="HD22 ASN B 119 "
+  pdb=" HG  SER B 121 "
+  pdb=" HG  SER B 123 "
+  pdb=" HH  TYR B 126 "
+  pdb="HE21 GLN B 127 "
+  pdb="HE22 GLN B 127 "
+  pdb=" HG  CYS B 128 "
+  pdb="HD21 ASN B 133 "
+  pdb="HD22 ASN B 133 "
+  pdb=" HG1 THR B 135 "
+  pdb=" HG  SER B 139 "
+  pdb="HD21AASN B 142 "
+  pdb="HD22AASN B 142 "
+  pdb="HD21BASN B 142 "
+  pdb="HD22BASN B 142 "
+  pdb="HD21CASN B 142 "
+  pdb="HD22CASN B 142 "
+  pdb="HD21DASN B 142 "
+  pdb="HD22DASN B 142 "
+  pdb=" HG  SER B 144 "
+  pdb=" HG  SER B 147 "
+  pdb="HD21 ASN B 151 "
+  pdb="HD22 ASN B 151 "
+  pdb=" HH  TYR B 154 "
+  pdb=" HG  CYS B 156 "
+  pdb=" HG  SER B 158 "
+  pdb=" HG  CYS B 160 "
+  pdb=" HH  TYR B 161 "
+  pdb=" HD1 HIS B 163 "
+  pdb=" HE2 HIS B 163 "
+  pdb=" HD1 HIS B 164 "
+  pdb=" HE2 HIS B 164 "
+  pdb=" HG1 THR B 169 "
+  pdb=" HD1 HIS B 172 "
+  pdb=" HE2 HIS B 172 "
+  pdb=" HG1 THR B 175 "
+  pdb="HD21 ASN B 180 "
+  pdb="HD22 ASN B 180 "
+  pdb=" HH  TYR B 182 "
+  pdb="HE21 GLN B 189 "
+  pdb="HE22 GLN B 189 "
+  pdb=" HG1 THR B 190 "
+  pdb="HE21 GLN B 192 "
+  pdb="HE22 GLN B 192 "
+  pdb=" HG1 THR B 196 "
+  pdb=" HG1 THR B 198 "
+  pdb=" HG1 THR B 199 "
+  pdb=" HG1 THR B 201 "
+  pdb="HD21 ASN B 203 "
+  pdb="HD22 ASN B 203 "
+  pdb=" HH  TYR B 209 "
+  pdb="HD21 ASN B 214 "
+  pdb="HD22 ASN B 214 "
+  pdb="HD21 ASN B 221 "
+  pdb="HD22 ASN B 221 "
+  pdb=" HG1 THR B 224 "
+  pdb=" HG1 THR B 225 "
+  pdb=" HG1 THR B 226 "
+  pdb="HD21 ASN B 228 "
+  pdb="HD22 ASN B 228 "
+  pdb="HD21 ASN B 231 "
+  pdb="HD22 ASN B 231 "
+  pdb=" HH  TYR B 237 "
+  pdb="HD21 ASN B 238 "
+  pdb="HD22 ASN B 238 "
+  pdb=" HH  TYR B 239 "
+  pdb=" HG1 THR B 243 "
+  pdb="HE21 GLN B 244 "
+  pdb="HE22 GLN B 244 "
+  pdb=" HD1 HIS B 246 "
+  pdb=" HE2 HIS B 246 "
+  pdb=" HG  SER B 254 "
+  pdb="HE21 GLN B 256 "
+  pdb="HE22 GLN B 256 "
+  pdb=" HG1 THR B 257 "
+  pdb=" HG  CYS B 265 "
+  pdb=" HG  SER B 267 "
+  pdb="HE21 GLN B 273 "
+  pdb="HE22 GLN B 273 "
+  pdb="HD21 ASN B 274 "
+  pdb="HD22 ASN B 274 "
+  pdb="HD21 ASN B 277 "
+  pdb="HD22 ASN B 277 "
+  pdb=" HG1 THR B 280 "
+  pdb=" HG  SER B 284 "
+  pdb=" HG1 THR B 292 "
+  pdb="HE21 GLN B 299 "
+  pdb="HE22 GLN B 299 "
+  pdb=" HG  CYS B 300 "
+  pdb=" HG  SER B 301 "
+
+             ----------H (or D) atoms with occupancy < 1----------             
+
+  pdb=" H   LYS A  97 " with occupancy 0.5
+  pdb=" HA  LYS A  97 " with occupancy 0.5
+  pdb=" HB2 LYS A  97 " with occupancy 0.5
+  pdb=" HB3 LYS A  97 " with occupancy 0.5
+  pdb=" HG2 LYS A  97 " with occupancy 0.5
+  pdb=" HG3 LYS A  97 " with occupancy 0.5
+  pdb=" HD2 LYS A  97 " with occupancy 0.5
+  pdb=" HD3 LYS A  97 " with occupancy 0.5
+  pdb=" HE2 LYS A  97 " with occupancy 0.5
+  pdb=" HE3 LYS A  97 " with occupancy 0.5
+  pdb=" HZ1 LYS A  97 " with occupancy 0.5
+  pdb=" HZ2 LYS A  97 " with occupancy 0.5
+  pdb=" HZ3 LYS A  97 " with occupancy 0.5
+  pdb=" H   GLU A 288 " with occupancy 0.5
+  pdb=" HA  GLU A 288 " with occupancy 0.5
+  pdb=" HB2 GLU A 288 " with occupancy 0.5
+  pdb=" HB3 GLU A 288 " with occupancy 0.5
+  pdb=" HG2 GLU A 288 " with occupancy 0.5
+  pdb=" HG3 GLU A 288 " with occupancy 0.5
+  pdb=" H   GLU B 240 " with occupancy 0.5
+  pdb=" HA  GLU B 240 " with occupancy 0.5
+  pdb=" HB2 GLU B 240 " with occupancy 0.5
+  pdb=" HB3 GLU B 240 " with occupancy 0.5
+  pdb=" HG2 GLU B 240 " with occupancy 0.5
+  pdb=" HG3 GLU B 240 " with occupancy 0.5
+  pdb=" H   GLU B 288 " with occupancy 0.5
+  pdb=" HA  GLU B 288 " with occupancy 0.5
+  pdb=" HB2 GLU B 288 " with occupancy 0.5
+  pdb=" HB3 GLU B 288 " with occupancy 0.5
+  pdb=" HG2 GLU B 288 " with occupancy 0.5
+  pdb=" HG3 GLU B 288 " with occupancy 0.5
+
+                    ----------MISSING H or D atoms----------                   
+
+  CYS B 145  conformer A, B, C, D : HG 
+
+                       ----------Bond outliers----------                       
+
+   B 504 ADMS  H13, Bond C1--H13, observed: 0.968, delta from target: 0.091
+   A 502  DMS  H21, Bond C2--H21, observed: 0.968, delta from target: 0.091
+   B 505  DMS  H21, Bond C2--H21, observed: 0.967, delta from target: 0.092
+   B 505  DMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   A 502  DMS  H13, Bond C1--H13, observed: 0.967, delta from target: 0.092
+   B 501  DMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   B 504 BDMS  H13, Bond C1--H13, observed: 0.967, delta from target: 0.092
+   B 503  DMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   B 501  DMS  H21, Bond C2--H21, observed: 0.967, delta from target: 0.092
+   B 502  DMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   B 501  DMS  H12, Bond C1--H12, observed: 0.967, delta from target: 0.092
+   B 505  DMS  H13, Bond C1--H13, observed: 0.967, delta from target: 0.092
+   A 501  DMS  H13, Bond C1--H13, observed: 0.967, delta from target: 0.092
+   B 504 BDMS  H21, Bond C2--H21, observed: 0.967, delta from target: 0.092
+   B 501  DMS  H23, Bond C2--H23, observed: 0.967, delta from target: 0.092
+   B 502  DMS  H12, Bond C1--H12, observed: 0.967, delta from target: 0.092
+   B 504 ADMS  H23, Bond C2--H23, observed: 0.967, delta from target: 0.092
+   B 504 BDMS  H23, Bond C2--H23, observed: 0.967, delta from target: 0.092
+   B 502  DMS  H22, Bond C2--H22, observed: 0.967, delta from target: 0.092
+   B 503  DMS  H12, Bond C1--H12, observed: 0.967, delta from target: 0.092
+   B 505  DMS  H23, Bond C2--H23, observed: 0.967, delta from target: 0.092
+   B 504 BDMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   B 502  DMS  H23, Bond C2--H23, observed: 0.967, delta from target: 0.092
+   B 504 ADMS  H21, Bond C2--H21, observed: 0.967, delta from target: 0.092
+   A 501  DMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   B 504 ADMS  H11, Bond C1--H11, observed: 0.967, delta from target: 0.092
+   A 501  DMS  H12, Bond C1--H12, observed: 0.967, delta from target: 0.092
+   A 502  DMS  H22, Bond C2--H22, observed: 0.967, delta from target: 0.092
+   B 505  DMS  H12, Bond C1--H12, observed: 0.967, delta from target: 0.092
+   A 502  DMS  H23, Bond C2--H23, observed: 0.967, delta from target: 0.092
+   B 501  DMS  H13, Bond C1--H13, observed: 0.967, delta from target: 0.092
+   B 504 BDMS  H22, Bond C2--H22, observed: 0.967, delta from target: 0.092
+   B 504 ADMS  H22, Bond C2--H22, observed: 0.967, delta from target: 0.092
+   A 501  DMS  H21, Bond C2--H21, observed: 0.967, delta from target: 0.092
+   A 501  DMS  H22, Bond C2--H22, observed: 0.967, delta from target: 0.092
+   B 503  DMS  H21, Bond C2--H21, observed: 0.967, delta from target: 0.092
+   B 504 ADMS  H12, Bond C1--H12, observed: 0.966, delta from target: 0.093
+   B 503  DMS  H22, Bond C2--H22, observed: 0.966, delta from target: 0.093
+   B 504 BDMS  H12, Bond C1--H12, observed: 0.966, delta from target: 0.093
+   B 505  DMS  H22, Bond C2--H22, observed: 0.966, delta from target: 0.093
+   B 503  DMS  H13, Bond C1--H13, observed: 0.965, delta from target: 0.094
+   B 503  DMS  H23, Bond C2--H23, observed: 0.965, delta from target: 0.094
+   B 502  DMS  H21, Bond C2--H21, observed: 0.965, delta from target: 0.094
+   A 502  DMS  H11, Bond C1--H11, observed: 0.965, delta from target: 0.094
+   B 501  DMS  H22, Bond C2--H22, observed: 0.965, delta from target: 0.094
+   A 501  DMS  H23, Bond C2--H23, observed: 0.965, delta from target: 0.094
+   B 502  DMS  H13, Bond C1--H13, observed: 0.965, delta from target: 0.094
+   A 502  DMS  H12, Bond C1--H12, observed: 0.964, delta from target: 0.095
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.015   0.074   4877
+    Angle     :  1.972  13.776   6631
+    Chirality :  0.093   0.383    742
+    Planarity :  0.009   0.035    865
+    Dihedral  : 14.640  85.826   1737
+    Min Nonbonded Distance : 1.224
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 3.48
+    Ramachandran Plot:
+      Outliers :  0.17 %
+      Allowed  :  2.67 %
+      Favored  : 97.16 %
+    Rotamer Outliers :  2.46 %
+    Cbeta Deviations :  0.53 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.49 (0.28), residues: 623
+    helix: -1.54 (0.33), residues: 155
+    sheet:  0.67 (0.86), residues: 44
+    loop : -0.97 (0.26), residues: 424
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 228  ASN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.17 %
+                favored =  97.16 %
+  Rotamer outliers      =   2.46 %
+  C-beta deviations     =     3
+  Clashscore            =   3.48
+  RMS(bonds)            =   0.0145
+  RMS(angles)           =   1.97
+  MolProbity score      =   1.59
+  Refinement program    = REFMAC

@@ -9,9 +9,10 @@ And was written in 2020 by Kristopher Nolte, Thorn Lab, University of Wuerzburg
 as part of the Coronavirus Structural Taskforce, insidecorona.net
 '''
 
-def main (id_dict, pdb_id, repo_path):
-    for element in id_dict:
-        file_walker(protein_chooser(element, repo_path),pdb_id)
+def main (prot_list, pdb_id, repo_path, taxo):
+    for element in prot_list:
+        if element != "not_assigned":
+            file_walker(protein_chooser(element, repo_path),pdb_id,taxo)
 
 def protein_chooser (prot_name, repo_path):
     #which protein should be compared
@@ -79,13 +80,10 @@ def aligner (seq_1, seq_2, doc, model_seq):
         doc.write("Mismatch in {}\n".format(mismatch_list))
         doc.write("Unmodelled in {}\n\n".format(gap_list))
 
-def file_walker (path_repo, pdb_id):
-    taxo = "SARS-CoV-2"
+def file_walker (path_repo, pdb_id, taxo):
     ncbi_seq = seq_finder(path_repo)
     doc = open(path_repo+"/{}/structure_sequence_alignment.txt".format(taxo), "a+")
-    doc.write("This is the alignment of sequence in the pdb_file and the reference genome.\n"
-                  "For the alignment the python tool gemmi [https://gemmi.readthedocs.io/en/latest/index.html] was used.\n"
-                  "Scoring is done by a BLOSUM62 matrix\n")
+
     for dirpath, dirnames, files in os.walk(path_repo+"/"+taxo):
         for key in pdb_id:
             if dirpath.endswith(key):
@@ -105,5 +103,3 @@ def file_walker (path_repo, pdb_id):
                         aligner(seq_depo, prot_seq, doc, True)
                         i += 2
     doc.close()
-
-

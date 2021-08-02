@@ -24,12 +24,17 @@ KEYWDS   3 PROTEIN
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    X.NI,S.KNAPP,A.CHAIKUAD,STRUCTURAL GENOMICS CONSORTIUM,STRUCTURAL     
 AUTHOR   2 GENOMICS CONSORTIUM (SGC)                                            
+REVDAT   2   07-JUL-21 7BF4    1       JRNL                                     
 REVDAT   1   13-JAN-21 7BF4    0                                                
-JRNL        AUTH   X.NI,S.KNAPP,A.CHAIKUAD,STRUCTURAL GENOMICS CONSORTIUM       
-JRNL        TITL   CRYSTAL STRUCTURE OF SARS-COV-2 MACRODOMAIN IN COMPLEX WITH  
-JRNL        TITL 2 GMP                                                          
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   X.NI,M.SCHRODER,V.OLIERIC,M.E.SHARPE,V.HERNANDEZ-OLMOS,      
+JRNL        AUTH 2 E.PROSCHAK,D.MERK,S.KNAPP,A.CHAIKUAD                         
+JRNL        TITL   STRUCTURAL INSIGHTS INTO PLASTICITY AND DISCOVERY OF         
+JRNL        TITL 2 REMDESIVIR METABOLITE GS-441524 BINDING IN SARS-COV-2        
+JRNL        TITL 3 MACRODOMAIN.                                                 
+JRNL        REF    ACS MED.CHEM.LETT.            V.  12   603 2021              
+JRNL        REFN                   ISSN 1948-5875                               
+JRNL        PMID   33850605                                                     
+JRNL        DOI    10.1021/ACSMEDCHEMLETT.0C00684                               
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.55 ANGSTROMS.                                       
 REMARK   3                                                                      

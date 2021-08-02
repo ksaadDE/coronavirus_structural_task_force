@@ -1,0 +1,224 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 10939
+     H or D atoms   : 5340
+     chains         : 6
+     a.a. residues  : 740
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 0
+   Ligands: None
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   D  32  THR  C      
+   D  33  PHE  N           1.33     1.39    -0.06  1.44e-02  1.70e+01   4.1*sigma
+   C 154  ASN  CG     
+   C 154  ASN  ND2         1.33     1.23     0.10  2.10e-02  2.05e+01   4.5*sigma
+   B  83  GLN  CD     
+   B  83  GLN  NE2         1.33     1.45    -0.13  2.10e-02  3.60e+01   6.0*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.126 (Z=  7.211)
+  Mean delta:    0.016 (Z=  0.891)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   E  64  PRO  C      
+   E  65  VAL  N      
+   E  65  VAL  CA        120.64   127.30    -6.66  1.64e+00  1.65e+01   4.1*sigma
+   E 106  ILE  N      
+   E 106  ILE  CA     
+   E 106  ILE  C         109.34   118.37    -9.03  2.08e+00  1.88e+01   4.3*sigma
+   F  32  THR  C      
+   F  32  THR  CA     
+   F  32  THR  CB        111.36   118.58    -7.22  1.63e+00  1.96e+01   4.4*sigma
+   E  32  THR  CA     
+   E  32  THR  CB     
+   E  32  THR  CG2       110.50   118.71    -8.21  1.70e+00  2.33e+01   4.8*sigma
+   E  65  VAL  N      
+   E  65  VAL  CA     
+   E  65  VAL  CB        111.50   100.16    11.34  2.22e+00  2.61e+01   5.1*sigma
+   E  32  THR  C      
+   E  32  THR  CA     
+   E  32  THR  CB        111.26   120.17    -8.91  1.67e+00  2.84e+01   5.3*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   11.950 (Z=  5.333)
+  Mean delta:    1.497 (Z=  0.839)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   E 105  GLY  CA     
+   E 105  GLY  C      
+   E 106  ILE  N      
+   E 106  ILE  CA        180.00   159.94    20.06  5.00e+00  1.61e+01   4.0*sigma
+   D 104  GLY  CA     
+   D 104  GLY  C      
+   D 105  GLY  N      
+   D 105  GLY  CA        180.00   159.87    20.13  5.00e+00  1.62e+01   4.0*sigma
+   D 105  GLY  CA     
+   D 105  GLY  C      
+   D 106  ILE  N      
+   D 106  ILE  CA        180.00   159.54    20.46  5.00e+00  1.68e+01   4.1*sigma
+   F 104  GLY  CA     
+   F 104  GLY  C      
+   F 105  GLY  N      
+   F 105  GLY  CA        180.00   159.25    20.75  5.00e+00  1.72e+01   4.1*sigma
+   F 105  GLY  CA     
+   F 105  GLY  C      
+   F 106  ILE  N      
+   F 106  ILE  CA        180.00   159.14    20.86  5.00e+00  1.74e+01   4.2*sigma
+   E 104  GLY  CA     
+   E 104  GLY  C      
+   E 105  GLY  N      
+   E 105  GLY  CA        180.00   158.97    21.03  5.00e+00  1.77e+01   4.2*sigma
+   A  82  ASP  CA     
+   A  82  ASP  C      
+   A  83  GLN  N      
+   A  83  GLN  CA        180.00  -157.64   -22.36  5.00e+00  2.00e+01   4.5*sigma
+
+  Min. delta:    0.001
+  Max. delta:   76.176
+  Mean delta:   12.447
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.458
+  Mean delta:    0.078
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   E 106  ILE  CA     
+   E 106  ILE  C      
+   E 106  ILE  O      
+   E 107  THR  N             0.048       0.083       23.00   4.1*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.072
+  Mean delta:    0.012
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 5340
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 5340
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 0
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 0
+  Number of water with 0 H (or D)            : 0
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 0
+  Number of water without oxygen atom        : 0
+
+                    ----------MISSING H or D atoms----------                   
+
+  HIS A  59  conformer  : HD1 
+  ARG A  92  conformer  : HE, HG2, HH22, HH21, HD2, HH12, HH11, HB2, HB3, HG3, HD3 
+  ARG A  93  conformer  : HE, HG2, HH22, HH21, HD2, HH12, HH11, HB2, HB3, HG3, HD3 
+  MET A 101  conformer  : HE1, HE2, HE3, H, HG2, HB2, HB3, HG3 
+  LYS A 102  conformer  : HE2, HG2, HZ1, HZ3, HZ2, HD2, HB2, HB3, HG3, HD3, HE3 
+  HIS A 145  conformer  : HD1 
+  GLU A 174  conformer  : HG2, HB2, HB3, HG3 
+  ALA B  48  conformer  : H 
+  HIS B  59  conformer  : HD1 
+  ARG B  92  conformer  : HE, HG2, HH22, HH21, HD2, HH12, HH11, HB2, HB3, HG3, HD3 
+  ARG B  93  conformer  : HE, HG2, HH22, HH21, HD2, HH12, HH11, HB2, HB3, HG3, HD3 
+  LEU B 104  conformer  : H 
+  HIS B 145  conformer  : HD1 
+  GLU B 174  conformer  : HG2, HB2, HB3, HG3 
+  ALA C  48  conformer  : H 
+  HIS C  59  conformer  : HE2 
+  ARG C  92  conformer  : HE, HG2, HH22, HH21, HD2, HH12, HH11, HB2, HB3, HG3, HD3 
+  SER C 105  conformer  : H 
+  HIS C 145  conformer  : HD1 
+  GLU C 174  conformer  : HG2, HB2, HB3, HG3 
+  CYS D  22  conformer  : HG 
+  CYS D  97  conformer  : HG 
+  CYS E  22  conformer  : HG 
+  CYS E  97  conformer  : HG 
+  CYS F  22  conformer  : HG 
+  CYS F  97  conformer  : HG 
+
+                       ----------Angle outliers----------                      
+
+   D 103  LEU  HG , Angle CD2-CG-HG, observed: 120.640, delta from target: -12.640
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.016   0.126   5740
+    Angle     :  1.497  11.950   7808
+    Chirality :  0.078   0.458    826
+    Planarity :  0.012   0.072   1026
+    Dihedral  : 12.447  76.176   2018
+    Min Nonbonded Distance : 2.202
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 7.04
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  2.63 %
+      Favored  : 97.37 %
+    Rotamer Outliers :  2.47 %
+    Cbeta Deviations :  0.46 %
+    Peptide Plane:
+      Cis-proline     : 7.14 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole:  0.04 (0.28), residues: 722
+    helix:  None (None), residues: 0
+    sheet:  0.57 (0.34), residues: 199
+    loop : -0.16 (0.25), residues: 523
+
+                     ----------Asn/Gln/His flips----------                     
+
+   F   5  GLN
+   F 119  GLN
+   E   5  GLN
+   B  83  GLN
+   A  83  GLN
+   B 154  ASN
+   C 154  ASN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  97.37 %
+  Rotamer outliers      =   2.47 %
+  C-beta deviations     =     3
+  Clashscore            =   7.04
+  RMS(bonds)            =   0.0157
+  RMS(angles)           =   1.50
+  MolProbity score      =   1.81
+  Refinement program    = PHENIX

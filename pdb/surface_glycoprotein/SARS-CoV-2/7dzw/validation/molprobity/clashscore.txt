@@ -1,0 +1,41 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ B 586  ASP  N    C 842  GLY  HA3 :0.848
+ B 586  ASP  CA   C 844  ILE  H   :0.811
+ B 199  GLY  HA2  B 232  GLY  HA2 :0.806
+ B 199  GLY  CA   B 232  GLY  HA2 :0.730
+ B 586  ASP  CA   C 843  ASP  N   :0.717
+ A 136  CYS  H    A 159  VAL  CA  :0.706
+ B 585  LEU  C    C 842  GLY  HA3 :0.679
+ B 575  ALA  CA   C 843  ASP  CA  :0.676
+ B 199  GLY  C    B 232  GLY  HA2 :0.675
+ C 729  VAL  H    C1059  GLY  HA2 :0.637
+ B 587  ILE  CA   C 842  GLY  N   :0.600
+ B 587  ILE  N    C 842  GLY  C   :0.574
+ B 586  ASP  C    C 844  ILE  H   :0.559
+ C 142  GLY  HA3  C 244  LEU  O   :0.552
+ B 587  ILE  N    C 843  ASP  N   :0.539
+ B 585  LEU  O    C 843  ASP  N   :0.539
+ B 586  ASP  CA   C 843  ASP  CA  :0.496
+ A  44  ARG  O    A 283  GLY  HA2 :0.487
+ B 729  VAL  H    B1059  GLY  HA2 :0.468
+ A 138  ASP  C    A 140  PHE  H   :0.463
+ B 586  ASP  O    C 841  LEU  C   :0.454
+ B 148  ASN  C    B 150  LYS  H   :0.452
+ A 320  VAL  CA   A 623  ALA  CA  :0.445
+ B 553  THR  N    C 841  LEU  O   :0.439
+ A 109  THR  C    A 111  ASP  H   :0.425
+ B 586  ASP  CA   C 844  ILE  N   :0.424
+ A 729  VAL  H    A1059  GLY  HA2 :0.423
+ C 698  SER  C    C 700  GLY  H   :0.421
+ A 145  TYR  N    A 246  ARG  O   :0.417
+ B 588  THR  N    C 841  LEU  N   :0.416
+ B 553  THR  H    C 841  LEU  C   :0.412
+ B 551  VAL  O    C 841  LEU  CA  :0.412
+ B 586  ASP  C    C 843  ASP  N   :0.411
+ B 586  ASP  O    C 840  CYS  O   :0.405
+clashscore = 1.99

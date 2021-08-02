@@ -18,14 +18,17 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008
 KEYWDS    PROTEASE, BOCEPREVIR, INHIBITOR, VIRAL PROTEIN                        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.OERLEMANS,W.WANG,S.LUNEV,A.DOMLING,M.R.GROVES                       
+REVDAT   3   09-JUN-21 6ZRU    1       JRNL                                     
 REVDAT   2   24-FEB-21 6ZRU    1       JRNL   LINK                              
 REVDAT   1   12-AUG-20 6ZRU    0                                                
-JRNL        AUTH   R.OERLEMANS,A.J.RUIZ-MORENO,Y.CONG,M.A.VELASCO-VELAZQUEZ,    
-JRNL        AUTH 2 C.G.NEOCHORITIS,J.SMITH,F.REGGIORI,M.R.GROVES,A.DOMLING      
+JRNL        AUTH   R.OERLEMANS,A.J.RUIZ-MORENO,Y.CONG,N.DINESH KUMAR,           
+JRNL        AUTH 2 M.A.VELASCO-VELAZQUEZ,C.G.NEOCHORITIS,J.SMITH,F.REGGIORI,    
+JRNL        AUTH 3 M.R.GROVES,A.DOMLING                                         
 JRNL        TITL   REPURPOSING THE HCV NS3-4A PROTEASE DRUG BOCEPREVIR AS       
-JRNL        TITL 2 COVID-19 THERAPEUTICS                                        
-JRNL        REF    RSC MED CHEM                               2021              
+JRNL        TITL 2 COVID-19 THERAPEUTICS.                                       
+JRNL        REF    RSC MED CHEM                  V.  12   370 2020              
 JRNL        REFN                   ESSN 2632-8682                               
+JRNL        PMID   34041486                                                     
 JRNL        DOI    10.1039/D0MD00367K                                           
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       

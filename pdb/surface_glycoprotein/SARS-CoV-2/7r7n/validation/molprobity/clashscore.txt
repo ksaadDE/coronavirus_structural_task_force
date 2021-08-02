@@ -1,0 +1,10 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ H 115  PRO  O    H 116  TRP  CD1 :0.480
+ H 114  ASP  CB   H 115  PRO  CD  :0.439
+ L  58  VAL  HA   L  59  PRO  HD3 :0.418
+clashscore = 0.58

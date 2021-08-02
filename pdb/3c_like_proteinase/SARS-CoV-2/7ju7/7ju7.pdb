@@ -24,12 +24,35 @@ KEYWDS   3 CSGID, HYDROLASE
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    K.TAN,N.I.MALTSEVA,L.F.WELK,R.P.JEDRZEJCZAK,A.JOACHIMIAK,CENTER FOR   
 AUTHOR   2 STRUCTURAL GENOMICS OF INFECTIOUS DISEASES (CSGID)                   
+REVDAT   2   28-JUL-21 7JU7    1       JRNL                                     
 REVDAT   1   09-SEP-20 7JU7    0                                                
-JRNL        AUTH   K.TAN,N.I.MALTSEVA,L.F.WELK,R.P.JEDRZEJCZAK,A.JOACHIMIAK     
-JRNL        TITL   THE CRYSTAL STRUCTURE OF SARS-COV-2 MAIN PROTEASE IN COMPLEX 
-JRNL        TITL 2 WITH MASITINIB.                                              
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   N.DRAYMAN,J.K.DEMARCO,K.A.JONES,S.-A.AZIZI,H.M.FROGGATT,     
+JRNL        AUTH 2 K.TAN,N.I.MALTSEVA,S.CHEN,V.NICOLAESCU,S.DVORKIN,K.FURLONG,  
+JRNL        AUTH 3 R.S.KATHAYAT,M.R.FIRPO,V.MASTRODOMENICO,E.A.BRUCE,           
+JRNL        AUTH 4 M.M.SCHMIDT,R.P.JEDRZEJCZAK,M.A.MUNOZ-ALIA,B.SCHUSTER,       
+JRNL        AUTH 5 V.NAIR,K.HAN,A.O'BRIEN,A.TOMATSIDOU,B.MEYER,M.VIGNUZZI,      
+JRNL        AUTH 6 D.MISSIAKAS,J.W.BOTTEN,C.B.BROOKE,H.LEE,S.C.BAKER,           
+JRNL        AUTH 7 B.C.MOUNCE,N.S.HEATON,W.E.SEVERSON,K.E.PALMER,B.C.DICKINSON, 
+JRNL        AUTH 8 A.JOACHIMIAK,G.RANDALL,S.TAY                                 
+JRNL        TITL   MASITINIB IS A BROAD CORONAVIRUS 3CL INHIBITOR THAT BLOCKS   
+JRNL        TITL 2 REPLICATION OF SARS-COV-2                                    
+JRNL        REF    SCIENCE                                    2021              
+JRNL        REFN                   ESSN 1095-9203                               
+JRNL        DOI    10.1126/SCIENCE.ABG5827                                      
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   N.DRAYMAN,K.A.JONES,S.A.AZIZI,H.M.FROGGATT,K.TAN,            
+REMARK   1  AUTH 2 N.I.MALTSEVA,S.CHEN,V.NICOLAESCU,S.DVORKIN,K.FURLONG,        
+REMARK   1  AUTH 3 R.S.KATHAYAT,M.R.FIRPO,V.MASTRODOMENICO,E.A.BRUCE,           
+REMARK   1  AUTH 4 M.M.SCHMIDT,R.JEDRZEJCZAK,M.A.MUNOZ-ALIA,B.SCHUSTER,V.NAIR,  
+REMARK   1  AUTH 5 J.W.BOTTEN,C.B.BROOKE,S.C.BAKER,B.C.MOUNCE,N.S.HEATON,       
+REMARK   1  AUTH 6 B.C.DICKINSON,A.JAOCHIMIAK,G.RANDALL,S.TAY                   
+REMARK   1  TITL   DRUG REPURPOSING SCREEN IDENTIFIES MASITINIB AS A 3CLPRO     
+REMARK   1  TITL 2 INHIBITOR THAT BLOCKS REPLICATION OF SARS-COV-2 IN VITRO .   
+REMARK   1  REF    BIORXIV                                    2020              
+REMARK   1  REFN                                                                
+REMARK   1  PMID   32908976                                                     
+REMARK   1  DOI    10.1101/2020.08.31.274639                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.60 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -5536,5 +5559,5 @@ CONECT 2413 2411 2414 2415
 CONECT 2414 2413                                                                
 CONECT 2415 2413 2416                                                           
 CONECT 2416 2415                                                                
-MASTER      400    0    4   10   15    0    9    6 2583    1   52   24          
+MASTER      414    0    4   10   15    0    9    6 2583    1   52   24          
 END                                                                             

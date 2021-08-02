@@ -1,0 +1,23 @@
+ 
+****** Ligand validation details (R8H A 404) ******
+ 
+                                    Before  Final
+Real-space R-factor               : 0.094   0.082
+Real-space correlation            : 0.961   0.970
+EDIAm density fit                 : 0.711   0.690
+OPIA density coverage (%)         : 72.2    72.2
+ 
+Energy of formation (kJ/mol)      : 373.174 402.272
+Hydrogen bond energy (kJ/mol)     : -60.8  -55.65
+Number of hydrogen bonds          : 4  4
+Number of bumps                   : 11  11
+Number of hydrophobic interactions: 26  26
+Hydrophobic interaction strength  : 22.898  24.236
+Number of Pi-Pi interactions      : 5  5
+Pi-Pi interaction strength        : 4.404  4.384
+Number of cation-Pi interactions  : 0  0
+Cation-Pi interaction strength    : 0.000  0.000
+ 
+Atoms shifted more than 0.50A     : 0
+All atom RMSD for residue (A)     : 0.1054
+ 

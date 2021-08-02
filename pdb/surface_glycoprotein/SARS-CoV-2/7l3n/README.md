@@ -8,7 +8,9 @@
 
 **Method**: Cryo-EM
 
+## Description
 
+EM structure of SARS-CoV-2 spike protein bound to the antibody LY-CoV555. Hetero pentamer, spike protein with three chains and antibody with one heavy and one light chain. Ly-CoV555 has a high affinity binding to the receptor binding domain and ACE2 binding inhibition.
 
 ## Basefolder
 
@@ -20,7 +22,7 @@
 
 
 
-
+**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/surface_glycoprotein/SARS-CoV-2/7l3n/validation/molprobity)   [**CCPEM**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/surface_glycoprotein/SARS-CoV-2/7l3n/validation/ccpem-validation) 
 
 
 
@@ -40,6 +42,11 @@ Primary map emd_23156.map available. **Click** [here](http://ftp.wwpdb.org/pub/e
 |   | Frame Sampling | Electron Dose |
 |---|-------------:|----------------:|
 |   |1.047 Å|37.2 e<sup>-</sup>/Å<sup>2</sup>|
+
+**Geometry validation (the lower, the better)**
+|   |**MolProbity<br>score**| **Ramachandran<br>outliers** | **CaBLAM<br>Conformation outliers** | **CaBLAM<br>CA outliers** |
+|---|-------------:|----------------:|----------------:|----------------:|
+||  1.86|  0.00 %|2.5 %|0.58 %|
 
 ## HARUSPEX results
 

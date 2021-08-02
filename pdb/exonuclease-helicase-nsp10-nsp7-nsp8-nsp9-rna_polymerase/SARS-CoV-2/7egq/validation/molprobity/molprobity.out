@@ -1,0 +1,1651 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 54547
+     H or D atoms   : 0
+     chains         : 32
+     a.a. residues  : 6644
+     nucleotides    : 116
+     water          : 0
+     other (ligands): 29
+   Ligands: ZN:26,MG:3
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   A 810  HIS  C      
+   A 810  HIS  O           1.23     1.15     0.08  2.00e-02  1.66e+01   4.1*sigma
+   J  25    G  O3'    
+   J  26    A  P           1.61     1.55     0.06  1.50e-02  1.69e+01   4.1*sigma
+   A 608  ASP  CA     
+   A 608  ASP  CB          1.53     1.45     0.08  2.00e-02  1.74e+01   4.2*sigma
+   M  25    G  O3'    
+   M  26    A  P           1.61     1.54     0.06  1.50e-02  1.78e+01   4.2*sigma
+   A 608  ASP  N      
+   A 608  ASP  CA          1.46     1.54    -0.08  1.90e-02  1.81e+01   4.3*sigma
+   A 810  HIS  CA     
+   A 810  HIS  CB          1.53     1.43     0.10  2.00e-02  2.29e+01   4.8*sigma
+   A 607  SER  CA     
+   A 607  SER  C           1.52     1.42     0.10  2.10e-02  2.35e+01   4.8*sigma
+   A 607  SER  N      
+   A 607  SER  CA          1.46     1.55    -0.09  1.90e-02  2.37e+01   4.9*sigma
+   A 810  HIS  N      
+   A 810  HIS  CA          1.46     1.36     0.10  1.90e-02  2.67e+01   5.2*sigma
+   A 810  HIS  CA     
+   A 810  HIS  C           1.52     1.41     0.11  2.10e-02  2.78e+01   5.3*sigma
+   M  18    A  C1'    
+   M  18    A  N9          1.48     1.39     0.08  1.50e-02  2.91e+01   5.4*sigma
+   M  19    A  C1'    
+   M  19    A  N9          1.48     1.39     0.09  1.50e-02  3.23e+01   5.7*sigma
+   M  23    C  C1'    
+   M  23    C  N1          1.47     1.56    -0.09  1.50e-02  3.26e+01   5.7*sigma
+   M  26    A  O3'    
+   M  27    C  P           1.61     1.51     0.09  1.50e-02  4.00e+01   6.3*sigma
+   J  26    A  O3'    
+   J  27    C  P           1.61     1.51     0.10  1.50e-02  4.04e+01   6.4*sigma
+   A 927  PRO  N      
+   A 927  PRO  CD          1.47     1.57    -0.09  1.40e-02  4.45e+01   6.7*sigma
+   M  21    G  C1'    
+   M  21    G  N9          1.48     1.37     0.10  1.50e-02  4.83e+01   7.0*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.111 (Z=  7.914)
+  Mean delta:    0.008 (Z=  0.415)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   N 608  ASP  N      
+   N 608  ASP  CA     
+   N 608  ASP  C         111.00    99.79    11.21  2.80e+00  1.60e+01   4.0*sigma
+   R 172  PRO  C      
+   R 173  ARG  N      
+   R 173  ARG  CA        121.70   128.95    -7.25  1.80e+00  1.62e+01   4.0*sigma
+   N 368  PHE  N      
+   N 368  PHE  CA     
+   N 368  PHE  C         111.00   122.29   -11.29  2.80e+00  1.63e+01   4.0*sigma
+   K 471  ALA  N      
+   K 471  ALA  CA     
+   K 471  ALA  C         111.00   122.31   -11.31  2.80e+00  1.63e+01   4.0*sigma
+   G  27  ASN  N      
+   G  27  ASN  CA     
+   G  27  ASN  CB        110.50   103.63     6.87  1.70e+00  1.63e+01   4.0*sigma
+   K 211  ASP  N      
+   K 211  ASP  CA     
+   K 211  ASP  C         111.00   122.32   -11.32  2.80e+00  1.63e+01   4.0*sigma
+   S 347  LYS  C      
+   S 347  LYS  CA     
+   S 347  LYS  CB        110.10   102.41     7.69  1.90e+00  1.64e+01   4.0*sigma
+   X 387  CYS  N      
+   X 387  CYS  CA     
+   X 387  CYS  C         111.00    99.56    11.44  2.80e+00  1.67e+01   4.1*sigma
+   A 445  ASP  C      
+   A 445  ASP  CA     
+   A 445  ASP  CB        110.10   102.32     7.78  1.90e+00  1.67e+01   4.1*sigma
+   O  31  SER  N      
+   O  31  SER  CA     
+   O  31  SER  CB        110.50   103.53     6.97  1.70e+00  1.68e+01   4.1*sigma
+   S 347  LYS  N      
+   S 347  LYS  CA     
+   S 347  LYS  CB        110.50   103.51     6.99  1.70e+00  1.69e+01   4.1*sigma
+   U  68  PHE  C      
+   U  68  PHE  CA     
+   U  68  PHE  CB        110.10   102.26     7.84  1.90e+00  1.70e+01   4.1*sigma
+   X 222  ASP  C      
+   X 222  ASP  CA     
+   X 222  ASP  CB        110.10   117.95    -7.85  1.90e+00  1.71e+01   4.1*sigma
+   S 346  PHE  C      
+   S 346  PHE  CA     
+   S 346  PHE  CB        110.10   102.25     7.85  1.90e+00  1.71e+01   4.1*sigma
+   F 289  SER  N      
+   F 289  SER  CA     
+   F 289  SER  C         111.00    99.43    11.57  2.80e+00  1.71e+01   4.1*sigma
+   U  86  PRO  N      
+   U  86  PRO  CA     
+   U  86  PRO  CB        103.00    98.45     4.55  1.10e+00  1.71e+01   4.1*sigma
+   N 105  ARG  CB     
+   N 105  ARG  CG     
+   N 105  ARG  CD        111.30   120.82    -9.52  2.30e+00  1.71e+01   4.1*sigma
+   R 340  VAL  C      
+   R 340  VAL  CA     
+   R 340  VAL  CB        111.40   103.53     7.87  1.90e+00  1.71e+01   4.1*sigma
+   A 105  ARG  CB     
+   A 105  ARG  CG     
+   A 105  ARG  CD        111.30   120.85    -9.55  2.30e+00  1.72e+01   4.2*sigma
+   F 377  SER  C      
+   F 377  SER  CA     
+   F 377  SER  CB        110.10   118.05    -7.95  1.90e+00  1.75e+01   4.2*sigma
+   A 807  LYS  N      
+   A 807  LYS  CA     
+   A 807  LYS  C         111.00    99.26    11.74  2.80e+00  1.76e+01   4.2*sigma
+   O 141  THR  C      
+   O 141  THR  CA     
+   O 141  THR  CB        109.10    99.83     9.27  2.20e+00  1.78e+01   4.2*sigma
+   U  73  CYS  N      
+   U  73  CYS  CA     
+   U  73  CYS  C         111.00   122.84   -11.84  2.80e+00  1.79e+01   4.2*sigma
+   E 484  VAL  N      
+   E 484  VAL  CA     
+   E 484  VAL  C         111.00   122.93   -11.93  2.80e+00  1.81e+01   4.3*sigma
+   A 810  HIS  N      
+   A 810  HIS  CA     
+   A 810  HIS  CB        110.50   103.26     7.24  1.70e+00  1.81e+01   4.3*sigma
+   A 368  PHE  N      
+   A 368  PHE  CA     
+   A 368  PHE  C         111.00   122.96   -11.96  2.80e+00  1.82e+01   4.3*sigma
+   U  85  ASN  N      
+   U  85  ASN  CA     
+   U  85  ASN  C         111.00    99.01    11.99  2.80e+00  1.83e+01   4.3*sigma
+   F 188  THR  C      
+   F 188  THR  CA     
+   F 188  THR  CB        109.10   118.54    -9.44  2.20e+00  1.84e+01   4.3*sigma
+   O  30  ASP  N      
+   O  30  ASP  CA     
+   O  30  ASP  C         111.00    98.99    12.01  2.80e+00  1.84e+01   4.3*sigma
+   N 856  ILE  N      
+   N 856  ILE  CA     
+   N 856  ILE  C         111.00    98.92    12.08  2.80e+00  1.86e+01   4.3*sigma
+   R 470  GLN  N      
+   R 470  GLN  CA     
+   R 470  GLN  CB        110.50   117.84    -7.34  1.70e+00  1.86e+01   4.3*sigma
+   X 248  GLY  N      
+   X 248  GLY  CA     
+   X 248  GLY  C         113.30   125.84   -12.54  2.90e+00  1.87e+01   4.3*sigma
+   K 453  GLU  C      
+   K 454  SER  N      
+   K 454  SER  CA        121.70   129.55    -7.85  1.80e+00  1.90e+01   4.4*sigma
+   X 461  SER  N      
+   X 461  SER  CA     
+   X 461  SER  C         111.00    98.76    12.24  2.80e+00  1.91e+01   4.4*sigma
+   X 482  ALA  N      
+   X 482  ALA  CA     
+   X 482  ALA  CB        110.40   116.97    -6.57  1.50e+00  1.92e+01   4.4*sigma
+   X 460  VAL  N      
+   X 460  VAL  CA     
+   X 460  VAL  C         111.00   123.27   -12.27  2.80e+00  1.92e+01   4.4*sigma
+   R  44  SER  N      
+   R  44  SER  CA     
+   R  44  SER  C         111.00   123.28   -12.28  2.80e+00  1.92e+01   4.4*sigma
+   N 220  GLY  N      
+   N 220  GLY  CA     
+   N 220  GLY  C         113.30   100.54    12.76  2.90e+00  1.94e+01   4.4*sigma
+   A 109  ASP  N      
+   A 109  ASP  CA     
+   A 109  ASP  C         111.00   123.36   -12.36  2.80e+00  1.95e+01   4.4*sigma
+   R 484  VAL  N      
+   R 484  VAL  CA     
+   R 484  VAL  CB        111.50   103.99     7.51  1.70e+00  1.95e+01   4.4*sigma
+   O 142  CYS  N      
+   O 142  CYS  CA     
+   O 142  CYS  C         111.00    98.53    12.47  2.80e+00  1.98e+01   4.5*sigma
+   F 537  GLN  N      
+   F 537  GLN  CA     
+   F 537  GLN  C         111.00    98.49    12.51  2.80e+00  1.99e+01   4.5*sigma
+   A 929  THR  N      
+   A 929  THR  CA     
+   A 929  THR  CB        111.50   119.09    -7.59  1.70e+00  2.00e+01   4.5*sigma
+   K  62  MET  C      
+   K  62  MET  CA     
+   K  62  MET  CB        110.10   101.60     8.50  1.90e+00  2.00e+01   4.5*sigma
+   S 456  VAL  N      
+   S 456  VAL  CA     
+   S 456  VAL  CB        111.50   119.11    -7.61  1.70e+00  2.00e+01   4.5*sigma
+   X  64  TYR  N      
+   X  64  TYR  CA     
+   X  64  TYR  CB        110.50   118.13    -7.63  1.70e+00  2.01e+01   4.5*sigma
+   U  73  CYS  N      
+   U  73  CYS  CA     
+   U  73  CYS  CB        110.50   102.85     7.65  1.70e+00  2.03e+01   4.5*sigma
+   R 168  GLU  C      
+   R 168  GLU  CA     
+   R 168  GLU  CB        110.10   118.69    -8.59  1.90e+00  2.04e+01   4.5*sigma
+   K 458  GLN  N      
+   K 458  GLN  CA     
+   K 458  GLN  C         111.00    98.30    12.70  2.80e+00  2.06e+01   4.5*sigma
+   F 327  ILE  C      
+   F 328  ASP  N      
+   F 328  ASP  CA        121.70   129.90    -8.20  1.80e+00  2.08e+01   4.6*sigma
+   U  72  SER  C      
+   U  72  SER  CA     
+   U  72  SER  CB        110.10   118.76    -8.66  1.90e+00  2.08e+01   4.6*sigma
+   N  15  SER  N      
+   N  15  SER  CA     
+   N  15  SER  C         111.00    98.19    12.81  2.80e+00  2.09e+01   4.6*sigma
+   N 303  ASP  N      
+   N 303  ASP  CA     
+   N 303  ASP  CB        110.50   118.31    -7.81  1.70e+00  2.11e+01   4.6*sigma
+   R 484  VAL  N      
+   R 484  VAL  CA     
+   R 484  VAL  C         111.00   123.88   -12.88  2.80e+00  2.11e+01   4.6*sigma
+   A   5  GLN  N      
+   A   5  GLN  CA     
+   A   5  GLN  C         111.00    98.11    12.89  2.80e+00  2.12e+01   4.6*sigma
+   S 456  VAL  N      
+   S 456  VAL  CA     
+   S 456  VAL  C         111.00    98.10    12.90  2.80e+00  2.12e+01   4.6*sigma
+   N 105  ARG  CD     
+   N 105  ARG  NE     
+   N 105  ARG  CZ        124.40   130.87    -6.47  1.40e+00  2.14e+01   4.6*sigma
+   J  24    U  C4'    
+   J  24    U  C3'    
+   J  24    U  O3'       113.00   119.95    -6.95  1.50e+00  2.15e+01   4.6*sigma
+   X 386  ASN  C      
+   X 386  ASN  CA     
+   X 386  ASN  CB        110.10   101.29     8.81  1.90e+00  2.15e+01   4.6*sigma
+   U  90  CYS  N      
+   U  90  CYS  CA     
+   U  90  CYS  C         111.00    98.01    12.99  2.80e+00  2.15e+01   4.6*sigma
+   K 458  GLN  N      
+   K 458  GLN  CA     
+   K 458  GLN  CB        110.50   118.41    -7.91  1.70e+00  2.17e+01   4.7*sigma
+   K  30  ASP  N      
+   K  30  ASP  CA     
+   K  30  ASP  C         111.00    97.94    13.06  2.80e+00  2.18e+01   4.7*sigma
+   A 927  PRO  N      
+   A 927  PRO  CA     
+   A 927  PRO  CB        103.00   108.13    -5.13  1.10e+00  2.18e+01   4.7*sigma
+   N 847  ILE  C      
+   N 847  ILE  CA     
+   N 847  ILE  CB        111.60   102.25     9.35  2.00e+00  2.18e+01   4.7*sigma
+   E 149  TYR  N      
+   E 149  TYR  CA     
+   E 149  TYR  C         111.00   124.09   -13.09  2.80e+00  2.19e+01   4.7*sigma
+   A 105  ARG  CD     
+   A 105  ARG  NE     
+   A 105  ARG  CZ        124.40   130.95    -6.55  1.40e+00  2.19e+01   4.7*sigma
+   B 182  TRP  N      
+   B 182  TRP  CA     
+   B 182  TRP  C         111.00   124.10   -13.10  2.80e+00  2.19e+01   4.7*sigma
+   N 647  SER  N      
+   N 647  SER  CA     
+   N 647  SER  C         111.00    97.83    13.17  2.80e+00  2.21e+01   4.7*sigma
+   X 422  ASN  N      
+   X 422  ASN  CA     
+   X 422  ASN  CB        110.50   102.49     8.01  1.70e+00  2.22e+01   4.7*sigma
+   U  90  CYS  N      
+   U  90  CYS  CA     
+   U  90  CYS  CB        110.50   102.42     8.08  1.70e+00  2.26e+01   4.8*sigma
+   R 344  ASP  N      
+   R 344  ASP  CA     
+   R 344  ASP  CB        110.50   102.41     8.09  1.70e+00  2.26e+01   4.8*sigma
+   B   9  LEU  N      
+   B   9  LEU  CA     
+   B   9  LEU  CB        110.50   118.60    -8.10  1.70e+00  2.27e+01   4.8*sigma
+   A  39  ASN  C      
+   A  39  ASN  CA     
+   A  39  ASN  CB        110.10   101.02     9.08  1.90e+00  2.29e+01   4.8*sigma
+   X 249  PHE  N      
+   X 249  PHE  CA     
+   X 249  PHE  CB        110.50   102.33     8.17  1.70e+00  2.31e+01   4.8*sigma
+   K 250  THR  N      
+   K 250  THR  CA     
+   K 250  THR  C         111.00   124.52   -13.52  2.80e+00  2.33e+01   4.8*sigma
+   N 152  CYS  C      
+   N 152  CYS  CA     
+   N 152  CYS  CB        110.10   100.89     9.21  1.90e+00  2.35e+01   4.8*sigma
+   S 327  ILE  C      
+   S 328  ASP  N      
+   S 328  ASP  CA        121.70   130.43    -8.73  1.80e+00  2.35e+01   4.9*sigma
+   X 250  THR  N      
+   X 250  THR  CA     
+   X 250  THR  C         111.00   124.61   -13.61  2.80e+00  2.36e+01   4.9*sigma
+   F 378  MET  N      
+   F 378  MET  CA     
+   F 378  MET  CB        110.50   102.20     8.30  1.70e+00  2.39e+01   4.9*sigma
+   N 302  LEU  C      
+   N 302  LEU  CA     
+   N 302  LEU  CB        110.10   100.80     9.30  1.90e+00  2.40e+01   4.9*sigma
+   K 372  THR  N      
+   K 372  THR  CA     
+   K 372  THR  C         111.00   124.71   -13.71  2.80e+00  2.40e+01   4.9*sigma
+   S  67  GLY  N      
+   S  67  GLY  CA     
+   S  67  GLY  C         113.30    99.10    14.20  2.90e+00  2.40e+01   4.9*sigma
+   A 647  SER  N      
+   A 647  SER  CA     
+   A 647  SER  C         111.00    97.28    13.72  2.80e+00  2.40e+01   4.9*sigma
+   A 446  GLY  N      
+   A 446  GLY  CA     
+   A 446  GLY  C         113.30   127.56   -14.26  2.90e+00  2.42e+01   4.9*sigma
+   A 810  HIS  N      
+   A 810  HIS  CA     
+   A 810  HIS  C         111.00    97.22    13.78  2.80e+00  2.42e+01   4.9*sigma
+   F 289  SER  C      
+   F 289  SER  CA     
+   F 289  SER  CB        110.10   100.73     9.37  1.90e+00  2.43e+01   4.9*sigma
+   N 277  GLU  CA     
+   N 277  GLU  CB     
+   N 277  GLU  CG        114.10   123.98    -9.88  2.00e+00  2.44e+01   4.9*sigma
+   A 504  PHE  C      
+   A 504  PHE  CA     
+   A 504  PHE  CB        110.10   100.71     9.39  1.90e+00  2.44e+01   4.9*sigma
+   A 752  HIS  C      
+   A 752  HIS  CA     
+   A 752  HIS  CB        110.10   119.51    -9.41  1.90e+00  2.45e+01   5.0*sigma
+   R 483  ASP  C      
+   R 483  ASP  CA     
+   R 483  ASP  CB        110.10   100.69     9.41  1.90e+00  2.45e+01   5.0*sigma
+   A 277  GLU  CA     
+   A 277  GLU  CB     
+   A 277  GLU  CG        114.10   124.01    -9.91  2.00e+00  2.45e+01   5.0*sigma
+   S 455  LEU  C      
+   S 455  LEU  CA     
+   S 455  LEU  CB        110.10   100.69     9.41  1.90e+00  2.45e+01   5.0*sigma
+   A 851  ASP  N      
+   A 851  ASP  CA     
+   A 851  ASP  C         111.00    97.11    13.89  2.80e+00  2.46e+01   5.0*sigma
+   A 107  ASP  C      
+   A 107  ASP  CA     
+   A 107  ASP  CB        110.10   100.66     9.44  1.90e+00  2.47e+01   5.0*sigma
+   A 903  TYR  C      
+   A 903  TYR  CA     
+   A 903  TYR  CB        110.10   100.62     9.48  1.90e+00  2.49e+01   5.0*sigma
+   Q 100  ASN  N      
+   Q 100  ASN  CA     
+   Q 100  ASN  CB        110.50   102.01     8.49  1.70e+00  2.50e+01   5.0*sigma
+   T  25  ASP  C      
+   T  25  ASP  CA     
+   T  25  ASP  CB        110.10   100.57     9.53  1.90e+00  2.52e+01   5.0*sigma
+   K 210  CYS  C      
+   K 210  CYS  CA     
+   K 210  CYS  CB        110.10   100.53     9.57  1.90e+00  2.54e+01   5.0*sigma
+   K 197  TYR  C      
+   K 197  TYR  CA     
+   K 197  TYR  CB        110.10   119.69    -9.59  1.90e+00  2.55e+01   5.0*sigma
+   A  37  ILE  C      
+   A  37  ILE  CA     
+   A  37  ILE  CB        111.60   101.48    10.12  2.00e+00  2.56e+01   5.1*sigma
+   E 240  LEU  N      
+   E 240  LEU  CA     
+   E 240  LEU  CB        110.50   119.11    -8.61  1.70e+00  2.57e+01   5.1*sigma
+   X 474  ILE  CG1    
+   X 474  ILE  CB     
+   X 474  ILE  CG2       110.70    95.49    15.21  3.00e+00  2.57e+01   5.1*sigma
+   F 347  LYS  C      
+   F 347  LYS  CA     
+   F 347  LYS  CB        110.10   100.46     9.64  1.90e+00  2.57e+01   5.1*sigma
+   A 686  THR  N      
+   A 686  THR  CA     
+   A 686  THR  CB        111.50   102.87     8.63  1.70e+00  2.58e+01   5.1*sigma
+   F 417  LEU  C      
+   F 418  GLU  N      
+   F 418  GLU  CA        121.70   112.54     9.16  1.80e+00  2.59e+01   5.1*sigma
+   A 217  TYR  N      
+   A 217  TYR  CA     
+   A 217  TYR  CB        110.50   101.84     8.66  1.70e+00  2.60e+01   5.1*sigma
+   A  22  CYS  N      
+   A  22  CYS  CA     
+   A  22  CYS  C         111.00    96.72    14.28  2.80e+00  2.60e+01   5.1*sigma
+   N 686  THR  N      
+   N 686  THR  CA     
+   N 686  THR  CB        111.50   102.81     8.69  1.70e+00  2.62e+01   5.1*sigma
+   X 177  LEU  N      
+   X 177  LEU  CA     
+   X 177  LEU  C         111.00   125.33   -14.33  2.80e+00  2.62e+01   5.1*sigma
+   A 720  VAL  C      
+   A 721  ARG  N      
+   A 721  ARG  CA        121.70   112.49     9.21  1.80e+00  2.62e+01   5.1*sigma
+   S 538  GLY  N      
+   S 538  GLY  CA     
+   S 538  GLY  C         113.30   128.18   -14.88  2.90e+00  2.63e+01   5.1*sigma
+   X 417  GLY  N      
+   X 417  GLY  CA     
+   X 417  GLY  C         113.30    98.40    14.90  2.90e+00  2.64e+01   5.1*sigma
+   X  59  GLY  N      
+   X  59  GLY  CA     
+   X  59  GLY  C         113.30    98.37    14.93  2.90e+00  2.65e+01   5.1*sigma
+   Q  28  ASN  N      
+   Q  28  ASN  CA     
+   Q  28  ASN  C         111.00    96.48    14.52  2.80e+00  2.69e+01   5.2*sigma
+   S 442  ARG  N      
+   S 442  ARG  CA     
+   S 442  ARG  CB        110.50   101.67     8.83  1.70e+00  2.70e+01   5.2*sigma
+   A  69  TYR  N      
+   A  69  TYR  CA     
+   A  69  TYR  C         111.00    96.43    14.57  2.80e+00  2.71e+01   5.2*sigma
+   N 446  GLY  N      
+   N 446  GLY  CA     
+   N 446  GLY  C         113.30   128.47   -15.17  2.90e+00  2.73e+01   5.2*sigma
+   N  18  ARG  N      
+   N  18  ARG  CA     
+   N  18  ARG  CB        110.50   101.50     9.00  1.70e+00  2.80e+01   5.3*sigma
+   N  24  THR  C      
+   N  24  THR  CA     
+   N  24  THR  CB        109.10    97.45    11.65  2.20e+00  2.81e+01   5.3*sigma
+   D 134  ASP  C      
+   D 134  ASP  CA     
+   D 134  ASP  CB        110.10   100.03    10.07  1.90e+00  2.81e+01   5.3*sigma
+   F 455  LEU  C      
+   F 455  LEU  CA     
+   F 455  LEU  CB        110.10   100.01    10.09  1.90e+00  2.82e+01   5.3*sigma
+   R 423  ASN  C      
+   R 423  ASN  CA     
+   R 423  ASN  CB        110.10   100.00    10.10  1.90e+00  2.83e+01   5.3*sigma
+   F 336  ALA  C      
+   F 336  ALA  CA     
+   F 336  ALA  CB        110.50   118.51    -8.01  1.50e+00  2.85e+01   5.3*sigma
+   O  31  SER  N      
+   O  31  SER  CA     
+   O  31  SER  C         111.00   125.97   -14.97  2.80e+00  2.86e+01   5.3*sigma
+   E 548  GLN  C      
+   E 548  GLN  CA     
+   E 548  GLN  CB        110.10    99.89    10.21  1.90e+00  2.89e+01   5.4*sigma
+   T  27  ASN  N      
+   T  27  ASN  CA     
+   T  27  ASN  C         111.00   126.05   -15.05  2.80e+00  2.89e+01   5.4*sigma
+   O  30  ASP  C      
+   O  30  ASP  CA     
+   O  30  ASP  CB        110.10    99.86    10.24  1.90e+00  2.91e+01   5.4*sigma
+   E 239  THR  C      
+   E 239  THR  CA     
+   E 239  THR  CB        109.10    97.21    11.89  2.20e+00  2.92e+01   5.4*sigma
+   N 721  ARG  CG     
+   N 721  ARG  CD     
+   N 721  ARG  NE        112.00   123.91   -11.91  2.20e+00  2.93e+01   5.4*sigma
+   K  22  GLN  N      
+   K  22  GLN  CA     
+   K  22  GLN  CB        110.50   101.29     9.21  1.70e+00  2.93e+01   5.4*sigma
+   U  71  ALA  C      
+   U  72  SER  N      
+   U  72  SER  CA        121.70   111.94     9.76  1.80e+00  2.94e+01   5.4*sigma
+   A 683  GLY  N      
+   A 683  GLY  CA     
+   A 683  GLY  C         113.30   129.04   -15.74  2.90e+00  2.95e+01   5.4*sigma
+   N  24  THR  N      
+   N  24  THR  CA     
+   N  24  THR  C         111.00   126.24   -15.24  2.80e+00  2.96e+01   5.4*sigma
+   K  63  ASN  N      
+   K  63  ASN  CA     
+   K  63  ASN  CB        110.50   101.23     9.27  1.70e+00  2.98e+01   5.5*sigma
+   R 424  SER  N      
+   R 424  SER  CA     
+   R 424  SER  C         111.00   126.27   -15.27  2.80e+00  2.98e+01   5.5*sigma
+   X 421  VAL  C      
+   X 421  VAL  CA     
+   X 421  VAL  CB        111.40   101.03    10.37  1.90e+00  2.98e+01   5.5*sigma
+   F 579  ARG  C      
+   F 579  ARG  CA     
+   F 579  ARG  CB        110.10   120.48   -10.38  1.90e+00  2.99e+01   5.5*sigma
+   A 152  CYS  C      
+   A 152  CYS  CA     
+   A 152  CYS  CB        110.10    99.71    10.39  1.90e+00  2.99e+01   5.5*sigma
+   A 927  PRO  CA     
+   A 927  PRO  N      
+   A 927  PRO  CD        112.00   104.34     7.66  1.40e+00  2.99e+01   5.5*sigma
+   N 218  ASP  N      
+   N 218  ASP  CA     
+   N 218  ASP  C         111.00   126.32   -15.32  2.80e+00  3.00e+01   5.5*sigma
+   X 268  HIS  N      
+   X 268  HIS  CA     
+   X 268  HIS  CB        110.50   101.18     9.32  1.70e+00  3.01e+01   5.5*sigma
+   N  69  TYR  N      
+   N  69  TYR  CA     
+   N  69  TYR  C         111.00    95.61    15.39  2.80e+00  3.02e+01   5.5*sigma
+   A 926  THR  N      
+   A 926  THR  CA     
+   A 926  THR  C         111.00    95.58    15.42  2.80e+00  3.03e+01   5.5*sigma
+   X 267  ALA  N      
+   X 267  ALA  CA     
+   X 267  ALA  C         111.00    95.58    15.42  2.80e+00  3.03e+01   5.5*sigma
+   A 928  HIS  N      
+   A 928  HIS  CA     
+   A 928  HIS  C         111.00    95.58    15.42  2.80e+00  3.03e+01   5.5*sigma
+   N 153  ASP  N      
+   N 153  ASP  CA     
+   N 153  ASP  CB        110.50   101.13     9.37  1.70e+00  3.04e+01   5.5*sigma
+   X 384  PHE  C      
+   X 384  PHE  CA     
+   X 384  PHE  CB        110.10   120.59   -10.49  1.90e+00  3.05e+01   5.5*sigma
+   R 548  GLN  N      
+   R 548  GLN  CA     
+   R 548  GLN  C         111.00    95.46    15.54  2.80e+00  3.08e+01   5.5*sigma
+   K 233  PHE  C      
+   K 233  PHE  CA     
+   K 233  PHE  CB        110.10    99.55    10.55  1.90e+00  3.09e+01   5.6*sigma
+   B 111  ARG  C      
+   B 111  ARG  CA     
+   B 111  ARG  CB        110.10   120.66   -10.56  1.90e+00  3.09e+01   5.6*sigma
+   Q  99  ASP  N      
+   Q  99  ASP  CA     
+   Q  99  ASP  C         111.00   126.60   -15.60  2.80e+00  3.11e+01   5.6*sigma
+   N 367  SER  C      
+   N 367  SER  CA     
+   N 367  SER  CB        110.10    99.50    10.60  1.90e+00  3.11e+01   5.6*sigma
+   X  64  TYR  N      
+   X  64  TYR  CA     
+   X  64  TYR  C         111.00    95.37    15.63  2.80e+00  3.12e+01   5.6*sigma
+   S 289  SER  N      
+   S 289  SER  CA     
+   S 289  SER  CB        110.50   101.00     9.50  1.70e+00  3.12e+01   5.6*sigma
+   K 470  SER  N      
+   K 470  SER  CA     
+   K 470  SER  C         111.00    95.26    15.74  2.80e+00  3.16e+01   5.6*sigma
+   N 609  VAL  N      
+   N 609  VAL  CA     
+   N 609  VAL  C         111.00    95.14    15.86  2.80e+00  3.21e+01   5.7*sigma
+   B  30  ASP  C      
+   B  30  ASP  CA     
+   B  30  ASP  CB        110.10    99.31    10.79  1.90e+00  3.22e+01   5.7*sigma
+   N  22  CYS  N      
+   N  22  CYS  CA     
+   N  22  CYS  CB        110.50   100.80     9.70  1.70e+00  3.25e+01   5.7*sigma
+   K 424  HIS  N      
+   K 424  HIS  CA     
+   K 424  HIS  CB        110.50   100.78     9.72  1.70e+00  3.27e+01   5.7*sigma
+   Q 114  CYS  N      
+   Q 114  CYS  CA     
+   Q 114  CYS  C         111.00    94.96    16.04  2.80e+00  3.28e+01   5.7*sigma
+   A 919  GLU  CA     
+   A 919  GLU  CB     
+   A 919  GLU  CG        114.10   125.56   -11.46  2.00e+00  3.28e+01   5.7*sigma
+   N 919  GLU  CA     
+   N 919  GLU  CB     
+   N 919  GLU  CG        114.10   125.57   -11.47  2.00e+00  3.29e+01   5.7*sigma
+   A  40  ASP  N      
+   A  40  ASP  CA     
+   A  40  ASP  C         111.00   127.07   -16.07  2.80e+00  3.30e+01   5.7*sigma
+   T  68  GLU  CA     
+   T  68  GLU  CB     
+   T  68  GLU  CG        114.10   125.61   -11.51  2.00e+00  3.31e+01   5.8*sigma
+   A 402  THR  C      
+   A 402  THR  CA     
+   A 402  THR  CB        109.10    96.44    12.66  2.20e+00  3.31e+01   5.8*sigma
+   G  68  GLU  CA     
+   G  68  GLU  CB     
+   G  68  GLU  CG        114.10   125.61   -11.51  2.00e+00  3.31e+01   5.8*sigma
+   R 341  GLU  N      
+   R 341  GLU  CA     
+   R 341  GLU  C         111.00   127.20   -16.20  2.80e+00  3.35e+01   5.8*sigma
+   S 455  LEU  N      
+   S 455  LEU  CA     
+   S 455  LEU  C         111.00   127.25   -16.25  2.80e+00  3.37e+01   5.8*sigma
+   K 171  SER  C      
+   K 172  ASP  N      
+   K 172  ASP  CA        121.70   111.23    10.47  1.80e+00  3.38e+01   5.8*sigma
+   A 718  LYS  CB     
+   A 718  LYS  CG     
+   A 718  LYS  CD        111.30   124.72   -13.42  2.30e+00  3.40e+01   5.8*sigma
+   C  26  SER  N      
+   C  26  SER  CA     
+   C  26  SER  C         111.00   127.34   -16.34  2.80e+00  3.41e+01   5.8*sigma
+   N 718  LYS  CB     
+   N 718  LYS  CG     
+   N 718  LYS  CD        111.30   124.73   -13.43  2.30e+00  3.41e+01   5.8*sigma
+   R  45  VAL  N      
+   R  45  VAL  CA     
+   R  45  VAL  C         111.00    94.54    16.46  2.80e+00  3.45e+01   5.9*sigma
+   E 231  THR  N      
+   E 231  THR  CA     
+   E 231  THR  CB        111.50   121.52   -10.02  1.70e+00  3.48e+01   5.9*sigma
+   R 343  PHE  C      
+   R 343  PHE  CA     
+   R 343  PHE  CB        110.10    98.86    11.24  1.90e+00  3.50e+01   5.9*sigma
+   F 580  ASP  N      
+   F 580  ASP  CA     
+   F 580  ASP  CB        110.50   100.42    10.08  1.70e+00  3.52e+01   5.9*sigma
+   B  30  ASP  N      
+   B  30  ASP  CA     
+   B  30  ASP  C         111.00   127.61   -16.61  2.80e+00  3.52e+01   5.9*sigma
+   X 177  LEU  C      
+   X 177  LEU  CA     
+   X 177  LEU  CB        110.10    98.82    11.28  1.90e+00  3.52e+01   5.9*sigma
+   A 682  SER  C      
+   A 682  SER  CA     
+   A 682  SER  CB        110.10   121.48   -11.38  1.90e+00  3.59e+01   6.0*sigma
+   A 153  ASP  N      
+   A 153  ASP  CA     
+   A 153  ASP  CB        110.50   100.30    10.20  1.70e+00  3.60e+01   6.0*sigma
+   A 107  ASP  N      
+   A 107  ASP  CA     
+   A 107  ASP  C         111.00   127.80   -16.80  2.80e+00  3.60e+01   6.0*sigma
+   F 436  MET  N      
+   F 436  MET  CA     
+   F 436  MET  CB        110.50   120.72   -10.22  1.70e+00  3.62e+01   6.0*sigma
+   X  60  PHE  C      
+   X  60  PHE  CA     
+   X  60  PHE  CB        110.10    98.60    11.50  1.90e+00  3.67e+01   6.1*sigma
+   Q 113  GLY  N      
+   Q 113  GLY  CA     
+   Q 113  GLY  C         113.30   131.05   -17.75  2.90e+00  3.75e+01   6.1*sigma
+   E 239  THR  N      
+   E 239  THR  CA     
+   E 239  THR  C         111.00   128.19   -17.19  2.80e+00  3.77e+01   6.1*sigma
+   A 904  SER  N      
+   A 904  SER  CA     
+   A 904  SER  C         111.00   128.21   -17.21  2.80e+00  3.78e+01   6.1*sigma
+   A 367  SER  C      
+   A 367  SER  CA     
+   A 367  SER  CB        110.10    98.39    11.71  1.90e+00  3.80e+01   6.2*sigma
+   E 240  LEU  N      
+   E 240  LEU  CA     
+   E 240  LEU  C         111.00    93.74    17.26  2.80e+00  3.80e+01   6.2*sigma
+   U  89  PHE  N      
+   U  89  PHE  CA     
+   U  89  PHE  C         111.00    93.67    17.33  2.80e+00  3.83e+01   6.2*sigma
+   A 758  LEU  C      
+   A 758  LEU  CA     
+   A 758  LEU  CB        110.10   121.88   -11.78  1.90e+00  3.84e+01   6.2*sigma
+   K  96  ALA  C      
+   K  96  ALA  CA     
+   K  96  ALA  CB        110.50   101.19     9.31  1.50e+00  3.85e+01   6.2*sigma
+   A  11  VAL  C      
+   A  11  VAL  CA     
+   A  11  VAL  CB        111.40    99.60    11.80  1.90e+00  3.86e+01   6.2*sigma
+   F 435  ASP  C      
+   F 435  ASP  CA     
+   F 435  ASP  CB        110.10    98.29    11.81  1.90e+00  3.86e+01   6.2*sigma
+   E 230  HIS  N      
+   E 230  HIS  CA     
+   E 230  HIS  C         111.00   128.43   -17.43  2.80e+00  3.87e+01   6.2*sigma
+   K  97  THR  N      
+   K  97  THR  CA     
+   K  97  THR  CB        111.50   100.89    10.61  1.70e+00  3.89e+01   6.2*sigma
+   K 457  LYS  C      
+   K 457  LYS  CA     
+   K 457  LYS  CB        110.10    98.24    11.86  1.90e+00  3.90e+01   6.2*sigma
+   X 178  SER  N      
+   X 178  SER  CA     
+   X 178  SER  CB        110.50   121.13   -10.63  1.70e+00  3.91e+01   6.3*sigma
+   S 349  ASN  N      
+   S 349  ASN  CA     
+   S 349  ASN  C         111.00   128.51   -17.51  2.80e+00  3.91e+01   6.3*sigma
+   X 505  GLY  N      
+   X 505  GLY  CA     
+   X 505  GLY  C         113.30   131.46   -18.16  2.90e+00  3.92e+01   6.3*sigma
+   A  68  SER  C      
+   A  68  SER  CA     
+   A  68  SER  CB        110.10   122.01   -11.91  1.90e+00  3.93e+01   6.3*sigma
+   X  58  MET  N      
+   X  58  MET  CA     
+   X  58  MET  C         111.00   128.58   -17.58  2.80e+00  3.94e+01   6.3*sigma
+   A 926  THR  C      
+   A 927  PRO  N      
+   A 927  PRO  CA        122.60   154.14   -31.54  5.00e+00  3.98e+01   6.3*sigma
+   A 504  PHE  C      
+   A 505  PRO  N      
+   A 505  PRO  CA        122.60   154.18   -31.58  5.00e+00  3.99e+01   6.3*sigma
+   A 808  GLY  C      
+   A 809  PRO  N      
+   A 809  PRO  CA        122.60   154.19   -31.59  5.00e+00  3.99e+01   6.3*sigma
+   A 855  MET  N      
+   A 855  MET  CA     
+   A 855  MET  C         111.00   128.70   -17.70  2.80e+00  4.00e+01   6.3*sigma
+   S 441  CYS  C      
+   S 441  CYS  CA     
+   S 441  CYS  CB        110.10    98.08    12.02  1.90e+00  4.00e+01   6.3*sigma
+   G   8  ALA  N      
+   G   8  ALA  CA     
+   G   8  ALA  CB        110.40   100.90     9.50  1.50e+00  4.01e+01   6.3*sigma
+   A   4  ALA  C      
+   A   4  ALA  CA     
+   A   4  ALA  CB        110.50   100.99     9.51  1.50e+00  4.02e+01   6.3*sigma
+   F 456  VAL  N      
+   F 456  VAL  CA     
+   F 456  VAL  C         111.00    93.16    17.84  2.80e+00  4.06e+01   6.4*sigma
+   F 456  VAL  N      
+   F 456  VAL  CA     
+   F 456  VAL  CB        111.50   122.37   -10.87  1.70e+00  4.09e+01   6.4*sigma
+   K 234  ASP  N      
+   K 234  ASP  CA     
+   K 234  ASP  CB        110.50    99.62    10.88  1.70e+00  4.10e+01   6.4*sigma
+   B 183  PRO  N      
+   B 183  PRO  CA     
+   B 183  PRO  C         112.10    96.02    16.08  2.50e+00  4.14e+01   6.4*sigma
+   B 142  CYS  N      
+   B 142  CYS  CA     
+   B 142  CYS  C         111.00    92.92    18.08  2.80e+00  4.17e+01   6.5*sigma
+   N 851  ASP  N      
+   N 851  ASP  CA     
+   N 851  ASP  CB        110.50    99.51    10.99  1.70e+00  4.18e+01   6.5*sigma
+   A 403  ASN  N      
+   A 403  ASN  CA     
+   A 403  ASN  C         111.00   129.25   -18.25  2.80e+00  4.25e+01   6.5*sigma
+   R 150  GLY  N      
+   R 150  GLY  CA     
+   R 150  GLY  C         113.30    94.37    18.93  2.90e+00  4.26e+01   6.5*sigma
+   M  26    A  O2'    
+   M  26    A  C2'    
+   M  26    A  C1'       108.40    98.61     9.79  1.50e+00  4.26e+01   6.5*sigma
+   J  26    A  O2'    
+   J  26    A  C2'    
+   J  26    A  C1'       108.40    98.59     9.81  1.50e+00  4.28e+01   6.5*sigma
+   B 142  CYS  N      
+   B 142  CYS  CA     
+   B 142  CYS  CB        110.50   121.64   -11.14  1.70e+00  4.29e+01   6.6*sigma
+   S 289  SER  N      
+   S 289  SER  CA     
+   S 289  SER  C         111.00    92.42    18.58  2.80e+00  4.40e+01   6.6*sigma
+   N 903  TYR  N      
+   N 903  TYR  CA     
+   N 903  TYR  C         111.00    92.39    18.61  2.80e+00  4.42e+01   6.6*sigma
+   D 134  ASP  N      
+   D 134  ASP  CA     
+   D 134  ASP  C         111.00    92.36    18.64  2.80e+00  4.43e+01   6.7*sigma
+   O 140  ASN  C      
+   O 140  ASN  CA     
+   O 140  ASN  CB        110.10   122.75   -12.65  1.90e+00  4.43e+01   6.7*sigma
+   C  26  SER  C      
+   C  26  SER  CA     
+   C  26  SER  CB        110.10    97.44    12.66  1.90e+00  4.44e+01   6.7*sigma
+   X 424  HIS  N      
+   X 424  HIS  CA     
+   X 424  HIS  C         111.00    92.23    18.77  2.80e+00  4.49e+01   6.7*sigma
+   A  68  SER  N      
+   A  68  SER  CA     
+   A  68  SER  C         111.00    92.23    18.77  2.80e+00  4.49e+01   6.7*sigma
+   O  53  ALA  C      
+   O  53  ALA  CA     
+   O  53  ALA  CB        110.50   120.56   -10.06  1.50e+00  4.50e+01   6.7*sigma
+   K  62  MET  N      
+   K  62  MET  CA     
+   K  62  MET  C         111.00   129.90   -18.90  2.80e+00  4.56e+01   6.7*sigma
+   Q 114  CYS  N      
+   Q 114  CYS  CA     
+   Q 114  CYS  CB        110.50   121.98   -11.48  1.70e+00  4.56e+01   6.8*sigma
+   A 648  LEU  N      
+   A 648  LEU  CA     
+   A 648  LEU  C         111.00   129.95   -18.95  2.80e+00  4.58e+01   6.8*sigma
+   X  98  ARG  N      
+   X  98  ARG  CA     
+   X  98  ARG  CB        110.50   122.01   -11.51  1.70e+00  4.59e+01   6.8*sigma
+   A 105  ARG  CG     
+   A 105  ARG  CD     
+   A 105  ARG  NE        112.00   126.91   -14.91  2.20e+00  4.59e+01   6.8*sigma
+   S 190  ASN  N      
+   S 190  ASN  CA     
+   S 190  ASN  C         111.00   129.98   -18.98  2.80e+00  4.60e+01   6.8*sigma
+   A 903  TYR  N      
+   A 903  TYR  CA     
+   A 903  TYR  C         111.00    91.97    19.03  2.80e+00  4.62e+01   6.8*sigma
+   N 105  ARG  CG     
+   N 105  ARG  CD     
+   N 105  ARG  NE        112.00   126.96   -14.96  2.20e+00  4.62e+01   6.8*sigma
+   K  31  THR  N      
+   K  31  THR  CA     
+   K  31  THR  C         111.00   130.04   -19.04  2.80e+00  4.62e+01   6.8*sigma
+   A 753  PHE  N      
+   A 753  PHE  CA     
+   A 753  PHE  CB        110.50    98.91    11.59  1.70e+00  4.65e+01   6.8*sigma
+   A 647  SER  C      
+   A 647  SER  CA     
+   A 647  SER  CB        110.10    97.04    13.06  1.90e+00  4.72e+01   6.9*sigma
+   N 758  LEU  C      
+   N 758  LEU  CA     
+   N 758  LEU  CB        110.10   123.17   -13.07  1.90e+00  4.73e+01   6.9*sigma
+   F 259  SER  N      
+   F 259  SER  CA     
+   F 259  SER  C         111.00    91.70    19.30  2.80e+00  4.75e+01   6.9*sigma
+   F 537  GLN  C      
+   F 537  GLN  CA     
+   F 537  GLN  CB        110.10   123.25   -13.15  1.90e+00  4.79e+01   6.9*sigma
+   B  31  SER  N      
+   B  31  SER  CA     
+   B  31  SER  CB        110.50   122.27   -11.77  1.70e+00  4.79e+01   6.9*sigma
+   K 198  PHE  N      
+   K 198  PHE  CA     
+   K 198  PHE  CB        110.50    98.69    11.81  1.70e+00  4.82e+01   6.9*sigma
+   S 190  ASN  C      
+   S 190  ASN  CA     
+   S 190  ASN  CB        110.10    96.86    13.24  1.90e+00  4.86e+01   7.0*sigma
+   A 926  THR  C      
+   A 927  PRO  N      
+   A 927  PRO  CD        125.00    96.35    28.65  4.10e+00  4.88e+01   7.0*sigma
+   F 288  LYS  N      
+   F 288  LYS  CA     
+   F 288  LYS  C         111.00   130.60   -19.60  2.80e+00  4.90e+01   7.0*sigma
+   K 470  SER  N      
+   K 470  SER  CA     
+   K 470  SER  CB        110.50    98.57    11.93  1.70e+00  4.92e+01   7.0*sigma
+   N 647  SER  C      
+   N 647  SER  CA     
+   N 647  SER  CB        110.10    96.54    13.56  1.90e+00  5.09e+01   7.1*sigma
+   O 141  THR  N      
+   O 141  THR  CA     
+   O 141  THR  CB        111.50    99.37    12.13  1.70e+00  5.10e+01   7.1*sigma
+   U  85  ASN  C      
+   U  85  ASN  CA     
+   U  85  ASN  CB        110.10   123.74   -13.64  1.90e+00  5.15e+01   7.2*sigma
+   F 257  ASN  N      
+   F 257  ASN  CA     
+   F 257  ASN  C         111.00    90.90    20.10  2.80e+00  5.15e+01   7.2*sigma
+   X  63  ASN  N      
+   X  63  ASN  CA     
+   X  63  ASN  C         111.00    90.84    20.16  2.80e+00  5.18e+01   7.2*sigma
+   R 149  TYR  N      
+   R 149  TYR  CA     
+   R 149  TYR  C         111.00    90.80    20.20  2.80e+00  5.21e+01   7.2*sigma
+   F 189  LYS  C      
+   F 190  ASN  N      
+   F 190  ASN  CA        121.70   134.75   -13.05  1.80e+00  5.26e+01   7.3*sigma
+   N  68  SER  N      
+   N  68  SER  CA     
+   N  68  SER  C         111.00    90.67    20.33  2.80e+00  5.27e+01   7.3*sigma
+   B 112  ASP  N      
+   B 112  ASP  CA     
+   B 112  ASP  CB        110.50    98.15    12.35  1.70e+00  5.28e+01   7.3*sigma
+   N 753  PHE  C      
+   N 753  PHE  CA     
+   N 753  PHE  CB        110.10   123.92   -13.82  1.90e+00  5.29e+01   7.3*sigma
+   S 537  GLN  C      
+   S 537  GLN  CA     
+   S 537  GLN  CB        110.10   123.95   -13.85  1.90e+00  5.32e+01   7.3*sigma
+   R 169  VAL  N      
+   R 169  VAL  CA     
+   R 169  VAL  C         111.00   131.42   -20.42  2.80e+00  5.32e+01   7.3*sigma
+   X 424  HIS  N      
+   X 424  HIS  CA     
+   X 424  HIS  CB        110.50    98.05    12.45  1.70e+00  5.37e+01   7.3*sigma
+   N 648  LEU  N      
+   N 648  LEU  CA     
+   N 648  LEU  C         111.00   131.59   -20.59  2.80e+00  5.40e+01   7.4*sigma
+   S 189  LYS  C      
+   S 190  ASN  N      
+   S 190  ASN  CA        121.70   135.00   -13.30  1.80e+00  5.46e+01   7.4*sigma
+   A 403  ASN  N      
+   A 403  ASN  CA     
+   A 403  ASN  CB        110.50    97.89    12.61  1.70e+00  5.50e+01   7.4*sigma
+   N  68  SER  C      
+   N  68  SER  CA     
+   N  68  SER  CB        110.10   124.21   -14.11  1.90e+00  5.52e+01   7.4*sigma
+   D 135  TYR  N      
+   D 135  TYR  CA     
+   D 135  TYR  C         111.00   131.81   -20.81  2.80e+00  5.52e+01   7.4*sigma
+   T  24  THR  N      
+   T  24  THR  CA     
+   T  24  THR  C         111.00    90.11    20.89  2.80e+00  5.56e+01   7.5*sigma
+   F 337  ARG  N      
+   F 337  ARG  CA     
+   F 337  ARG  CB        110.50    97.81    12.69  1.70e+00  5.58e+01   7.5*sigma
+   N  21  PRO  C      
+   N  21  PRO  CA     
+   N  21  PRO  CB        110.10    95.88    14.22  1.90e+00  5.61e+01   7.5*sigma
+   P  26  SER  N      
+   P  26  SER  CA     
+   P  26  SER  C         111.00   131.98   -20.98  2.80e+00  5.62e+01   7.5*sigma
+   E 189  LYS  C      
+   E 190  ASN  N      
+   E 190  ASN  CA        121.70   135.33   -13.63  1.80e+00  5.74e+01   7.6*sigma
+   R 189  LYS  C      
+   R 190  ASN  N      
+   R 190  ASN  CA        121.70   135.35   -13.65  1.80e+00  5.75e+01   7.6*sigma
+   A 504  PHE  C      
+   A 505  PRO  N      
+   A 505  PRO  CD        125.00    93.77    31.23  4.10e+00  5.80e+01   7.6*sigma
+   N  24  THR  N      
+   N  24  THR  CA     
+   N  24  THR  CB        111.50    98.53    12.97  1.70e+00  5.82e+01   7.6*sigma
+   B  28  ASN  N      
+   B  28  ASN  CA     
+   B  28  ASN  C         111.00    89.55    21.45  2.80e+00  5.87e+01   7.7*sigma
+   F 455  LEU  N      
+   F 455  LEU  CA     
+   F 455  LEU  C         111.00   132.54   -21.54  2.80e+00  5.92e+01   7.7*sigma
+   O 141  THR  N      
+   O 141  THR  CA     
+   O 141  THR  C         111.00   132.61   -21.61  2.80e+00  5.96e+01   7.7*sigma
+   G   4  LEU  C      
+   G   5  SER  N      
+   G   5  SER  CA        121.70   107.68    14.02  1.80e+00  6.07e+01   7.8*sigma
+   B 141  THR  C      
+   B 141  THR  CA     
+   B 141  THR  CB        109.10    91.91    17.19  2.20e+00  6.11e+01   7.8*sigma
+   B 141  THR  N      
+   B 141  THR  CA     
+   B 141  THR  CB        111.50    98.03    13.47  1.70e+00  6.28e+01   7.9*sigma
+   R 147  LEU  C      
+   R 147  LEU  CA     
+   R 147  LEU  CB        110.10    94.97    15.13  1.90e+00  6.34e+01   8.0*sigma
+   X 385  TRP  N      
+   X 385  TRP  CA     
+   X 385  TRP  C         111.00    88.53    22.47  2.80e+00  6.44e+01   8.0*sigma
+   O  54  ALA  N      
+   O  54  ALA  CA     
+   O  54  ALA  CB        110.40    98.32    12.08  1.50e+00  6.48e+01   8.1*sigma
+   R 342  CYS  N      
+   R 342  CYS  CA     
+   R 342  CYS  CB        110.50    96.69    13.81  1.70e+00  6.60e+01   8.1*sigma
+   N 754  SER  N      
+   N 754  SER  CA     
+   N 754  SER  C         111.00    88.21    22.79  2.80e+00  6.62e+01   8.1*sigma
+   N 904  SER  N      
+   N 904  SER  CA     
+   N 904  SER  C         111.00   133.83   -22.83  2.80e+00  6.65e+01   8.2*sigma
+   K 423  LYS  C      
+   K 423  LYS  CA     
+   K 423  LYS  CB        110.10   125.71   -15.61  1.90e+00  6.75e+01   8.2*sigma
+   N 753  PHE  N      
+   N 753  PHE  CA     
+   N 753  PHE  C         111.00    87.91    23.09  2.80e+00  6.80e+01   8.2*sigma
+   A 217  TYR  C      
+   A 217  TYR  CA     
+   A 217  TYR  CB        110.10    94.38    15.72  1.90e+00  6.84e+01   8.3*sigma
+   K  30  ASP  C      
+   K  30  ASP  CA     
+   K  30  ASP  CB        110.10    94.11    15.99  1.90e+00  7.08e+01   8.4*sigma
+   A 808  GLY  N      
+   A 808  GLY  CA     
+   A 808  GLY  C         113.30   137.92   -24.62  2.90e+00  7.21e+01   8.5*sigma
+   T  26  ASP  N      
+   T  26  ASP  CA     
+   T  26  ASP  CB        110.50   125.06   -14.56  1.70e+00  7.34e+01   8.6*sigma
+   H  69  GLY  N      
+   H  69  GLY  CA     
+   H  69  GLY  C         113.30    88.34    24.96  2.90e+00  7.41e+01   8.6*sigma
+   K 372  THR  N      
+   K 372  THR  CA     
+   K 372  THR  CB        111.50    96.87    14.63  1.70e+00  7.41e+01   8.6*sigma
+   X 385  TRP  N      
+   X 385  TRP  CA     
+   X 385  TRP  CB        110.50   125.16   -14.66  1.70e+00  7.44e+01   8.6*sigma
+   F 289  SER  N      
+   F 289  SER  CA     
+   F 289  SER  CB        110.50    95.76    14.74  1.70e+00  7.52e+01   8.7*sigma
+   B  28  ASN  C      
+   B  28  ASN  CA     
+   B  28  ASN  CB        110.10    93.60    16.50  1.90e+00  7.54e+01   8.7*sigma
+   S 537  GLN  N      
+   S 537  GLN  CA     
+   S 537  GLN  CB        110.50    95.72    14.78  1.70e+00  7.56e+01   8.7*sigma
+   X 466  VAL  N      
+   X 466  VAL  CA     
+   X 466  VAL  CB        111.50    96.66    14.84  1.70e+00  7.62e+01   8.7*sigma
+   U  89  PHE  N      
+   U  89  PHE  CA     
+   U  89  PHE  CB        110.50    95.63    14.87  1.70e+00  7.65e+01   8.7*sigma
+   T  25  ASP  N      
+   T  25  ASP  CA     
+   T  25  ASP  CB        110.50    95.63    14.87  1.70e+00  7.65e+01   8.7*sigma
+   A 216  TRP  C      
+   A 216  TRP  CA     
+   A 216  TRP  CB        110.10    93.45    16.65  1.90e+00  7.68e+01   8.8*sigma
+   S 350  SER  N      
+   S 350  SER  CA     
+   S 350  SER  CB        110.50    95.49    15.01  1.70e+00  7.80e+01   8.8*sigma
+   N 903  TYR  C      
+   N 903  TYR  CA     
+   N 903  TYR  CB        110.10    93.31    16.79  1.90e+00  7.81e+01   8.8*sigma
+   X  97  THR  N      
+   X  97  THR  CA     
+   X  97  THR  CB        111.50    96.32    15.18  1.70e+00  7.98e+01   8.9*sigma
+   X 208  CYS  C      
+   X 208  CYS  CA     
+   X 208  CYS  CB        110.10    93.13    16.97  1.90e+00  7.98e+01   8.9*sigma
+   F 577  SER  N      
+   F 577  SER  CA     
+   F 577  SER  C         111.00    85.93    25.07  2.80e+00  8.02e+01   9.0*sigma
+   S  66  GLY  N      
+   S  66  GLY  CA     
+   S  66  GLY  C         113.30   139.32   -26.02  2.90e+00  8.05e+01   9.0*sigma
+   B  54  ALA  N      
+   B  54  ALA  CA     
+   B  54  ALA  CB        110.40    96.82    13.58  1.50e+00  8.20e+01   9.1*sigma
+   B 140  ASN  C      
+   B 140  ASN  CA     
+   B 140  ASN  CB        110.10   127.34   -17.24  1.90e+00  8.23e+01   9.1*sigma
+   K 424  HIS  N      
+   K 424  HIS  CA     
+   K 424  HIS  C         111.00    85.35    25.65  2.80e+00  8.39e+01   9.2*sigma
+   N  18  ARG  N      
+   N  18  ARG  CA     
+   N  18  ARG  C         111.00    85.31    25.69  2.80e+00  8.42e+01   9.2*sigma
+   X 384  PHE  N      
+   X 384  PHE  CA     
+   X 384  PHE  C         111.00    85.09    25.91  2.80e+00  8.56e+01   9.3*sigma
+   A 904  SER  N      
+   A 904  SER  CA     
+   A 904  SER  CB        110.50    94.63    15.87  1.70e+00  8.71e+01   9.3*sigma
+   A 607  SER  N      
+   A 607  SER  CA     
+   A 607  SER  C         111.00   137.14   -26.14  2.80e+00  8.71e+01   9.3*sigma
+   N 856  ILE  N      
+   N 856  ILE  CA     
+   N 856  ILE  CB        111.50    95.62    15.88  1.70e+00  8.73e+01   9.3*sigma
+   S 288  LYS  N      
+   S 288  LYS  CA     
+   S 288  LYS  C         111.00   137.25   -26.25  2.80e+00  8.79e+01   9.4*sigma
+   G   7  VAL  C      
+   G   7  VAL  CA     
+   G   7  VAL  CB        111.40    93.58    17.82  1.90e+00  8.79e+01   9.4*sigma
+   R 548  GLN  C      
+   R 548  GLN  CA     
+   R 548  GLN  CB        110.10    92.28    17.82  1.90e+00  8.80e+01   9.4*sigma
+   M  23    C  O3'    
+   M  23    C  C3'    
+   M  23    C  C2'       109.50   123.58   -14.08  1.50e+00  8.81e+01   9.4*sigma
+   R 341  GLU  C      
+   R 341  GLU  CA     
+   R 341  GLU  CB        110.10    92.20    17.90  1.90e+00  8.87e+01   9.4*sigma
+   R 148  SER  N      
+   R 148  SER  CA     
+   R 148  SER  C         111.00    84.20    26.80  2.80e+00  9.16e+01   9.6*sigma
+   E 548  GLN  N      
+   E 548  GLN  CA     
+   E 548  GLN  C         111.00    84.15    26.85  2.80e+00  9.19e+01   9.6*sigma
+   T  27  ASN  N      
+   T  27  ASN  CA     
+   T  27  ASN  CB        110.50    94.20    16.30  1.70e+00  9.19e+01   9.6*sigma
+   K 471  ALA  N      
+   K 471  ALA  CA     
+   K 471  ALA  CB        110.40    96.00    14.40  1.50e+00  9.22e+01   9.6*sigma
+   X 461  SER  N      
+   X 461  SER  CA     
+   X 461  SER  CB        110.50   126.99   -16.49  1.70e+00  9.41e+01   9.7*sigma
+   A 109  ASP  N      
+   A 109  ASP  CA     
+   A 109  ASP  CB        110.50    93.99    16.51  1.70e+00  9.44e+01   9.7*sigma
+   B  53  ALA  C      
+   B  53  ALA  CA     
+   B  53  ALA  CB        110.50   125.13   -14.63  1.50e+00  9.51e+01   9.8*sigma
+   X 465  TYR  N      
+   X 465  TYR  CA     
+   X 465  TYR  C         111.00    83.54    27.46  2.80e+00  9.62e+01   9.8*sigma
+   K 211  ASP  N      
+   K 211  ASP  CA     
+   K 211  ASP  CB        110.50    93.77    16.73  1.70e+00  9.69e+01   9.8*sigma
+   N 904  SER  N      
+   N 904  SER  CA     
+   N 904  SER  CB        110.50    93.74    16.76  1.70e+00  9.71e+01   9.9*sigma
+   N 754  SER  N      
+   N 754  SER  CA     
+   N 754  SER  CB        110.50   127.30   -16.80  1.70e+00  9.76e+01   9.9*sigma
+   A 808  GLY  C      
+   A 809  PRO  N      
+   A 809  PRO  CD        125.00    84.42    40.58  4.10e+00  9.80e+01   9.9*sigma
+   F 258  ILE  N      
+   F 258  ILE  CA     
+   F 258  ILE  CB        111.50   128.39   -16.89  1.70e+00  9.87e+01   9.9*sigma
+   A 926  THR  C      
+   A 926  THR  CA     
+   A 926  THR  CB        109.10   131.03   -21.93  2.20e+00  9.93e+01  10.0*sigma
+   K  31  THR  N      
+   K  31  THR  CA     
+   K  31  THR  CB        111.50    94.39    17.11  1.70e+00  1.01e+02  10.1*sigma
+   P  26  SER  C      
+   P  26  SER  CA     
+   P  26  SER  CB        110.10    90.96    19.14  1.90e+00  1.01e+02  10.1*sigma
+   X  60  PHE  N      
+   X  60  PHE  CA     
+   X  60  PHE  C         111.00    82.68    28.32  2.80e+00  1.02e+02  10.1*sigma
+   S 350  SER  N      
+   S 350  SER  CA     
+   S 350  SER  C         111.00   139.70   -28.70  2.80e+00  1.05e+02  10.3*sigma
+   X 423  LYS  C      
+   X 423  LYS  CA     
+   X 423  LYS  CB        110.10   129.59   -19.49  1.90e+00  1.05e+02  10.3*sigma
+   R 469  ALA  C      
+   R 469  ALA  CA     
+   R 469  ALA  CB        110.50    95.00    15.50  1.50e+00  1.07e+02  10.3*sigma
+   X  96  ALA  C      
+   X  96  ALA  CA     
+   X  96  ALA  CB        110.50    94.72    15.78  1.50e+00  1.11e+02  10.5*sigma
+   N  17  ALA  C      
+   N  17  ALA  CA     
+   N  17  ALA  CB        110.50    94.70    15.80  1.50e+00  1.11e+02  10.5*sigma
+   X  97  THR  N      
+   X  97  THR  CA     
+   X  97  THR  C         111.00   141.40   -30.40  2.80e+00  1.18e+02  10.9*sigma
+   A  69  TYR  N      
+   A  69  TYR  CA     
+   A  69  TYR  CB        110.50   129.01   -18.51  1.70e+00  1.19e+02  10.9*sigma
+   N  20  THR  N      
+   N  20  THR  CA     
+   N  20  THR  CB        111.50    92.93    18.57  1.70e+00  1.19e+02  10.9*sigma
+   Q 112  ASP  C      
+   Q 112  ASP  CA     
+   Q 112  ASP  CB        110.10    89.29    20.81  1.90e+00  1.20e+02  11.0*sigma
+   X 504  ALA  C      
+   X 504  ALA  CA     
+   X 504  ALA  CB        110.50    93.85    16.65  1.50e+00  1.23e+02  11.1*sigma
+   X 209  LEU  N      
+   X 209  LEU  CA     
+   X 209  LEU  CB        110.50    91.26    19.24  1.70e+00  1.28e+02  11.3*sigma
+   A 856  ILE  N      
+   A 856  ILE  CA     
+   A 856  ILE  CB        111.50    92.11    19.39  1.70e+00  1.30e+02  11.4*sigma
+   K 371  ALA  C      
+   K 371  ALA  CA     
+   K 371  ALA  CB        110.50   128.03   -17.53  1.50e+00  1.37e+02  11.7*sigma
+   N 607  SER  N      
+   N 607  SER  CA     
+   N 607  SER  CB        110.50    90.49    20.01  1.70e+00  1.39e+02  11.8*sigma
+   F 577  SER  C      
+   F 577  SER  CA     
+   F 577  SER  CB        110.10    87.63    22.47  1.90e+00  1.40e+02  11.8*sigma
+   H  39  THR  N      
+   H  39  THR  CA     
+   H  39  THR  C         111.00   144.13   -33.13  2.80e+00  1.40e+02  11.8*sigma
+   B 141  THR  N      
+   B 141  THR  CA     
+   B 141  THR  C         111.00   144.66   -33.66  2.80e+00  1.44e+02  12.0*sigma
+   S 536  SER  C      
+   S 536  SER  CA     
+   S 536  SER  CB        110.10    87.16    22.94  1.90e+00  1.46e+02  12.1*sigma
+   N  69  TYR  N      
+   N  69  TYR  CA     
+   N  69  TYR  CB        110.50   131.20   -20.70  1.70e+00  1.48e+02  12.2*sigma
+   X 460  VAL  C      
+   X 460  VAL  CA     
+   X 460  VAL  CB        111.40    88.22    23.18  1.90e+00  1.49e+02  12.2*sigma
+   D 135  TYR  N      
+   D 135  TYR  CA     
+   D 135  TYR  CB        110.50    89.67    20.83  1.70e+00  1.50e+02  12.3*sigma
+   A 218  ASP  N      
+   A 218  ASP  CA     
+   A 218  ASP  CB        110.50    89.50    21.00  1.70e+00  1.53e+02  12.4*sigma
+   K 470  SER  C      
+   K 470  SER  CA     
+   K 470  SER  CB        110.10    86.60    23.50  1.90e+00  1.53e+02  12.4*sigma
+   Q 125  ALA  N      
+   Q 125  ALA  CA     
+   Q 125  ALA  C         111.00   145.65   -34.65  2.80e+00  1.53e+02  12.4*sigma
+   F 337  ARG  N      
+   F 337  ARG  CA     
+   F 337  ARG  C         111.00   145.71   -34.71  2.80e+00  1.54e+02  12.4*sigma
+   E 150  GLY  N      
+   E 150  GLY  CA     
+   E 150  GLY  C         113.30   149.53   -36.23  2.90e+00  1.56e+02  12.5*sigma
+   U  84  PRO  C      
+   U  84  PRO  CA     
+   U  84  PRO  CB        110.10    86.09    24.01  1.90e+00  1.60e+02  12.6*sigma
+   R 549  THR  N      
+   R 549  THR  CA     
+   R 549  THR  CB        111.50    89.72    21.78  1.70e+00  1.64e+02  12.8*sigma
+   S 537  GLN  N      
+   S 537  GLN  CA     
+   S 537  GLN  C         111.00    75.00    36.00  2.80e+00  1.65e+02  12.9*sigma
+   H  40  ASN  N      
+   H  40  ASN  CA     
+   H  40  ASN  CB        110.50    88.63    21.87  1.70e+00  1.66e+02  12.9*sigma
+   F 338  ALA  N      
+   F 338  ALA  CA     
+   F 338  ALA  CB        110.40    90.35    20.05  1.50e+00  1.79e+02  13.4*sigma
+   S 536  SER  N      
+   S 536  SER  CA     
+   S 536  SER  C         111.00   148.46   -37.46  2.80e+00  1.79e+02  13.4*sigma
+   U  88  GLY  N      
+   U  88  GLY  CA     
+   U  88  GLY  C         113.30   152.38   -39.08  2.90e+00  1.82e+02  13.5*sigma
+   Q 125  ALA  C      
+   Q 125  ALA  CA     
+   Q 125  ALA  CB        110.50    90.15    20.35  1.50e+00  1.84e+02  13.6*sigma
+   F 337  ARG  C      
+   F 337  ARG  CA     
+   F 337  ARG  CB        110.10    84.29    25.81  1.90e+00  1.85e+02  13.6*sigma
+   Q  28  ASN  C      
+   Q  28  ASN  CA     
+   Q  28  ASN  CB        110.10    83.97    26.13  1.90e+00  1.89e+02  13.8*sigma
+   E 549  THR  N      
+   E 549  THR  CA     
+   E 549  THR  CB        111.50    87.52    23.98  1.70e+00  1.99e+02  14.1*sigma
+   N  23  GLY  N      
+   N  23  GLY  CA     
+   N  23  GLY  C         113.30    71.62    41.68  2.90e+00  2.07e+02  14.4*sigma
+   N 606  TYR  C      
+   N 606  TYR  CA     
+   N 606  TYR  CB        110.10    82.59    27.51  1.90e+00  2.10e+02  14.5*sigma
+   X 208  CYS  N      
+   X 208  CYS  CA     
+   X 208  CYS  C         111.00   152.10   -41.10  2.80e+00  2.15e+02  14.7*sigma
+   R 171  LYS  N      
+   R 171  LYS  CA     
+   R 171  LYS  CB        110.50    85.12    25.38  1.70e+00  2.23e+02  14.9*sigma
+   R 147  LEU  N      
+   R 147  LEU  CA     
+   R 147  LEU  C         111.00   153.12   -42.12  2.80e+00  2.26e+02  15.0*sigma
+   X  61  LYS  N      
+   X  61  LYS  CA     
+   X  61  LYS  CB        110.50    84.74    25.76  1.70e+00  2.30e+02  15.2*sigma
+   F 578  ASP  N      
+   F 578  ASP  CA     
+   F 578  ASP  CB        110.50    84.12    26.38  1.70e+00  2.41e+02  15.5*sigma
+   A 217  TYR  N      
+   A 217  TYR  CA     
+   A 217  TYR  C         111.00   154.65   -43.65  2.80e+00  2.43e+02  15.6*sigma
+   N  19  LEU  C      
+   N  19  LEU  CA     
+   N  19  LEU  CB        110.10    80.47    29.63  1.90e+00  2.43e+02  15.6*sigma
+   R 170  GLY  N      
+   R 170  GLY  CA     
+   R 170  GLY  C         113.30   158.62   -45.32  2.90e+00  2.44e+02  15.6*sigma
+   Q 126  ALA  N      
+   Q 126  ALA  CA     
+   Q 126  ALA  CB        110.40    86.92    23.48  1.50e+00  2.45e+02  15.7*sigma
+   H  39  THR  C      
+   H  39  THR  CA     
+   H  39  THR  CB        109.10    74.26    34.84  2.20e+00  2.51e+02  15.8*sigma
+   T  25  ASP  N      
+   T  25  ASP  CA     
+   T  25  ASP  C         111.00   157.46   -46.46  2.80e+00  2.75e+02  16.6*sigma
+   A 855  MET  C      
+   A 855  MET  CA     
+   A 855  MET  CB        110.10    77.58    32.52  1.90e+00  2.93e+02  17.1*sigma
+   K 469  LYS  C      
+   K 469  LYS  CA     
+   K 469  LYS  CB        110.10    75.76    34.34  1.90e+00  3.27e+02  18.1*sigma
+   N 107  ASP  C      
+   N 107  ASP  CA     
+   N 107  ASP  CB        110.10    75.08    35.02  1.90e+00  3.40e+02  18.4*sigma
+   N 855  MET  C      
+   N 855  MET  CA     
+   N 855  MET  CB        110.10    72.79    37.31  1.90e+00  3.86e+02  19.6*sigma
+   F 536  SER  C      
+   F 536  SER  CA     
+   F 536  SER  CB        110.10    70.96    39.14  1.90e+00  4.24e+02  20.6*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   46.462 (Z= 20.601)
+  Mean delta:    1.709 (Z=  0.791)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 917  GLU  CA     
+   A 917  GLU  C      
+   A 918  PRO  N      
+   A 918  PRO  CA        180.00  -159.73   -20.27  5.00e+00  1.64e+01   4.1*sigma
+   N 917  GLU  CA     
+   N 917  GLU  C      
+   N 918  PRO  N      
+   N 918  PRO  CA        180.00  -159.73   -20.27  5.00e+00  1.64e+01   4.1*sigma
+   G  25  ASP  CA     
+   G  25  ASP  C      
+   G  26  ASP  N      
+   G  26  ASP  CA        180.00  -159.63   -20.37  5.00e+00  1.66e+01   4.1*sigma
+   O   9  LEU  CA     
+   O   9  LEU  C      
+   O  10  PRO  N      
+   O  10  PRO  CA        180.00   159.43    20.57  5.00e+00  1.69e+01   4.1*sigma
+   X 422  ASN  CA     
+   X 422  ASN  C      
+   X 423  LYS  N      
+   X 423  LYS  CA        180.00   159.34    20.66  5.00e+00  1.71e+01   4.1*sigma
+   K 266  ASN  CA     
+   K 266  ASN  C      
+   K 267  ALA  N      
+   K 267  ALA  CA        180.00   159.32    20.68  5.00e+00  1.71e+01   4.1*sigma
+   R 170  GLY  CA     
+   R 170  GLY  C      
+   R 171  LYS  N      
+   R 171  LYS  CA        180.00   159.30    20.70  5.00e+00  1.71e+01   4.1*sigma
+   Q 181  ALA  CA     
+   Q 181  ALA  C      
+   Q 182  TRP  N      
+   Q 182  TRP  CA        180.00  -159.17   -20.83  5.00e+00  1.74e+01   4.2*sigma
+   X  97  THR  CA     
+   X  97  THR  C      
+   X  98  ARG  N      
+   X  98  ARG  CA        180.00  -158.73   -21.27  5.00e+00  1.81e+01   4.3*sigma
+   A 624  ARG  CG     
+   A 624  ARG  CD     
+   A 624  ARG  NE     
+   A 624  ARG  CZ         90.00    25.80    64.20  1.50e+01  1.73e+01   4.3*sigma
+   N 624  ARG  CG     
+   N 624  ARG  CD     
+   N 624  ARG  NE     
+   N 624  ARG  CZ         90.00    25.79    64.21  1.50e+01  1.73e+01   4.3*sigma
+   M  25    G  C3'    
+   M  25    G  C4'    
+   M  25    G  O4'    
+   M  25    G  C1'       358.00   -37.13    35.13  8.00e+00  2.73e+01   4.4*sigma
+   J  25    G  C3'    
+   J  25    G  C4'    
+   J  25    G  O4'    
+   J  25    G  C1'       358.00   -37.17    35.17  8.00e+00  2.74e+01   4.4*sigma
+   E 229  SER  CA     
+   E 229  SER  C      
+   E 230  HIS  N      
+   E 230  HIS  CA        180.00  -157.95   -22.05  5.00e+00  1.94e+01   4.4*sigma
+   A  22  CYS  CA     
+   A  22  CYS  C      
+   A  23  GLY  N      
+   A  23  GLY  CA        180.00   157.93    22.07  5.00e+00  1.95e+01   4.4*sigma
+   N 105  ARG  CG     
+   N 105  ARG  CD     
+   N 105  ARG  NE     
+   N 105  ARG  CZ         90.00    22.84    67.16  1.50e+01  1.81e+01   4.5*sigma
+   K 481  GLY  CA     
+   K 481  GLY  C      
+   K 482  ALA  N      
+   K 482  ALA  CA        180.00   157.50    22.50  5.00e+00  2.02e+01   4.5*sigma
+   G  70  GLU  CA     
+   G  70  GLU  C      
+   G  71  PRO  N      
+   G  71  PRO  CA        180.00   157.43    22.57  5.00e+00  2.04e+01   4.5*sigma
+   T  70  GLU  CA     
+   T  70  GLU  C      
+   T  71  PRO  N      
+   T  71  PRO  CA        180.00   157.39    22.61  5.00e+00  2.05e+01   4.5*sigma
+   O 181  ALA  CA     
+   O 181  ALA  C      
+   O 182  TRP  N      
+   O 182  TRP  CA        180.00  -157.34   -22.66  5.00e+00  2.05e+01   4.5*sigma
+   N 757  ILE  CA     
+   N 757  ILE  C      
+   N 758  LEU  N      
+   N 758  LEU  CA        180.00   157.33    22.67  5.00e+00  2.06e+01   4.5*sigma
+   A 757  ILE  CA     
+   A 757  ILE  C      
+   A 758  LEU  N      
+   A 758  LEU  CA        180.00   157.32    22.68  5.00e+00  2.06e+01   4.5*sigma
+   X 468  LEU  CA     
+   X 468  LEU  C      
+   X 469  LYS  N      
+   X 469  LYS  CA        180.00  -156.96   -23.04  5.00e+00  2.12e+01   4.6*sigma
+   A 153  ASP  CA     
+   A 153  ASP  C      
+   A 154  ASP  N      
+   A 154  ASP  CA        180.00  -156.04   -23.96  5.00e+00  2.30e+01   4.8*sigma
+   N 153  ASP  CA     
+   N 153  ASP  C      
+   N 154  ASP  N      
+   N 154  ASP  CA        180.00  -156.01   -23.99  5.00e+00  2.30e+01   4.8*sigma
+   T  99  ARG  CG     
+   T  99  ARG  CD     
+   T  99  ARG  NE     
+   T  99  ARG  CZ         90.00    17.74    72.26  1.50e+01  1.94e+01   4.8*sigma
+   G  99  ARG  CG     
+   G  99  ARG  CD     
+   G  99  ARG  NE     
+   G  99  ARG  CZ         90.00    17.70    72.30  1.50e+01  1.94e+01   4.8*sigma
+   M  23    C  C4'    
+   M  23    C  C3'    
+   M  23    C  O3'    
+   M  24    U  P        -110.00    80.27   169.73  3.50e+01  1.55e+01   4.8*sigma
+   K 422  ASN  CA     
+   K 422  ASN  C      
+   K 423  LYS  N      
+   K 423  LYS  CA        180.00   154.61    25.39  5.00e+00  2.58e+01   5.1*sigma
+   Q  38  LEU  CA     
+   Q  38  LEU  C      
+   Q  39  LYS  N      
+   Q  39  LYS  CA        180.00   154.53    25.47  5.00e+00  2.59e+01   5.1*sigma
+   M  22    U  C3'    
+   M  22    U  C4'    
+   M  22    U  O4'    
+   M  22    U  C1'       358.00    38.83   -40.83  8.00e+00  3.65e+01   5.1*sigma
+   M  25    G  C4'    
+   M  25    G  O4'    
+   M  25    G  C1'    
+   M  25    G  C2'       339.00    20.59   -41.59  8.00e+00  3.78e+01   5.2*sigma
+   G   6  PRO  CA     
+   G   6  PRO  C      
+   G   7  VAL  N      
+   G   7  VAL  CA        180.00  -153.98   -26.02  5.00e+00  2.71e+01   5.2*sigma
+   J  25    G  C4'    
+   J  25    G  O4'    
+   J  25    G  C1'    
+   J  25    G  C2'       339.00    20.63   -41.63  8.00e+00  3.79e+01   5.2*sigma
+   A 808  GLY  CA     
+   A 808  GLY  C      
+   A 809  PRO  N      
+   A 809  PRO  CA        180.00   152.51    27.49  5.00e+00  3.02e+01   5.5*sigma
+   A 889  ARG  CG     
+   A 889  ARG  CD     
+   A 889  ARG  NE     
+   A 889  ARG  CZ         90.00     4.06    85.94  1.50e+01  2.12e+01   5.7*sigma
+   N 889  ARG  CG     
+   N 889  ARG  CD     
+   N 889  ARG  NE     
+   N 889  ARG  CZ         90.00     4.05    85.95  1.50e+01  2.12e+01   5.7*sigma
+   M  22    U  C4'    
+   M  22    U  C3'    
+   M  22    U  C2'    
+   M  22    U  C1'       325.00    11.11   -46.11  8.00e+00  4.60e+01   5.8*sigma
+   A 926  THR  CA     
+   A 926  THR  C      
+   A 927  PRO  N      
+   A 927  PRO  CA        180.00  -149.51   -30.49  5.00e+00  3.72e+01   6.1*sigma
+   R 147  LEU  CA     
+   R 147  LEU  C      
+   R 148  SER  N      
+   R 148  SER  CA        180.00  -148.70   -31.30  5.00e+00  3.92e+01   6.3*sigma
+   M  22    U  O4'    
+   M  22    U  C4'    
+   M  22    U  C3'    
+   M  22    U  C2'        24.00   -29.52    53.52  8.00e+00  6.08e+01   6.7*sigma
+   O 182  TRP  CA     
+   O 182  TRP  C      
+   O 183  PRO  N      
+   O 183  PRO  CA        180.00   146.26    33.74  5.00e+00  4.55e+01   6.7*sigma
+   E 230  HIS  CA     
+   E 230  HIS  C      
+   E 231  THR  N      
+   E 231  THR  CA        180.00  -146.03   -33.97  5.00e+00  4.62e+01   6.8*sigma
+   R 171  LYS  CA     
+   R 171  LYS  C      
+   R 172  PRO  N      
+   R 172  PRO  CA        180.00  -145.82   -34.18  5.00e+00  4.67e+01   6.8*sigma
+   M  22    U  C5'    
+   M  22    U  C4'    
+   M  22    U  C3'    
+   M  22    U  O3'       147.00    87.85    59.15  8.00e+00  7.31e+01   7.4*sigma
+
+  Min. delta:    0.001
+  Max. delta:  169.732
+  Mean delta:   17.702
+
+                       ----------Chiral volumes----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   K 470  SER  CA     
+   K 470  SER  N      
+   K 470  SER  C      
+   K 470  SER  CB          2.51     3.32    -0.81  2.00e-01  1.63e+01   4.0*sigma
+   F 336  ALA  CA     
+   F 336  ALA  N      
+   F 336  ALA  C      
+   F 336  ALA  CB          2.48     1.65     0.83  2.00e-01  1.72e+01   4.2*sigma
+   B 182  TRP  CA     
+   B 182  TRP  N      
+   B 182  TRP  C      
+   B 182  TRP  CB          2.51     1.66     0.85  2.00e-01  1.81e+01   4.2*sigma
+   A 607  SER  CA     
+   A 607  SER  N      
+   A 607  SER  C      
+   A 607  SER  CB          2.51     1.53     0.98  2.00e-01  2.42e+01   4.9*sigma
+   Q 125  ALA  CA     
+   Q 125  ALA  N      
+   Q 125  ALA  C      
+   Q 125  ALA  CB          2.48     1.48     1.00  2.00e-01  2.50e+01   5.0*sigma
+   S 536  SER  CA     
+   S 536  SER  N      
+   S 536  SER  C      
+   S 536  SER  CB          2.51     1.43     1.08  2.00e-01  2.90e+01   5.4*sigma
+   A 682  SER  CA     
+   A 682  SER  N      
+   A 682  SER  C      
+   A 682  SER  CB          2.51     1.43     1.08  2.00e-01  2.92e+01   5.4*sigma
+   F 258  ILE  CA     
+   F 258  ILE  N      
+   F 258  ILE  C      
+   F 258  ILE  CB          2.43     1.27     1.16  2.00e-01  3.36e+01   5.8*sigma
+   S 288  LYS  CA     
+   S 288  LYS  N      
+   S 288  LYS  C      
+   S 288  LYS  CB          2.51     1.22     1.29  2.00e-01  4.19e+01   6.5*sigma
+   F 288  LYS  CA     
+   F 288  LYS  N      
+   F 288  LYS  C      
+   F 288  LYS  CB          2.51     1.14     1.37  2.00e-01  4.71e+01   6.9*sigma
+   A 217  TYR  CA     
+   A 217  TYR  N      
+   A 217  TYR  C      
+   A 217  TYR  CB          2.51     1.11     1.40  2.00e-01  4.89e+01   7.0*sigma
+   R 169  VAL  CA     
+   R 169  VAL  N      
+   R 169  VAL  C      
+   R 169  VAL  CB          2.44     1.01     1.43  2.00e-01  5.12e+01   7.2*sigma
+   X  58  MET  CA     
+   X  58  MET  N      
+   X  58  MET  C      
+   X  58  MET  CB          2.51     0.92     1.59  2.00e-01  6.33e+01   8.0*sigma
+   S 349  ASN  CA     
+   S 349  ASN  N      
+   S 349  ASN  C      
+   S 349  ASN  CB          2.51     0.90     1.61  2.00e-01  6.49e+01   8.1*sigma
+   T  25  ASP  CA     
+   T  25  ASP  N      
+   T  25  ASP  C      
+   T  25  ASP  CB          2.51     0.90     1.61  2.00e-01  6.50e+01   8.1*sigma
+   K 423  LYS  CA     
+   K 423  LYS  N      
+   K 423  LYS  C      
+   K 423  LYS  CB          2.51     0.89     1.62  2.00e-01  6.55e+01   8.1*sigma
+   X 208  CYS  CA     
+   X 208  CYS  N      
+   X 208  CYS  C      
+   X 208  CYS  CB          2.51     0.84     1.67  2.00e-01  6.97e+01   8.4*sigma
+   R 147  LEU  CA     
+   R 147  LEU  N      
+   R 147  LEU  C      
+   R 147  LEU  CB          2.51     0.77     1.74  2.00e-01  7.58e+01   8.7*sigma
+   X 423  LYS  CA     
+   X 423  LYS  N      
+   X 423  LYS  C      
+   X 423  LYS  CB          2.51     0.75     1.76  2.00e-01  7.75e+01   8.8*sigma
+
+  Min. delta:    0.000
+  Max. delta:    1.761
+  Mean delta:    0.101
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   N 808  GLY  C      
+   N 809  PRO  N      
+   N 809  PRO  CA     
+   N 809  PRO  CD            0.139       0.241       30.99   4.8*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.139
+  Mean delta:    0.006
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.008   0.111  55993
+    Angle     :  1.709  46.462  76636
+    Chirality :  0.101   1.761   8770
+    Planarity :  0.006   0.139   9378
+    Dihedral  : 17.702 169.732  20578
+    Min Nonbonded Distance : 1.423
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 23.25
+    Ramachandran Plot:
+      Outliers :  0.58 %
+      Allowed  : 10.49 %
+      Favored  : 88.93 %
+    Rotamer Outliers : 10.00 %
+    Cbeta Deviations :  2.46 %
+    Peptide Plane:
+      Cis-proline     : 0.71 %
+      Cis-general     : 0.41 %
+      Twisted Proline : 1.07 %
+      Twisted General : 0.03 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -3.84 (0.09), residues: 6610
+    helix: -1.63 (0.09), residues: 2317
+    sheet: -2.48 (0.15), residues: 905
+    loop : -3.31 (0.09), residues: 3388
+
+                     ----------Asn/Gln/His flips----------                     
+
+   X 478  ASN
+   X 104  ASN
+   X  63  ASN
+   U  98  GLN
+   S  33  HIS
+   S 107  ASN
+   N 256  HIS
+   H  65  GLN
+   F 531  GLN
+   F 519  ASN
+   F  33  HIS
+   E 275  GLN
+   E 194  GLN
+   A 256  HIS
+   A  57  GLN
+   A 295  HIS
+   A 356  ASN
+   A 822  GLN
+   B  43  ASN
+   B  65  GLN
+   B 104  ASN
+   E 164  HIS
+   E 230  HIS
+   E 492  GLN
+   F 220  ASN
+   F 492  GLN
+   G  11  GLN
+   K 257  HIS
+   N  57  GLN
+   N 295  HIS
+   N 356  ASN
+   N 611  ASN
+   O 158  GLN
+   R 107  ASN
+   R 243  GLN
+   R 548  GLN
+   S 388  ASN
+   S 404  GLN
+   T  11  GLN
+   X 257  HIS
+   X 487  HIS
+   X 489  ASN
+
+================================ RNA validation ===============================
+
+
+                    ----------Backbone bond lenths----------                   
+
+  residue               atom 1  atom 2  sigmas
+   J  25    G              O3'     P      4.12
+   J  26    A              O3'     P      6.36
+   M  18    A              C1'     N9     5.39
+   M  19    A              C1'     N9     5.68
+   M  21    G              C1'     N9     6.95
+   M  23    C              C1'     N1    -5.71
+   M  25    G              O3'     P      4.22
+   M  26    A              O3'     P      6.33
+  8/1620 bond outliers present
+
+                    ----------Backbone bond angles----------                   
+
+  residue               atom 1  atom 2  atom 3  sigmas
+   J  24    U              C4'     C3'     O3'   -4.63
+   J  26    A              O2'     C2'     C1'    6.54
+   M  23    C              O3'     C3'     C2'   -9.39
+   M  26    A              O2'     C2'     C1'    6.53
+  4/2536 angle outliers present
+
+                        ----------Sugar pucker----------                       
+
+  residue                  delta   outlier   epsilon   outlier
+   I  22    G               68.6        no      92.3       yes
+   L  22    G               68.6        no      92.3       yes
+   M  22    U               87.8       yes     295.4        no
+   M  23    C              137.5        no      80.3       yes
+  4/116 pucker outliers present
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.58 %
+                favored =  88.93 %
+  Rotamer outliers      =  10.00 %
+  C-beta deviations     =   155
+  Clashscore            =  23.25
+  RMS(bonds)            =   0.0080
+  RMS(angles)           =   1.71
+  MolProbity score      =   3.20
+  Refinement program    = PHENIX

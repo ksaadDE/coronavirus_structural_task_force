@@ -1,0 +1,58 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ A  48  ARG  O    A 239  ARG  NH2 :0.765
+ A  76  GLU  HG2  C   9  LEU HD11 :0.690
+ A 219  ARG  HG3  A 219  ARG  O   :0.673
+ C   5  LEU  O    C 101  HOH  O   :0.654
+ A 194  ILE HD12  A 198  GLU  HG3 :0.648
+ A  64  THR HG22  A  68  LYS  HD2 :0.633
+ A  23  ILE HD12  B  54  LEU  HB3 :0.628
+ A 253  GLU  O    A 256  ARG  HG2 :0.619
+ A  72  GLN  NE2  A 305  HOH  O   :0.578
+ A 152  VAL HG11  C   8  LEU HD21 :0.566
+ A  31  THR  OG1  A 301  HOH  O   :0.562
+ A 238  ASP  O    A 239  ARG  HB2 :0.552
+ A 117  ALA  HB2  B  60  TRP  CE2 :0.551
+ A 147  LEU HD23  A 152  VAL HG21 :0.529
+ A  97  ARG  HD2  A 116  TYR  CZ  :0.527
+ A 204  TRP  CZ2  B  99  MET  HA  :0.526
+ A 190  THR  OG1  A 192  HIS  HE1 :0.518
+ A  71  THR  O    A  75  ARG  HG3 :0.514
+ B  94  LYS  HB3  B  94  LYS  NZ  :0.512
+ A 204  TRP  HZ2  B  99  MET  HA  :0.511
+ A  77  SER  O    A  81  LEU  HG  :0.507
+ A  10  THR  HB   A  23  ILE HD13 :0.500
+ B  87  LEU  O    B 101  HOH  O   :0.494
+ A  23  ILE  CD1  B  54  LEU  HB3 :0.489
+ A 129  ASP  O    A 131  ARG  HG3 :0.480
+ B  27  VAL HG11  B  35  ILE HD13 :0.478
+ C   5  LEU  O    C   8  LEU HD12 :0.476
+ A 115  GLN  HB3  A 125  ALA  CB  :0.468
+ A 192  HIS  NE2  B  98  ASP  HB3 :0.458
+ B  24  ASN  HB3  B  65  LEU HD11 :0.457
+ A   6  ARG  NH1  A 102  ASP  OD1 :0.453
+ A 194  ILE  H    A 199  ALA  HA  :0.452
+ A 155  GLN  HB3  C   5  LEU HD11 :0.452
+ B  27  VAL HG11  B  35  ILE  CD1 :0.450
+ B  75  LYS  HB3  B  75  LYS  HE2 :0.448
+ A  49  ALA  HA   A 239  ARG  NH2 :0.447
+ A 238  ASP  O    A 239  ARG  CB  :0.447
+ A 168  LEU  O    A 172  LEU  HG  :0.442
+ A  50  PRO  HD2  A 178  LYS  NZ  :0.440
+ A 201  LEU  HB2  A 247  VAL HG23 :0.439
+ A 152  VAL  CG1  C   8  LEU HD21 :0.432
+ A 219  ARG  HA   A 220  ASP  HA  :0.428
+ A  26  GLY  HA3  A  34  VAL HG12 :0.428
+ A  89  GLU  H    A  89  GLU  HG2 :0.428
+ A 203  CYS  HB2  A 217  TRP  CZ2 :0.428
+ A 139  ALA  O    A 142  ILE  HB  :0.412
+ A 195  SER  HB2  A 196  ASP  H   :0.410
+ A 117  ALA  HB2  B  60  TRP  CD2 :0.407
+ A 218  GLN  HG3  A 223  ASP  OD1 :0.407
+ A  35  ARG  HD3  A  48  ARG  NH2 :0.404
+ A 218  GLN  O    A 257  TYR  HA  :0.400
+clashscore = 8.31

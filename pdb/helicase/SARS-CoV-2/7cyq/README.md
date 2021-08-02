@@ -10,7 +10,7 @@
 
 ## Description
 
-Cryo-EM structure of an extended SARS-CoV-2 replication and transcription complex (RTC) reveals an intermediate state in cap structure synthesis. Cryo-EM structure of an extended RTC assembled by nsp7-nsp8 2 -nsp12-nsp13 2 -RNA and a single RNA-binding protein, nsp9. Nsp9 binds tightly to nsp12 (RdRp) NiRAN, allowing nsp9 N terminus inserting into the catalytic center of nsp12 NiRAN, which then inhibits activity.
+Cryo-EM structure of an extended SARS-CoV-2 replication and transcription complex (RTC) reveals an intermediate state in cap structure synthesis. Cryo-EM structure of an extended RTC assembled by nsp7-nsp8 2 -nsp12-nsp13 2 -RNA and a single RNA-binding protein, nsp9. Nsp9 binds tightly to nsp12 (RdRp) NiRAN, allowing nsp9 N terminus inserting into the catalytic center of nsp12 NiRAN, which then inhibits activity. EM structure of SARS-CoV-2 extended RTC assembled by nsp7-nsp8­-nsp12-nsp13-RNA and a single RNA-binding protein, nsp9. Hetero nonamer, Helicase and NSP8 with two chains each and RNA polymerase, NSP7, NSP9 and both RNAs with one chain each. NSP9 binds tightly to NSP12 NiRAN, allowing NSP9 N-terminus to insert into the catalytic center of NSP12 which inhibits activity.
 
 ## Basefolder
 
@@ -22,7 +22,7 @@ Cryo-EM structure of an extended SARS-CoV-2 replication and transcription comple
 
 **old** - contains files from historical revisions
 
-**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/helicase/SARS-CoV-2/7cyq/validation/molprobity)   
+**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/helicase/SARS-CoV-2/7cyq/validation/molprobity)    
 
 
 
@@ -42,6 +42,11 @@ Primary map emd_30504.map available. **Click** [here](http://ftp.wwpdb.org/pub/e
 |   | Frame Sampling | Electron Dose |
 |---|-------------:|----------------:|
 |   |0.82 Å|60.0 e<sup>-</sup>/Å<sup>2</sup>|
+
+**Geometry validation (the lower, the better)**
+|   |**MolProbity<br>score**| **Ramachandran<br>outliers** | **CaBLAM<br>Conformation outliers** | **CaBLAM<br>CA outliers** |
+|---|-------------:|----------------:|----------------:|----------------:|
+||  3.58|  0.84 %|4.4 %|1.65 %|
 
 ## HARUSPEX results
 

@@ -1,0 +1,322 @@
+global_
+_lib_name         mon_lib
+_lib_version      5.52
+_lib_update       17/08/20
+# ------------------------------------------------
+#
+# ---   LIST OF MONOMERS ---
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+USH      USH '.                                   ' .                  38  19 .
+#
+# ---   LIST OF LINKS ---
+#
+data_link_list
+loop_
+_chem_link.id
+_chem_link.comp_id_1
+_chem_link.mod_id_1
+_chem_link.group_comp_1
+_chem_link.comp_id_2
+_chem_link.mod_id_2
+_chem_link.group_comp_2
+_chem_link.name
+CYS-USH  CYS      .        .        USH      .        .
+ bond_CYS-SG_=_USH-C14
+#
+# --- DESCRIPTION OF MONOMERS ---
+#
+data_comp_USH
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.partial_charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ USH           O3     O    O         0.000     21.295    4.016  -27.788
+ USH           C6     C    C         0.000     22.513    3.848  -27.793
+ USH           C5     C    CH2       0.000     23.287    3.529  -26.514
+ USH           H51    H    H         0.000     24.156    4.190  -26.497
+ USH           H52    H    H         0.000     23.620    2.492  -26.596
+ USH           N1     N    N         0.000     22.526    3.698  -25.291
+ USH           C1     C    C         0.000     21.424    2.965  -25.008
+ USH           C14    C    CH3       0.000     21.127    1.776  -25.892
+ USH           H143   H    H         0.000     20.995    2.101  -26.892
+ USH           H142   H    H         0.000     21.934    1.091  -25.849
+ USH           H141   H    H         0.000     20.242    1.297  -25.559
+ USH           O1     O    O         0.000     20.687    3.215  -24.054
+ USH           C2     C    CH2       0.000     23.025    4.692  -24.327
+ USH           H21    H    H         0.000     22.250    4.825  -23.569
+ USH           H22    H    H         0.000     23.165    5.628  -24.871
+ USH           C3     C    CH2       0.000     24.327    4.295  -23.657
+ USH           H31    H    H         0.000     24.410    4.857  -22.724
+ USH           H32    H    H         0.000     25.146    4.574  -24.323
+ USH           C4     C    CH3       0.000     24.397    2.812  -23.363
+ USH           H43    H    H         0.000     23.602    2.542  -22.717
+ USH           H42    H    H         0.000     24.317    2.268  -24.268
+ USH           H41    H    H         0.000     25.321    2.588  -22.897
+ USH           N2     N    N         0.000     23.280    3.904  -28.898
+ USH           C7     C    CR6       0.000     22.925    3.479  -30.197
+ USH           C12    C    CR6       0.000     22.767    4.483  -31.170
+ USH           O2     O    O2        0.000     22.995    5.756  -30.732
+ USH           C13    C    CH3       0.000     23.798    6.607  -31.545
+ USH           H133   H    H         0.000     24.759    6.179  -31.662
+ USH           H132   H    H         0.000     23.343    6.719  -32.495
+ USH           H131   H    H         0.000     23.887    7.555  -31.082
+ USH           C11    C    CR16      0.000     22.402    4.137  -32.467
+ USH           H11    H    H         0.000     22.274    4.905  -33.220
+ USH           C10    C    CR16      0.000     22.203    2.806  -32.790
+ USH           H10    H    H         0.000     21.924    2.535  -33.801
+ USH           C9     C    CR16      0.000     22.356    1.822  -31.838
+ USH           H9     H    H         0.000     22.197    0.784  -32.104
+ USH           C8     C    CR16      0.000     22.713    2.155  -30.540
+ USH           H8     H    H         0.000     22.826    1.378  -29.794
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+ USH      O3     n/a    C6     START
+ USH      C6     O3     N2     .
+ USH      C5     C6     N1     .
+ USH      H51    C5     .      .
+ USH      H52    C5     .      .
+ USH      N1     C5     C2     .
+ USH      C1     N1     O1     .
+ USH      C14    C1     H141   .
+ USH      H143   C14    .      .
+ USH      H142   C14    .      .
+ USH      H141   C14    .      .
+ USH      O1     C1     .      .
+ USH      C2     N1     C3     .
+ USH      H21    C2     .      .
+ USH      H22    C2     .      .
+ USH      C3     C2     C4     .
+ USH      H31    C3     .      .
+ USH      H32    C3     .      .
+ USH      C4     C3     H41    .
+ USH      H43    C4     .      .
+ USH      H42    C4     .      .
+ USH      H41    C4     .      .
+ USH      N2     C6     C7     .
+ USH      C7     N2     C12    .
+ USH      C12    C7     C11    .
+ USH      O2     C12    C13    .
+ USH      C13    O2     H131   .
+ USH      H133   C13    .      .
+ USH      H132   C13    .      .
+ USH      H131   C13    .      .
+ USH      C11    C12    C10    .
+ USH      H11    C11    .      .
+ USH      C10    C11    C9     .
+ USH      H10    C10    .      .
+ USH      C9     C10    C8     .
+ USH      H9     C9     .      .
+ USH      C8     C9     H8     .
+ USH      H8     C8     .      END
+ USH      C7     C8     .    ADD
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ USH      N1     C5        single      1.455    0.020
+ USH      C1     N1        single      1.330    0.020
+ USH      C2     N1        single      1.455    0.020
+ USH      C4     C3        single      1.513    0.020
+ USH      C5     C6        single      1.510    0.020
+ USH      N2     C6        deloc       1.330    0.020
+ USH      C6     O3        double      1.220    0.020
+ USH      C7     C8        aromatic    1.390    0.020
+ USH      C7     N2        single      1.400    0.020
+ USH      C12    C7        aromatic    1.384    0.020
+ USH      C8     C9        aromatic    1.390    0.020
+ USH      C9     C10       aromatic    1.390    0.020
+ USH      C10    C11       aromatic    1.390    0.020
+ USH      C13    O2        single      1.426    0.020
+ USH      O1     C1        double      1.220    0.020
+ USH      C14    C1        single      1.500    0.020
+ USH      C3     C2        single      1.524    0.020
+ USH      C11    C12       aromatic    1.390    0.020
+ USH      O2     C12       single      1.370    0.020
+ USH      H41    C4        single      1.059    0.020
+ USH      H42    C4        single      1.059    0.020
+ USH      H43    C4        single      1.059    0.020
+ USH      H51    C5        single      1.092    0.020
+ USH      H52    C5        single      1.092    0.020
+ USH      H8     C8        single      1.083    0.020
+ USH      H10    C10       single      1.083    0.020
+ USH      H131   C13       single      1.059    0.020
+ USH      H132   C13       single      1.059    0.020
+ USH      H133   C13       single      1.059    0.020
+ USH      H21    C2        single      1.092    0.020
+ USH      H22    C2        single      1.092    0.020
+ USH      H31    C3        single      1.092    0.020
+ USH      H32    C3        single      1.092    0.020
+ USH      H9     C9        single      1.083    0.020
+ USH      H11    C11       single      1.083    0.020
+ USH      H141   C14       single      1.059    0.020
+ USH      H142   C14       single      1.059    0.020
+ USH      H143   C14       single      1.059    0.020
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ USH      O3     C6     C5      120.500    3.000
+ USH      O3     C6     N2      123.000    3.000
+ USH      C5     C6     N2      116.500    3.000
+ USH      C6     C5     H51     109.470    3.000
+ USH      C6     C5     H52     109.470    3.000
+ USH      C6     C5     N1      109.500    3.000
+ USH      H51    C5     H52     107.900    3.000
+ USH      H51    C5     N1      109.470    3.000
+ USH      H52    C5     N1      109.470    3.000
+ USH      C5     N1     C1      127.000    3.000
+ USH      C5     N1     C2      120.000    3.000
+ USH      C1     N1     C2      127.000    3.000
+ USH      N1     C1     C14     116.500    3.000
+ USH      N1     C1     O1      123.000    3.000
+ USH      C14    C1     O1      123.000    3.000
+ USH      C1     C14    H143    109.470    3.000
+ USH      C1     C14    H142    109.470    3.000
+ USH      C1     C14    H141    109.470    3.000
+ USH      H143   C14    H142    109.470    3.000
+ USH      H143   C14    H141    109.470    3.000
+ USH      H142   C14    H141    109.470    3.000
+ USH      N1     C2     H21     109.470    3.000
+ USH      N1     C2     H22     109.470    3.000
+ USH      N1     C2     C3      105.000    3.000
+ USH      H21    C2     H22     107.900    3.000
+ USH      H21    C2     C3      109.470    3.000
+ USH      H22    C2     C3      109.470    3.000
+ USH      C2     C3     H31     109.470    3.000
+ USH      C2     C3     H32     109.470    3.000
+ USH      C2     C3     C4      111.000    3.000
+ USH      H31    C3     H32     107.900    3.000
+ USH      H31    C3     C4      109.470    3.000
+ USH      H32    C3     C4      109.470    3.000
+ USH      C3     C4     H43     109.470    3.000
+ USH      C3     C4     H42     109.470    3.000
+ USH      C3     C4     H41     109.470    3.000
+ USH      H43    C4     H42     109.470    3.000
+ USH      H43    C4     H41     109.470    3.000
+ USH      H42    C4     H41     109.470    3.000
+ USH      C6     N2     C7      120.000    3.000
+ USH      N2     C7     C12     120.000    3.000
+ USH      N2     C7     C8      120.000    3.000
+ USH      C12    C7     C8      120.000    3.000
+ USH      C7     C12    O2      120.000    3.000
+ USH      C7     C12    C11     120.000    3.000
+ USH      O2     C12    C11     120.000    3.000
+ USH      C12    O2     C13     120.000    3.000
+ USH      O2     C13    H133    109.470    3.000
+ USH      O2     C13    H132    109.470    3.000
+ USH      O2     C13    H131    109.470    3.000
+ USH      H133   C13    H132    109.470    3.000
+ USH      H133   C13    H131    109.470    3.000
+ USH      H132   C13    H131    109.470    3.000
+ USH      C12    C11    H11     120.000    3.000
+ USH      C12    C11    C10     120.000    3.000
+ USH      H11    C11    C10     120.000    3.000
+ USH      C11    C10    H10     120.000    3.000
+ USH      C11    C10    C9      120.000    3.000
+ USH      H10    C10    C9      120.000    3.000
+ USH      C10    C9     H9      120.000    3.000
+ USH      C10    C9     C8      120.000    3.000
+ USH      H9     C9     C8      120.000    3.000
+ USH      C9     C8     H8      120.000    3.000
+ USH      C9     C8     C7      120.000    3.000
+ USH      H8     C8     C7      120.000    3.000
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ USH      var_1            O3     C6     C5     N1               180.000           20.000   3
+ USH      var_2            C6     C5     N1     C2              -118.786           20.000   3
+ USH      var_3            C5     N1     C1     O1               180.000           20.000   2
+ USH      var_4            N1     C1     C14    H141             180.000           20.000   3
+ USH      var_5            C5     N1     C2     C3               -69.083           20.000   3
+ USH      var_6            N1     C2     C3     C4               180.000           20.000   3
+ USH      var_7            C2     C3     C4     H41              180.000           20.000   3
+ USH      CONST_1          O3     C6     N2     C7               180.000            0.000   0
+ USH      var_8            C6     N2     C7     C12              111.654           20.000   3
+ USH      CONST_2          N2     C7     C8     C9                 0.000            0.000   0
+ USH      CONST_3          N2     C7     C12    C11                0.000            0.000   0
+ USH      var_9            C7     C12    O2     C13              134.299           20.000   3
+ USH      var_10           C12    O2     C13    H131             180.000           20.000   3
+ USH      CONST_4          C7     C12    C11    C10                0.000            0.000   0
+ USH      CONST_5          C12    C11    C10    C9                 0.000            0.000   0
+ USH      CONST_6          C11    C10    C9     C8                 0.000            0.000   0
+ USH      CONST_7          C10    C9     C8     C7                 0.000            0.000   0
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ USH      plan-1            N1        0.020
+ USH      plan-1            C5        0.020
+ USH      plan-1            C1        0.020
+ USH      plan-1            C2        0.020
+ USH      plan-2            C6        0.020
+ USH      plan-2            C5        0.020
+ USH      plan-2            N2        0.020
+ USH      plan-2            O3        0.020
+ USH      plan-2            C7        0.020
+ USH      plan-3            C7        0.020
+ USH      plan-3            C8        0.020
+ USH      plan-3            N2        0.020
+ USH      plan-3            C12       0.020
+ USH      plan-3            C10       0.020
+ USH      plan-3            C9        0.020
+ USH      plan-3            C11       0.020
+ USH      plan-3            H8        0.020
+ USH      plan-3            H10       0.020
+ USH      plan-3            H9        0.020
+ USH      plan-3            H11       0.020
+ USH      plan-3            O2        0.020
+ USH      plan-4            C1        0.020
+ USH      plan-4            N1        0.020
+ USH      plan-4            O1        0.020
+ USH      plan-4            C14       0.020
+# ------------------------------------------------------
+# ------------------------------------------------------
+#
+# --- DESCRIPTION OF LINKS ---
+#
+data_link_CYS-USH
+#
+loop_
+_chem_link_bond.link_id
+_chem_link_bond.atom_1_comp_id
+_chem_link_bond.atom_id_1
+_chem_link_bond.atom_2_comp_id
+_chem_link_bond.atom_id_2
+_chem_link_bond.type
+_chem_link_bond.value_dist
+_chem_link_bond.value_dist_esd
+ CYS-USH  1 SG      2 C14       .           1.810    0.020
+# ------------------------------------------------------

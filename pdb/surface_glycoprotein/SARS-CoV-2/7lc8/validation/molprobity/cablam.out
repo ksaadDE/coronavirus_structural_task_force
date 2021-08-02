@@ -1,0 +1,59 @@
+residue : outlier_type : contour_level : ca_contour_level : sec struc recommendation : alpha score : beta score : three-ten score
+ A1219  GLY:                    :0.84905:0.80133:                 :0.10547:0.00000:0.18864
+ A1220  PHE:                    :0.91941:0.87795: try alpha helix :0.55654:0.00000:0.00732
+ A1221  ILE:                    :0.86536:0.87871: try alpha helix :0.58726:0.00000:0.00495
+ A1222  ALA:                    :0.77082:0.74249: try alpha helix :0.20462:0.00000:0.00581
+ A1223  GLY:                    :0.90022:0.88103: try alpha helix :0.19678:0.00000:0.00017
+ A1224  LEU:                    :0.75241:0.71814: try alpha helix :0.18531:0.00000:0.00582
+ A1225  ILE:                    :0.73822:0.72325: try alpha helix :0.16772:0.00000:0.00033
+ A1226  ALA:                    :0.79699:0.77138: try alpha helix :0.32945:0.00000:0.05826
+ A1227  ILE:                    :0.90917:0.91777: try alpha helix :0.64832:0.00000:0.01298
+ A1228  VAL:                    :0.88268:0.88220: try alpha helix :0.54089:0.00000:0.00496
+ A1229  LEU:                    :0.96540:0.86872: try alpha helix :0.76975:0.00000:0.01473
+ A1230  VAL:                    :0.79190:0.71626: try alpha helix :0.23861:0.00000:0.05613
+ A1231  THR:                    :0.78822:0.74330: try alpha helix :0.25447:0.00000:0.03632
+ A1232  ILE:                    :0.83805:0.76324: try alpha helix :0.36764:0.00000:0.00468
+ A1233  LEU:                    :0.86659:0.83588: try alpha helix :0.38928:0.00000:0.04914
+ A1234  LEU:                    :0.91297:0.89849: try alpha helix :0.63628:0.00000:0.03661
+ A1235  SER:                    :0.75052:0.76440:                 :0.23762:0.00000:0.03229
+ B1219  GLY:                    :0.92193:0.91033:                 :0.18912:0.00000:0.09725
+ B1220  PHE:                    :0.92505:0.92779: try alpha helix :0.67220:0.00000:0.01312
+ B1221  ILE:                    :0.83729:0.83115: try alpha helix :0.38646:0.00000:0.00444
+ B1222  ALA:                    :0.77477:0.75538: try alpha helix :0.21314:0.00000:0.00179
+ B1223  GLY:                    :0.91794:0.90438: try alpha helix :0.27136:0.00000:0.00079
+ B1224  LEU:                    :0.75839:0.73089: try alpha helix :0.19193:0.00000:0.00432
+ B1225  ILE:                    :0.75074:0.73121: try alpha helix :0.18239:0.00000:0.00096
+ B1226  ALA:                    :0.81584:0.77737: try alpha helix :0.36319:0.00000:0.05558
+ B1227  ILE:                    :0.88903:0.85932: try alpha helix :0.47565:0.00000:0.00758
+ B1228  VAL:                    :0.86890:0.86406: try alpha helix :0.47378:0.00000:0.00342
+ B1229  LEU:                    :0.93501:0.84925: try alpha helix :0.64512:0.00000:0.02769
+ B1230  VAL:                    :0.84421:0.71407: try alpha helix :0.36516:0.00000:0.05283
+ B1231  THR:                    :0.82967:0.77564: try alpha helix :0.33704:0.00000:0.01690
+ B1232  ILE:                    :0.75909:0.73244: try alpha helix :0.18046:0.00000:0.00006
+ B1233  LEU:                    :0.75641:0.72932: try alpha helix :0.17661:0.00000:0.00039
+ B1234  LEU:                    :0.75765:0.73596: try alpha helix :0.18845:0.00000:0.00012
+ B1235  SER:                    :0.64852:0.71200:                 :0.13904:0.00000:0.02693
+ C1219  GLY:                    :0.88695:0.87127:                 :0.11962:0.00000:0.20466
+ C1220  PHE:                    :0.85773:0.85183: try alpha helix :0.45247:0.00000:0.04822
+ C1221  ILE:                    :0.97972:0.97727: try alpha helix :0.97578:0.00000:0.01333
+ C1222  ALA:                    :0.77074:0.74718: try alpha helix :0.20489:0.00000:0.00561
+ C1223  GLY:                    :0.90152:0.88417: try alpha helix :0.19496:0.00000:0.00011
+ C1224  LEU:                    :0.73949:0.71807: try alpha helix :0.16375:0.00000:0.00454
+ C1225  ILE:                    :0.72307:0.71659: try alpha helix :0.14766:0.00000:0.00000
+ C1226  ALA:                    :0.87760:0.81745: try alpha helix :0.58542:0.00000:0.04372
+ C1227  ILE:                    :0.88933:0.95758: try alpha helix :0.87245:0.00000:0.02630
+ C1228  VAL:                    :0.98058:0.99405: try alpha helix :0.97448:0.00000:0.01692
+ C1229  LEU:                    :0.81411:0.79506: try alpha helix :0.30219:0.00000:0.03970
+ C1230  VAL:                    :0.73354:0.61374: try alpha helix :0.14027:0.00000:0.12811
+ C1231  THR:                    :0.73696:0.72205: try alpha helix :0.13755:0.00000:0.14165
+ C1232  ILE:                    :0.79014:0.77054: try alpha helix :0.22714:0.00000:0.08220
+ C1233  LEU:                    :0.75304:0.73214: try alpha helix :0.17690:0.00000:0.00666
+ C1234  LEU:                    :0.60691:0.71063: try alpha helix :0.16089:0.00000:0.00010
+ C1235  SER:                    :0.92440:0.81843:                 :0.63956:0.00000:0.03311
+SUMMARY: Note: Regardless of number of alternates, each residue is counted as having at most one outlier.
+SUMMARY: CaBLAM found 51 full protein residues and 0 CA-only residues
+SUMMARY: 0 residues (0.0%) have disfavored conformations. (<=5% expected).
+SUMMARY: 0 residues (0.0%) have outlier conformations. (<=1% expected)
+SUMMARY: 0 residues (0.00%) have severe CA geometry outliers. (<=0.5% expected)
+SUMMARY: 45 residues (88.24%) are helix-like, 0 residues (0.00%) are beta-like
+SUMMARY: 0 residues (0.00%) are correctable to helix, 0 residues (0.00%) are correctable to beta

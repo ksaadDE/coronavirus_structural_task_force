@@ -23,15 +23,27 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    D.FEARON,M.SCHULLER,V.L.RANGEL,A.DOUANGAMATH,J.G.M.RACK,K.ZHU,        
 AUTHOR   2 A.AIMON,J.BRANDAO-NETO,A.DIAS,L.DUNNET,T.J.GORRIE-STONE,A.J.POWELL,  
 AUTHOR   3 T.KROJER,R.SKYNER,W.THOMPSON,I.AHEL,F.VON DELFT                      
+REVDAT   3   07-JUL-21 5S2Z    1       JRNL                                     
 REVDAT   2   27-JAN-21 5S2Z    1       COMPND                                   
 REVDAT   1   13-JAN-21 5S2Z    0                                                
-JRNL        AUTH   D.FEARON,M.SCHULLER,V.L.RANGEL,A.DOUANGAMATH,J.G.M.RACK,     
-JRNL        AUTH 2 K.ZHU,A.AIMON,J.BRANDAO-NETO,A.DIAS,L.DUNNET,                
-JRNL        AUTH 3 T.J.GORRIE-STONE,A.J.POWELL,T.KROJER,R.SKYNER,W.THOMPSON,    
-JRNL        AUTH 4 I.AHEL,F.VON DELFT                                           
-JRNL        TITL   PANDDA ANALYSIS GROUP DEPOSITION                             
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   M.SCHULLER,G.J.CORREY,S.GAHBAUER,D.FEARON,T.WU,R.E.DIAZ,     
+JRNL        AUTH 2 I.D.YOUNG,L.CARVALHO MARTINS,D.H.SMITH,U.SCHULZE-GAHMEN,     
+JRNL        AUTH 3 T.W.OWENS,I.DESHPANDE,G.E.MERZ,A.C.THWIN,J.T.BIEL,           
+JRNL        AUTH 4 J.K.PETERS,M.MORITZ,N.HERRERA,H.T.KRATOCHVIL,A.AIMON,        
+JRNL        AUTH 5 J.M.BENNETT,J.BRANDAO NETO,A.E.COHEN,A.DIAS,A.DOUANGAMATH,   
+JRNL        AUTH 6 L.DUNNETT,O.FEDOROV,M.P.FERLA,M.R.FUCHS,T.J.GORRIE-STONE,    
+JRNL        AUTH 7 J.M.HOLTON,M.G.JOHNSON,T.KROJER,G.MEIGS,A.J.POWELL,          
+JRNL        AUTH 8 J.G.M.RACK,V.L.RANGEL,S.RUSSI,R.E.SKYNER,C.A.SMITH,          
+JRNL        AUTH 9 A.S.SOARES,J.L.WIERMAN,K.ZHU,P.O'BRIEN,N.JURA,A.ASHWORTH,    
+JRNL        AUTH10 J.J.IRWIN,M.C.THOMPSON,J.E.GESTWICKI,F.VON DELFT,            
+JRNL        AUTH11 B.K.SHOICHET,J.S.FRASER,I.AHEL                               
+JRNL        TITL   FRAGMENT BINDING TO THE NSP3 MACRODOMAIN OF SARS-COV-2       
+JRNL        TITL 2 IDENTIFIED THROUGH CRYSTALLOGRAPHIC SCREENING AND            
+JRNL        TITL 3 COMPUTATIONAL DOCKING.                                       
+JRNL        REF    SCI ADV                       V.   7       2021              
+JRNL        REFN                   ESSN 2375-2548                               
+JRNL        PMID   33853786                                                     
+JRNL        DOI    10.1126/SCIADV.ABF8711                                       
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.07 ANGSTROMS.                                       
 REMARK   3                                                                      

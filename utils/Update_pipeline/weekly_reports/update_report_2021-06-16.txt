@@ -1,0 +1,15 @@
+##### 19 revised structures #####
+7m8j, 7akd, 7dwz, 7dx5, 7dx6, 7dx3, 7dwx, 7dx9, 7dwy, 7dx7, 7dx8, 7dx1, 7dx2, 7dx0, 7kxb, 7lg7, 7d7l, 7d7k, 7kg3
+
+##### 12 new structures #####
+7n5z, 7n6n, 7my3, 7my2, 7nt3, 7nt1, 7nt2, 7ntv, 7ntk, 7nuk, 7djr, 7exm
+
+##### new structures by protein #####
+3c_like_proteinase
+>7djr 7ntv 7n5z 7n6n 7nt3 7nt2 7nuk 7nt1 
+surface_glycoprotein:
+>7my2 7my3
+Nsp2:
+>7exm
+protein_e:
+>7ntk

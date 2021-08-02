@@ -1,0 +1,274 @@
+
+=============================== Model properties ==============================
+
+  Overall:
+    Number of atoms = 3517  (anisotropic = 0)
+    B_iso: mean =  93.3  max = 136.6  min =  36.8
+  (Hydrogen atoms not included in overall counts.)
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.098 (Z=  6.993)
+  Mean delta:    0.007 (Z=  0.348)
+
+                        ----------Bond angles----------                        
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    8.548 (Z=  3.691)
+  Mean delta:    1.239 (Z=  0.588)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   A 214  ARG  CD     
+   A 214  ARG  NE     
+   A 214  ARG  CZ     
+   A 214  ARG  NH1         0.00  -178.14   178.14  1.00e+01  1.92e+02  17.8*sigma
+   A 158  ARG  CD     
+   A 158  ARG  NE     
+   A 158  ARG  CZ     
+   A 158  ARG  NH1         0.00   177.81  -177.81  1.00e+01  1.92e+02  17.8*sigma
+   A 190  ARG  CD     
+   A 190  ARG  NE     
+   A 190  ARG  CZ     
+   A 190  ARG  NH1         0.00   176.59  -176.59  1.00e+01  1.92e+02  17.7*sigma
+   A 138  ASP  CA     
+   A 138  ASP  CB     
+   A 138  ASP  CG     
+   A 138  ASP  OD1         0.00  -152.16   122.16  2.00e+01  3.68e+01   6.1*sigma
+   A 178  ASP  CA     
+   A 178  ASP  CB     
+   A 178  ASP  CG     
+   A 178  ASP  OD1         0.00  -152.05   122.05  2.00e+01  3.67e+01   6.1*sigma
+   H  85  ASP  CA     
+   H  85  ASP  CB     
+   H  85  ASP  CG     
+   H  85  ASP  OD1         0.00  -171.70  -118.30  2.00e+01  3.54e+01   5.9*sigma
+   H  98  ASP  CA     
+   H  98  ASP  CB     
+   H  98  ASP  CG     
+   H  98  ASP  OD1         0.00  -172.14  -117.86  2.00e+01  3.52e+01   5.9*sigma
+   L  98  ASP  CA     
+   L  98  ASP  CB     
+   L  98  ASP  CG     
+   L  98  ASP  OD1         0.00  -172.18  -117.82  2.00e+01  3.52e+01   5.9*sigma
+   A  97  LYS  CA     
+   A  97  LYS  C      
+   A  98  SER  N      
+   A  98  SER  CA        180.00  -151.28   -28.72  5.00e+00  3.30e+01   5.7*sigma
+   H  80  GLU  CB     
+   H  80  GLU  CG     
+   H  80  GLU  CD     
+   H  80  GLU  OE1         0.00  -170.33   170.33  3.00e+01  2.12e+01   5.7*sigma
+   H  97  GLU  CB     
+   H  97  GLU  CG     
+   H  97  GLU  CD     
+   H  97  GLU  OE1         0.00   169.75  -169.75  3.00e+01  2.12e+01   5.7*sigma
+   L  99  GLU  CB     
+   L  99  GLU  CG     
+   L  99  GLU  CD     
+   L  99  GLU  OE1         0.00  -160.34   160.34  3.00e+01  2.07e+01   5.3*sigma
+   A 156  GLU  CB     
+   A 156  GLU  CG     
+   A 156  GLU  CD     
+   A 156  GLU  OE1         0.00   159.59  -159.59  3.00e+01  2.07e+01   5.3*sigma
+   H  71  PHE  CA     
+   H  71  PHE  C      
+   H  72  GLN  N      
+   H  72  GLN  CA        180.00  -154.17   -25.83  5.00e+00  2.67e+01   5.2*sigma
+   A 217  PRO  CA     
+   A 217  PRO  C      
+   A 218  GLN  N      
+   A 218  GLN  CA        180.00   154.34    25.66  5.00e+00  2.63e+01   5.1*sigma
+   H  11  GLU  CB     
+   H  11  GLU  CG     
+   H  11  GLU  CD     
+   H  11  GLU  OE1         0.00   149.87  -149.87  3.00e+01  1.99e+01   5.0*sigma
+   A 120  VAL  CA     
+   A 120  VAL  C      
+   A 121  ASN  N      
+   A 121  ASN  CA        180.00  -155.31   -24.69  5.00e+00  2.44e+01   4.9*sigma
+   A  82  PRO  CA     
+   A  82  PRO  C      
+   A  83  VAL  N      
+   A  83  VAL  CA        180.00   155.42    24.58  5.00e+00  2.42e+01   4.9*sigma
+   H  92  SER  CA     
+   H  92  SER  C      
+   H  93  SER  N      
+   H  93  SER  CA        180.00   155.87    24.13  5.00e+00  2.33e+01   4.8*sigma
+   A 180  GLU  CA     
+   A 180  GLU  C      
+   A 181  GLY  N      
+   A 181  GLY  CA        180.00   156.07    23.93  5.00e+00  2.29e+01   4.8*sigma
+   A 253  ASP  CA     
+   A 253  ASP  CB     
+   A 253  ASP  CG     
+   A 253  ASP  OD1         0.00  -122.09    92.09  2.00e+01  2.49e+01   4.6*sigma
+   A 188  ASN  CA     
+   A 188  ASN  C      
+   A 189  LEU  N      
+   A 189  LEU  CA        180.00   157.13    22.87  5.00e+00  2.09e+01   4.6*sigma
+   A 146  HIS  CA     
+   A 146  HIS  C      
+   A 147  LYS  N      
+   A 147  LYS  CA        180.00  -157.33   -22.67  5.00e+00  2.06e+01   4.5*sigma
+   L 106  THR  CA     
+   L 106  THR  C      
+   L 107  TRP  N      
+   L 107  TRP  CA        180.00   157.57    22.43  5.00e+00  2.01e+01   4.5*sigma
+   H  80  GLU  CA     
+   H  80  GLU  C      
+   H  81  ASP  N      
+   H  81  ASP  CA        180.00   157.59    22.41  5.00e+00  2.01e+01   4.5*sigma
+   A 228  ASP  CA     
+   A 228  ASP  CB     
+   A 228  ASP  CG     
+   A 228  ASP  OD1         0.00   157.86   -87.86  2.00e+01  2.31e+01   4.4*sigma
+   A 213  VAL  CA     
+   A 213  VAL  C      
+   A 214  ARG  N      
+   A 214  ARG  CA        180.00   158.19    21.81  5.00e+00  1.90e+01   4.4*sigma
+   A 151  SER  CA     
+   A 151  SER  C      
+   A 152  TRP  N      
+   A 152  TRP  CA        180.00   158.28    21.72  5.00e+00  1.89e+01   4.3*sigma
+   L  18  LYS  CA     
+   L  18  LYS  C      
+   L  19  VAL  N      
+   L  19  VAL  CA        180.00   159.02    20.98  5.00e+00  1.76e+01   4.2*sigma
+   L 108  ASP  CA     
+   L 108  ASP  CB     
+   L 108  ASP  CG     
+   L 108  ASP  OD1         0.00  -112.40    82.40  2.00e+01  2.08e+01   4.1*sigma
+   A 177  MET  CA     
+   A 177  MET  C      
+   A 178  ASP  N      
+   A 178  ASP  CA        180.00   159.66    20.34  5.00e+00  1.65e+01   4.1*sigma
+   A 181  GLY  CA     
+   A 181  GLY  C      
+   A 182  LYS  N      
+   A 182  LYS  CA        180.00   159.76    20.24  5.00e+00  1.64e+01   4.0*sigma
+   A  95  THR  CA     
+   A  95  THR  C      
+   A  96  GLU  N      
+   A  96  GLU  CA        180.00  -159.96   -20.04  5.00e+00  1.61e+01   4.0*sigma
+
+  Min. delta:    0.008
+  Max. delta:  178.144
+  Mean delta:   22.000
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.219
+  Mean delta:    0.055
+
+                       ----------Planar groups----------                       
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.037
+  Mean delta:    0.004
+
+============================= Hydrogen validation =============================
+
+
+                ----------H/D atoms in the input model----------               
+
+  Total number of hydrogen atoms : 3398
+  Total number of deuterium atoms: 0
+  Number of H atoms (protein)    : 3398
+  Number of D atoms (protein)    : 0
+  Number of H atoms (water)      : 0
+  Number of D atoms (water)      : 0
+  Number of H atoms (other)      : 0
+  Number of D atoms (other)      : 0
+
+                      ----------Water molecules----------                      
+
+  Number of water                            : 0
+  Number of water with 0 H (or D)            : 0
+  Number of water with 1 H (or D)            : 0
+  Number of water with 2 H (or D)            : 0
+  Number of water in alternative conformation: 0
+  Number of water without oxygen atom        : 0
+
+                    ----------MISSING H or D atoms----------                   
+
+  CYS A  15  conformer  : HG 
+  HIS A  66  conformer  : HD1 
+  HIS A  69  conformer  : HD1 
+  CYS A 131  conformer  : HG 
+  CYS A 136  conformer  : HG 
+  HIS A 146  conformer  : HE2 
+  CYS A 166  conformer  : HG 
+  HIS A 207  conformer  : HE2 
+  HIS A 245  conformer  : HD1 
+  CYS H  23  conformer  : HG 
+  HIS H  40  conformer  : HD1 
+  CYS H 104  conformer  : HG 
+  CYS L  23  conformer  : HG 
+  CYS L 104  conformer  : HG 
+  HIS L 115  conformer  : HD1 
+
+============================ Molprobity validation ============================
+
+  
+  Geometry Restraints Library: GeoStd + Monomer Library
+  Deviations from Ideal Values.
+    Bond      :  0.007   0.098   3607
+    Angle     :  1.239   8.548   4906
+    Chirality :  0.055   0.219    538
+    Planarity :  0.004   0.037    627
+    Dihedral  : 22.000 178.144   1268
+    Min Nonbonded Distance : 1.837
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 11.44
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  6.77 %
+      Favored  : 93.23 %
+    Rotamer Outliers :  0.00 %
+    Cbeta Deviations :  0.00 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -0.32 (0.37), residues: 443
+    helix:  None (None), residues: 0
+    sheet:  1.25 (0.38), residues: 172
+    loop : -1.30 (0.33), residues: 271
+
+                     ----------Asn/Gln/His flips----------                     
+
+   A 137  ASN
+   H   6  GLN
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  93.23 %
+  Rotamer outliers      =   0.00 %
+  C-beta deviations     =     0
+  Clashscore            =  11.44
+  RMS(bonds)            =   0.0066
+  RMS(angles)           =   1.24
+  MolProbity score      =   2.01

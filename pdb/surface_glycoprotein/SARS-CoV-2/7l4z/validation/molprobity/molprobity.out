@@ -1,0 +1,164 @@
+
+=============================== Model properties ==============================
+
+   Number of:
+     all atoms      : 8694
+     H or D atoms   : 0
+     chains         : 15
+     a.a. residues  : 1074
+     nucleotides    : 0
+     water          : 0
+     other (ligands): 22
+   Ligands: DTY:5,NAG:7,ACE:5,NH2:5
+
+============================= Geometry restraints =============================
+
+
+                        ----------Bond lengths----------                       
+
+  atoms                 ideal   model   delta   sigma   slack  residual   deviation
+   R  15  CYS  C      
+   R  16  NH2  N           1.33     1.43    -0.10  1.40e-02  5.17e+01   7.2*sigma
+   U  15  CYS  C      
+   U  16  NH2  N           1.33     1.43    -0.10  1.40e-02  5.19e+01   7.2*sigma
+   V  15  CYS  C      
+   V  16  NH2  N           1.33     1.43    -0.10  1.40e-02  5.21e+01   7.2*sigma
+   T  15  CYS  C      
+   T  16  NH2  N           1.33     1.43    -0.10  1.40e-02  5.22e+01   7.2*sigma
+   S  15  CYS  C      
+   S  16  NH2  N           1.33     1.43    -0.10  1.40e-02  5.24e+01   7.2*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:    0.101 (Z=  8.460)
+  Mean delta:    0.005 (Z=  0.330)
+
+                        ----------Bond angles----------                        
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   R  15  CYS  O      
+   R  15  CYS  C      
+   R  16  NH2  N         123.00   131.35    -8.35  1.60e+00  2.72e+01   5.2*sigma
+   S  15  CYS  O      
+   S  15  CYS  C      
+   S  16  NH2  N         123.00   133.26   -10.26  1.60e+00  4.11e+01   6.4*sigma
+   U  15  CYS  O      
+   U  15  CYS  C      
+   U  16  NH2  N         123.00   133.57   -10.57  1.60e+00  4.37e+01   6.6*sigma
+   T  15  CYS  CA     
+   T  15  CYS  C      
+   T  16  NH2  N         116.20   102.65    13.55  2.00e+00  4.59e+01   6.8*sigma
+   S  15  CYS  CA     
+   S  15  CYS  C      
+   S  16  NH2  N         116.20   101.68    14.52  2.00e+00  5.27e+01   7.3*sigma
+   V  15  CYS  CA     
+   V  15  CYS  C      
+   V  16  NH2  N         116.20    94.73    21.47  2.00e+00  1.15e+02  10.7*sigma
+   U  15  CYS  CA     
+   U  15  CYS  C      
+   U  16  NH2  N         116.20    94.13    22.07  2.00e+00  1.22e+02  11.0*sigma
+   R  15  CYS  CA     
+   R  15  CYS  C      
+   R  16  NH2  N         116.20    92.92    23.28  2.00e+00  1.36e+02  11.6*sigma
+
+  Min. delta:    0.000 (Z=  0.000)
+  Max. delta:   23.284 (Z= 11.642)
+  Mean delta:    0.854 (Z=  0.467)
+
+                      ----------Dihedral angles----------                      
+
+  atoms                   ideal    model    delta   sigma  residual   deviation
+   D 528  LYS  CA     
+   D 528  LYS  C      
+   D 529  LYS  N      
+   D 529  LYS  CA        180.00  -152.99   -27.01  5.00e+00  2.92e+01   5.4*sigma
+
+  Min. delta:    0.001
+  Max. delta:   86.747
+  Mean delta:   11.549
+
+                       ----------Chiral volumes----------                      
+
+  All restrained atoms within 4.0 sigma of ideal values.
+
+  Min. delta:    0.000
+  Max. delta:    0.262
+  Mean delta:    0.047
+
+                       ----------Planar groups----------                       
+
+  atoms                 rms_deltas   delta_max    residual   deviation
+   U  15  CYS  CA     
+   U  15  CYS  C      
+   U  15  CYS  O      
+   U  16  NH2  N             0.112       0.086      124.78   4.3*sigma
+   S  15  CYS  CA     
+   S  15  CYS  C      
+   S  15  CYS  O      
+   S  16  NH2  N             0.069       0.119       47.51   5.9*sigma
+   T  15  CYS  CA     
+   T  15  CYS  C      
+   T  15  CYS  O      
+   T  16  NH2  N             0.115       0.199      132.73   9.9*sigma
+   R  15  CYS  CA     
+   R  15  CYS  C      
+   R  15  CYS  O      
+   R  16  NH2  N             0.128       0.220      164.83  11.0*sigma
+   V  15  CYS  CA     
+   V  15  CYS  C      
+   V  15  CYS  O      
+   V  16  NH2  N             0.130       0.224      170.21  11.2*sigma
+
+  Min. delta:    0.000
+  Max. delta:    0.130
+  Mean delta:    0.008
+
+============================ Molprobity validation ============================
+
+
+  Geometry Restraints Library: GeoStd + Monomer Library + CDL v1.2
+  Deviations from Ideal Values.
+    Bond      :  0.005   0.101   8936
+    Angle     :  0.854  23.284  12156
+    Chirality :  0.047   0.262   1281
+    Planarity :  0.008   0.130   1577
+    Dihedral  : 11.549  86.747   3161
+    Min Nonbonded Distance : 1.443
+  
+  Molprobity Statistics.
+    All-atom Clashscore : 9.03
+    Ramachandran Plot:
+      Outliers :  0.00 %
+      Allowed  :  4.74 %
+      Favored  : 95.26 %
+    Rotamer Outliers :  0.00 %
+    Cbeta Deviations :  0.50 %
+    Peptide Plane:
+      Cis-proline     : 0.00 %
+      Cis-general     : 0.00 %
+      Twisted Proline : 0.00 %
+      Twisted General : 0.00 %
+  
+  Rama-Z (Ramachandran plot Z-score):
+  Interpretation: bad |Rama-Z| > 3; suspicious 2 < |Rama-Z| < 3; good |Rama-Z| < 2.
+  Scores for whole/helix/sheet/loop are scaled independently;
+  therefore, the values are not related in a simple manner.
+    whole: -1.65 (0.23), residues: 1054
+    helix: -3.14 (0.31), residues: 137
+    sheet:  0.46 (0.37), residues: 180
+    loop : -1.13 (0.20), residues: 737
+
+                     ----------Asn/Gln/His flips----------                     
+
+  No backwards Asn/Gln/His sidechains found.
+
+=================================== Summary ===================================
+
+  Ramachandran outliers =   0.00 %
+                favored =  95.26 %
+  Rotamer outliers      =   0.00 %
+  C-beta deviations     =     5
+  Clashscore            =   9.03
+  RMS(bonds)            =   0.0049
+  RMS(angles)           =   0.85
+  MolProbity score      =   1.81
+  Refinement program    = PHENIX

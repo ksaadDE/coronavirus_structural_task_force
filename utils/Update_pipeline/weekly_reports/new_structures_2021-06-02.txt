@@ -1,0 +1,18 @@
+##### 22 revised structures #####
+6zox, 6zoz, 6zoy, 6zp1, 6zp0, 6zp2, 7m53, 7m6h, 7m6i, 7m6f, 7m6g, 7m6d, 7m6e, 7lop, 7b17, 7b14, 7dhg, 7diy, 7l06, 7l09, 7l02, 7jlt
+
+##### 15 new structures #####
+7mfu, 7n06, 7n0r, 7n0g, 7n0h, 7bal, 7baj, 7bak, 7dzw, 7dzx, 7dzy, 7o7y, 7o7z, 7o80, 7o81
+
+##### new structures by protein #####
+3c_like_proteinase
+>7baj 7bal 7bak 
+endornase
+>7n06 
+nucleocapsid_protein
+>7n0r 
+surface_glycoprotein
+>7n0h 7mfu 7dzw 7dzy 7n0g 7dzx
+
+not assigned
+>7o7y 7o80 7o7z 7o81

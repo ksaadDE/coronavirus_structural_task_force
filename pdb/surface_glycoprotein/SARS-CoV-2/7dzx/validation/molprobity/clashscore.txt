@@ -1,0 +1,61 @@
+
+Using electron cloud x-H distances and vdW radii
+
+Adding H/D atoms with reduce...
+
+Bad Clashes >= 0.4 Angstrom:
+ B 587  ILE  CA   C 841  LEU  CA  :0.843
+ B 575  ALA  N    C 844  ILE  N   :0.807
+ B 142  GLY  HA2  B 244  LEU  N   :0.769
+ B 199  GLY  O    B 232  GLY  HA2 :0.746
+ B 143  VAL  C    B 245  HIS  H   :0.715
+ C 729  VAL  H    C1059  GLY  HA2 :0.697
+ B 143  VAL  N    B 245  HIS  H   :0.686
+ B 575  ALA  N    C 844  ILE  H   :0.668
+ B 575  ALA  N    C 843  ASP  N   :0.654
+ C 199  GLY  HA2  C 232  GLY  HA2 :0.649
+ B 575  ALA  CA   C 844  ILE  H   :0.647
+ B 729  VAL  H    B1059  GLY  HA2 :0.644
+ B 587  ILE  N    C 840  CYS  O   :0.630
+ B 587  ILE  CA   C 842  GLY  H   :0.629
+ B 587  ILE  CA   C 842  GLY  N   :0.628
+ C 363  ALA  O    C 526  GLY  HA2 :0.609
+ B 143  VAL  N    B 245  HIS  N   :0.586
+ B 574  ASP  C    C 845  ALA  H   :0.577
+ A 729  VAL  H    A1059  GLY  HA2 :0.550
+ B 143  VAL  CA   B 245  HIS  H   :0.540
+ B 575  ALA  N    C 843  ASP  CA  :0.539
+ B 587  ILE  C    C 840  CYS  C   :0.536
+ B 574  ASP  N    C 843  ASP  CA  :0.533
+ B 575  ALA  N    C 843  ASP  C   :0.523
+ B 575  ALA  C    C 843  ASP  N   :0.522
+ A 147  LYS  CA   A 248  TYR  CA  :0.512
+ B 575  ALA  C    C 843  ASP  H   :0.510
+ C 729  VAL  N    C1059  GLY  HA2 :0.508
+ B 142  GLY  HA3  B 244  LEU  C   :0.502
+ B 574  ASP  O    B 587  ILE  N   :0.482
+ C 199  GLY  CA   C 232  GLY  HA2 :0.482
+ A 114  THR  C    A 116  SER  H   :0.471
+ B 588  THR  N    C 841  LEU  CA  :0.470
+ A 111  ASP  C    A 113  LYS  H   :0.466
+ B 574  ASP  CA   C 843  ASP  C   :0.466
+ B 142  GLY  HA2  B 244  LEU  CA  :0.465
+ B 586  ASP  O    C 841  LEU  N   :0.464
+ B 142  GLY  CA   B 244  LEU  N   :0.458
+ B 574  ASP  H    C 843  ASP  CA  :0.441
+ B 575  ALA  O    C 843  ASP  CA  :0.440
+ B 587  ILE  N    C 842  GLY  N   :0.440
+ B 588  THR  N    C 841  LEU  N   :0.437
+ B 575  ALA  CA   C 843  ASP  N   :0.436
+ B 729  VAL  N    B1059  GLY  HA2 :0.432
+ B 575  ALA  N    C 842  GLY  C   :0.431
+ B 587  ILE  N    C 841  LEU  CA  :0.430
+ B 587  ILE  CA   C 841  LEU  N   :0.423
+ C 103  GLY  HA3  C 119  ILE  O   :0.421
+ B 143  VAL  C    B 245  HIS  N   :0.419
+ B 586  ASP  O    C 841  LEU  CA  :0.418
+ B 144  TYR  CA   B 246  ARG  N   :0.416
+ B 587  ILE  N    C 841  LEU  C   :0.414
+ A 729  VAL  N    A1059  GLY  HA2 :0.412
+ B 574  ASP  H    C 843  ASP  C   :0.411
+clashscore = 2.79

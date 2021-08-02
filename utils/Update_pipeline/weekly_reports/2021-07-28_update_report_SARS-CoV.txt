@@ -1,0 +1,10 @@
+2021-07-28 weekly report for SARS-CoV
+##### 1 revised structures #####
+6lnq
+
+##### 1 new structures #####
+7p3e
+
+##### new structures by protein #####
+not_assigned
+>7p3e 

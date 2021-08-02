@@ -1,0 +1,11 @@
+38 revised structures: 
+7l2f, 6zp1, 7mhq, 7mhh, 7deo, 7mhl, 7deu, 7mmo, 7l2c, 7mhi, 7cjf, 7mhf, 7b14, 6zoy, 7m8k, 7lop, 7mhn, 7l1f, 7mhj, 7mhp, 7mkl, 7lgd, 6zoz, 7det, 7cr5, 7mhm, 7lqw, 7mhg, 7l2e, 7b17, 7d6h, 7e35, 7mf1, 6zox, 7l2d, 7mhk, 6zp0, 7mho
+11 new structures: 
+RNA:
+> 7lyj 7mky
+surface_glycoprotein:
+> 7kqe 7kqb 7m71 7m7b 7e8m 7m53
+nsp2:
+> 7msw 7msx
+Not assigned: 
+> 7mkb (9aa spike protein, 100aa beta-2-microglobulin, 274aa antigen) -> will be sorted to human_interaction partners/beta-2-microglobulin)

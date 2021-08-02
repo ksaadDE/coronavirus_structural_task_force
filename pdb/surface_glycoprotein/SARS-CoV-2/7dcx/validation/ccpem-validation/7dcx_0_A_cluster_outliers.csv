@@ -3,40 +3,53 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,10,side-chain clash,-,-
-1,115,Rotamer*side-chain clash,-,-
-1,20,Rotamer,-,-
-1,7,-,-,Outlier
-1,8,-,-,Outlier
-2,111,backbone clash,Outlier,Outlier
-2,33,side-chain clash,-,-
-2,6,backbone clash,-,-
-2,98,side-chain clash,-,-
-3,179,side-chain clash,Outlier,Outlier
-3,63,side-chain clash,-,-
-3,66,side-chain clash,Outlier,-
-4,218,-,Outlier,-
-4,220,-,Outlier,-
-4,222,-,-,Outlier
-5,40,side-chain clash,-,-
-5,42,-,Outlier,-
-5,44,side-chain clash,-,-
-6,116,side-chain clash,-,-
-6,90,side-chain clash,-,-
-7,170,-,-,Outlier
-7,187,Rotamer,-,-
+1,195,-,-,Outlier
+1,196,-,-,Outlier
+1,218,-,Outlier,-
+1,220,-,Outlier,-
+1,222,-,-,Outlier
+2,10,side-chain clash,-,-
+2,115,Rotamer*side-chain clash,-,-
+2,20,Rotamer,-,-
+2,7,-,-,Outlier
+2,8,-,-,Outlier
+3,111,backbone clash,Outlier,Outlier
+3,33,side-chain clash,-,-
+3,6,backbone clash,-,-
+3,98,side-chain clash,-,-
+4,40,side-chain clash,-,-
+4,41,-,-,Outlier
+4,42,-,Outlier,-
+4,44,side-chain clash,-,-
+5,179,side-chain clash,Outlier,Outlier
+5,63,side-chain clash,-,-
+5,66,side-chain clash,Outlier,-
+6,160,-,Outlier,-
+6,164,-,-,Outlier
+6,165,-,-,Outlier
+7,119,-,-,Outlier
+7,120,-,-,Outlier
+7,121,-,-,Outlier
 8,2,Rotamer,-,-
-8,26,-,-,Outlier
-9,125,side-chain clash,-,-
-9,205,side-chain clash,-,-
+8,25,-,-,Outlier
+8,27,-,-,Outlier
+9,54,-,-,Outlier
+9,55,-,-,Outlier
+9,71,-,-,Outlier
+10,100,-,-,Outlier
+10,101,-,Outlier,Outlier
+10,102,-,-,Outlier
+11,149,-,-,Outlier
+11,150,-,Outlier,-
+12,154,-,-,Outlier
+12,155,-,-,Outlier
+13,116,side-chain clash,-,-
+13,90,side-chain clash,-,-
+14,138,-,-,Outlier
+14,139,-,-,Outlier
+15,125,side-chain clash,-,-
+15,205,side-chain clash,-,-
 -,31,-,Outlier,-
--,56,-,-,Outlier
--,71,-,-,Outlier
--,86,-,-,Outlier
--,101,-,Outlier,-
--,119,-,-,Outlier
--,150,-,Outlier,Outlier
 -,158,Rotamer,-,-
--,160,-,Outlier,-
 -,173,-,-,Outlier
--,196,-,-,Outlier
+-,187,Rotamer,-,-

@@ -3,41 +3,42 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,477,Rotamer,-,-
-1,478,-,-,Outlier
 1,480,Rotamer,-,-
 1,481,-,Outlier,Outlier
 1,482,-,-,Outlier
+1,483,-,-,Outlier
 1,484,Dihedral angle:CB:CG:CD:OE1,-,-
-2,1304,-,-,Outlier
-2,387,Rotamer,-,-
-2,389,-,-,Outlier
-3,1302,-,-,Outlier
-3,405,Rotamer,-,-
-3,408,Dihedral angle:CD:NE:CZ:NH1,-,Outlier
-4,392,-,-,Outlier
-4,517,Rotamer,-,Outlier
-4,519,-,-,Outlier
-5,346,-,-,Outlier
-5,347,Bond angle:C:CA:CB,Outlier,-
-5,399,-,-,Outlier
-6,1301,-,-,Outlier
-6,373,-,Outlier,-
-7,448,-,-,Outlier
-7,449,-,-,Outlier
-8,352,-,-,Outlier
-8,466,Dihedral angle:CD:NE:CZ:NH1,-,-
-9,357,Dihedral angle:CD:NE:CZ:NH1,-,-
-9,358,-,-,Outlier
--,340,-,-,Outlier
+2,352,-,-,Outlier
+2,466,Dihedral angle:CD:NE:CZ:NH1,-,-
+2,468,-,-,Outlier
+2,470,-,-,Outlier
+3,1301,-,-,Outlier
+3,372,-,-,Outlier
+3,373,-,Outlier,-
+4,1302,-,-,Outlier
+4,405,Rotamer,-,-
+4,408,Dihedral angle:CD:NE:CZ:NH1,-,-
+5,356,-,-,Outlier
+5,357,Dihedral angle:CD:NE:CZ:NH1,-,-
+5,358,-,-,Outlier
+6,346,-,-,Outlier
+6,347,Bond angle:C:CA:CB,Outlier,-
+6,399,-,-,Outlier
+7,517,Rotamer,-,Outlier
+7,518,-,-,Outlier
+7,519,-,-,Outlier
+8,1304,-,-,Outlier
+8,387,Rotamer,-,-
+9,448,-,-,Outlier
+9,449,-,-,Outlier
 -,360,-,-,Outlier
 -,368,Rotamer,-,-
--,376,Rotamer,-,Outlier
+-,376,Rotamer,-,-
 -,417,-,-,Outlier
 -,430,-,-,Outlier
 -,432,-,-,Outlier
 -,440,Rotamer,-,-
 -,461,-,-,Outlier
--,470,-,-,Outlier
+-,477,Rotamer,-,-
 -,486,-,Outlier,-
--,503,Rotamer,-,-
+-,503,Rotamer,-,Outlier

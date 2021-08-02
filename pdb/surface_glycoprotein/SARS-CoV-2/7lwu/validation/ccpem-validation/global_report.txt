@@ -1,0 +1,42 @@
+Atomic B-factor distribution
+============================
+>7lwu_0
+----------------------------
+
+*REFMAC5* model-map FSCavg
+==========================
+>emd_23557:7lwu_0
+-FSCavg: 0.5593
+--------------------------
+
+*Molprobity* model geometry
+===========================
+>7lwu_0
+-Ramachandran outliers: 0.34 % [expected: < 0.05%] 
+-Ramachandran favored: 94.43 % [expected: > 98%] 
+-Rotamer outliers: 0.90 % [expected: < 0.3%] 
+-C-beta deviations: 6 [expected: 0] 
+-Clashscore: 0.45 [(percentile:97.4)] 
+-MolProbity score: 1.04 [(percentile:92.5)] 
+-Cis-proline: 0.00 [expected: 0%] 
+-Cis-general: 0.00 [expected: 0%] 
+---------------------------
+
+*CaBLAM* (backbone geometry)
+============================
+>7lwu_0
+-CaBLAM Outlier: 2.232%
+-CaBLAM Disfavored: 6.067%
+-CA Geom Outlier: 1.011%
+----------------------------
+
+*TEMPy* global real space scores
+================================
+>emd_23557
+-overlap_map: 0.655
+-overlap_model: 0.747
+-correlation: 0.759
+-local_correlation: 0.893
+-local_mi: 0.923
+--------------------------------
+

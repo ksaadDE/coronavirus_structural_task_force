@@ -13,30 +13,27 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,1,Bond angle:CA:CB:CG,-,Outlier
 2,114,backbone clash,-,-
 2,115,backbone clash,-,-
-3,171,Bond angle:C,-,-
-3,172,Bond angle:N:CA,-,Outlier
-4,141,-,-,Outlier
-4,142,-,-,Outlier
-5,221,Bond length:CB:CG,-,Outlier
-5,223,-,Outlier,-
--,10,-,-,Outlier
--,15,-,-,Outlier
--,18,-,-,Outlier
+2,3,-,-,Outlier
+3,175,-,-,Outlier
+3,176,-,-,Outlier
+3,177,-,-,Outlier
+4,150,-,-,Outlier
+4,203,-,-,Outlier
+5,171,Bond angle:C,-,-
+5,172,Bond angle:N:CA,-,-
+6,221,Bond length:CB:CG,-,Outlier
+6,223,-,Outlier,-
 -,24,-,-,Outlier
 -,36,-,Outlier,-
 -,45,-,-,Outlier
 -,51,-,-,Outlier
--,71,-,-,Outlier
+-,75,-,-,Outlier
 -,99,Bond angle:CA:CB:CG,-,-
--,128,-,-,Outlier
 -,136,Bond angle:CA:CB:CG,-,-
 -,138,side-chain clash,-,-
--,150,-,-,Outlier
--,158,-,-,Outlier
+-,141,-,-,Outlier
 -,160,Bond length:CB:CG,-,-
 -,165,-,-,Outlier
--,189,-,-,Outlier
+-,185,-,-,Outlier
 -,195,Bond length:CB:CG,-,-
 -,199,Bond length:CB:CG,-,-
--,215,-,-,Outlier
--,233,-,-,Outlier

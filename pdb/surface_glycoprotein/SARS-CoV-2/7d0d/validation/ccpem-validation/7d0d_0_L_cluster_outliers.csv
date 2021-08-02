@@ -3,8 +3,8 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,10,backbone clash*side-chain clash*Ramachandran,-,Outlier
-1,100,Rotamer*side-chain clash*backbone clash*Ramachandran,Outlier,-
+1,10,backbone clash*side-chain clash*Ramachandran,-,-
+1,100,Rotamer*side-chain clash*backbone clash*Ramachandran,Outlier,Outlier
 1,101,side-chain clash*backbone clash*Bond length:N:CD,CA Geom Outlier,Outlier
 1,102,side-chain clash,-,-
 1,103,backbone clash*side-chain clash,-,-
@@ -26,7 +26,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,30,-,-,Outlier
 1,31,side-chain clash,-,-
 1,33,-,Outlier,-
-1,34,-,Outlier,Outlier
+1,34,-,Outlier,-
 1,35,-,-,Outlier
 1,38,side-chain clash*Dihedral angle:CA:C,Outlier,-
 1,39,Dihedral angle:N:CA,Outlier,-
@@ -36,7 +36,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,45,backbone clash*side-chain clash*Dihedral angle:N:CA,-,-
 1,46,-,-,Outlier
 1,47,-,-,Outlier
-1,48,side-chain clash,-,-
+1,48,side-chain clash,-,Outlier
 1,50,side-chain clash,-,-
 1,53,side-chain clash,-,-
 1,55,side-chain clash,-,-
@@ -44,15 +44,15 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,58,-,-,Outlier
 1,59,side-chain clash,-,Outlier
 1,6,side-chain clash*backbone clash*Ramachandran,Outlier,-
-1,7,side-chain clash*backbone clash*Ramachandran,Outlier,-
+1,7,side-chain clash*backbone clash*Ramachandran,Outlier,Outlier
 1,72,side-chain clash,-,-
-1,73,-,CA Geom Outlier,Outlier
+1,73,-,CA Geom Outlier,-
 1,76,side-chain clash,-,-
 1,77,backbone clash*side-chain clash,-,-
-1,8,side-chain clash*backbone clash,CA Geom Outlier,-
-1,81,-,-,Outlier
-1,9,backbone clash*side-chain clash*Ramachandran,-,-
+1,8,side-chain clash*backbone clash,CA Geom Outlier,Outlier
+1,9,backbone clash*side-chain clash*Ramachandran,-,Outlier
 1,91,backbone clash*side-chain clash,-,-
+1,93,-,-,Outlier
 1,95,side-chain clash*backbone clash,-,-
 1,96,side-chain clash,-,-
 1,97,side-chain clash,-,-
@@ -65,7 +65,6 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 3,60,backbone clash*side-chain clash,-,-
 3,61,backbone clash,-,-
 3,64,backbone clash*side-chain clash,-,-
--,17,-,-,Outlier
 -,42,side-chain clash,-,Outlier
 -,89,Rotamer,-,-
 -,113,-,-,Outlier

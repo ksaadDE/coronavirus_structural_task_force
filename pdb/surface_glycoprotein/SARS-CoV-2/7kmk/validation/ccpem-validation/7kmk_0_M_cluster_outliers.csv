@@ -3,30 +3,37 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,36,-,Outlier,-
-1,37,-,Outlier,-
-1,56,-,-,Outlier
-2,214,-,-,Outlier
-2,227,-,-,Outlier
-3,118,Bond angle:CA:CB:CG,-,-
-3,120,-,Outlier,-
-4,22,Bond angle:C,-,-
-4,23,Bond angle:N:CA,-,-
-5,102,side-chain clash,-,-
-5,41,side-chain clash*Bond length:NE1:CE2,-,-
-6,1,-,-,Outlier
-6,2,-,-,Outlier
-7,185,-,-,Outlier
-7,187,-,-,Outlier
-8,161,Bond angle:C,-,-
-8,162,Bond angle:N:CA,-,-
--,15,-,-,Outlier
--,18,-,-,Outlier
+1,77,-,-,Outlier
+1,78,-,-,Outlier
+1,79,-,-,Outlier
+1,80,-,-,Outlier
+2,36,-,Outlier,-
+2,37,-,Outlier,-
+2,56,-,-,Outlier
+3,150,-,-,Outlier
+3,151,-,-,Outlier
+4,214,-,-,Outlier
+4,227,-,-,Outlier
+5,157,-,-,Outlier
+5,158,-,-,Outlier
+6,22,Bond angle:C,-,-
+6,23,Bond angle:N:CA,-,-
+7,102,side-chain clash,-,-
+7,41,side-chain clash*Bond length:NE1:CE2,-,-
+8,1,-,-,Outlier
+8,2,-,-,Outlier
+9,185,-,-,Outlier
+9,187,-,-,Outlier
+10,118,Bond angle:CA:CB:CG,-,-
+10,120,-,Outlier,-
+11,161,Bond angle:C,-,-
+11,162,Bond angle:N:CA,-,-
+-,19,-,-,Outlier
 -,45,-,-,Outlier
--,77,-,-,Outlier
--,99,Bond angle:CA:CB:CG,-,Outlier
--,151,-,-,Outlier
--,158,-,-,Outlier
--,177,-,-,Outlier
+-,99,Bond angle:CA:CB:CG,-,-
+-,129,-,-,Outlier
+-,165,-,-,Outlier
+-,175,-,-,Outlier
+-,181,-,-,Outlier
 -,210,-,-,Outlier
 -,234,-,-,Outlier

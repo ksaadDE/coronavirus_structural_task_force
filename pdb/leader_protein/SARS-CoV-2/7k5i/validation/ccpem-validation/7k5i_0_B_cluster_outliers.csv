@@ -34,6 +34,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,144,Rotamer*C-beta*side-chain clash,-,-
 1,146,Rotamer*C-beta*Bond angle:C:CA:CB*Bond angle:N:CA:CB,-,-
 1,147,Rotamer*side-chain clash,-,-
+1,149,-,-,Outlier
 1,150,Rotamer,-,-
 1,151,Rotamer*side-chain clash,-,-
 1,152,Rotamer,-,-
@@ -60,6 +61,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,179,Rotamer*C-beta*Bond angle:C:CA:CB*Bond angle:CA:CB:CG,-,-
 1,180,side-chain clash,-,-
 1,181,Rotamer*side-chain clash,-,-
+1,184,-,-,Outlier
 1,187,Rotamer,-,-
 1,188,backbone clash,-,-
 1,189,Bond angle:CA:C,-,-
@@ -71,7 +73,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,201,C-beta*Bond angle:C:CA:CB*Bond angle:CA:C:O,-,Outlier
 1,202,Bond angle:CB:CG:CD,-,-
 1,203,Bond length:CA:CB,-,-
-1,204,-,Outlier,-
+1,204,-,Outlier,Outlier
 1,206,Bond angle:N:CD:CG*Bond angle:N:CA:CB,-,-
 1,208,C-beta*Bond angle:CA:CB:CG,-,-
 1,210,Rotamer*C-beta*Bond angle:C:CA:CB,-,-
@@ -93,13 +95,13 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,27,Rotamer,-,-
 1,28,side-chain clash,-,-
 1,32,C-beta,-,-
-1,33,Rotamer*C-beta*side-chain clash,-,-
+1,33,Rotamer*C-beta*side-chain clash,-,Outlier
 1,35,C-beta*side-chain clash*backbone clash*Bond angle:N:CA:CB,-,-
 1,36,C-beta*backbone clash*Ramachandran*Bond angle:C:CA:CB,Outlier,-
 1,38,Rotamer,-,-
 1,40,C-beta*side-chain clash*Bond angle:C:CA:CB,-,-
 1,42,C-beta*Bond angle:C:CA:CB*Bond angle:CG:CD:NE,-,-
-1,44,Rotamer*side-chain clash,-,-
+1,44,Rotamer*side-chain clash,-,Outlier
 1,47,Rotamer,-,-
 1,48,side-chain clash,-,-
 1,49,Rotamer,-,-
@@ -120,7 +122,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,76,Rotamer*side-chain clash,-,-
 1,77,Rotamer*side-chain clash*Bond angle:N:CA:CB,-,-
 1,78,side-chain clash*Dihedral angle:CB:CG:CD:OE1,CA Geom Outlier,-
-1,79,Rotamer*side-chain clash,-,-
+1,79,Rotamer*side-chain clash,-,Outlier
 1,80,C-beta*Bond angle:N:CA:CB,-,-
 1,81,Bond angle:C:CA:CB*Bond angle:CA:CB:CG,-,-
 1,82,Rotamer*C-beta*backbone clash*side-chain clash*Bond angle:C:CA:CB*Bond angle:CB:CG:CD,-,-
@@ -136,11 +138,11 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,96,Rotamer*C-beta*Bond angle:C:CA:CB,-,-
 1,97,side-chain clash,-,-
 1,98,Rotamer,-,-
-1,99,Bond angle:CA:CB:CG,-,Outlier
+1,99,Bond angle:CA:CB:CG,-,-
 2,34,Rotamer*side-chain clash,-,-
 2,43,Rotamer*side-chain clash,-,-
 2,45,side-chain clash,-,-
-3,21,Rotamer*side-chain clash,-,-
+3,21,Rotamer*side-chain clash,-,Outlier
 3,22,side-chain clash,-,-
 4,15,side-chain clash,-,-
 4,18,side-chain clash,-,-

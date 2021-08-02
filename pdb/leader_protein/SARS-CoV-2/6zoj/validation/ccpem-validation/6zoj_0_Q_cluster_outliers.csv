@@ -4,11 +4,10 @@
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,16,side-chain clash*Dihedral angle:CA:C,-,-
-1,17,side-chain clash*Dihedral angle:N:CA,Outlier,Outlier
+1,17,side-chain clash*Dihedral angle:N:CA,Outlier,-
 1,18,side-chain clash,Outlier,-
 1,19,-,-,Outlier
 1,21,side-chain clash,-,-
-1,47,-,-,Outlier
 1,50,side-chain clash,-,-
 1,51,side-chain clash,-,-
 1,72,Rotamer*side-chain clash,-,-
@@ -22,12 +21,12 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,97,-,-,Outlier
 3,110,side-chain clash,-,-
 3,114,side-chain clash,-,-
-4,112,side-chain clash,-,Outlier
+4,112,side-chain clash,-,-
 4,89,side-chain clash,-,-
 5,29,-,Outlier,-
 5,64,-,-,Outlier
+-,5,-,-,Outlier
 -,27,-,Outlier,-
--,42,-,-,Outlier
 -,53,Dihedral angle:CB:CG:CD:OE1,-,-
 -,118,-,-,Outlier
--,130,-,-,Outlier
+-,142,-,-,Outlier

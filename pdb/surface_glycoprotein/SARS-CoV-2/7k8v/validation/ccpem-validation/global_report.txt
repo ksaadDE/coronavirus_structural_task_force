@@ -26,17 +26,19 @@ Atomic B-factor distribution
 
 *REFMAC5* model-map FSCavg
 ==========================
->emd_22732:7k8v_0
--FSCavg: 0.3850
+>emd_22732_0:7k8v_0
+-FSCavg: 0.4742
+>emd_22732_0:7k8v_0
+-FSCavg: 0.4604
 --------------------------
 
 *TEMPy* global real space scores
 ================================
->emd_22732
--overlap_map: 0.75
--overlap_model: 0.666
--correlation: 0.643
--local_correlation: 0.749
--local_mi: 0.586
+>emd_22732_0
+-overlap_map: 0.261
+-overlap_model: 0.981
+-correlation: 0.67
+-local_correlation: 0.738
+-local_mi: 0.49
 --------------------------------
 

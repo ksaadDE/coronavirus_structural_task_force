@@ -1,0 +1,58 @@
+#Molprobity: geometry outliers reported by molprobity.
+#CaBLAM: Backbone geometry outliers reported by molprobity.
+#SMOC: local fit to map outliers reported by TEMPy SMOC.
+#Jpred: Secondary structure prediction from sequence inconsistent with model.
+Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
+1,148,Dihedral angle:CA:C,-,Outlier
+1,149,Dihedral angle:N:CA,-,-
+1,176,Dihedral angle:CA:C,-,-
+1,177,Dihedral angle:CB:CG:CD:OE1*Dihedral angle:N:CA,CA Geom Outlier,-
+1,178,-,-,Outlier
+1,226,Dihedral angle:CA:C,-,-
+1,227,Dihedral angle:N:CA,-,-
+1,229,Bond angle:CB:CG:CD2,-,-
+1,237,-,-,Outlier
+2,118,-,CA Geom Outlier,-
+2,120,C-beta*Dihedral angle:CA:C,Outlier,-
+2,121,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ:OH*Dihedral angle:N:CA,-,-
+2,122,Rotamer*Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ:OH,-,-
+2,123,Dihedral angle:CA:CB:CG:OD1,-,Outlier
+2,129,Rotamer*Bond angle:CA:CB:CG,-,-
+2,130,-,Outlier,-
+2,52,-,-,Outlier
+3,154,Dihedral angle:CA:C,-,-
+3,155,Dihedral angle:N:CA,-,-
+3,166,-,-,Outlier
+3,167,Rotamer,-,-
+3,241,Dihedral angle:CB:CG:CD:OE1,-,-
+3,242,-,-,Outlier
+4,112,Rotamer,-,-
+4,60,-,-,Outlier
+4,61,-,-,Outlier
+4,62,-,CA Geom Outlier,-
+4,64,-,-,Outlier
+5,42,-,-,Outlier
+5,43,-,-,Outlier
+5,44,Dihedral angle:CA:C,-,-
+5,45,Dihedral angle:N:CA,-,-
+6,101,Dihedral angle:CB:CG:CD:OE1,-,-
+6,102,Bond angle:C,-,-
+6,103,Ramachandran*Bond angle:N:CA,-,-
+6,38,-,-,Outlier
+7,190,Ramachandran,-,-
+7,191,-,-,Outlier
+7,193,Bond angle:CB:CG:CD2,-,-
+8,69,Dihedral angle:CD:NE:CZ:NH1,-,-
+8,77,-,-,Outlier
+8,78,-,-,Outlier
+9,28,-,Outlier,-
+9,29,-,Outlier,-
+-,66,Planar group:CB:CG:CD1:CD2:NE1:CE2:CE3:CZ2:CZ3:CH2,-,-
+-,81,-,-,Outlier
+-,110,Ramachandran,Outlier,-
+-,126,Ramachandran,Outlier,-
+-,134,-,Outlier,-
+-,143,-,-,Outlier
+-,187,-,-,Outlier
+-,196,-,-,Outlier
+-,217,-,-,Outlier

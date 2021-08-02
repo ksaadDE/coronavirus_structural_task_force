@@ -2,34 +2,39 @@
 #CaBLAM: Backbone geometry outliers reported by molprobity.
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
-Cluster,Residue,CaBLAM_outliers,Molprobity_outliers,SMOC_outliers
-1,161,-,side-chain clash,-
-1,162,-,side-chain clash,-
+Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
+1,132,side-chain clash,-,-
+1,137,side-chain clash,-,-
+1,138,side-chain clash,-,-
+1,142,-,-,Outlier
+1,161,side-chain clash,-,-
+1,162,side-chain clash,-,-
+1,181,-,-,Outlier
 1,182,-,-,Outlier
-1,183,CA Geom Outlier,side-chain clash,-
-1,184,-,side-chain clash,-
-2,149,-,side-chain clash,-
-2,151,Outlier,-,Outlier
-2,154,-,side-chain clash,-
-2,188,-,side-chain clash,-
-3,132,-,side-chain clash,-
-3,137,-,side-chain clash,-
-3,138,-,side-chain clash,Outlier
-3,142,-,-,Outlier
-4,83,-,side-chain clash,-
-4,85,-,side-chain clash,-
-4,87,-,side-chain clash,Outlier
-4,89,-,side-chain clash,-
-5,177,-,side-chain clash,-
-5,178,-,side-chain clash,-
-6,90,-,side-chain clash,-
-6,94,-,side-chain clash,Outlier
--,80,-,side-chain clash,-
--,99,-,-,Outlier
--,103,-,side-chain clash,Outlier
--,111,-,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,Outlier
--,116,-,side-chain clash,-
--,126,Outlier,-,-
--,145,Outlier,-,-
--,165,-,-,Outlier
+1,183,side-chain clash,CA Geom Outlier,-
+1,184,side-chain clash,-,-
+2,149,side-chain clash,-,-
+2,151,-,Outlier,Outlier
+2,154,side-chain clash,-,-
+2,188,side-chain clash,-,-
+3,83,side-chain clash,-,-
+3,85,side-chain clash,-,-
+3,87,side-chain clash,-,Outlier
+3,89,side-chain clash,-,-
+4,174,-,-,Outlier
+4,175,-,-,Outlier
+4,177,side-chain clash,-,-
+4,178,side-chain clash,-,-
+5,90,side-chain clash,-,-
+5,94,side-chain clash,-,Outlier
+5,95,-,-,Outlier
+5,99,-,-,Outlier
+6,130,-,-,Outlier
+6,186,-,-,Outlier
+-,80,side-chain clash,-,-
+-,103,side-chain clash,-,Outlier
+-,111,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
+-,116,side-chain clash,-,-
+-,126,-,Outlier,-
+-,145,-,Outlier,-
 -,192,-,-,Outlier

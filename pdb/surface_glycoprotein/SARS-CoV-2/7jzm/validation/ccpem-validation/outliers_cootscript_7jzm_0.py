@@ -64,7 +64,8 @@ class coot_extension_gui (object) :
         dict_residue_prop_objects[data_key] = list_obj
 # Molprobity result viewer
 class coot_molprobity_todo_list_gui (coot_extension_gui) :
-  data_keys = [ "clusters","rama", "rota", "cbeta", "probe", "smoc", "cablam",
+  data_keys = [ "clusters","rama", "rota", "cbeta", "probe", "smoc", "fdr",
+               "fsc","diffmap","cablam",
                "jpred"]
   data_titles = { "clusters"  : "Outlier residue clusters",
                   "rama"  : "Ramachandran outliers",
@@ -72,6 +73,9 @@ class coot_molprobity_todo_list_gui (coot_extension_gui) :
                   "cbeta" : "C-beta outliers",
                   "probe" : "Severe clashes",
                   "smoc"  : "Local density fit (SMOC)",
+                  "fdr": "Backbone position score (FDR)",
+                  "fsc": "Local density fit (FSC)",
+                  "diffmap": "Model-map difference",
                   "cablam": "Ca geometry (CaBLAM)",
                   "jpred":"SS prediction"}
   data_names = { "clusters"  : ["Chain","Residue","Cluster","Outlier types"],
@@ -80,6 +84,9 @@ class coot_molprobity_todo_list_gui (coot_extension_gui) :
                  "cbeta" : ["Chain", "Residue", "Name", "Conf.", "Deviation"],
                  "probe" : ["Atom 1", "Atom 2", "Overlap"],
                  "smoc" : ["Chain", "Residue", "Name", "Score"],
+                 "fdr" : ["Chain", "Residue", "Name", "Score"],
+                 "fsc" : ["Chain", "Residue", "Name", "Score"],
+                 "diffmap" : ["Chain", "Residue", "Name", "Score"],
                  "cablam" : ["Chain", "Residue","Name","recommendation","DSSP"],
                  "jpred" : ["Chain", "Residue","Name","predicted SS","current SS"]}
   if (gobject is not None) :
@@ -100,6 +107,15 @@ class coot_molprobity_todo_list_gui (coot_extension_gui) :
                    "smoc" : [gobject.TYPE_STRING, gobject.TYPE_STRING,
                               gobject.TYPE_STRING,gobject.TYPE_FLOAT,
                              gobject.TYPE_PYOBJECT],
+                   "fdr" : [gobject.TYPE_STRING, gobject.TYPE_STRING,
+                              gobject.TYPE_STRING,gobject.TYPE_FLOAT,
+                             gobject.TYPE_PYOBJECT],
+                   "fsc" : [gobject.TYPE_STRING, gobject.TYPE_STRING,
+                              gobject.TYPE_STRING,gobject.TYPE_FLOAT,
+                             gobject.TYPE_PYOBJECT],
+                   "diffmap" : [gobject.TYPE_STRING, gobject.TYPE_STRING,
+                              gobject.TYPE_STRING,gobject.TYPE_FLOAT,
+                             gobject.TYPE_PYOBJECT],
                    "cablam" : [gobject.TYPE_STRING, gobject.TYPE_STRING,
                               gobject.TYPE_STRING,gobject.TYPE_STRING,
                              gobject.TYPE_STRING,gobject.TYPE_PYOBJECT],
@@ -108,7 +124,7 @@ class coot_molprobity_todo_list_gui (coot_extension_gui) :
                              gobject.TYPE_STRING,gobject.TYPE_PYOBJECT]}
   else :
     data_types = dict([ (s, []) for s in ["clusters","rama","rota","cbeta","probe","smoc",
-                                          "cablam","jpred"] ])
+                                          "fdr","fsc","diffmap","cablam","jpred"] ])
 
   def __init__ (self, data_file=None, data=None) :
     assert ([data, data_file].count(None) == 1)
@@ -116,7 +132,7 @@ class coot_molprobity_todo_list_gui (coot_extension_gui) :
       data = load_pkl(data_file)
     if not self.confirm_data(data) :
       return
-    coot_extension_gui.__init__(self, "MolProbity to-do list")
+    coot_extension_gui.__init__(self, "Validation To-do list")
     self.dots_btn = None
     self.dots2_btn = None
     self._overlaps_only = True
@@ -272,11 +288,14 @@ data = {}
 data['rama'] = []
 data['rota'] = []
 data['cbeta'] = []
+data['fdr'] = []
+data['fsc'] = []
+data['diffmap'] = []
 data['jpred'] = []
-data['clusters'] = [('A', '10', 1, 'smoc Outlier', (215.971, 209.35000000000002, 213.202)), ('A', '7', 1, 'smoc Outlier', (213.93200000000002, 213.736, 215.30700000000002)), ('B', '498', 1, 'side-chain clash', (206.088, 222.429, 221.776)), ('B', '499', 1, 'side-chain clash\nBond angle:CA:N:CD\nBond angle:N:CA:CB\nBond length:N:CD', (206.14499999999998, 225.256, 220.08800000000002)), ('B', '501', 1, 'smoc Outlier', (211.45700000000002, 224.01899999999998, 218.76299999999998)), ('B', '452', 2, 'smoc Outlier', (203.54399999999998, 210.444, 211.008)), ('B', '453', 2, 'smoc Outlier', (206.291, 209.67499999999998, 208.541)), ('B', '391', 3, 'side-chain clash', (194.601, 227.347, 182.258)), ('B', '525', 3, 'side-chain clash', (194.601, 227.347, 182.258)), ('C', '1', 1, 'Bond angle:C8:C7:N2', (194.036, 230.118, 198.945))]
+data['clusters'] = [('A', '10', 1, 'smoc Outlier', (215.971, 209.35000000000002, 213.202)), ('A', '7', 1, 'smoc Outlier', (213.93200000000002, 213.736, 215.30700000000002)), ('A', '44', 2, 'smoc Outlier', (215.097, 208.94899999999998, 229.506)), ('A', '48', 2, 'smoc Outlier', (218.583, 209.077, 224.23)), ('B', '452', 1, 'smoc Outlier', (203.54399999999998, 210.444, 211.008)), ('B', '453', 1, 'smoc Outlier', (206.291, 209.67499999999998, 208.541)), ('B', '495', 1, 'smoc Outlier', (207.003, 214.15200000000002, 214.64399999999998)), ('B', '497', 1, 'smoc Outlier', (206.129, 219.17, 217.12800000000001)), ('B', '498', 1, 'side-chain clash', (206.088, 222.429, 221.776)), ('B', '499', 1, 'side-chain clash\nBond angle:CA:N:CD\nBond angle:N:CA:CB\nBond length:N:CD', (206.14499999999998, 225.256, 220.08800000000002)), ('B', '501', 1, 'smoc Outlier', (211.45700000000002, 224.01899999999998, 218.76299999999998)), ('B', '334', 2, 'smoc Outlier', (183.423, 229.129, 189.189)), ('B', '335', 2, 'smoc Outlier', (186.64499999999998, 229.634, 191.242)), ('B', '336', 2, 'smoc Outlier', (189.075, 226.786, 192.07)), ('B', '435', 3, 'smoc Outlier', (205.38700000000003, 225.753, 201.94899999999998)), ('B', '510', 3, 'smoc Outlier', (203.416, 221.842, 202.126)), ('B', '512', 3, 'smoc Outlier', (202.596, 220.68, 195.79399999999998)), ('B', '391', 4, 'side-chain clash', (194.601, 227.347, 182.258)), ('B', '525', 4, 'side-chain clash', (194.601, 227.347, 182.258)), ('C', '1', 1, 'Bond angle:C8:C7:N2', (194.036, 230.118, 198.945))]
 data['probe'] = [(' B 498  GLN  HB3', ' B 499  PRO  HD2', -0.708, (206.088, 222.429, 221.776)), (' B 391  CYS  HA ', ' B 525  CYS  HB3', -0.524, (194.5, 227.249, 182.004)), (' B 391  CYS  HA ', ' B 525  CYS  CB ', -0.425, (194.601, 227.347, 182.258))]
 data['cablam'] = [('B', '486', 'PHE', 'check CA trace,carbonyls, peptide', 'turn\n-BTTE', (214.4, 192.4, 217.6)), ('B', '521', 'PRO', ' beta sheet', ' \nSS---', (190.3, 220.5, 176.8))]
-data['smoc'] = [('A', 7, u'MET', 0.7102458891636432, (213.93200000000002, 213.736, 215.30700000000002)), ('A', 10, u'THR', 0.7238217573801274, (215.971, 209.35000000000002, 213.202)), ('A', 37, u'ASP', 0.6775112429316816, (213.177, 204.11399999999998, 220.758)), ('A', 48, u'LEU', 0.6680632618041641, (218.583, 209.077, 224.23)), ('A', 55, u'LEU', 0.7780619069446008, (225.23999999999998, 207.597, 215.924)), ('B', 512, u'VAL', 0.5907412848861996, (202.596, 220.68, 195.79399999999998)), ('B', 517, u'LEU', 0.7260184406422131, (199.89100000000002, 220.283, 180.18)), ('B', 521, u'PRO', 0.7997459052205486, (190.257, 220.45700000000002, 176.79899999999998)), ('B', 336, u'CYS', 0.7038131067908815, (189.075, 226.786, 192.07)), ('B', 357, u'ARG', 0.7002144986282887, (192.191, 217.093, 192.171)), ('B', 406, u'GLU', 0.5163450612270737, (212.94899999999998, 218.29899999999998, 205.166)), ('B', 410, u'ILE', 0.7065959743431397, (210.4, 218.20999999999998, 198.206)), ('B', 415, u'THR', 0.7167298912103797, (216.98000000000002, 212.06, 198.107)), ('B', 428, u'ASP', 0.7666960812779309, (210.846, 215.637, 185.16)), ('B', 452, u'LEU', 0.6543899003601308, (203.54399999999998, 210.444, 211.008)), ('B', 453, u'TYR', 0.6725308849584026, (206.291, 209.67499999999998, 208.541)), ('B', 469, u'SER', 0.8496959595194871, (200.89600000000002, 199.99800000000002, 204.687)), ('B', 477, u'SER', 0.7240246820967771, (216.854, 187.691, 208.29899999999998)), ('B', 491, u'PRO', 0.5835710294921631, (207.66, 201.585, 209.92600000000002)), ('B', 501, u'ASN', 0.6370625956827273, (211.45700000000002, 224.01899999999998, 218.76299999999998))]
+data['smoc'] = [('A', 7, u'MET', 0.7102458891636432, (213.93200000000002, 213.736, 215.30700000000002)), ('A', 10, u'THR', 0.7238217573801274, (215.971, 209.35000000000002, 213.202)), ('A', 26, u'LYS', 0.7634247039476355, (223.346, 198.01399999999998, 209.542)), ('A', 37, u'ASP', 0.6775112429316816, (213.177, 204.11399999999998, 220.758)), ('A', 44, u'ASP', 0.743108087410688, (215.097, 208.94899999999998, 229.506)), ('A', 48, u'LEU', 0.6680632618041641, (218.583, 209.077, 224.23)), ('A', 64, u'SER', 0.8296231778874295, (234.92100000000002, 210.60999999999999, 206.05200000000002)), ('B', 512, u'VAL', 0.5907412848861996, (202.596, 220.68, 195.79399999999998)), ('B', 334, u'ASN', 0.652485906151117, (183.423, 229.129, 189.189)), ('B', 335, u'LEU', 0.7235359944264796, (186.64499999999998, 229.634, 191.242)), ('B', 336, u'CYS', 0.7038131067908815, (189.075, 226.786, 192.07)), ('B', 368, u'LEU', 0.6526075780091117, (199.38200000000003, 232.363, 196.153)), ('B', 406, u'GLU', 0.5163450612270737, (212.94899999999998, 218.29899999999998, 205.166)), ('B', 415, u'THR', 0.7167298912103797, (216.98000000000002, 212.06, 198.107)), ('B', 435, u'ALA', 0.632308246627931, (205.38700000000003, 225.753, 201.94899999999998)), ('B', 442, u'ASP', 0.6256937986328427, (200.056, 222.32800000000003, 214.122)), ('B', 452, u'LEU', 0.6543899003601308, (203.54399999999998, 210.444, 211.008)), ('B', 453, u'TYR', 0.6725308849584026, (206.291, 209.67499999999998, 208.541)), ('B', 491, u'PRO', 0.5835710294921631, (207.66, 201.585, 209.92600000000002)), ('B', 495, u'TYR', 0.6682912618707559, (207.003, 214.15200000000002, 214.64399999999998)), ('B', 497, u'PHE', 0.6403501608960501, (206.129, 219.17, 217.12800000000001)), ('B', 501, u'ASN', 0.6370625956827273, (211.45700000000002, 224.01899999999998, 218.76299999999998)), ('B', 510, u'VAL', 0.618877634224332, (203.416, 221.842, 202.126))]
 handle_read_draw_probe_dots_unformatted("/home/ccpem/agnel/gisaid/countries_seq/structure_data/emdb/EMD-22533/7jzm/Model_validation_1/validation_cootdata/molprobity_probe7jzm_0.txt", 0, 0)
 show_probe_dots(True, True)
 gui = coot_molprobity_todo_list_gui(data=data)

@@ -9,9 +9,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 -,7,-,-,Outlier
 -,22,-,-,Outlier
 -,30,-,-,Outlier
--,40,Rotamer,-,Outlier
--,44,-,-,Outlier
--,47,-,-,Outlier
--,63,-,-,Outlier
+-,40,Rotamer,-,-
+-,57,-,-,Outlier
 -,69,-,Outlier,-
 -,77,-,-,Outlier

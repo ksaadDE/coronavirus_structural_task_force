@@ -4,14 +4,6 @@ Atomic B-factor distribution
 -Warning, multiple peaks detected!
 ----------------------------
 
-*CaBLAM* (backbone geometry)
-============================
->6m1d_0
--CaBLAM Outlier: 4.572%
--CaBLAM Disfavored: 9.257%
--CA Geom Outlier: 1.71%
-----------------------------
-
 *Molprobity* model geometry
 ===========================
 >6m1d_0
@@ -25,19 +17,29 @@ Atomic B-factor distribution
 -Cis-general: 0.00 [expected: 0%] 
 ---------------------------
 
+*CaBLAM* (backbone geometry)
+============================
+>6m1d_0
+-CaBLAM Outlier: 4.572%
+-CaBLAM Disfavored: 9.257%
+-CA Geom Outlier: 1.71%
+----------------------------
+
 *REFMAC5* model-map FSCavg
 ==========================
->emd_30041:6m1d_0
--FSCavg: 0.3180
+>emd_30041_0:6m1d_0
+-FSCavg: 0.4977
+>emd_30041_0:6m1d_0
+-FSCavg: 0.3907
 --------------------------
 
 *TEMPy* global real space scores
 ================================
->emd_30041
--overlap_map: 0.417
--overlap_model: 0.862
--correlation: 0.534
--local_correlation: 0.712
--local_mi: 0.581
+>emd_30041_0
+-overlap_map: 0.364
+-overlap_model: 0.965
+-correlation: 0.578
+-local_correlation: 0.7
+-local_mi: 0.439
 --------------------------------
 

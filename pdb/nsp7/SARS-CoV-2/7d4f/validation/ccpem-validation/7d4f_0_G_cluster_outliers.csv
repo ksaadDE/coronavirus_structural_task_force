@@ -16,17 +16,17 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 3,120,-,-,Outlier
 3,121,side-chain clash,-,-
 3,128,side-chain clash,-,-
-4,91,Rotamer*side-chain clash,-,-
-4,94,side-chain clash,-,-
-5,174,-,-,Outlier
-5,177,-,-,Outlier
-6,168,side-chain clash,-,-
-6,171,side-chain clash,-,-
+4,168,side-chain clash,-,-
+4,170,-,-,Outlier
+4,171,side-chain clash,-,-
+5,91,Rotamer*side-chain clash,-,Outlier
+5,94,side-chain clash,-,-
+6,174,-,-,Outlier
+6,177,-,-,Outlier
 7,100,side-chain clash,-,-
 7,103,Rotamer*side-chain clash,-,Outlier
 -,87,side-chain clash,-,-
 -,96,Dihedral angle:CD:NE:CZ:NH1,-,-
--,107,-,-,Outlier
 -,115,-,-,Outlier
 -,119,side-chain clash,-,-
 -,143,-,-,Outlier

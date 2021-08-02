@@ -3,59 +3,58 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,24,-,-,Outlier
 1,29,-,-,Outlier
 1,32,-,-,Outlier
-1,33,Rotamer*backbone clash*side-chain clash,-,-
+1,33,Rotamer*backbone clash*side-chain clash,-,Outlier
 1,34,backbone clash*side-chain clash,-,-
-1,5,-,-,Outlier
+1,36,-,-,Outlier
+1,37,backbone clash,-,-
+1,43,-,-,Outlier
+1,45,Rotamer*backbone clash,-,-
 1,50,-,CA Geom Outlier,-
 1,69,-,Outlier,-
 1,87,-,-,Outlier
 1,88,-,-,Outlier
 1,89,backbone clash,-,-
 1,90,backbone clash,-,-
-2,1,-,-,Outlier
-2,2,side-chain clash,-,-
-2,93,side-chain clash,-,-
-2,96,-,-,Outlier
-2,97,side-chain clash,-,Outlier
-3,120,-,-,Outlier
+2,151,side-chain clash,-,-
+2,154,side-chain clash,-,Outlier
+2,155,-,-,Outlier
 3,133,-,-,Outlier
 3,135,side-chain clash,-,-
 3,149,side-chain clash,-,-
-4,151,side-chain clash,-,-
-4,154,side-chain clash,-,Outlier
-4,155,-,-,Outlier
-5,37,backbone clash,-,-
-5,44,-,-,Outlier
-5,45,Rotamer*backbone clash,-,-
-6,182,Rotamer,-,-
-6,184,-,-,Outlier
-6,185,-,-,Outlier
-7,214,-,-,Outlier
-7,215,Rotamer,-,Outlier
-8,61,side-chain clash,-,-
-8,82,side-chain clash,-,-
-9,116,-,-,Outlier
-9,137,side-chain clash,-,-
-10,109,backbone clash*Dihedral angle:CD:NE:CZ:NH1,-,-
-10,110,backbone clash,-,-
-11,170,-,-,Outlier
-11,171,-,-,Outlier
-12,200,-,-,Outlier
-12,202,-,-,Outlier
-13,18,backbone clash,-,-
-13,75,backbone clash,-,-
-14,64,-,-,Outlier
-14,65,-,-,Outlier
+4,116,-,-,Outlier
+4,117,-,-,Outlier
+4,137,side-chain clash,-,-
+5,63,-,-,Outlier
+5,64,-,-,Outlier
+5,65,-,-,Outlier
+6,214,-,-,Outlier
+6,215,Rotamer,-,Outlier
+7,61,side-chain clash,-,-
+7,82,side-chain clash,-,-
+8,109,backbone clash*Dihedral angle:CD:NE:CZ:NH1,-,-
+8,110,backbone clash,-,-
+9,2,side-chain clash,-,-
+9,93,side-chain clash,-,-
+10,170,-,-,Outlier
+10,171,-,-,Outlier
+11,106,-,-,Outlier
+11,11,-,-,Outlier
+12,182,Rotamer,-,-
+12,184,-,-,Outlier
+13,200,-,-,Outlier
+13,202,-,-,Outlier
+14,18,backbone clash,-,-
+14,75,backbone clash,-,-
+-,5,-,-,Outlier
 -,16,-,-,Outlier
--,21,-,-,Outlier
+-,56,-,-,Outlier
 -,95,side-chain clash,-,-
+-,97,side-chain clash,-,Outlier
 -,99,side-chain clash,-,-
--,104,-,-,Outlier
 -,124,side-chain clash,-,-
--,146,-,-,Outlier
+-,144,-,-,Outlier
 -,159,-,-,Outlier
 -,162,-,-,Outlier
 -,166,side-chain clash,-,-

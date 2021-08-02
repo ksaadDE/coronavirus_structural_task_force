@@ -8,6 +8,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,13,Rotamer,-,-
 1,14,Rotamer*Bond angle:CA:CB:CG,CA Geom Outlier,-
 1,16,Rotamer,-,-
+1,17,-,-,Outlier
 1,18,C-beta*Bond angle:N:CA:CB*Bond length:CA:CB,-,-
 1,19,C-beta*Bond angle:C,-,-
 1,20,C-beta*Bond angle:N:CA,-,-
@@ -30,9 +31,10 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,46,C-beta*Bond angle:C:CA:CB,-,-
 1,48,Rotamer,-,-
 1,49,Rotamer,-,-
-1,50,-,Outlier,-
+1,50,-,Outlier,Outlier
 1,52,C-beta*Bond angle:C:CA:CB,-,Outlier
 1,54,Rotamer*C-beta*Bond angle:C:CA:CB,-,-
+1,56,-,-,Outlier
 1,6,Bond length:C:O,-,-
 1,7,Bond angle:N:CA:CB*Bond angle:CA:C:O,Outlier,-
 1,8,Bond angle:CA:CB:CG,Outlier,-

@@ -64,7 +64,7 @@ _citation.page_last                 ?
 _citation.title                     'Structural basis of mismatch recognition by a SARS-CoV-2 proofreading enzyme' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
+_citation.pdbx_database_id_DOI      10.1126/science.abi9310 
 _citation.pdbx_database_id_PubMed   ? 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
@@ -8538,11 +8538,14 @@ _pdbx_struct_conn_angle.value_esd
 38 SG  ? B CYS 477 ? B CYS 477 ? 1_555 ZN ? K ZN . ? B ZN 605 ? 1_555 ND1 ? B HIS 487 ? B HIS 487 ? 1_555 110.8 ? 
 39 SG  ? B CYS 484 ? B CYS 484 ? 1_555 ZN ? K ZN . ? B ZN 605 ? 1_555 ND1 ? B HIS 487 ? B HIS 487 ? 1_555 105.7 ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-07-28 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-07-28 
+2 'Structure model' 1 1 2021-08-04 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -8551,6 +8554,21 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+_pdbx_audit_revision_category.ordinal             1 
+_pdbx_audit_revision_category.revision_ordinal    2 
+_pdbx_audit_revision_category.data_content_type   'Structure model' 
+_pdbx_audit_revision_category.category            citation 
+# 
+_pdbx_audit_revision_item.ordinal             1 
+_pdbx_audit_revision_item.revision_ordinal    2 
+_pdbx_audit_revision_item.data_content_type   'Structure model' 
+_pdbx_audit_revision_item.item                '_citation.pdbx_database_id_DOI' 
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

@@ -3,7 +3,7 @@ data_7N3I
 _entry.id   7N3I 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.347 
+_audit_conform.dict_version    5.348 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -11,8 +11,8 @@ _database_2.database_id
 _database_2.database_code 
 _database_2.pdbx_database_accession 
 _database_2.pdbx_DOI 
-PDB   7N3I         ? ? 
-WWPDB D_1000255113 ? ? 
+PDB   7N3I         pdb_00007n3i 10.2210/pdb7n3i/pdb 
+WWPDB D_1000255113 ?            ?                   
 # 
 _pdbx_database_status.status_code                     REL 
 _pdbx_database_status.status_code_sf                  REL 
@@ -35,35 +35,41 @@ _audit_author.identifier_ORCID
 'Bjorkman, P.J.' 2 ? 
 'Barnes, C.O.'   3 ? 
 # 
-_citation.abstract                  ? 
-_citation.abstract_id_CAS           ? 
-_citation.book_id_ISBN              ? 
-_citation.book_publisher            ? 
-_citation.book_publisher_city       ? 
-_citation.book_title                ? 
-_citation.coordinate_linkage        ? 
-_citation.country                   US 
-_citation.database_id_Medline       ? 
-_citation.details                   ? 
-_citation.id                        primary 
-_citation.journal_abbrev            bioRxiv 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            ? 
-_citation.journal_id_ISSN           ? 
-_citation.journal_full              ? 
-_citation.journal_issue             ? 
-_citation.journal_volume            ? 
-_citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     
-'Development of potency, breadth and resilience to viral escape mutations in SARS-CoV-2 neutralizing antibodies' 
-_citation.year                      2021 
-_citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.1101/2021.03.07.434227 
-_citation.pdbx_database_id_PubMed   33758864 
-_citation.pdbx_database_id_patent   ? 
-_citation.unpublished_flag          ? 
+loop_
+_citation.abstract 
+_citation.abstract_id_CAS 
+_citation.book_id_ISBN 
+_citation.book_publisher 
+_citation.book_publisher_city 
+_citation.book_title 
+_citation.coordinate_linkage 
+_citation.country 
+_citation.database_id_Medline 
+_citation.details 
+_citation.id 
+_citation.journal_abbrev 
+_citation.journal_id_ASTM 
+_citation.journal_id_CSD 
+_citation.journal_id_ISSN 
+_citation.journal_full 
+_citation.journal_issue 
+_citation.journal_volume 
+_citation.language 
+_citation.page_first 
+_citation.page_last 
+_citation.title 
+_citation.year 
+_citation.database_id_CSD 
+_citation.pdbx_database_id_DOI 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_patent 
+_citation.unpublished_flag 
+? ? ? ? ? ? ? US ? ? primary Immunity IUNIEH 2048 1074-7613 ? ? ? ? ? ? 
+'Affinity maturation of SARS-CoV-2 neutralizing antibodies confers potency, breadth, and resilience to viral escape mutations.' 
+2021 ? 10.1016/j.immuni.2021.07.008 34331873 ? ? 
+? ? ? ? ? ? ? US ? ? 1       bioRxiv  ?      ?    ?         ? ? ? ? ? ? 
+'Development of potency, breadth and resilience to viral escape mutations in SARS-CoV-2 neutralizing antibodies'                
+2021 ? 10.1101/2021.03.07.434227    33758864 ? ? 
 # 
 loop_
 _citation_author.citation_id 
@@ -75,14 +81,14 @@ primary 'Weisblum, Y.'         2  ?
 primary 'Barnes, C.O.'         3  ? 
 primary 'Schmidt, F.'          4  ? 
 primary 'Schaefer-Babajew, D.' 5  ? 
-primary 'Lorenzi, J.C.C.'      6  ? 
-primary 'Flyak, A.I.'          7  ? 
-primary 'DeLaitsch, A.T.'      8  ? 
-primary 'Huey-Tubman, K.E.'    9  ? 
-primary 'Hou, S.'              10 ? 
-primary 'Schiffer, C.A.'       11 ? 
-primary 'Gaebler, C.'          12 ? 
-primary 'Wang, Z.'             13 ? 
+primary 'Wang, Z.'             6  ? 
+primary 'C Lorenzi, J.C.'      7  ? 
+primary 'Flyak, A.I.'          8  ? 
+primary 'DeLaitsch, A.T.'      9  ? 
+primary 'Huey-Tubman, K.E.'    10 ? 
+primary 'Hou, S.'              11 ? 
+primary 'Schiffer, C.A.'       12 ? 
+primary 'Gaebler, C.'          13 ? 
 primary 'Da Silva, J.'         14 ? 
 primary 'Poston, D.'           15 ? 
 primary 'Finkin, S.'           16 ? 
@@ -98,6 +104,34 @@ primary 'Nussenzweig, M.C.'    25 ?
 primary 'Bjorkman, P.J.'       26 ? 
 primary 'Hatziioannou, T.'     27 ? 
 primary 'Bieniasz, P.D.'       28 ? 
+1       'Muecksch, F.'         29 ? 
+1       'Weisblum, Y.'         30 ? 
+1       'Barnes, C.O.'         31 ? 
+1       'Schmidt, F.'          32 ? 
+1       'Schaefer-Babajew, D.' 33 ? 
+1       'Lorenzi, J.C.C.'      34 ? 
+1       'Flyak, A.I.'          35 ? 
+1       'DeLaitsch, A.T.'      36 ? 
+1       'Huey-Tubman, K.E.'    37 ? 
+1       'Hou, S.'              38 ? 
+1       'Schiffer, C.A.'       39 ? 
+1       'Gaebler, C.'          40 ? 
+1       'Wang, Z.'             41 ? 
+1       'Da Silva, J.'         42 ? 
+1       'Poston, D.'           43 ? 
+1       'Finkin, S.'           44 ? 
+1       'Cho, A.'              45 ? 
+1       'Cipolla, M.'          46 ? 
+1       'Oliveira, T.Y.'       47 ? 
+1       'Millard, K.G.'        48 ? 
+1       'Ramos, V.'            49 ? 
+1       'Gazumyan, A.'         50 ? 
+1       'Rutkowska, M.'        51 ? 
+1       'Caskey, M.'           52 ? 
+1       'Nussenzweig, M.C.'    53 ? 
+1       'Bjorkman, P.J.'       54 ? 
+1       'Hatziioannou, T.'     55 ? 
+1       'Bieniasz, P.D.'       56 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -13104,11 +13138,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-08-04 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-08-04 
+2 'Structure model' 1 1 2021-08-11 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -13117,6 +13154,28 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+3 2 'Structure model' database_2      
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_database_2.pdbx_DOI'                
+2 2 'Structure model' '_database_2.pdbx_database_accession' 
 # 
 loop_
 _pdbx_refine_tls.pdbx_refine_id 

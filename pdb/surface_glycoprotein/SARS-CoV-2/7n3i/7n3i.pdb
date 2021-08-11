@@ -43,19 +43,35 @@ KEYWDS   2 NEUTRALIZING ANTIBODIES, IMMUNE SYSTEM, IMMUNE SYSTEM-VIRAL PROTEIN
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.I.FLYAK,P.J.BJORKMAN,C.O.BARNES                                     
+REVDAT   2   11-AUG-21 7N3I    1       JRNL                                     
 REVDAT   1   04-AUG-21 7N3I    0                                                
 JRNL        AUTH   F.MUECKSCH,Y.WEISBLUM,C.O.BARNES,F.SCHMIDT,                  
-JRNL        AUTH 2 D.SCHAEFER-BABAJEW,J.C.C.LORENZI,A.I.FLYAK,A.T.DELAITSCH,    
-JRNL        AUTH 3 K.E.HUEY-TUBMAN,S.HOU,C.A.SCHIFFER,C.GAEBLER,Z.WANG,         
+JRNL        AUTH 2 D.SCHAEFER-BABAJEW,Z.WANG,J.C.C LORENZI,A.I.FLYAK,           
+JRNL        AUTH 3 A.T.DELAITSCH,K.E.HUEY-TUBMAN,S.HOU,C.A.SCHIFFER,C.GAEBLER,  
 JRNL        AUTH 4 J.DA SILVA,D.POSTON,S.FINKIN,A.CHO,M.CIPOLLA,T.Y.OLIVEIRA,   
 JRNL        AUTH 5 K.G.MILLARD,V.RAMOS,A.GAZUMYAN,M.RUTKOWSKA,M.CASKEY,         
 JRNL        AUTH 6 M.C.NUSSENZWEIG,P.J.BJORKMAN,T.HATZIIOANNOU,P.D.BIENIASZ     
-JRNL        TITL   DEVELOPMENT OF POTENCY, BREADTH AND RESILIENCE TO VIRAL      
-JRNL        TITL 2 ESCAPE MUTATIONS IN SARS-COV-2 NEUTRALIZING ANTIBODIES       
-JRNL        REF    BIORXIV                                    2021              
-JRNL        REFN                                                                
-JRNL        PMID   33758864                                                     
-JRNL        DOI    10.1101/2021.03.07.434227                                    
+JRNL        TITL   AFFINITY MATURATION OF SARS-COV-2 NEUTRALIZING ANTIBODIES    
+JRNL        TITL 2 CONFERS POTENCY, BREADTH, AND RESILIENCE TO VIRAL ESCAPE     
+JRNL        TITL 3 MUTATIONS.                                                   
+JRNL        REF    IMMUNITY                                   2021              
+JRNL        REFN                   ISSN 1074-7613                               
+JRNL        PMID   34331873                                                     
+JRNL        DOI    10.1016/J.IMMUNI.2021.07.008                                 
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   F.MUECKSCH,Y.WEISBLUM,C.O.BARNES,F.SCHMIDT,                  
+REMARK   1  AUTH 2 D.SCHAEFER-BABAJEW,J.C.C.LORENZI,A.I.FLYAK,A.T.DELAITSCH,    
+REMARK   1  AUTH 3 K.E.HUEY-TUBMAN,S.HOU,C.A.SCHIFFER,C.GAEBLER,Z.WANG,         
+REMARK   1  AUTH 4 J.DA SILVA,D.POSTON,S.FINKIN,A.CHO,M.CIPOLLA,T.Y.OLIVEIRA,   
+REMARK   1  AUTH 5 K.G.MILLARD,V.RAMOS,A.GAZUMYAN,M.RUTKOWSKA,M.CASKEY,         
+REMARK   1  AUTH 6 M.C.NUSSENZWEIG,P.J.BJORKMAN,T.HATZIIOANNOU,P.D.BIENIASZ     
+REMARK   1  TITL   DEVELOPMENT OF POTENCY, BREADTH AND RESILIENCE TO VIRAL      
+REMARK   1  TITL 2 ESCAPE MUTATIONS IN SARS-COV-2 NEUTRALIZING ANTIBODIES       
+REMARK   1  REF    BIORXIV                                    2021              
+REMARK   1  REFN                                                                
+REMARK   1  PMID   33758864                                                     
+REMARK   1  DOI    10.1101/2021.03.07.434227                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.03 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -10699,5 +10715,5 @@ CONECT 4764 4757
 CONECT 4765 4754 4758                                                           
 CONECT 4766 4759                                                                
 CONECT 4767 4760                                                                
-MASTER      457    0    1   18   58    0    0    6 5244    3   31   52          
+MASTER      471    0    1   18   58    0    0    6 5244    3   31   52          
 END                                                                             

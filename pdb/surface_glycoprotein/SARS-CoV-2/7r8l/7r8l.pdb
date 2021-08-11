@@ -63,17 +63,20 @@ KEYWDS   2 COVID-19, SPIKE, ANTIVIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.O.BARNES,P.J.BJORKMAN                                               
+REVDAT   2   11-AUG-21 7R8L    1       JRNL                                     
 REVDAT   1   04-AUG-21 7R8L    0                                                
 JRNL        AUTH   F.MUECKSCH,Y.WEISBLUM,C.O.BARNES,F.SCHMIDT,                  
-JRNL        AUTH 2 D.SCHAEFER-BABAJEW,J.C.C.LORENZI,A.I.FLYAK,A.T.DELAITSCH,    
-JRNL        AUTH 3 K.E.HUEY-TUBMAN,S.HOU,C.A.SCHIFFER,C.GAEBLER,Z.WANG,         
+JRNL        AUTH 2 D.SCHAEFER-BABAJEW,Z.WANG,J.C.C LORENZI,A.I.FLYAK,           
+JRNL        AUTH 3 A.T.DELAITSCH,K.E.HUEY-TUBMAN,S.HOU,C.A.SCHIFFER,C.GAEBLER,  
 JRNL        AUTH 4 J.DA SILVA,D.POSTON,S.FINKIN,A.CHO,M.CIPOLLA,T.Y.OLIVEIRA,   
 JRNL        AUTH 5 K.G.MILLARD,V.RAMOS,A.GAZUMYAN,M.RUTKOWSKA,M.CASKEY,         
 JRNL        AUTH 6 M.C.NUSSENZWEIG,P.J.BJORKMAN,T.HATZIIOANNOU,P.D.BIENIASZ     
-JRNL        TITL   DEVELOPMENT OF POTENCY, BREADTH AND RESILIENCE TO VIRAL      
-JRNL        TITL 2 ESCAPE MUTATIONS IN SARS-COV-2 NEUTRALIZING ANTIBODIES.      
+JRNL        TITL   AFFINITY MATURATION OF SARS-COV-2 NEUTRALIZING ANTIBODIES    
+JRNL        TITL 2 CONFERS POTENCY, BREADTH, AND RESILIENCE TO VIRAL ESCAPE     
+JRNL        TITL 3 MUTATIONS.                                                   
 JRNL        REF    IMMUNITY                                   2021              
 JRNL        REFN                   ISSN 1074-7613                               
+JRNL        PMID   34331873                                                     
 JRNL        DOI    10.1016/J.IMMUNI.2021.07.008                                 
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          

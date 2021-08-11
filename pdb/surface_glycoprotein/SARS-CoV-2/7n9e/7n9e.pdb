@@ -33,13 +33,17 @@ KEYWDS    COVS NB34 NANOBODY, VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM
 KEYWDS   2 COMPLEX                                                              
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    D.SUN,C.ZHANG,Y.SHI                                                   
+REVDAT   2   11-AUG-21 7N9E    1       JRNL                                     
 REVDAT   1   04-AUG-21 7N9E    0                                                
-JRNL        AUTH   D.SUN,Y.SHI,C.ZHANG,W.HUANG,S.D.DINA                         
+JRNL        AUTH   D.SUN,Z.SANG,Y.J.KIM,Y.XIANG,T.COHEN,A.K.BELFORD,A.HUET,     
+JRNL        AUTH 2 J.F.CONWAY,J.SUN,D.J.TAYLOR,D.SCHNEIDMAN-DUHOVNY,C.ZHANG,    
+JRNL        AUTH 3 W.HUANG,Y.SHI                                                
 JRNL        TITL   POTENT NEUTRALIZING NANOBODIES RESIST CONVERGENT CIRCULATING 
-JRNL        TITL 2 VARIANTS OF SARS-COV-2 BY TARGETING NOVEL AND CONSERVED      
+JRNL        TITL 2 VARIANTS OF SARS-COV-2 BY TARGETING DIVERSE AND CONSERVED    
 JRNL        TITL 3 EPITOPES                                                     
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        REF    NAT COMMUN                    V.  12  4676 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        DOI    10.1038/S41467-021-24963-3                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.52 ANGSTROMS.                                       
 REMARK   3                                                                      

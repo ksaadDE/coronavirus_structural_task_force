@@ -42,7 +42,7 @@ Solution NMR: 31
 <br>
 Solid-State NMR: 1
 <br>
-Neutron Diffraction: 2
+Joint X-ray and Neutron Diffraction: 2
 
 ## Folder stucture 
 

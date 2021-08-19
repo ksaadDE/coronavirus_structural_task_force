@@ -8,9 +8,9 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,12,side-chain clash,-,-
 1,13,C-beta*Bond angle:N:CA:CB*Bond length:C:O,-,-
 1,14,Rotamer*C-beta*Bond angle:C:CA:CB,-,-
-1,15,side-chain clash*Bond angle:CA:CB:CG,-,Outlier
+1,15,side-chain clash*Bond angle:CA:CB:CG,-,-
 1,17,C-beta*Bond angle:C:CA:CB,-,-
-1,20,side-chain clash*Bond angle:CB:CG:CD,-,-
+1,20,side-chain clash*Bond angle:CB:CG:CD,-,Outlier
 1,21,side-chain clash*Bond angle:N:CA:C,-,-
 1,22,Rotamer*side-chain clash*Bond length:C:O,-,-
 1,23,Rotamer*C-beta*side-chain clash*Bond angle:C:CA:CB,-,-
@@ -25,7 +25,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,37,side-chain clash*Bond length:C:O,-,-
 1,38,C-beta*Bond angle:C:CA:CB,-,-
 1,40,Rotamer*C-beta,-,-
-1,41,backbone clash,-,-
+1,41,backbone clash,-,Outlier
 1,42,Bond angle:CB:CG:CD,-,-
 1,43,side-chain clash,-,-
 1,44,-,-,Outlier
@@ -38,7 +38,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,55,Rotamer*C-beta*side-chain clash,-,-
 1,58,Bond angle:CA:CB:CG,-,-
 1,6,C-beta,-,-
-1,60,Bond angle:N:CA:CB,-,-
+1,60,Bond angle:N:CA:CB,-,Outlier
 1,61,C-beta*Bond angle:C:CA:CB,-,-
 1,62,C-beta,-,-
 1,63,Bond angle:CA:CB:CG,-,-
@@ -55,15 +55,15 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,80,Bond length:C:O,-,-
 1,83,Bond angle:N:CA:CB,-,-
 1,85,C-beta*Bond angle:C:CA:CB,-,-
-1,86,side-chain clash,-,Outlier
+1,86,side-chain clash,-,-
 1,87,Rotamer*Bond angle:N:CA:CB,-,-
 1,88,C-beta*Bond angle:C:CA:CB,Outlier,-
 1,89,Bond angle:CA:CB:CG,-,-
 1,90,Rotamer*side-chain clash,-,-
 2,103,Rotamer*C-beta,-,-
-2,104,side-chain clash*Bond angle:CB:CG:CD*Bond angle:C:CA:CB*Bond length:C:O,-,Outlier
+2,104,side-chain clash*Bond angle:CB:CG:CD*Bond angle:C:CA:CB*Bond length:C:O,-,-
 2,106,C-beta*Bond angle:CB:CG:CD*Bond angle:C:CA:CB,-,-
-2,108,side-chain clash*Bond length:C:O,-,-
+2,108,side-chain clash*Bond length:C:O,-,Outlier
 2,109,Bond angle:N:CA:CB*Bond length:C:O,-,-
 2,111,Bond length:C:O,-,-
 2,112,Bond angle:CA:CB:CG,-,-

@@ -3,52 +3,48 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,113,-,-,Outlier
-1,198,side-chain clash,-,-
-1,20,side-chain clash,-,-
-1,215,side-chain clash,-,-
-1,22,-,-,Outlier
-1,38,side-chain clash,-,-
-1,45,-,-,Outlier
-1,46,Dihedral angle:CB:CG:CD:OE1,-,-
-1,48,side-chain clash,-,-
-1,6,Rotamer,-,-
-1,7,-,Outlier,-
-1,82,-,-,Outlier
-1,83,side-chain clash,-,-
-1,94,-,-,Outlier
-2,144,-,-,Outlier
-2,145,side-chain clash,-,-
-2,152,Dihedral angle:CB:CG:CD:OE1,CA Geom Outlier,Outlier
-2,153,Ramachandran,-,-
-2,172,side-chain clash,-,-
-2,174,side-chain clash*backbone clash,-,-
-2,180,side-chain clash,-,-
-2,182,-,-,Outlier
-2,183,side-chain clash,-,-
-3,136,side-chain clash,-,-
-3,137,-,-,Outlier
-3,138,-,-,Outlier
-3,190,side-chain clash,-,-
-4,115,backbone clash,-,-
-4,87,-,-,Outlier
-4,90,-,-,Outlier
-4,91,backbone clash,-,-
-5,1,-,-,Outlier
-5,2,Rotamer*side-chain clash,-,-
-5,27,-,-,Outlier
-6,148,side-chain clash*Dihedral angle:CA:CB:CG:OD1,-,-
-6,179,side-chain clash,-,-
-7,139,side-chain clash,-,-
-7,189,side-chain clash,-,-
-8,16,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
-8,85,side-chain clash,-,-
--,40,-,-,Outlier
+1,144,-,-,Outlier
+1,145,side-chain clash,-,-
+1,148,side-chain clash*Dihedral angle:CA:CB:CG:OD1,-,-
+1,152,Dihedral angle:CB:CG:CD:OE1,CA Geom Outlier,Outlier
+1,153,Ramachandran,-,-
+1,172,side-chain clash,-,-
+1,174,side-chain clash*backbone clash,-,-
+1,178,-,-,Outlier
+1,179,side-chain clash,-,-
+1,180,side-chain clash,-,-
+1,182,-,-,Outlier
+1,183,side-chain clash,-,-
+2,198,side-chain clash,-,-
+2,20,side-chain clash,-,-
+2,215,side-chain clash,-,-
+2,38,side-chain clash,-,-
+2,45,-,-,Outlier
+2,46,Dihedral angle:CB:CG:CD:OE1,-,-
+2,48,side-chain clash,-,-
+2,83,side-chain clash,-,-
+2,94,-,-,Outlier
+3,115,backbone clash,-,-
+3,87,-,-,Outlier
+3,90,-,-,Outlier
+3,91,backbone clash,-,-
+4,1,-,-,Outlier
+4,2,Rotamer*side-chain clash,-,-
+4,26,-,-,Outlier
+4,27,-,-,Outlier
+5,136,side-chain clash,-,-
+5,138,-,-,Outlier
+5,190,side-chain clash,-,-
+6,139,side-chain clash,-,-
+6,189,side-chain clash,-,-
+7,16,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
+7,85,side-chain clash,-,-
+8,6,Rotamer,-,-
+8,7,-,Outlier,-
+-,10,-,-,Outlier
 -,51,-,-,Outlier
--,65,-,-,Outlier
+-,79,-,-,Outlier
 -,98,-,-,Outlier
--,156,-,-,Outlier
 -,161,-,-,Outlier
--,166,-,-,Outlier
--,205,-,-,Outlier
--,210,-,-,Outlier
+-,165,-,-,Outlier
+-,220,-,-,Outlier

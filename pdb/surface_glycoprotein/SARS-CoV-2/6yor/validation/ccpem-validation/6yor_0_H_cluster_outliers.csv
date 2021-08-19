@@ -3,40 +3,41 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,187,-,-,Outlier
-1,188,side-chain clash,-,-
-1,192,Rotamer,-,Outlier
-1,193,-,-,Outlier
-1,198,side-chain clash,-,-
-2,157,-,-,Outlier
-2,202,-,-,Outlier
-2,203,Rotamer,-,-
-2,209,-,-,Outlier
-3,150,side-chain clash,-,Outlier
-3,151,side-chain clash,-,-
-3,152,-,-,Outlier
-4,117,-,-,Outlier
-4,118,-,-,Outlier
-4,86,-,-,Outlier
-5,137,-,-,Outlier
-5,138,-,-,Outlier
-6,104,side-chain clash,-,-
-6,119,side-chain clash*backbone clash,-,-
-7,123,side-chain clash,-,-
-7,149,side-chain clash,-,Outlier
-8,57,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
-8,59,Dihedral angle:CD:NE:CZ:NH1,-,-
-9,53,-,-,Outlier
-9,54,-,-,Outlier
+1,157,-,-,Outlier
+1,202,-,-,Outlier
+1,203,Rotamer,-,-
+1,209,-,-,Outlier
+1,211,-,-,Outlier
+1,213,side-chain clash,-,-
+2,187,-,-,Outlier
+2,188,side-chain clash,-,-
+2,192,Rotamer,-,Outlier
+2,193,-,-,Outlier
+2,198,side-chain clash,-,-
+3,100,-,-,Outlier
+3,104,side-chain clash,-,-
+3,119,side-chain clash*backbone clash,-,-
+3,97,-,-,Outlier
+3,98,-,-,Outlier
+4,150,side-chain clash,-,Outlier
+4,151,side-chain clash,-,Outlier
+4,152,-,-,Outlier
+5,117,-,-,Outlier
+5,118,-,-,Outlier
+5,86,-,-,Outlier
+6,64,-,-,Outlier
+6,66,-,-,Outlier
+7,137,-,-,Outlier
+7,138,-,-,Outlier
+8,123,side-chain clash,-,-
+8,149,side-chain clash,-,Outlier
+9,57,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
+9,59,Dihedral angle:CD:NE:CZ:NH1,-,-
 -,5,Rotamer,-,-
 -,21,-,-,Outlier
 -,41,-,-,Outlier
 -,45,-,-,Outlier
--,64,-,-,Outlier
--,71,-,-,Outlier
--,94,-,-,Outlier
--,97,-,-,Outlier
+-,53,-,-,Outlier
 -,111,-,Outlier,Outlier
 -,132,-,-,Outlier
--,181,-,-,Outlier
--,213,side-chain clash,-,-
+-,182,-,-,Outlier

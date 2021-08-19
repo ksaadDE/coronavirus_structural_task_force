@@ -3,28 +3,30 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,193,-,-,Outlier
-1,194,-,-,Outlier
-1,214,-,-,Outlier
-2,208,-,-,Outlier
-2,209,-,-,Outlier
-2,211,-,-,Outlier
-3,31,-,CA Geom Outlier,-
-3,33,-,Outlier,Outlier
-3,34,-,-,Outlier
-4,131,-,-,Outlier
-4,132,-,-,Outlier
-5,26,-,-,Outlier
-5,28,-,CA Geom Outlier,-
-6,54,-,Outlier,-
-6,57,-,-,Outlier
+1,67,-,-,Outlier
+1,68,-,-,Outlier
+1,69,-,-,Outlier
+1,70,-,-,Outlier
+2,193,-,-,Outlier
+2,194,-,-,Outlier
+2,214,-,-,Outlier
+3,207,-,-,Outlier
+3,209,-,-,Outlier
+3,211,-,-,Outlier
+4,31,-,CA Geom Outlier,-
+4,33,-,Outlier,Outlier
+4,34,-,-,Outlier
+5,150,-,-,Outlier
+5,151,-,-,Outlier
+6,131,-,-,Outlier
+6,132,-,-,Outlier
+7,26,-,-,Outlier
+7,28,-,CA Geom Outlier,-
+8,54,-,Outlier,-
+8,57,-,-,Outlier
+-,13,-,-,Outlier
 -,45,-,-,Outlier
--,49,-,-,Outlier
--,68,-,-,Outlier
--,70,-,-,Outlier
--,126,-,-,Outlier
--,135,-,-,Outlier
--,150,-,-,Outlier
--,176,-,-,Outlier
+-,62,-,-,Outlier
+-,146,-,-,Outlier
+-,170,-,-,Outlier
 -,189,-,-,Outlier
--,203,-,-,Outlier

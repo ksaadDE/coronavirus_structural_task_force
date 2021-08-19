@@ -4,7 +4,7 @@
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,114,backbone clash*side-chain clash,-,Outlier
-1,115,backbone clash,-,Outlier
+1,115,backbone clash,-,-
 1,117,side-chain clash,-,-
 1,118,-,-,Outlier
 1,119,side-chain clash,-,-
@@ -16,7 +16,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,145,side-chain clash,-,-
 1,152,side-chain clash,-,-
 1,181,-,-,Outlier
-1,182,side-chain clash,-,-
+1,182,side-chain clash,-,Outlier
 1,183,side-chain clash,-,-
 1,202,side-chain clash,-,-
 1,206,-,-,Outlier
@@ -37,33 +37,34 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 3,57,-,Outlier,-
 3,71,-,-,Outlier
 3,95,-,-,Outlier
+3,96,-,-,Outlier
 4,108,backbone clash,-,-
 4,43,-,-,Outlier
 4,44,-,-,Outlier
 4,91,backbone clash,-,-
-5,127,side-chain clash,-,-
-5,128,-,-,Outlier
-5,129,Dihedral angle:CB:CG:CD:OE1,-,-
-6,175,-,-,Outlier
-6,176,Dihedral angle:CA:CB:CG:OD1,-,-
-7,85,-,-,Outlier
-7,87,Dihedral angle:CB:CG:CD:OE1,-,-
-8,24,-,-,Outlier
-8,25,-,-,Outlier
-9,11,-,-,Outlier
-9,9,Dihedral angle:CA:CB:CG:OD1,-,-
+5,85,-,-,Outlier
+5,86,-,-,Outlier
+5,87,Dihedral angle:CB:CG:CD:OE1,-,-
+6,11,-,-,Outlier
+6,8,-,-,Outlier
+6,9,Dihedral angle:CA:CB:CG:OD1,-,-
+7,127,side-chain clash,-,-
+7,128,-,-,Outlier
+7,129,Dihedral angle:CB:CG:CD:OE1,-,-
+8,175,-,-,Outlier
+8,176,Dihedral angle:CA:CB:CG:OD1,-,-
+9,148,-,-,Outlier
+9,149,-,-,Outlier
 10,34,side-chain clash,-,-
 10,36,side-chain clash,-,-
 -,1,Dihedral angle:CA:CB:CG:OD1,-,Outlier
 -,17,Dihedral angle:CB:CG:CD:OE1,-,Outlier
--,21,-,-,Outlier
+-,24,-,-,Outlier
+-,27,-,-,Outlier
 -,60,Dihedral angle:CD:NE:CZ:NH1,-,-
 -,66,Dihedral angle:CA:CB:CG:OD1,-,Outlier
--,82,-,-,Outlier
 -,100,-,CA Geom Outlier,-
 -,106,-,Outlier,-
 -,135,-,-,Outlier
--,149,-,-,Outlier
 -,161,-,-,Outlier
 -,171,Dihedral angle:CB:CG:CD:OE1,-,-
--,218,-,-,Outlier

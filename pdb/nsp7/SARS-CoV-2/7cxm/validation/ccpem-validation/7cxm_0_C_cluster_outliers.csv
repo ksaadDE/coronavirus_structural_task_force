@@ -15,13 +15,13 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,31,side-chain clash,-,-
 1,32,-,-,Outlier
 1,33,-,-,Outlier
+1,37,-,-,Outlier
 1,50,Rotamer*side-chain clash,-,-
 1,52,Rotamer,-,-
 1,53,side-chain clash,-,-
 1,55,-,-,Outlier
 1,57,Rotamer,-,-
 1,60,Rotamer,-,-
-2,43,-,-,Outlier
 2,44,side-chain clash,Outlier,-
 2,45,side-chain clash*Bond angle:CA:C,Outlier,-
 2,46,Bond angle:N,-,-
@@ -32,5 +32,4 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 5,72,-,-,Outlier
 5,73,Dihedral angle:CB:CG:CD:OE1,-,-
 -,8,-,-,Outlier
--,13,-,-,Outlier
 -,63,C-beta*side-chain clash*Bond angle:N:CA:C,-,Outlier

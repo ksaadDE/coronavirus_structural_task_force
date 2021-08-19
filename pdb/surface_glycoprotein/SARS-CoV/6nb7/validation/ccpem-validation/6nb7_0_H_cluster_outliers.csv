@@ -2,27 +2,27 @@
 #CaBLAM: Backbone geometry outliers reported by molprobity.
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
-Cluster,Residue,CaBLAM_outliers,Molprobity_outliers,SMOC_outliers
+Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,10,-,-,Outlier
 1,12,-,-,Outlier
-1,13,-,side-chain clash,-
-1,14,-,side-chain clash,-
+1,13,side-chain clash,-,-
+1,14,side-chain clash,-,-
 1,9,-,-,Outlier
-2,114,Outlier,-,-
-2,35,-,-,Outlier
-2,98,-,-,Outlier
-2,99,-,-,Outlier
-3,104,-,-,Outlier
-3,106,CA Geom Outlier,-,-
-3,107,Outlier,-,-
-4,87,-,-,Outlier
-4,90,-,-,Outlier
-5,42,-,-,Outlier
-5,43,-,-,Outlier
--,2,-,-,Outlier
--,47,-,-,Outlier
+2,69,-,-,Outlier
+2,71,-,-,Outlier
+2,72,-,-,Outlier
+2,74,-,-,Outlier
+3,87,-,-,Outlier
+3,89,-,-,Outlier
+3,90,-,-,Outlier
+4,104,-,-,Outlier
+4,106,-,CA Geom Outlier,-
+4,107,-,Outlier,-
+5,114,-,Outlier,-
+5,99,-,-,Outlier
+6,2,-,-,Outlier
+6,27,-,-,Outlier
+7,42,-,-,Outlier
+7,43,-,-,Outlier
+-,57,-,-,Outlier
 -,66,-,-,Outlier
--,70,-,-,Outlier
--,74,-,-,Outlier
--,84,-,-,Outlier
--,119,-,-,Outlier

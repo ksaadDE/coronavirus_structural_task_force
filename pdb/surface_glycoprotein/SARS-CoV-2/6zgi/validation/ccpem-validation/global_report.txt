@@ -3,12 +3,6 @@ Atomic B-factor distribution
 >6zgi_0
 ----------------------------
 
-*REFMAC5* model-map FSCavg
-==========================
->emd_11207:6zgi_0
--FSCavg: 0.7713
---------------------------
-
 *Molprobity* model geometry
 ===========================
 >6zgi_0
@@ -30,13 +24,21 @@ Atomic B-factor distribution
 -CA Geom Outlier: 0.735%
 ----------------------------
 
+*REFMAC5* model-map FSCavg
+==========================
+>emd_11207_0:6zgi_0
+-FSCavg: 0.7897
+>emd_11207_0:6zgi_0
+-FSCavg: 0.8093
+--------------------------
+
 *TEMPy* global real space scores
 ================================
->emd_11207
--overlap_map: 0.472
--overlap_model: 0.914
--correlation: 0.82
--local_correlation: 0.901
--local_mi: 1.049
+>emd_11207_0
+-overlap_map: 0.775
+-overlap_model: 0.792
+-correlation: 0.757
+-local_correlation: 0.883
+-local_mi: 0.948
 --------------------------------
 

@@ -9,13 +9,12 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,29,-,-,Outlier
 2,30,side-chain clash,-,-
 2,98,side-chain clash,-,-
-3,4,-,-,Outlier
 3,6,side-chain clash,-,-
 3,7,-,-,Outlier
-4,17,-,-,Outlier
-4,18,-,-,Outlier
+3,9,-,-,Outlier
+-,2,-,-,Outlier
+-,18,-,-,Outlier
 -,35,-,-,Outlier
 -,76,-,-,Outlier
--,81,-,-,Outlier
 -,89,side-chain clash,-,-
 -,110,-,-,Outlier

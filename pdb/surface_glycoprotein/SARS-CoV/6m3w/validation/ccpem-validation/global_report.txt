@@ -3,14 +3,6 @@ Atomic B-factor distribution
 >6m3w_0
 ----------------------------
 
-*CaBLAM* (backbone geometry)
-============================
->6m3w_0
--CaBLAM Outlier: 7.44%
--CaBLAM Disfavored: 4.464%
--CA Geom Outlier: 0.595%
-----------------------------
-
 *Molprobity* model geometry
 ===========================
 >6m3w_0
@@ -24,19 +16,29 @@ Atomic B-factor distribution
 -Cis-general: 0.00 [expected: 0%] 
 ---------------------------
 
+*CaBLAM* (backbone geometry)
+============================
+>6m3w_0
+-CaBLAM Outlier: 7.44%
+-CaBLAM Disfavored: 4.464%
+-CA Geom Outlier: 0.595%
+----------------------------
+
 *REFMAC5* model-map FSCavg
 ==========================
->emd_30072:6m3w_0
--FSCavg: 0.0012
+>emd_30072_0:6m3w_0
+-FSCavg: 0.6918
+>emd_30072_0:6m3w_0
+-FSCavg: 0.4461
 --------------------------
 
 *TEMPy* global real space scores
 ================================
->emd_30072
--overlap_map: 0.249
--overlap_model: 0.823
--correlation: 0.792
--local_correlation: 0.744
--local_mi: 0.563
+>emd_30072_0
+-overlap_map: 0.0
+-overlap_model: 0.0
+-correlation: -1.0
+-local_correlation: -1.0
+-local_mi: 0.0
 --------------------------------
 

@@ -49,28 +49,24 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 12,176,side-chain clash,-,Outlier
 13,133,side-chain clash,-,-
 13,136,side-chain clash,-,-
-14,138,-,-,Outlier
-14,139,-,-,Outlier
-15,321,-,-,Outlier
-15,322,-,-,Outlier
-16,10,-,-,Outlier
-16,11,-,-,Outlier
-17,239,side-chain clash,-,Outlier
-17,249,side-chain clash,Outlier,Outlier
+14,321,-,-,Outlier
+14,322,-,-,Outlier
+15,10,-,-,Outlier
+15,11,-,-,Outlier
+16,239,side-chain clash,-,-
+16,249,side-chain clash,Outlier,Outlier
+17,78,-,-,Outlier
+17,79,-,-,Outlier
+18,64,-,-,Outlier
+18,65,-,-,Outlier
 -,19,-,-,Outlier
--,26,-,-,Outlier
--,37,-,-,Outlier
--,56,-,-,Outlier
--,78,-,-,Outlier
+-,69,-,-,Outlier
 -,92,-,-,Outlier
 -,105,-,-,Outlier
--,131,-,-,Outlier
+-,138,-,-,Outlier
 -,152,-,-,Outlier
--,189,-,-,Outlier
--,216,-,-,Outlier
 -,229,-,-,Outlier
 -,242,-,-,Outlier
 -,245,Rotamer,-,-
--,277,-,-,Outlier
+-,310,-,-,Outlier
 -,340,-,-,Outlier
--,345,-,-,Outlier

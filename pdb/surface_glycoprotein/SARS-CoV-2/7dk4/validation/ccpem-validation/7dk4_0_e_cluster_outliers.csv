@@ -9,34 +9,37 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,43,-,CA Geom Outlier,Outlier
 1,44,-,-,Outlier
 1,88,-,-,Outlier
-2,33,-,-,Outlier
-2,34,-,-,Outlier
-2,53,-,CA Geom Outlier,-
-2,95,Rotamer,-,-
-3,14,-,-,Outlier
-3,15,-,-,Outlier
-3,84,-,-,Outlier
-4,10,-,-,Outlier
-4,8,-,Outlier,-
-4,9,-,CA Geom Outlier,-
-5,195,-,-,Outlier
-5,196,-,-,Outlier
-6,132,-,-,Outlier
-6,133,-,-,Outlier
-7,137,-,-,Outlier
-7,138,-,-,Outlier
-8,143,-,-,Outlier
-8,144,Rotamer,-,-
-9,100,-,Outlier,Outlier
+1,89,-,-,Outlier
+2,68,-,-,Outlier
+2,69,-,-,Outlier
+2,80,-,-,Outlier
+3,10,-,-,Outlier
+3,8,-,Outlier,-
+3,9,-,CA Geom Outlier,-
+4,195,-,-,Outlier
+4,196,-,-,Outlier
+5,137,-,-,Outlier
+5,138,-,-,Outlier
+6,165,-,-,Outlier
+6,166,-,-,Outlier
+7,14,-,-,Outlier
+7,84,-,-,Outlier
+8,1,-,-,Outlier
+8,2,-,-,Outlier
+9,100,-,Outlier,-
 9,101,-,Outlier,-
--,1,-,-,Outlier
+10,34,-,-,Outlier
+10,95,Rotamer,-,-
+11,53,-,CA Geom Outlier,-
+11,54,-,-,Outlier
 -,57,Rotamer,-,-
 -,61,-,-,Outlier
--,68,-,-,Outlier
 -,75,-,-,Outlier
 -,109,-,Outlier,-
--,148,-,-,Outlier
+-,119,-,-,Outlier
+-,133,-,-,Outlier
+-,144,Rotamer,-,-
 -,152,-,CA Geom Outlier,-
--,165,-,-,Outlier
 -,169,-,-,Outlier
 -,176,-,Outlier,Outlier
+-,211,-,-,Outlier

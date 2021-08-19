@@ -6,147 +6,141 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,142,side-chain clash,-,-
 1,156,side-chain clash,-,-
 1,244,-,-,Outlier
-1,258,-,-,Outlier
 1,260,-,Outlier,-
 1,262,side-chain clash,-,-
 1,67,side-chain clash,-,-
-2,105,side-chain clash,-,Outlier
-2,112,-,Outlier,-
-2,133,-,-,Outlier
-2,135,-,-,Outlier
-2,159,-,Outlier,-
-2,239,side-chain clash,-,-
-3,980,-,-,Outlier
-3,981,side-chain clash,-,-
-3,983,-,Outlier,-
-3,990,-,-,Outlier
-3,993,side-chain clash,-,-
-3,994,-,-,Outlier
-4,376,-,-,Outlier
-4,378,-,-,Outlier
-4,435,-,-,Outlier
-4,510,-,-,Outlier
-5,214,-,CA Geom Outlier,-
-5,215,Ramachandran,-,-
-5,30,backbone clash,-,-
-6,666,-,Outlier,-
-6,669,-,-,Outlier
-6,671,-,-,Outlier
-7,277,side-chain clash,-,-
-7,279,-,-,Outlier
-7,285,side-chain clash,-,-
-8,354,side-chain clash,-,-
-8,398,side-chain clash,-,Outlier
-8,777,-,-,Outlier
-9,524,-,Outlier,-
-9,525,Rotamer,Outlier,-
-9,527,-,Outlier,-
-10,1311,-,-,Outlier
-10,331,Rotamer*side-chain clash,-,-
-10,580,side-chain clash,-,-
-11,845,-,-,Outlier
-11,846,-,Outlier,-
-11,96,backbone clash*side-chain clash,-,-
-12,869,-,-,Outlier
-12,870,-,-,Outlier
-12,871,-,-,Outlier
-13,216,side-chain clash*backbone clash,-,-
-13,217,side-chain clash*backbone clash,-,-
-14,816,-,-,Outlier
-14,819,-,-,Outlier
-15,1072,-,-,Outlier
-15,1073,-,-,Outlier
-16,406,side-chain clash,-,-
-16,417,side-chain clash,-,-
-17,541,-,-,Outlier
-17,549,-,CA Geom Outlier,-
-18,200,side-chain clash,-,-
-18,228,side-chain clash,-,-
-19,312,Rotamer*side-chain clash,-,-
-19,598,side-chain clash,-,-
-20,1080,-,-,Outlier
-20,1132,-,-,Outlier
-21,178,-,Outlier,-
-21,179,-,Outlier,-
-22,108,side-chain clash,Outlier,-
-22,109,side-chain clash,-,-
-23,101,backbone clash*side-chain clash,-,Outlier
-23,242,side-chain clash,-,-
-24,638,-,Outlier,-
-24,640,-,CA Geom Outlier,-
-25,29,backbone clash*side-chain clash,-,-
-25,62,side-chain clash,-,Outlier
-26,653,-,-,Outlier
-26,654,-,-,Outlier
-27,1030,-,-,Outlier
-27,1034,-,Outlier,-
-28,310,-,CA Geom Outlier,-
-28,600,-,CA Geom Outlier,-
-29,758,-,-,Outlier
-29,759,-,-,Outlier
-30,958,-,-,Outlier
-30,962,-,-,Outlier
-31,878,Rotamer,-,-
-31,881,-,-,Outlier
-32,231,-,Outlier,-
-32,232,-,-,Outlier
-33,950,backbone clash,-,Outlier
-33,951,backbone clash,-,-
-34,357,side-chain clash,-,Outlier
-34,394,side-chain clash,-,-
-35,477,side-chain clash,CA Geom Outlier,-
-35,478,side-chain clash,Outlier,-
--,14,-,-,Outlier
--,18,-,-,Outlier
+2,198,-,-,Outlier
+2,199,-,-,Outlier
+2,200,side-chain clash,-,-
+2,228,side-chain clash,-,-
+2,231,-,Outlier,-
+2,232,-,-,Outlier
+3,336,-,-,Outlier
+3,362,-,-,Outlier
+3,363,-,-,Outlier
+3,524,-,Outlier,-
+3,525,Rotamer,Outlier,-
+3,527,-,Outlier,-
+4,977,-,-,Outlier
+4,981,side-chain clash,-,-
+4,990,-,-,Outlier
+4,993,side-chain clash,-,-
+4,994,-,-,Outlier
+5,105,side-chain clash,-,-
+5,135,-,-,Outlier
+5,159,-,Outlier,-
+5,239,side-chain clash,-,-
+6,376,-,-,Outlier
+6,378,-,-,Outlier
+6,435,-,-,Outlier
+6,510,-,-,Outlier
+7,214,-,CA Geom Outlier,-
+7,215,Ramachandran,-,-
+7,30,backbone clash,-,-
+8,666,-,Outlier,-
+8,669,-,-,Outlier
+8,671,-,-,Outlier
+9,106,-,-,Outlier
+9,117,-,-,Outlier
+9,130,-,-,Outlier
+10,222,-,-,Outlier
+10,277,side-chain clash,-,-
+10,285,side-chain clash,-,-
+11,354,side-chain clash,-,-
+11,398,side-chain clash,-,Outlier
+11,777,-,-,Outlier
+12,584,-,-,Outlier
+12,586,-,-,Outlier
+12,587,-,-,Outlier
+13,1311,-,-,Outlier
+13,331,Rotamer*side-chain clash,-,-
+13,580,side-chain clash,-,-
+14,845,-,-,Outlier
+14,846,-,Outlier,Outlier
+14,96,backbone clash*side-chain clash,-,-
+15,958,-,-,Outlier
+15,959,-,-,Outlier
+15,962,-,-,Outlier
+16,216,side-chain clash*backbone clash,-,-
+16,217,side-chain clash*backbone clash,-,-
+17,29,backbone clash*side-chain clash,-,-
+17,62,side-chain clash,-,Outlier
+18,406,side-chain clash,-,-
+18,417,side-chain clash,-,-
+19,424,-,-,Outlier
+19,426,-,-,Outlier
+20,923,-,-,Outlier
+20,924,-,-,Outlier
+21,596,-,-,Outlier
+21,610,-,-,Outlier
+22,312,Rotamer*side-chain clash,-,-
+22,598,side-chain clash,-,-
+23,442,-,-,Outlier
+23,507,-,-,Outlier
+24,178,-,Outlier,-
+24,179,-,Outlier,-
+25,108,side-chain clash,Outlier,-
+25,109,side-chain clash,-,-
+26,101,backbone clash*side-chain clash,-,Outlier
+26,242,side-chain clash,-,-
+27,638,-,Outlier,-
+27,640,-,CA Geom Outlier,-
+28,1030,-,-,Outlier
+28,1034,-,Outlier,-
+29,310,-,CA Geom Outlier,-
+29,600,-,CA Geom Outlier,-
+30,878,Rotamer,-,-
+30,881,-,-,Outlier
+31,950,backbone clash,-,-
+31,951,backbone clash,-,-
+32,357,side-chain clash,-,Outlier
+32,394,side-chain clash,-,-
+33,477,side-chain clash,CA Geom Outlier,-
+33,478,side-chain clash,Outlier,-
 -,20,-,Outlier,-
--,34,-,-,Outlier
 -,40,-,-,Outlier
 -,55,-,-,Outlier
--,78,side-chain clash,-,Outlier
+-,78,side-chain clash,-,-
 -,88,-,Outlier,Outlier
--,106,-,-,Outlier
--,130,-,-,Outlier
+-,112,-,Outlier,-
+-,128,-,-,Outlier
+-,182,-,-,Outlier
 -,185,-,CA Geom Outlier,-
+-,204,-,-,Outlier
 -,218,-,CA Geom Outlier,-
--,223,-,-,Outlier
 -,251,-,Outlier,-
--,253,-,-,Outlier
 -,291,-,-,Outlier
--,299,-,-,Outlier
 -,316,-,Outlier,-
--,336,-,-,Outlier
 -,344,-,-,Outlier
--,350,-,-,Outlier
 -,368,-,-,Outlier
 -,396,-,-,Outlier
 -,405,-,-,Outlier
--,426,-,-,Outlier
 -,446,-,Outlier,-
 -,483,-,Outlier,-
 -,486,-,Outlier,-
 -,491,-,-,Outlier
--,507,-,-,Outlier
 -,519,-,Outlier,-
+-,549,-,CA Geom Outlier,-
 -,563,Rotamer,-,-
 -,567,-,-,Outlier
--,584,-,-,Outlier
--,587,-,-,Outlier
+-,653,-,-,Outlier
 -,699,-,Outlier,-
 -,733,-,-,Outlier
+-,758,-,-,Outlier
 -,797,-,Outlier,-
 -,853,-,-,Outlier
+-,870,-,-,Outlier
 -,891,-,Outlier,-
--,894,-,-,Outlier
 -,900,-,-,Outlier
 -,916,Rotamer,-,-
--,923,-,-,Outlier
 -,930,-,-,Outlier
+-,983,-,Outlier,-
 -,1004,-,-,Outlier
--,1014,-,-,Outlier
 -,1039,Rotamer,-,-
 -,1043,-,Outlier,-
 -,1058,-,Outlier,-
--,1065,-,-,Outlier
+-,1072,-,-,Outlier
 -,1084,-,Outlier,-
 -,1095,-,-,Outlier
+-,1132,-,-,Outlier
 -,1139,-,Outlier,-

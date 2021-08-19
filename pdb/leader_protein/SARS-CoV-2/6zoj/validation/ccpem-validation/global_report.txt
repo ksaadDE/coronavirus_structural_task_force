@@ -17,6 +17,14 @@ Atomic B-factor distribution
 -Cis-general: 0.02 [expected: 0%] 
 ---------------------------
 
+*REFMAC5* model-map FSCavg
+==========================
+>emd_11320_0:6zoj_0
+-FSCavg: 0.7708
+>emd_11320_0:6zoj_0
+-FSCavg: 0.4924
+--------------------------
+
 *CaBLAM* (backbone geometry)
 ============================
 >6zoj_0

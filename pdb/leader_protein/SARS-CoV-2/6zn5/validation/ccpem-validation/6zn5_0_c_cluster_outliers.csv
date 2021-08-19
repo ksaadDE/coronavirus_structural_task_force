@@ -5,11 +5,9 @@
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,22,-,-,Outlier
 1,29,-,-,Outlier
-2,53,-,-,Outlier
-2,55,-,-,Outlier
 -,2,-,-,Outlier
--,5,-,-,Outlier
 -,45,Rotamer,-,-
--,65,-,-,Outlier
+-,53,-,-,Outlier
+-,66,-,-,Outlier
 -,84,-,-,Outlier
 -,89,-,-,Outlier

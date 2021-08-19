@@ -3,48 +3,58 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,1242,Dihedral angle:O4':C1':N1:C2,-,-
-1,1518,-,-,Outlier
-1,1520,-,-,Outlier
-1,2052,-,-,Outlier
-2,2001,-,-,Outlier
-2,2009,-,-,Outlier
-2,2053,-,-,Outlier
-3,1362,Dihedral angle:O4':C1':N1:C2,-,-
-3,2029,-,-,Outlier
+1,2001,-,-,Outlier
+1,2009,-,-,Outlier
+1,2053,-,-,Outlier
+2,2013,-,-,Outlier
+2,2036,-,-,Outlier
+3,1588,-,-,Outlier
+3,1589,-,-,Outlier
+4,1474,-,-,Outlier
+4,1475,-,-,Outlier
+5,1624,Dihedral angle:O4':C1':N1:C2,-,-
+5,2010,-,-,Outlier
+6,2003,-,-,Outlier
+6,2015,-,-,Outlier
+7,1362,Dihedral angle:O4':C1':N1:C2,-,-
+7,2029,-,-,Outlier
+8,1385,-,-,Outlier
+8,1386,-,-,Outlier
+-,1242,Dihedral angle:O4':C1':N1:C2,-,-
 -,1277,-,-,Outlier
--,1292,-,-,Outlier
 -,1314,Dihedral angle:O4':C1':N1:C2,-,-
--,1328,-,-,Outlier
--,1350,-,-,Outlier
+-,1325,-,-,Outlier
+-,1365,-,-,Outlier
 -,1376,-,-,Outlier
--,1391,-,-,Outlier
--,1421,-,-,Outlier
+-,1389,-,-,Outlier
+-,1397,-,-,Outlier
+-,1420,-,-,Outlier
 -,1423,Dihedral angle:O4':C1':N1:C2,-,-
+-,1426,-,-,Outlier
 -,1439,-,-,Outlier
 -,1453,Dihedral angle:O4':C1':N1:C2,-,-
--,1465,-,-,Outlier
+-,1462,-,-,Outlier
+-,1467,-,-,Outlier
 -,1532,-,-,Outlier
 -,1534,Dihedral angle:O4':C1':N1:C2,-,-
 -,1542,-,-,Outlier
--,1551,Dihedral angle:O4':C1':N1:C2,-,-
+-,1551,Dihedral angle:O4':C1':N1:C2,-,Outlier
 -,1555,Dihedral angle:O4':C1':N1:C2,-,-
+-,1572,-,-,Outlier
 -,1579,-,-,Outlier
--,1597,-,-,Outlier
 -,1614,-,-,Outlier
--,1624,Dihedral angle:O4':C1':N1:C2,-,-
 -,1673,-,-,Outlier
--,1677,-,-,Outlier
--,1680,-,-,Outlier
 -,1689,Backbone torsion suites: ,-,-
 -,2002,-,-,Outlier
--,2003,-,-,Outlier
 -,2005,-,-,Outlier
--,2013,-,-,Outlier
+-,2006,-,-,Outlier
+-,2011,-,-,Outlier
 -,2018,-,-,Outlier
+-,2019,-,-,Outlier
 -,2021,-,-,Outlier
 -,2022,-,-,Outlier
 -,2023,-,-,Outlier
+-,2026,-,-,Outlier
 -,2027,-,-,Outlier
 -,2030,-,-,Outlier
 -,2032,-,-,Outlier
@@ -54,11 +64,15 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 -,2037,-,-,Outlier
 -,2038,-,-,Outlier
 -,2039,-,-,Outlier
+-,2040,-,-,Outlier
 -,2041,-,-,Outlier
 -,2043,-,-,Outlier
+-,2044,-,-,Outlier
 -,2045,-,-,Outlier
 -,2046,-,-,Outlier
 -,2047,-,-,Outlier
 -,2048,-,-,Outlier
+-,2049,-,-,Outlier
 -,2050,-,-,Outlier
 -,2051,-,-,Outlier
+-,2052,-,-,Outlier

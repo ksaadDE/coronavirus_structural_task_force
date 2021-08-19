@@ -5,7 +5,7 @@
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,10,Bond angle:N:CA:CB*Bond angle:N:CD:CG,Outlier,-
 1,12,Bond length:C:O,-,-
-1,14,C-beta*Bond angle:C:CA:CB*Bond angle:N:CA:CB,-,Outlier
+1,14,C-beta*Bond angle:C:CA:CB*Bond angle:N:CA:CB,-,-
 1,17,Rotamer,-,-
 1,19,Bond length:C:O,-,-
 1,2,Bond angle:CA:N:CD,-,-
@@ -15,7 +15,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,26,C-beta*Bond angle:C:CA:CB*Bond angle:N:CA,-,-
 1,27,Rotamer,-,-
 1,28,Bond length:C:O,-,-
-1,3,C-beta,-,Outlier
+1,3,C-beta,-,-
 1,30,Bond length:CA:CB,-,Outlier
 1,31,Bond angle:CA:CB:CG,-,-
 1,33,Rotamer,-,-
@@ -33,6 +33,8 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,52,Rotamer,-,-
 1,53,Rotamer,-,-
 1,55,Rotamer,-,-
+1,57,Rotamer*C-beta,-,-
+1,58,-,-,Outlier
 1,6,Rotamer,-,-
 1,60,C-beta,-,-
 1,62,Rotamer,-,-
@@ -47,4 +49,3 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,80,C-beta*Bond angle:C:CA:CB,Outlier,-
 1,81,C-beta*Bond angle:C:CA:CB,-,-
 1,83,C-beta*Bond angle:N:CA:CB,-,-
--,57,Rotamer*C-beta,-,-

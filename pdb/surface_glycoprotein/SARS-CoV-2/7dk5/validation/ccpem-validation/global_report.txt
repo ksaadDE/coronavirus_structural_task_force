@@ -4,12 +4,6 @@ Atomic B-factor distribution
 -Warning, multiple peaks detected!
 ----------------------------
 
-*REFMAC5* model-map FSCavg
-==========================
->emd_30703:7dk5_0
--FSCavg: 0.3224
---------------------------
-
 *Molprobity* model geometry
 ===========================
 >7dk5_0
@@ -31,13 +25,21 @@ Atomic B-factor distribution
 -CA Geom Outlier: 1.109%
 ----------------------------
 
+*REFMAC5* model-map FSCavg
+==========================
+>emd_30703_0:7dk5_0
+-FSCavg: 0.8945
+>emd_30703_0:7dk5_0
+-FSCavg: 0.3224
+--------------------------
+
 *TEMPy* global real space scores
 ================================
->emd_30703
--overlap_map: 0.114
--overlap_model: 0.998
--correlation: 0.734
--local_correlation: 0.037
+>emd_30703_0
+-overlap_map: 0.168
+-overlap_model: 0.981
+-correlation: 0.552
+-local_correlation: 0.03
 -local_mi: 0.011
 --------------------------------
 

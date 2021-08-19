@@ -4,12 +4,12 @@
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,37,-,-,Outlier
-1,41,side-chain clash,-,-
+1,41,side-chain clash,-,Outlier
 1,42,-,-,Outlier
 1,45,backbone clash,-,-
+1,48,-,-,Outlier
 1,50,Rotamer*backbone clash,-,-
 1,55,side-chain clash,-,-
-1,56,-,-,Outlier
 1,75,side-chain clash,-,-
 2,108,-,-,Outlier
 2,109,Rotamer,-,-
@@ -19,17 +19,16 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 3,66,side-chain clash,-,-
 3,67,-,Outlier,-
 3,68,-,-,Outlier
-4,101,-,-,Outlier
-4,102,side-chain clash,-,-
-4,107,side-chain clash,-,-
+4,23,-,-,Outlier
+4,72,-,-,Outlier
 5,3,-,-,Outlier
 5,4,-,-,Outlier
 6,8,-,-,Outlier
 6,9,backbone clash,-,-
+7,102,side-chain clash,-,-
+7,107,side-chain clash,-,-
 -,15,side-chain clash,-,-
--,53,-,-,Outlier
 -,61,-,-,Outlier
 -,64,backbone clash,-,-
--,72,-,-,Outlier
 -,83,-,-,Outlier
 -,122,-,-,Outlier

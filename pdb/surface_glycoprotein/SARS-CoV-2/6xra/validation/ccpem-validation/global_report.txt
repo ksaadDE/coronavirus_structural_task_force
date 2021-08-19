@@ -16,6 +16,14 @@ Atomic B-factor distribution
 -Cis-general: 0.00 [expected: 0%] 
 ---------------------------
 
+*REFMAC5* model-map FSCavg
+==========================
+>emd_22293_0:6xra_0
+-FSCavg: 0.6105
+>emd_22293_0:6xra_0
+-FSCavg: 0.5191
+--------------------------
+
 *CaBLAM* (backbone geometry)
 ============================
 >6xra_0
@@ -26,9 +34,9 @@ Atomic B-factor distribution
 
 *TEMPy* global real space scores
 ================================
->emd_22293
--overlap_map: 0.0
--overlap_model: 0.0
+>emd_22293_0
+-overlap_map: 0.075
+-overlap_model: 0.471
 -correlation: -1.0
 -local_correlation: -1.0
 -local_mi: 0.0

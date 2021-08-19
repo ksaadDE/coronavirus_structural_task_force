@@ -10,10 +10,9 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,21,-,-,Outlier
 1,22,side-chain clash*backbone clash,-,-
 1,27,Rotamer*side-chain clash,-,-
-1,29,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ,-,-
+1,29,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ,-,Outlier
 1,34,Rotamer*side-chain clash,-,-
 1,4,Rotamer,-,-
-1,5,-,-,Outlier
 1,51,Rotamer*side-chain clash,-,-
 1,52,Rotamer*side-chain clash,-,-
 1,53,Rotamer*side-chain clash,-,-
@@ -23,14 +22,13 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,9,-,Outlier,-
 1,95,Rotamer*side-chain clash,-,-
 1,98,side-chain clash,-,-
-2,100,side-chain clash*Bond angle:CB:CG:CD*Bond angle:CA:CB:CG*Dihedral angle:CA:C,Outlier,Outlier
+2,100,side-chain clash*Bond angle:CB:CG:CD*Bond angle:CA:CB:CG*Dihedral angle:CA:C,Outlier,-
 2,101,side-chain clash*Dihedral angle:N:CA,-,-
 2,104,-,-,Outlier
 2,105,-,-,Outlier
 2,106,Rotamer,-,-
 2,107,backbone clash*Bond angle:C,Outlier,-
 2,108,Rotamer*Bond angle:N:CA,-,-
-2,109,-,-,Outlier
 2,110,backbone clash,Outlier,-
 2,112,side-chain clash,-,-
 2,113,Rotamer*Bond angle:CA:CB:CG*Bond angle:C:CA:CB*Bond angle:CB:CG:OD1,-,-
@@ -42,20 +40,19 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 3,43,Rotamer*Bond angle:CA:CB:CG*Bond angle:CB:CG:CD,-,-
 3,44,Dihedral angle:CA:C,-,-
 3,45,side-chain clash*Dihedral angle:N:CA,Outlier,-
-4,63,-,-,Outlier
-4,64,side-chain clash,-,-
-4,67,Dihedral angle:CD:NE:CZ:NH1,-,-
-4,68,side-chain clash,-,-
-4,85,Rotamer*side-chain clash,-,Outlier
-5,17,Rotamer,-,-
-5,18,side-chain clash,-,-
-5,69,side-chain clash,-,-
-5,82,side-chain clash,-,-
-5,83,side-chain clash,-,-
+4,17,Rotamer,-,-
+4,18,side-chain clash,-,-
+4,69,side-chain clash,-,-
+4,82,side-chain clash,-,-
+4,83,side-chain clash,-,-
+5,64,side-chain clash,-,-
+5,67,Dihedral angle:CD:NE:CZ:NH1,-,-
+5,68,side-chain clash,-,-
+5,85,Rotamer*side-chain clash,-,Outlier
 6,92,side-chain clash,-,-
 6,94,side-chain clash,-,-
 7,122,side-chain clash,-,-
 7,91,side-chain clash,-,-
-8,56,-,Outlier,-
-8,58,-,-,Outlier
 -,1,-,-,Outlier
+-,56,-,Outlier,-
+-,62,-,-,Outlier

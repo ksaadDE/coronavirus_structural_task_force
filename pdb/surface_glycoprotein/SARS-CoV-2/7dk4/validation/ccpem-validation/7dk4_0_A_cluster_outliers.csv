@@ -3,118 +3,130 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,114,side-chain clash,-,Outlier
+1,114,side-chain clash,-,-
 1,480,-,Outlier,-
 1,482,-,-,Outlier
 1,485,-,Outlier,-
+1,486,-,-,Outlier
 1,487,-,Outlier,-
 1,611,side-chain clash,-,-
 1,666,side-chain clash,Outlier,-
 1,90,side-chain clash,-,-
-2,219,backbone clash,-,Outlier
-2,220,-,-,Outlier
-2,223,-,-,Outlier
-2,33,backbone clash,Outlier,-
-2,34,-,CA Geom Outlier,-
-2,35,-,-,Outlier
-2,36,-,-,Outlier
-3,102,side-chain clash*backbone clash,-,-
-3,121,backbone clash,-,-
-3,122,-,Outlier,-
-3,150,side-chain clash,Outlier,-
-3,151,side-chain clash,-,-
-3,153,-,-,Outlier
-3,154,side-chain clash,-,-
-4,194,-,-,Outlier
-4,195,-,-,Outlier
-4,197,-,-,Outlier
-4,198,-,-,Outlier
-4,87,-,-,Outlier
-4,88,-,Outlier,Outlier
-5,108,backbone clash,Outlier,-
-5,229,-,-,Outlier
-5,231,-,Outlier,-
-5,232,-,Outlier,-
-5,233,-,-,Outlier
-5,234,backbone clash,-,-
+2,102,side-chain clash*backbone clash,-,-
+2,121,backbone clash,-,-
+2,122,-,Outlier,-
+2,150,side-chain clash,Outlier,-
+2,151,side-chain clash,-,-
+2,153,-,-,Outlier
+2,154,side-chain clash,-,-
+3,183,-,-,Outlier
+3,184,-,-,Outlier
+3,185,-,-,Outlier
+3,260,-,-,Outlier
+3,262,-,CA Geom Outlier,-
+3,69,-,-,Outlier
+3,78,-,-,Outlier
+4,219,backbone clash,-,Outlier
+4,33,backbone clash,Outlier,-
+4,34,-,CA Geom Outlier,-
+4,35,-,-,Outlier
+4,36,-,-,Outlier
+4,37,-,-,Outlier
+5,110,-,-,Outlier
+5,111,-,-,Outlier
+5,135,-,-,Outlier
+5,14,-,-,Outlier
+5,161,-,-,Outlier
 6,549,-,CA Geom Outlier,Outlier
 6,551,backbone clash,-,-
 6,588,backbone clash,-,-
 6,590,-,-,Outlier
-7,972,-,-,Outlier
-7,973,-,-,Outlier
-7,994,-,-,Outlier
-7,995,-,-,Outlier
-8,260,-,-,Outlier
-8,262,-,CA Geom Outlier,-
-8,69,-,-,Outlier
-8,78,-,-,Outlier
-9,286,-,-,Outlier
-9,287,backbone clash,-,-
-9,288,backbone clash,-,-
-10,375,-,-,Outlier
-10,376,-,-,Outlier
-10,378,-,-,Outlier
+7,598,side-chain clash*backbone clash,-,-
+7,664,side-chain clash*backbone clash,-,-
+7,756,-,-,Outlier
+8,544,-,-,Outlier
+8,545,-,Outlier,Outlier
+8,546,-,-,Outlier
+9,795,-,-,Outlier
+9,796,-,-,Outlier
+9,797,-,Outlier,-
+10,146,-,-,Outlier
+10,148,-,CA Geom Outlier,-
+10,247,-,-,Outlier
 11,645,backbone clash,-,-
 11,646,-,-,Outlier
 11,648,backbone clash,-,-
-12,1031,-,-,Outlier
-12,1036,-,-,Outlier
-12,1049,-,-,Outlier
-13,215,side-chain clash,CA Geom Outlier,-
-13,29,side-chain clash,-,-
-14,598,side-chain clash*backbone clash,-,-
-14,664,side-chain clash*backbone clash,-,-
-15,545,-,Outlier,-
-15,546,-,-,Outlier
-16,280,backbone clash*side-chain clash,-,-
-16,284,backbone clash*side-chain clash,-,-
-17,324,-,-,Outlier
-17,326,-,-,Outlier
-18,717,backbone clash,-,-
-18,718,backbone clash,-,-
-19,710,-,-,Outlier
-19,712,-,-,Outlier
-20,299,-,-,Outlier
-20,315,-,-,Outlier
-21,291,-,-,Outlier
-21,293,-,Outlier,-
-22,398,side-chain clash,-,-
-22,423,side-chain clash,-,-
-23,66,backbone clash,-,-
-23,84,backbone clash,-,-
-24,309,-,-,Outlier
-24,310,-,Outlier,-
-25,445,-,-,Outlier
-25,446,-,-,Outlier
-26,780,side-chain clash,-,-
-26,784,side-chain clash,-,-
-27,60,backbone clash,-,-
-27,61,backbone clash,-,-
-28,736,-,-,Outlier
-28,738,-,-,Outlier
-29,899,-,-,Outlier
-29,903,-,-,Outlier
-30,166,-,-,Outlier
-30,167,-,-,Outlier
-31,14,-,-,Outlier
-31,161,-,-,Outlier
-32,147,-,-,Outlier
-32,148,-,CA Geom Outlier,-
-33,1043,-,Outlier,-
-33,1045,-,Outlier,Outlier
+12,459,-,-,Outlier
+12,460,-,-,Outlier
+12,461,-,-,Outlier
+13,1031,-,-,Outlier
+13,1036,-,-,Outlier
+13,1049,-,-,Outlier
+14,229,-,-,Outlier
+14,231,-,Outlier,-
+14,232,-,Outlier,-
+15,215,side-chain clash,CA Geom Outlier,-
+15,29,side-chain clash,-,-
+16,882,-,-,Outlier
+16,883,-,-,Outlier
+17,287,backbone clash,-,-
+17,288,backbone clash,-,-
+18,280,backbone clash*side-chain clash,-,-
+18,284,backbone clash*side-chain clash,-,-
+19,717,backbone clash,-,-
+19,718,backbone clash,-,-
+20,1098,-,-,Outlier
+20,1099,-,-,Outlier
+21,865,-,-,Outlier
+21,867,-,-,Outlier
+22,299,-,-,Outlier
+22,315,-,-,Outlier
+23,291,-,-,Outlier
+23,293,-,Outlier,-
+24,197,-,-,Outlier
+24,198,-,-,Outlier
+25,87,-,-,Outlier
+25,88,-,Outlier,Outlier
+26,398,side-chain clash,-,-
+26,423,side-chain clash,-,-
+27,66,backbone clash,-,-
+27,84,backbone clash,-,-
+28,556,-,-,Outlier
+28,558,-,-,Outlier
+29,427,-,-,Outlier
+29,428,-,-,Outlier
+30,1117,-,-,Outlier
+30,1139,-,-,Outlier
+31,445,-,-,Outlier
+31,446,-,-,Outlier
+32,108,backbone clash,Outlier,-
+32,234,backbone clash,-,-
+33,780,side-chain clash,-,-
+33,784,side-chain clash,-,-
+34,518,-,-,Outlier
+34,519,-,-,Outlier
+35,568,-,-,Outlier
+35,574,-,-,Outlier
+36,60,backbone clash,-,-
+36,61,backbone clash,-,-
+37,725,-,-,Outlier
+37,727,-,-,Outlier
+38,166,-,-,Outlier
+38,167,-,-,Outlier
+39,1043,-,Outlier,-
+39,1045,-,Outlier,Outlier
+-,26,-,-,Outlier
 -,50,-,-,Outlier
 -,92,-,-,Outlier
--,111,-,-,Outlier
 -,173,-,-,Outlier
--,178,-,-,Outlier
--,184,-,-,Outlier
+-,194,-,-,Outlier
 -,214,-,CA Geom Outlier,-
--,247,-,-,Outlier
 -,257,-,-,Outlier
 -,269,-,-,Outlier
 -,273,-,-,Outlier
 -,281,-,-,Outlier
+-,310,-,Outlier,-
+-,324,-,-,Outlier
 -,334,-,-,Outlier
 -,339,-,-,Outlier
 -,346,-,-,Outlier
@@ -122,43 +134,44 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 -,357,-,-,Outlier
 -,360,-,-,Outlier
 -,364,-,-,Outlier
--,415,-,Outlier,Outlier
--,428,-,-,Outlier
--,450,-,-,Outlier
--,461,-,-,Outlier
+-,375,-,-,Outlier
+-,378,-,-,Outlier
+-,415,-,Outlier,-
+-,440,-,-,Outlier
 -,464,-,-,Outlier
 -,477,-,Outlier,-
+-,493,-,-,Outlier
 -,497,-,-,Outlier
--,519,-,-,Outlier
+-,500,-,-,Outlier
 -,529,-,-,Outlier
 -,554,-,-,Outlier
--,558,-,-,Outlier
 -,565,-,-,Outlier
--,574,-,-,Outlier
 -,582,-,-,Outlier
--,607,-,-,Outlier
--,617,-,-,Outlier
+-,603,-,-,Outlier
 -,654,-,-,Outlier
+-,661,-,-,Outlier
 -,667,-,Outlier,-
 -,695,-,-,Outlier
 -,699,-,Outlier,-
 -,702,-,-,Outlier
--,720,-,-,Outlier
--,727,-,-,Outlier
+-,710,-,-,Outlier
+-,736,-,-,Outlier
 -,745,-,Outlier,Outlier
--,785,-,-,Outlier
--,797,-,Outlier,-
+-,777,-,-,Outlier
+-,786,-,-,Outlier
 -,855,-,-,Outlier
 -,877,-,-,Outlier
--,882,-,-,Outlier
+-,899,-,-,Outlier
 -,910,-,-,Outlier
 -,918,-,-,Outlier
--,933,-,-,Outlier
 -,940,-,-,Outlier
 -,943,-,-,Outlier
 -,957,-,-,Outlier
--,967,-,-,Outlier
+-,968,-,-,Outlier
+-,973,-,-,Outlier
 -,983,-,-,Outlier
+-,995,-,-,Outlier
+-,1002,-,-,Outlier
 -,1052,-,-,Outlier
 -,1055,-,-,Outlier
 -,1058,-,Outlier,-
@@ -166,8 +179,5 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 -,1084,-,Outlier,-
 -,1092,-,Outlier,-
 -,1107,-,-,Outlier
--,1112,-,-,Outlier
--,1117,-,-,Outlier
 -,1123,-,CA Geom Outlier,-
 -,1127,-,-,Outlier
--,1142,-,-,Outlier

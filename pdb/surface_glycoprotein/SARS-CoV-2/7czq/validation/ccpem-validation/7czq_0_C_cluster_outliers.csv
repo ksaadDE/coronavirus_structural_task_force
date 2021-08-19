@@ -5,16 +5,16 @@
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,324,-,-,Outlier
 1,326,side-chain clash,-,-
-1,327,side-chain clash,-,Outlier
+1,327,side-chain clash,-,-
 1,328,side-chain clash,-,-
 1,329,side-chain clash,-,-
 1,330,side-chain clash*backbone clash*Bond length:N:CD,-,-
 1,331,Ramachandran,Outlier,-
-1,332,Rotamer*side-chain clash*backbone clash,Outlier,Outlier
+1,332,Rotamer*side-chain clash*backbone clash,Outlier,-
 1,333,Rotamer,-,-
 1,334,backbone clash*side-chain clash,-,-
-1,335,Rotamer*side-chain clash*backbone clash,-,-
-1,336,Ramachandran,Outlier,Outlier
+1,335,Rotamer*side-chain clash*backbone clash,-,Outlier
+1,336,Ramachandran,Outlier,-
 1,337,Ramachandran*Bond length:N:CD,-,-
 1,339,-,Outlier,-
 1,359,side-chain clash,-,-
@@ -33,7 +33,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,386,side-chain clash,-,-
 1,388,-,Outlier,-
 1,389,Rotamer,-,-
-1,390,Rotamer*side-chain clash*backbone clash,-,Outlier
+1,390,Rotamer*side-chain clash*backbone clash,-,-
 1,391,side-chain clash*backbone clash,-,-
 1,392,side-chain clash*backbone clash,-,-
 1,393,side-chain clash,-,-
@@ -41,13 +41,13 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,518,Rotamer*Ramachandran,Outlier,-
 1,519,backbone clash,-,-
 1,520,side-chain clash*Ramachandran,Outlier,-
-1,521,side-chain clash,Outlier,-
+1,521,side-chain clash,Outlier,Outlier
 1,522,side-chain clash*Ramachandran,CA Geom Outlier,Outlier
-1,523,side-chain clash*backbone clash,-,-
+1,523,side-chain clash*backbone clash,-,Outlier
 1,524,side-chain clash*backbone clash,-,-
 1,525,Rotamer,-,-
 1,527,side-chain clash*Ramachandran,Outlier,-
-1,528,side-chain clash,-,Outlier
+1,528,side-chain clash,-,-
 1,529,Rotamer*side-chain clash,-,-
 1,530,side-chain clash,-,-
 1,531,side-chain clash,-,-
@@ -59,10 +59,9 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,577,Bond angle:C,-,-
 1,578,Bond angle:N:CA,-,-
 1,579,side-chain clash*backbone clash,-,-
-1,580,side-chain clash,-,Outlier
+1,580,side-chain clash,-,-
 1,584,Rotamer,-,-
 1,854,side-chain clash,-,-
-2,104,-,-,Outlier
 2,105,side-chain clash,-,-
 2,117,Rotamer*side-chain clash,-,-
 2,118,side-chain clash,-,-
@@ -76,8 +75,10 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,130,side-chain clash,-,-
 2,136,-,Outlier,-
 2,137,-,-,Outlier
+2,138,-,-,Outlier
 2,140,side-chain clash,-,-
 2,1402,-,-,Outlier
+2,1404,-,-,Outlier
 2,142,side-chain clash,-,-
 2,143,Rotamer*side-chain clash,-,-
 2,154,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
@@ -88,12 +89,11 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,159,-,Outlier,-
 2,195,Rotamer,-,-
 2,196,backbone clash,-,-
-2,197,Rotamer*side-chain clash,-,-
+2,197,Rotamer*side-chain clash,-,Outlier
 2,198,side-chain clash,-,-
 2,200,backbone clash*side-chain clash,-,-
 2,201,-,-,Outlier
 2,228,side-chain clash,-,-
-2,229,-,-,Outlier
 2,231,side-chain clash,Outlier,-
 2,232,-,Outlier,-
 2,233,Rotamer*side-chain clash*backbone clash,-,-
@@ -103,6 +103,7 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,241,side-chain clash,-,-
 2,243,side-chain clash,-,-
 2,244,side-chain clash,-,Outlier
+2,245,-,-,Outlier
 2,246,Dihedral angle:CD:NE:CZ:NH1,-,-
 2,83,side-chain clash,-,-
 2,84,Rotamer*side-chain clash,-,Outlier
@@ -110,97 +111,83 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,86,Rotamer*Bond angle:C,Outlier,-
 2,87,Dihedral angle:CA:C*Bond angle:N:CA,-,-
 2,88,Dihedral angle:N:CA,Outlier,-
-2,90,Rotamer,-,-
-3,314,Rotamer*side-chain clash,-,-
-3,348,side-chain clash,-,-
-3,349,Ramachandran,Outlier,-
-3,352,-,-,Outlier
-3,353,Bond angle:C,-,-
-3,354,side-chain clash*Bond angle:N:CA,-,-
-3,355,Dihedral angle:CD:NE:CZ:NH1,-,-
-3,357,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
-3,377,side-chain clash*backbone clash,-,Outlier
-3,394,side-chain clash,-,-
-3,434,side-chain clash*backbone clash,-,-
-3,451,-,-,Outlier
-3,461,side-chain clash,-,Outlier
-3,468,-,-,Outlier
-3,469,Rotamer,-,-
-3,470,-,-,Outlier
-3,471,-,-,Outlier
-3,472,Rotamer,-,-
-3,473,-,-,Outlier
-3,476,side-chain clash,-,-
-3,477,-,-,Outlier
-3,478,-,-,Outlier
-3,487,side-chain clash,-,-
-3,516,side-chain clash*backbone clash,-,-
-3,605,backbone clash*side-chain clash,-,-
-3,606,backbone clash*side-chain clash,-,-
-3,931,Rotamer*side-chain clash,-,-
-4,187,side-chain clash,-,-
-4,188,side-chain clash,-,-
-4,189,side-chain clash,-,-
-4,190,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
-4,191,Dihedral angle:CB:CG:CD:OE1,-,-
-4,193,side-chain clash,-,-
-4,208,Rotamer,-,-
-4,210,side-chain clash,-,-
-4,212,Rotamer*side-chain clash,-,-
-4,213,-,Outlier,-
-4,214,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
-4,215,Rotamer,-,-
-4,216,Rotamer*side-chain clash,-,-
-4,217,side-chain clash,-,-
-4,221,Rotamer,-,-
-4,223,side-chain clash,-,-
-4,224,Rotamer*Dihedral angle:CB:CG:CD:OE1,-,-
-4,37,side-chain clash,-,Outlier
-4,66,side-chain clash,-,-
-4,95,side-chain clash,Outlier,-
-4,96,side-chain clash*Dihedral angle:CB:CG:CD:OE1,Outlier,Outlier
-4,97,side-chain clash,-,-
-5,290,-,-,Outlier
-5,291,Dihedral angle:CA:C,-,-
-5,292,Dihedral angle:N:CA,Outlier,-
-5,293,-,Outlier,-
-5,297,-,-,Outlier
-5,301,Rotamer,-,-
-5,305,Rotamer,-,-
-5,308,Rotamer,-,-
-5,309,side-chain clash,-,-
-5,310,-,CA Geom Outlier,-
-5,313,side-chain clash,-,-
-5,599,side-chain clash,-,-
-5,600,-,CA Geom Outlier,-
-5,601,side-chain clash,-,-
-5,602,Rotamer,-,-
-6,1043,-,Outlier,-
-6,1048,-,-,Outlier
-6,1049,-,-,Outlier
-6,1060,-,-,Outlier
-6,1062,-,-,Outlier
-6,1063,Rotamer,-,-
-6,1066,-,-,Outlier
-6,725,Dihedral angle:CB:CG:CD:OE1,-,-
-6,727,Rotamer,-,-
-6,901,side-chain clash,-,-
-6,902,-,-,Outlier
-6,905,side-chain clash,-,-
-6,912,side-chain clash,-,-
-6,914,side-chain clash,-,-
-7,277,Rotamer,-,-
-7,278,side-chain clash,-,-
-7,281,-,Outlier,-
-7,282,-,Outlier,-
-7,306,side-chain clash,-,-
-7,46,-,Outlier,-
-7,47,Dihedral angle:CA:C,-,-
-7,48,Dihedral angle:N:CA,-,-
-7,50,Rotamer,-,-
-7,51,Rotamer,-,-
-7,53,side-chain clash,-,Outlier
-7,55,side-chain clash,-,-
+2,90,Rotamer,-,Outlier
+3,100,-,Outlier,-
+3,187,side-chain clash,-,-
+3,188,side-chain clash,-,-
+3,189,side-chain clash,-,-
+3,190,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
+3,191,Dihedral angle:CB:CG:CD:OE1,-,-
+3,193,side-chain clash,-,-
+3,208,Rotamer,-,-
+3,210,side-chain clash,-,-
+3,212,Rotamer*side-chain clash,-,-
+3,213,-,Outlier,-
+3,214,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
+3,215,Rotamer,-,Outlier
+3,216,Rotamer*side-chain clash,-,-
+3,217,side-chain clash,-,-
+3,221,Rotamer,-,Outlier
+3,223,side-chain clash,-,-
+3,224,Rotamer*Dihedral angle:CB:CG:CD:OE1,-,-
+3,37,side-chain clash,-,Outlier
+3,66,side-chain clash,-,-
+3,95,side-chain clash,Outlier,-
+3,96,side-chain clash*Dihedral angle:CB:CG:CD:OE1,Outlier,-
+3,97,side-chain clash,-,Outlier
+3,98,-,-,Outlier
+4,290,-,-,Outlier
+4,291,Dihedral angle:CA:C,-,-
+4,292,Dihedral angle:N:CA,Outlier,-
+4,293,-,Outlier,-
+4,301,Rotamer,-,-
+4,305,Rotamer,-,-
+4,308,Rotamer,-,-
+4,309,side-chain clash,-,-
+4,310,-,CA Geom Outlier,-
+4,313,side-chain clash,-,-
+4,599,side-chain clash,-,-
+4,600,-,CA Geom Outlier,-
+4,601,side-chain clash,-,-
+4,602,Rotamer,-,-
+5,345,-,-,Outlier
+5,346,backbone clash*Dihedral angle:CD:NE:CZ:NH1,-,Outlier
+5,347,backbone clash*side-chain clash,-,-
+5,401,side-chain clash,-,-
+5,402,-,-,Outlier
+5,403,Rotamer*side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,Outlier
+5,406,Rotamer*side-chain clash*backbone clash*Dihedral angle:CB:CG:CD:OE1,-,-
+5,407,-,-,Outlier
+5,408,Dihedral angle:CD:NE:CZ:NH1,-,-
+5,410,-,-,Outlier
+5,418,side-chain clash*backbone clash,-,-
+5,505,side-chain clash,-,-
+5,509,side-chain clash,-,-
+6,277,Rotamer,-,-
+6,278,side-chain clash,-,Outlier
+6,281,-,Outlier,-
+6,282,-,Outlier,-
+6,287,-,-,Outlier
+6,306,side-chain clash,-,-
+6,46,-,Outlier,-
+6,47,Dihedral angle:CA:C,-,-
+6,48,Dihedral angle:N:CA,-,-
+6,50,Rotamer,-,-
+6,51,Rotamer,-,-
+6,53,side-chain clash,-,Outlier
+6,55,side-chain clash,-,-
+7,314,Rotamer*side-chain clash,-,-
+7,377,side-chain clash*backbone clash,-,Outlier
+7,434,side-chain clash*backbone clash,-,-
+7,461,side-chain clash,-,Outlier
+7,476,side-chain clash,-,-
+7,477,-,-,Outlier
+7,478,-,-,Outlier
+7,487,side-chain clash,-,-
+7,516,side-chain clash*backbone clash,-,-
+7,605,backbone clash*side-chain clash,-,-
+7,606,backbone clash*side-chain clash,-,-
+7,931,Rotamer*side-chain clash,-,-
 8,421,Rotamer*side-chain clash*Dihedral angle:CA:C,Outlier,-
 8,422,side-chain clash*Dihedral angle:N:CA,Outlier,-
 8,424,Bond angle:C,-,-
@@ -210,8 +197,8 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 8,459,Rotamer*backbone clash,-,-
 8,460,side-chain clash,-,Outlier
 8,464,-,-,Outlier
-8,770,Rotamer*side-chain clash,-,-
-8,774,side-chain clash,-,Outlier
+8,770,Rotamer*side-chain clash,-,Outlier
+8,774,side-chain clash,-,-
 9,318,Rotamer,-,-
 9,319,Dihedral angle:CD:NE:CZ:NH1,-,-
 9,538,-,-,Outlier
@@ -221,15 +208,15 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 9,589,Bond length:N:CD,-,-
 9,590,Rotamer*side-chain clash,-,Outlier
 9,591,Rotamer*Ramachandran,-,-
-10,968,Rotamer,-,-
-10,975,Rotamer,-,-
-10,976,Rotamer,-,-
-10,977,Rotamer*side-chain clash,-,-
-10,979,-,-,Outlier
-10,980,-,-,Outlier
-10,983,-,Outlier,-
-10,985,side-chain clash,-,-
-10,996,side-chain clash,-,Outlier
+10,348,side-chain clash,-,-
+10,349,Ramachandran,Outlier,-
+10,352,-,-,Outlier
+10,353,Bond angle:C,-,-
+10,354,side-chain clash*Bond angle:N:CA,-,-
+10,355,Dihedral angle:CD:NE:CZ:NH1,-,-
+10,357,side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,-
+10,394,side-chain clash,-,-
+10,451,-,-,Outlier
 11,807,side-chain clash,-,-
 11,809,side-chain clash,Outlier,-
 11,810,Ramachandran,-,-
@@ -238,128 +225,147 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 11,813,side-chain clash*Ramachandran,Outlier,-
 11,814,Rotamer*side-chain clash*Ramachandran,Outlier,-
 11,815,Dihedral angle:CD:NE:CZ:NH1,-,-
-12,111,side-chain clash,-,-
-12,112,side-chain clash,-,-
-12,113,side-chain clash*backbone clash,-,Outlier
-12,114,Rotamer,-,-
-12,132,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
-12,134,side-chain clash,Outlier,Outlier
-12,164,side-chain clash,-,-
-13,346,backbone clash*Dihedral angle:CD:NE:CZ:NH1,-,-
-13,347,backbone clash*side-chain clash,-,-
-13,401,side-chain clash,-,-
-13,509,side-chain clash,-,-
-13,510,-,-,Outlier
-13,511,-,-,Outlier
-14,403,Rotamer*side-chain clash*Dihedral angle:CD:NE:CZ:NH1,-,Outlier
-14,406,Rotamer*side-chain clash*backbone clash*Dihedral angle:CB:CG:CD:OE1,-,-
-14,407,-,-,Outlier
-14,408,Dihedral angle:CD:NE:CZ:NH1,-,-
-14,418,side-chain clash*backbone clash,-,-
-14,505,side-chain clash,-,-
-15,1018,Rotamer,-,-
-15,1022,-,-,Outlier
-15,777,-,-,Outlier
-15,778,Rotamer,-,-
-15,780,-,-,Outlier
-15,781,-,-,Outlier
-16,736,side-chain clash,-,Outlier
-16,856,Rotamer*backbone clash,CA Geom Outlier,-
-16,858,side-chain clash,-,-
-16,859,Rotamer,-,-
-16,861,-,-,Outlier
-17,370,-,-,Outlier
-17,371,-,-,Outlier
-17,372,-,Outlier,-
-17,373,-,-,Outlier
-17,375,Rotamer,-,-
+12,736,side-chain clash,-,Outlier
+12,738,-,-,Outlier
+12,740,side-chain clash,-,-
+12,741,-,-,Outlier
+12,745,-,Outlier,-
+12,856,Rotamer*backbone clash,CA Geom Outlier,-
+12,858,side-chain clash,-,-
+12,859,Rotamer,-,-
+13,968,Rotamer,-,-
+13,975,Rotamer,-,-
+13,976,Rotamer,-,-
+13,977,Rotamer*side-chain clash,-,-
+13,979,-,-,Outlier
+13,983,-,Outlier,-
+13,985,side-chain clash,-,-
+13,996,side-chain clash,-,Outlier
+14,658,Rotamer,-,-
+14,662,side-chain clash,-,-
+14,666,-,Outlier,Outlier
+14,667,-,Outlier,-
+14,671,-,-,Outlier
+14,693,Rotamer,-,-
+14,695,-,-,Outlier
+14,697,Rotamer*side-chain clash,-,-
+15,111,side-chain clash,-,-
+15,112,side-chain clash,-,-
+15,113,side-chain clash*backbone clash,-,Outlier
+15,114,Rotamer,-,-
+15,132,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
+15,134,side-chain clash,Outlier,Outlier
+15,164,side-chain clash,-,-
+16,1060,-,-,Outlier
+16,1063,Rotamer,-,-
+16,725,Dihedral angle:CB:CG:CD:OE1,-,-
+16,727,Rotamer,-,-
+16,912,side-chain clash,-,-
+16,914,side-chain clash,-,-
+17,614,-,-,Outlier
+17,615,backbone clash,-,-
+17,616,backbone clash,-,-
+17,620,Rotamer,-,-
+17,649,-,-,Outlier
 18,791,Rotamer,-,-
 18,792,side-chain clash,-,-
 18,793,side-chain clash,-,-
 18,794,side-chain clash,-,-
 18,795,side-chain clash,-,-
-19,437,backbone clash,-,-
-19,438,Rotamer*side-chain clash*backbone clash,-,-
-19,440,side-chain clash,-,-
-19,441,side-chain clash,-,-
-20,615,backbone clash,-,-
-20,616,backbone clash,-,-
-20,620,Rotamer,-,-
-20,649,-,-,Outlier
+19,773,-,-,Outlier
+19,777,-,-,Outlier
+19,778,Rotamer,-,-
+19,780,-,-,Outlier
+19,781,-,-,Outlier
+20,437,backbone clash,-,-
+20,438,Rotamer*side-chain clash*backbone clash,-,-
+20,440,side-chain clash,-,-
+20,441,side-chain clash,-,-
 21,430,Rotamer,-,-
 21,431,backbone clash,-,-
 21,513,backbone clash,-,-
 21,514,Rotamer,-,-
-22,1126,Rotamer,Outlier,-
-22,1129,Rotamer,-,-
-22,1132,Rotamer,-,-
-23,129,side-chain clash,-,-
-23,131,side-chain clash,-,-
-23,169,side-chain clash,-,-
-24,27,-,-,Outlier
-24,29,Rotamer,-,-
-24,63,Rotamer,-,-
-25,1027,Rotamer,-,Outlier
-25,1028,-,-,Outlier
-25,1031,Dihedral angle:CB:CG:CD:OE1,-,-
-26,784,side-chain clash,-,-
-26,786,side-chain clash,-,-
-26,889,-,-,Outlier
-27,675,Rotamer*side-chain clash*backbone clash,-,-
-27,676,side-chain clash*backbone clash,-,-
-27,690,side-chain clash*backbone clash,-,-
-28,1094,Rotamer,-,-
-28,1104,Rotamer,-,-
-28,1105,-,-,Outlier
-29,340,side-chain clash,-,-
-29,356,side-chain clash,-,Outlier
-30,1072,Dihedral angle:CB:CG:CD:OE1,-,-
-30,713,side-chain clash,-,Outlier
-31,447,backbone clash,-,-
-31,497,backbone clash,-,-
-32,907,Rotamer*side-chain clash,-,-
-32,911,-,-,Outlier
-33,740,side-chain clash,-,-
-33,745,-,Outlier,-
-34,945,side-chain clash,-,-
-34,948,side-chain clash,-,-
-35,821,side-chain clash,-,-
-35,939,side-chain clash,-,-
-36,934,Rotamer,-,-
-36,937,Rotamer,-,-
-37,804,side-chain clash,-,-
-37,935,side-chain clash,-,-
-38,702,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,Outlier
-38,703,side-chain clash,-,-
-39,973,side-chain clash,-,-
-39,992,side-chain clash,-,-
-40,666,-,Outlier,Outlier
-40,667,-,Outlier,-
-41,662,side-chain clash,-,-
-41,697,Rotamer*side-chain clash,-,-
-42,573,Rotamer,-,-
-42,574,-,-,Outlier
-43,870,side-chain clash,-,Outlier
-43,874,side-chain clash,-,Outlier
+22,371,-,-,Outlier
+22,372,-,Outlier,-
+22,373,-,-,Outlier
+22,375,Rotamer,-,-
+23,565,side-chain clash,-,-
+23,566,-,-,Outlier
+23,573,Rotamer,-,-
+23,574,-,-,Outlier
+24,469,Rotamer,-,-
+24,470,-,-,Outlier
+24,471,-,-,Outlier
+24,472,Rotamer,-,-
+25,1072,Dihedral angle:CB:CG:CD:OE1,-,-
+25,713,side-chain clash,-,Outlier
+25,714,-,-,Outlier
+26,1126,Rotamer,Outlier,-
+26,1129,Rotamer,-,-
+26,1132,Rotamer,-,-
+27,129,side-chain clash,-,-
+27,131,side-chain clash,-,-
+27,169,side-chain clash,-,-
+28,27,-,-,Outlier
+28,29,Rotamer,-,-
+28,63,Rotamer,-,-
+29,1027,Rotamer,-,-
+29,1028,-,-,Outlier
+29,1031,Dihedral angle:CB:CG:CD:OE1,-,Outlier
+30,675,Rotamer*side-chain clash*backbone clash,-,-
+30,676,side-chain clash*backbone clash,-,-
+30,690,side-chain clash*backbone clash,-,-
+31,1094,Rotamer,-,-
+31,1104,Rotamer,-,-
+31,1105,-,-,Outlier
+32,340,side-chain clash,-,-
+32,356,side-chain clash,-,Outlier
+33,447,backbone clash,-,-
+33,497,backbone clash,-,-
+34,901,side-chain clash,-,-
+34,905,side-chain clash,-,-
+35,907,Rotamer*side-chain clash,-,-
+35,911,-,-,Outlier
+36,945,side-chain clash,-,-
+36,948,side-chain clash,-,-
+37,821,side-chain clash,-,-
+37,939,side-chain clash,-,-
+38,934,Rotamer,-,-
+38,937,Rotamer,-,-
+39,804,side-chain clash,-,-
+39,935,side-chain clash,-,-
+40,702,side-chain clash*Dihedral angle:CB:CG:CD:OE1,-,-
+40,703,side-chain clash,-,-
+41,67,-,-,Outlier
+41,81,-,-,Outlier
+42,973,side-chain clash,-,-
+42,992,side-chain clash,-,-
+43,1043,-,Outlier,-
+43,1048,-,-,Outlier
+44,922,Rotamer,-,-
+44,923,-,-,Outlier
+45,784,side-chain clash,-,-
+45,786,side-chain clash,-,-
+46,877,-,-,Outlier
+46,878,Rotamer,-,-
+47,870,side-chain clash,-,Outlier
+47,874,side-chain clash,-,-
 -,33,-,Outlier,-
 -,42,side-chain clash,-,-
 -,60,Rotamer,-,-
--,81,-,-,Outlier
--,100,-,Outlier,-
--,167,-,Outlier,Outlier
+-,167,-,Outlier,-
 -,172,Rotamer,-,-
 -,271,Rotamer,-,-
 -,413,-,Outlier,-
 -,484,-,CA Geom Outlier,Outlier
 -,500,Rotamer*side-chain clash,-,Outlier
+-,503,-,-,Outlier
+-,511,-,-,Outlier
 -,546,Rotamer*side-chain clash,-,-
 -,559,-,Outlier,-
--,565,side-chain clash,-,Outlier
 -,569,side-chain clash,-,-
 -,570,side-chain clash,Outlier,-
--,641,-,-,Outlier
--,658,Rotamer,-,-
--,693,Rotamer,-,-
+-,610,-,-,Outlier
 -,699,Rotamer,Outlier,-
 -,709,-,Outlier,-
 -,749,-,-,Outlier
@@ -368,18 +374,17 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 -,787,Rotamer,-,-
 -,797,-,Outlier,Outlier
 -,867,-,-,Outlier
--,878,Rotamer,-,-
 -,894,side-chain clash,-,-
--,922,Rotamer,-,-
 -,929,Rotamer,-,-
 -,950,-,-,Outlier
 -,995,side-chain clash,-,-
--,1040,-,-,Outlier
+-,1018,Rotamer,-,-
 -,1045,-,Outlier,-
--,1077,Rotamer,-,-
--,1092,Rotamer,Outlier,Outlier
+-,1077,Rotamer,-,Outlier
+-,1092,Rotamer,Outlier,-
 -,1136,Rotamer,-,-
 -,1145,Rotamer,-,-
--,1405,Bond angle:C2:N2:C7,-,-
+-,1403,-,-,Outlier
+-,1405,Bond angle:C2:N2:C7,-,Outlier
 -,1406,-,-,Outlier
 -,1408,-,-,Outlier

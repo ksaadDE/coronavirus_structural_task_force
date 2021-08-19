@@ -17,3 +17,11 @@ Atomic B-factor distribution
 -Cis-general: 0.00 [expected: 0%] 
 ---------------------------
 
+*REFMAC5* model-map FSCavg
+==========================
+>emd_22296_0:6xrz_0
+-FSCavg: 0.4568
+>emd_22296_0:6xrz_0
+-FSCavg: 0.2621
+--------------------------
+

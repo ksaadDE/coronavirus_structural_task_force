@@ -8,9 +8,7 @@
 ##### new structures by protein #####
 3c_like_proteinase
 >7m2p 
-not_assigned
->7f4w 7eu2 
 nsp7-nsp8-rna_polymerase
 >7oyg 
 surface_glycoprotein
->7fdk 7fdg 7fdh 7fdi 
+>7fdk 7fdg 7fdh 7fdi 7f4w 7eu2 

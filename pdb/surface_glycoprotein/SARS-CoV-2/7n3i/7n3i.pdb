@@ -43,6 +43,7 @@ KEYWDS   2 NEUTRALIZING ANTIBODIES, IMMUNE SYSTEM, IMMUNE SYSTEM-VIRAL PROTEIN
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.I.FLYAK,P.J.BJORKMAN,C.O.BARNES                                     
+REVDAT   3   25-AUG-21 7N3I    1       JRNL                                     
 REVDAT   2   11-AUG-21 7N3I    1       JRNL                                     
 REVDAT   1   04-AUG-21 7N3I    0                                                
 JRNL        AUTH   F.MUECKSCH,Y.WEISBLUM,C.O.BARNES,F.SCHMIDT,                  
@@ -54,7 +55,7 @@ JRNL        AUTH 6 M.C.NUSSENZWEIG,P.J.BJORKMAN,T.HATZIIOANNOU,P.D.BIENIASZ
 JRNL        TITL   AFFINITY MATURATION OF SARS-COV-2 NEUTRALIZING ANTIBODIES    
 JRNL        TITL 2 CONFERS POTENCY, BREADTH, AND RESILIENCE TO VIRAL ESCAPE     
 JRNL        TITL 3 MUTATIONS.                                                   
-JRNL        REF    IMMUNITY                                   2021              
+JRNL        REF    IMMUNITY                      V.  54  1853 2021              
 JRNL        REFN                   ISSN 1074-7613                               
 JRNL        PMID   34331873                                                     
 JRNL        DOI    10.1016/J.IMMUNI.2021.07.008                                 

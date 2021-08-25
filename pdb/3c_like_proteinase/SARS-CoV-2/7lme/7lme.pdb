@@ -19,6 +19,7 @@ KEYWDS    3CLPRO, SARS-COV-2 MAIN PROTEASE, SARS-COV-2 3CLPRO, INHIBITOR
 KEYWDS   2 COMPLEX, PROTEASE, VIRAL PROTEIN, HYDROLASE-INHIBITOR COMPLEX        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.M.GOINS,T.ARYA,J.D.MACDONALD,S.R.STAUFFER                           
+REVDAT   2   25-AUG-21 7LME    1       JRNL                                     
 REVDAT   1   11-AUG-21 7LME    0                                                
 JRNL        AUTH   S.H.HAN,C.M.GOINS,T.ARYA,W.J.SHIN,J.MAW,A.HOOPER,            
 JRNL        AUTH 2 D.P.SONAWANE,M.R.PORTER,B.E.BANNISTER,R.D.CROUCH,            
@@ -26,9 +27,10 @@ JRNL        AUTH 3 A.A.LINDSEY,G.LAKATOS,S.R.MARTINEZ,J.ALVARADO,W.S.AKERS,
 JRNL        AUTH 4 N.S.WANG,J.U.JUNG,J.D.MACDONALD,S.R.STAUFFER                 
 JRNL        TITL   STRUCTURE-BASED OPTIMIZATION OF ML300-DERIVED, NONCOVALENT   
 JRNL        TITL 2 INHIBITORS TARGETING THE SEVERE ACUTE RESPIRATORY SYNDROME   
-JRNL        TITL 3 CORONAVIRUS 3CL PROTEASE (SARS-COV-2 3CLPRO)                 
-JRNL        REF    JOURNAL OF MEDICINAL                       2021              
-JRNL        REF  2 CHEMISTRY                                                    
+JRNL        TITL 3 CORONAVIRUS 3CL PROTEASE (SARS-COV-2 3CL PRO ).              
+JRNL        REF    J.MED.CHEM.                                2021              
+JRNL        REFN                   ISSN 0022-2623                               
+JRNL        PMID   34347470                                                     
 JRNL        DOI    10.1021/ACS.JMEDCHEM.1C00598                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       

@@ -63,10 +63,10 @@ _citation.pdbx_database_id_DOI
 _citation.pdbx_database_id_PubMed 
 _citation.pdbx_database_id_patent 
 _citation.unpublished_flag 
-? ? ? ? ? ? ? US ? ? primary Immunity IUNIEH 2048 1074-7613 ? ? ? ? ? ? 
+? ? ? ? ? ? ? US ? ? primary Immunity IUNIEH 2048 1074-7613 ? ? 54 ? 1853 1868.e7 
 'Affinity maturation of SARS-CoV-2 neutralizing antibodies confers potency, breadth, and resilience to viral escape mutations.' 
 2021 ? 10.1016/j.immuni.2021.07.008 34331873 ? ? 
-? ? ? ? ? ? ? US ? ? 1       Biorxiv  ?      ?    ?         ? ? ? ? ? ? 
+? ? ? ? ? ? ? US ? ? 1       Biorxiv  ?      ?    ?         ? ? ?  ? ?    ?       
 'Development of potency, breadth and resilience to viral escape mutations in SARS-CoV-2 neutralizing antibodies.'               
 2021 ? 10.1101/2021.03.07.434227    33758864 ? ? 
 # 
@@ -20279,6 +20279,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-08-04 
 2 'Structure model' 1 1 2021-08-11 
+3 'Structure model' 1 2 2021-08-25 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -20288,10 +20289,13 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
-_pdbx_audit_revision_group.ordinal             1 
-_pdbx_audit_revision_group.revision_ordinal    2 
-_pdbx_audit_revision_group.data_content_type   'Structure model' 
-_pdbx_audit_revision_group.group               'Database references' 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references' 
+2 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -20301,6 +20305,7 @@ _pdbx_audit_revision_category.category
 1 2 'Structure model' citation        
 2 2 'Structure model' citation_author 
 3 2 'Structure model' database_2      
+4 3 'Structure model' citation        
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -20312,6 +20317,9 @@ _pdbx_audit_revision_item.item
 3 2 'Structure model' '_citation_author.name'               
 4 2 'Structure model' '_database_2.pdbx_DOI'                
 5 2 'Structure model' '_database_2.pdbx_database_accession' 
+6 3 'Structure model' '_citation.journal_volume'            
+7 3 'Structure model' '_citation.page_first'                
+8 3 'Structure model' '_citation.page_last'                 
 # 
 _pdbx_refine_tls.id               1 
 _pdbx_refine_tls.pdbx_refine_id   'X-RAY DIFFRACTION' 

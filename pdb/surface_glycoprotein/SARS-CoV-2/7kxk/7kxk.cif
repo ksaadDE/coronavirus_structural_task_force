@@ -66,7 +66,7 @@ _citation.journal_id_CSD            0070
 _citation.journal_id_ISSN           1089-8638 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            433 
 _citation.language                  ? 
 _citation.page_first                167177 
 _citation.page_last                 167177 
@@ -43589,6 +43589,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-02-03 
 2 'Structure model' 1 1 2021-08-18 
+3 'Structure model' 1 2 2021-08-25 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -43598,10 +43599,13 @@ _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
 # 
-_pdbx_audit_revision_group.ordinal             1 
-_pdbx_audit_revision_group.revision_ordinal    2 
-_pdbx_audit_revision_group.data_content_type   'Structure model' 
-_pdbx_audit_revision_group.group               'Database references' 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references' 
+2 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -43611,6 +43615,7 @@ _pdbx_audit_revision_category.category
 1 2 'Structure model' citation        
 2 2 'Structure model' citation_author 
 3 2 'Structure model' database_2      
+4 3 'Structure model' citation        
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -43630,6 +43635,7 @@ _pdbx_audit_revision_item.item
 11 2 'Structure model' '_citation.year'                      
 12 2 'Structure model' '_database_2.pdbx_DOI'                
 13 2 'Structure model' '_database_2.pdbx_database_accession' 
+14 3 'Structure model' '_citation.journal_volume'            
 # 
 _pdbx_entry_details.entry_id                 7KXK 
 _pdbx_entry_details.nonpolymer_details       ? 

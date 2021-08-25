@@ -19,12 +19,14 @@ KEYWDS    FUSION PEPTIDE, LIPID BINDING PROTEIN
 EXPDTA    SOLUTION NMR                                                          
 NUMMDL    15                                                                    
 AUTHOR    R.K.KOPPISETTI,Y.G.FULCHER,S.R.VAN DOREN                              
+REVDAT   2   25-AUG-21 7MY8    1       JRNL                                     
 REVDAT   1   18-AUG-21 7MY8    0                                                
 JRNL        AUTH   R.K.KOPPISETTI,Y.G.FULCHER,S.R.VAN DOREN                     
 JRNL        TITL   FUSION PEPTIDE OF SARS-COV-2 SPIKE REARRANGES INTO A WEDGE   
-JRNL        TITL 2 INSERTED IN BILAYERED MICELLES                               
+JRNL        TITL 2 INSERTED IN BILAYERED MICELLES.                              
 JRNL        REF    J.AM.CHEM.SOC.                             2021              
 JRNL        REFN                   ESSN 1520-5126                               
+JRNL        PMID   34375093                                                     
 JRNL        DOI    10.1021/JACS.1C05435                                         
 REMARK   2                                                                      
 REMARK   2 RESOLUTION. NOT APPLICABLE.                                          

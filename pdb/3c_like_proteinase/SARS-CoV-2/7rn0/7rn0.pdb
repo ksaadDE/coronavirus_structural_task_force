@@ -20,6 +20,7 @@ KEYWDS    MPRO, INHIBITOR, MAIN PROTEASE, 3CL, SARS, SARS-COV-2, COVID, COVID-
 KEYWDS   2 19, VIRAL PROTEIN, HYDROLASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.SACCO,Y.CHEN                                                        
+REVDAT   2   25-AUG-21 7RN0    1       REMARK                                   
 REVDAT   1   11-AUG-21 7RN0    0                                                
 JRNL        AUTH   M.SACCO                                                      
 JRNL        TITL   CRYSTAL STRUCTURE OF THE SARS-COV-2 (COVID-19) MAIN PROTEASE 
@@ -255,11 +256,19 @@ REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: DIMERIC                    
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 TOTAL BURIED SURFACE AREA: 3540 ANGSTROM**2                          
+REMARK 350 SURFACE AREA OF THE COMPLEX: 25310 ANGSTROM**2                       
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -14.0 KCAL/MOL                        
 REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350   BIOMT1   2 -1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   2  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   2  0.000000  0.000000 -1.000000        0.00000            
 REMARK 465                                                                      
 REMARK 465 MISSING RESIDUES                                                     
 REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
@@ -2819,5 +2828,5 @@ CONECT 2378 2377 2379
 CONECT 2379 2357 2378                                                           
 CONECT 2380 2355                                                                
 CONECT 2381 1129 2360                                                           
-MASTER      275    0    3   11   15    0    0    6 2392    1   46   24          
+MASTER      283    0    3   11   15    0    0    6 2392    1   46   24          
 END                                                                             

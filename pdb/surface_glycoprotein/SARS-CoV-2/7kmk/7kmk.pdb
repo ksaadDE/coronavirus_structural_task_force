@@ -35,6 +35,7 @@ SOURCE  18 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, SPIKE, FAB, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX           
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    Z.LI,J.M.RINI                                                         
+REVDAT   3   25-AUG-21 7KMK    1       JRNL                                     
 REVDAT   2   18-AUG-21 7KMK    1       JRNL                                     
 REVDAT   1   10-FEB-21 7KMK    0                                                
 JRNL        AUTH   S.MIERSCH,Z.LI,R.SABERIANFAR,M.USTAV,J.BRETT CASE,L.BLAZER,  
@@ -45,7 +46,7 @@ JRNL        AUTH 5 M.R.CAPOBIANCHI,S.JAIN,J.B.GUPTA,G.K.AMARASINGHE,
 JRNL        AUTH 6 M.S.DIAMOND,J.RINI,S.S.SIDHU                                 
 JRNL        TITL   TETRAVALENT SARS-COV-2 NEUTRALIZING ANTIBODIES SHOW ENHANCED 
 JRNL        TITL 2 POTENCY AND RESISTANCE TO ESCAPE MUTATIONS.                  
-JRNL        REF    J.MOL.BIOL.                          67177 2021              
+JRNL        REF    J.MOL.BIOL.                   V. 433 67177 2021              
 JRNL        REFN                   ESSN 1089-8638                               
 JRNL        PMID   34329642                                                     
 JRNL        DOI    10.1016/J.JMB.2021.167177                                    

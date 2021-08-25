@@ -8,10 +8,12 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,7,Rotamer*Bond angle:N:CA*Bond angle:CA:CB:CG*Dihedral angle:N:CA,Outlier,Outlier
 1,8,-,Outlier,-
 1,9,Bond angle:C,-,-
+2,31,-,-,Outlier
+2,36,-,Outlier,-
 -,14,-,CA Geom Outlier,-
 -,17,-,Outlier,-
 -,23,Rotamer,-,-
--,36,-,Outlier,-
+-,41,-,-,Outlier
 -,49,Dihedral angle:CA:CB:CG:OD1,-,-
 -,52,-,-,Outlier
 -,56,-,-,Outlier

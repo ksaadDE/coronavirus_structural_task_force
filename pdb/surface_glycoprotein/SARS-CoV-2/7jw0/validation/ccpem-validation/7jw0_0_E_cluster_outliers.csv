@@ -4,137 +4,140 @@
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,108,-,Outlier,-
-1,110,-,-,Outlier
-1,111,-,Outlier,-
-1,113,-,Outlier,-
 1,1303,Bond angle:C8:C7:N2,-,-
-1,133,-,-,Outlier
-1,140,-,-,Outlier
-1,15,-,-,Outlier
-1,159,-,Outlier,-
-1,16,-,-,Outlier
-1,160,-,-,Outlier
-1,161,-,Outlier,-
-1,162,-,Outlier,-
 1,200,-,-,Outlier
 1,232,Ramachandran,-,-
 1,233,Bond angle:C,-,-
 1,234,Bond angle:N:CA,-,-
-2,381,-,Outlier,-
-2,431,-,-,Outlier
-2,432,-,-,Outlier
-2,515,-,-,Outlier
-3,1078,-,-,Outlier
-3,1079,-,-,Outlier
-3,1309,Bond angle:C8:C7:N2,-,-
-4,219,-,-,Outlier
-4,220,-,CA Geom Outlier,-
-4,34,-,CA Geom Outlier,-
-5,283,side-chain clash,-,-
-5,44,side-chain clash,-,-
-5,45,-,-,Outlier
-6,265,side-chain clash,-,-
-6,66,-,-,Outlier
-6,81,side-chain clash,-,-
-7,291,-,-,Outlier
-7,293,-,CA Geom Outlier,-
-7,301,-,-,Outlier
-8,86,-,Outlier,Outlier
-8,87,-,Outlier,-
-8,88,-,Outlier,-
-9,641,-,-,Outlier
-9,643,-,-,Outlier
-9,649,-,-,Outlier
-10,665,-,-,Outlier
-10,666,-,Outlier,-
-11,699,-,Outlier,Outlier
-11,700,-,-,Outlier
-12,939,C-beta*Bond angle:N:CA:C*Bond angle:C:CA:CB,-,-
-12,940,C-beta*Bond angle:N:CA:CB,-,-
-13,350,-,-,Outlier
-13,400,-,-,Outlier
-14,1312,Bond angle:C8:C7:N2,-,-
-14,165,Bond angle:CA:CB:CG,-,-
-15,1067,-,-,Outlier
-15,720,-,-,Outlier
-16,360,-,-,Outlier
-16,361,-,-,Outlier
-17,538,-,-,Outlier
-17,590,-,-,Outlier
-18,1126,-,-,Outlier
-18,1129,-,-,Outlier
-19,528,-,-,Outlier
-19,529,-,-,Outlier
-20,580,-,-,Outlier
-20,581,-,-,Outlier
-21,101,-,-,Outlier
-21,99,-,-,Outlier
-22,782,-,-,Outlier
-22,784,-,-,Outlier
-23,1000,-,-,Outlier
-23,1001,-,-,Outlier
-24,737,-,-,Outlier
-24,738,-,-,Outlier
-25,879,-,-,Outlier
-25,883,-,-,Outlier
-26,746,-,-,Outlier
-26,749,-,-,Outlier
+2,111,-,Outlier,-
+2,113,-,Outlier,-
+2,133,-,-,Outlier
+2,161,-,Outlier,-
+2,162,-,Outlier,-
+3,1073,-,-,Outlier
+3,1109,-,Outlier,-
+3,1311,-,-,Outlier
+3,713,-,-,Outlier
+3,714,-,-,Outlier
+4,1022,-,-,Outlier
+4,1058,-,CA Geom Outlier,-
+4,1060,-,-,Outlier
+4,729,-,-,Outlier
+5,864,-,-,Outlier
+5,865,-,-,Outlier
+5,866,-,-,Outlier
+5,868,-,-,Outlier
+6,85,-,-,Outlier
+6,86,-,Outlier,Outlier
+6,87,-,Outlier,-
+6,88,-,Outlier,-
+7,380,-,-,Outlier
+7,381,-,Outlier,-
+7,431,-,-,Outlier
+7,432,-,-,Outlier
+8,972,-,-,Outlier
+8,973,-,-,Outlier
+8,974,-,-,Outlier
+8,975,-,-,Outlier
+9,1078,-,-,Outlier
+9,1079,-,-,Outlier
+9,1309,Bond angle:C8:C7:N2,-,-
+10,219,-,-,Outlier
+10,220,-,CA Geom Outlier,Outlier
+10,34,-,CA Geom Outlier,-
+11,265,side-chain clash,-,-
+11,66,-,-,Outlier
+11,81,side-chain clash,-,-
+12,291,-,-,Outlier
+12,293,-,CA Geom Outlier,-
+12,301,-,-,Outlier
+13,538,-,-,Outlier
+13,589,-,-,Outlier
+13,590,-,-,Outlier
+14,481,-,-,Outlier
+14,482,-,-,Outlier
+14,483,-,-,Outlier
+15,665,-,-,Outlier
+15,666,-,Outlier,Outlier
+16,499,-,-,Outlier
+16,500,-,-,Outlier
+17,939,C-beta*Bond angle:N:CA:C*Bond angle:C:CA:CB,-,-
+17,940,C-beta*Bond angle:N:CA:CB,-,-
+18,283,side-chain clash,-,-
+18,44,side-chain clash,-,-
+19,738,-,-,Outlier
+19,760,-,-,Outlier
+20,1312,Bond angle:C8:C7:N2,-,-
+20,165,Bond angle:CA:CB:CG,-,-
+21,390,-,-,Outlier
+21,391,-,-,Outlier
+22,1012,-,-,Outlier
+22,1015,-,-,Outlier
+23,528,-,-,Outlier
+23,529,-,-,Outlier
+24,580,-,-,Outlier
+24,581,-,-,Outlier
+25,746,-,-,Outlier
+25,749,-,-,Outlier
+26,140,-,-,Outlier
+26,159,-,Outlier,-
+-,16,-,-,Outlier
 -,22,-,-,Outlier
 -,27,-,-,Outlier
--,49,-,-,Outlier
+-,40,-,-,Outlier
 -,55,Bond angle:CA:CB:CG,-,-
 -,95,-,-,Outlier
+-,99,-,-,Outlier
 -,155,-,Outlier,-
 -,168,-,-,Outlier
 -,191,-,-,Outlier
 -,194,-,-,Outlier
 -,213,-,-,Outlier
 -,267,-,-,Outlier
--,288,-,-,Outlier
 -,295,-,-,Outlier
 -,310,-,CA Geom Outlier,Outlier
+-,324,-,-,Outlier
+-,400,-,-,Outlier
 -,408,-,-,Outlier
 -,425,-,-,Outlier
 -,457,-,-,Outlier
 -,466,-,-,Outlier
--,469,-,-,Outlier
 -,475,-,-,Outlier
 -,477,-,-,Outlier
--,482,-,-,Outlier
 -,486,-,CA Geom Outlier,-
 -,490,-,-,Outlier
--,499,-,-,Outlier
--,532,-,-,Outlier
+-,545,-,-,Outlier
+-,558,-,-,Outlier
 -,562,-,-,Outlier
+-,570,-,-,Outlier
 -,593,-,-,Outlier
--,603,-,-,Outlier
 -,620,-,-,Outlier
--,659,-,-,Outlier
+-,641,-,-,Outlier
+-,658,-,-,Outlier
 -,669,-,-,Outlier
+-,674,-,-,Outlier
+-,699,-,Outlier,-
 -,707,-,-,Outlier
+-,720,-,-,Outlier
 -,733,-,-,Outlier
 -,797,-,Outlier,-
 -,811,-,-,Outlier
--,823,-,-,Outlier
 -,856,-,-,Outlier
--,865,-,-,Outlier
+-,883,-,-,Outlier
 -,894,-,-,Outlier
 -,913,-,-,Outlier
--,985,-,-,Outlier
--,1012,-,-,Outlier
+-,1000,-,-,Outlier
 -,1034,-,Outlier,-
 -,1043,-,Outlier,-
--,1058,-,CA Geom Outlier,-
--,1060,-,-,Outlier
+-,1050,-,-,Outlier
+-,1052,-,-,Outlier
 -,1070,-,Outlier,-
--,1073,-,-,Outlier
 -,1084,-,Outlier,-
 -,1092,-,Outlier,Outlier
--,1109,-,Outlier,-
 -,1124,-,-,Outlier
+-,1126,-,-,Outlier
 -,1301,Bond angle:C8:C7:N2,-,-
 -,1304,Bond angle:C8:C7:N2,-,Outlier
 -,1306,Bond angle:C8:C7:N2,-,Outlier
 -,1307,Bond angle:C8:C7:N2,-,-
 -,1308,Bond angle:C8:C7:N2,-,Outlier
--,1311,-,-,Outlier

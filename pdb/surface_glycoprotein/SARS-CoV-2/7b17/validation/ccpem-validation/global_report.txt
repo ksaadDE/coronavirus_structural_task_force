@@ -4,12 +4,6 @@ Atomic B-factor distribution
 -Warning, multiple peaks detected!
 ----------------------------
 
-*REFMAC5* model-map FSCavg
-==========================
->emd_11980:7b17_0
--FSCavg: 0.0069
---------------------------
-
 *Molprobity* model geometry
 ===========================
 >7b17_0
@@ -22,6 +16,14 @@ Atomic B-factor distribution
 -Cis-proline: 0.00 [expected: 0%] 
 -Cis-general: 0.00 [expected: 0%] 
 ---------------------------
+
+*REFMAC5* model-map FSCavg
+==========================
+>emd_11980_0:7b17_0
+-FSCavg: 0.0375
+>emd_11980_0:7b17_0
+-FSCavg: 0.0129
+--------------------------
 
 *CaBLAM* (backbone geometry)
 ============================

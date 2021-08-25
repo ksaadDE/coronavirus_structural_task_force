@@ -10,23 +10,24 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 2,155,-,-,Outlier
 2,157,-,-,Outlier
 2,191,-,-,Outlier
-3,87,side-chain clash,-,-
-3,88,-,-,Outlier
+3,165,-,-,Outlier
+3,166,side-chain clash,-,-
 4,111,Dihedral angle:CD:NE:CZ:NH1,-,Outlier
 4,112,-,-,Outlier
-5,128,-,-,Outlier
-5,129,-,-,Outlier
-6,165,-,-,Outlier
-6,166,side-chain clash,-,-
-7,96,side-chain clash,-,-
-7,97,side-chain clash,-,-
--,79,-,-,Outlier
--,94,side-chain clash,-,-
+5,119,-,-,Outlier
+5,122,-,-,Outlier
+6,78,-,-,Outlier
+6,79,-,-,Outlier
+7,128,-,-,Outlier
+7,129,-,-,Outlier
+8,90,-,-,Outlier
+8,94,side-chain clash,-,-
+9,96,side-chain clash,-,-
+9,97,side-chain clash,-,-
+-,87,side-chain clash,-,-
 -,95,side-chain clash,-,-
--,98,side-chain clash,-,-
--,101,-,-,Outlier
+-,98,side-chain clash,-,Outlier
 -,106,-,-,Outlier
--,119,-,-,Outlier
 -,171,-,-,Outlier
 -,174,-,-,Outlier
 -,182,-,CA Geom Outlier,-

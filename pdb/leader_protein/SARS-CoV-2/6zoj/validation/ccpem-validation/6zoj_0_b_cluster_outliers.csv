@@ -10,7 +10,6 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 -,17,Rotamer*Dihedral angle:CD:NE:CZ:NH1,-,-
 -,27,-,-,Outlier
 -,40,Rotamer,-,-
--,51,-,-,Outlier
 -,69,-,Outlier,-
 -,72,-,-,Outlier
 -,80,-,-,Outlier

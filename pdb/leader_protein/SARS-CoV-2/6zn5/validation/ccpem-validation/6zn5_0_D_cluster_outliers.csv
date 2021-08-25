@@ -3,56 +3,54 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,133,Bond angle:C,-,-
-1,134,Bond angle:N:CA,Outlier,-
-1,135,Dihedral angle:CA:C,-,-
-1,136,Dihedral angle:N:CA,-,-
-1,137,Rotamer,-,-
-1,179,-,-,Outlier
-1,214,-,-,Outlier
-1,215,-,-,Outlier
-1,220,Dihedral angle:CA:CB:CG:OD1,-,-
-2,273,-,-,Outlier
-2,66,-,-,Outlier
-2,69,side-chain clash,-,-
-2,70,-,-,Outlier
-2,75,-,-,Outlier
-3,121,side-chain clash,-,-
-3,123,side-chain clash,-,-
-3,144,backbone clash,-,-
-3,145,backbone clash,-,-
-4,276,side-chain clash,-,-
-4,39,backbone clash,-,-
-4,68,side-chain clash,-,-
-5,112,-,-,Outlier
-5,125,side-chain clash,-,-
-5,143,side-chain clash,-,-
-6,166,side-chain clash,-,-
-6,247,side-chain clash,-,-
-6,248,Rotamer,Outlier,-
-7,154,-,-,Outlier
-7,158,-,-,Outlier
+1,121,side-chain clash,-,-
+1,123,side-chain clash,-,-
+1,144,backbone clash,-,-
+1,145,backbone clash,-,-
+1,150,-,-,Outlier
+1,154,-,-,Outlier
+1,158,-,-,Outlier
+2,133,Bond angle:C,-,-
+2,134,Bond angle:N:CA,Outlier,-
+2,135,Dihedral angle:CA:C,-,-
+2,136,Dihedral angle:N:CA,-,-
+2,137,Rotamer,-,-
+3,60,side-chain clash,-,-
+3,90,-,-,Outlier
+3,92,side-chain clash,-,-
+4,273,-,-,Outlier
+4,69,side-chain clash,-,-
+4,70,-,-,Outlier
+5,276,side-chain clash,-,-
+5,39,backbone clash,-,-
+5,68,side-chain clash,-,-
+6,112,-,-,Outlier
+6,125,side-chain clash,-,-
+6,143,side-chain clash,-,-
+7,166,side-chain clash,-,-
+7,247,side-chain clash,-,-
+7,248,Rotamer,Outlier,-
 8,196,side-chain clash,-,-
 8,223,side-chain clash,-,-
-9,60,side-chain clash,-,-
-9,92,side-chain clash,-,-
+9,185,-,-,Outlier
+9,192,side-chain clash,-,-
 10,115,backbone clash,-,Outlier
 10,119,backbone clash,-,-
 11,182,-,Outlier,-
 11,260,Rotamer*side-chain clash,-,-
-12,188,-,Outlier,-
-12,189,-,Outlier,-
-13,98,-,Outlier,-
-13,99,-,Outlier,-
-14,15,backbone clash,-,-
-14,31,backbone clash,-,-
+12,179,-,-,Outlier
+12,220,Dihedral angle:CA:CB:CG:OD1,-,-
+13,188,-,Outlier,-
+13,189,-,Outlier,-
+14,98,-,Outlier,-
+14,99,-,Outlier,-
+15,15,backbone clash,-,-
+15,31,backbone clash,-,-
 -,71,side-chain clash,-,-
--,88,-,-,Outlier
 -,104,side-chain clash,-,-
 -,171,-,Outlier,-
 -,190,side-chain clash,Outlier,Outlier
--,192,side-chain clash,-,-
 -,205,-,-,Outlier
 -,207,side-chain clash,-,-
--,221,side-chain clash,-,Outlier
+-,221,side-chain clash,-,-
 -,252,side-chain clash,-,-

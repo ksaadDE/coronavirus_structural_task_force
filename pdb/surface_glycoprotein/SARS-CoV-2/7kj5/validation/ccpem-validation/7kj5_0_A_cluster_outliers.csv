@@ -3,111 +3,105 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,1301,-,-,Outlier
-1,214,Bond angle:N:CA:C,CA Geom Outlier,-
-1,215,-,Outlier,-
-1,217,Bond angle:N:CA:CB,-,-
-1,218,Bond angle:OE1:CD:NE2,-,-
-1,219,-,-,Outlier
-1,220,Dihedral angle:CA:C,CA Geom Outlier,-
-1,221,Dihedral angle:N:CA,-,-
-1,266,side-chain clash,-,-
-1,31,Dihedral angle:CA:C,-,-
-1,32,Dihedral angle:N:CA,-,-
-1,61,Bond angle:C:CA:CB,-,-
-1,64,side-chain clash,-,-
-2,130,C-beta,-,-
-2,131,Rotamer,-,-
-2,133,Bond angle:CA:CB:CG,-,-
-2,134,Bond angle:OE1:CD:NE2,-,-
-2,166,-,-,Outlier
-2,200,side-chain clash*backbone clash,-,-
-2,228,-,-,Outlier
-2,229,-,-,Outlier
-2,230,side-chain clash*backbone clash*Dihedral angle:CA:C,Outlier,-
-2,231,Dihedral angle:N:CA,-,-
-2,233,-,-,Outlier
-2,284,Rotamer*side-chain clash,Outlier,-
-2,286,side-chain clash,-,-
-3,1304,Bond angle:C2:C1:O5*Bond length:C6:O6*Bond length:C5:O5,-,Outlier
-3,562,-,-,Outlier
-3,563,Bond angle:OE1:CD:NE2,-,-
-3,564,Bond angle:OE1:CD:NE2,-,-
-3,565,-,-,Outlier
-3,576,Dihedral angle:CA:C,-,-
-3,577,Dihedral angle:N:CA,-,-
-3,578,Bond angle:CA:CB:CG,-,-
-3,582,-,-,Outlier
-3,583,-,-,Outlier
-4,121,backbone clash,-,-
-4,122,side-chain clash,-,-
-4,123,Ramachandran,Outlier,-
-4,125,backbone clash*side-chain clash,-,-
-4,1302,-,-,Outlier
-4,172,backbone clash*side-chain clash,-,-
-4,391,side-chain clash*backbone clash,-,-
-4,525,Rotamer*side-chain clash,-,-
-4,544,backbone clash*side-chain clash,Outlier,-
-5,356,-,-,Outlier
-5,357,side-chain clash,-,-
-5,393,Dihedral angle:CA:C,-,-
-5,394,Dihedral angle:CA:C*Dihedral angle:N:CA,-,Outlier
-5,395,Dihedral angle:N:CA,-,-
-5,396,side-chain clash,-,-
-5,516,-,-,Outlier
-5,520,side-chain clash,CA Geom Outlier,-
-5,521,side-chain clash,-,-
-6,1041,-,Outlier,-
-6,1042,-,-,Outlier
-6,1043,-,Outlier,-
-6,1045,-,-,Outlier
-6,1050,-,-,Outlier
-6,1062,Dihedral angle:CA:C,-,-
-6,1063,Dihedral angle:N:CA,-,-
-6,1064,Bond angle:CB:CG:CD2,-,-
-7,736,Dihedral angle:CA:C,-,-
-7,737,Dihedral angle:N:CA,-,-
-7,738,side-chain clash,-,-
-7,758,-,Outlier,-
-7,759,-,-,Outlier
-7,760,side-chain clash,-,Outlier
-7,764,Bond angle:OD1:CG:ND2,-,-
-8,344,-,Outlier,-
-8,346,-,-,Outlier
-8,348,Dihedral angle:CA:C,-,-
-8,349,Dihedral angle:N:CA,-,-
-8,451,-,-,Outlier
-8,495,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ:OH,-,-
-8,496,-,Outlier,Outlier
-9,1307,Bond length:C5:O5*Bond length:C6:O6,-,Outlier
-9,617,-,Outlier,-
-9,618,-,Outlier,-
-9,643,Bond angle:CA:CB:CG,-,-
-9,644,Bond angle:OE1:CD:NE2,-,-
-9,649,-,-,Outlier
-10,1084,Bond angle:CA:CB:CG,-,-
-10,1085,Dihedral angle:CA:C,-,-
-10,1086,Dihedral angle:N:CA,-,-
-10,1123,-,-,Outlier
-10,1125,-,CA Geom Outlier,-
-10,1127,-,-,Outlier
-11,718,Dihedral angle:CA:C,-,-
-11,719,Dihedral angle:CA:C*Dihedral angle:N:CA,-,-
-11,720,Dihedral angle:N:CA,-,-
-11,927,-,-,Outlier
-11,928,Bond angle:OD1:CG:ND2,-,-
+1,130,C-beta,-,-
+1,131,Rotamer,-,-
+1,133,Bond angle:CA:CB:CG,-,-
+1,134,Bond angle:OE1:CD:NE2,-,-
+1,166,-,-,Outlier
+1,200,side-chain clash*backbone clash,-,-
+1,228,-,-,Outlier
+1,230,side-chain clash*backbone clash*Dihedral angle:CA:C,Outlier,-
+1,231,Dihedral angle:N:CA,-,-
+1,233,-,-,Outlier
+1,284,Rotamer*side-chain clash,Outlier,-
+1,286,side-chain clash,-,-
+2,357,side-chain clash,-,-
+2,393,Dihedral angle:CA:C,-,-
+2,394,Dihedral angle:CA:C*Dihedral angle:N:CA,-,Outlier
+2,395,Dihedral angle:N:CA,-,-
+2,396,side-chain clash,-,-
+2,516,-,-,Outlier
+2,517,-,-,Outlier
+2,518,-,-,Outlier
+2,519,-,-,Outlier
+2,520,side-chain clash,CA Geom Outlier,-
+2,521,side-chain clash,-,-
+3,1301,-,-,Outlier
+3,214,Bond angle:N:CA:C,CA Geom Outlier,-
+3,215,-,Outlier,-
+3,217,Bond angle:N:CA:CB,-,-
+3,218,Bond angle:OE1:CD:NE2,-,-
+3,266,side-chain clash,-,-
+3,31,Dihedral angle:CA:C,-,-
+3,32,Dihedral angle:N:CA,-,-
+3,61,Bond angle:C:CA:CB,-,-
+3,64,side-chain clash,-,-
+4,1304,Bond angle:C2:C1:O5*Bond length:C6:O6*Bond length:C5:O5,-,Outlier
+4,563,Bond angle:OE1:CD:NE2,-,-
+4,564,Bond angle:OE1:CD:NE2,-,-
+4,565,-,-,Outlier
+4,576,Dihedral angle:CA:C,-,-
+4,577,Dihedral angle:N:CA,-,Outlier
+4,578,Bond angle:CA:CB:CG,-,-
+4,582,-,-,Outlier
+4,583,-,-,Outlier
+5,121,backbone clash,-,-
+5,122,side-chain clash,-,-
+5,123,Ramachandran,Outlier,-
+5,125,backbone clash*side-chain clash,-,-
+5,1302,-,-,Outlier
+5,172,backbone clash*side-chain clash,-,-
+5,391,side-chain clash*backbone clash,-,-
+5,525,Rotamer*side-chain clash,-,-
+5,544,backbone clash*side-chain clash,Outlier,-
+6,736,Dihedral angle:CA:C,-,-
+6,737,Dihedral angle:N:CA,-,-
+6,738,side-chain clash,-,-
+6,758,-,Outlier,-
+6,759,-,-,Outlier
+6,760,side-chain clash,-,Outlier
+6,764,Bond angle:OD1:CG:ND2,-,-
+7,1094,-,-,Outlier
+7,1095,-,-,Outlier
+7,1096,-,-,Outlier
+7,1107,Dihedral angle:CD:NE:CZ:NH1*Planar group:CD:NE:CZ:NH1:NH2,-,-
+7,1109,-,Outlier,-
+7,1111,-,-,Outlier
+7,911,-,-,Outlier
+8,1307,Bond length:C5:O5*Bond length:C6:O6,-,Outlier
+8,617,-,Outlier,-
+8,618,-,Outlier,-
+8,620,-,-,Outlier
+8,643,Bond angle:CA:CB:CG,-,-
+8,644,Bond angle:OE1:CD:NE2,-,-
+9,1084,Bond angle:CA:CB:CG,-,-
+9,1085,Dihedral angle:CA:C,-,-
+9,1086,Dihedral angle:N:CA,-,-
+9,1123,-,-,Outlier
+9,1125,-,CA Geom Outlier,-
+9,1127,-,-,Outlier
+10,1041,-,Outlier,-
+10,1043,-,Outlier,-
+10,1062,Dihedral angle:CA:C,-,-
+10,1063,Dihedral angle:N:CA,-,-
+10,1064,Bond angle:CB:CG:CD2,-,-
+11,196,-,-,Outlier
+11,197,-,-,Outlier
+11,198,-,Outlier,Outlier
+11,87,-,-,Outlier
+11,88,-,Outlier,-
 12,427,Bond angle:CA:CB:CG,-,Outlier
-12,428,Dihedral angle:CA:CB:CG:OD1*Dihedral angle:CA:C,-,-
+12,428,Dihedral angle:CA:CB:CG:OD1*Dihedral angle:CA:C,-,Outlier
 12,429,Dihedral angle:N:CA,-,-
 12,430,-,Outlier,-
-13,567,Dihedral angle:CA:C,-,-
-13,568,Dihedral angle:N:CA,-,-
-13,570,-,Outlier,-
-13,571,C-beta,-,Outlier
-14,378,side-chain clash,-,-
-14,380,side-chain clash,-,-
-14,408,-,-,Outlier
-14,410,-,-,Outlier
+13,344,-,Outlier,-
+13,346,-,-,Outlier
+13,348,Dihedral angle:CA:C,-,-
+13,349,Dihedral angle:N:CA,-,-
+14,567,Dihedral angle:CA:C,-,-
+14,568,Dihedral angle:N:CA,-,-
+14,570,-,Outlier,-
+14,571,C-beta,-,Outlier
 15,327,side-chain clash,-,-
 15,328,Rotamer,-,-
 15,329,side-chain clash,-,-
@@ -117,122 +111,134 @@ Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 16,294,Bond angle:CA:CB:CG,-,-
 16,301,-,-,Outlier
 17,315,Dihedral angle:CA:C,-,-
-17,316,Dihedral angle:N:CA,-,-
+17,316,Dihedral angle:N:CA,-,Outlier
 17,318,Rotamer,-,-
 17,595,-,-,Outlier
 18,398,side-chain clash,-,-
 18,423,side-chain clash,-,-
 18,464,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ,-,-
 18,512,side-chain clash,-,-
-19,403,side-chain clash,-,-
-19,405,-,-,Outlier
-19,406,side-chain clash,-,-
-20,1094,-,-,Outlier
-20,1107,Dihedral angle:CD:NE:CZ:NH1*Planar group:CD:NE:CZ:NH1:NH2,-,-
-20,1109,-,Outlier,-
-21,457,backbone clash,-,-
-21,459,backbone clash,-,-
-21,461,Rotamer,-,-
-22,196,-,-,Outlier
-22,198,-,Outlier,Outlier
-22,88,-,Outlier,-
-23,310,-,Outlier,-
-23,599,Dihedral angle:CA:C*Bond angle:CA:CB:CG2,-,-
-23,600,Dihedral angle:N:CA,-,-
-24,204,side-chain clash,-,-
-24,225,side-chain clash,-,-
-24,226,-,-,Outlier
-25,209,Bond angle:C,-,-
-25,210,Bond angle:N:CA,-,-
-26,1305,-,-,Outlier
-26,338,Bond angle:CA:CB:CG,-,-
-27,661,-,-,Outlier
-27,662,-,-,Outlier
-28,1140,-,-,Outlier
-28,1142,Bond angle:OE1:CD:NE2,-,-
-29,281,side-chain clash,-,Outlier
-29,46,side-chain clash,-,-
-30,935,Bond angle:OE1:CD:NE2,-,-
-30,936,-,-,Outlier
-31,918,-,-,Outlier
-31,920,-,-,Outlier
-32,826,Rotamer,-,-
-32,827,-,-,Outlier
-33,986,Bond angle:CA:C,-,-
-33,987,Bond angle:N,-,-
-34,796,Bond angle:CA:CB:CG,-,-
-34,797,-,Outlier,-
-35,422,Rotamer,-,-
-35,454,Dihedral angle:CD:NE:CZ:NH1,-,-
-36,336,Rotamer*side-chain clash,-,-
-36,361,side-chain clash*backbone clash,CA Geom Outlier,-
-37,1135,-,-,Outlier
-37,1136,-,Outlier,-
-38,1306,Bond length:C5:O5,-,Outlier
-38,603,Rotamer,-,-
-39,658,Bond angle:CA:CB:CG,-,-
-39,695,-,-,Outlier
-40,614,Bond angle:CA:CB:CG,-,-
-40,647,-,-,Outlier
-41,437,Bond angle:CA:CB:CG,-,-
-41,509,-,-,Outlier
+19,614,Bond angle:CA:CB:CG,-,-
+19,647,-,-,Outlier
+19,668,-,-,Outlier
+20,403,side-chain clash,-,-
+20,405,-,-,Outlier
+20,406,side-chain clash,-,-
+21,1303,-,-,Outlier
+21,281,side-chain clash,-,Outlier
+21,46,side-chain clash,-,-
+22,718,Dihedral angle:CA:C,-,-
+22,719,Dihedral angle:CA:C*Dihedral angle:N:CA,-,-
+22,720,Dihedral angle:N:CA,-,-
+23,457,backbone clash,-,-
+23,459,backbone clash,-,-
+23,461,Rotamer,-,-
+24,378,side-chain clash,-,-
+24,380,side-chain clash,-,-
+24,410,-,-,Outlier
+25,310,-,Outlier,-
+25,599,Dihedral angle:CA:C*Bond angle:CA:CB:CG2,-,-
+25,600,Dihedral angle:N:CA,-,-
+26,794,-,-,Outlier
+26,796,Bond angle:CA:CB:CG,-,Outlier
+26,797,-,Outlier,-
+27,97,-,-,Outlier
+27,98,-,-,Outlier
+27,99,-,Outlier,-
+28,204,side-chain clash,-,-
+28,225,side-chain clash,-,-
+28,226,-,-,Outlier
+29,1022,-,-,Outlier
+29,1026,-,-,Outlier
+29,1029,-,-,Outlier
+30,209,Bond angle:C,-,-
+30,210,Bond angle:N:CA,-,-
+31,1305,-,-,Outlier
+31,338,Bond angle:CA:CB:CG,-,-
+32,495,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ:OH,-,-
+32,496,-,Outlier,Outlier
+33,1072,-,-,Outlier
+33,1310,-,-,Outlier
+34,549,-,CA Geom Outlier,-
+34,590,-,-,Outlier
+35,826,Rotamer,-,-
+35,827,-,-,Outlier
+36,986,Bond angle:CA:C,-,-
+36,987,Bond angle:N,-,-
+37,422,Rotamer,-,-
+37,454,Dihedral angle:CD:NE:CZ:NH1,-,-
+38,336,Rotamer*side-chain clash,-,-
+38,361,side-chain clash*backbone clash,CA Geom Outlier,-
+39,1135,-,-,Outlier
+39,1136,-,Outlier,-
+40,1306,Bond length:C5:O5,-,Outlier
+40,603,Rotamer,-,-
+41,658,Bond angle:CA:CB:CG,-,-
+41,695,-,-,Outlier
 42,1002,Bond angle:OE1:CD:NE2,-,Outlier
 42,1005,Bond angle:OE1:CD:NE2,-,-
-43,970,-,-,Outlier
-43,971,-,-,Outlier
-44,978,-,-,Outlier
-44,979,Bond angle:CA:CB:CG,-,-
-45,950,-,-,Outlier
-45,953,Bond angle:OD1:CG:ND2,-,-
-46,40,Bond angle:CA:CB:CG,-,-
-46,41,-,-,Outlier
-47,1118,-,-,Outlier
-47,1119,Bond angle:OD1:CG:ND2,-,Outlier
-48,804,-,-,Outlier
-48,805,-,-,Outlier
+43,332,side-chain clash*backbone clash,-,-
+43,333,-,-,Outlier
+44,220,Dihedral angle:CA:C,CA Geom Outlier,-
+44,221,Dihedral angle:N:CA,-,-
+45,556,-,-,Outlier
+45,557,-,-,Outlier
+46,950,-,-,Outlier
+46,953,Bond angle:OD1:CG:ND2,-,-
+47,40,Bond angle:CA:CB:CG,-,-
+47,41,-,-,Outlier
+48,1118,-,-,Outlier
+48,1119,Bond angle:OD1:CG:ND2,-,Outlier
+49,942,-,-,Outlier
+49,943,-,-,Outlier
 -,27,-,-,Outlier
+-,36,-,-,Outlier
 -,49,Bond angle:CB:CG:CD2,-,-
 -,53,-,-,Outlier
 -,66,Bond angle:CB:CG:CD2,-,-
--,83,-,-,Outlier
--,99,-,Outlier,-
+-,69,-,-,Outlier
 -,108,-,Outlier,-
 -,119,-,-,Outlier
--,142,-,-,Outlier
+-,137,-,-,Outlier
 -,242,-,-,Outlier
 -,285,Ramachandran,-,-
 -,324,-,-,Outlier
--,332,side-chain clash*backbone clash,-,-
 -,358,side-chain clash,-,-
+-,376,-,-,Outlier
+-,389,-,-,Outlier
 -,415,-,CA Geom Outlier,Outlier
+-,437,Bond angle:CA:CB:CG,-,-
 -,467,Dihedral angle:CA:CB:CG:OD1,-,-
 -,490,-,-,Outlier
 -,501,Bond angle:OD1:CG:ND2,-,-
--,529,-,-,Outlier
 -,547,-,Outlier,-
--,549,-,CA Geom Outlier,-
--,557,-,-,Outlier
--,606,Bond angle:OD1:CG:ND2,-,Outlier
+-,606,Bond angle:OD1:CG:ND2,-,-
 -,641,-,-,Outlier
+-,661,-,-,Outlier
+-,699,-,-,Outlier
 -,705,-,-,Outlier
--,731,-,-,Outlier
 -,742,-,-,Outlier
 -,745,Bond angle:CA:CB:CG,-,Outlier
 -,748,-,-,Outlier
--,755,-,-,Outlier
--,775,-,-,Outlier
 -,786,-,-,Outlier
+-,804,-,-,Outlier
 -,814,-,Outlier,-
 -,856,-,-,Outlier
+-,867,-,-,Outlier
 -,873,Planar group:CB:CG:CD1:CD2:CE1:CE2:CZ:OH,-,-
 -,886,Planar group:CB:CG:CD1:CD2:NE1:CE2:CE3:CZ2:CZ3:CH2,-,-
+-,900,-,-,Outlier
+-,920,-,-,Outlier
+-,928,Bond angle:OD1:CG:ND2,-,-
+-,935,Bond angle:OE1:CD:NE2,-,-
 -,965,Bond angle:OE1:CD:NE2,-,Outlier
+-,979,Bond angle:CA:CB:CG,-,-
 -,993,-,-,Outlier
 -,1012,Rotamer,-,-
--,1022,-,-,Outlier
--,1072,-,-,Outlier
+-,1049,-,-,Outlier
+-,1080,-,-,Outlier
 -,1092,-,-,Outlier
 -,1101,Bond angle:CB:CG:CD2,-,-
--,1147,-,-,Outlier
+-,1142,Bond angle:OE1:CD:NE2,-,-
 -,1308,Bond length:C5:O5,-,Outlier
 -,1309,Bond length:C5:O5,-,Outlier

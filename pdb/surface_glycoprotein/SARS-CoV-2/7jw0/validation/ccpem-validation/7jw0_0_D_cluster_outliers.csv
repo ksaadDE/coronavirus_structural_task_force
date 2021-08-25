@@ -4,28 +4,33 @@
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
 1,155,-,CA Geom Outlier,Outlier
+1,156,-,-,Outlier
 1,157,-,-,Outlier
 1,208,side-chain clash,-,-
 1,209,side-chain clash,-,-
-2,36,-,-,Outlier
-2,38,-,-,Outlier
-2,95,-,-,Outlier
-3,17,-,-,Outlier
-3,83,-,-,Outlier
-4,175,-,-,Outlier
-4,185,-,-,Outlier
-5,123,-,-,Outlier
-5,125,-,-,Outlier
--,9,-,-,Outlier
--,25,-,-,Outlier
--,29,-,-,Outlier
+2,26,-,-,Outlier
+2,27,-,-,Outlier
+2,29,-,-,Outlier
+3,10,-,-,Outlier
+3,8,-,-,Outlier
+3,9,-,-,Outlier
+4,199,-,-,Outlier
+4,200,-,-,Outlier
+5,17,-,-,Outlier
+5,83,-,-,Outlier
+6,175,-,-,Outlier
+6,185,-,-,Outlier
+7,188,-,-,Outlier
+7,189,-,-,Outlier
+8,36,-,-,Outlier
+8,95,-,-,Outlier
 -,43,-,Outlier,-
 -,58,-,-,Outlier
 -,64,-,-,Outlier
 -,89,-,-,Outlier
 -,99,-,-,Outlier
+-,112,-,-,Outlier
+-,125,-,-,Outlier
 -,134,-,-,Outlier
--,189,-,-,Outlier
--,192,-,-,Outlier
--,199,-,-,Outlier
+-,180,-,-,Outlier
 -,213,-,-,Outlier

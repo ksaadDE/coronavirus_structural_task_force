@@ -3,33 +3,33 @@
 #SMOC: local fit to map outliers reported by TEMPy SMOC.
 #Jpred: Secondary structure prediction from sequence inconsistent with model.
 Cluster,Residue,Molprobity_outliers,CaBLAM_outliers,SMOC_outliers
-1,38,backbone clash,-,-
-1,40,side-chain clash,-,-
-1,45,-,-,Outlier
-1,91,side-chain clash,-,-
-1,92,backbone clash,-,-
-2,115,backbone clash,-,-
-2,85,-,-,Outlier
-2,86,-,-,Outlier
-2,87,backbone clash,-,-
+1,10,-,-,Outlier
+1,11,-,-,Outlier
+1,112,backbone clash,-,-
+1,19,-,-,Outlier
+1,8,-,-,Outlier
+1,9,backbone clash,CA Geom Outlier,-
+2,38,backbone clash,-,-
+2,40,side-chain clash,-,-
+2,41,-,-,Outlier
+2,45,-,-,Outlier
+2,91,side-chain clash,-,-
+2,92,backbone clash,-,-
 3,52,backbone clash,-,-
 3,54,-,-,Outlier
 3,55,-,-,Outlier
 3,56,backbone clash,-,-
-4,48,backbone clash,-,-
-4,60,backbone clash,-,-
-4,63,-,-,Outlier
-5,10,-,-,Outlier
-5,112,backbone clash,-,-
-5,9,backbone clash,CA Geom Outlier,-
-6,72,backbone clash,-,-
-6,74,-,-,Outlier
-6,76,backbone clash,-,-
-7,68,backbone clash,-,-
-7,81,backbone clash,-,-
--,1,-,-,Outlier
--,19,-,-,Outlier
--,23,-,-,Outlier
+4,115,backbone clash,-,-
+4,86,-,-,Outlier
+4,87,backbone clash,-,-
+5,72,backbone clash,-,-
+5,74,-,-,Outlier
+5,76,backbone clash,-,-
+6,68,backbone clash,-,-
+6,81,backbone clash,-,-
+7,48,backbone clash,-,-
+7,60,backbone clash,-,-
+8,107,-,-,Outlier
+8,109,-,-,Outlier
 -,27,-,-,Outlier
 -,70,-,-,Outlier
--,95,-,-,Outlier

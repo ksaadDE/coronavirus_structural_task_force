@@ -25,13 +25,21 @@ Atomic B-factor distribution
 -CA Geom Outlier: 0.953%
 ----------------------------
 
+*REFMAC5* model-map FSCavg
+==========================
+>emd_23012_0:7krs_0
+-FSCavg: 0.7726
+>emd_23012_0:7krs_0
+-FSCavg: 0.5912
+--------------------------
+
 *TEMPy* global real space scores
 ================================
->emd_23012
--overlap_map: 0.023
--overlap_model: 0.066
--correlation: -0.58
--local_correlation: 0.034
--local_mi: 0.016
+>emd_23012_0
+-overlap_map: 0.042
+-overlap_model: 0.388
+-correlation: -1.0
+-local_correlation: -1.0
+-local_mi: 0.0
 --------------------------------
 

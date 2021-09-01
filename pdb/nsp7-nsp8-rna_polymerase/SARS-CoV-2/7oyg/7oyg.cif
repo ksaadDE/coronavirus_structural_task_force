@@ -59,20 +59,20 @@ _citation.country                   ?
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Communications Biology' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
+_citation.journal_id_CSD            ? 
 _citation.journal_id_ISSN           ? 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            4 
 _citation.language                  ? 
-_citation.page_first                ? 
+_citation.page_first                999 
 _citation.page_last                 ? 
-_citation.title                     'Dimeric form of SARS-CoV-2 polymerase' 
-_citation.year                      ? 
+_citation.title                     'The structure of a dimeric form of SARS-CoV-2 polymerase' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
+_citation.pdbx_database_id_DOI      10.1038/s42003-021-02529-9 
 _citation.pdbx_database_id_PubMed   ? 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
@@ -82,13 +82,13 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Jochheim, F.A.' 1 0000-0002-9821-2532 
-primary 'Tegunov, D.'    2 0000-0001-7019-3221 
-primary 'Hillen, H.S.'   3 0000-0002-1206-0129 
-primary 'Schmitzova, J.' 4 0000-0001-9538-5983 
-primary 'Kokic, G.'      5 0000-0001-8912-7099 
-primary 'Dienemann, C.'  6 0000-0002-2172-5110 
-primary 'Cramer, P.'     7 0000-0001-5454-7755 
+primary 'Jochheim, F.A.' 1 ? 
+primary 'Tegunov, D.'    2 ? 
+primary 'Hillen, H.S.'   3 ? 
+primary 'Schmitzova, J.' 4 ? 
+primary 'Kokic, G.'      5 ? 
+primary 'Dienemann, C.'  6 ? 
+primary 'Cramer, P.'     7 ? 
 # 
 loop_
 _entity.id 
@@ -21232,11 +21232,14 @@ _pdbx_struct_conn_angle.value_esd
 23 ND1 ? F HIS 645 ? D HIS 642 ? 1_555 ZN ? N ZN . ? D ZN 2001 ? 1_555 SG  ? F CYS 649 ? D CYS 646 ? 1_555 120.9 ? 
 24 SG  ? F CYS 648 ? D CYS 645 ? 1_555 ZN ? N ZN . ? D ZN 2001 ? 1_555 SG  ? F CYS 649 ? D CYS 646 ? 1_555 127.6 ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-08-25 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-08-25 
+2 'Structure model' 1 1 2021-09-01 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -21245,6 +21248,33 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.journal_abbrev'          
+2 2 'Structure model' '_citation.journal_id_CSD'          
+3 2 'Structure model' '_citation.journal_volume'          
+4 2 'Structure model' '_citation.page_first'              
+5 2 'Structure model' '_citation.pdbx_database_id_DOI'    
+6 2 'Structure model' '_citation.title'                   
+7 2 'Structure model' '_citation.year'                    
+8 2 'Structure model' '_citation_author.identifier_ORCID' 
 # 
 _pdbx_entry_details.entry_id                 7OYG 
 _pdbx_entry_details.has_ligand_of_interest   N 

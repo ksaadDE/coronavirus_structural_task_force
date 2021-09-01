@@ -52,11 +52,11 @@ _citation.journal_id_CSD            0071
 _citation.journal_id_ISSN           1083-351X 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            297 
 _citation.language                  ? 
 _citation.page_first                101018 
 _citation.page_last                 101018 
-_citation.title                     'Binding of a pyrimidine RNA base-mimic to SARS-CoV-2 non-structural protein 9.' 
+_citation.title                     'Binding of a pyrimidine RNA base-mimic to SARS-CoV-2 nonstructural protein 9.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.jbc.2021.101018 
@@ -8822,6 +8822,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-07-21 
 2 'Structure model' 1 1 2021-08-04 
 3 'Structure model' 1 2 2021-08-25 
+4 'Structure model' 1 3 2021-09-01 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -8838,6 +8839,7 @@ _pdbx_audit_revision_group.data_content_type
 _pdbx_audit_revision_group.group 
 1 2 'Structure model' 'Database references' 
 2 3 'Structure model' 'Database references' 
+3 4 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -8848,6 +8850,7 @@ _pdbx_audit_revision_category.category
 2 2 'Structure model' citation_author 
 3 3 'Structure model' citation        
 4 3 'Structure model' database_2      
+5 4 'Structure model' citation        
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -8870,6 +8873,8 @@ _pdbx_audit_revision_item.item
 14 3 'Structure model' '_citation.title'                     
 15 3 'Structure model' '_database_2.pdbx_DOI'                
 16 3 'Structure model' '_database_2.pdbx_database_accession' 
+17 4 'Structure model' '_citation.journal_volume'            
+18 4 'Structure model' '_citation.title'                     
 # 
 loop_
 _space_group_symop.id 

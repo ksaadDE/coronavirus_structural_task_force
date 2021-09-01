@@ -24,6 +24,7 @@ KEYWDS   3 CSGID, HYDROLASE
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    K.TAN,N.I.MALTSEVA,L.F.WELK,R.P.JEDRZEJCZAK,A.JOACHIMIAK,CENTER FOR   
 AUTHOR   2 STRUCTURAL GENOMICS OF INFECTIOUS DISEASES (CSGID)                   
+REVDAT   4   01-SEP-21 7JU7    1       JRNL                                     
 REVDAT   3   25-AUG-21 7JU7    1       JRNL                                     
 REVDAT   2   28-JUL-21 7JU7    1       JRNL                                     
 REVDAT   1   09-SEP-20 7JU7    0                                                
@@ -37,7 +38,7 @@ JRNL        AUTH 7 B.C.MOUNCE,N.S.HEATON,W.E.SEVERSON,K.E.PALMER,B.C.DICKINSON,
 JRNL        AUTH 8 A.JOACHIMIAK,G.RANDALL,S.TAY                                 
 JRNL        TITL   MASITINIB IS A BROAD CORONAVIRUS 3CL INHIBITOR THAT BLOCKS   
 JRNL        TITL 2 REPLICATION OF SARS-COV-2.                                   
-JRNL        REF    SCIENCE                                    2021              
+JRNL        REF    SCIENCE                       V. 373   931 2021              
 JRNL        REFN                   ESSN 1095-9203                               
 JRNL        PMID   34285133                                                     
 JRNL        DOI    10.1126/SCIENCE.ABG5827                                      

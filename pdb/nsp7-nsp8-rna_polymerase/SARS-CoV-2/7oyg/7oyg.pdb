@@ -70,12 +70,13 @@ KEYWDS   2 PROTEIN
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    F.A.JOCHHEIM,D.TEGUNOV,H.S.HILLEN,J.SCHMITZOVA,G.KOKIC,C.DIENEMANN,   
 AUTHOR   2 P.CRAMER                                                             
+REVDAT   2   01-SEP-21 7OYG    1       JRNL                                     
 REVDAT   1   25-AUG-21 7OYG    0                                                
 JRNL        AUTH   F.A.JOCHHEIM,D.TEGUNOV,H.S.HILLEN,J.SCHMITZOVA,G.KOKIC,      
 JRNL        AUTH 2 C.DIENEMANN,P.CRAMER                                         
-JRNL        TITL   DIMERIC FORM OF SARS-COV-2 POLYMERASE                        
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        TITL   THE STRUCTURE OF A DIMERIC FORM OF SARS-COV-2 POLYMERASE     
+JRNL        REF    COMMUNICATIONS BIOLOGY        V.   4   999 2021              
+JRNL        DOI    10.1038/S42003-021-02529-9                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    5.50 ANGSTROMS.                                       
 REMARK   3                                                                      

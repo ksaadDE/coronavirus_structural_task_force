@@ -2,7 +2,7 @@
 ********** REPORT OF PROTEIN ANALYSIS  by the WHAT IF program **********
 ************************************************************************
 
-Date : 2021-07-29
+Date : 2021-08-19
 This report was created by WHAT IF version WHATCHECK15.0
 
 This document is a WHAT_CHECK 14.0 report for a PDB-file. Each reported
@@ -1303,7 +1303,7 @@ though, that if the topology could not be determined for one or more
 ligands, then this option will make errors.
  
   180 GLN  ( 180-) A  -
-  536 GLN  ( 262-) D  -
+  389 GLN  ( 115-) D  -
  
 # 113 # Note: Histidine type assignments
 For all complete HIS residues in the structure a tentative assignment to
@@ -1332,20 +1332,20 @@ advisable to verify the hydrogen bond assignment, check the HIS type used
 during the refinement and possibly adjust it.
  
     3 HIS  (   3-) A  -   HIS-H   0.13 HIS-D   0.54
-   70 HIS  (  70-) A  -   HIS-H   0.19 HIS-E   0.58
+   70 HIS  (  70-) A  -   HIS-H   0.19 HIS-D   0.54
    74 HIS  (  74-) A  -   HIS-H   0.21 HIS-D   0.52
-   93 HIS  (  93-) A  -   HIS-H   0.36
-  114 HIS  ( 114-) A  -   HIS-H   0.09 HIS-D   0.55
-  145 HIS  ( 145-) A  -   HIS-E   0.69 HIS-D   0.94
+   93 HIS  (  93-) A  -   HIS-H   0.36 HIS-D   0.46
+  114 HIS  ( 114-) A  -   HIS-H   0.09 HIS-E   0.59
+  145 HIS  ( 145-) A  -   HIS-E   0.69
   151 HIS  ( 151-) A  -   HIS-H   0.09 HIS-D   0.54
   188 HIS  ( 188-) A  -   HIS-H   0.13 HIS-D   0.54
   191 HIS  ( 191-) A  -   HIS-E   1.17
   192 HIS  ( 192-) A  -   HIS-E   1.32 HIS-D   1.64
   197 HIS  ( 197-) A  -   HIS-H   0.07 HIS-E   0.60
-  260 HIS  ( 260-) A  -   HIS-H   0.18 HIS-D   0.48
+  260 HIS  ( 260-) A  -   HIS-H   0.18
   263 HIS  ( 263-) A  -   HIS-H   0.19 HIS-E   0.62
-  278 HIS  (   3-) D  -   HIS-H   0.16
-  345 HIS  (  70-) D  -   HIS-H   0.36
+  278 HIS  (   3-) D  -   HIS-H   0.16 HIS-D   0.58
+  345 HIS  (  70-) D  -   HIS-H   0.36 HIS-E   0.55
 And so on for a total of    34 lines.
  
 # 114 # Warning: Buried unsatisfied hydrogen bond donors
@@ -1365,18 +1365,18 @@ Waters are not listed by this option.
    35 ARG  (  35-) A  -    NE
    51 TRP  (  51-) A  -    N
    74 HIS  (  74-) A  -    ND1
+   93 HIS  (  93-) A  -    N
    96 GLN  (  96-) A  -    NE2
    97 ARG  (  97-) A  -    NE
-   99 TYR  (  99-) A  -    OH
   108 ARG  ( 108-) A  -    NH1
-  114 HIS  ( 114-) A  -    ND1
   157 ARG  ( 157-) A  -    NE
   165 VAL  ( 165-) A  -    N
   197 HIS  ( 197-) A  -    N
   198 GLU  ( 198-) A  -    N
   202 ARG  ( 202-) A  -    NE
   217 TRP  ( 217-) A  -    NE1
-And so on for a total of    45 lines.
+  244 TRP  ( 244-) A  -    N
+And so on for a total of    44 lines.
  
 # 115 # Warning: Buried unsatisfied hydrogen bond acceptors
 The buried side-chain hydrogen bond acceptors listed in the table below are
@@ -1389,9 +1389,10 @@ the optimized hydrogen bond network they will be listed here.
 Waters are not listed by this option.
  
    39 ASP  (  39-) A  -    OD2
+   87 GLN  (  87-) A  -    OE1
   224 GLN  ( 224-) A  -    OE1
   352 ASP  (  77-) D  -    OD2
-  580 HIS  (  31-) B  -    ND1
+  580 HIS  (  31-) B  -    NE2
   680 HIS  (  31-) E  -    ND1
  
 # 116 # Note: Some notes regarding these donors and acceptors
@@ -1403,25 +1404,25 @@ with no or just a poor hydrogen bond should be a topic of concern. As every
 protein contains more acceptors than donors, unsatisfied donors are more in
 need of attention than unsatisfied acceptors.
  
-Total number of donors: 1198
-- of which buried: 551
-Total number of acceptors: 1237
-- of which buried: 444
+Total number of donors: 1196
+- of which buried: 549
+Total number of acceptors: 1239
+- of which buried: 445
 Total number of donor+acceptors: 146
   (e.g. the Ser Ogamma that can donate and accept)
 - of which buried: 26
-Buried donors: 551
-- without H-bond: 35
+Buried donors: 549
+- without H-bond: 34
 - essentially without H-bond: 1
 - with only a very poor H-bond: 2
-- with a poor H-bond: 7
-- with a H-bond: 506
-Buried acceptors: 444
-- without H-bond: 38
+- with a poor H-bond: 8
+- with a H-bond: 504
+Buried acceptors: 445
+- without H-bond: 40
 - essentially without H-bond: 0
 - with only a very poor H-bond: 1
 - with a poor H-bond: 8
-- with a H-bond: 397
+- with a H-bond: 396
  
 # 117 # Note: Content of the PDB file as interpreted by WHAT CHECK
 Content of the PDB file as interpreted by WHAT CHECK.
@@ -1570,7 +1571,7 @@ in this list first.
   329 GLN  (  54-) D  -     11.22
   748 MET  (  99-) E  -     11.21
   530 ARG  ( 256-) D  -     11.02
-And so on for a total of    66 lines.
+And so on for a total of    65 lines.
 ==============
  
  

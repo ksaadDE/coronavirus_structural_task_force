@@ -2,7 +2,7 @@
 ********** REPORT OF PROTEIN ANALYSIS  by the WHAT IF program **********
 ************************************************************************
 
-Date : 2021-07-29
+Date : 2021-08-26
 This report was created by WHAT IF version WHATCHECK15.0
 
 This document is a WHAT_CHECK 14.0 report for a PDB-file. Each reported

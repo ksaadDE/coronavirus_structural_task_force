@@ -2,7 +2,7 @@
 ********** REPORT OF PROTEIN ANALYSIS  by the WHAT IF program **********
 ************************************************************************
 
-Date : 2021-07-29
+Date : 2021-08-19
 This report was created by WHAT IF version WHATCHECK15.0
 
 This document is a WHAT_CHECK 14.0 report for a PDB-file. Each reported
@@ -1269,7 +1269,6 @@ ligands, then this option will make errors.
   582 HIS  ( 145-) A  -
   617 GLN  ( 180-) A  -
   625 HIS  ( 188-) A  -
-  741 HIS  (  31-) B  -
   812 GLN  (   3-) C  -
  
 # 105 # Note: Histidine type assignments
@@ -1319,7 +1318,7 @@ during the refinement and possibly adjust it.
   697 HIS  ( 260-) A  -   HIS-H   0.06 HIS-E   0.57
   700 HIS  ( 263-) A  -   HIS-E   1.42
   723 HIS  (  13-) B  -   HIS-H   0.14 HIS-E   0.56
-  741 HIS  (  31-) B  -   HIS-H   0.14 HIS-D   0.56
+  741 HIS  (  31-) B  -   HIS-H   0.14 HIS-E   0.52
   761 HIS  (  51-) B  -   HIS-H   0.09 HIS-D   0.57
   794 HIS  (  84-) B  -   HIS-H   0.15 HIS-E   0.60
  
@@ -1351,7 +1350,7 @@ Waters are not listed by this option.
   148 ASP  ( 150-) D  -    N
   149 VAL  ( 151-) D  -    N
   154 LYS  ( 156-) D  -    N
-And so on for a total of    67 lines.
+And so on for a total of    66 lines.
  
 # 107 # Warning: Buried unsatisfied hydrogen bond acceptors
 The buried side-chain hydrogen bond acceptors listed in the table below are
@@ -1372,7 +1371,6 @@ Waters are not listed by this option.
   697 HIS  ( 260-) A  -    ND1
   701 GLU  ( 264-) A  -    OE1
   734 ASN  (  24-) B  -    OD1
-  741 HIS  (  31-) B  -    NE2
  
 # 108 # Note: Some notes regarding these donors and acceptors
 The donors and acceptors have been counted, also as function of their
@@ -1384,24 +1382,24 @@ protein contains more acceptors than donors, unsatisfied donors are more in
 need of attention than unsatisfied acceptors.
  
 Total number of donors: 1246
-- of which buried: 584
+- of which buried: 585
 Total number of acceptors: 1310
-- of which buried: 486
+- of which buried: 485
 Total number of donor+acceptors: 162
   (e.g. the Ser Ogamma that can donate and accept)
 - of which buried: 42
-Buried donors: 584
-- without H-bond: 57
+Buried donors: 585
+- without H-bond: 56
 - essentially without H-bond: 0
 - with only a very poor H-bond: 3
 - with a poor H-bond: 8
-- with a H-bond: 516
-Buried acceptors: 486
-- without H-bond: 66
+- with a H-bond: 518
+Buried acceptors: 485
+- without H-bond: 64
 - essentially without H-bond: 0
 - with only a very poor H-bond: 3
-- with a poor H-bond: 13
-- with a H-bond: 404
+- with a poor H-bond: 12
+- with a H-bond: 406
  
 # 109 # Note: Content of the PDB file as interpreted by WHAT CHECK
 Content of the PDB file as interpreted by WHAT CHECK.
@@ -1536,7 +1534,7 @@ in this list first.
   809 MET  (  99-) B  -     11.20
   165 LYS  ( 167-) D  -     10.89
   663 GLN  ( 226-) A  -     10.76
-And so on for a total of    98 lines.
+And so on for a total of    97 lines.
 ==============
  
  

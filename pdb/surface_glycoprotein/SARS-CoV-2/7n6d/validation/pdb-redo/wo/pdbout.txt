@@ -2,7 +2,7 @@
 ********** REPORT OF PROTEIN ANALYSIS  by the WHAT IF program **********
 ************************************************************************
 
-Date : 2021-07-29
+Date : 2021-08-26
 This report was created by WHAT IF version WHATCHECK15.0
 
 This document is a WHAT_CHECK 14.0 report for a PDB-file. Each reported
@@ -1554,14 +1554,12 @@ though, that if the topology could not be determined for one or more
 ligands, then this option will make errors.
  
   180 GLN  ( 180-) A  -
+  368 HIS  (  93-) E  -
   463 HIS  ( 188-) E  -
   467 HIS  ( 192-) E  -
   637 ASN  (  86-) I  -
   706 GLN  ( 155-) I  -
-  897 HIS  (  70-) M  -
-  901 HIS  (  74-) M  -
  1007 GLN  ( 180-) M  -
- 1532 GLN  (   3-) O  -
  
 # 142 # Note: Histidine type assignments
 For all complete HIS residues in the structure a tentative assignment to
@@ -1634,7 +1632,7 @@ Waters are not listed by this option.
   202 ARG  ( 202-) A  -    NE
   209 TYR  ( 209-) A  -    OH
   217 TRP  ( 217-) A  -    NE1
-And so on for a total of   116 lines.
+And so on for a total of   117 lines.
  
 # 144 # Warning: Buried unsatisfied hydrogen bond acceptors
 The buried side-chain hydrogen bond acceptors listed in the table below are
@@ -1646,8 +1644,8 @@ the optimized hydrogen bond network they will be listed here.
  
 Waters are not listed by this option.
  
+  368 HIS  (  93-) E  -    ND1
   830 HIS  (   3-) M  -    NE2
-  897 HIS  (  70-) M  -    ND1
   899 GLN  (  72-) M  -  A OE1
   972 HIS  ( 145-) M  -    ND1
  1127 ASN  (  24-) B  -    OD1
@@ -1666,24 +1664,24 @@ protein contains more acceptors than donors, unsatisfied donors are more in
 need of attention than unsatisfied acceptors.
  
 Total number of donors: 2392
-- of which buried: 1147
+- of which buried: 1145
 Total number of acceptors: 2481
-- of which buried: 896
+- of which buried: 897
 Total number of donor+acceptors: 291
   (e.g. the Ser Ogamma that can donate and accept)
 - of which buried: 59
-Buried donors: 1147
-- without H-bond: 89
+Buried donors: 1145
+- without H-bond: 88
+- essentially without H-bond: 0
+- with only a very poor H-bond: 3
+- with a poor H-bond: 18
+- with a H-bond: 1036
+Buried acceptors: 897
+- without H-bond: 91
 - essentially without H-bond: 0
 - with only a very poor H-bond: 4
 - with a poor H-bond: 16
-- with a H-bond: 1038
-Buried acceptors: 896
-- without H-bond: 96
-- essentially without H-bond: 0
-- with only a very poor H-bond: 4
-- with a poor H-bond: 15
-- with a H-bond: 781
+- with a H-bond: 786
  
 # 146 # Note: Content of the PDB file as interpreted by WHAT CHECK
 Content of the PDB file as interpreted by WHAT CHECK.

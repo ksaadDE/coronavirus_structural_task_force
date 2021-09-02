@@ -2,7 +2,7 @@
 ********** REPORT OF PROTEIN ANALYSIS  by the WHAT IF program **********
 ************************************************************************
 
-Date : 2021-07-29
+Date : 2021-08-19
 This report was created by WHAT IF version WHATCHECK15.0
 
 This document is a WHAT_CHECK 14.0 report for a PDB-file. Each reported
@@ -269,7 +269,7 @@ Secondary structure assignment
                     190
                       |
   181 -  197 ANAFNNSIIPEDTFFPS
-( 183)-( 199)TT  TT    TT
+( 183)-( 199)TTT TT    TT
              200       210       220       230       240       250
                |         |         |         |         |         |
   198 -  257 TGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLL
@@ -528,25 +528,18 @@ especially in non-canonical amino acids.
 # 51 # Note: No decreasing residue numbers
 All residue numbers are strictly increasing within each chain.
  
-# 52 # Warning: Unusual bond lengths
-The bond lengths listed in the table below were found to deviate more than 4
-sigma from standard bond lengths (both standard values and sigmas for amino
-acid residues have been taken from Engh and Huber [REF], for DNA they were
-taken from Parkinson et al [REF]). In the table below for each unusual bond
-the bond length and the number of standard deviations it differs from the
-normal value is given.
- 
-Atom names starting with "-" belong to the previous residue in the chain. If
-the second atom name is "-SG*", the disulphide bridge has a deviating length.
- 
-  395 GLN  ( 199-) E  -    CG   CD    1.39   -5.2
+# 52 # Note: All bond lengths OK
+All bond lengths are in agreement with standard bond lengths using a
+tolerance of 4 sigma (both standard values and sigma for amino acids
+have been taken from Engh and Huber [REF], for DNA/RNA from Parkinson
+et al [REF]).
  
 # 53 # Note: Normal bond length variability
 Bond lengths were found to deviate normally from the standard bond lengths
 (values for Protein residues were taken from Engh and Huber [REF], for
 DNA/RNA from Parkinson et al [REF]).
  
- RMS Z-score for bond lengths: 0.422
+ RMS Z-score for bond lengths: 0.414
  RMS-deviation in bond distances: 0.009
  
 # 54 # Note: No bond length directionality
@@ -554,17 +547,11 @@ Comparison of bond distances with Engh and Huber [REF] standard values for
 protein residues and Parkinson et al [REF] values for DNA/RNA does not show
 significant systematic deviations.
  
-# 55 # Warning: Unusual bond angles
-The bond angles listed in the table below were found to deviate more than 4
-sigma from standard bond angles (both standard values and sigma for protein
-residues have been taken from Engh and Huber [REF], for DNA/RNA from
-Parkinson et al [REF]). In the table below for each strange angle the bond
-angle and the number of standard deviations it differs from the standard
-values is given. Please note that disulphide bridges are neglected. Atoms
-starting with "-" belong to the previous residue in the sequence.
- 
-  400 HIS  ( 204-) E  -    CG   ND1  CE1 109.64    4.0
-  472 ARG  (  35-) A  -    CG   CD   NE  117.33    4.0
+# 55 # Note: All bond angles OK
+All bond angles are in agreement with standard bond angles using a tolerance
+of 4 sigma (both standard values and sigma for protein residues have been
+taken from Engh and Huber [REF], for DNA/RNA from Parkinson et al. [REF]).
+Please note that disulphide bridges are neglected.
  
 # 56 # Note: Normal bond angle variability
 Bond angles were found to deviate normally from the mean standard bond angles
@@ -573,8 +560,8 @@ DNA/RNA from Parkinson et al [REF]). The RMS Z-score given below is expected
 to be near 1.0 for a normally restrained data set, and this is indeed
 observed for very high resolution X-ray structures.
  
- RMS Z-score for bond angles: 0.710
- RMS-deviation in bond angles: 1.360
+ RMS Z-score for bond angles: 0.708
+ RMS-deviation in bond angles: 1.356
  
 # 57 # Note: Residue hand check OK
 No atoms are observed that have the wrong handedness. Be aware, though, that
@@ -585,13 +572,13 @@ than just an administrative discomfort.
 # 58 # Note: Chirality OK
 All protein atoms have proper chirality, or there is no intact protein
 present in the PDB file.
-The average deviation= 0.709
+The average deviation= 0.706
  
 # 59 # Note: Improper dihedral angle distribution OK
 The RMS Z-score for all improper dihedrals in the structure is within normal
 ranges.
  
- Improper dihedral RMS Z-score : 0.587
+ Improper dihedral RMS Z-score : 0.585
  
 # 60 # Note: Tau angles OK
 All of the tau angles (N-C-alpha-C) of amino acids fall within expected
@@ -604,7 +591,7 @@ determined the tau normal distributions from 500 high-resolution X-ray
 structures, rather than from CSD data, so we cannot be 100 percent certain
 about these numbers.
  
- Tau angle RMS Z-score : 0.890
+ Tau angle RMS Z-score : 0.889
  
 # 62 # Note: Side chain planarity OK
 All of the side chains of residues that have an intact planar group are
@@ -621,7 +608,7 @@ The score expressing how well the backbone conformations of all residues
 correspond to the known allowed areas in the Ramachandran plot is within
 expected ranges for well-refined structures.
  
- Ramachandran Z-score : -0.376
+ Ramachandran Z-score : -0.373
  
 # 65 # Note: Ramachandran check
 The list contains per-residue Z-scores describing how well each residue
@@ -645,18 +632,17 @@ angle is in a highly unlikely position.
   489 ILE  (  52-) A  -   -2.5
   778 THR  (  68-) B  -   -2.4
   638 LEU  ( 201-) A  -   -2.3
-  243 THR  (  47-) E  -   -2.3
+  243 THR  (  47-) E  -   -2.2
   386 ARG  ( 190-) E  -   -2.2
+  644 SER  ( 207-) A  -   -2.2
   711 ILE  (   1-) B  -   -2.2
-  780 PHE  (  70-) B  -   -2.1
-  644 SER  ( 207-) A  -   -2.1
   625 HIS  ( 188-) A  -   -2.1
+  780 PHE  (  70-) B  -   -2.1
   632 SER  ( 195-) A  -   -2.1
     4 GLU  (   5-) D  -   -2.0
   133 THR  ( 135-) D  -   -2.0
   765 SER  (  55-) B  -   -2.0
   472 ARG  (  35-) A  -   -2.0
-  215 VAL  (  19-) E  -   -2.0
  
 # 67 # Warning: Backbone evaluation reveals unusual conformations
 The residues listed in the table below have abnormal backbone torsion
@@ -682,7 +668,7 @@ residues is listed here as having unusual phi-psi combinations.
    84 ALA  (  85-) D  - Poor phi/psi
    91 ASN  (  92-) D  - omega poor
    93 ASP  (  94-) D  - Poor phi/psi
-And so on for a total of   109 lines.
+And so on for a total of   108 lines.
  
 # 68 # Error: Chi-1/chi-2 rotamer problems
 List of residues with a poor chi-1/chi-2 combination. Be aware that for this
@@ -694,6 +680,7 @@ overall score that is given below the table.
   120 LEU  ( 121-) D  -    -1.30
   235 LEU  (  39-) E  -    -1.32
   339 LEU  ( 143-) E  -    -1.32
+  370 LEU  ( 174-) E  -    -1.30
   376 LEU  ( 180-) E  -    -1.32
   638 LEU  ( 201-) A  -    -1.33
   707 LEU  ( 270-) A  -    -1.31
@@ -703,15 +690,14 @@ overall score that is given below the table.
   163 ASP  ( 165-) D  -    -1.22
   188 ILE  ( 190-) D  -    -1.25
   228 LEU  (  32-) E  -    -1.25
-  336 LEU  ( 140-) E  -    -1.27
-And so on for a total of   344 lines.
+And so on for a total of   346 lines.
  
 # 69 # Warning: chi-1/chi-2 angle correlation Z-score low
 The score expressing how well the chi-1/chi-2 angles of all residues
 correspond to the populated areas in the database is
 a bit low.
  
- chi-1/chi-2 correlation Z-score : -3.237
+ chi-1/chi-2 correlation Z-score : -3.268
  
 # 70 # Warning: Unusual rotamers
 The residues listed in the table below have a rotamer that is not seen very
@@ -729,15 +715,15 @@ It is not necessarily an error if a few residues have rotamer values below
 worth it.
  
   625 HIS  ( 188-) A  -   0.35
+  329 SER  ( 133-) E  -   0.36
+  553 TYR  ( 116-) A  -   0.36
   526 GLU  (  89-) A  -   0.37
   244 TYR  (  48-) E  -   0.38
-  329 SER  ( 133-) E  -   0.38
-  553 TYR  ( 116-) A  -   0.38
   695 THR  ( 258-) A  -   0.38
+  731 ASN  (  21-) B  -   0.38
    21 ASN  (  22-) D  -   0.38
   761 HIS  (  51-) B  -   0.38
-   90 VAL  (  91-) D  -   0.39
-  472 ARG  (  35-) A  -   0.39
+  489 ILE  (  52-) A  -   0.40
  
 # 71 # Warning: Unusual backbone conformations
 For the residues listed in the table below, the backbone formed by itself and
@@ -786,7 +772,7 @@ respectively) is indicated!
 The backbone conformation analysis gives a score that is normal for well
 refined protein structures.
  
- Backbone conformation Z-score : 1.000
+ Backbone conformation Z-score : 0.992
  
 # 73 # Note: Omega angle restraint OK
 The omega angles for trans-peptide bonds in a structure is expected to give a
@@ -794,7 +780,7 @@ gaussian distribution with the average around +178 degrees, and a standard
 deviation around 5.5. In the current structure the standard deviation agrees
 with this expectation.
  
-Omega average and std. deviation= 178.740 6.495
+Omega average and std. deviation= 178.740 6.485
  
 # 74 # Note: PRO puckering amplitude OK
 Puckering amplitudes for all PRO residues are within normal ranges.
@@ -823,8 +809,8 @@ that some glycine residues show up in this list, but they are still worth
 checking!
  
   599 GLY  ( 162-) A  -  1.62   16
-  114 ASP  ( 115-) D  -  1.55   46
-  138 GLN  ( 140-) D  -  1.53   29
+  114 ASP  ( 115-) D  -  1.54   46
+  138 GLN  ( 140-) D  -  1.54   30
  
 # 77 # Warning: Possible peptide flips
 For the residues listed in the table below, the backbone formed by the
@@ -881,19 +867,19 @@ X-ray files), a minus sign is printed instead.
   121 ARG  ( 122-) D  -    NH1  <-->    127 LYS  ( 129-) D  -    O    0.62    2.08  INTRA BF
   153 ASP  ( 155-) D  -    O    <-->    155 CYS  ( 157-) D  -    N    0.31    2.39  INTRA BF
   638 LEU  ( 201-) A  -    CD1  <-->    654 TRP  ( 217-) A  -    CH2  0.23    2.97  INTRA BF
-  384 SER  ( 188-) E  -    OG   <-->    386 ARG  ( 190-) E  -    NH1  0.21    2.49  INTRA BF
-  155 CYS  ( 157-) D  -    SG   <-->    168 SER  ( 170-) D  -    OG   0.20    2.80  INTRA BF
+  384 SER  ( 188-) E  -    OG   <-->    386 ARG  ( 190-) E  -    NH1  0.22    2.48  INTRA BF
+  155 CYS  ( 157-) D  -    SG   <-->    168 SER  ( 170-) D  -    OG   0.18    2.82  INTRA BF
   184 PHE  ( 186-) D  -    O    <-->    187 SER  ( 189-) D  -    N    0.17    2.53  INTRA BF
-  727 ASN  (  17-) B  -    ND2  <-->    784 GLU  (  74-) B  -    OE2  0.16    2.54  INTRA BF
   132 PHE  ( 134-) D  -    CE2  <-->    135 PHE  ( 137-) D  -    CD2  0.15    3.05  INTRA BF
+  727 ASN  (  17-) B  -    ND2  <-->    784 GLU  (  74-) B  -    OE2  0.15    2.55  INTRA BF
   122 ASP  ( 123-) D  -    OD2  <-->    125 SER  ( 126-) D  -    N    0.15    2.55  INTRA BF
   668 VAL  ( 231-) A  -    O    <-->    680 LYS  ( 243-) A  -    NZ   0.13    2.57  INTRA BF
-  225 HIS  (  29-) E  -    ND1  <-->    290 SER  (  94-) E  -    OG   0.11    2.59  INTRA BL
   640 CYS  ( 203-) A  -    N    <-->    682 ALA  ( 245-) A  -    O    0.11    2.59  INTRA BF
-  243 THR  (  47-) E  -    OG1  <-->    250 GLN  (  54-) E  -    NE2  0.11    2.59  INTRA BL
-  153 ASP  ( 155-) D  -    O    <-->    154 LYS  ( 156-) D  -    C    0.09    2.51  INTRA BF
+  225 HIS  (  29-) E  -    ND1  <-->    290 SER  (  94-) E  -    OG   0.10    2.60  INTRA BL
+  243 THR  (  47-) E  -    OG1  <-->    250 GLN  (  54-) E  -    NE2  0.10    2.60  INTRA BL
   720 TYR  (  10-) B  -    O    <-->    734 ASN  (  24-) B  -    N    0.09    2.61  INTRA BL
-And so on for a total of    51 lines.
+  153 ASP  ( 155-) D  -    O    <-->    154 LYS  ( 156-) D  -    C    0.09    2.51  INTRA BF
+And so on for a total of    52 lines.
  
 # 79 # Note: Some notes regarding these bumps
 The bumps have been binned in 5 categories ranging from 'please look at'
@@ -902,11 +888,11 @@ sum of all bumps, and these latter two values normalized by the number of
 contacts are listed too for comparison purposes between, for example, small
 and large proteins.
  
-Total bump value: 4.287
-Total bump value per residue: 0.062
-Total number of bumps: 51
-Total squared bump value: 0.863
-Total number of bumps in the mildest bin: 49
+Total bump value: 4.319
+Total bump value per residue: 0.064
+Total number of bumps: 52
+Total squared bump value: 0.859
+Total number of bumps in the mildest bin: 50
 Total number of bumps in the second bin: 1
 Total number of bumps in the middle bin: 1
 Total number of bumps in the fourth bin: 0
@@ -967,49 +953,41 @@ see a few of these, but in any case this requires further inspection of the
 residue.
  
   454 ARG  (  17-) A  -  -7.52
-  111 GLN  ( 112-) D  -  -6.75
-  568 ARG  ( 131-) A  -  -6.46
-  398 ARG  ( 202-) E  -  -6.30
-  162 MET  ( 164-) D  -  -6.04
+  111 GLN  ( 112-) D  -  -6.74
+  568 ARG  ( 131-) A  -  -6.47
+  398 ARG  ( 202-) E  -  -6.31
+  162 MET  ( 164-) D  -  -6.03
   235 LEU  (  39-) E  -  -5.93
-  205 ARG  (   9-) E  -  -5.90
-  188 ILE  ( 190-) D  -  -5.70
-  330 HIS  ( 134-) E  -  -5.67
+  205 ARG  (   9-) E  -  -5.91
+  188 ILE  ( 190-) D  -  -5.71
   485 ARG  (  48-) A  -  -5.67
-  256 LEU  (  60-) E  -  -5.53
+  330 HIS  ( 134-) E  -  -5.66
+  256 LEU  (  60-) E  -  -5.56
   159 MET  ( 161-) D  -  -5.51
-  277 ARG  (  81-) E  -  -5.49
-  663 GLN  ( 226-) A  -  -5.48
-  692 GLN  ( 255-) A  -  -5.46
+  692 GLN  ( 255-) A  -  -5.48
+  663 GLN  ( 226-) A  -  -5.47
+  722 ARG  (  12-) B  -  -5.42
   526 GLU  (  89-) A  -  -5.41
-  722 ARG  (  12-) B  -  -5.41
-  451 ARG  (  14-) A  -  -5.33
-  124 LYS  ( 125-) D  -  -5.26
-  656 ARG  ( 219-) A  -  -5.14
-  100 LYS  ( 101-) D  -  -5.14
-  165 LYS  ( 167-) D  -  -5.11
-  312 ASN  ( 116-) E  -  -5.11
-  138 GLN  ( 140-) D  -  -5.05
-   92 ARG  (  93-) D  -  -5.04
+  451 ARG  (  14-) A  -  -5.35
+  124 LYS  ( 125-) D  -  -5.25
+  656 ARG  ( 219-) A  -  -5.22
+  277 ARG  (  81-) E  -  -5.19
+  165 LYS  ( 167-) D  -  -5.17
+  100 LYS  ( 101-) D  -  -5.13
+  312 ASN  ( 116-) E  -  -5.10
+   92 ARG  (  93-) D  -  -5.07
+  395 GLN  ( 199-) E  -  -5.04
+  138 GLN  ( 140-) D  -  -5.03
  
-# 87 # Warning: Abnormal packing environment for sequential residues
-A stretch of at least three sequential residues with a questionable packing
-environment was found. This could indicate that these residues are part
-of a strange loop. It might also be an indication of misthreading in the
-density. However, it can also indicate that one or more residues in this
-stretch have other problems such as, for example, missing atoms, very
-weird angles or bond lengths, etc.
- 
-The table below lists the first and last residue in each stretch found,
-as well as the average residue score of the series.
- 
-  162 MET  ( 164-) D  -      165 --- LYS   167- (D ) -       -4.92
+# 87 # Note: No series of residues with bad packing environment
+There are no stretches of three or more residues each having a packing score
+worse than -4.0.
  
 # 88 # Note: Structural average packing environment OK
 The structural average packing score is within normal ranges.
  
  
-Average for range     1 -  818 :  -0.671
+Average for range     1 -  818 :  -0.673
  
 # 89 # Note: Quality value plot
 The quality value smoothed over a 10 residue window is plotted as function
@@ -1056,7 +1034,7 @@ scoring less than -2.50 are listed here. These are the unusual
 residues in the structure, so it will be interesting to take a
 special look at them.
  
-  183 ALA  ( 185-) D  -  -2.60
+  183 ALA  ( 185-) D  -  -2.59
   691 GLU  ( 254-) A  -  -2.52
  
 # 94 # Note: No series of residues with abnormal new packing environment
@@ -1133,6 +1111,8 @@ ligands, then this option will make errors.
    69 GLN  (  70-) D  -
   143 GLN  ( 145-) D  -
   237 GLN  (  41-) E  -
+  280 GLN  (  84-) E  -
+  377 ASN  ( 181-) E  -
   511 HIS  (  74-) A  -
   524 GLN  (  87-) A  -
   692 GLN  ( 255-) A  -
@@ -1163,30 +1143,30 @@ If the two assignments differ, or the `geometry' RMS Z-score is high, it is
 advisable to verify the hydrogen bond assignment, check the HIS type used
 during the refinement and possibly adjust it.
  
-  105 HIS  ( 106-) D  -   HIS-H   0.11 HIS-E   0.63
-  206 HIS  (  10-) E  -   HIS-H   0.04 HIS-D   0.56
-  225 HIS  (  29-) E  -   HIS-H   0.09 HIS-E   0.59
-  330 HIS  ( 134-) E  -   HIS-H   0.24 HIS-E   0.56
-  347 HIS  ( 151-) E  -   HIS-H   0.13 HIS-D   0.54
-  360 HIS  ( 164-) E  -   HIS-H   0.06 HIS-D   0.54
-  400 HIS  ( 204-) E  -   HIS-D   0.41 HIS-E   0.69
-  440 HIS  (   3-) A  -   HIS-H   0.12 HIS-D   0.54
-  507 HIS  (  70-) A  -   HIS-H   0.15 HIS-E   0.57
-  511 HIS  (  74-) A  -   HIS-H   0.16 HIS-D   0.58
-  530 HIS  (  93-) A  -   HIS-H   0.08 HIS-D   0.54
-  551 HIS  ( 114-) A  -   HIS-H   0.10 HIS-D   0.54
-  582 HIS  ( 145-) A  -   HIS-H   0.17 HIS-D   0.55
-  588 HIS  ( 151-) A  -   HIS-H   0.12 HIS-E   0.59
-  625 HIS  ( 188-) A  -   HIS-H   0.06 HIS-E   0.58
-  628 HIS  ( 191-) A  -   HIS-H   0.03 HIS-E   0.58
-  629 HIS  ( 192-) A  -   HIS-H   0.14 HIS-E   0.58
-  634 HIS  ( 197-) A  -   HIS-H   0.07 HIS-E   0.59
-  697 HIS  ( 260-) A  -   HIS-H   0.05 HIS-E   0.57
-  700 HIS  ( 263-) A  -   HIS-H   0.05 HIS-E   0.58
-  723 HIS  (  13-) B  -   HIS-H   0.09 HIS-E   0.60
-  741 HIS  (  31-) B  -   HIS-H   0.10 HIS-E   0.53
-  761 HIS  (  51-) B  -   HIS-H   0.09 HIS-E   0.59
-  794 HIS  (  84-) B  -   HIS-H   0.13 HIS-E   0.61
+  105 HIS  ( 106-) D  -   HIS-H   0.09 HIS-E   0.62
+  206 HIS  (  10-) E  -   HIS-H   0.06 HIS-D   0.55
+  225 HIS  (  29-) E  -   HIS-H   0.06 HIS-E   0.57
+  330 HIS  ( 134-) E  -   HIS-H   0.21 HIS-E   0.56
+  347 HIS  ( 151-) E  -   HIS-H   0.16 HIS-D   0.52
+  360 HIS  ( 164-) E  -   HIS-H   0.08 HIS-D   0.53
+  400 HIS  ( 204-) E  -   HIS-H   0.08 HIS-E   0.58
+  440 HIS  (   3-) A  -   HIS-H   0.13 HIS-D   0.53
+  507 HIS  (  70-) A  -   HIS-H   0.12 HIS-D   0.53
+  511 HIS  (  74-) A  -   HIS-H   0.17 HIS-D   0.59
+  530 HIS  (  93-) A  -   HIS-H   0.10 HIS-D   0.54
+  551 HIS  ( 114-) A  -   HIS-H   0.09 HIS-D   0.56
+  582 HIS  ( 145-) A  -   HIS-H   0.19 HIS-D   0.55
+  588 HIS  ( 151-) A  -   HIS-H   0.11 HIS-E   0.58
+  625 HIS  ( 188-) A  -   HIS-H   0.09 HIS-E   0.61
+  628 HIS  ( 191-) A  -   HIS-H   0.06 HIS-E   0.58
+  629 HIS  ( 192-) A  -   HIS-H   0.14 HIS-E   0.55
+  634 HIS  ( 197-) A  -   HIS-H   0.06 HIS-E   0.58
+  697 HIS  ( 260-) A  -   HIS-H   0.05 HIS-E   0.59
+  700 HIS  ( 263-) A  -   HIS-H   0.06 HIS-E   0.58
+  723 HIS  (  13-) B  -   HIS-H   0.06 HIS-E   0.59
+  741 HIS  (  31-) B  -   HIS-H   0.14 HIS-E   0.53
+  761 HIS  (  51-) B  -   HIS-H   0.11 HIS-E   0.59
+  794 HIS  (  84-) B  -   HIS-H   0.11 HIS-E   0.60
  
 # 105 # Warning: Buried unsatisfied hydrogen bond donors
 The buried hydrogen bond donors listed in the table below have a hydrogen
@@ -1216,7 +1196,7 @@ Waters are not listed by this option.
   135 PHE  ( 137-) D  -    N
   141 VAL  ( 143-) D  -    N
   145 LYS  ( 147-) D  -    N
-And so on for a total of    70 lines.
+And so on for a total of    69 lines.
  
 # 106 # Warning: Buried unsatisfied hydrogen bond acceptors
 The buried side-chain hydrogen bond acceptors listed in the table below are
@@ -1229,6 +1209,7 @@ the optimized hydrogen bond network they will be listed here.
 Waters are not listed by this option.
  
   122 ASP  ( 123-) D  -    OD2
+  274 GLU  (  78-) E  -    OE2
   296 GLN  ( 100-) E  -    OE1
   511 HIS  (  74-) A  -    NE2
   514 ASP  (  77-) A  -    OD2
@@ -1245,24 +1226,24 @@ protein contains more acceptors than donors, unsatisfied donors are more in
 need of attention than unsatisfied acceptors.
  
 Total number of donors: 1257
-- of which buried: 595
+- of which buried: 596
 Total number of acceptors: 1324
 - of which buried: 495
 Total number of donor+acceptors: 162
   (e.g. the Ser Ogamma that can donate and accept)
 - of which buried: 42
-Buried donors: 595
-- without H-bond: 59
+Buried donors: 596
+- without H-bond: 58
 - essentially without H-bond: 0
-- with only a very poor H-bond: 1
-- with a poor H-bond: 2
-- with a H-bond: 533
+- with only a very poor H-bond: 0
+- with a poor H-bond: 4
+- with a H-bond: 534
 Buried acceptors: 495
-- without H-bond: 65
-- essentially without H-bond: 0
-- with only a very poor H-bond: 2
-- with a poor H-bond: 14
-- with a H-bond: 414
+- without H-bond: 64
+- essentially without H-bond: 1
+- with only a very poor H-bond: 1
+- with a poor H-bond: 13
+- with a H-bond: 416
  
 # 108 # Note: Content of the PDB file as interpreted by WHAT CHECK
 Content of the PDB file as interpreted by WHAT CHECK.
@@ -1300,19 +1281,19 @@ large. The former does not need to be a problem, the latter always is bad.
  
  Structure Z-scores, positive is better than average:
   Resolution read from PDB file  :   2.390
-  1st generation packing quality :  -0.428 (          (  -0.3,  2.5))
-  2nd generation packing quality :  -0.451 (          (  -1.3,  1.3))
-  Ramachandran plot appearance   :  -0.376 (          (  -1.9,  1.3))
-  chi-1/chi-2 rotamer normality  :  -3.237 (poor      (  -3.8,  1.6))
-  Backbone conformation          :   1.000 (          (  -0.7,  3.6))
+  1st generation packing quality :  -0.432 (          (  -0.3,  2.5))
+  2nd generation packing quality :  -0.467 (          (  -1.3,  1.3))
+  Ramachandran plot appearance   :  -0.373 (          (  -1.9,  1.3))
+  chi-1/chi-2 rotamer normality  :  -3.268 (poor      (  -3.8,  1.6))
+  Backbone conformation          :   0.992 (          (  -0.7,  3.6))
   Inside/Outside distribution    :   0.994
  
  RMS Z-scores, should be close to 1.0:
-  Bond lengths                   :   0.422 (tight)
-  Bond angles                    :   0.710
-  Omega angle restraints         :   1.181
-  Side chain planarity           :   0.383 (tight)
-  Improper dihedral distribution :   0.587
+  Bond lengths                   :   0.414 (tight)
+  Bond angles                    :   0.708
+  Omega angle restraints         :   1.179
+  Side chain planarity           :   0.381 (tight)
+  Improper dihedral distribution :   0.585
   B-factor distribution          :   0.610
  
 # 110 # Note: Introduction to refinement recommendations
@@ -1382,22 +1363,22 @@ of the graphics screen and study the residues with the electron density
 present that you improve the structure most by dealing with the top residues
 in this list first.
  
-  454 ARG  (  17-) A  -     15.05
+  454 ARG  (  17-) A  -     15.03
   111 GLN  ( 112-) D  -     14.49
-  692 GLN  ( 255-) A  -     12.96
-  568 ARG  ( 131-) A  -     12.93
+  692 GLN  ( 255-) A  -     13.00
+  568 ARG  ( 131-) A  -     12.95
   398 ARG  ( 202-) E  -     12.61
-  162 MET  ( 164-) D  -     12.08
-  256 LEU  (  60-) E  -     12.05
-  663 GLN  ( 226-) A  -     11.96
+  256 LEU  (  60-) E  -     12.13
+  162 MET  ( 164-) D  -     12.07
+  663 GLN  ( 226-) A  -     11.94
   235 LEU  (  39-) E  -     11.86
-  205 ARG  (   9-) E  -     11.80
-  124 LYS  ( 125-) D  -     11.56
-  188 ILE  ( 190-) D  -     11.44
-  330 HIS  ( 134-) E  -     11.34
-  485 ARG  (  48-) A  -     11.33
+  205 ARG  (   9-) E  -     11.82
+  124 LYS  ( 125-) D  -     11.54
+  188 ILE  ( 190-) D  -     11.45
+  485 ARG  (  48-) A  -     11.34
+  330 HIS  ( 134-) E  -     11.31
   159 MET  ( 161-) D  -     11.02
-And so on for a total of    84 lines.
+And so on for a total of    82 lines.
 ==============
  
  

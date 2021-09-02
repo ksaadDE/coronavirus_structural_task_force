@@ -33,12 +33,13 @@ SOURCE  17 EXPRESSION_SYSTEM_TAXID: 905932
 KEYWDS    H-TYPE PSEUDOKNOT, RNA, RNA-IMMUNE SYSTEM COMPLEX                     
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.ROMAN,A.LEWICKA                                                     
+REVDAT   2   01-SEP-21 7MLX    1       JRNL                                     
 REVDAT   1   11-AUG-21 7MLX    0                                                
 JRNL        AUTH   C.ROMAN,A.LEWICKA,D.KOIRALA,N.S.LI,J.A.PICCIRILLI            
 JRNL        TITL   THE SARS-COV-2 PROGRAMMED -1 RIBOSOMAL FRAMESHIFTING ELEMENT 
 JRNL        TITL 2 CRYSTAL STRUCTURE SOLVED TO 2.09 ANGSTROM USING              
 JRNL        TITL 3 CHAPERONE-ASSISTED RNA CRYSTALLOGRAPHY.                      
-JRNL        REF    ACS CHEM.BIOL.                             2021              
+JRNL        REF    ACS CHEM.BIOL.                V.  16  1469 2021              
 JRNL        REFN                   ESSN 1554-8937                               
 JRNL        PMID   34328734                                                     
 JRNL        DOI    10.1021/ACSCHEMBIO.1C00324                                   

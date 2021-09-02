@@ -27,12 +27,14 @@ def main(pdb_id, protein):
     change_database_entry(pdb_id, protein)
 
 def move_n_del(repo_path, pdb_id, protein):
-    shutil.copytree(os.path.join(repo_path,"not_assigned", taxo_id, pdb_id),os.path.join(repo_path,protein, taxo_id, pdb_id))
+    shutil.copytree(os.path.join(repo_path,"not_assigned", taxo_id, pdb_id),
+                    os.path.join(repo_path,protein, taxo_id, pdb_id))
     shutil.rmtree(os.path.join(repo_path,"not_assigned", taxo_id, pdb_id))
 
 def change_database_entry(pdb_id, protein):
     df = pd.read_pickle("main_repo_database_" + taxo_id + ".pkl")
     df.loc[df["pdb_id"] == pdb_id, "protein"] = protein
+    df.loc[df["pdb_id"] == pdb_id,"path_in_repo"] = os.path.join("pdb", protein, taxo_id, pdb_id)
     df.to_pickle("main_repo_database_" + taxo_id + ".pkl")
 
 main(args.pdb_id, args.protein)

@@ -1,7 +1,7 @@
 {
   "data": {
     "PDBID": "7n1a",
-    "coordinates_revision_date_pdb": "2021-07-28",
+    "coordinates_revision_date_pdb": "2021-08-18",
     "coordinates_revision_major_mmCIF": null,
     "coordinates_revision_minor_mmCIF": null,
     "coordinates_edited": false,
@@ -10,7 +10,7 @@
   },
   "software": {
     "pdb-redo": {
-      "version": "7.35",
+      "version": "7.36",
       "used": true
     },
     "mtzdmp": {
@@ -206,7 +206,7 @@
       "used": false
     },
     "cif-merge": {
-      "version": "107.315",
+      "version": "139.455",
       "used": true
     },
     "fixDMC": {
@@ -238,7 +238,7 @@
       "used": false
     },
     "tortoize": {
-      "version": "44",
+      "version": "54",
       "used": true
     },
     "molrep": {

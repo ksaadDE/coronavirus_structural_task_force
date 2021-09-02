@@ -59,12 +59,16 @@ SOURCE  34 ORGANISM_TAXID: 2697049
 KEYWDS    TCR-PMHC, SARS-COV-2, SPIKE, YLQ, IMMUNE SYSTEM                       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.WU,R.A.MARIUZZA                                                     
+REVDAT   2   18-AUG-21 7N1F    1       JRNL                                     
 REVDAT   1   28-JUL-21 7N1F    0                                                
-JRNL        AUTH   D.WU,R.A.MARIUZZA                                            
-JRNL        TITL   SARS-COV-2 YLQ PEPTIDE-SPECIFIC TCR PYLQ7 BINDS TO           
-JRNL        TITL 2 YLQ-HLA-A2                                                   
-JRNL        REF    TO BE PUBLISHED                                              
+JRNL        AUTH   D.WU,A.KOLESNIKOV,R.YIN,J.D.GUEST,R.GOWTHAMAN,A.SHMELEV,     
+JRNL        AUTH 2 Y.SERDYUK,G.A.EFIMOV,B.G.PIERCE,R.A.MARIUZZA                 
+JRNL        TITL   STRUCTURAL BASIS FOR RECOGNITION OF TWO HLA-A2-RESTRICTED    
+JRNL        TITL 2 SARS-COV-2 SPIKE EPITOPES BY PUBLIC AND PRIVATE T CELL       
+JRNL        TITL 3 RECEPTORS                                                    
+JRNL        REF    BIORXIV                                    2021              
 JRNL        REFN                                                                
+JRNL        DOI    10.1101/2021.07.28.454232                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.39 ANGSTROMS.                                       
 REMARK   3                                                                      

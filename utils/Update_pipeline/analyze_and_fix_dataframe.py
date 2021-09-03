@@ -8,6 +8,7 @@ This contains functions used to analyze the data frame or to fix bugs.
 @author: Maximilian Edich
 """
 
+import os
 import pandas as pd
 
 df = pd.read_pickle("main_repo_database_SARS-CoV-2.pkl")
@@ -38,15 +39,26 @@ def remove_duplicates():
     nf.to_pickle("main_repo_database_SARS-CoV-2.pkl")
 
 
+# # # Change path of not assigned
+def update_path_of_not_assigned():
+    # find entries with 'not_assigned' in their path
+    for entry in df['path_in_repo']:
+        if str(entry).find('not_assigned') >= 0:
+            prot = df.loc[df['path_in_repo'] == entry, 'protein']
+            pdb_id = df.loc[df['path_in_repo'] == entry, 'pdb_id']
+            print(entry)
+            print(pdb_id)
+            # get value of protein
+            for value in prot:
+                print(value)
+                if value != 'not_assigned':
+                    new_path = os.path.join("pdb", value, "SARS-CoV-2", str(pdb_id))
+                    print(new_path)
+            
+            print()
 
 
-"""
+update_path_of_not_assigned()
 
-for entry in df['path_in_repo']:
-    if str(entry).find('not_assigned') >= 0:
-        prot = df.loc[df['path_in_repo'] == entry]['protein']
-        print(entry)
-        print(prot)
-        print()
-        
-"""
+
+

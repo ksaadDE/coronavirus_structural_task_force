@@ -52,6 +52,7 @@ def update_path_of_not_assigned():
             if prot == "not_assigned":
                 # pdb has to be assigned manually
                 not_assigned.append(pdb_id)
+                print(prot)
             else:
                 # update path
                 new_path = os.path.join("pdb", prot, "SARS-CoV-2", pdb_id)
@@ -66,8 +67,12 @@ def update_path_of_not_assigned():
     df.to_pickle("main_repo_database_SARS-CoV-2.pkl")
     
 
+def assign_protein_to_data_frame_entry(pdb_id, protein):
+    df.loc[df["pdb_id"] == pdb_id, "protein"] = protein
+    df.to_pickle("main_repo_database_SARS-CoV-2.pkl")
 
-update_path_of_not_assigned()
+
+
 
 
 

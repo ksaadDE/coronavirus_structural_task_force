@@ -38,6 +38,7 @@ KEYWDS   3 SSGCID, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    D.VEESLER,M.A.TORTORICI,SEATTLE STRUCTURAL GENOMICS CENTER FOR        
 AUTHOR   2 INFECTIOUS DISEASE (SSGCID)                                          
+REVDAT   2   15-SEP-21 7RA8    1       JRNL                                     
 REVDAT   1   04-AUG-21 7RA8    0                                                
 JRNL        AUTH   M.A.TORTORICI,N.CZUDNOCHOWSKI,T.N.STARR,R.MARZI,A.C.WALLS,   
 JRNL        AUTH 2 F.ZATTA,J.E.BOWEN,S.JACONI,J.DI IULIO,Z.WANG,A.DE MARCO,     
@@ -50,7 +51,7 @@ JRNL        AUTH 8 J.NEYTS,A.TELENTI,H.W.VIRGIN,S.P.J.WHELAN,G.SNELL,J.D.BLOOM,
 JRNL        AUTH 9 D.CORTI,D.VEESLER,M.S.PIZZUTO                                
 JRNL        TITL   BROAD SARBECOVIRUS NEUTRALIZATION BY A HUMAN MONOCLONAL      
 JRNL        TITL 2 ANTIBODY.                                                    
-JRNL        REF    NATURE                                     2021              
+JRNL        REF    NATURE                        V. 597   103 2021              
 JRNL        REFN                   ESSN 1476-4687                               
 JRNL        PMID   34280951                                                     
 JRNL        DOI    10.1038/S41586-021-03817-4                                   

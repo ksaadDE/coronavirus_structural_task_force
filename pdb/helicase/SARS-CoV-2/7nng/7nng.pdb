@@ -19,6 +19,7 @@ SOURCE   8 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    NSP13, HELICASE, SARS-COV-2, HYDROLASE                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.A.NEWMAN,Y.YOSAATMADJA,A.DOUANGAMATH,C.BOUNTRA,O.GILEADI            
+REVDAT   2   15-SEP-21 7NNG    1       COMPND HETNAM                            
 REVDAT   1   07-APR-21 7NNG    0                                                
 JRNL        AUTH   J.A.NEWMAN,Y.YOSAATMADJA,A.DOUANGAMATH,C.BOUNTRA,O.GILEADI   
 JRNL        TITL   CRYSTAL STRUCTURE OF THE SARS-COV-2 HELICASE IN COMPLEX WITH 
@@ -551,7 +552,7 @@ HET     ZN  A 703       1
 HET     ZN  A 704       1                                                       
 HET    PO4  A 705       5                                                       
 HET    PO4  A 706       5                                                       
-HETNAM     UJK 1-(2-METHYLPHENYL)-1H-1,2,3-TRIAZOLE-4-CARBOXYLIC ACID           
+HETNAM     UJK 1-(2-METHYLPHENYL)-1,2,3-TRIAZOLE-4-CARBOXYLIC ACID              
 HETNAM      ZN ZINC ION                                                         
 HETNAM     PO4 PHOSPHATE ION                                                    
 HETSYN     UJK 1-O-TOLYL-1H-[1,2,3]TRIAZOLE-4-CARBOXYLIC ACID, 1-(2-            

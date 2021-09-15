@@ -48,6 +48,7 @@ SOURCE  26 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, ANTIBODY, VIRAL PROTEIN                                   
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    S.DU,J.XIAO                                                           
+REVDAT   2   15-SEP-21 7EYA    1       REMARK                                   
 REVDAT   1   08-SEP-21 7EYA    0                                                
 JRNL        AUTH   S.DU,P.LIU,Z.ZHANG,T.XIAO,A.YASIMAYI,W.HUANG,Y.WANG,Y.CAO,   
 JRNL        AUTH 2 X.S.XIE,J.XIAO                                               

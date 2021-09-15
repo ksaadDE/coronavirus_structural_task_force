@@ -8847,11 +8847,14 @@ _pdbx_struct_oper_list.vector[3]
 6 'crystal symmetry operation' 6_445 x-y-1,x-1,z+1/2 0.5000000000  -0.8660254038 0.0000000000 -75.0070000000 0.8660254038  
 0.5000000000  0.0000000000 -129.9159349233 0.0000000000 0.0000000000 1.0000000000 55.5210000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-09-08 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-09-08 
+2 'Structure model' 1 1 2021-09-15 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -8860,6 +8863,16 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Structure summary' 
+# 
+_pdbx_audit_revision_category.ordinal             1 
+_pdbx_audit_revision_category.revision_ordinal    2 
+_pdbx_audit_revision_category.data_content_type   'Structure model' 
+_pdbx_audit_revision_category.category            pdbx_deposit_group 
 # 
 _phasing.method   MR 
 # 
@@ -9092,13 +9105,6 @@ _pdbx_audit_support.funding_organization   'Sao Paulo Research Foundation (FAPES
 _pdbx_audit_support.country                Brazil 
 _pdbx_audit_support.grant_number           2013/07600-3 
 _pdbx_audit_support.ordinal                1 
-# 
-_pdbx_deposit_group.group_id            UNNAMED 
-_pdbx_deposit_group.group_description   
-;XDomainX of XOrganismX None screened against the XXX Fragment Library by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1
-;
-_pdbx_deposit_group.group_title         'PanDDA analysis group deposition' 
-_pdbx_deposit_group.group_type          'changed state' 
 # 
 _pdbx_entity_instance_feature.ordinal        1 
 _pdbx_entity_instance_feature.comp_id        S6V 

@@ -20,6 +20,7 @@ KEYWDS    MPRO, INHIBITOR, MAIN PROTEASE, 3CL, SARS, SARS-COV-2, COVID, COVID-
 KEYWDS   2 19, VIRAL PROTEIN, HYDROLASE, HYDROLASE-HYDROLASE INHIBITOR COMPLEX  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.SACCO,Y.CHEN                                                        
+REVDAT   2   15-SEP-21 7RN1    1       REMARK                                   
 REVDAT   1   08-SEP-21 7RN1    0                                                
 JRNL        AUTH   M.SACCO                                                      
 JRNL        TITL   CRYSTAL STRUCTURE OF THE SARS-COV-2 (COVID-19) MAIN PROTEASE 
@@ -255,11 +256,19 @@ REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: DIMERIC                    
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 TOTAL BURIED SURFACE AREA: 4610 ANGSTROM**2                          
+REMARK 350 SURFACE AREA OF THE COMPLEX: 24880 ANGSTROM**2                       
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -58.0 KCAL/MOL                        
 REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 350   BIOMT1   2 -1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   2  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   2  0.000000  0.000000 -1.000000        0.00000            
 REMARK 375                                                                      
 REMARK 375 SPECIAL POSITION                                                     
 REMARK 375 THE FOLLOWING ATOMS ARE FOUND TO BE WITHIN 0.15 ANGSTROMS            
@@ -2852,5 +2861,5 @@ CONECT 2411 2409 2412 2413
 CONECT 2412 2411                                                                
 CONECT 2413 2411 2414                                                           
 CONECT 2414 2413                                                                
-MASTER      280    0    4   10   15    0    0    6 2411    1   53   24          
+MASTER      288    0    4   10   15    0    0    6 2411    1   53   24          
 END                                                                             

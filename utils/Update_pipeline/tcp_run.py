@@ -1,4 +1,5 @@
 import tcp_main
+import analyze_and_fix_dataframe
 import os
 import RMSD
 import mk_Alignment_strc_vs_seq as align
@@ -51,3 +52,10 @@ print("Doing sequence aligntment")
 align.main(changed_prot_list, c_new_pdb_lst, repo_path, taxo)
 print("Calculating RMSD")
 RMSD.main(changed_prot_list, repo_path)
+
+# check for common errors in the data base. These are currently:
+# duplicate entries
+# entries with wrong path containing 'not_assigned' after assignment
+# entries not assigned to a protein at all
+
+analyze_and_fix_dataframe.run()

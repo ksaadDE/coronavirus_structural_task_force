@@ -134,5 +134,3 @@ def run():
         print("Scan finished. Scan revealed " + str(errors) + " errors!\n")
     # for fixing the errors, call the respective functions from above
 
-
-run()

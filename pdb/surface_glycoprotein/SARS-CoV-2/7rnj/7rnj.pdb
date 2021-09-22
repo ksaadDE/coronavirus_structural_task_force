@@ -34,6 +34,7 @@ KEYWDS   2 PROTEIN-IMMUNE SYSTEM COMPLEX, ANTIVIRAL PROTEIN, IMMUNE SYSTEM
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.SNELL,N.CZUDNOCHOWSKI,T.I.CROLL,J.C.NIX,D.CORTI,E.CAMERONI,D.PINTO, 
 AUTHOR   2 M.BELTRAMELLO,M.M.SAUER,D.VEESLER                                    
+REVDAT   2   22-SEP-21 7RNJ    1       JRNL                                     
 REVDAT   1   11-AUG-21 7RNJ    0                                                
 JRNL        AUTH   D.PINTO,M.M.SAUER,N.CZUDNOCHOWSKI,J.S.LOW,M.A.TORTORICI,     
 JRNL        AUTH 2 M.P.HOUSLEY,J.NOACK,A.C.WALLS,J.E.BOWEN,B.GUARINO,L.E.ROSEN, 
@@ -47,7 +48,7 @@ JRNL        AUTH 9 A.LANZAVECCHIA,F.SALLUSTO,G.SNELL,H.W.VIRGIN,M.BELTRAMELLO,
 JRNL        AUTH10 D.CORTI,D.VEESLER                                            
 JRNL        TITL   BROAD BETACORONAVIRUS NEUTRALIZATION BY A STEM               
 JRNL        TITL 2 HELIX-SPECIFIC HUMAN ANTIBODY.                               
-JRNL        REF    SCIENCE                                    2021              
+JRNL        REF    SCIENCE                       V. 373  1109 2021              
 JRNL        REFN                   ESSN 1095-9203                               
 JRNL        PMID   34344823                                                     
 JRNL        DOI    10.1126/SCIENCE.ABJ3321                                      

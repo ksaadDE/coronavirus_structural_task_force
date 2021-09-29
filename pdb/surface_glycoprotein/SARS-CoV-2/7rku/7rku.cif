@@ -59,14 +59,14 @@ _citation.journal_full              ?
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                109760 
+_citation.page_last                 109760 
 _citation.title                     
-'Broad cross-reactivity across sarbecoviruses exhibited by a subset of COVID-19 donor-derived neutralizing antibodies' 
+'Broad cross-reactivity across sarbecoviruses exhibited by a subset of COVID-19 donor-derived neutralizing antibodies.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.celrep.2021.109760 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34534459 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -75,20 +75,20 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Jette, C.A.'         1  ? 
-primary 'Cohen, A.A.'         2  ? 
-primary 'Gnanapragasam, P.N.' 3  ? 
-primary 'Muecksch, F.'        4  ? 
-primary 'Lee, Y.E.'           5  ? 
-primary 'Huey-Tubman, K.E.'   6  ? 
-primary 'Schmidt, F.'         7  ? 
-primary 'Hatziioannou, T.'    8  ? 
-primary 'Bieniasz, P.D.'      9  ? 
-primary 'Nussenzweig, M.C.'   10 ? 
-primary 'West, A.P.'          11 ? 
-primary 'Keeffe, J.R.'        12 ? 
-primary 'Bjorkman, P.J.'      13 ? 
-primary 'Barnes, C.O.'        14 ? 
+primary 'Jette, C.A.'           1  ? 
+primary 'Cohen, A.A.'           2  ? 
+primary 'Gnanapragasam, P.N.P.' 3  ? 
+primary 'Muecksch, F.'          4  ? 
+primary 'Lee, Y.E.'             5  ? 
+primary 'Huey-Tubman, K.E.'     6  ? 
+primary 'Schmidt, F.'           7  ? 
+primary 'Hatziioannou, T.'      8  ? 
+primary 'Bieniasz, P.D.'        9  ? 
+primary 'Nussenzweig, M.C.'     10 ? 
+primary 'West Jr., A.P.'        11 ? 
+primary 'Keeffe, J.R.'          12 ? 
+primary 'Bjorkman, P.J.'        13 ? 
+primary 'Barnes, C.O.'          14 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -25214,11 +25214,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-09-22 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-09-22 
+2 'Structure model' 1 1 2021-09-29 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -25227,6 +25230,30 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.page_first'              
+2 2 'Structure model' '_citation.page_last'               
+3 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+4 2 'Structure model' '_citation.title'                   
+5 2 'Structure model' '_citation_author.name'             
 # 
 loop_
 _space_group_symop.id 

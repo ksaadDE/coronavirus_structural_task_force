@@ -61,12 +61,14 @@ KEYWDS   2 PROTEIN
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    F.KABINGER,C.STILLER,J.SCHMITZOVA,C.DIENEMANN,G.KOKIC,H.S.HILLEN,     
 AUTHOR   2 C.HOEBARTNER,P.CRAMER                                                
+REVDAT   2   29-SEP-21 7OZV    1       JRNL                                     
 REVDAT   1   18-AUG-21 7OZV    0                                                
 JRNL        AUTH   F.KABINGER,C.STILLER,J.SCHMITZOVA,C.DIENEMANN,G.KOKIC,       
 JRNL        AUTH 2 H.S.HILLEN,C.HOBARTNER,P.CRAMER                              
-JRNL        TITL   MECHANISM OF MOLNUPIRAVIR-INDUCED SARS-COV-2 MUTAGENESIS     
-JRNL        REF    NAT.CHEM.BIOL.                             2021              
-JRNL        REFN                   ESSN 1552-4469                               
+JRNL        TITL   MECHANISM OF MOLNUPIRAVIR-INDUCED SARS-COV-2 MUTAGENESIS.    
+JRNL        REF    NAT.STRUCT.MOL.BIOL.          V.  28   740 2021              
+JRNL        REFN                   ESSN 1545-9985                               
+JRNL        PMID   34381216                                                     
 JRNL        DOI    10.1038/S41594-021-00651-0                                   
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          

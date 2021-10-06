@@ -17,14 +17,16 @@ SOURCE   9 EXPRESSION_SYSTEM_CELL_LINE: FREESTYLE 293F
 KEYWDS    SARS-COV-2 COVID19, VIRAL PROTEIN                                     
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    T.ZHOU,Y.TSYBOVSKY,P.D.KWONG                                          
+REVDAT   2   06-OCT-21 7JWY    1       JRNL                                     
 REVDAT   1   25-NOV-20 7JWY    0                                                
 JRNL        AUTH   T.ZHOU,Y.TSYBOVSKY,A.S.OLIA,J.GORMAN,M.A.RAPP,G.CERUTTI,     
-JRNL        AUTH 2 P.S.KATSAMBA,A.NAZZARI,A.SCHON,P.D.WANG,J.BIMELA,W.SHI,      
-JRNL        AUTH 3 I.T.TENG,B.ZHANG,J.C.BOYINGTON,G.Y.CHUANG,J.M.SAMPSON,       
+JRNL        AUTH 2 G.Y.CHUANG,P.S.KATSAMBA,A.NAZZARI,J.M.SAMPSON,A.SCHON,       
+JRNL        AUTH 3 P.D.WANG,J.BIMELA,W.SHI,I.T.TENG,B.ZHANG,J.C.BOYINGTON,      
 JRNL        AUTH 4 M.SASTRY,T.STEPHENS,J.STUCKEY,S.WANG,R.A.FRIESNER,D.D.HO,    
 JRNL        AUTH 5 J.R.MASCOLA,L.SHAPIRO,P.D.KWONG                              
-JRNL        TITL   A PH-DEPENDENT SWITCH MEDIATES CONFORMATIONAL MASKING OF     
-JRNL        TITL 2 SARS-COV-2 SPIKE.                                            
+JRNL        TITL   CRYO-EM STRUCTURES DELINEATE A PH-DEPENDENT SWITCH THAT      
+JRNL        TITL 2 MEDIATES ENDOSOMAL POSITIONING OF SARS-COV-2 SPIKE           
+JRNL        TITL 3 RECEPTOR-BINDING DOMAINS.                                    
 JRNL        REF    BIORXIV                                    2020              
 JRNL        REFN                                                                
 JRNL        PMID   32637958                                                     
@@ -91,7 +93,7 @@ REMARK 245   MINIMUM TILT ANGLE (DEGREES)      : NULL
 REMARK 245   MAXIMUM TILT ANGLE (DEGREES)      : NULL                           
 REMARK 245   NOMINAL CS                        : NULL                           
 REMARK 245   IMAGING MODE                      : BRIGHT FIELD                   
-REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 40.00                          
+REMARK 245   ELECTRON DOSE (ELECTRONS NM**-2)  : 4000.00                        
 REMARK 245   ILLUMINATION MODE                 : FLOOD BEAM                     
 REMARK 245   NOMINAL MAGNIFICATION             : NULL                           
 REMARK 245   CALIBRATED MAGNIFICATION          : NULL                           

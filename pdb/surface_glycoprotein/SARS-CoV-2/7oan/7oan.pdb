@@ -27,18 +27,34 @@ SOURCE  15 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    SPIKE, NANOBODY, HIGH AFFINITY, ANTIVIRAL PROTEIN                     
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.H.NAISMITH,M.WECKENER                                               
+REVDAT   2   06-OCT-21 7OAN    1       JRNL                                     
 REVDAT   1   11-AUG-21 7OAN    0                                                
-JRNL        AUTH   J.HUO,H.MIKOLAJEK,A.LE BAS,J.CLARK,P.SHARMA,A.KIPAR,         
-JRNL        AUTH 2 J.DORMON,C.NORMAN,M.WECKENER,D.CLARE,P.HARRISON,J.TREE,      
-JRNL        AUTH 3 K.BUTTIGIEG,F.SALGUERO,R.WATSON,D.KNOTT,O.CARNELL,D.NGABO,   
-JRNL        AUTH 4 M.ELMORE,S.FOTHERINGHAM,A.HARDING,P.WARD,L.MOYNIE,M.DUMOUX,  
-JRNL        AUTH 5 Y.HALL,J.HISCOX,A.OWEN,W.JAMES,M.CARROLL,J.STEWART,          
-JRNL        AUTH 6 J.NAISMITH,R.OWENS                                           
+JRNL        AUTH   J.HUO,H.MIKOLAJEK,A.LE BAS,J.J.CLARK,P.SHARMA,A.KIPAR,       
+JRNL        AUTH 2 J.DORMON,C.NORMAN,M.WECKENER,D.K.CLARE,P.J.HARRISON,         
+JRNL        AUTH 3 J.A.TREE,K.R.BUTTIGIEG,F.J.SALGUERO,R.WATSON,D.KNOTT,        
+JRNL        AUTH 4 O.CARNELL,D.NGABO,M.J.ELMORE,S.FOTHERINGHAM,A.HARDING,       
+JRNL        AUTH 5 L.MOYNIE,P.N.WARD,M.DUMOUX,T.PRINCE,Y.HALL,J.A.HISCOX,       
+JRNL        AUTH 6 A.OWEN,W.JAMES,M.W.CARROLL,J.P.STEWART,J.H.NAISMITH,         
+JRNL        AUTH 7 R.J.OWENS                                                    
 JRNL        TITL   A POTENT SARS-COV-2 NEUTRALISING NANOBODY SHOWS THERAPEUTIC  
-JRNL        TITL 2 EFFICACY IN THE SYRIAN GOLDEN HAMSTER MODEL OF COVID-19      
-JRNL        REF    RES SQ                                     2021              
-JRNL        REFN                   ESSN 2693-5015                               
-JRNL        DOI    10.21203/RS.3.RS-548968/V1                                   
+JRNL        TITL 2 EFFICACY IN THE SYRIAN GOLDEN HAMSTER MODEL OF COVID-19.     
+JRNL        REF    NAT COMMUN                    V.  12  5469 2021              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   34552091                                                     
+JRNL        DOI    10.1038/S41467-021-25480-Z                                   
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   J.HUO,H.MIKOLAJEK,A.LE BAS,J.CLARK,P.SHARMA,A.KIPAR,         
+REMARK   1  AUTH 2 J.DORMON,C.NORMAN,M.WECKENER,D.CLARE,P.HARRISON,J.TREE,      
+REMARK   1  AUTH 3 K.BUTTIGIEG,F.SALGUERO,R.WATSON,D.KNOTT,O.CARNELL,D.NGABO,   
+REMARK   1  AUTH 4 M.ELMORE,S.FOTHERINGHAM,A.HARDING,P.WARD,L.MOYNIE,M.DUMOUX,  
+REMARK   1  AUTH 5 Y.HALL,J.HISCOX,A.OWEN,W.JAMES,M.CARROLL,J.STEWART,          
+REMARK   1  AUTH 6 J.NAISMITH,R.OWENS                                           
+REMARK   1  TITL   A POTENT SARS-COV-2 NEUTRALISING NANOBODY SHOWS THERAPEUTIC  
+REMARK   1  TITL 2 EFFICACY IN THE SYRIAN GOLDEN HAMSTER MODEL OF COVID-19      
+REMARK   1  REF    RES SQ                                     2021              
+REMARK   1  REFN                   ESSN 2693-5015                               
+REMARK   1  DOI    10.21203/RS.3.RS-548968/V1                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.00 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -31192,5 +31208,5 @@ CONECT2820628199
 CONECT282072819628200                                                           
 CONECT2820828201                                                                
 CONECT2820928202                                                                
-MASTER      864    0   66   67  252    0    0    628203    6 1071  321          
+MASTER      877    0   66   67  252    0    0    628203    6 1071  321          
 END                                                                             

@@ -46,6 +46,7 @@ taxo = args.taxonomy
 
 
 repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
+print(repo_path)
 print("Searching for new and changed structures")
 c_new_pdb_lst, changed_prot_list = tcp_main.main(taxonomy_id=taxonomy_id, negate_taxonomy_id=negate_taxonomy_id, taxo=taxo)
 print("Doing sequence aligntment")

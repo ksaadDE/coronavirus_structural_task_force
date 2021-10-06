@@ -3,7 +3,7 @@ data_7OAN
 _entry.id   7OAN 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.347 
+_audit_conform.dict_version    5.350 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -40,73 +40,112 @@ _audit_author.identifier_ORCID
 'Naismith, J.H.' 1 0000-0001-6744-5061 
 'Weckener, M.'   2 0000-0002-1419-9378 
 # 
-_citation.abstract                  ? 
-_citation.abstract_id_CAS           ? 
-_citation.book_id_ISBN              ? 
-_citation.book_publisher            ? 
-_citation.book_publisher_city       ? 
-_citation.book_title                ? 
-_citation.coordinate_linkage        ? 
-_citation.country                   US 
-_citation.database_id_Medline       ? 
-_citation.details                   ? 
-_citation.id                        primary 
-_citation.journal_abbrev            'Res Sq' 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            ? 
-_citation.journal_id_ISSN           2693-5015 
-_citation.journal_full              ? 
-_citation.journal_issue             ? 
-_citation.journal_volume            ? 
-_citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     
-'A potent SARS-CoV-2 neutralising nanobody shows therapeutic efficacy in the Syrian golden hamster model of COVID-19' 
-_citation.year                      2021 
-_citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.21203/rs.3.rs-548968/v1 
-_citation.pdbx_database_id_PubMed   ? 
-_citation.pdbx_database_id_patent   ? 
-_citation.unpublished_flag          ? 
+loop_
+_citation.abstract 
+_citation.abstract_id_CAS 
+_citation.book_id_ISBN 
+_citation.book_publisher 
+_citation.book_publisher_city 
+_citation.book_title 
+_citation.coordinate_linkage 
+_citation.country 
+_citation.database_id_Medline 
+_citation.details 
+_citation.id 
+_citation.journal_abbrev 
+_citation.journal_id_ASTM 
+_citation.journal_id_CSD 
+_citation.journal_id_ISSN 
+_citation.journal_full 
+_citation.journal_issue 
+_citation.journal_volume 
+_citation.language 
+_citation.page_first 
+_citation.page_last 
+_citation.title 
+_citation.year 
+_citation.database_id_CSD 
+_citation.pdbx_database_id_DOI 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_patent 
+_citation.unpublished_flag 
+? ? ? ? ? ? ? UK ? ? primary 'Nat Commun' ? ? 2041-1723 ? ? 12 ? 5469 5469 
+'A potent SARS-CoV-2 neutralising nanobody shows therapeutic efficacy in the Syrian golden hamster model of COVID-19.' 2021 ? 
+10.1038/s41467-021-25480-z 34552091 ? ? 
+? ? ? ? ? ? ? US ? ? 1       'Res Sq'     ? ? 2693-5015 ? ? ?  ? ?    ?    
+'A potent SARS-CoV-2 neutralising nanobody shows therapeutic efficacy in the Syrian golden hamster model of COVID-19'  2021 ? 
+10.21203/rs.3.rs-548968/v1 ?        ? ? 
 # 
 loop_
 _citation_author.citation_id 
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Huo, J.'          1  ? 
-primary 'Mikolajek, H.'    2  ? 
-primary 'Le Bas, A.'       3  ? 
-primary 'Clark, J.'        4  ? 
-primary 'Sharma, P.'       5  ? 
-primary 'Kipar, A.'        6  ? 
-primary 'Dormon, J.'       7  ? 
-primary 'Norman, C.'       8  ? 
-primary 'Weckener, M.'     9  ? 
-primary 'Clare, D.'        10 ? 
-primary 'Harrison, P.'     11 ? 
-primary 'Tree, J.'         12 ? 
-primary 'Buttigieg, K.'    13 ? 
-primary 'Salguero, F.'     14 ? 
-primary 'Watson, R.'       15 ? 
-primary 'Knott, D.'        16 ? 
-primary 'Carnell, O.'      17 ? 
-primary 'Ngabo, D.'        18 ? 
-primary 'Elmore, M.'       19 ? 
-primary 'Fotheringham, S.' 20 ? 
-primary 'Harding, A.'      21 ? 
-primary 'Ward, P.'         22 ? 
-primary 'Moynie, L.'       23 ? 
-primary 'Dumoux, M.'       24 ? 
-primary 'Hall, Y.'         25 ? 
-primary 'Hiscox, J.'       26 ? 
-primary 'Owen, A.'         27 ? 
-primary 'James, W.'        28 ? 
-primary 'Carroll, M.'      29 ? 
-primary 'Stewart, J.'      30 ? 
-primary 'Naismith, J.'     31 ? 
-primary 'Owens, R.'        32 ? 
+primary 'Huo, J.'          1  0000-0002-7899-1815 
+primary 'Mikolajek, H.'    2  ?                   
+primary 'Le Bas, A.'       3  ?                   
+primary 'Clark, J.J.'      4  0000-0003-1790-7883 
+primary 'Sharma, P.'       5  ?                   
+primary 'Kipar, A.'        6  ?                   
+primary 'Dormon, J.'       7  ?                   
+primary 'Norman, C.'       8  ?                   
+primary 'Weckener, M.'     9  ?                   
+primary 'Clare, D.K.'      10 ?                   
+primary 'Harrison, P.J.'   11 ?                   
+primary 'Tree, J.A.'       12 ?                   
+primary 'Buttigieg, K.R.'  13 ?                   
+primary 'Salguero, F.J.'   14 ?                   
+primary 'Watson, R.'       15 0000-0003-3146-3457 
+primary 'Knott, D.'        16 ?                   
+primary 'Carnell, O.'      17 0000-0001-8847-5489 
+primary 'Ngabo, D.'        18 0000-0003-1818-1439 
+primary 'Elmore, M.J.'     19 0000-0001-9425-2660 
+primary 'Fotheringham, S.' 20 ?                   
+primary 'Harding, A.'      21 ?                   
+primary 'Moynie, L.'       22 ?                   
+primary 'Ward, P.N.'       23 0000-0003-2546-3426 
+primary 'Dumoux, M.'       24 0000-0002-1732-1041 
+primary 'Prince, T.'       25 0000-0002-8796-2629 
+primary 'Hall, Y.'         26 ?                   
+primary 'Hiscox, J.A.'     27 ?                   
+primary 'Owen, A.'         28 0000-0002-9819-7651 
+primary 'James, W.'        29 0000-0002-2506-1198 
+primary 'Carroll, M.W.'    30 ?                   
+primary 'Stewart, J.P.'    31 0000-0002-8928-2037 
+primary 'Naismith, J.H.'   32 0000-0001-6744-5061 
+primary 'Owens, R.J.'      33 0000-0002-3705-2993 
+1       'Huo, J.'          34 ?                   
+1       'Mikolajek, H.'    35 ?                   
+1       'Le Bas, A.'       36 ?                   
+1       'Clark, J.'        37 ?                   
+1       'Sharma, P.'       38 ?                   
+1       'Kipar, A.'        39 ?                   
+1       'Dormon, J.'       40 ?                   
+1       'Norman, C.'       41 ?                   
+1       'Weckener, M.'     42 ?                   
+1       'Clare, D.'        43 ?                   
+1       'Harrison, P.'     44 ?                   
+1       'Tree, J.'         45 ?                   
+1       'Buttigieg, K.'    46 ?                   
+1       'Salguero, F.'     47 ?                   
+1       'Watson, R.'       48 ?                   
+1       'Knott, D.'        49 ?                   
+1       'Carnell, O.'      50 ?                   
+1       'Ngabo, D.'        51 ?                   
+1       'Elmore, M.'       52 ?                   
+1       'Fotheringham, S.' 53 ?                   
+1       'Harding, A.'      54 ?                   
+1       'Ward, P.'         55 ?                   
+1       'Moynie, L.'       56 ?                   
+1       'Dumoux, M.'       57 ?                   
+1       'Hall, Y.'         58 ?                   
+1       'Hiscox, J.'       59 ?                   
+1       'Owen, A.'         60 ?                   
+1       'James, W.'        61 ?                   
+1       'Carroll, M.'      62 ?                   
+1       'Stewart, J.'      63 ?                   
+1       'Naismith, J.'     64 ?                   
+1       'Owens, R.'        65 ?                   
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -35922,11 +35961,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-08-11 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-08-11 
+2 'Structure model' 1 1 2021-10-06 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -35935,6 +35977,29 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Data collection'     
+2 2 'Structure model' 'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation           
+2 2 'Structure model' citation_author    
+3 2 'Structure model' em_admin           
+4 2 'Structure model' pdbx_database_proc 
+# 
+_pdbx_audit_revision_item.ordinal             1 
+_pdbx_audit_revision_item.revision_ordinal    2 
+_pdbx_audit_revision_item.data_content_type   'Structure model' 
+_pdbx_audit_revision_item.item                '_em_admin.last_update' 
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

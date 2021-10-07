@@ -47,10 +47,13 @@ for fasta in fasta_sequences:
 # lists for final results
 entries_and_domains = []
 
+doit = ['5rvv', '5rvp', '7nfv', '6wen', '5rvm', '5rvt', '7kxb', '6wey', '5rvu', '7kqw', '6wrh', '7kg3', '5rvn', '5rvq', '7d6h', '6wcf', '5rvj', '5rvr', '7kr0', '7bf4', '7ofu']
+print(len(doit))
+
 print("iterate over entries...")
 # iterate over all entries in dir
 for entry in os.listdir():
-    if os.path.isdir(join(os.getcwd(), entry)):
+    if os.path.isdir(join(os.getcwd(), entry)) and doit.count(entry) > 0:
         entry_pdb_path = join(os.getcwd(), entry, entry + ".pdb")
         print(entry_pdb_path)
         # load model from pdb
@@ -58,7 +61,10 @@ for entry in os.listdir():
         # for each chain, load sequence if polypeptide
         best_chain_score = -1000
         best_chain_domain = "None"
+        print(len(model))
         for x in range(len(model)):
+            print(model[x].whole().check_polymer_type())
+            print()
             if model[x].whole().check_polymer_type() == gemmi.PolymerType.PeptideL:
                 chain_sequence = model[x].whole().make_one_letter_sequence()
                 # do sequence alignment for each sequence from fasta and track best

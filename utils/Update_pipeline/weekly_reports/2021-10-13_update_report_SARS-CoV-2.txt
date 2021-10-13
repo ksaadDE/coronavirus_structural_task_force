@@ -8,7 +8,5 @@
 ##### new structures by protein #####
 3c_like_proteinase
 >7jp0 
-not_assigned
->7rtd 7rtr 
 surface_glycoprotein
->7p40 7e5r 7phg 
+>7p40 7e5r 7phg 7rtd 7rtr 

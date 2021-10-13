@@ -41,6 +41,7 @@ KEYWDS    SARS-COV-2, BROADLY NEUTRALIZING, CORONAVIRUS, ANTIBODY, VIRUS,
 KEYWDS   2 ANTIVIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX               
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    C.O.BARNES,C.A.JETTE,P.J.BJORKMAN                                     
+REVDAT   3   13-OCT-21 7RKV    1       JRNL                                     
 REVDAT   2   29-SEP-21 7RKV    1       JRNL                                     
 REVDAT   1   22-SEP-21 7RKV    0                                                
 JRNL        AUTH   C.A.JETTE,A.A.COHEN,P.N.P.GNANAPRAGASAM,F.MUECKSCH,Y.E.LEE,  
@@ -49,7 +50,7 @@ JRNL        AUTH 3 M.C.NUSSENZWEIG,A.P.WEST JR.,J.R.KEEFFE,P.J.BJORKMAN,
 JRNL        AUTH 4 C.O.BARNES                                                   
 JRNL        TITL   BROAD CROSS-REACTIVITY ACROSS SARBECOVIRUSES EXHIBITED BY A  
 JRNL        TITL 2 SUBSET OF COVID-19 DONOR-DERIVED NEUTRALIZING ANTIBODIES.    
-JRNL        REF    CELL REP                             09760 2021              
+JRNL        REF    CELL REP                      V.  36 09760 2021              
 JRNL        REFN                   ESSN 2211-1247                               
 JRNL        PMID   34534459                                                     
 JRNL        DOI    10.1016/J.CELREP.2021.109760                                 

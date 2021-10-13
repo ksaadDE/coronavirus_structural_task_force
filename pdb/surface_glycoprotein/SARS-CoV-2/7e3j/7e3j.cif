@@ -3,7 +3,7 @@ data_7E3J
 _entry.id   7E3J 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.347 
+_audit_conform.dict_version    5.350 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -72,28 +72,28 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Zhang, Z.' 1  ?                   
-primary 'Zhang, Y.' 2  ?                   
-primary 'Liu, K.'   3  ?                   
-primary 'Li, Y.'    4  ?                   
-primary 'Lu, Q.'    5  ?                   
-primary 'Wang, Q.'  6  ?                   
-primary 'Zhang, Y.' 7  ?                   
-primary 'Wang, L.'  8  0000-0002-7897-8581 
-primary 'Liao, H.'  9  ?                   
-primary 'Zheng, A.' 10 ?                   
-primary 'Ma, S.'    11 ?                   
-primary 'Fan, Z.'   12 ?                   
-primary 'Li, H.'    13 ?                   
-primary 'Huang, W.' 14 0000-0002-4246-8889 
-primary 'Bi, Y.'    15 0000-0002-5595-363X 
-primary 'Zhao, X.'  16 0000-0002-2001-1343 
-primary 'Wang, Q.'  17 0000-0003-3768-0401 
-primary 'Gao, G.F.' 18 0000-0002-3869-615X 
-primary 'Xiao, H.'  19 0000-0003-0032-5430 
-primary 'Tong, Z.'  20 0000-0002-9867-2838 
-primary 'Qi, J.'    21 0000-0002-9358-4732 
-primary 'Sun, Y.'   22 0000-0001-9977-9103 
+primary 'Zhang, Z.' 1  ? 
+primary 'Zhang, Y.' 2  ? 
+primary 'Liu, K.'   3  ? 
+primary 'Li, Y.'    4  ? 
+primary 'Lu, Q.'    5  ? 
+primary 'Wang, Q.'  6  ? 
+primary 'Zhang, Y.' 7  ? 
+primary 'Wang, L.'  8  ? 
+primary 'Liao, H.'  9  ? 
+primary 'Zheng, A.' 10 ? 
+primary 'Ma, S.'    11 ? 
+primary 'Fan, Z.'   12 ? 
+primary 'Li, H.'    13 ? 
+primary 'Huang, W.' 14 ? 
+primary 'Bi, Y.'    15 ? 
+primary 'Zhao, X.'  16 ? 
+primary 'Wang, Q.'  17 ? 
+primary 'Gao, G.F.' 18 ? 
+primary 'Xiao, H.'  19 ? 
+primary 'Tong, Z.'  20 ? 
+primary 'Qi, J.'    21 ? 
+primary 'Sun, Y.'   22 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -17572,6 +17572,7 @@ _pdbx_audit_revision_history.revision_date
 2 'Structure model' 1 1 2021-07-07 
 3 'Structure model' 1 2 2021-07-28 
 4 'Structure model' 1 3 2021-08-25 
+5 'Structure model' 1 4 2021-10-13 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -17590,6 +17591,7 @@ _pdbx_audit_revision_group.group
 2 3 'Structure model' 'Source and taxonomy' 
 3 4 'Structure model' 'Database references' 
 4 4 'Structure model' 'Structure summary'   
+5 5 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -17602,6 +17604,7 @@ _pdbx_audit_revision_category.category
 4 4 'Structure model' citation        
 5 4 'Structure model' citation_author 
 6 4 'Structure model' database_2      
+7 5 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -17626,6 +17629,7 @@ _pdbx_audit_revision_item.item
 16 4 'Structure model' '_citation.title'                                
 17 4 'Structure model' '_database_2.pdbx_DOI'                           
 18 4 'Structure model' '_database_2.pdbx_database_accession'            
+19 5 'Structure model' '_citation_author.identifier_ORCID'              
 # 
 loop_
 _space_group_symop.id 

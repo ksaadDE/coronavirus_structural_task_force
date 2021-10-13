@@ -129,12 +129,13 @@ KEYWDS    VIRAL PROTEIN-RNA COMPLEX
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    L.YAN,Y.X.YANG,M.Y.LI,Y.ZHANG,L.T.ZHENG,J.GE,Y.C.HUANG,Z.Y.LIU,       
 AUTHOR   2 T.WANG,S.GAO,R.ZHANG,Y.Y.HUANG,L.W.GUDDAT,Y.GAO,Z.H.RAO,Z.Y.LOU      
+REVDAT   2   13-OCT-21 7EIZ    1       JRNL                                     
 REVDAT   1   22-SEP-21 7EIZ    0                                                
 JRNL        AUTH   L.YAN,Y.YANG,M.LI,Y.ZHANG,L.ZHENG,J.GE,Y.C.HUANG,Z.LIU,      
 JRNL        AUTH 2 T.WANG,S.GAO,R.ZHANG,Y.Y.HUANG,L.W.GUDDAT,Y.GAO,Z.RAO,Z.LOU  
 JRNL        TITL   COUPLING OF N7-METHYLTRANSFERASE AND 3'-5' EXORIBONUCLEASE   
 JRNL        TITL 2 WITH SARS-COV-2 POLYMERASE REVEALS MECHANISMS FOR CAPPING    
-JRNL        TITL 3 AND PROOFREADING.                                            
+JRNL        TITL 3 AND PROOFREADING                                             
 JRNL        REF    CELL                          V. 184  3474 2021              
 JRNL        REFN                   ISSN 1097-4172                               
 JRNL        PMID   34143953                                                     

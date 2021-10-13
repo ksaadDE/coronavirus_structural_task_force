@@ -27,6 +27,7 @@ SOURCE  15 EXPRESSION_SYSTEM_TAXID: 266783
 KEYWDS    SARS-COV-2, SPIKE, RBD, RECEPTOR BINDING, VIRAL PROTEIN               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Z.ZHANG,Y.ZHANG                                                       
+REVDAT   5   13-OCT-21 7E3J    1       JRNL                                     
 REVDAT   4   25-AUG-21 7E3J    1       AUTHOR JRNL                              
 REVDAT   3   28-JUL-21 7E3J    1       SOURCE                                   
 REVDAT   2   07-JUL-21 7E3J    1       JRNL                                     

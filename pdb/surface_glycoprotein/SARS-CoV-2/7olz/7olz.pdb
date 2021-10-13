@@ -34,6 +34,7 @@ SOURCE  18 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    COVID19, NEUTRALIZING VHH, VIRAL PROTEIN                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.AKSU,T.GUTTLER,D.GORLICH                                            
+REVDAT   2   13-OCT-21 7OLZ    1       JRNL                                     
 REVDAT   1   11-AUG-21 7OLZ    0                                                
 JRNL        AUTH   T.GUTTLER,M.AKSU,A.DICKMANNS,K.M.STEGMANN,K.GREGOR,R.REES,   
 JRNL        AUTH 2 W.TAXER,O.RYMARENKO,J.SCHUNEMANN,C.DIENEMANN,P.GUNKEL,       
@@ -41,7 +42,7 @@ JRNL        AUTH 3 B.MUSSIL,J.KRULL,U.TEICHMANN,U.GROSS,V.C.CORDES,
 JRNL        AUTH 4 M.DOBBELSTEIN,D.GORLICH                                      
 JRNL        TITL   NEUTRALIZATION OF SARS-COV-2 BY HIGHLY POTENT,               
 JRNL        TITL 2 HYPERTHERMOSTABLE, AND MUTATION-TOLERANT NANOBODIES.         
-JRNL        REF    EMBO J.                              07985 2021              
+JRNL        REF    EMBO J.                       V.  40 07985 2021              
 JRNL        REFN                   ESSN 1460-2075                               
 JRNL        PMID   34302370                                                     
 JRNL        DOI    10.15252/EMBJ.2021107985                                     

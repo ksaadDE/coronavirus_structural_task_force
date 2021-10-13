@@ -20,12 +20,13 @@ KEYWDS   3 INHIBITOR COMPLEX, RUPINTRIVIR, HYDROLASE-INHIBITOR COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.J.LOCKBAUM,M.HENES,J.M.LEE,J.TIMM,E.A.NALIVAIKA,N.K.YILMAZ,         
 AUTHOR   2 P.R.THOMPSON,C.A.SCHIFFER                                            
+REVDAT   2   13-OCT-21 7L8J    1       JRNL                                     
 REVDAT   1   22-SEP-21 7L8J    0                                                
 JRNL        AUTH   G.J.LOCKBAUM,M.HENES,J.M.LEE,J.TIMM,E.A.NALIVAIKA,           
 JRNL        AUTH 2 P.R.THOMPSON,N.KURT YILMAZ,C.A.SCHIFFER                      
 JRNL        TITL   PAN-3C PROTEASE INHIBITOR RUPINTRIVIR BINDS SARS-COV-2 MAIN  
 JRNL        TITL 2 PROTEASE IN A UNIQUE BINDING MODE.                           
-JRNL        REF    BIOCHEMISTRY                               2021              
+JRNL        REF    BIOCHEMISTRY                  V.  60  2925 2021              
 JRNL        REFN                   ISSN 0006-2960                               
 JRNL        PMID   34506130                                                     
 JRNL        DOI    10.1021/ACS.BIOCHEM.1C00414                                  

@@ -3,7 +3,7 @@ data_7EIZ
 _entry.id   7EIZ 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.348 
+_audit_conform.dict_version    5.350 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -76,7 +76,7 @@ _citation.language                  ?
 _citation.page_first                3474 
 _citation.page_last                 3485.e11 
 _citation.title                     
-;Coupling of N7-methyltransferase and 3'-5' exoribonuclease with SARS-CoV-2 polymerase reveals mechanisms for capping and proofreading.
+;Coupling of N7-methyltransferase and 3'-5' exoribonuclease with SARS-CoV-2 polymerase reveals mechanisms for capping and proofreading
 ;
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
@@ -39704,11 +39704,14 @@ _pdbx_struct_conn_angle.value_esd
 68 SG  ? K CYS 55  ? F CYS 55  ? 1_555 ZN ? X ZN . ? F ZN 702  ? 1_555 ND1 ? K HIS 75  ? F HIS 75  ? 1_555 93.7  ? 
 69 SG  ? K CYS 72  ? F CYS 72  ? 1_555 ZN ? X ZN . ? F ZN 702  ? 1_555 ND1 ? K HIS 75  ? F HIS 75  ? 1_555 106.6 ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-09-22 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-09-22 
+2 'Structure model' 1 1 2021-10-13 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -39717,6 +39720,21 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+_pdbx_audit_revision_category.ordinal             1 
+_pdbx_audit_revision_category.revision_ordinal    2 
+_pdbx_audit_revision_category.data_content_type   'Structure model' 
+_pdbx_audit_revision_category.category            citation 
+# 
+_pdbx_audit_revision_item.ordinal             1 
+_pdbx_audit_revision_item.revision_ordinal    2 
+_pdbx_audit_revision_item.data_content_type   'Structure model' 
+_pdbx_audit_revision_item.item                '_citation.title' 
 # 
 _software.citation_id            ? 
 _software.classification         refinement 
@@ -39769,6 +39787,8 @@ _em_3d_reconstruction.method                      ?
 _em_3d_reconstruction.nominal_pixel_size          ? 
 _em_3d_reconstruction.actual_pixel_size           ? 
 _em_3d_reconstruction.magnification_calibration   ? 
+_em_3d_reconstruction.citation_id                 ? 
+_em_3d_reconstruction.euler_angles_details        ? 
 # 
 _em_buffer.id            1 
 _em_buffer.details       ? 

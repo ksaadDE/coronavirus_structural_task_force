@@ -17,13 +17,14 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    COVID-19, SARS-COV-2 SPIKE, S2P, VIRAL PROTEIN                        
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    Y.TSYBOVSKY,A.S.OLIA,P.D.KWONG                                        
+REVDAT   2   13-OCT-21 7MTD    1       JRNL                                     
 REVDAT   1   15-SEP-21 7MTD    0                                                
 JRNL        AUTH   A.S.OLIA,Y.TSYBOVSKY,S.J.CHEN,C.LIU,A.F.NAZZARI,L.OU,L.WANG, 
 JRNL        AUTH 2 W.P.KONG,K.LEUNG,T.LIU,T.STEPHENS,I.T.TENG,S.WANG,E.S.YANG,  
 JRNL        AUTH 3 B.ZHANG,Y.ZHANG,T.ZHOU,J.R.MASCOLA,P.D.KWONG                 
 JRNL        TITL   SARS-COV-2 S2P SPIKE AGES THROUGH DISTINCT STATES WITH       
 JRNL        TITL 2 ALTERED IMMUNOGENICITY.                                      
-JRNL        REF    J.BIOL.CHEM.                         01127 2021              
+JRNL        REF    J.BIOL.CHEM.                  V. 297 01127 2021              
 JRNL        REFN                   ESSN 1083-351X                               
 JRNL        PMID   34461095                                                     
 JRNL        DOI    10.1016/J.JBC.2021.101127                                    

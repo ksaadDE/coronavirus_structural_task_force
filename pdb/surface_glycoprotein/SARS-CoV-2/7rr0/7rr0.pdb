@@ -40,17 +40,21 @@ KEYWDS    ANTIBODY, SARS-COV-2 RBD, COMPLEX, VIRAL PROTEIN, VIRAL PROTEIN-
 KEYWDS   2 IMMUNE SYSTEM COMPLEX                                                
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    P.PYMM,A.GLUKHOVA,K.A.BLACK,W.H.THAM                                  
+REVDAT   2   20-OCT-21 7RR0    1       JRNL                                     
 REVDAT   1   06-OCT-21 7RR0    0                                                
-JRNL        AUTH   A.K.WHEATLEY,P.PYMM,R.ESTERBAUER,M.DIETRICH,W.S.LEE,D.DREW,  
-JRNL        AUTH 2 H.G.KELLY,L.J.CHAN,F.L.MORDANT,K.A.BLACK,A.ADAIR,H.X.TAN,    
-JRNL        AUTH 3 A.J.JUNO,K.M.WRAGG,T.AMARASENA,E.LOPEZ,K.J.SELVA,            
-JRNL        AUTH 4 E.R.HAYCROFT,J.P.COONEY,H.VENUGOPAL,L.L.TAN,M.T.O'NEILL,     
+JRNL        AUTH   A.K.WHEATLEY,P.PYMM,R.ESTERBAUER,M.H.DIETRICH,W.S.LEE,       
+JRNL        AUTH 2 D.DREW,H.G.KELLY,L.J.CHAN,F.L.MORDANT,K.A.BLACK,A.ADAIR,     
+JRNL        AUTH 3 H.X.TAN,J.A.JUNO,K.M.WRAGG,T.AMARASENA,E.LOPEZ,K.J.SELVA,    
+JRNL        AUTH 4 E.R.HAYCROFT,J.P.COONEY,H.VENUGOPAL,L.L.TAN,M.T.O NEILL,     
 JRNL        AUTH 5 C.C.ALLISON,D.CROMER,M.P.DAVENPORT,R.A.BOWEN,A.W.CHUNG,      
 JRNL        AUTH 6 M.PELLEGRINI,M.T.LIDDAMENT,A.GLUKHOVA,K.SUBBARAO,S.J.KENT,   
 JRNL        AUTH 7 W.H.THAM                                                     
-JRNL        TITL   SARS-COV-2 RECEPTOR BINDING DOMAIN BOUND TO FAB PDI 222      
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        TITL   LANDSCAPE OF HUMAN ANTIBODY RECOGNITION OF THE SARS-COV-2    
+JRNL        TITL 2 RECEPTOR BINDING DOMAIN.                                     
+JRNL        REF    CELL REP                             09822 2021              
+JRNL        REFN                   ESSN 2211-1247                               
+JRNL        PMID   34610292                                                     
+JRNL        DOI    10.1016/J.CELREP.2021.109822                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.12 ANGSTROMS.                                       
 REMARK   3                                                                      

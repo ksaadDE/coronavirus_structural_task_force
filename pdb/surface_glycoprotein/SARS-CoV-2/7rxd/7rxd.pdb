@@ -63,12 +63,15 @@ SOURCE  36 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    RBD, MALTOSE-BINDING PROTEIN, FAB, NANOBODY, STRUCTURAL PROTEIN       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    X.D.WU,T.A.RAPOPORT                                                   
+REVDAT   2   20-OCT-21 7RXD    1       JRNL                                     
 REVDAT   1   06-OCT-21 7RXD    0                                                
-JRNL        AUTH   X.D.WU,T.A.RAPOPORT                                          
+JRNL        AUTH   X.WU,T.A.RAPOPORT                                            
 JRNL        TITL   CRYO-EM STRUCTURE DETERMINATION OF SMALL PROTEINS BY         
-JRNL        TITL 2 NANOBODY-BINDING SCAFFOLDS (LEGOBODIES)                      
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        TITL 2 NANOBODY-BINDING SCAFFOLDS (LEGOBODIES).                     
+JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 118       2021              
+JRNL        REFN                   ESSN 1091-6490                               
+JRNL        PMID   34620716                                                     
+JRNL        DOI    10.1073/PNAS.2115001118                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.60 ANGSTROMS.                                       
 REMARK   3                                                                      

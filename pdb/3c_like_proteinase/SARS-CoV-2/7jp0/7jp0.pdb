@@ -17,7 +17,8 @@ SOURCE   7 EXPRESSION_SYSTEM: ESCHERICHIA COLI BL21(DE3);
 SOURCE   8 EXPRESSION_SYSTEM_TAXID: 469008                                      
 KEYWDS    MPI, R1, INHIBITOR, VIRUS, VIRAL PROTEIN, HYDROLASE-INHIBITOR COMPLEX 
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    K.YANG                                                                
+AUTHOR    K.YANG,W.LIU                                                          
+REVDAT   2   20-OCT-21 7JP0    1       AUTHOR                                   
 REVDAT   1   13-OCT-21 7JP0    0                                                
 JRNL        AUTH   K.YANG                                                       
 JRNL        TITL   CRYSTAL STRUCTURE OF MPRO WITH INHIBITOR R1                  

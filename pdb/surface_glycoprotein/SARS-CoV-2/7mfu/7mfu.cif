@@ -3,7 +3,7 @@ data_7MFU
 _entry.id   7MFU 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.350 
+_audit_conform.dict_version    5.351 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -64,12 +64,12 @@ _citation.journal_id_CSD            0071
 _citation.journal_id_ISSN           1083-351X 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            297 
 _citation.language                  ? 
 _citation.page_first                101202 
 _citation.page_last                 101202 
 _citation.title                     
-'Structures of synthetic nanobody-SARS-CoV-2-receptor binding domain complexes reveal distinct sites of interaction.' 
+'Structures of synthetic nanobody-SARS-CoV-2 receptor-binding domain complexes reveal distinct sites of interaction.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.jbc.2021.101202 
@@ -18348,6 +18348,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-06-02 
 2 'Structure model' 1 1 2021-09-29 
+3 'Structure model' 1 2 2021-10-20 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -18365,6 +18366,7 @@ _pdbx_audit_revision_group.group
 1 2 'Structure model' Advisory              
 2 2 'Structure model' 'Database references' 
 3 2 'Structure model' 'Structure summary'   
+4 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -18376,6 +18378,7 @@ _pdbx_audit_revision_category.category
 3 2 'Structure model' database_2                   
 4 2 'Structure model' pdbx_unobs_or_zero_occ_atoms 
 5 2 'Structure model' struct                       
+6 3 'Structure model' citation                     
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -18394,6 +18397,8 @@ _pdbx_audit_revision_item.item
 10 2 'Structure model' '_database_2.pdbx_DOI'                
 11 2 'Structure model' '_database_2.pdbx_database_accession' 
 12 2 'Structure model' '_struct.title'                       
+13 3 'Structure model' '_citation.journal_volume'            
+14 3 'Structure model' '_citation.title'                     
 # 
 loop_
 _space_group_symop.id 

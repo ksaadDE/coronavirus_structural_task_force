@@ -3,7 +3,7 @@ data_7NNG
 _entry.id   7NNG 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.349 
+_audit_conform.dict_version    5.350 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -44,25 +44,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ? 
 _citation.book_title                ? 
 _citation.coordinate_linkage        ? 
-_citation.country                   ? 
+_citation.country                   UK 
 _citation.database_id_Medline       ? 
 _citation.details                   ? 
 _citation.id                        primary 
-_citation.journal_abbrev            'To Be Published' 
+_citation.journal_abbrev            'Nat Commun' 
 _citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            0353 
-_citation.journal_id_ISSN           ? 
+_citation.journal_id_CSD            ? 
+_citation.journal_id_ISSN           2041-1723 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Crystal structure of the SARS-CoV-2 helicase in complex with Z2327226104' 
-_citation.year                      ? 
+_citation.page_first                4848 
+_citation.page_last                 4848 
+_citation.title                     
+'Structure, mechanism and crystallographic fragment screening of the SARS-CoV-2 NSP13 helicase.' 
+_citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      ? 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1038/s41467-021-25166-6 
+_citation.pdbx_database_id_PubMed   34381037 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -71,11 +72,19 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Newman, J.A.'    1 ? 
-primary 'Yosaatmadja, Y.' 2 ? 
-primary 'Douangamath, A.' 3 ? 
-primary 'Bountra, C.'     4 ? 
-primary 'Gileadi, O.'     5 ? 
+primary 'Newman, J.A.'     1  0000-0003-4488-0516 
+primary 'Douangamath, A.'  2  0000-0002-9196-8644 
+primary 'Yadzani, S.'      3  0000-0002-9205-4318 
+primary 'Yosaatmadja, Y.'  4  0000-0003-2875-5993 
+primary 'Aimon, A.'        5  0000-0002-9135-129X 
+primary 'Brandao-Neto, J.' 6  ?                   
+primary 'Dunnett, L.'      7  ?                   
+primary 'Gorrie-Stone, T.' 8  ?                   
+primary 'Skyner, R.'       9  0000-0003-3614-6661 
+primary 'Fearon, D.'       10 0000-0003-3529-7863 
+primary 'Schapira, M.'     11 0000-0002-1047-3309 
+primary 'von Delft, F.'    12 ?                   
+primary 'Gileadi, O.'      13 ?                   
 # 
 _cell.angle_alpha                  103.160 
 _cell.angle_alpha_esd              ? 
@@ -1015,7 +1024,7 @@ _diffrn_source.take-off_angle              ?
 _diffrn_source.pdbx_wavelength_list        0.9126 
 _diffrn_source.pdbx_wavelength             ? 
 _diffrn_source.pdbx_synchrotron_beamline   I04-1 
-_diffrn_source.pdbx_synchrotron_site       Diamond 
+_diffrn_source.pdbx_synchrotron_site       DIAMOND 
 # 
 _reflns.B_iso_Wilson_estimate            54.12 
 _reflns.entry_id                         7NNG 
@@ -12375,6 +12384,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-04-07 
 2 'Structure model' 1 1 2021-09-15 
+3 'Structure model' 1 2 2021-10-20 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -12392,6 +12402,8 @@ _pdbx_audit_revision_group.group
 1 2 'Structure model' 'Database references'  
 2 2 'Structure model' 'Derived calculations' 
 3 2 'Structure model' 'Structure summary'    
+4 3 'Structure model' 'Data collection'      
+5 3 'Structure model' 'Database references'  
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -12402,17 +12414,33 @@ _pdbx_audit_revision_category.category
 2 2 'Structure model' database_2          
 3 2 'Structure model' entity              
 4 2 'Structure model' pdbx_entity_nonpoly 
+5 3 'Structure model' citation            
+6 3 'Structure model' citation_author     
+7 3 'Structure model' diffrn_source       
+8 3 'Structure model' pdbx_database_proc  
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_chem_comp.name'                     
-2 2 'Structure model' '_database_2.pdbx_DOI'                
-3 2 'Structure model' '_database_2.pdbx_database_accession' 
-4 2 'Structure model' '_entity.pdbx_description'            
-5 2 'Structure model' '_pdbx_entity_nonpoly.name'           
+1  2 'Structure model' '_chem_comp.name'                      
+2  2 'Structure model' '_database_2.pdbx_DOI'                 
+3  2 'Structure model' '_database_2.pdbx_database_accession'  
+4  2 'Structure model' '_entity.pdbx_description'             
+5  2 'Structure model' '_pdbx_entity_nonpoly.name'            
+6  3 'Structure model' '_citation.country'                    
+7  3 'Structure model' '_citation.journal_abbrev'             
+8  3 'Structure model' '_citation.journal_id_CSD'             
+9  3 'Structure model' '_citation.journal_id_ISSN'            
+10 3 'Structure model' '_citation.journal_volume'             
+11 3 'Structure model' '_citation.page_first'                 
+12 3 'Structure model' '_citation.page_last'                  
+13 3 'Structure model' '_citation.pdbx_database_id_DOI'       
+14 3 'Structure model' '_citation.pdbx_database_id_PubMed'    
+15 3 'Structure model' '_citation.title'                      
+16 3 'Structure model' '_citation.year'                       
+17 3 'Structure model' '_diffrn_source.pdbx_synchrotron_site' 
 # 
 loop_
 _software.citation_id 

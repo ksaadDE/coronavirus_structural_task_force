@@ -21,7 +21,7 @@
 
 |   |**MolProbity<br>score**| **Ramachandran<br>outliers** | **CaBLAM<br>Conformation outliers** | **CaBLAM<br>CA outliers** |
 |---|-------------:|----------------:|----------------:|----------------:|
-||--|--|--|--|
+||  0.60|  0.43 %|0.0 %|0.00 %|
 
 
 ## Other relevant links 

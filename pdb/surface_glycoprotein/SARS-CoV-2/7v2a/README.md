@@ -20,7 +20,7 @@
 
 
 
-
+**validation** - contains validation reports. This structure has been analyzed by <br>  [**MOLPROBITY**](https://github.com/thorn-lab/coronavirus_structural_task_force/tree/master/pdb/surface_glycoprotein/SARS-CoV-2/7v2a/validation/molprobity)    
 
 
 
@@ -44,7 +44,7 @@ Primary map emd_31639.map available. **Click** [here](http://ftp.wwpdb.org/pub/e
 **Geometry validation (the lower, the better)**
 |   |**MolProbity<br>score**| **Ramachandran<br>outliers** | **CaBLAM<br>Conformation outliers** | **CaBLAM<br>CA outliers** |
 |---|-------------:|----------------:|----------------:|----------------:|
-||--|--|--|--|
+||  2.74|  0.25 %|4.5 %|0.89 %|
 
 ## HARUSPEX results
 

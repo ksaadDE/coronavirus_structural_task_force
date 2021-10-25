@@ -23,7 +23,7 @@ First structure of SARS-CoV NSP1 (leader protein). This NMR structure showed a p
 
 |   |**MolProbity<br>score**| **Ramachandran<br>outliers** | **CaBLAM<br>Conformation outliers** | **CaBLAM<br>CA outliers** |
 |---|-------------:|----------------:|----------------:|----------------:|
-||--|--|--|--|
+||--|--|3.4 %|1.79 %|
 
 
 ## Other relevant links 

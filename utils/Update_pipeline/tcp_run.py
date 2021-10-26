@@ -4,6 +4,7 @@ import os
 import RMSD
 import mk_Alignment_strc_vs_seq as align
 import argparse
+import protein_and_domain_classifier as domain_classifier
 
 """
 executable script for weekly update
@@ -45,8 +46,28 @@ else:
 taxo = args.taxonomy
 
 
-repo_path = os.path.abspath(os.path.join(__file__ ,"../../..","pdb"))
-print(repo_path)
+repo_path = os.path.abspath(os.path.join(__file__ ,"..", "..", "..", "pdb"))
+reports_path = os.path.abspath(os.path.join(__file__ , "..",
+    "weekly_reports", tcp_main.get_time() + "_update_report_" + taxo + ".txt"))
+print(reports_path)
+
+# check if new nsp3 structures are available
+try:
+    # open file
+    file = open(reports_path, 'r')
+    content = file.read()
+    file.close()
+    # check for new nsp3
+    if content.find('nsp3') > -1:
+        print("New Nsp3 structure: perform domain classification...")
+        domain_classifier.main(taxo, 'nsp3')
+    
+except FileNotFoundError:
+    print("weekly reports file not found. No domain classification was made.")
+except PermissionError():
+    print("Permission denied for opening weekly reports file. No domain classification was made.")
+
+
 print("Searching for new and changed structures")
 c_new_pdb_lst, changed_prot_list = tcp_main.main(taxonomy_id=taxonomy_id, negate_taxonomy_id=negate_taxonomy_id, taxo=taxo)
 print("Doing sequence aligntment")

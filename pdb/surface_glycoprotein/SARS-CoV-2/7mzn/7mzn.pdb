@@ -37,6 +37,7 @@ SOURCE  21 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, SPIKE, RBD, HUMAN ANTIBODY, VIRAL PROTEIN                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.PYMM,L.L.TAN,M.H.DIETRICH,L.J.CHAN,W.H.THAM                         
+REVDAT   3   27-OCT-21 7MZN    1       JRNL                                     
 REVDAT   2   20-OCT-21 7MZN    1       JRNL                                     
 REVDAT   1   06-OCT-21 7MZN    0                                                
 JRNL        AUTH   A.K.WHEATLEY,P.PYMM,R.ESTERBAUER,M.H.DIETRICH,W.S.LEE,       
@@ -48,7 +49,7 @@ JRNL        AUTH 6 M.PELLEGRINI,M.T.LIDDAMENT,A.GLUKHOVA,K.SUBBARAO,S.J.KENT,
 JRNL        AUTH 7 W.H.THAM                                                     
 JRNL        TITL   LANDSCAPE OF HUMAN ANTIBODY RECOGNITION OF THE SARS-COV-2    
 JRNL        TITL 2 RECEPTOR BINDING DOMAIN.                                     
-JRNL        REF    CELL REP                             09822 2021              
+JRNL        REF    CELL REP                      V.  37 09822 2021              
 JRNL        REFN                   ESSN 2211-1247                               
 JRNL        PMID   34610292                                                     
 JRNL        DOI    10.1016/J.CELREP.2021.109822                                 

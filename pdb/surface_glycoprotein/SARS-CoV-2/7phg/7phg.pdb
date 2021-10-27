@@ -32,6 +32,7 @@ SOURCE  17 EXPRESSION_SYSTEM_TAXID: 10029
 KEYWDS    RBD, ANTIBODY, VIRAL PROTEIN                                          
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    L.PEREZ                                                               
+REVDAT   2   27-OCT-21 7PHG    1       JRNL                                     
 REVDAT   1   13-OCT-21 7PHG    0                                                
 JRNL        AUTH   C.FENWICK,P.TURELLI,L.PEREZ,C.PELLATON,                      
 JRNL        AUTH 2 L.ESTEVES-LEUENBERGER,A.FARINA,J.CAMPOS,E.LANA,F.FISCALINI,  
@@ -41,7 +42,7 @@ JRNL        AUTH 5 W.DU,B.J.BOSCH,G.VELDMAN,P.LEYSSEN,V.THIEL,R.LEGRAND,Y.LEVY,
 JRNL        AUTH 6 D.TRONO,G.PANTALEO                                           
 JRNL        TITL   A HIGHLY POTENT ANTIBODY EFFECTIVE AGAINST SARS-COV-2        
 JRNL        TITL 2 VARIANTS OF CONCERN.                                         
-JRNL        REF    CELL REP                             09814 2021              
+JRNL        REF    CELL REP                      V.  37 09814 2021              
 JRNL        REFN                   ESSN 2211-1247                               
 JRNL        PMID   34599871                                                     
 JRNL        DOI    10.1016/J.CELREP.2021.109814                                 

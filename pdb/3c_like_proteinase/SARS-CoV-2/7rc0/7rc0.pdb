@@ -22,6 +22,7 @@ KEYWDS   3 INFECTIOUS DISEASES, CSGID, VIRAL PROTEIN
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.D.MESECAR,B.A.ANSON,A.K.GHOSH,CENTER FOR STRUCTURAL GENOMICS OF     
 AUTHOR   2 INFECTIOUS DISEASES (CSGID)                                          
+REVDAT   2   27-OCT-21 7RC0    1       JRNL                                     
 REVDAT   1   29-SEP-21 7RC0    0                                                
 JRNL        AUTH   A.K.GHOSH,J.RAGHAVAIAH,D.SHAHABI,M.YADAV,B.J.ANSON,          
 JRNL        AUTH 2 E.K.LENDY,S.I.HATTORI,N.HIGASHI-KUWATA,H.MITSUYA,A.D.MESECAR 
@@ -29,7 +30,7 @@ JRNL        TITL   INDOLE CHLOROPYRIDINYL ESTER-DERIVED SARS-COV-2 3CLPRO
 JRNL        TITL 2 INHIBITORS: ENZYME INHIBITION, ANTIVIRAL EFFICACY,           
 JRNL        TITL 3 STRUCTURE-ACTIVITY RELATIONSHIP, AND X-RAY STRUCTURAL        
 JRNL        TITL 4 STUDIES.                                                     
-JRNL        REF    J.MED.CHEM.                                2021              
+JRNL        REF    J.MED.CHEM.                   V.  64 14702 2021              
 JRNL        REFN                   ISSN 0022-2623                               
 JRNL        PMID   34528437                                                     
 JRNL        DOI    10.1021/ACS.JMEDCHEM.1C01214                                 

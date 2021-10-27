@@ -9,10 +9,24 @@ And was written in 2020 by Kristopher Nolte, Thorn Lab, University of Wuerzburg
 as part of the Coronavirus Structural Taskforce, insidecorona.net
 '''
 
+verbose = True
+
+def debug_print(message):
+    """
+    Prints, if verbose == True, the message.
+    Otherwise, nothing is printed.
+    """
+    global verbose
+    if verbose:
+        print(message)
+
+
 def main (prot_list, pdb_id, repo_path, taxo):
+    debug_print("seq alignment module")
     for element in prot_list:
         if element != "not_assigned":
-            file_walker(protein_chooser(element, repo_path),pdb_id,taxo)
+            debug_print("element: " + str(element) + " | " + str(pdb_id))
+            file_walker(protein_chooser(element, repo_path), pdb_id, taxo)
 
 def protein_chooser (prot_name, repo_path):
     #which protein should be compared

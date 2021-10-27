@@ -18,6 +18,7 @@ def main (prot_list, path):
     :param path: string: path to repo
     :return:
     """
+    print("RMSD module")
     #get all ids out of list.txt
     pdb_id = open(path + "/list.txt")
     pdb_id = pdb_id.read().split("\n")

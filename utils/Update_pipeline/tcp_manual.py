@@ -44,6 +44,7 @@ def change_database_entry(pdb_id, old_protein, old_taxo, new_protein, new_taxo):
         entry["protein"] = new_protein
         entry["path_in_repo"] = os.path.join("pdb", new_protein, new_taxo, pdb_id)
         print("new path: " + entry["path_in_repo"].item())
+        df_new = df_new.append(entry)
         # write to db files
         df_old.to_pickle("main_repo_database_" + old_taxo + ".pkl")
         df_new.to_pickle("main_repo_database_" + new_taxo + ".pkl")

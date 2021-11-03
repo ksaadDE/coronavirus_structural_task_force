@@ -47,14 +47,17 @@ KEYWDS   3 CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES, CSGID
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.M.ERRICO,D.H.FREMONT,CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS   
 AUTHOR   2 DISEASES (CSGID)                                                     
+REVDAT   2   03-NOV-21 7K9H    1       JRNL                                     
 REVDAT   1   29-SEP-21 7K9H    0                                                
-JRNL        AUTH   J.M.ERRICO,H.ZHAO,Z.LIU,J.B.CASE,M.MA,A.J.SCHMITZ,M.J.RAU,   
-JRNL        AUTH 2 J.A.J.FITZPATRICK,M.S.DIAMOND,S.P.J.WHELAN,A.H.ELLEBEDY,     
-JRNL        AUTH 3 D.H.FREMONT                                                  
-JRNL        TITL   STRUCTURAL MECHANISM OF SARS-COV-2 NEUTRALIZATION BY ACE2    
-JRNL        TITL 2 COMPETITIVE AND NON-COMPETITIVE ANTIBODIES                   
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   J.M.ERRICO,H.ZHAO,R.E.CHEN,Z.LIU,J.B.CASE,M.MA,A.J.SCHMITZ,  
+JRNL        AUTH 2 M.J.RAU,J.A.J.FITZPATRICK,P.Y.SHI,M.S.DIAMOND,S.P.J.WHELAN,  
+JRNL        AUTH 3 A.H.ELLEBEDY,D.H.FREMONT                                     
+JRNL        TITL   STRUCTURAL MECHANISM OF SARS-COV-2 NEUTRALIZATION BY TWO     
+JRNL        TITL 2 MURINE ANTIBODIES TARGETING THE RBD.                         
+JRNL        REF    CELL REP                             09881 2021              
+JRNL        REFN                   ESSN 2211-1247                               
+JRNL        PMID   34655519                                                     
+JRNL        DOI    10.1016/J.CELREP.2021.109881                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.20 ANGSTROMS.                                       
 REMARK   3                                                                      

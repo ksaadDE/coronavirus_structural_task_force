@@ -59,13 +59,15 @@ KEYWDS    HUMAN LEUKOCYTE ANTIGEN, MAJOR HISTOCOMPATIBILITY COMPLEX, HLA-A2,
 KEYWDS   2 HLA-A*02:01, YLQPRTFLL, T CELL RECEPTOR, TCR, TCRPMHC, IMMUNE SYSTEM 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.SZETO,S.GRAS                                                        
+REVDAT   2   03-NOV-21 7RTR    1       JRNL                                     
 REVDAT   1   13-OCT-21 7RTR    0                                                
 JRNL        AUTH   C.SZETO,A.T.NGUYEN,C.A.LOBOS,D.S.M.CHATZILEONTIADOU,         
 JRNL        AUTH 2 D.JAYASINGHE,E.J.GRANT,A.RIBOLDI-TUNNICLIFFE,C.SMITH,S.GRAS  
 JRNL        TITL   MOLECULAR BASIS OF A DOMINANT SARS-COV-2 SPIKE-DERIVED       
-JRNL        TITL 2 EPITOPE PRESENTED BY HLA-A*02:01 RECOGNISED BY A PUBLIC TCR  
+JRNL        TITL 2 EPITOPE PRESENTED BY HLA-A*02:01 RECOGNISED BY A PUBLIC TCR. 
 JRNL        REF    CELLS                         V.  10       2021              
 JRNL        REFN                   ESSN 2073-4409                               
+JRNL        PMID   34685626                                                     
 JRNL        DOI    10.3390/CELLS10102646                                        
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.60 ANGSTROMS.                                       

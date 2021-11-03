@@ -19,11 +19,15 @@ SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PET-28-NKI-LIC
 KEYWDS    SARS-COV-2, NSP9, RNA BINDING COMPLEX, VIRAL PROTEIN                  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.R.LITTLER,B.S.GULLY,J.ROSSJOHN                                      
+REVDAT   2   03-NOV-21 7N3K    1       JRNL                                     
 REVDAT   1   27-OCT-21 7N3K    0                                                
-JRNL        AUTH   D.R.LITTLER,J.R.ROSSJOHN                                     
-JRNL        TITL   PLANT-DERIVED ENT-KAURANE COMPOUNDS BIND TO SARS-COV-2 NSP9. 
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   D.R.LITTLER,M.LIU,J.L.MCAULEY,S.LOWERY,P.T.ILLING,B.S.GULLY, 
+JRNL        AUTH 2 A.W.PURCELL,I.R.CHANDRASHEKARAN,S.PERLMAN,D.F.J.PURCELL,     
+JRNL        AUTH 3 R.J.QUINN,J.R.ROSSJOHN                                       
+JRNL        TITL   A NATURAL PRODUCT COMPOUND INHIBITS CORONAVIRAL REPLICATION  
+JRNL        TITL 2 IN VITRO BY BINDING TO THE CONSERVED NSP9 SARS-COV-2 PROTEIN 
+JRNL        REF    J.BIOL.CHEM.                               2021              
+JRNL        REFN                   ESSN 1083-351X                               
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.00 ANGSTROMS.                                       
 REMARK   3                                                                      

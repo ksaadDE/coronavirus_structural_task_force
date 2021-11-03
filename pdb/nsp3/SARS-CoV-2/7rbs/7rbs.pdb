@@ -39,12 +39,15 @@ KEYWDS    COVID-19, CORONAVIRUS, SARS, COV-2, PAPAIN-LIKE PROTEASE, ISG15,
 KEYWDS   2 IDP51000, IDP52003, CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS     
 KEYWDS   3 DISEASES, CSGID, HYDROLASE                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    J.OSIPIUK,C.TESAR,R.JEDRZEJCZAK,M.ENDRES,A.JOACHIMIAK,CENTER FOR      
-AUTHOR   2 STRUCTURAL GENOMICS OF INFECTIOUS DISEASES (CSGID)                   
+AUTHOR    J.OSIPIUK,C.TESAR,R.JEDRZEJCZAK,M.ENDRES,P.WYDORSKI,L.JOACHIMIAK,     
+AUTHOR   2 A.JOACHIMIAK,CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES   
+AUTHOR   3 (CSGID)                                                              
+REVDAT   2   03-NOV-21 7RBS    1       AUTHOR JRNL                              
 REVDAT   1   29-SEP-21 7RBS    0                                                
-JRNL        AUTH   J.OSIPIUK,C.TESAR,R.JEDRZEJCZAK,M.ENDRES,A.JOACHIMIAK,       
-JRNL        AUTH 2 CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES        
-JRNL        AUTH 3 (CSGID)                                                      
+JRNL        AUTH   J.OSIPIUK,C.TESAR,R.JEDRZEJCZAK,M.ENDRES,P.WYDORSKI,         
+JRNL        AUTH 2 L.JOACHIMIAK,A.JOACHIMIAK,                                   
+JRNL        AUTH 3 CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS DISEASES        
+JRNL        AUTH 4 (CSGID)                                                      
 JRNL        TITL   THE CRYSTAL STRUCTURE OF PAPAIN-LIKE PROTEASE OF SARS COV-2, 
 JRNL        TITL 2 C111S MUTANT, IN COMPLEX WITH HUMAN ISG15                    
 JRNL        REF    TO BE PUBLISHED                                              

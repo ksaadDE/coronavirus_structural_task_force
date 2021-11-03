@@ -18,8 +18,10 @@ from os.path import join
 import argparse
 import gemmi
 from Bio import SeqIO
+from Bio.PDB import MMCIFParser
+from Bio.PDB import MMCIF2Dict
+from Bio.PDB import PPBuilder
 import xlsxwriter
-import sys
 
 
 def main(taxonomy, protein):
@@ -41,7 +43,8 @@ def main(taxonomy, protein):
     taxo_sars_cov = "SARS-CoV"
     taxo_sars_cov_2 = "SARS-CoV-2"
     
-    working_dir = os.getcwd()
+    sars_cov_1_2_id = "694009" #SARS-CoV-1 & SARS-CoV-2
+    sars_cov_2_id = "2697049" #SARS-CoV-2
     
     if taxonomy != taxo_sars_cov and taxonomy != taxo_sars_cov_2:
         exit("ERROR: Wrong taxonomy, check typos!")
@@ -66,41 +69,61 @@ def main(taxonomy, protein):
     # lists for final results
     entries_and_domains = []
     
+    # init parser for mmcif files
+    parser = MMCIFParser()
+    ppb = PPBuilder()
+    
     print("iterate over entries...")
     # iterate over all entries in dir
     for entry in os.listdir():
         if os.path.isdir(join(os.getcwd(), entry)):
             #print(entry)
             entry_pdb_path = join(os.getcwd(), entry, entry + ".pdb")
+            entry_cif_path = join(os.getcwd(), entry, entry + ".cif")
             # load model from pdb
+            structure = parser.get_structure(entry, entry_cif_path)
+            cif_dict = MMCIF2Dict.MMCIF2Dict(entry_cif_path)
+            
             try:
                 pdb_entry = gemmi.read_pdb(entry_pdb_path)
             except:
                 entry_pdb_path = join(os.getcwd(), entry, entry + "_false.pdb")
                 pdb_entry = gemmi.read_pdb(entry_pdb_path)
-            model = pdb_entry[0]
+            #model = pdb_entry[0]
+            cif_model = structure[0]
             # for each chain, load sequence if polypeptide
             best_chain_score = -1000
             best_chain_domain = "None"
-            for x in range(len(model)):
-                if (model[x].whole().check_polymer_type() == gemmi.PolymerType.PeptideL
-                    or model[x].whole().check_polymer_type() == gemmi.PolymerType.Unknown):
-                    chain_sequence = model[x].whole().make_one_letter_sequence().replace('-', '')
-                    # do sequence alignment for each sequence from fasta and track best
-                    best_score = -1000
-                    best_domain = "None"
-                    for fasta in fasta_seq_iter:
-                        domain_name, domain_sequence = fasta
-                        result = gemmi.align_string_sequences(list(chain_sequence), list(domain_sequence), [])
-                        if result.score > best_score:
-                            best_score = result.score
-                            best_domain = domain_name
-                    
-                    #print(best_domain + " " + str(best_score))
-                    # keep track of best chain
-                    if best_score > best_chain_score:
-                        best_chain_score = best_score
-                        best_chain_domain = best_domain
+            x = -1
+            for chain in cif_model:
+                x += 1
+                # get polypeptide from chain
+                pp = ppb.build_peptides(chain)[0]
+                
+                # if sequence is not from SARS-CoV-1/2, skip this chain
+                print(entry)
+                '''if (cif_dict['_entity_src_gen.pdbx_gene_src_scientific_name'][x] != taxo_sars_cov
+                    and cif_dict['_entity_src_gen.pdbx_gene_src_scientific_name'][x] != taxo_sars_cov_2):
+                    continue'''
+                
+                chain_sequence = pp.get_sequence().replace('-', '')
+                # do sequence alignment for each sequence from fasta and track best
+                best_score = -1000
+                best_domain = "None"
+                for fasta in fasta_seq_iter:
+                    domain_name, domain_sequence = fasta
+                    result = gemmi.align_string_sequences(list(chain_sequence), list(domain_sequence), [])
+                    if result.score > best_score:
+                        best_score = result.score
+                        best_domain = domain_name
+                
+                #print(best_domain + " " + str(best_score))
+                # keep track of best chain
+                if best_score > best_chain_score:
+                    best_chain_score = best_score
+                    best_chain_domain = best_domain
+                
+                
             #print(best_chain_domain + " " + str(best_chain_score))
             # check if domain was already added to final results
             save_entry = [entry, pdb_entry.resolution, 0, 0, 0]

@@ -17,10 +17,16 @@ import os
 from os.path import join
 import argparse
 import gemmi
-from Bio import SeqIO
-from Bio.PDB import MMCIFParser
-from Bio.PDB import MMCIF2Dict
-from Bio.PDB import PPBuilder
+
+from Bio import BiopythonWarning
+import warnings
+with warnings.catch_warnings():
+    warnings.simplefilter('ignore', BiopythonWarning)
+    from Bio import SeqIO
+    from Bio.PDB import MMCIFParser
+    from Bio.PDB import PPBuilder
+
+
 import xlsxwriter
 
 
@@ -68,6 +74,7 @@ def main(taxonomy, protein):
     
     # lists for final results
     entries_and_domains = []
+    organisms = []
     
     # init parser for mmcif files
     parser = MMCIFParser()
@@ -77,34 +84,59 @@ def main(taxonomy, protein):
     # iterate over all entries in dir
     for entry in os.listdir():
         if os.path.isdir(join(os.getcwd(), entry)):
-            #print(entry)
             entry_pdb_path = join(os.getcwd(), entry, entry + ".pdb")
             entry_cif_path = join(os.getcwd(), entry, entry + ".cif")
             # load model from pdb
-            structure = parser.get_structure(entry, entry_cif_path)
-            cif_dict = MMCIF2Dict.MMCIF2Dict(entry_cif_path)
-            
+            # try to load pdb structure via gemmi
             try:
                 pdb_entry = gemmi.read_pdb(entry_pdb_path)
             except:
                 entry_pdb_path = join(os.getcwd(), entry, entry + "_false.pdb")
                 pdb_entry = gemmi.read_pdb(entry_pdb_path)
-            #model = pdb_entry[0]
+            
+            # load fasta file from pdb
+            try:
+                pdb_file = open(entry_pdb_path, 'r')
+            except:
+                entry_pdb_path = join(os.getcwd(), entry, entry + "_false.pdb")
+                pdb_file = open(entry_pdb_path, 'r')
+            
+            # parse cif model
+            structure = parser.get_structure(entry, entry_cif_path)
             cif_model = structure[0]
+            
+            sequences = []
+            try:
+                for record in SeqIO.parse(pdb_file, 'pdb-atom'):
+                    sequences.append([record.id, record.seq])
+                    rec_annotations = record
+            except:
+                print("ERROR: ??? unknown parsing error.")
+                print(entry)
+                continue
+            
+            # check if entry has non-viral interaction partners
+            for x in range(len(rec_annotations.annotations.get("source"))):
+                organism = rec_annotations.annotations.get("source").get(str(x+1)).get("organism_scientific")
+                added = False
+                for k in organisms:
+                    if k[0] == organism:
+                        k[1].append(entry)
+                        added = True
+                if not added:
+                    organisms.append([organism, [entry]])
+            
             # for each chain, load sequence if polypeptide
             best_chain_score = -1000
             best_chain_domain = "None"
-            x = -1
-            for chain in cif_model:
-                x += 1
+            for chain in cif_model:                
                 # get polypeptide from chain
-                pp = ppb.build_peptides(chain)[0]
-                
-                # if sequence is not from SARS-CoV-1/2, skip this chain
-                print(entry)
-                '''if (cif_dict['_entity_src_gen.pdbx_gene_src_scientific_name'][x] != taxo_sars_cov
-                    and cif_dict['_entity_src_gen.pdbx_gene_src_scientific_name'][x] != taxo_sars_cov_2):
-                    continue'''
+                try:
+                    pp = ppb.build_peptides(chain)[0]
+                except IndexError:
+                    print("ERROR: no model from pp builder")
+                    print(entry)
+                    continue
                 
                 chain_sequence = pp.get_sequence().replace('-', '')
                 # do sequence alignment for each sequence from fasta and track best
@@ -117,7 +149,7 @@ def main(taxonomy, protein):
                         best_score = result.score
                         best_domain = domain_name
                 
-                #print(best_domain + " " + str(best_score))
+                print(entry + " | " + best_domain + " " + str(best_score))
                 # keep track of best chain
                 if best_score > best_chain_score:
                     best_chain_score = best_score
@@ -143,7 +175,7 @@ def main(taxonomy, protein):
                     break
             if not domain_added:
                 entries_and_domains.append([best_chain_domain, [save_entry]])
-            
+    
     # print out results
     total = 0
     for result_list in entries_and_domains:
@@ -157,6 +189,7 @@ def main(taxonomy, protein):
     print("wrote results to:")
     print(workbook_path)
     
+    # write core results to excel
     for result_list in entries_and_domains:
         worksheet = workbook.add_worksheet(result_list[0])
         worksheet.write(0, 0, "PDB")
@@ -172,6 +205,20 @@ def main(taxonomy, protein):
             for x in range(5):
                 worksheet.write(row, x, entry[x])
             row += 1
+    
+    # write organism information to excel
+    worksheet = workbook.add_worksheet("Organisms")
+    worksheet.write(0, 0, "Lists all PDBs which contain sequences of a certain organism.")
+    worksheet.write(1, 0, "Organism")
+    worksheet.write(1, 1, "PDB")
+    worksheet.set_column('A:A', 40)
+    row = 2
+    for entry in organisms:
+        worksheet.write(row, 0, entry[0])
+        for x in range(len(entry[1])):
+            worksheet.write(row, 1, entry[1][x])
+            row += 1
+        row += 1
     
     workbook.close()
 

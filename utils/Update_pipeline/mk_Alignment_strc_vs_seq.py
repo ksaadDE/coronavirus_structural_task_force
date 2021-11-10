@@ -101,6 +101,7 @@ def aligner (seq_1, seq_2, doc, model_seq):
 
 def file_walker (path_repo, pdb_id, taxo):
     ncbi_seq = seq_finder(path_repo)
+    debug_print(path_repo+"/{}/structure_sequence_alignment.txt".format(taxo))
     doc = open(path_repo+"/{}/structure_sequence_alignment.txt".format(taxo), "a+")
 
     for dirpath, dirnames, files in os.walk(path_repo+"/"+taxo):
@@ -112,7 +113,8 @@ def file_walker (path_repo, pdb_id, taxo):
                 pdb_path = dirpath + "/" + "{}.pdb".format(key)
                 prot_seq = structure_reader(cif_path)
                 seq_depo = pdb_seq_reader(pdb_path)
-
+                
+                debug_print(len(ncbi_seq))
                 while i in range(len(ncbi_seq)):
                     if taxo == "SARS-CoV-2":
                         seq_name = ncbi_seq[i].description.split(" ")[1]

@@ -41,8 +41,13 @@ def seq_finder (path_repo):
 def structure_reader(pdb_path):
 #reads the pdb-file and returns an alignable string
 # reads the pdb-file and returns an alignable string
-    try: pdb_data = gemmi.read_structure(pdb_path)[0]
-    except RuntimeError: return ""
+    try:
+        pdb_data = gemmi.read_structure(pdb_path)[0]
+    except RuntimeError:
+        return ""
+    except ValueError:
+        return ""
+    
     i = 0
     seq = ""
     while True:

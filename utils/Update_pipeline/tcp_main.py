@@ -324,17 +324,21 @@ def new_to_database(repo_path, taxo, pdb_protein_dict, df):
     # update new structures
     for pdb_id, protein_name in pdb_protein_dict.items():
         id_path = os.path.join(repo_path,protein_name,taxo,pdb_id)
-        title, exp_method, res = get_meta(os.path.join(id_path,pdb_id+".cif"))
-        df = df.append({"pdb_id": pdb_id,
-                        "protein": protein_name,
-                        "release_date": time,
-                        "last_revision": time,
-                        "version": 1,
-                        "title": title,
-                        "exp_method": exp_method,
-                        "resolution": res,
-                        "path_in_repo":id_path[id_path.find("pdb"):]},
-                        ignore_index=True)
+        try:
+            title, exp_method, res = get_meta(os.path.join(id_path,pdb_id+".cif"))
+            df = df.append({"pdb_id": pdb_id,
+                            "protein": protein_name,
+                            "release_date": time,
+                            "last_revision": time,
+                            "version": 1,
+                            "title": title,
+                            "exp_method": exp_method,
+                            "resolution": res,
+                            "path_in_repo":id_path[id_path.find("pdb"):]},
+                            ignore_index=True)
+        except ValueError:
+            # file not downloaded properly, gemmi fails opening it
+            pass
 
     return df
 

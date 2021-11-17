@@ -45,11 +45,25 @@ else:
 # taxonomy name used to name files
 taxo = args.taxonomy
 
-
+# identify repo path
 repo_path = os.path.abspath(os.path.join(__file__ ,"..", "..", "..", "pdb"))
 reports_path = os.path.abspath(os.path.join(__file__ , "..",
     "weekly_reports", tcp_main.get_time() + "_update_report_" + taxo + ".txt"))
 print(reports_path)
+
+
+print("Searching for new and changed structures")
+c_new_pdb_lst, changed_prot_list = tcp_main.main(taxonomy_id=taxonomy_id, negate_taxonomy_id=negate_taxonomy_id, taxo=taxo)
+print("Doing sequence aligntment")
+align.main(changed_prot_list, c_new_pdb_lst, repo_path, taxo)
+print("Calculating RMSD")
+RMSD.main(changed_prot_list, repo_path)
+
+# check for common errors in the data base. These are currently:
+# duplicate entries
+# entries with wrong path containing 'not_assigned' after assignment
+# entries not assigned to a protein at all
+analyze_and_fix_dataframe.run()
 
 # check if new nsp3 structures are available
 try:
@@ -66,18 +80,3 @@ except FileNotFoundError:
     print("weekly reports file not found. No domain classification was made.")
 except PermissionError():
     print("Permission denied for opening weekly reports file. No domain classification was made.")
-
-
-print("Searching for new and changed structures")
-c_new_pdb_lst, changed_prot_list = tcp_main.main(taxonomy_id=taxonomy_id, negate_taxonomy_id=negate_taxonomy_id, taxo=taxo)
-print("Doing sequence aligntment")
-align.main(changed_prot_list, c_new_pdb_lst, repo_path, taxo)
-print("Calculating RMSD")
-RMSD.main(changed_prot_list, repo_path)
-
-# check for common errors in the data base. These are currently:
-# duplicate entries
-# entries with wrong path containing 'not_assigned' after assignment
-# entries not assigned to a protein at all
-
-analyze_and_fix_dataframe.run()

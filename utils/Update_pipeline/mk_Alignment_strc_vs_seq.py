@@ -123,4 +123,6 @@ def file_walker (path_repo, pdb_id, taxo):
                         doc.write(">Deposited genome against structure sequence:\n")
                         aligner(seq_depo, prot_seq, doc, True)
                         i += 2
+                    else:
+                        i += 2
     doc.close()

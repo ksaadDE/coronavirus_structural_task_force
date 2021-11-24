@@ -20,6 +20,7 @@ KEYWDS    3CLPRO, MAIN PROTEASE, SARS-COV-2, 2019-NCOV, INHIBITOR, VIRAL
 KEYWDS   2 PROTEIN                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    X.HANOULLE,D.MOSCHIDI                                                 
+REVDAT   2   24-NOV-21 7P51    1       JRNL                                     
 REVDAT   1   06-OCT-21 7P51    0                                                
 JRNL        AUTH   F.X.CANTRELLE,E.BOLL,L.BRIER,D.MOSCHIDI,S.BELOUZARD,         
 JRNL        AUTH 2 V.LANDRY,F.LEROUX,F.DEWITTE,I.LANDRIEU,J.DUBUISSON,B.DEPREZ, 
@@ -27,7 +28,7 @@ JRNL        AUTH 3 J.CHARTON,X.HANOULLE
 JRNL        TITL   NMR SPECTROSCOPY OF THE MAIN PROTEASE OF SARS-COV-2 AND      
 JRNL        TITL 2 FRAGMENT-BASED SCREENING IDENTIFY THREE PROTEIN HOTSPOTS AND 
 JRNL        TITL 3 AN ANTIVIRAL FRAGMENT.                                       
-JRNL        REF    ANGEW.CHEM.INT.ED.ENGL.                    2021              
+JRNL        REF    ANGEW.CHEM.INT.ED.ENGL.       V.  60 25428 2021              
 JRNL        REFN                   ESSN 1521-3773                               
 JRNL        PMID   34570415                                                     
 JRNL        DOI    10.1002/ANIE.202109965                                       

@@ -3,7 +3,7 @@ data_7P51
 _entry.id   7P51 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.350 
+_audit_conform.dict_version    5.352 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -59,12 +59,12 @@ _citation.journal_id_CSD            0179
 _citation.journal_id_ISSN           1521-3773 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            60 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                25428 
+_citation.page_last                 25435 
 _citation.title                     
-;NMR spectroscopy of the main protease of SARS-CoV-2 and fragment-based screening identify three protein hotspots and an antiviral fragment.
+;NMR Spectroscopy of the Main Protease of SARS-CoV-2 and Fragment-Based Screening Identify Three Protein Hotspots and an Antiviral Fragment.
 ;
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
@@ -7142,11 +7142,14 @@ _pdbx_struct_conn_angle.value_esd
 2 O ? A PHE 134 ? A PHE 134 ? 1_555 NA ? B NA . ? A NA 401 ? 1_555 O ? A TYR 182 ? A TYR 182 ? 1_555 83.8  ? 
 3 O ? A GLY 174 ? A GLY 174 ? 1_555 NA ? B NA . ? A NA 401 ? 1_555 O ? A TYR 182 ? A TYR 182 ? 1_555 84.0  ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-10-06 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-10-06 
+2 'Structure model' 1 1 2021-11-24 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7155,6 +7158,26 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+_pdbx_audit_revision_category.ordinal             1 
+_pdbx_audit_revision_category.revision_ordinal    2 
+_pdbx_audit_revision_category.data_content_type   'Structure model' 
+_pdbx_audit_revision_category.category            citation 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.journal_volume' 
+2 2 'Structure model' '_citation.page_first'     
+3 2 'Structure model' '_citation.page_last'      
+4 2 'Structure model' '_citation.title'          
 # 
 loop_
 _software.citation_id 

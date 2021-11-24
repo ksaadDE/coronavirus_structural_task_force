@@ -55,15 +55,17 @@ KEYWDS   3 SYSTEM COMPLEX
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    M.MCCALLUM,D.VEESLER,SEATTLE STRUCTURAL GENOMICS CENTER FOR           
 AUTHOR   2 INFECTIOUS DISEASE (SSGCID)                                          
+REVDAT   2   24-NOV-21 7SO9    1       JRNL                                     
 REVDAT   1   17-NOV-21 7SO9    0                                                
-JRNL        AUTH   M.MCCALLUM,A.C.WALLS,K.SPROUSE,J.BOWEN,L.E.ROSEN,H.V.DANG,   
-JRNL        AUTH 2 A.DE MARCO,N.FRANKO,S.W.TILLES,J.LOGUE,M.C.MIRANDA,          
+JRNL        AUTH   M.MCCALLUM,A.C.WALLS,K.R.SPROUSE,J.E.BOWEN,L.E.ROSEN,        
+JRNL        AUTH 2 H.V.DANG,A.DE MARCO,N.FRANKO,S.W.TILLES,J.LOGUE,M.C.MIRANDA, 
 JRNL        AUTH 3 M.AHLRICHS,L.CARTER,G.SNELL,M.S.PIZZUTO,H.Y.CHU,             
 JRNL        AUTH 4 W.C.VAN VOORHIS,D.CORTI,D.VEESLER                            
 JRNL        TITL   MOLECULAR BASIS OF IMMUNE EVASION BY THE DELTA AND KAPPA     
-JRNL        TITL 2 SARS-COV-2 VARIANTS                                          
+JRNL        TITL 2 SARS-COV-2 VARIANTS.                                         
 JRNL        REF    SCIENCE                                    2021              
 JRNL        REFN                   ESSN 1095-9203                               
+JRNL        PMID   34751595                                                     
 JRNL        DOI    10.1126/SCIENCE.ABL8506                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.40 ANGSTROMS.                                       

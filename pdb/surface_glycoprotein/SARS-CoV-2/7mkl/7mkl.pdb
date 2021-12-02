@@ -35,20 +35,35 @@ KEYWDS   3 DISEASES, CSGID
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    L.J.ADAMS,D.H.FREMONT,CENTER FOR STRUCTURAL GENOMICS OF INFECTIOUS    
 AUTHOR   2 DISEASES (CSGID)                                                     
+REVDAT   4   01-DEC-21 7MKL    1       JRNL                                     
 REVDAT   3   04-AUG-21 7MKL    1       REMARK HELIX  SHEET  SSBOND              
 REVDAT   3 2                   1       LINK   ATOM                              
 REVDAT   2   26-MAY-21 7MKL    1       KEYWDS AUTHOR                            
 REVDAT   1   12-MAY-21 7MKL    0                                                
-JRNL        AUTH   L.VANBLARGAN,L.ADAMS,Z.LIU,R.E.CHEN,P.GILCHUK,S.RAJU,        
-JRNL        AUTH 2 B.SMITH,H.ZHAO,J.B.CASE,E.S.WINKLER,B.WHITENER,L.DROIT,      
-JRNL        AUTH 3 I.AZIATI,P.Y.SHI,A.CREANGA,A.PEGU,S.HANDLEY,D.WANG,A.BOON,   
-JRNL        AUTH 4 J.E.CROWE,S.P.J.WHELAN,D.FREMONT,M.DIAMOND                   
-JRNL        TITL   A POTENTLY NEUTRALIZING ANTI-SARS-COV-2 ANTIBODY INHIBITS    
-JRNL        TITL 2 VARIANTS OF CONCERN BY BINDING A HIGHLY CONSERVED EPITOPE.   
-JRNL        REF    BIORXIV                                    2021              
-JRNL        REFN                                                                
-JRNL        PMID   33907753                                                     
-JRNL        DOI    10.1101/2021.04.26.441501                                    
+JRNL        AUTH   L.A.VANBLARGAN,L.J.ADAMS,Z.LIU,R.E.CHEN,P.GILCHUK,S.RAJU,    
+JRNL        AUTH 2 B.K.SMITH,H.ZHAO,J.B.CASE,E.S.WINKLER,B.M.WHITENER,L.DROIT,  
+JRNL        AUTH 3 I.D.AZIATI,T.L.BRICKER,A.JOSHI,P.Y.SHI,A.CREANGA,A.PEGU,     
+JRNL        AUTH 4 S.A.HANDLEY,D.WANG,A.C.M.BOON,J.E.CROWE JR.,S.P.J.WHELAN,    
+JRNL        AUTH 5 D.H.FREMONT,M.S.DIAMOND                                      
+JRNL        TITL   A POTENTLY NEUTRALIZING SARS-COV-2 ANTIBODY INHIBITS         
+JRNL        TITL 2 VARIANTS OF CONCERN BY UTILIZING UNIQUE BINDING RESIDUES IN  
+JRNL        TITL 3 A HIGHLY CONSERVED EPITOPE.                                  
+JRNL        REF    IMMUNITY                      V.  54  2399 2021              
+JRNL        REFN                   ISSN 1074-7613                               
+JRNL        PMID   34481543                                                     
+JRNL        DOI    10.1016/J.IMMUNI.2021.08.016                                 
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   L.VANBLARGAN,L.ADAMS,Z.LIU,R.E.CHEN,P.GILCHUK,S.RAJU,        
+REMARK   1  AUTH 2 B.SMITH,H.ZHAO,J.B.CASE,E.S.WINKLER,B.WHITENER,L.DROIT,      
+REMARK   1  AUTH 3 I.AZIATI,P.Y.SHI,A.CREANGA,A.PEGU,S.HANDLEY,D.WANG,A.BOON,   
+REMARK   1  AUTH 4 J.E.CROWE,S.P.J.WHELAN,D.FREMONT,M.DIAMOND                   
+REMARK   1  TITL   A POTENTLY NEUTRALIZING ANTI-SARS-COV-2 ANTIBODY INHIBITS    
+REMARK   1  TITL 2 VARIANTS OF CONCERN BY BINDING A HIGHLY CONSERVED EPITOPE.   
+REMARK   1  REF    BIORXIV                                    2021              
+REMARK   1  REFN                                                                
+REMARK   1  PMID   33907753                                                     
+REMARK   1  DOI    10.1101/2021.04.26.441501                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.20 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -28758,5 +28773,5 @@ CONECT2559925592
 CONECT256002558925593                                                           
 CONECT2560125594                                                                
 CONECT2560225595                                                                
-MASTER      637    0   63   68  163    0    0    625597    5 1008  279          
+MASTER      649    0   63   68  163    0    0    625597    5 1008  279          
 END                                                                             

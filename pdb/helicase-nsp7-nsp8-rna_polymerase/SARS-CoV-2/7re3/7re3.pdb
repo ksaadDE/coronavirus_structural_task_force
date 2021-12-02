@@ -80,12 +80,13 @@ KEYWDS   2 COMPLEX, TRANSCRIPTION, VIRAL PROTEINS, REPLICATION-TRANSCRIPTION
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.CHEN,B.MALONE,E.A.CAMPBELL,S.A.DARST                                
+REVDAT   2   01-DEC-21 7RE3    1       JRNL                                     
 REVDAT   1   24-NOV-21 7RE3    0                                                
-JRNL        AUTH   J.CHEN,Q.WANG,B.MALONE,E.C.LLEWELLYN,K.MARUTHI,E.T.ENG,      
-JRNL        AUTH 2 J.PERRY,E.A.CAMPBELL,D.E.SHAW,S.A.DARST                      
+JRNL        AUTH   J.CHEN,Q.WANG,B.MALONE,E.LLEWELLYN,Y.PECHERSKY,K.MARUTHI,    
+JRNL        AUTH 2 E.T.ENG,J.K.PERRY,E.A.CAMPBELL,D.E.SHAW,S.A.DARST            
 JRNL        TITL   ENSEMBLE CRYO-ELECTRON MICROSCOPY REVEALS CONFORMATIONAL     
-JRNL        TITL 2 STATES OF THE SARS-COV-2 HELICASE REPLICATION-TRANSCRIPTION  
-JRNL        TITL 3 COMPLEX                                                      
+JRNL        TITL 2 STATES OF THE NSP13 HELICASE IN THE SARS-COV-2 HELICASE      
+JRNL        TITL 3 REPLICATION-TRANSCRIPTION COMPLEX                            
 JRNL        REF    BIORXIV                                    2021              
 JRNL        REFN                                                                
 JRNL        DOI    10.1101/2021.11.10.468168                                    

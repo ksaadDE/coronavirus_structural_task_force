@@ -27,12 +27,15 @@ KEYWDS    SARS-COV-2, NANOBODY, NUCLEOCAPSID, VIRUS, VIRAL PROTEIN-IMMUNE
 KEYWDS   2 SYSTEM COMPLEX                                                       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Q.YE,K.D.CORBETT                                                      
+REVDAT   2   01-DEC-21 7N0I    1       JRNL                                     
 REVDAT   1   09-JUN-21 7N0I    0                                                
 JRNL        AUTH   Q.YE,S.LU,K.D.CORBETT                                        
-JRNL        TITL   STRUCTURE OF THE SARS-COV-2 N PROTEIN C-TERMINAL DOMAIN      
-JRNL        TITL 2 BOUND TO SINGLE-DOMAIN ANTIBODY E2                           
-JRNL        REF    TO BE PUBLISHED                                              
+JRNL        TITL   STRUCTURAL BASIS FOR SARS-COV-2 NUCLEOCAPSID PROTEIN         
+JRNL        TITL 2 RECOGNITION BY SINGLE-DOMAIN ANTIBODIES.                     
+JRNL        REF    BIORXIV                                    2021              
 JRNL        REFN                                                                
+JRNL        PMID   34100017                                                     
+JRNL        DOI    10.1101/2021.06.01.446591                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
 REMARK   3                                                                      

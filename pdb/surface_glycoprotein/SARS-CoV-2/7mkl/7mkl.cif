@@ -3,7 +3,7 @@ data_7MKL
 _entry.id   7MKL 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.347 
+_audit_conform.dict_version    5.352 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -11,9 +11,9 @@ _database_2.database_id
 _database_2.database_code 
 _database_2.pdbx_database_accession 
 _database_2.pdbx_DOI 
-PDB   7MKL         ? ? 
-WWPDB D_1000256440 ? ? 
-EMDB  EMD-23898    ? ? 
+PDB   7MKL         pdb_00007mkl 10.2210/pdb7mkl/pdb 
+WWPDB D_1000256440 ?            ?                   
+EMDB  EMD-23898    ?            ?                   
 # 
 loop_
 _pdbx_database_related.db_name 
@@ -44,64 +44,96 @@ _audit_author.identifier_ORCID
 'Fremont, D.H.'                                                 2 0000-0002-8544-2689 
 'Center for Structural Genomics of Infectious Diseases (CSGID)' 3 ?                   
 # 
-_citation.abstract                  ? 
-_citation.abstract_id_CAS           ? 
-_citation.book_id_ISBN              ? 
-_citation.book_publisher            ? 
-_citation.book_publisher_city       ? 
-_citation.book_title                ? 
-_citation.coordinate_linkage        ? 
-_citation.country                   US 
-_citation.database_id_Medline       ? 
-_citation.details                   ? 
-_citation.id                        primary 
-_citation.journal_abbrev            Biorxiv 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            ? 
-_citation.journal_id_ISSN           ? 
-_citation.journal_full              ? 
-_citation.journal_issue             ? 
-_citation.journal_volume            ? 
-_citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     
-'A potently neutralizing anti-SARS-CoV-2 antibody inhibits variants of concern by binding a highly conserved epitope.' 
-_citation.year                      2021 
-_citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.1101/2021.04.26.441501 
-_citation.pdbx_database_id_PubMed   33907753 
-_citation.pdbx_database_id_patent   ? 
-_citation.unpublished_flag          ? 
+loop_
+_citation.abstract 
+_citation.abstract_id_CAS 
+_citation.book_id_ISBN 
+_citation.book_publisher 
+_citation.book_publisher_city 
+_citation.book_title 
+_citation.coordinate_linkage 
+_citation.country 
+_citation.database_id_Medline 
+_citation.details 
+_citation.id 
+_citation.journal_abbrev 
+_citation.journal_id_ASTM 
+_citation.journal_id_CSD 
+_citation.journal_id_ISSN 
+_citation.journal_full 
+_citation.journal_issue 
+_citation.journal_volume 
+_citation.language 
+_citation.page_first 
+_citation.page_last 
+_citation.title 
+_citation.year 
+_citation.database_id_CSD 
+_citation.pdbx_database_id_DOI 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_patent 
+_citation.unpublished_flag 
+? ? ? ? ? ? ? US ? ? primary Immunity IUNIEH 2048 1074-7613 ? ? 54 ? 2399 2416.e6 
+;A potently neutralizing SARS-CoV-2 antibody inhibits variants of concern by utilizing unique binding residues in a highly conserved epitope.
+;
+2021 ? 10.1016/j.immuni.2021.08.016 34481543 ? ? 
+? ? ? ? ? ? ? US ? ? 1       Biorxiv  ?      ?    ?         ? ? ?  ? ?    ?       
+'A potently neutralizing anti-SARS-CoV-2 antibody inhibits variants of concern by binding a highly conserved epitope.' 2021 ? 
+10.1101/2021.04.26.441501    33907753 ? ? 
 # 
 loop_
 _citation_author.citation_id 
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'VanBlargan, L.' 1  ?                   
-primary 'Adams, L.'      2  ?                   
-primary 'Liu, Z.'        3  ?                   
-primary 'Chen, R.E.'     4  ?                   
-primary 'Gilchuk, P.'    5  ?                   
-primary 'Raju, S.'       6  ?                   
-primary 'Smith, B.'      7  ?                   
-primary 'Zhao, H.'       8  ?                   
-primary 'Case, J.B.'     9  ?                   
-primary 'Winkler, E.S.'  10 ?                   
-primary 'Whitener, B.'   11 ?                   
-primary 'Droit, L.'      12 ?                   
-primary 'Aziati, I.'     13 ?                   
-primary 'Shi, P.Y.'      14 ?                   
-primary 'Creanga, A.'    15 ?                   
-primary 'Pegu, A.'       16 ?                   
-primary 'Handley, S.'    17 ?                   
-primary 'Wang, D.'       18 ?                   
-primary 'Boon, A.'       19 ?                   
-primary 'Crowe, J.E.'    20 ?                   
-primary 'Whelan, S.P.J.' 21 0000-0003-1564-8590 
-primary 'Fremont, D.'    22 ?                   
-primary 'Diamond, M.'    23 0000-0002-8791-3165 
+primary 'VanBlargan, L.A.' 1  ?                   
+primary 'Adams, L.J.'      2  ?                   
+primary 'Liu, Z.'          3  ?                   
+primary 'Chen, R.E.'       4  ?                   
+primary 'Gilchuk, P.'      5  ?                   
+primary 'Raju, S.'         6  ?                   
+primary 'Smith, B.K.'      7  ?                   
+primary 'Zhao, H.'         8  ?                   
+primary 'Case, J.B.'       9  ?                   
+primary 'Winkler, E.S.'    10 ?                   
+primary 'Whitener, B.M.'   11 ?                   
+primary 'Droit, L.'        12 ?                   
+primary 'Aziati, I.D.'     13 ?                   
+primary 'Bricker, T.L.'    14 ?                   
+primary 'Joshi, A.'        15 ?                   
+primary 'Shi, P.Y.'        16 ?                   
+primary 'Creanga, A.'      17 ?                   
+primary 'Pegu, A.'         18 ?                   
+primary 'Handley, S.A.'    19 ?                   
+primary 'Wang, D.'         20 ?                   
+primary 'Boon, A.C.M.'     21 ?                   
+primary 'Crowe Jr., J.E.'  22 ?                   
+primary 'Whelan, S.P.J.'   23 ?                   
+primary 'Fremont, D.H.'    24 ?                   
+primary 'Diamond, M.S.'    25 ?                   
+1       'VanBlargan, L.'   26 ?                   
+1       'Adams, L.'        27 ?                   
+1       'Liu, Z.'          28 ?                   
+1       'Chen, R.E.'       29 ?                   
+1       'Gilchuk, P.'      30 ?                   
+1       'Raju, S.'         31 ?                   
+1       'Smith, B.'        32 ?                   
+1       'Zhao, H.'         33 ?                   
+1       'Case, J.B.'       34 ?                   
+1       'Winkler, E.S.'    35 ?                   
+1       'Whitener, B.'     36 ?                   
+1       'Droit, L.'        37 ?                   
+1       'Aziati, I.'       38 ?                   
+1       'Shi, P.Y.'        39 ?                   
+1       'Creanga, A.'      40 ?                   
+1       'Pegu, A.'         41 ?                   
+1       'Handley, S.'      42 ?                   
+1       'Wang, D.'         43 ?                   
+1       'Boon, A.'         44 ?                   
+1       'Crowe, J.E.'      45 ?                   
+1       'Whelan, S.P.J.'   46 0000-0003-1564-8590 
+1       'Fremont, D.'      47 ?                   
+1       'Diamond, M.'      48 0000-0002-8791-3165 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -32841,6 +32873,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-05-12 
 2 'Structure model' 1 1 2021-05-26 
 3 'Structure model' 2 0 2021-08-04 
+4 'Structure model' 2 1 2021-12-01 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -32865,6 +32898,7 @@ _pdbx_audit_revision_group.group
 5 3 'Structure model' 'Data collection'        
 6 3 'Structure model' 'Derived calculations'   
 7 3 'Structure model' 'Refinement description' 
+8 4 'Structure model' 'Database references'    
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -32892,6 +32926,9 @@ _pdbx_audit_revision_category.category
 19 3 'Structure model' struct_sheet                  
 20 3 'Structure model' struct_sheet_order            
 21 3 'Structure model' struct_sheet_range            
+22 4 'Structure model' citation                      
+23 4 'Structure model' citation_author               
+24 4 'Structure model' database_2                    
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -32930,6 +32967,8 @@ _pdbx_audit_revision_item.item
 30 3 'Structure model' '_software.version'                           
 31 3 'Structure model' '_struct_conn.pdbx_dist_value'                
 32 3 'Structure model' '_struct_sheet.number_strands'                
+33 4 'Structure model' '_database_2.pdbx_DOI'                        
+34 4 'Structure model' '_database_2.pdbx_database_accession'         
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

@@ -42,7 +42,6 @@ def fill_database(workdir):
     for path, dirs, files in os.walk(workdir):
         # detect SARS-CoV and SARS-CoV-2 folders, since these contain sub-folders for each pdb id
         if path.endswith("SARS-CoV") or path.endswith("SARS-CoV-2"):
-            print(path)
 
             # iterate through sub-folders named by pdb id
             for pdb_id in dirs:
@@ -143,16 +142,31 @@ def fill_database(workdir):
                 else:
                     print("Error during value read out based on method in " + pdb_id)
                     print("method: " + method)
-
+                
+                # build relative path starting at 'pdb/'
+                norm_path = os.path.normpath(folder)
+                rel_path_list = norm_path.split(os.sep)
+                # find index of 'pdb'
+                pdb_index = 0
+                while pdb_index < len(rel_path_list):
+                    if rel_path_list[pdb_index] == 'pdb':
+                        break
+                    pdb_index += 1
+                # build path from list
+                rel_path = rel_path_list[pdb_index]
+                for path_part in rel_path_list[(pdb_index + 1):]:
+                    rel_path = os.path.join(rel_path, path_part)
+                print(rel_path)
+                
                 # build github link
-                github_link = url + folder[2:]
+                github_link = url + "/" + rel_path
                 github_link = github_link.replace('\\', '/')
 
                 # parse all collected values
-                parsed_values = (pdb_id, folder, github_link, protein_name, virus_name, method, has_re_refinement,
+                parsed_values = (pdb_id, rel_path, github_link, protein_name, virus_name, method, has_re_refinement,
                                  resolution, rmsd, rwork, rfree)
                 EM_values = (pdb_id, resolution)
-                general_values = (pdb_id, description, method, folder, github_link, protein_name, virus_name,
+                general_values = (pdb_id, description, method, rel_path, github_link, protein_name, virus_name,
                                   has_re_refinement, molprobity_score)
                 MX_values = (pdb_id, rfree, resolution, rwork)
                 NMR = (pdb_id, rmsd)

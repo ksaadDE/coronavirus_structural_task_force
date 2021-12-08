@@ -19,6 +19,7 @@ SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PET-28-NKI-LIC
 KEYWDS    SARS-COV-2, NSP9, RNA BINDING COMPLEX, VIRAL PROTEIN                  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.R.LITTLER,B.S.GULLY,J.ROSSJOHN                                      
+REVDAT   4   08-DEC-21 7N3K    1       JRNL                                     
 REVDAT   3   24-NOV-21 7N3K    1       JRNL                                     
 REVDAT   2   03-NOV-21 7N3K    1       JRNL                                     
 REVDAT   1   27-OCT-21 7N3K    0                                                
@@ -28,7 +29,7 @@ JRNL        AUTH 3 D.F.J.PURCELL,R.J.QUINN,J.ROSSJOHN
 JRNL        TITL   A NATURAL PRODUCT COMPOUND INHIBITS CORONAVIRAL REPLICATION  
 JRNL        TITL 2 IN VITRO BY BINDING TO THE CONSERVED NSP9 SARS-COV-2         
 JRNL        TITL 3 PROTEIN.                                                     
-JRNL        REF    J.BIOL.CHEM.                         01362 2021              
+JRNL        REF    J.BIOL.CHEM.                  V. 297 01362 2021              
 JRNL        REFN                   ESSN 1083-351X                               
 JRNL        PMID   34756886                                                     
 JRNL        DOI    10.1016/J.JBC.2021.101362                                    

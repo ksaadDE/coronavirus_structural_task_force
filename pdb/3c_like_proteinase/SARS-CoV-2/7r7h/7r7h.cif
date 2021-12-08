@@ -3,7 +3,7 @@ data_7R7H
 _entry.id   7R7H 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.348 
+_audit_conform.dict_version    5.352 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -53,15 +53,15 @@ _citation.journal_id_CSD            ?
 _citation.journal_id_ISSN           2632-8682 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            12 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Peptidomimetic nitrile warheads as SARS-CoV-2 3CL protease inhibitors' 
+_citation.page_first                1722 
+_citation.page_last                 1730 
+_citation.title                     'Peptidomimetic nitrile warheads as SARS-CoV-2 3CL protease inhibitors.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.1039/D1MD00247C 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      10.1039/d1md00247c 
+_citation.pdbx_database_id_PubMed   34778773 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -70,23 +70,23 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Bai, B.'         1  ? 
-primary 'Arutyunova, E.'  2  ? 
-primary 'Khan, M.B.'      3  ? 
-primary 'Lu, J.'          4  ? 
-primary 'Joyce, M.A.'     5  ? 
-primary 'Saffran, H.'     6  ? 
-primary 'Shields, J.A.'   7  ? 
-primary 'Kandadai, A.S.'  8  ? 
-primary 'Belovodskiy, A.' 9  ? 
-primary 'Hena, M.'        10 ? 
-primary 'Vuong, W.'       11 ? 
-primary 'Lamer, T.'       12 ? 
-primary 'young, H.'       13 ? 
-primary 'Vederas, J.C.'   14 ? 
-primary 'Tyrrell, D.L.'   15 ? 
-primary 'Lemieux, J.'     16 ? 
-primary 'Nieman, J.'      17 ? 
+primary 'Bai, B.'         1  ?                   
+primary 'Arutyunova, E.'  2  ?                   
+primary 'Khan, M.B.'      3  ?                   
+primary 'Lu, J.'          4  0000-0002-4090-5176 
+primary 'Joyce, M.A.'     5  0000-0002-9173-7299 
+primary 'Saffran, H.A.'   6  ?                   
+primary 'Shields, J.A.'   7  0000-0003-4701-4576 
+primary 'Kandadai, A.S.'  8  ?                   
+primary 'Belovodskiy, A.' 9  0000-0002-4944-8469 
+primary 'Hena, M.'        10 ?                   
+primary 'Vuong, W.'       11 ?                   
+primary 'Lamer, T.'       12 0000-0002-1511-4540 
+primary 'Young, H.S.'     13 ?                   
+primary 'Vederas, J.C.'   14 0000-0002-2996-0326 
+primary 'Tyrrell, D.L.'   15 ?                   
+primary 'Lemieux, M.J.'   16 0000-0003-4745-9153 
+primary 'Nieman, J.A.'    17 0000-0002-5087-0819 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -11840,11 +11840,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-09-01 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-09-01 
+2 'Structure model' 1 1 2021-12-08 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -11853,6 +11856,33 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.journal_volume'          
+2 2 'Structure model' '_citation.page_first'              
+3 2 'Structure model' '_citation.page_last'               
+4 2 'Structure model' '_citation.pdbx_database_id_DOI'    
+5 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+6 2 'Structure model' '_citation.title'                   
+7 2 'Structure model' '_citation_author.identifier_ORCID' 
+8 2 'Structure model' '_citation_author.name'             
 # 
 loop_
 _space_group_symop.id 

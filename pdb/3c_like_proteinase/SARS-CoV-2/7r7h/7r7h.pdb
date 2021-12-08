@@ -18,14 +18,17 @@ SOURCE   8 EXPRESSION_SYSTEM_TAXID: 376725
 KEYWDS    VIRAL PROTEIN, HYDROLASE-HYDROLASE INHIBITOR COMPLEX, HYDROLASE       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.B.KHAN,J.LU,H.S.YOUNG,M.J.LEMIEUX                                   
+REVDAT   2   08-DEC-21 7R7H    1       JRNL                                     
 REVDAT   1   01-SEP-21 7R7H    0                                                
-JRNL        AUTH   B.BAI,E.ARUTYUNOVA,M.B.KHAN,J.LU,M.A.JOYCE,H.SAFFRAN,        
+JRNL        AUTH   B.BAI,E.ARUTYUNOVA,M.B.KHAN,J.LU,M.A.JOYCE,H.A.SAFFRAN,      
 JRNL        AUTH 2 J.A.SHIELDS,A.S.KANDADAI,A.BELOVODSKIY,M.HENA,W.VUONG,       
-JRNL        AUTH 3 T.LAMER,H.YOUNG,J.C.VEDERAS,D.L.TYRRELL,J.LEMIEUX,J.NIEMAN   
+JRNL        AUTH 3 T.LAMER,H.S.YOUNG,J.C.VEDERAS,D.L.TYRRELL,M.J.LEMIEUX,       
+JRNL        AUTH 4 J.A.NIEMAN                                                   
 JRNL        TITL   PEPTIDOMIMETIC NITRILE WARHEADS AS SARS-COV-2 3CL PROTEASE   
-JRNL        TITL 2 INHIBITORS                                                   
-JRNL        REF    RSC MED CHEM                               2021              
+JRNL        TITL 2 INHIBITORS.                                                  
+JRNL        REF    RSC MED CHEM                  V.  12  1722 2021              
 JRNL        REFN                   ESSN 2632-8682                               
+JRNL        PMID   34778773                                                     
 JRNL        DOI    10.1039/D1MD00247C                                           
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.15 ANGSTROMS.                                       

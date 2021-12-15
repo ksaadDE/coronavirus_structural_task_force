@@ -54,13 +54,13 @@ _citation.journal_full              ?
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Structural basis for continued antibody evasion by the SARS-CoV-2 receptor binding domain' 
+_citation.page_first                eabl6251 
+_citation.page_last                 eabl6251 
+_citation.title                     'Structural basis for continued antibody evasion by the SARS-CoV-2 receptor binding domain.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.1126/science.abl6251 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_DOI      ? 
+_citation.pdbx_database_id_PubMed   34855508 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -69,36 +69,37 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Nabel, K.G.'       1  ? 
-primary 'Shankar, S.'       2  ? 
-primary 'Pan, J.'           3  ? 
-primary 'Clark, L.E.'       4  ? 
-primary 'Yang, P.'          5  ? 
-primary 'Coscia, A.'        6  ? 
-primary 'McKay, L.G.A.'     7  ? 
-primary 'Varnum, H.H.'      8  ? 
-primary 'Brusic, V.'        9  ? 
-primary 'Tolan, N.V.'       10 ? 
-primary 'Zhou, G.'          11 ? 
-primary 'Desjardins, M.'    12 ? 
-primary 'Turbett, S.E.'     13 ? 
-primary 'Kanjilal, S.'      14 ? 
-primary 'Sherman, A.C.'     15 ? 
-primary 'Dighe, A.'         16 ? 
-primary 'LaRocque, R.C.'    17 ? 
-primary 'Ryan, E.T.'        18 ? 
-primary 'Tylek, C.'         19 ? 
-primary 'Cohen-Solal, J.F.' 20 ? 
-primary 'Darcy, A.T.'       21 ? 
-primary 'Tavella, D.'       22 ? 
-primary 'Clabbers, A.'      23 ? 
-primary 'Fan, Y.'           24 ? 
-primary 'Griffiths, A.'     25 ? 
-primary 'Correia, I.R.'     26 ? 
-primary 'Seagal, J.'        27 ? 
-primary 'Baden, L.R.'       28 ? 
-primary 'Charles, R.C.'     29 ? 
-primary 'Abraham, J.'       30 ? 
+primary 'Nabel, K.G.'       1  0000-0002-4429-7075 
+primary 'Clark, S.A.'       2  0000-0001-9944-0919 
+primary 'Shankar, S.'       3  0000-0001-9340-9945 
+primary 'Pan, J.'           4  0000-0002-0070-955X 
+primary 'Clark, L.E.'       5  0000-0002-6093-7597 
+primary 'Yang, P.'          6  ?                   
+primary 'Coscia, A.'        7  0000-0002-6836-9993 
+primary 'McKay, L.G.A.'     8  0000-0003-0369-9067 
+primary 'Varnum, H.H.'      9  ?                   
+primary 'Brusic, V.'        10 ?                   
+primary 'Tolan, N.V.'       11 ?                   
+primary 'Zhou, G.'          12 ?                   
+primary 'Desjardins, M.'    13 0000-0003-4028-8507 
+primary 'Turbett, S.E.'     14 0000-0002-3603-8110 
+primary 'Kanjilal, S.'      15 0000-0002-1221-5725 
+primary 'Sherman, A.C.'     16 0000-0002-6075-3990 
+primary 'Dighe, A.'         17 ?                   
+primary 'LaRocque, R.C.'    18 0000-0003-4558-0339 
+primary 'Ryan, E.T.'        19 ?                   
+primary 'Tylek, C.'         20 ?                   
+primary 'Cohen-Solal, J.F.' 21 0000-0002-1385-2566 
+primary 'Darcy, A.T.'       22 ?                   
+primary 'Tavella, D.'       23 0000-0002-2030-2087 
+primary 'Clabbers, A.'      24 0000-0002-4258-9680 
+primary 'Fan, Y.'           25 ?                   
+primary 'Griffiths, A.'     26 0000-0001-5435-8364 
+primary 'Correia, I.R.'     27 0000-0003-2295-7199 
+primary 'Seagal, J.'        28 0000-0002-5959-5139 
+primary 'Baden, L.R.'       29 ?                   
+primary 'Charles, R.C.'     30 ?                   
+primary 'Abraham, J.'       31 0000-0002-7937-3920 
 # 
 _cell.angle_alpha                  90 
 _cell.angle_alpha_esd              ? 
@@ -30897,11 +30898,14 @@ _pdbx_struct_conn_angle.value_esd
 11 NE2 ? B HIS 378 ? B HIS 378 ? 1_555 ZN ? U ZN . ? B ZN 901 ? 1_555 OE2 ? B GLU 402 ? B GLU 402 ? 1_555 97.2  ? 
 12 OE1 ? B GLU 402 ? B GLU 402 ? 1_555 ZN ? U ZN . ? B ZN 901 ? 1_555 OE2 ? B GLU 402 ? B GLU 402 ? 1_555 53.6  ? 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-12-08 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-12-08 
+2 'Structure model' 1 1 2021-12-15 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -30910,6 +30914,30 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.page_first'              
+2 2 'Structure model' '_citation.page_last'               
+3 2 'Structure model' '_citation.pdbx_database_id_DOI'    
+4 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+5 2 'Structure model' '_citation.title'                   
 # 
 loop_
 _pdbx_refine_tls.id 

@@ -42,12 +42,25 @@ KEYWDS    NEUTRALIZING ANTIBODY, SARS-COV-2, WRAIR-2057, RECEPTOR BINDING
 KEYWDS   2 DOMAIN, ANTIVIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.S.SANKHALA,M.G.JOYCE                                                
+REVDAT   3   15-DEC-21 7N4I    1       JRNL                                     
+REVDAT   2   10-NOV-21 7N4I    1       JRNL                                     
 REVDAT   1   06-OCT-21 7N4I    0                                                
-JRNL        AUTH   R.S.SANKHALA,V.DUSSUPT,K.MODJARRAD,S.J.KREBS,M.G.JOYCE       
-JRNL        TITL   LOW-DOSE IN VIVO PROTECTION AND COVERAGE ACROSS SARS-COV-2   
-JRNL        TITL 2 VARIANTS BY MONOCLONAL ANTIBODY COMBINATIONS.                
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   V.DUSSUPT,R.S.SANKHALA,L.MENDEZ-RIVERA,S.M.TOWNSLEY,         
+JRNL        AUTH 2 F.SCHMIDT,L.WIECZOREK,K.G.LAL,G.C.DONOFRIO,U.TRAN,           
+JRNL        AUTH 3 N.D.JACKSON,W.I.ZAKY,M.ZEMIL,S.R.TRITSCH,W.H.CHEN,           
+JRNL        AUTH 4 E.J.MARTINEZ,A.AHMED,M.CHOE,W.C.CHANG,A.HAJDUCZKI,N.JIAN,    
+JRNL        AUTH 5 C.E.PETERSON,P.A.REES,M.RUTKOWSKA,B.M.SLIKE,C.N.SELVERIAN,   
+JRNL        AUTH 6 I.SWAFFORD,I.T.TENG,P.V.THOMAS,T.ZHOU,C.J.SMITH,J.R.CURRIER, 
+JRNL        AUTH 7 P.D.KWONG,M.ROLLAND,E.DAVIDSON,B.J.DORANZ,C.N.MORES,         
+JRNL        AUTH 8 T.HATZIIOANNOU,W.W.REILEY,P.D.BIENIASZ,D.PAQUIN-PROULX,      
+JRNL        AUTH 9 G.D.GROMOWSKI,V.R.POLONIS,N.L.MICHAEL,K.MODJARRAD,M.G.JOYCE, 
+JRNL        AUTH10 S.J.KREBS                                                    
+JRNL        TITL   LOW-DOSE IN VIVO PROTECTION AND NEUTRALIZATION ACROSS        
+JRNL        TITL 2 SARS-COV-2 VARIANTS BY MONOCLONAL ANTIBODY COMBINATIONS.     
+JRNL        REF    NAT.IMMUNOL.                  V.  22  1503 2021              
+JRNL        REFN                   ESSN 1529-2916                               
+JRNL        PMID   34716452                                                     
+JRNL        DOI    10.1038/S41590-021-01068-Z                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.28 ANGSTROMS.                                       
 REMARK   3                                                                      

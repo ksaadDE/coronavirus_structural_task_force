@@ -48,18 +48,19 @@ KEYWDS    COVID-19, SARS-COV-2, SPIKE PROTEIN, NEUTRALIZATION ESCAPE MUTANT,
 KEYWDS   2 ACE2, RECEPTOR BINDING, VIRAL PROTEIN                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.PAN,J.ABRAHAM,S.CLARK                                               
+REVDAT   2   15-DEC-21 7SN0    1       JRNL                                     
 REVDAT   1   08-DEC-21 7SN0    0                                                
-JRNL        AUTH   K.G.NABEL,S.SHANKAR,J.PAN,L.E.CLARK,P.YANG,A.COSCIA,         
-JRNL        AUTH 2 L.G.A.MCKAY,H.H.VARNUM,V.BRUSIC,N.V.TOLAN,G.ZHOU,            
+JRNL        AUTH   K.G.NABEL,S.A.CLARK,S.SHANKAR,J.PAN,L.E.CLARK,P.YANG,        
+JRNL        AUTH 2 A.COSCIA,L.G.A.MCKAY,H.H.VARNUM,V.BRUSIC,N.V.TOLAN,G.ZHOU,   
 JRNL        AUTH 3 M.DESJARDINS,S.E.TURBETT,S.KANJILAL,A.C.SHERMAN,A.DIGHE,     
 JRNL        AUTH 4 R.C.LAROCQUE,E.T.RYAN,C.TYLEK,J.F.COHEN-SOLAL,A.T.DARCY,     
 JRNL        AUTH 5 D.TAVELLA,A.CLABBERS,Y.FAN,A.GRIFFITHS,I.R.CORREIA,J.SEAGAL, 
 JRNL        AUTH 6 L.R.BADEN,R.C.CHARLES,J.ABRAHAM                              
 JRNL        TITL   STRUCTURAL BASIS FOR CONTINUED ANTIBODY EVASION BY THE       
-JRNL        TITL 2 SARS-COV-2 RECEPTOR BINDING DOMAIN                           
-JRNL        REF    SCIENCE                                    2021              
+JRNL        TITL 2 SARS-COV-2 RECEPTOR BINDING DOMAIN.                          
+JRNL        REF    SCIENCE                              L6251 2021              
 JRNL        REFN                   ESSN 1095-9203                               
-JRNL        DOI    10.1126/SCIENCE.ABL6251                                      
+JRNL        PMID   34855508                                                     
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.08 ANGSTROMS.                                       
 REMARK   3                                                                      

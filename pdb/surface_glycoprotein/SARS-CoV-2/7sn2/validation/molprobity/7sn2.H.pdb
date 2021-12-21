@@ -62,13 +62,13 @@ _citation.journal_full              ?
 _citation.journal_issue             ?
 _citation.journal_volume            ?
 _citation.language                  ?
-_citation.page_first                ?
-_citation.page_last                 ?
+_citation.page_first                eabl6251
+_citation.page_last                 eabl6251
 _citation.title                     'Structural basis for continued antibody eva
 _citation.year                      2021
 _citation.database_id_CSD           ?
-_citation.pdbx_database_id_DOI      10.1126/science.abl6251
-_citation.pdbx_database_id_PubMed   ?
+_citation.pdbx_database_id_DOI      ?
+_citation.pdbx_database_id_PubMed   34855508
 _citation.pdbx_database_id_patent   ?
 _citation.unpublished_flag          ?
 #
@@ -77,36 +77,37 @@ _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Nabel, K.G.'       1  ?
-primary 'Shankar, S.'       2  ?
-primary 'Pan, J.'           3  ?
-primary 'Clark, L.E.'       4  ?
-primary 'Yang, P.'          5  ?
-primary 'Coscia, A.'        6  ?
-primary 'McKay, L.G.A.'     7  ?
-primary 'Varnum, H.H.'      8  ?
-primary 'Brusic, V.'        9  ?
-primary 'Tolan, N.V.'       10 ?
-primary 'Zhou, G.'          11 ?
-primary 'Desjardins, M.'    12 ?
-primary 'Turbett, S.E.'     13 ?
-primary 'Kanjilal, S.'      14 ?
-primary 'Sherman, A.C.'     15 ?
-primary 'Dighe, A.'         16 ?
-primary 'LaRocque, R.C.'    17 ?
-primary 'Ryan, E.T.'        18 ?
-primary 'Tylek, C.'         19 ?
-primary 'Cohen-Solal, J.F.' 20 ?
-primary 'Darcy, A.T.'       21 ?
-primary 'Tavella, D.'       22 ?
-primary 'Clabbers, A.'      23 ?
-primary 'Fan, Y.'           24 ?
-primary 'Griffiths, A.'     25 ?
-primary 'Correia, I.R.'     26 ?
-primary 'Seagal, J.'        27 ?
-primary 'Baden, L.R.'       28 ?
-primary 'Charles, R.C.'     29 ?
-primary 'Abraham, J.'       30 ?
+primary 'Nabel, K.G.'       1  0000-0002-4429-7075
+primary 'Clark, S.A.'       2  0000-0001-9944-0919
+primary 'Shankar, S.'       3  0000-0001-9340-9945
+primary 'Pan, J.'           4  0000-0002-0070-955X
+primary 'Clark, L.E.'       5  0000-0002-6093-7597
+primary 'Yang, P.'          6  ?
+primary 'Coscia, A.'        7  0000-0002-6836-9993
+primary 'McKay, L.G.A.'     8  0000-0003-0369-9067
+primary 'Varnum, H.H.'      9  ?
+primary 'Brusic, V.'        10 ?
+primary 'Tolan, N.V.'       11 ?
+primary 'Zhou, G.'          12 ?
+primary 'Desjardins, M.'    13 0000-0003-4028-8507
+primary 'Turbett, S.E.'     14 0000-0002-3603-8110
+primary 'Kanjilal, S.'      15 0000-0002-1221-5725
+primary 'Sherman, A.C.'     16 0000-0002-6075-3990
+primary 'Dighe, A.'         17 ?
+primary 'LaRocque, R.C.'    18 0000-0003-4558-0339
+primary 'Ryan, E.T.'        19 ?
+primary 'Tylek, C.'         20 ?
+primary 'Cohen-Solal, J.F.' 21 0000-0002-1385-2566
+primary 'Darcy, A.T.'       22 ?
+primary 'Tavella, D.'       23 0000-0002-2030-2087
+primary 'Clabbers, A.'      24 0000-0002-4258-9680
+primary 'Fan, Y.'           25 ?
+primary 'Griffiths, A.'     26 0000-0001-5435-8364
+primary 'Correia, I.R.'     27 0000-0003-2295-7199
+primary 'Seagal, J.'        28 0000-0002-5959-5139
+primary 'Baden, L.R.'       29 ?
+primary 'Charles, R.C.'     30 ?
+primary 'Abraham, J.'       31 0000-0002-7937-3920
 #
 _cell.angle_alpha                  90.00
 _cell.angle_alpha_esd              ?

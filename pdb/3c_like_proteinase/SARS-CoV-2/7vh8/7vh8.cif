@@ -3,7 +3,7 @@ data_7VH8
 _entry.id   7VH8 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.350 
+_audit_conform.dict_version    5.352 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -139,11 +139,14 @@ _entity.pdbx_ec
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
 _entity.details 
-1 polymer     man '3C-like proteinase'      33825.547 1   3.4.22.69 ? ? ? 
-2 non-polymer syn 'PF-07321332, bound form' 503.558   1   ?         ? ? ? 
-3 non-polymer syn 'DIMETHYL SULFOXIDE'      78.133    1   ?         ? ? ? 
-4 non-polymer syn 'HYDROSULFURIC ACID'      34.081    1   ?         ? ? ? 
-5 water       nat water                     18.015    379 ?         ? ? ? 
+1 polymer     man '3C-like proteinase' 33825.547 1   3.4.22.69 ? ? ? 
+2 non-polymer syn 
+;(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-methyl-N-(trifluoroacetyl)-L-valyl]-3-azabicyclo[3.1.0]hexane-2-carboxamide
+;
+501.542   1   ?         ? ? ? 
+3 non-polymer syn 'DIMETHYL SULFOXIDE' 78.133    1   ?         ? ? ? 
+4 non-polymer syn 'HYDROSULFURIC ACID' 34.081    1   ?         ? ? ? 
+5 water       nat water 18.015    379 ?         ? ? ? 
 # 
 _entity_name_com.entity_id   1 
 _entity_name_com.name        'main protease' 
@@ -566,30 +569,56 @@ _chem_comp.name
 _chem_comp.pdbx_synonyms 
 _chem_comp.formula 
 _chem_comp.formula_weight 
-7DI peptide-like        . 'PF-07321332, bound form' ?                  'C23 H36 F3 N5 O4' 503.558 
-ALA 'L-peptide linking' y ALANINE                   ?                  'C3 H7 N O2'       89.093  
-ARG 'L-peptide linking' y ARGININE                  ?                  'C6 H15 N4 O2 1'   175.209 
-ASN 'L-peptide linking' y ASPARAGINE                ?                  'C4 H8 N2 O3'      132.118 
-ASP 'L-peptide linking' y 'ASPARTIC ACID'           ?                  'C4 H7 N O4'       133.103 
-CYS 'L-peptide linking' y CYSTEINE                  ?                  'C3 H7 N O2 S'     121.158 
-DMS non-polymer         . 'DIMETHYL SULFOXIDE'      ?                  'C2 H6 O S'        78.133  
-GLN 'L-peptide linking' y GLUTAMINE                 ?                  'C5 H10 N2 O3'     146.144 
-GLU 'L-peptide linking' y 'GLUTAMIC ACID'           ?                  'C5 H9 N O4'       147.129 
-GLY 'peptide linking'   y GLYCINE                   ?                  'C2 H5 N O2'       75.067  
-H2S non-polymer         . 'HYDROSULFURIC ACID'      'HYDROGEN SULFIDE' 'H2 S'             34.081  
-HIS 'L-peptide linking' y HISTIDINE                 ?                  'C6 H10 N3 O2 1'   156.162 
-HOH non-polymer         . WATER                     ?                  'H2 O'             18.015  
-ILE 'L-peptide linking' y ISOLEUCINE                ?                  'C6 H13 N O2'      131.173 
-LEU 'L-peptide linking' y LEUCINE                   ?                  'C6 H13 N O2'      131.173 
-LYS 'L-peptide linking' y LYSINE                    ?                  'C6 H15 N2 O2 1'   147.195 
-MET 'L-peptide linking' y METHIONINE                ?                  'C5 H11 N O2 S'    149.211 
-PHE 'L-peptide linking' y PHENYLALANINE             ?                  'C9 H11 N O2'      165.189 
-PRO 'L-peptide linking' y PROLINE                   ?                  'C5 H9 N O2'       115.130 
-SER 'L-peptide linking' y SERINE                    ?                  'C3 H7 N O3'       105.093 
-THR 'L-peptide linking' y THREONINE                 ?                  'C4 H9 N O3'       119.119 
-TRP 'L-peptide linking' y TRYPTOPHAN                ?                  'C11 H12 N2 O2'    204.225 
-TYR 'L-peptide linking' y TYROSINE                  ?                  'C9 H11 N O3'      181.189 
-VAL 'L-peptide linking' y VALINE                    ?                  'C5 H11 N O2'      117.146 
+4WI non-polymer         . 
+;(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-methyl-N-(trifluoroacetyl)-L-valyl]-3-azabicyclo[3.1.0]hexane-2-carboxamide
+;
+'PF-07321332, bound form; nirmatrelvir, bound form; Paxlovid, bound form' 'C23 H34 F3 N5 O4' 501.542 
+ALA 'L-peptide linking' y ALANINE ?                                                                         'C3 H7 N O2'       
+89.093  
+ARG 'L-peptide linking' y ARGININE ?                                                                         'C6 H15 N4 O2 1'   
+175.209 
+ASN 'L-peptide linking' y ASPARAGINE ?                                                                         'C4 H8 N2 O3'      
+132.118 
+ASP 'L-peptide linking' y 'ASPARTIC ACID' ?                                                                         'C4 H7 N O4' 
+133.103 
+CYS 'L-peptide linking' y CYSTEINE ?                                                                         'C3 H7 N O2 S'     
+121.158 
+DMS non-polymer         . 'DIMETHYL SULFOXIDE' ?                                                                         
+'C2 H6 O S'        78.133  
+GLN 'L-peptide linking' y GLUTAMINE ?                                                                         'C5 H10 N2 O3'     
+146.144 
+GLU 'L-peptide linking' y 'GLUTAMIC ACID' ?                                                                         'C5 H9 N O4' 
+147.129 
+GLY 'peptide linking'   y GLYCINE ?                                                                         'C2 H5 N O2'       
+75.067  
+H2S non-polymer         . 'HYDROSULFURIC ACID' 'HYDROGEN SULFIDE'                                                        'H2 S' 
+34.081  
+HIS 'L-peptide linking' y HISTIDINE ?                                                                         'C6 H10 N3 O2 1'   
+156.162 
+HOH non-polymer         . WATER ?                                                                         'H2 O'             
+18.015  
+ILE 'L-peptide linking' y ISOLEUCINE ?                                                                         'C6 H13 N O2'      
+131.173 
+LEU 'L-peptide linking' y LEUCINE ?                                                                         'C6 H13 N O2'      
+131.173 
+LYS 'L-peptide linking' y LYSINE ?                                                                         'C6 H15 N2 O2 1'   
+147.195 
+MET 'L-peptide linking' y METHIONINE ?                                                                         'C5 H11 N O2 S'    
+149.211 
+PHE 'L-peptide linking' y PHENYLALANINE ?                                                                         'C9 H11 N O2' 
+165.189 
+PRO 'L-peptide linking' y PROLINE ?                                                                         'C5 H9 N O2'       
+115.130 
+SER 'L-peptide linking' y SERINE ?                                                                         'C3 H7 N O3'       
+105.093 
+THR 'L-peptide linking' y THREONINE ?                                                                         'C4 H9 N O3'       
+119.119 
+TRP 'L-peptide linking' y TRYPTOPHAN ?                                                                         'C11 H12 N2 O2'    
+204.225 
+TYR 'L-peptide linking' y TYROSINE ?                                                                         'C9 H11 N O3'      
+181.189 
+VAL 'L-peptide linking' y VALINE ?                                                                         'C5 H11 N O2'      
+117.146 
 # 
 _exptl.absorpt_coefficient_mu     ? 
 _exptl.absorpt_correction_T_max   ? 
@@ -1178,8 +1207,8 @@ _struct_conn.details
 _struct_conn.pdbx_dist_value 
 _struct_conn.pdbx_value_order 
 _struct_conn.pdbx_role 
-covale1 covale none ? A CYS 145 SG ? ? ? 1_555 B 7DI . C16 ? ? A CYS 145 A 7DI 401 1_555 ? ? ? ? ? ? ? 1.814 ? ? 
-covale2 covale none ? A CYS 145 CB ? ? ? 1_555 D H2S . S   ? ? A CYS 145 A H2S 403 1_555 ? ? ? ? ? ? ? 1.802 ? ? 
+covale1 covale none ? A CYS 145 SG ? ? ? 1_555 B 4WI . C3 ? ? A CYS 145 A 4WI 401 1_555 ? ? ? ? ? ? ? 1.814 ? ? 
+covale2 covale none ? A CYS 145 CB ? ? ? 1_555 D H2S . S  ? ? A CYS 145 A H2S 403 1_555 ? ? ? ? ? ? ? 1.802 ? ? 
 # 
 _struct_conn_type.id          covale 
 _struct_conn_type.criteria    ? 
@@ -3722,41 +3751,41 @@ ATOM   2378 C CG  . GLN A 1 306 ? 13.376  26.655 -41.858 1.00 68.36 ? 306 GLN A 
 ATOM   2379 C CD  . GLN A 1 306 ? 13.753  28.123 -41.997 1.00 71.27 ? 306 GLN A CD  1 
 ATOM   2380 O OE1 . GLN A 1 306 ? 13.852  28.855 -41.009 1.00 63.76 ? 306 GLN A OE1 1 
 ATOM   2381 N NE2 . GLN A 1 306 ? 13.961  28.560 -43.233 1.00 70.94 ? 306 GLN A NE2 1 
-HETATM 2382 C C27 . 7DI B 2 .   ? -19.150 14.286 -22.016 0.80 27.34 ? 401 7DI A C27 1 
-HETATM 2383 C C28 . 7DI B 2 .   ? -18.079 13.691 -21.104 0.80 30.72 ? 401 7DI A C28 1 
-HETATM 2384 O O32 . 7DI B 2 .   ? -20.055 13.624 -22.413 0.80 32.18 ? 401 7DI A O32 1 
-HETATM 2385 F F29 . 7DI B 2 .   ? -18.141 14.293 -19.886 0.80 32.61 ? 401 7DI A F29 1 
-HETATM 2386 F F30 . 7DI B 2 .   ? -16.864 13.950 -21.686 0.80 33.16 ? 401 7DI A F30 1 
-HETATM 2387 F F31 . 7DI B 2 .   ? -18.287 12.346 -20.996 0.80 34.86 ? 401 7DI A F31 1 
-HETATM 2388 N N26 . 7DI B 2 .   ? -18.985 15.695 -22.372 0.80 20.96 ? 401 7DI A N26 1 
-HETATM 2389 C C21 . 7DI B 2 .   ? -19.917 16.337 -23.258 0.80 17.43 ? 401 7DI A C21 1 
-HETATM 2390 C C22 . 7DI B 2 .   ? -20.472 17.654 -22.671 0.80 22.05 ? 401 7DI A C22 1 
-HETATM 2391 C C23 . 7DI B 2 .   ? -21.401 18.319 -23.717 0.80 20.88 ? 401 7DI A C23 1 
-HETATM 2392 C C24 . 7DI B 2 .   ? -21.250 17.285 -21.381 0.80 22.18 ? 401 7DI A C24 1 
-HETATM 2393 C C25 . 7DI B 2 .   ? -19.331 18.636 -22.296 0.80 18.55 ? 401 7DI A C25 1 
-HETATM 2394 C C20 . 7DI B 2 .   ? -19.138 16.564 -24.568 0.80 20.96 ? 401 7DI A C20 1 
-HETATM 2395 O O33 . 7DI B 2 .   ? -18.094 17.136 -24.634 0.80 20.29 ? 401 7DI A O33 1 
-HETATM 2396 N N19 . 7DI B 2 .   ? -19.691 16.015 -25.811 0.80 17.72 ? 401 7DI A N19 1 
-HETATM 2397 C C34 . 7DI B 2 .   ? -20.800 15.398 -25.855 0.80 21.39 ? 401 7DI A C34 1 
-HETATM 2398 C C05 . 7DI B 2 .   ? -19.017 16.212 -26.908 0.80 18.73 ? 401 7DI A C05 1 
-HETATM 2399 C C04 . 7DI B 2 .   ? -19.568 15.157 -27.982 0.80 21.66 ? 401 7DI A C04 1 
-HETATM 2400 C C35 . 7DI B 2 .   ? -20.785 14.551 -27.200 0.80 22.53 ? 401 7DI A C35 1 
-HETATM 2401 C C02 . 7DI B 2 .   ? -19.745 13.617 -27.885 0.80 25.15 ? 401 7DI A C02 1 
-HETATM 2402 C C01 . 7DI B 2 .   ? -18.769 13.002 -26.842 0.80 22.46 ? 401 7DI A C01 1 
-HETATM 2403 C C03 . 7DI B 2 .   ? -20.189 12.871 -29.150 0.80 22.69 ? 401 7DI A C03 1 
-HETATM 2404 C C06 . 7DI B 2 .   ? -19.139 17.723 -27.324 0.80 19.65 ? 401 7DI A C06 1 
-HETATM 2405 O O18 . 7DI B 2 .   ? -20.156 18.329 -27.161 0.80 21.83 ? 401 7DI A O18 1 
-HETATM 2406 C C16 . 7DI B 2 .   ? -17.211 19.842 -29.664 0.80 22.25 ? 401 7DI A C16 1 
-HETATM 2407 C C12 . 7DI B 2 .   ? -18.438 22.041 -24.554 0.80 23.78 ? 401 7DI A C12 1 
-HETATM 2408 C C14 . 7DI B 2 .   ? -16.197 21.132 -25.305 0.80 19.70 ? 401 7DI A C14 1 
-HETATM 2409 C C11 . 7DI B 2 .   ? -18.577 21.464 -25.703 0.80 20.54 ? 401 7DI A C11 1 
-HETATM 2410 C C10 . 7DI B 2 .   ? -17.162 20.520 -25.925 0.80 22.54 ? 401 7DI A C10 1 
-HETATM 2411 C C08 . 7DI B 2 .   ? -17.870 19.743 -28.303 0.80 20.90 ? 401 7DI A C08 1 
-HETATM 2412 C C09 . 7DI B 2 .   ? -16.849 20.499 -27.443 0.80 20.10 ? 401 7DI A C09 1 
-HETATM 2413 N N07 . 7DI B 2 .   ? -17.932 18.346 -27.885 0.80 18.69 ? 401 7DI A N07 1 
-HETATM 2414 N N13 . 7DI B 2 .   ? -16.874 22.212 -24.328 0.80 21.72 ? 401 7DI A N13 1 
-HETATM 2415 N N17 . 7DI B 2 .   ? -17.567 20.786 -30.404 0.80 19.04 ? 401 7DI A N17 1 
-HETATM 2416 O O15 . 7DI B 2 .   ? -15.033 20.965 -25.412 0.80 18.83 ? 401 7DI A O15 1 
+HETATM 2382 C C8  . 4WI B 2 .   ? -16.197 21.132 -25.305 0.80 19.70 ? 401 4WI A C8  1 
+HETATM 2383 C C3  . 4WI B 2 .   ? -17.211 19.842 -29.664 0.80 22.25 ? 401 4WI A C3  1 
+HETATM 2384 C C1  . 4WI B 2 .   ? -19.139 17.723 -27.324 0.80 19.65 ? 401 4WI A C1  1 
+HETATM 2385 C C13 . 4WI B 2 .   ? -19.138 16.564 -24.568 0.80 20.96 ? 401 4WI A C13 1 
+HETATM 2386 C C21 . 4WI B 2 .   ? -19.150 14.286 -22.016 0.80 27.34 ? 401 4WI A C21 1 
+HETATM 2387 C C6  . 4WI B 2 .   ? -18.577 21.464 -25.703 0.80 20.54 ? 401 4WI A C6  1 
+HETATM 2388 C C7  . 4WI B 2 .   ? -18.438 22.041 -24.554 0.80 23.78 ? 401 4WI A C7  1 
+HETATM 2389 C C10 . 4WI B 2 .   ? -20.800 15.398 -25.855 0.80 21.39 ? 401 4WI A C10 1 
+HETATM 2390 C C5  . 4WI B 2 .   ? -17.162 20.520 -25.925 0.80 22.54 ? 401 4WI A C5  1 
+HETATM 2391 C C9  . 4WI B 2 .   ? -19.017 16.212 -26.908 0.80 18.73 ? 401 4WI A C9  1 
+HETATM 2392 C C11 . 4WI B 2 .   ? -20.785 14.551 -27.200 0.80 22.53 ? 401 4WI A C11 1 
+HETATM 2393 C C12 . 4WI B 2 .   ? -19.568 15.157 -27.982 0.80 21.66 ? 401 4WI A C12 1 
+HETATM 2394 C C18 . 4WI B 2 .   ? -19.745 13.617 -27.885 0.80 25.15 ? 401 4WI A C18 1 
+HETATM 2395 C C19 . 4WI B 2 .   ? -18.769 13.002 -26.842 0.80 22.46 ? 401 4WI A C19 1 
+HETATM 2396 C C20 . 4WI B 2 .   ? -20.189 12.871 -29.150 0.80 22.69 ? 401 4WI A C20 1 
+HETATM 2397 C C16 . 4WI B 2 .   ? -21.401 18.319 -23.717 0.80 20.88 ? 401 4WI A C16 1 
+HETATM 2398 C C17 . 4WI B 2 .   ? -21.250 17.285 -21.381 0.80 22.18 ? 401 4WI A C17 1 
+HETATM 2399 C C23 . 4WI B 2 .   ? -19.331 18.636 -22.296 0.80 18.55 ? 401 4WI A C23 1 
+HETATM 2400 C C4  . 4WI B 2 .   ? -16.849 20.499 -27.443 0.80 20.10 ? 401 4WI A C4  1 
+HETATM 2401 C C2  . 4WI B 2 .   ? -17.870 19.743 -28.303 0.80 20.90 ? 401 4WI A C2  1 
+HETATM 2402 C C14 . 4WI B 2 .   ? -19.917 16.337 -23.258 0.80 17.43 ? 401 4WI A C14 1 
+HETATM 2403 C C22 . 4WI B 2 .   ? -18.079 13.691 -21.104 0.80 30.72 ? 401 4WI A C22 1 
+HETATM 2404 C C15 . 4WI B 2 .   ? -20.472 17.654 -22.671 0.80 22.05 ? 401 4WI A C15 1 
+HETATM 2405 N N5  . 4WI B 2 .   ? -17.567 20.786 -30.404 0.80 19.04 ? 401 4WI A N5  1 
+HETATM 2406 N N2  . 4WI B 2 .   ? -16.874 22.212 -24.328 0.80 21.72 ? 401 4WI A N2  1 
+HETATM 2407 N N3  . 4WI B 2 .   ? -19.691 16.015 -25.811 0.80 17.72 ? 401 4WI A N3  1 
+HETATM 2408 N N1  . 4WI B 2 .   ? -17.932 18.346 -27.885 0.80 18.69 ? 401 4WI A N1  1 
+HETATM 2409 N N4  . 4WI B 2 .   ? -18.985 15.695 -22.372 0.80 20.96 ? 401 4WI A N4  1 
+HETATM 2410 O O1  . 4WI B 2 .   ? -15.033 20.965 -25.412 0.80 18.83 ? 401 4WI A O1  1 
+HETATM 2411 O O2  . 4WI B 2 .   ? -20.156 18.329 -27.161 0.80 21.83 ? 401 4WI A O2  1 
+HETATM 2412 O O3  . 4WI B 2 .   ? -18.094 17.136 -24.634 0.80 20.29 ? 401 4WI A O3  1 
+HETATM 2413 O O4  . 4WI B 2 .   ? -20.055 13.624 -22.413 0.80 32.18 ? 401 4WI A O4  1 
+HETATM 2414 F F1  . 4WI B 2 .   ? -18.141 14.293 -19.886 0.80 32.61 ? 401 4WI A F1  1 
+HETATM 2415 F F2  . 4WI B 2 .   ? -16.864 13.950 -21.686 0.80 33.16 ? 401 4WI A F2  1 
+HETATM 2416 F F3  . 4WI B 2 .   ? -18.287 12.346 -20.996 0.80 34.86 ? 401 4WI A F3  1 
 HETATM 2417 S S   . DMS C 3 .   ? -0.059  31.576 -9.831  0.50 33.67 ? 402 DMS A S   1 
 HETATM 2418 O O   . DMS C 3 .   ? 0.859   32.593 -9.392  0.50 35.67 ? 402 DMS A O   1 
 HETATM 2419 C C1  . DMS C 3 .   ? -1.447  32.468 -10.199 0.50 33.23 ? 402 DMS A C1  1 
@@ -4473,7 +4502,7 @@ _pdbx_nonpoly_scheme.pdb_mon_id
 _pdbx_nonpoly_scheme.auth_mon_id 
 _pdbx_nonpoly_scheme.pdb_strand_id 
 _pdbx_nonpoly_scheme.pdb_ins_code 
-B 2 7DI 1   401 401 7DI PF7 A . 
+B 2 4WI 1   401 401 4WI PF7 A . 
 C 3 DMS 1   402 501 DMS DMS A . 
 D 4 H2S 1   403 601 H2S S   A . 
 E 5 HOH 1   501 103 HOH HOH A . 
@@ -4913,11 +4942,14 @@ _pdbx_struct_special_symmetry.label_seq_id
 4 1 A HOH 761 ? E HOH . 
 5 1 A HOH 866 ? E HOH . 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-11-03 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-11-03 
+2 'Structure model' 2 0 2021-12-22 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -4926,6 +4958,63 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Atomic model'               
+2 2 'Structure model' 'Author supporting evidence' 
+3 2 'Structure model' 'Data collection'            
+4 2 'Structure model' 'Derived calculations'       
+5 2 'Structure model' 'Non-polymer description'    
+6 2 'Structure model' 'Structure summary'          
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' atom_site                    
+2 2 'Structure model' chem_comp                    
+3 2 'Structure model' entity                       
+4 2 'Structure model' pdbx_entity_instance_feature 
+5 2 'Structure model' pdbx_entity_nonpoly          
+6 2 'Structure model' pdbx_nonpoly_scheme          
+7 2 'Structure model' struct_conn                  
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1  2 'Structure model' '_atom_site.B_iso_or_equiv'                  
+2  2 'Structure model' '_atom_site.Cartn_x'                         
+3  2 'Structure model' '_atom_site.Cartn_y'                         
+4  2 'Structure model' '_atom_site.Cartn_z'                         
+5  2 'Structure model' '_atom_site.auth_atom_id'                    
+6  2 'Structure model' '_atom_site.auth_comp_id'                    
+7  2 'Structure model' '_atom_site.label_atom_id'                   
+8  2 'Structure model' '_atom_site.label_comp_id'                   
+9  2 'Structure model' '_atom_site.type_symbol'                     
+10 2 'Structure model' '_chem_comp.formula'                         
+11 2 'Structure model' '_chem_comp.formula_weight'                  
+12 2 'Structure model' '_chem_comp.id'                              
+13 2 'Structure model' '_chem_comp.name'                            
+14 2 'Structure model' '_chem_comp.pdbx_synonyms'                   
+15 2 'Structure model' '_chem_comp.type'                            
+16 2 'Structure model' '_entity.formula_weight'                     
+17 2 'Structure model' '_entity.pdbx_description'                   
+18 2 'Structure model' '_pdbx_entity_instance_feature.auth_comp_id' 
+19 2 'Structure model' '_pdbx_entity_instance_feature.comp_id'      
+20 2 'Structure model' '_pdbx_entity_nonpoly.comp_id'               
+21 2 'Structure model' '_pdbx_entity_nonpoly.name'                  
+22 2 'Structure model' '_pdbx_nonpoly_scheme.mon_id'                
+23 2 'Structure model' '_pdbx_nonpoly_scheme.pdb_mon_id'            
+24 2 'Structure model' '_struct_conn.ptnr2_auth_comp_id'            
+25 2 'Structure model' '_struct_conn.ptnr2_label_atom_id'           
+26 2 'Structure model' '_struct_conn.ptnr2_label_comp_id'           
 # 
 loop_
 _software.citation_id 
@@ -5020,10 +5109,10 @@ _pdbx_audit_support.grant_number           ?
 _pdbx_audit_support.ordinal                1 
 # 
 _pdbx_entity_instance_feature.ordinal        1 
-_pdbx_entity_instance_feature.comp_id        7DI 
+_pdbx_entity_instance_feature.comp_id        4WI 
 _pdbx_entity_instance_feature.asym_id        ? 
 _pdbx_entity_instance_feature.seq_num        ? 
-_pdbx_entity_instance_feature.auth_comp_id   7DI 
+_pdbx_entity_instance_feature.auth_comp_id   4WI 
 _pdbx_entity_instance_feature.auth_asym_id   ? 
 _pdbx_entity_instance_feature.auth_seq_num   ? 
 _pdbx_entity_instance_feature.feature_type   'SUBJECT OF INVESTIGATION' 
@@ -5033,10 +5122,13 @@ loop_
 _pdbx_entity_nonpoly.entity_id 
 _pdbx_entity_nonpoly.name 
 _pdbx_entity_nonpoly.comp_id 
-2 'PF-07321332, bound form' 7DI 
-3 'DIMETHYL SULFOXIDE'      DMS 
-4 'HYDROSULFURIC ACID'      H2S 
-5 water                     HOH 
+2 
+;(1R,2S,5S)-N-{(1E,2S)-1-imino-3-[(3S)-2-oxopyrrolidin-3-yl]propan-2-yl}-6,6-dimethyl-3-[3-methyl-N-(trifluoroacetyl)-L-valyl]-3-azabicyclo[3.1.0]hexane-2-carboxamide
+;
+4WI 
+3 'DIMETHYL SULFOXIDE' DMS 
+4 'HYDROSULFURIC ACID' H2S 
+5 water HOH 
 # 
 _pdbx_struct_assembly_auth_evidence.id                     1 
 _pdbx_struct_assembly_auth_evidence.assembly_id            1 

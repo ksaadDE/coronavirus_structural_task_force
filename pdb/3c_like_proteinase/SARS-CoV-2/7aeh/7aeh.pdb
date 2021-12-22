@@ -2,32 +2,26 @@ HEADER    HYDROLASE                               17-SEP-20   7AEH
 TITLE     SARS-COV-2 MAIN PROTEASE IN A COVALENT COMPLEX WITH A PYRIDINE        
 TITLE    2 DERIVATIVE OF ABT-957, COMPOUND 1                                    
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 2'-O-METHYLTRANSFERASE;                                    
+COMPND   2 MOLECULE: 3C-LIKE PROTEINASE NSP5;                                   
 COMPND   3 CHAIN: A;                                                            
-COMPND   4 SYNONYM: 3C-LIKE PROTEINASE,GROWTH FACTOR-LIKE PEPTIDE,GUANINE-N7    
-COMPND   5 METHYLTRANSFERASE,HELICASE,HOST TRANSLATION INHIBITOR NSP1,LEADER    
-COMPND   6 PROTEIN,NENDOU,NON-STRUCTURAL PROTEIN 10,NON-STRUCTURAL PROTEIN 2,   
-COMPND   7 NON-STRUCTURAL PROTEIN 3,NON-STRUCTURAL PROTEIN 4,NON-STRUCTURAL     
-COMPND   8 PROTEIN 6,NON-STRUCTURAL PROTEIN 7,NON-STRUCTURAL PROTEIN 8,NON-     
-COMPND   9 STRUCTURAL PROTEIN 9,ORF1AB POLYPROTEIN,PAPAIN-LIKE PROTEINASE,RNA-  
-COMPND  10 DIRECTED RNA POLYMERASE,REPLICASE POLYPROTEIN 1AB,URIDYLATE-SPECIFIC 
-COMPND  11 ENDORIBONUCLEASE,NSP12,NSP13,NSP15,NSP16,NSP5,P65 HOMOLOG;           
-COMPND  12 EC: 2.7.7.48,3.4.19.12,3.4.22.69,3.6.4.12,3.6.4.13;                  
-COMPND  13 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: 3CL-PRO,3CLP,MAIN PROTEASE,MPRO,NON-STRUCTURAL PROTEIN 5,   
+COMPND   5 NSP5,SARS CORONAVIRUS MAIN PROTEINASE;                               
+COMPND   6 EC: 3.4.22.69;                                                       
+COMPND   7 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE   3 2;                                                                   
-SOURCE   4 ORGANISM_COMMON: 2019-NCOV;                                          
-SOURCE   5 ORGANISM_TAXID: 2697049;                                             
-SOURCE   6 GENE: ORF1AB;                                                        
-SOURCE   7 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   8 EXPRESSION_SYSTEM_TAXID: 562                                         
+SOURCE   4 ORGANISM_TAXID: 2697049;                                             
+SOURCE   5 GENE: REP, 1A-1B;                                                    
+SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562                                         
 KEYWDS    COVID-19, INHIBITOR, PROTEASE, HYDROLASE                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.D.OWEN,M.A.REDHEAD,P.LUKACIK,C.STRAIN-DAMERELL,D.FEARON,L.BREWITZ,  
 AUTHOR   2 A.COLLETTE,C.ROBINSON,P.COLLINS,C.RADOUX,I.NAVRATILOVA,              
 AUTHOR   3 A.DOUANGAMATH,F.VON DELFT,T.R.MALLA,T.NUGEN,H.HULL,A.TUMBER,         
 AUTHOR   4 C.J.SCHOFIELD,D.HALLET,D.I.STUART,A.L.HOPKINS,M.A.WALSH              
+REVDAT   3   22-DEC-21 7AEH    1       COMPND SOURCE DBREF                      
 REVDAT   2   11-AUG-21 7AEH    1       COMPND REMARK LINK   ATOM                
 REVDAT   1   07-JUL-21 7AEH    0                                                
 JRNL        AUTH   M.A.REDHEAD,C.D.OWEN,L.BREWITZ,A.H.COLLETTE,P.LUKACIK,       
@@ -357,8 +351,7 @@ REMARK 525
 REMARK 525  M RES CSSEQI                                                        
 REMARK 525    HOH A 810        DISTANCE =  6.48 ANGSTROMS                       
 REMARK 525    HOH A 811        DISTANCE =  7.22 ANGSTROMS                       
-DBREF1 7AEH A    1   305  UNP                  A0A6B9VNL0_SARS2                 
-DBREF2 7AEH A     A0A6B9VNL0                       3264        3568             
+DBREF  7AEH A    1   305  UNP    P0DTD1   R1AB_SARS2    3264   3568             
 SEQRES   1 A  305  SER GLY PHE ARG LYS MET ALA PHE PRO SER GLY LYS VAL          
 SEQRES   2 A  305  GLU GLY CYS MET VAL GLN VAL THR CYS GLY THR THR THR          
 SEQRES   3 A  305  LEU ASN GLY LEU TRP LEU ASP ASP VAL VAL TYR CYS PRO          

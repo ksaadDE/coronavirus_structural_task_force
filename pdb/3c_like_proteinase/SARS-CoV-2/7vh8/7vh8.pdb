@@ -17,6 +17,8 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008
 KEYWDS    SARS-COV-2, MAIN PROTEASE, PF-07321332, VIRAL PROTEIN                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Y.ZHAO,Q.ZHANG,H.YANG,Z.RAO                                           
+REVDAT   2   22-DEC-21 7VH8    1       COMPND REMARK HET    HETNAM              
+REVDAT   2 2                   1       HETSYN FORMUL LINK   ATOM                
 REVDAT   1   03-NOV-21 7VH8    0                                                
 JRNL        AUTH   Y.ZHAO,C.FANG,Q.ZHANG,R.ZHANG,X.ZHAO,Y.DUAN,H.WANG,Y.ZHU,    
 JRNL        AUTH 2 L.FENG,J.ZHAO,M.SHAO,X.YANG,L.ZHANG,C.PENG,K.YANG,D.MA,      
@@ -292,18 +294,6 @@ REMARK 525  M RES CSSEQI
 REMARK 525    HOH A 877        DISTANCE =  5.95 ANGSTROMS                       
 REMARK 525    HOH A 878        DISTANCE =  6.11 ANGSTROMS                       
 REMARK 525    HOH A 879        DISTANCE =  6.69 ANGSTROMS                       
-REMARK 630                                                                      
-REMARK 630 MOLECULE TYPE: NULL                                                  
-REMARK 630 MOLECULE NAME: PF-07321332, BOUND FORM                               
-REMARK 630 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
-REMARK 630  SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                           
-REMARK 630                                                                      
-REMARK 630   M RES C SSSEQI                                                     
-REMARK 630     7DI A   401                                                      
-REMARK 630 SOURCE: NULL                                                         
-REMARK 630 TAXONOMY: NULL                                                       
-REMARK 630 SUBCOMP:    TFA TBG 12L 79I                                          
-REMARK 630 DETAILS: NULL                                                        
 DBREF  7VH8 A    1   306  UNP    P0DTC1   R1A_SARS2     3264   3569             
 SEQRES   1 A  306  SER GLY PHE ARG LYS MET ALA PHE PRO SER GLY LYS VAL          
 SEQRES   2 A  306  GLU GLY CYS MET VAL GLN VAL THR CYS GLY THR THR THR          
@@ -329,14 +319,19 @@ SEQRES  21 A  306  VAL LEU ASP MET CYS ALA SER LEU LYS GLU LEU LEU GLN
 SEQRES  22 A  306  ASN GLY MET ASN GLY ARG THR ILE LEU GLY SER ALA LEU          
 SEQRES  23 A  306  LEU GLU ASP GLU PHE THR PRO PHE ASP VAL VAL ARG GLN          
 SEQRES  24 A  306  CYS SER GLY VAL THR PHE GLN                                  
-HET    7DI  A 401      35                                                       
+HET    4WI  A 401      35                                                       
 HET    DMS  A 402       4                                                       
 HET    H2S  A 403       1                                                       
-HETNAM     7DI PF-07321332, BOUND FORM                                          
+HETNAM     4WI (1R,2S,5S)-N-{(1E,2S)-1-IMINO-3-[(3S)-2-OXOPYRROLIDIN-           
+HETNAM   2 4WI  3-YL]PROPAN-2-YL}-6,6-DIMETHYL-3-[3-METHYL-N-                   
+HETNAM   3 4WI  (TRIFLUOROACETYL)-L-VALYL]-3-AZABICYCLO[3.1.0]HEXANE-           
+HETNAM   4 4WI  2-CARBOXAMIDE                                                   
 HETNAM     DMS DIMETHYL SULFOXIDE                                               
 HETNAM     H2S HYDROSULFURIC ACID                                               
+HETSYN     4WI PF-07321332, BOUND FORM; NIRMATRELVIR, BOUND FORM;               
+HETSYN   2 4WI  PAXLOVID, BOUND FORM                                            
 HETSYN     H2S HYDROGEN SULFIDE                                                 
-FORMUL   2  7DI    C23 H36 F3 N5 O4                                             
+FORMUL   2  4WI    C23 H34 F3 N5 O4                                             
 FORMUL   3  DMS    C2 H6 O S                                                    
 FORMUL   4  H2S    H2 S                                                         
 FORMUL   5  HOH   *379(H2 O)                                                    
@@ -366,7 +361,7 @@ SHEET    5 AA2 5 SER A 121  ALA A 129 -1  O  SER A 123   N  ALA A 116
 SHEET    1 AA3 3 LYS A 100  PHE A 103  0                                        
 SHEET    2 AA3 3 CYS A 156  LEU A 167  1  O  VAL A 157   N  LYS A 100           
 SHEET    3 AA3 3 VAL A 171  THR A 175 -1  O  VAL A 171   N  LEU A 167           
-LINK         SG  CYS A 145                 C16 7DI A 401     1555   1555  1.81  
+LINK         SG  CYS A 145                 C3  4WI A 401     1555   1555  1.81  
 LINK         CB  CYS A 145                 S   H2S A 403     1555   1555  1.80  
 CRYST1   45.341   63.256  105.953  90.00  90.00  90.00 P 21 21 2     4          
 ORIGX1      1.000000  0.000000  0.000000        0.00000                         
@@ -2757,41 +2752,41 @@ ATOM   2379  CD  GLN A 306      13.753  28.123 -41.997  1.00 71.27           C
 ATOM   2380  OE1 GLN A 306      13.852  28.855 -41.009  1.00 63.76           O  
 ATOM   2381  NE2 GLN A 306      13.961  28.560 -43.233  1.00 70.94           N  
 TER    2382      GLN A 306                                                      
-HETATM 2383  C27 7DI A 401     -19.150  14.286 -22.016  0.80 27.34           C  
-HETATM 2384  C28 7DI A 401     -18.079  13.691 -21.104  0.80 30.72           C  
-HETATM 2385  O32 7DI A 401     -20.055  13.624 -22.413  0.80 32.18           O  
-HETATM 2386  F29 7DI A 401     -18.141  14.293 -19.886  0.80 32.61           F  
-HETATM 2387  F30 7DI A 401     -16.864  13.950 -21.686  0.80 33.16           F  
-HETATM 2388  F31 7DI A 401     -18.287  12.346 -20.996  0.80 34.86           F  
-HETATM 2389  N26 7DI A 401     -18.985  15.695 -22.372  0.80 20.96           N  
-HETATM 2390  C21 7DI A 401     -19.917  16.337 -23.258  0.80 17.43           C  
-HETATM 2391  C22 7DI A 401     -20.472  17.654 -22.671  0.80 22.05           C  
-HETATM 2392  C23 7DI A 401     -21.401  18.319 -23.717  0.80 20.88           C  
-HETATM 2393  C24 7DI A 401     -21.250  17.285 -21.381  0.80 22.18           C  
-HETATM 2394  C25 7DI A 401     -19.331  18.636 -22.296  0.80 18.55           C  
-HETATM 2395  C20 7DI A 401     -19.138  16.564 -24.568  0.80 20.96           C  
-HETATM 2396  O33 7DI A 401     -18.094  17.136 -24.634  0.80 20.29           O  
-HETATM 2397  N19 7DI A 401     -19.691  16.015 -25.811  0.80 17.72           N  
-HETATM 2398  C34 7DI A 401     -20.800  15.398 -25.855  0.80 21.39           C  
-HETATM 2399  C05 7DI A 401     -19.017  16.212 -26.908  0.80 18.73           C  
-HETATM 2400  C04 7DI A 401     -19.568  15.157 -27.982  0.80 21.66           C  
-HETATM 2401  C35 7DI A 401     -20.785  14.551 -27.200  0.80 22.53           C  
-HETATM 2402  C02 7DI A 401     -19.745  13.617 -27.885  0.80 25.15           C  
-HETATM 2403  C01 7DI A 401     -18.769  13.002 -26.842  0.80 22.46           C  
-HETATM 2404  C03 7DI A 401     -20.189  12.871 -29.150  0.80 22.69           C  
-HETATM 2405  C06 7DI A 401     -19.139  17.723 -27.324  0.80 19.65           C  
-HETATM 2406  O18 7DI A 401     -20.156  18.329 -27.161  0.80 21.83           O  
-HETATM 2407  C16 7DI A 401     -17.211  19.842 -29.664  0.80 22.25           C  
-HETATM 2408  C12 7DI A 401     -18.438  22.041 -24.554  0.80 23.78           C  
-HETATM 2409  C14 7DI A 401     -16.197  21.132 -25.305  0.80 19.70           C  
-HETATM 2410  C11 7DI A 401     -18.577  21.464 -25.703  0.80 20.54           C  
-HETATM 2411  C10 7DI A 401     -17.162  20.520 -25.925  0.80 22.54           C  
-HETATM 2412  C08 7DI A 401     -17.870  19.743 -28.303  0.80 20.90           C  
-HETATM 2413  C09 7DI A 401     -16.849  20.499 -27.443  0.80 20.10           C  
-HETATM 2414  N07 7DI A 401     -17.932  18.346 -27.885  0.80 18.69           N  
-HETATM 2415  N13 7DI A 401     -16.874  22.212 -24.328  0.80 21.72           N  
-HETATM 2416  N17 7DI A 401     -17.567  20.786 -30.404  0.80 19.04           N  
-HETATM 2417  O15 7DI A 401     -15.033  20.965 -25.412  0.80 18.83           O  
+HETATM 2383  C8  4WI A 401     -16.197  21.132 -25.305  0.80 19.70           C  
+HETATM 2384  C3  4WI A 401     -17.211  19.842 -29.664  0.80 22.25           C  
+HETATM 2385  C1  4WI A 401     -19.139  17.723 -27.324  0.80 19.65           C  
+HETATM 2386  C13 4WI A 401     -19.138  16.564 -24.568  0.80 20.96           C  
+HETATM 2387  C21 4WI A 401     -19.150  14.286 -22.016  0.80 27.34           C  
+HETATM 2388  C6  4WI A 401     -18.577  21.464 -25.703  0.80 20.54           C  
+HETATM 2389  C7  4WI A 401     -18.438  22.041 -24.554  0.80 23.78           C  
+HETATM 2390  C10 4WI A 401     -20.800  15.398 -25.855  0.80 21.39           C  
+HETATM 2391  C5  4WI A 401     -17.162  20.520 -25.925  0.80 22.54           C  
+HETATM 2392  C9  4WI A 401     -19.017  16.212 -26.908  0.80 18.73           C  
+HETATM 2393  C11 4WI A 401     -20.785  14.551 -27.200  0.80 22.53           C  
+HETATM 2394  C12 4WI A 401     -19.568  15.157 -27.982  0.80 21.66           C  
+HETATM 2395  C18 4WI A 401     -19.745  13.617 -27.885  0.80 25.15           C  
+HETATM 2396  C19 4WI A 401     -18.769  13.002 -26.842  0.80 22.46           C  
+HETATM 2397  C20 4WI A 401     -20.189  12.871 -29.150  0.80 22.69           C  
+HETATM 2398  C16 4WI A 401     -21.401  18.319 -23.717  0.80 20.88           C  
+HETATM 2399  C17 4WI A 401     -21.250  17.285 -21.381  0.80 22.18           C  
+HETATM 2400  C23 4WI A 401     -19.331  18.636 -22.296  0.80 18.55           C  
+HETATM 2401  C4  4WI A 401     -16.849  20.499 -27.443  0.80 20.10           C  
+HETATM 2402  C2  4WI A 401     -17.870  19.743 -28.303  0.80 20.90           C  
+HETATM 2403  C14 4WI A 401     -19.917  16.337 -23.258  0.80 17.43           C  
+HETATM 2404  C22 4WI A 401     -18.079  13.691 -21.104  0.80 30.72           C  
+HETATM 2405  C15 4WI A 401     -20.472  17.654 -22.671  0.80 22.05           C  
+HETATM 2406  N5  4WI A 401     -17.567  20.786 -30.404  0.80 19.04           N  
+HETATM 2407  N2  4WI A 401     -16.874  22.212 -24.328  0.80 21.72           N  
+HETATM 2408  N3  4WI A 401     -19.691  16.015 -25.811  0.80 17.72           N  
+HETATM 2409  N1  4WI A 401     -17.932  18.346 -27.885  0.80 18.69           N  
+HETATM 2410  N4  4WI A 401     -18.985  15.695 -22.372  0.80 20.96           N  
+HETATM 2411  O1  4WI A 401     -15.033  20.965 -25.412  0.80 18.83           O  
+HETATM 2412  O2  4WI A 401     -20.156  18.329 -27.161  0.80 21.83           O  
+HETATM 2413  O3  4WI A 401     -18.094  17.136 -24.634  0.80 20.29           O  
+HETATM 2414  O4  4WI A 401     -20.055  13.624 -22.413  0.80 32.18           O  
+HETATM 2415  F1  4WI A 401     -18.141  14.293 -19.886  0.80 32.61           F  
+HETATM 2416  F2  4WI A 401     -16.864  13.950 -21.686  0.80 33.16           F  
+HETATM 2417  F3  4WI A 401     -18.287  12.346 -20.996  0.80 34.86           F  
 HETATM 2418  S   DMS A 402      -0.059  31.576  -9.831  0.50 33.67           S  
 HETATM 2419  O   DMS A 402       0.859  32.593  -9.392  0.50 35.67           O  
 HETATM 2420  C1  DMS A 402      -1.447  32.468 -10.199  0.50 33.23           C  
@@ -3177,46 +3172,46 @@ HETATM 2799  O   HOH A 877       6.163   4.547  -7.925  1.00 47.81           O
 HETATM 2800  O   HOH A 878      24.005  10.640  -9.805  1.00 44.93           O  
 HETATM 2801  O   HOH A 879     -17.415   0.359 -45.580  1.00 57.50           O  
 CONECT 1125 2422                                                                
-CONECT 1126 2407                                                                
-CONECT 2383 2384 2385 2389                                                      
-CONECT 2384 2383 2386 2387 2388                                                 
-CONECT 2385 2383                                                                
-CONECT 2386 2384                                                                
-CONECT 2387 2384                                                                
-CONECT 2388 2384                                                                
-CONECT 2389 2383 2390                                                           
-CONECT 2390 2389 2391 2395                                                      
-CONECT 2391 2390 2392 2393 2394                                                 
-CONECT 2392 2391                                                                
-CONECT 2393 2391                                                                
-CONECT 2394 2391                                                                
-CONECT 2395 2390 2396 2397                                                      
+CONECT 1126 2384                                                                
+CONECT 2383 2391 2407 2411                                                      
+CONECT 2384 1126 2402 2406                                                      
+CONECT 2385 2392 2409 2412                                                      
+CONECT 2386 2403 2408 2413                                                      
+CONECT 2387 2404 2410 2414                                                      
+CONECT 2388 2389 2391                                                           
+CONECT 2389 2388 2407                                                           
+CONECT 2390 2393 2408                                                           
+CONECT 2391 2383 2388 2401                                                      
+CONECT 2392 2385 2394 2408                                                      
+CONECT 2393 2390 2394 2395                                                      
+CONECT 2394 2392 2393 2395                                                      
+CONECT 2395 2393 2394 2396 2397                                                 
 CONECT 2396 2395                                                                
-CONECT 2397 2395 2398 2399                                                      
-CONECT 2398 2397 2401                                                           
-CONECT 2399 2397 2400 2405                                                      
-CONECT 2400 2399 2401 2402                                                      
-CONECT 2401 2398 2400 2402                                                      
-CONECT 2402 2400 2401 2403 2404                                                 
-CONECT 2403 2402                                                                
-CONECT 2404 2402                                                                
-CONECT 2405 2399 2406 2414                                                      
-CONECT 2406 2405                                                                
-CONECT 2407 1126 2412 2416                                                      
-CONECT 2408 2410 2415                                                           
-CONECT 2409 2411 2415 2417                                                      
-CONECT 2410 2408                                                                
-CONECT 2411 2409 2413                                                           
-CONECT 2412 2407 2413 2414                                                      
-CONECT 2413 2411 2412                                                           
-CONECT 2414 2405 2412                                                           
-CONECT 2415 2408 2409                                                           
-CONECT 2416 2407                                                                
-CONECT 2417 2409                                                                
+CONECT 2397 2395                                                                
+CONECT 2398 2405                                                                
+CONECT 2399 2405                                                                
+CONECT 2400 2405                                                                
+CONECT 2401 2391 2402                                                           
+CONECT 2402 2384 2401 2409                                                      
+CONECT 2403 2386 2405 2410                                                      
+CONECT 2404 2387 2415 2416 2417                                                 
+CONECT 2405 2398 2399 2400 2403                                                 
+CONECT 2406 2384                                                                
+CONECT 2407 2383 2389                                                           
+CONECT 2408 2386 2390 2392                                                      
+CONECT 2409 2385 2402                                                           
+CONECT 2410 2387 2403                                                           
+CONECT 2411 2383                                                                
+CONECT 2412 2385                                                                
+CONECT 2413 2386                                                                
+CONECT 2414 2387                                                                
+CONECT 2415 2404                                                                
+CONECT 2416 2404                                                                
+CONECT 2417 2404                                                                
 CONECT 2418 2419 2420 2421                                                      
 CONECT 2419 2418                                                                
 CONECT 2420 2418                                                                
 CONECT 2421 2418                                                                
 CONECT 2422 1125                                                                
-MASTER      277    0    3   11   15    0    0    6 2779    1   42   24          
+MASTER      265    0    3   11   15    0    0    6 2779    1   42   24          
 END                                                                             

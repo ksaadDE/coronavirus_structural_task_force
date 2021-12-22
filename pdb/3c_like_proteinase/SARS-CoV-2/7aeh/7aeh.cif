@@ -3,7 +3,7 @@ data_7AEH
 _entry.id   7AEH 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.347 
+_audit_conform.dict_version    5.353 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -167,18 +167,16 @@ _entity.pdbx_ec
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
 _entity.details 
-1 polymer     man "2'-O-methyltransferase" 33697.418 1   2.7.7.48,3.4.19.12,3.4.22.69,3.6.4.12,3.6.4.13 ? ? ? 
-2 non-polymer syn 'DIMETHYL SULFOXIDE' 78.133    4   ?                                              ? ? ? 
+1 polymer     man '3C-like proteinase nsp5' 33697.418 1   3.4.22.69 ? ? ? 
+2 non-polymer syn 'DIMETHYL SULFOXIDE' 78.133    4   ?         ? ? ? 
 3 non-polymer syn 
 ;(2~{R})-5-oxidanylidene-~{N}-[(2~{R},3~{S})-3-oxidanyl-4-oxidanylidene-1-phenyl-4-(pyridin-2-ylmethylamino)butan-2-yl]-1-(phenylmethyl)pyrrolidine-2-carboxamide
 ;
-486.562   1   ?                                              ? ? ? 
-4 water       nat water 18.015    311 ?                                              ? ? ? 
+486.562   1   ?         ? ? ? 
+4 water       nat water 18.015    311 ?         ? ? ? 
 # 
 _entity_name_com.entity_id   1 
-_entity_name_com.name        
-;3C-like proteinase,Growth factor-like peptide,Guanine-N7 methyltransferase,Helicase,Host translation inhibitor nsp1,Leader protein,NendoU,Non-structural protein 10,Non-structural protein 2,Non-structural protein 3,Non-structural protein 4,Non-structural protein 6,Non-structural protein 7,Non-structural protein 8,Non-structural protein 9,ORF1ab polyprotein,Papain-like proteinase,RNA-directed RNA polymerase,Replicase polyprotein 1ab,Uridylate-specific endoribonuclease,nsp12,nsp13,nsp15,nsp16,nsp5,p65 homolog
-;
+_entity_name_com.name        '3CL-PRO,3CLp,Main protease,Mpro,Non-structural protein 5,nsp5,SARS coronavirus main proteinase' 
 # 
 _entity_poly.entity_id                      1 
 _entity_poly.type                           'polypeptide(L)' 
@@ -516,9 +514,9 @@ _entity_src_gen.pdbx_alt_source_flag               sample
 _entity_src_gen.pdbx_seq_type                      'Biological sequence' 
 _entity_src_gen.pdbx_beg_seq_num                   1 
 _entity_src_gen.pdbx_end_seq_num                   305 
-_entity_src_gen.gene_src_common_name               2019-nCoV 
+_entity_src_gen.gene_src_common_name               ? 
 _entity_src_gen.gene_src_genus                     ? 
-_entity_src_gen.pdbx_gene_src_gene                 orf1ab 
+_entity_src_gen.pdbx_gene_src_gene                 'rep, 1a-1b' 
 _entity_src_gen.gene_src_species                   ? 
 _entity_src_gen.gene_src_strain                    ? 
 _entity_src_gen.gene_src_tissue                    ? 
@@ -561,8 +559,8 @@ _entity_src_gen.pdbx_description                   ?
 # 
 _struct_ref.id                         1 
 _struct_ref.db_name                    UNP 
-_struct_ref.db_code                    A0A6B9VNL0_SARS2 
-_struct_ref.pdbx_db_accession          A0A6B9VNL0 
+_struct_ref.db_code                    R1AB_SARS2 
+_struct_ref.pdbx_db_accession          P0DTD1 
 _struct_ref.pdbx_db_isoform            ? 
 _struct_ref.entity_id                  1 
 _struct_ref.pdbx_seq_one_letter_code   
@@ -581,7 +579,7 @@ _struct_ref_seq.seq_align_beg                 1
 _struct_ref_seq.pdbx_seq_align_beg_ins_code   ? 
 _struct_ref_seq.seq_align_end                 305 
 _struct_ref_seq.pdbx_seq_align_end_ins_code   ? 
-_struct_ref_seq.pdbx_db_accession             A0A6B9VNL0 
+_struct_ref_seq.pdbx_db_accession             P0DTD1 
 _struct_ref_seq.db_align_beg                  3264 
 _struct_ref_seq.pdbx_db_align_beg_ins_code    ? 
 _struct_ref_seq.db_align_end                  3568 
@@ -7805,6 +7803,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-07-07 
 2 'Structure model' 2 0 2021-08-11 
+3 'Structure model' 2 1 2021-12-22 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -7823,13 +7822,16 @@ _pdbx_audit_revision_group.ordinal
 _pdbx_audit_revision_group.revision_ordinal 
 _pdbx_audit_revision_group.data_content_type 
 _pdbx_audit_revision_group.group 
-1 2 'Structure model' Advisory                 
-2 2 'Structure model' 'Atomic model'           
-3 2 'Structure model' 'Data collection'        
-4 2 'Structure model' 'Database references'    
-5 2 'Structure model' 'Derived calculations'   
-6 2 'Structure model' 'Refinement description' 
-7 2 'Structure model' 'Structure summary'      
+1  2 'Structure model' Advisory                 
+2  2 'Structure model' 'Atomic model'           
+3  2 'Structure model' 'Data collection'        
+4  2 'Structure model' 'Database references'    
+5  2 'Structure model' 'Derived calculations'   
+6  2 'Structure model' 'Refinement description' 
+7  2 'Structure model' 'Structure summary'      
+8  3 'Structure model' 'Database references'    
+9  3 'Structure model' 'Source and taxonomy'    
+10 3 'Structure model' 'Structure summary'      
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -7855,6 +7857,11 @@ _pdbx_audit_revision_category.category
 17 2 'Structure model' software                     
 18 2 'Structure model' struct_asym                  
 19 2 'Structure model' struct_conn                  
+20 3 'Structure model' entity                       
+21 3 'Structure model' entity_name_com              
+22 3 'Structure model' entity_src_gen               
+23 3 'Structure model' struct_ref                   
+24 3 'Structure model' struct_ref_seq               
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -7906,6 +7913,14 @@ _pdbx_audit_revision_item.item
 43 2 'Structure model' '_struct_conn.pdbx_dist_value'                                
 44 2 'Structure model' '_struct_conn.ptnr2_auth_seq_id'                              
 45 2 'Structure model' '_struct_conn.ptnr2_label_asym_id'                            
+46 3 'Structure model' '_entity.pdbx_description'                                    
+47 3 'Structure model' '_entity.pdbx_ec'                                             
+48 3 'Structure model' '_entity_name_com.name'                                       
+49 3 'Structure model' '_entity_src_gen.gene_src_common_name'                        
+50 3 'Structure model' '_entity_src_gen.pdbx_gene_src_gene'                          
+51 3 'Structure model' '_struct_ref.db_code'                                         
+52 3 'Structure model' '_struct_ref.pdbx_db_accession'                               
+53 3 'Structure model' '_struct_ref_seq.pdbx_db_accession'                           
 # 
 loop_
 _software.citation_id 

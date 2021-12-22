@@ -16,14 +16,17 @@ SOURCE   8 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    VIRAL PROTEIN                                                         
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    J.ZHANG,T.S.XIAO,Y.F.CAI,H.Q.PENG,S.R.VOLLOCH,B.CHEN                  
+REVDAT   3   22-DEC-21 7SBP    1       JRNL                                     
+REVDAT   2   10-NOV-21 7SBP    1       JRNL                                     
 REVDAT   1   03-NOV-21 7SBP    0                                                
 JRNL        AUTH   J.ZHANG,T.XIAO,Y.CAI,C.L.LAVINE,H.PENG,H.ZHU,K.ANAND,P.TONG, 
 JRNL        AUTH 2 A.GAUTAM,M.L.MAYER,R.M.WALSH JR.,S.RITS-VOLLOCH,             
 JRNL        AUTH 3 D.R.WESEMANN,W.YANG,M.S.SEAMAN,J.LU,B.CHEN                   
 JRNL        TITL   MEMBRANE FUSION AND IMMUNE EVASION BY THE SPIKE PROTEIN OF   
-JRNL        TITL 2 SARS-COV-2 DELTA VARIANT                                     
-JRNL        REF    SCIENCE                                    2021              
+JRNL        TITL 2 SARS-COV-2 DELTA VARIANT.                                    
+JRNL        REF    SCIENCE                       V. 374  1353 2021              
 JRNL        REFN                   ESSN 1095-9203                               
+JRNL        PMID   34698504                                                     
 JRNL        DOI    10.1126/SCIENCE.ABL9463                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.44 ANGSTROMS.                                       

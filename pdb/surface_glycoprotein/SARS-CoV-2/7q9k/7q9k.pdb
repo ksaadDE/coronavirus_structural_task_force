@@ -1,4 +1,4 @@
-HEADER    VIRAL PROTEIN                           12-NOV-21   7Q9K              
+HEADER    VIRAL PROTEIN/IMMUNE SYSTEM             12-NOV-21   7Q9K              
 TITLE     BETA-32 FAB IN COMPLEX WITH SARS-COV-2 BETA-SPIKE GLYCOPROTEIN        
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
@@ -16,25 +16,26 @@ COMPND  13 ENGINEERED: YES
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE   3 2;                                                                   
-SOURCE   4 ORGANISM_COMMON: 2019-NCOV, SARS-COV-2;                              
-SOURCE   5 ORGANISM_TAXID: 2697049;                                             
-SOURCE   6 GENE: S, 2;                                                          
-SOURCE   7 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
-SOURCE   8 EXPRESSION_SYSTEM_TAXID: 9606;                                       
-SOURCE   9 MOL_ID: 2;                                                           
-SOURCE  10 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE  11 ORGANISM_TAXID: 9606;                                                
-SOURCE  12 EXPRESSION_SYSTEM: CRICETULUS GRISEUS;                               
-SOURCE  13 EXPRESSION_SYSTEM_TAXID: 10029;                                      
-SOURCE  14 MOL_ID: 3;                                                           
-SOURCE  15 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE  16 ORGANISM_TAXID: 9606;                                                
-SOURCE  17 EXPRESSION_SYSTEM: CRICETULUS GRISEUS;                               
-SOURCE  18 EXPRESSION_SYSTEM_TAXID: 10029                                       
+SOURCE   4 ORGANISM_TAXID: 2697049;                                             
+SOURCE   5 GENE: S, 2;                                                          
+SOURCE   6 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
+SOURCE   7 EXPRESSION_SYSTEM_TAXID: 9606;                                       
+SOURCE   8 MOL_ID: 2;                                                           
+SOURCE   9 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  10 ORGANISM_TAXID: 9606;                                                
+SOURCE  11 EXPRESSION_SYSTEM: CRICETULUS GRISEUS;                               
+SOURCE  12 EXPRESSION_SYSTEM_TAXID: 10029;                                      
+SOURCE  13 MOL_ID: 3;                                                           
+SOURCE  14 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  15 ORGANISM_TAXID: 9606;                                                
+SOURCE  16 EXPRESSION_SYSTEM: CRICETULUS GRISEUS;                               
+SOURCE  17 EXPRESSION_SYSTEM_TAXID: 10029                                       
 KEYWDS    SARS-COV2, SPIKE, GLYCOPROTEIN, ANTIBODY, FAB, B.1.135, BETA VARIANT, 
-KEYWDS   2 COMPLEX, NEUTRALISING, CONVALESCENT SERA, VIRAL PROTEIN              
+KEYWDS   2 COMPLEX, NEUTRALISING, CONVALESCENT SERA, VIRAL PROTEIN/IMMUNE       
+KEYWDS   3 SYSTEM, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX                          
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    H.M.E.DUYVESTEYN,J.REN,D.I.STUART                                     
+REVDAT   2   22-DEC-21 7Q9K    1       HEADER SOURCE KEYWDS SEQADV              
 REVDAT   1   15-DEC-21 7Q9K    0                                                
 JRNL        AUTH   C.LIU,D.ZHOU,R.NUTALAI,H.M.DUYVESTEYN,A.TUEKPRAKHON,         
 JRNL        AUTH 2 H.M.GINN,W.DEJNIRATTISAI,P.SUPASA,A.J.MENTZER,B.WANG,        
@@ -1688,21 +1689,21 @@ DBREF  7Q9K H    1   230  PDB    7Q9K     7Q9K             1    230
 DBREF  7Q9K L    1   214  PDB    7Q9K     7Q9K             1    214             
 DBREF  7Q9K D    1   230  PDB    7Q9K     7Q9K             1    230             
 DBREF  7Q9K E    1   214  PDB    7Q9K     7Q9K             1    214             
-SEQADV 7Q9K PHE A   18  UNP  P0DTC2    LEU    18 CONFLICT                       
-SEQADV 7Q9K ALA A   80  UNP  P0DTC2    ASP    80 CONFLICT                       
-SEQADV 7Q9K GLY A  215  UNP  P0DTC2    ASP   215 CONFLICT                       
-SEQADV 7Q9K     A       UNP  P0DTC2    LEU   241 DELETION                       
+SEQADV 7Q9K PHE A   18  UNP  P0DTC2    LEU    18 VARIANT                        
+SEQADV 7Q9K ALA A   80  UNP  P0DTC2    ASP    80 VARIANT                        
+SEQADV 7Q9K GLY A  215  UNP  P0DTC2    ASP   215 VARIANT                        
 SEQADV 7Q9K     A       UNP  P0DTC2    LEU   242 DELETION                       
 SEQADV 7Q9K     A       UNP  P0DTC2    ALA   243 DELETION                       
-SEQADV 7Q9K ILE A  243  UNP  P0DTC2    ARG   246 CONFLICT                       
-SEQADV 7Q9K ASN A  414  UNP  P0DTC2    LYS   417 CONFLICT                       
-SEQADV 7Q9K LYS A  481  UNP  P0DTC2    GLU   484 CONFLICT                       
-SEQADV 7Q9K TYR A  498  UNP  P0DTC2    ASN   501 CONFLICT                       
-SEQADV 7Q9K GLY A  611  UNP  P0DTC2    ASP   614 CONFLICT                       
+SEQADV 7Q9K     A       UNP  P0DTC2    LEU   244 DELETION                       
+SEQADV 7Q9K ILE A  243  UNP  P0DTC2    ARG   246 VARIANT                        
+SEQADV 7Q9K ASN A  414  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7Q9K LYS A  481  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7Q9K TYR A  498  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7Q9K GLY A  611  UNP  P0DTC2    ASP   614 VARIANT                        
 SEQADV 7Q9K GLY A  679  UNP  P0DTC2    ARG   682 CONFLICT                       
 SEQADV 7Q9K SER A  680  UNP  P0DTC2    ARG   683 CONFLICT                       
 SEQADV 7Q9K SER A  682  UNP  P0DTC2    ARG   685 CONFLICT                       
-SEQADV 7Q9K VAL A  698  UNP  P0DTC2    ALA   701 CONFLICT                       
+SEQADV 7Q9K VAL A  698  UNP  P0DTC2    ALA   701 VARIANT                        
 SEQADV 7Q9K PRO A  983  UNP  P0DTC2    LYS   986 CONFLICT                       
 SEQADV 7Q9K PRO A  984  UNP  P0DTC2    VAL   987 CONFLICT                       
 SEQADV 7Q9K GLY A 1206  UNP  P0DTC2              EXPRESSION TAG                 
@@ -1785,21 +1786,21 @@ SEQADV 7Q9K GLN A 1282  UNP  P0DTC2              EXPRESSION TAG
 SEQADV 7Q9K PHE A 1283  UNP  P0DTC2              EXPRESSION TAG                 
 SEQADV 7Q9K GLU A 1284  UNP  P0DTC2              EXPRESSION TAG                 
 SEQADV 7Q9K LYS A 1285  UNP  P0DTC2              EXPRESSION TAG                 
-SEQADV 7Q9K PHE B   18  UNP  P0DTC2    LEU    18 CONFLICT                       
-SEQADV 7Q9K ALA B   80  UNP  P0DTC2    ASP    80 CONFLICT                       
-SEQADV 7Q9K GLY B  215  UNP  P0DTC2    ASP   215 CONFLICT                       
-SEQADV 7Q9K     B       UNP  P0DTC2    LEU   241 DELETION                       
+SEQADV 7Q9K PHE B   18  UNP  P0DTC2    LEU    18 VARIANT                        
+SEQADV 7Q9K ALA B   80  UNP  P0DTC2    ASP    80 VARIANT                        
+SEQADV 7Q9K GLY B  215  UNP  P0DTC2    ASP   215 VARIANT                        
 SEQADV 7Q9K     B       UNP  P0DTC2    LEU   242 DELETION                       
 SEQADV 7Q9K     B       UNP  P0DTC2    ALA   243 DELETION                       
-SEQADV 7Q9K ILE B  243  UNP  P0DTC2    ARG   246 CONFLICT                       
-SEQADV 7Q9K ASN B  414  UNP  P0DTC2    LYS   417 CONFLICT                       
-SEQADV 7Q9K LYS B  481  UNP  P0DTC2    GLU   484 CONFLICT                       
-SEQADV 7Q9K TYR B  498  UNP  P0DTC2    ASN   501 CONFLICT                       
-SEQADV 7Q9K GLY B  611  UNP  P0DTC2    ASP   614 CONFLICT                       
+SEQADV 7Q9K     B       UNP  P0DTC2    LEU   244 DELETION                       
+SEQADV 7Q9K ILE B  243  UNP  P0DTC2    ARG   246 VARIANT                        
+SEQADV 7Q9K ASN B  414  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7Q9K LYS B  481  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7Q9K TYR B  498  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7Q9K GLY B  611  UNP  P0DTC2    ASP   614 VARIANT                        
 SEQADV 7Q9K GLY B  679  UNP  P0DTC2    ARG   682 CONFLICT                       
 SEQADV 7Q9K SER B  680  UNP  P0DTC2    ARG   683 CONFLICT                       
 SEQADV 7Q9K SER B  682  UNP  P0DTC2    ARG   685 CONFLICT                       
-SEQADV 7Q9K VAL B  698  UNP  P0DTC2    ALA   701 CONFLICT                       
+SEQADV 7Q9K VAL B  698  UNP  P0DTC2    ALA   701 VARIANT                        
 SEQADV 7Q9K PRO B  983  UNP  P0DTC2    LYS   986 CONFLICT                       
 SEQADV 7Q9K PRO B  984  UNP  P0DTC2    VAL   987 CONFLICT                       
 SEQADV 7Q9K GLY B 1206  UNP  P0DTC2              EXPRESSION TAG                 
@@ -1882,21 +1883,21 @@ SEQADV 7Q9K GLN B 1282  UNP  P0DTC2              EXPRESSION TAG
 SEQADV 7Q9K PHE B 1283  UNP  P0DTC2              EXPRESSION TAG                 
 SEQADV 7Q9K GLU B 1284  UNP  P0DTC2              EXPRESSION TAG                 
 SEQADV 7Q9K LYS B 1285  UNP  P0DTC2              EXPRESSION TAG                 
-SEQADV 7Q9K PHE C   18  UNP  P0DTC2    LEU    18 CONFLICT                       
-SEQADV 7Q9K ALA C   80  UNP  P0DTC2    ASP    80 CONFLICT                       
-SEQADV 7Q9K GLY C  215  UNP  P0DTC2    ASP   215 CONFLICT                       
-SEQADV 7Q9K     C       UNP  P0DTC2    LEU   241 DELETION                       
+SEQADV 7Q9K PHE C   18  UNP  P0DTC2    LEU    18 VARIANT                        
+SEQADV 7Q9K ALA C   80  UNP  P0DTC2    ASP    80 VARIANT                        
+SEQADV 7Q9K GLY C  215  UNP  P0DTC2    ASP   215 VARIANT                        
 SEQADV 7Q9K     C       UNP  P0DTC2    LEU   242 DELETION                       
 SEQADV 7Q9K     C       UNP  P0DTC2    ALA   243 DELETION                       
-SEQADV 7Q9K ILE C  243  UNP  P0DTC2    ARG   246 CONFLICT                       
-SEQADV 7Q9K ASN C  414  UNP  P0DTC2    LYS   417 CONFLICT                       
-SEQADV 7Q9K LYS C  481  UNP  P0DTC2    GLU   484 CONFLICT                       
-SEQADV 7Q9K TYR C  498  UNP  P0DTC2    ASN   501 CONFLICT                       
-SEQADV 7Q9K GLY C  611  UNP  P0DTC2    ASP   614 CONFLICT                       
+SEQADV 7Q9K     C       UNP  P0DTC2    LEU   244 DELETION                       
+SEQADV 7Q9K ILE C  243  UNP  P0DTC2    ARG   246 VARIANT                        
+SEQADV 7Q9K ASN C  414  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7Q9K LYS C  481  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7Q9K TYR C  498  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7Q9K GLY C  611  UNP  P0DTC2    ASP   614 VARIANT                        
 SEQADV 7Q9K GLY C  679  UNP  P0DTC2    ARG   682 CONFLICT                       
 SEQADV 7Q9K SER C  680  UNP  P0DTC2    ARG   683 CONFLICT                       
 SEQADV 7Q9K SER C  682  UNP  P0DTC2    ARG   685 CONFLICT                       
-SEQADV 7Q9K VAL C  698  UNP  P0DTC2    ALA   701 CONFLICT                       
+SEQADV 7Q9K VAL C  698  UNP  P0DTC2    ALA   701 VARIANT                        
 SEQADV 7Q9K PRO C  983  UNP  P0DTC2    LYS   986 CONFLICT                       
 SEQADV 7Q9K PRO C  984  UNP  P0DTC2    VAL   987 CONFLICT                       
 SEQADV 7Q9K GLY C 1206  UNP  P0DTC2              EXPRESSION TAG                 

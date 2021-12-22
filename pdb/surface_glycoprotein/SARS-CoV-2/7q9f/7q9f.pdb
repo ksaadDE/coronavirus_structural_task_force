@@ -1,23 +1,24 @@
 HEADER    VIRAL PROTEIN/IMMUNE SYSTEM             12-NOV-21   7Q9F              
 TITLE     BETA-50 FAB IN COMPLEX WITH SARS-COV-2 BETA-SPIKE GLYCOPROTEIN        
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: SURFACE GLYCOPROTEIN;                                      
+COMPND   2 MOLECULE: SPIKE GLYCOPROTEIN;                                        
 COMPND   3 CHAIN: A, B, C;                                                      
-COMPND   4 ENGINEERED: YES;                                                     
-COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: BETA-50 LIGHT CHAIN;                                       
-COMPND   7 CHAIN: L, F, K;                                                      
-COMPND   8 ENGINEERED: YES;                                                     
-COMPND   9 MOL_ID: 3;                                                           
-COMPND  10 MOLECULE: BETA-50 HEAVY CHAIN;                                       
-COMPND  11 CHAIN: H, E, J;                                                      
-COMPND  12 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: S GLYCOPROTEIN,E2,PEPLOMER PROTEIN;                         
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: BETA-50 LIGHT CHAIN;                                       
+COMPND   8 CHAIN: L, F, K;                                                      
+COMPND   9 ENGINEERED: YES;                                                     
+COMPND  10 MOL_ID: 3;                                                           
+COMPND  11 MOLECULE: BETA-50 HEAVY CHAIN;                                       
+COMPND  12 CHAIN: H, E, J;                                                      
+COMPND  13 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE   3 2;                                                                   
-SOURCE   4 ORGANISM_COMMON: 2019-NCOV, SARS-COV-2;                              
-SOURCE   5 ORGANISM_TAXID: 2697049;                                             
-SOURCE   6 VARIANT: BETA;                                                       
+SOURCE   4 ORGANISM_TAXID: 2697049;                                             
+SOURCE   5 VARIANT: BETA;                                                       
+SOURCE   6 GENE: S, 2;                                                          
 SOURCE   7 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
 SOURCE   8 EXPRESSION_SYSTEM_TAXID: 9606;                                       
 SOURCE   9 EXPRESSION_SYSTEM_VARIANT: BETA;                                     
@@ -36,6 +37,7 @@ KEYWDS   2 COMPLEX, NEUTRALISING, CONVALESCENT SERA, VIRAL PROTEIN/IMMUNE
 KEYWDS   3 SYSTEM, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX                          
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    H.M.E.DUYVESTEYN,J.REN,D.I.STUART                                     
+REVDAT   2   22-DEC-21 7Q9F    1       COMPND SOURCE DBREF  SEQADV              
 REVDAT   1   15-DEC-21 7Q9F    0                                                
 JRNL        AUTH   C.LIU,D.ZHOU,R.NUTALAI,H.M.DUYVESTEYN,A.TUEKPRAKHON,         
 JRNL        AUTH 2 H.M.GINN,W.DEJNIRATTISAI,P.SUPASA,A.J.MENTZER,B.WANG,        
@@ -1139,300 +1141,306 @@ REMARK 900 RELATED ID: EMD-13857   RELATED DB: EMDB
 REMARK 900 CRYOEM MAP OF BETA SPIKE WITH BETA049 FAB                            
 REMARK 900 RELATED ID: EMD-13868   RELATED DB: EMDB                             
 REMARK 900 BETA-50 FAB IN COMPLEX WITH SARS-COV-2 BETA-SPIKE GLYCOPROTEIN       
-DBREF1 7Q9F A    1  1205  UNP                  A0A7U2GTV4_SARS2                 
-DBREF2 7Q9F A     A0A7U2GTV4                          1        1206             
-DBREF1 7Q9F B    1  1205  UNP                  A0A7U2GTV4_SARS2                 
-DBREF2 7Q9F B     A0A7U2GTV4                          1        1206             
-DBREF1 7Q9F C    1  1205  UNP                  A0A7U2GTV4_SARS2                 
-DBREF2 7Q9F C     A0A7U2GTV4                          1        1206             
+DBREF  7Q9F A    1  1205  UNP    P0DTC2   SPIKE_SARS2      1   1208             
+DBREF  7Q9F B    1  1205  UNP    P0DTC2   SPIKE_SARS2      1   1208             
+DBREF  7Q9F C    1  1205  UNP    P0DTC2   SPIKE_SARS2      1   1208             
 DBREF  7Q9F L    1   217  PDB    7Q9F     7Q9F             1    217             
 DBREF  7Q9F H    1   223  PDB    7Q9F     7Q9F             1    223             
 DBREF  7Q9F F    1   217  PDB    7Q9F     7Q9F             1    217             
 DBREF  7Q9F E    1   223  PDB    7Q9F     7Q9F             1    223             
 DBREF  7Q9F K    1   217  PDB    7Q9F     7Q9F             1    217             
 DBREF  7Q9F J    1   223  PDB    7Q9F     7Q9F             1    223             
-SEQADV 7Q9F PHE A   18  UNP  A0A7U2GTV LEU    18 CONFLICT                       
-SEQADV 7Q9F ALA A   80  UNP  A0A7U2GTV ASP    80 CONFLICT                       
-SEQADV 7Q9F GLY A  215  UNP  A0A7U2GTV ASP   215 CONFLICT                       
-SEQADV 7Q9F     A       UNP  A0A7U2GTV LEU   242 DELETION                       
-SEQADV 7Q9F ILE A  243  UNP  A0A7U2GTV ARG   244 CONFLICT                       
-SEQADV 7Q9F ASN A  414  UNP  A0A7U2GTV LYS   415 CONFLICT                       
-SEQADV 7Q9F LYS A  481  UNP  A0A7U2GTV GLU   482 CONFLICT                       
-SEQADV 7Q9F TYR A  498  UNP  A0A7U2GTV ASN   499 CONFLICT                       
-SEQADV 7Q9F GLY A  679  UNP  A0A7U2GTV ARG   680 CONFLICT                       
-SEQADV 7Q9F SER A  680  UNP  A0A7U2GTV ARG   681 CONFLICT                       
-SEQADV 7Q9F SER A  682  UNP  A0A7U2GTV ARG   683 CONFLICT                       
-SEQADV 7Q9F VAL A  698  UNP  A0A7U2GTV ALA   699 CONFLICT                       
-SEQADV 7Q9F PRO A  983  UNP  A0A7U2GTV LYS   984 CONFLICT                       
-SEQADV 7Q9F PRO A  984  UNP  A0A7U2GTV VAL   985 CONFLICT                       
-SEQADV 7Q9F GLY A 1206  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1207  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1208  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TYR A 1209  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ILE A 1210  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO A 1211  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU A 1212  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA A 1213  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO A 1214  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG A 1215  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ASP A 1216  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1217  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN A 1218  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA A 1219  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TYR A 1220  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL A 1221  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG A 1222  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS A 1223  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ASP A 1224  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1225  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU A 1226  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP A 1227  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL A 1228  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU A 1229  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU A 1230  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1231  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F THR A 1232  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE A 1233  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU A 1234  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1235  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG A 1236  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1237  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU A 1238  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU A 1239  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL A 1240  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU A 1241  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE A 1242  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN A 1243  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1244  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO A 1245  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1246  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1247  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1248  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1249  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1250  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1251  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1252  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1253  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1254  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1255  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1256  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA A 1257  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP A 1258  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1259  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1260  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO A 1261  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN A 1262  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE A 1263  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU A 1264  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS A 1265  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1266  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1267  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1268  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1269  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1270  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1271  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1272  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1273  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1274  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY A 1275  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1276  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA A 1277  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP A 1278  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER A 1279  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS A 1280  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO A 1281  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN A 1282  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE A 1283  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU A 1284  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS A 1285  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE B   18  UNP  A0A7U2GTV LEU    18 CONFLICT                       
-SEQADV 7Q9F ALA B   80  UNP  A0A7U2GTV ASP    80 CONFLICT                       
-SEQADV 7Q9F GLY B  215  UNP  A0A7U2GTV ASP   215 CONFLICT                       
-SEQADV 7Q9F     B       UNP  A0A7U2GTV LEU   242 DELETION                       
-SEQADV 7Q9F ILE B  243  UNP  A0A7U2GTV ARG   244 CONFLICT                       
-SEQADV 7Q9F ASN B  414  UNP  A0A7U2GTV LYS   415 CONFLICT                       
-SEQADV 7Q9F LYS B  481  UNP  A0A7U2GTV GLU   482 CONFLICT                       
-SEQADV 7Q9F TYR B  498  UNP  A0A7U2GTV ASN   499 CONFLICT                       
-SEQADV 7Q9F GLY B  679  UNP  A0A7U2GTV ARG   680 CONFLICT                       
-SEQADV 7Q9F SER B  680  UNP  A0A7U2GTV ARG   681 CONFLICT                       
-SEQADV 7Q9F SER B  682  UNP  A0A7U2GTV ARG   683 CONFLICT                       
-SEQADV 7Q9F VAL B  698  UNP  A0A7U2GTV ALA   699 CONFLICT                       
-SEQADV 7Q9F PRO B  983  UNP  A0A7U2GTV LYS   984 CONFLICT                       
-SEQADV 7Q9F PRO B  984  UNP  A0A7U2GTV VAL   985 CONFLICT                       
-SEQADV 7Q9F GLY B 1206  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1207  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1208  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TYR B 1209  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ILE B 1210  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO B 1211  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU B 1212  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA B 1213  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO B 1214  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG B 1215  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ASP B 1216  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1217  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN B 1218  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA B 1219  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TYR B 1220  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL B 1221  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG B 1222  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS B 1223  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ASP B 1224  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1225  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU B 1226  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP B 1227  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL B 1228  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU B 1229  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU B 1230  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1231  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F THR B 1232  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE B 1233  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU B 1234  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1235  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG B 1236  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1237  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU B 1238  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU B 1239  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL B 1240  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU B 1241  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE B 1242  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN B 1243  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1244  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO B 1245  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1246  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1247  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1248  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1249  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1250  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1251  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1252  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1253  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1254  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1255  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1256  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA B 1257  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP B 1258  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1259  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1260  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO B 1261  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN B 1262  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE B 1263  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU B 1264  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS B 1265  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1266  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1267  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1268  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1269  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1270  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1271  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1272  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1273  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1274  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY B 1275  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1276  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA B 1277  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP B 1278  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER B 1279  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS B 1280  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO B 1281  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN B 1282  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE B 1283  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU B 1284  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS B 1285  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE C   18  UNP  A0A7U2GTV LEU    18 CONFLICT                       
-SEQADV 7Q9F ALA C   80  UNP  A0A7U2GTV ASP    80 CONFLICT                       
-SEQADV 7Q9F GLY C  215  UNP  A0A7U2GTV ASP   215 CONFLICT                       
-SEQADV 7Q9F     C       UNP  A0A7U2GTV LEU   242 DELETION                       
-SEQADV 7Q9F ILE C  243  UNP  A0A7U2GTV ARG   244 CONFLICT                       
-SEQADV 7Q9F ASN C  414  UNP  A0A7U2GTV LYS   415 CONFLICT                       
-SEQADV 7Q9F LYS C  481  UNP  A0A7U2GTV GLU   482 CONFLICT                       
-SEQADV 7Q9F TYR C  498  UNP  A0A7U2GTV ASN   499 CONFLICT                       
-SEQADV 7Q9F GLY C  679  UNP  A0A7U2GTV ARG   680 CONFLICT                       
-SEQADV 7Q9F SER C  680  UNP  A0A7U2GTV ARG   681 CONFLICT                       
-SEQADV 7Q9F SER C  682  UNP  A0A7U2GTV ARG   683 CONFLICT                       
-SEQADV 7Q9F VAL C  698  UNP  A0A7U2GTV ALA   699 CONFLICT                       
-SEQADV 7Q9F PRO C  983  UNP  A0A7U2GTV LYS   984 CONFLICT                       
-SEQADV 7Q9F PRO C  984  UNP  A0A7U2GTV VAL   985 CONFLICT                       
-SEQADV 7Q9F GLY C 1206  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1207  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1208  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TYR C 1209  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ILE C 1210  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO C 1211  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU C 1212  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA C 1213  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO C 1214  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG C 1215  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ASP C 1216  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1217  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN C 1218  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA C 1219  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TYR C 1220  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL C 1221  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG C 1222  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS C 1223  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ASP C 1224  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1225  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU C 1226  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP C 1227  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL C 1228  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU C 1229  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU C 1230  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1231  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F THR C 1232  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE C 1233  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU C 1234  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1235  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ARG C 1236  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1237  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU C 1238  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU C 1239  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F VAL C 1240  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LEU C 1241  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE C 1242  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN C 1243  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1244  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO C 1245  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1246  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1247  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1248  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1249  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1250  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1251  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1252  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1253  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1254  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1255  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1256  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA C 1257  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP C 1258  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1259  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1260  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO C 1261  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN C 1262  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE C 1263  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU C 1264  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS C 1265  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1266  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1267  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1268  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1269  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1270  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1271  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1272  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1273  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1274  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLY C 1275  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1276  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F ALA C 1277  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F TRP C 1278  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F SER C 1279  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F HIS C 1280  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PRO C 1281  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLN C 1282  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F PHE C 1283  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F GLU C 1284  UNP  A0A7U2GTV           EXPRESSION TAG                 
-SEQADV 7Q9F LYS C 1285  UNP  A0A7U2GTV           EXPRESSION TAG                 
+SEQADV 7Q9F PHE A   18  UNP  P0DTC2    LEU    18 VARIANT                        
+SEQADV 7Q9F ALA A   80  UNP  P0DTC2    ASP    80 VARIANT                        
+SEQADV 7Q9F GLY A  215  UNP  P0DTC2    ASP   215 VARIANT                        
+SEQADV 7Q9F     A       UNP  P0DTC2    LEU   242 DELETION                       
+SEQADV 7Q9F     A       UNP  P0DTC2    ALA   243 DELETION                       
+SEQADV 7Q9F     A       UNP  P0DTC2    LEU   244 DELETION                       
+SEQADV 7Q9F ILE A  243  UNP  P0DTC2    ARG   246 VARIANT                        
+SEQADV 7Q9F ASN A  414  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7Q9F LYS A  481  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7Q9F TYR A  498  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7Q9F GLY A  611  UNP  P0DTC2    ASP   614 VARIANT                        
+SEQADV 7Q9F GLY A  679  UNP  P0DTC2    ARG   682 CONFLICT                       
+SEQADV 7Q9F SER A  680  UNP  P0DTC2    ARG   683 CONFLICT                       
+SEQADV 7Q9F SER A  682  UNP  P0DTC2    ARG   685 CONFLICT                       
+SEQADV 7Q9F VAL A  698  UNP  P0DTC2    ALA   701 VARIANT                        
+SEQADV 7Q9F PRO A  983  UNP  P0DTC2    LYS   986 CONFLICT                       
+SEQADV 7Q9F PRO A  984  UNP  P0DTC2    VAL   987 CONFLICT                       
+SEQADV 7Q9F GLY A 1206  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1207  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1208  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TYR A 1209  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ILE A 1210  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO A 1211  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU A 1212  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA A 1213  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO A 1214  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG A 1215  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ASP A 1216  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1217  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN A 1218  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA A 1219  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TYR A 1220  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL A 1221  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG A 1222  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS A 1223  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ASP A 1224  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1225  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU A 1226  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP A 1227  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL A 1228  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU A 1229  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU A 1230  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1231  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F THR A 1232  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE A 1233  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU A 1234  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1235  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG A 1236  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1237  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU A 1238  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU A 1239  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL A 1240  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU A 1241  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE A 1242  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN A 1243  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1244  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO A 1245  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1246  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1247  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1248  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1249  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1250  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1251  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1252  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1253  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1254  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1255  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1256  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA A 1257  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP A 1258  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1259  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1260  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO A 1261  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN A 1262  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE A 1263  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU A 1264  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS A 1265  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1266  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1267  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1268  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1269  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1270  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1271  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1272  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1273  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1274  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY A 1275  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1276  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA A 1277  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP A 1278  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER A 1279  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS A 1280  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO A 1281  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN A 1282  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE A 1283  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU A 1284  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS A 1285  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE B   18  UNP  P0DTC2    LEU    18 VARIANT                        
+SEQADV 7Q9F ALA B   80  UNP  P0DTC2    ASP    80 VARIANT                        
+SEQADV 7Q9F GLY B  215  UNP  P0DTC2    ASP   215 VARIANT                        
+SEQADV 7Q9F     B       UNP  P0DTC2    LEU   242 DELETION                       
+SEQADV 7Q9F     B       UNP  P0DTC2    ALA   243 DELETION                       
+SEQADV 7Q9F     B       UNP  P0DTC2    LEU   244 DELETION                       
+SEQADV 7Q9F ILE B  243  UNP  P0DTC2    ARG   246 VARIANT                        
+SEQADV 7Q9F ASN B  414  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7Q9F LYS B  481  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7Q9F TYR B  498  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7Q9F GLY B  611  UNP  P0DTC2    ASP   614 VARIANT                        
+SEQADV 7Q9F GLY B  679  UNP  P0DTC2    ARG   682 CONFLICT                       
+SEQADV 7Q9F SER B  680  UNP  P0DTC2    ARG   683 CONFLICT                       
+SEQADV 7Q9F SER B  682  UNP  P0DTC2    ARG   685 CONFLICT                       
+SEQADV 7Q9F VAL B  698  UNP  P0DTC2    ALA   701 VARIANT                        
+SEQADV 7Q9F PRO B  983  UNP  P0DTC2    LYS   986 CONFLICT                       
+SEQADV 7Q9F PRO B  984  UNP  P0DTC2    VAL   987 CONFLICT                       
+SEQADV 7Q9F GLY B 1206  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1207  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1208  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TYR B 1209  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ILE B 1210  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO B 1211  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU B 1212  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA B 1213  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO B 1214  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG B 1215  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ASP B 1216  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1217  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN B 1218  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA B 1219  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TYR B 1220  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL B 1221  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG B 1222  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS B 1223  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ASP B 1224  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1225  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU B 1226  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP B 1227  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL B 1228  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU B 1229  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU B 1230  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1231  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F THR B 1232  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE B 1233  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU B 1234  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1235  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG B 1236  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1237  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU B 1238  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU B 1239  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL B 1240  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU B 1241  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE B 1242  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN B 1243  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1244  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO B 1245  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1246  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1247  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1248  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1249  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1250  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1251  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1252  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1253  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1254  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1255  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1256  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA B 1257  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP B 1258  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1259  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1260  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO B 1261  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN B 1262  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE B 1263  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU B 1264  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS B 1265  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1266  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1267  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1268  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1269  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1270  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1271  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1272  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1273  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1274  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY B 1275  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1276  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA B 1277  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP B 1278  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER B 1279  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS B 1280  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO B 1281  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN B 1282  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE B 1283  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU B 1284  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS B 1285  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE C   18  UNP  P0DTC2    LEU    18 VARIANT                        
+SEQADV 7Q9F ALA C   80  UNP  P0DTC2    ASP    80 VARIANT                        
+SEQADV 7Q9F GLY C  215  UNP  P0DTC2    ASP   215 VARIANT                        
+SEQADV 7Q9F     C       UNP  P0DTC2    LEU   242 DELETION                       
+SEQADV 7Q9F     C       UNP  P0DTC2    ALA   243 DELETION                       
+SEQADV 7Q9F     C       UNP  P0DTC2    LEU   244 DELETION                       
+SEQADV 7Q9F ILE C  243  UNP  P0DTC2    ARG   246 VARIANT                        
+SEQADV 7Q9F ASN C  414  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7Q9F LYS C  481  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7Q9F TYR C  498  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7Q9F GLY C  611  UNP  P0DTC2    ASP   614 VARIANT                        
+SEQADV 7Q9F GLY C  679  UNP  P0DTC2    ARG   682 CONFLICT                       
+SEQADV 7Q9F SER C  680  UNP  P0DTC2    ARG   683 CONFLICT                       
+SEQADV 7Q9F SER C  682  UNP  P0DTC2    ARG   685 CONFLICT                       
+SEQADV 7Q9F VAL C  698  UNP  P0DTC2    ALA   701 VARIANT                        
+SEQADV 7Q9F PRO C  983  UNP  P0DTC2    LYS   986 CONFLICT                       
+SEQADV 7Q9F PRO C  984  UNP  P0DTC2    VAL   987 CONFLICT                       
+SEQADV 7Q9F GLY C 1206  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1207  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1208  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TYR C 1209  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ILE C 1210  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO C 1211  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU C 1212  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA C 1213  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO C 1214  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG C 1215  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ASP C 1216  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1217  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN C 1218  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA C 1219  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TYR C 1220  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL C 1221  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG C 1222  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS C 1223  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ASP C 1224  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1225  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU C 1226  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP C 1227  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL C 1228  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU C 1229  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU C 1230  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1231  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F THR C 1232  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE C 1233  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU C 1234  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1235  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ARG C 1236  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1237  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU C 1238  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU C 1239  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F VAL C 1240  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LEU C 1241  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE C 1242  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN C 1243  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1244  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO C 1245  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1246  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1247  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1248  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1249  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1250  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1251  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1252  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1253  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1254  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1255  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1256  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA C 1257  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP C 1258  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1259  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1260  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO C 1261  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN C 1262  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE C 1263  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU C 1264  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS C 1265  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1266  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1267  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1268  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1269  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1270  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1271  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1272  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1273  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1274  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLY C 1275  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1276  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F ALA C 1277  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F TRP C 1278  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F SER C 1279  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F HIS C 1280  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PRO C 1281  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLN C 1282  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F PHE C 1283  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F GLU C 1284  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7Q9F LYS C 1285  UNP  P0DTC2              EXPRESSION TAG                 
 SEQRES   1 A 1285  MET PHE VAL PHE LEU VAL LEU LEU PRO LEU VAL SER SER          
 SEQRES   2 A 1285  GLN CYS VAL ASN PHE THR THR ARG THR GLN LEU PRO PRO          
 SEQRES   3 A 1285  ALA TYR THR ASN SER PHE THR ARG GLY VAL TYR TYR PRO          

@@ -10,7 +10,7 @@ COMPND   6 MOLECULE: BETA-47 FAB LIGHT CHAIN;
 COMPND   7 CHAIN: L;                                                            
 COMPND   8 ENGINEERED: YES;                                                     
 COMPND   9 MOL_ID: 3;                                                           
-COMPND  10 MOLECULE: SURFACE GLYCOPROTEIN;                                      
+COMPND  10 MOLECULE: SPIKE PROTEIN S1;                                          
 COMPND  11 CHAIN: E;                                                            
 COMPND  12 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
@@ -30,8 +30,8 @@ SOURCE  14 EXPRESSION_SYSTEM_TAXID: 9606;
 SOURCE  15 MOL_ID: 3;                                                           
 SOURCE  16 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE  17 2;                                                                   
-SOURCE  18 ORGANISM_COMMON: 2019-NCOV, SARS-COV-2;                              
-SOURCE  19 ORGANISM_TAXID: 2697049;                                             
+SOURCE  18 ORGANISM_TAXID: 2697049;                                             
+SOURCE  19 GENE: S, 2;                                                          
 SOURCE  20 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
 SOURCE  21 EXPRESSION_SYSTEM_COMMON: HUMAN;                                     
 SOURCE  22 EXPRESSION_SYSTEM_TAXID: 9606                                        
@@ -41,6 +41,7 @@ KEYWDS   3 BINDING-DOMAIN, SPIKE, NEUTRALISATION, VIRAL PROTEIN/IMMUNE SYSTEM,
 KEYWDS   4 VIRAL PROTEIN, IMMUNE SYSTEM, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.ZHOU,J.REN,D.I.STUART                                               
+REVDAT   2   22-DEC-21 7PS5    1       COMPND SOURCE DBREF  SEQADV              
 REVDAT   1   15-DEC-21 7PS5    0                                                
 JRNL        AUTH   C.LIU,D.ZHOU,R.NUTALAI,H.M.DUYVESTEYN,A.TUEKPRAKHON,         
 JRNL        AUTH 2 H.M.GINN,W.DEJNIRATTISAI,P.SUPASA,A.J.MENTZER,B.WANG,        
@@ -578,24 +579,26 @@ REMARK 900 RELATED ENTRIES
 REMARK 900 RELATED ID: 7PS4   RELATED DB: PDB                                   
 DBREF  7PS5 H    1   228  PDB    7PS5     7PS5             1    228             
 DBREF  7PS5 L    1   215  PDB    7PS5     7PS5             1    215             
-DBREF1 7PS5 E  333   526  UNP                  A0A7U3CI26_SARS2                 
-DBREF2 7PS5 E     A0A7U3CI26                         10         203             
-SEQADV 7PS5 MET E  319  UNP  A0A7U3CI2           INITIATING METHIONINE          
-SEQADV 7PS5 GLY E  320  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 CYS E  321  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 VAL E  322  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 ALA E  323  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 GLU E  324  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 THR E  325  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 GLY E  326  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 HIS E  327  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 HIS E  328  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 HIS E  329  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 HIS E  330  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 HIS E  331  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 HIS E  332  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 LYS E  527  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS5 LYS E  528  UNP  A0A7U3CI2           EXPRESSION TAG                 
+DBREF  7PS5 E  333   526  UNP    P0DTC2   SPIKE_SARS2    333    526             
+SEQADV 7PS5 MET E  319  UNP  P0DTC2              INITIATING METHIONINE          
+SEQADV 7PS5 GLY E  320  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 CYS E  321  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 VAL E  322  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 ALA E  323  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 GLU E  324  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 THR E  325  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 GLY E  326  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 HIS E  327  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 HIS E  328  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 HIS E  329  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 HIS E  330  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 HIS E  331  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 HIS E  332  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 ASN E  417  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7PS5 LYS E  484  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7PS5 TYR E  501  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7PS5 LYS E  527  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS5 LYS E  528  UNP  P0DTC2              EXPRESSION TAG                 
 SEQRES   1 H  228  GLN VAL GLN LEU VAL GLU SER GLY PRO GLU MET LYS LYS          
 SEQRES   2 H  228  PRO GLY THR SER VAL LYS VAL SER CYS LYS ALA SER GLY          
 SEQRES   3 H  228  PHE THR PHE ILE THR SER ALA VAL GLN TRP VAL ARG GLN          

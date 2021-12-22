@@ -6,7 +6,7 @@ COMPND   2 MOLECULE: BETA-29 FAB LIGHT CHAIN;
 COMPND   3 CHAIN: B;                                                            
 COMPND   4 ENGINEERED: YES;                                                     
 COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: SURFACE GLYCOPROTEIN;                                      
+COMPND   6 MOLECULE: SPIKE PROTEIN S1;                                          
 COMPND   7 CHAIN: G;                                                            
 COMPND   8 ENGINEERED: YES;                                                     
 COMPND   9 MOL_ID: 3;                                                           
@@ -31,8 +31,8 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 9606;
 SOURCE   8 MOL_ID: 2;                                                           
 SOURCE   9 ORGANISM_SCIENTIFIC: SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS   
 SOURCE  10 2;                                                                   
-SOURCE  11 ORGANISM_COMMON: 2019-NCOV, SARS-COV-2;                              
-SOURCE  12 ORGANISM_TAXID: 2697049;                                             
+SOURCE  11 ORGANISM_TAXID: 2697049;                                             
+SOURCE  12 GENE: S, 2;                                                          
 SOURCE  13 EXPRESSION_SYSTEM: HOMO SAPIENS;                                     
 SOURCE  14 EXPRESSION_SYSTEM_COMMON: HUMAN;                                     
 SOURCE  15 EXPRESSION_SYSTEM_TAXID: 9606;                                       
@@ -63,6 +63,7 @@ KEYWDS   3 BINDING-DOMAIN, SPIKE, NEUTRALISATION, VIRAL PROTEIN/IMMUNE SYSTEM,
 KEYWDS   4 VIRAL PROTEIN, IMMUNE SYSTEM, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.ZHOU,J.REN,D.I.STUART                                               
+REVDAT   2   22-DEC-21 7PS2    1       COMPND SOURCE DBREF  SEQADV              
 REVDAT   1   15-DEC-21 7PS2    0                                                
 JRNL        AUTH   C.LIU,D.ZHOU,R.NUTALAI,H.M.DUYVESTEYN,A.TUEKPRAKHON,         
 JRNL        AUTH 2 H.M.GINN,W.DEJNIRATTISAI,P.SUPASA,A.J.MENTZER,B.WANG,        
@@ -744,27 +745,29 @@ REMARK 900
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 7PS1   RELATED DB: PDB                                   
 DBREF  7PS2 B    1   221  PDB    7PS2     7PS2             1    221             
-DBREF1 7PS2 G  333   526  UNP                  A0A7U3CI26_SARS2                 
-DBREF2 7PS2 G     A0A7U3CI26                         10         203             
+DBREF  7PS2 G  333   526  UNP    P0DTC2   SPIKE_SARS2    333    526             
 DBREF  7PS2 A    1   232  PDB    7PS2     7PS2             1    232             
 DBREF  7PS2 H    1   226  PDB    7PS2     7PS2             1    226             
 DBREF  7PS2 L    1   215  PDB    7PS2     7PS2             1    215             
-SEQADV 7PS2 MET G  319  UNP  A0A7U3CI2           INITIATING METHIONINE          
-SEQADV 7PS2 GLY G  320  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 CYS G  321  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 VAL G  322  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 ALA G  323  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 GLU G  324  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 THR G  325  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 GLY G  326  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 HIS G  327  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 HIS G  328  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 HIS G  329  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 HIS G  330  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 HIS G  331  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 HIS G  332  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 LYS G  527  UNP  A0A7U3CI2           EXPRESSION TAG                 
-SEQADV 7PS2 LYS G  528  UNP  A0A7U3CI2           EXPRESSION TAG                 
+SEQADV 7PS2 MET G  319  UNP  P0DTC2              INITIATING METHIONINE          
+SEQADV 7PS2 GLY G  320  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 CYS G  321  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 VAL G  322  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 ALA G  323  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 GLU G  324  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 THR G  325  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 GLY G  326  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 HIS G  327  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 HIS G  328  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 HIS G  329  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 HIS G  330  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 HIS G  331  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 HIS G  332  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 ASN G  417  UNP  P0DTC2    LYS   417 VARIANT                        
+SEQADV 7PS2 LYS G  484  UNP  P0DTC2    GLU   484 VARIANT                        
+SEQADV 7PS2 TYR G  501  UNP  P0DTC2    ASN   501 VARIANT                        
+SEQADV 7PS2 LYS G  527  UNP  P0DTC2              EXPRESSION TAG                 
+SEQADV 7PS2 LYS G  528  UNP  P0DTC2              EXPRESSION TAG                 
 SEQRES   1 B  221  ASP ILE GLN LEU THR GLN SER PRO ASP SER LEU ALA VAL          
 SEQRES   2 B  221  SER LEU GLY GLU ARG ALA THR ILE ASN CYS LYS SER SER          
 SEQRES   3 B  221  GLN SER VAL LEU TYR SER SER ASN ASN LYS ASN TYR LEU          

@@ -2025,13 +2025,12 @@ _entity_src_gen.expression_system_id
 _entity_src_gen.plasmid_name 
 _entity_src_gen.plasmid_details 
 _entity_src_gen.pdbx_description 
-1 1 sample 'Biological sequence' 1 1285 '2019-nCoV, SARS-CoV-2' ? 'S, 2' ? ? ? ? ? ? 
-'Severe acute respiratory syndrome coronavirus 2' 2697049 BETA ? ? ? ? ? ? ? 'Homo sapiens'       9606  ? ? ? ? ? ? ? ? ? ? ? ? ? 
-? ? ? ? ? ? ? ? 
-2 1 sample 'Biological sequence' 1 228  ?                       ? ?      ? ? ? ? ? ? 'Homo sapiens' 9606    ?    ? ? ? ? ? ? ? 
-'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
-3 1 sample 'Biological sequence' 1 215  ?                       ? ?      ? ? ? ? ? ? 'Homo sapiens' 9606    ?    ? ? ? ? ? ? ? 
-'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+1 1 sample 'Biological sequence' 1 1285 ? ? 'S, 2' ? ? ? ? ? ? 'Severe acute respiratory syndrome coronavirus 2' 2697049 BETA ? ? 
+? ? ? ? ? 'Homo sapiens'       9606  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+2 1 sample 'Biological sequence' 1 228  ? ? ?      ? ? ? ? ? ? 'Homo sapiens'                                    9606    ?    ? ? 
+? ? ? ? ? 'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
+3 1 sample 'Biological sequence' 1 215  ? ? ?      ? ? ? ? ? ? 'Homo sapiens'                                    9606    ?    ? ? 
+? ? ? ? ? 'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? 
 # 
 loop_
 _struct_ref.id 
@@ -2104,21 +2103,21 @@ _struct_ref_seq_dif.pdbx_seq_db_seq_num
 _struct_ref_seq_dif.details 
 _struct_ref_seq_dif.pdbx_auth_seq_num 
 _struct_ref_seq_dif.pdbx_ordinal 
-1 7Q9P PHE B 18   ? UNP P0DTC2 LEU 18  conflict         18   1   
-1 7Q9P ALA B 80   ? UNP P0DTC2 ASP 80  conflict         80   2   
-1 7Q9P GLY B 215  ? UNP P0DTC2 ASP 215 conflict         215  3   
-1 7Q9P ?   B ?    ? UNP P0DTC2 LEU 241 deletion         ?    4   
-1 7Q9P ?   B ?    ? UNP P0DTC2 LEU 242 deletion         ?    5   
-1 7Q9P ?   B ?    ? UNP P0DTC2 ALA 243 deletion         ?    6   
-1 7Q9P ILE B 243  ? UNP P0DTC2 ARG 246 conflict         243  7   
-1 7Q9P ASN B 414  ? UNP P0DTC2 LYS 417 conflict         414  8   
-1 7Q9P LYS B 481  ? UNP P0DTC2 GLU 484 conflict         481  9   
-1 7Q9P TYR B 498  ? UNP P0DTC2 ASN 501 conflict         498  10  
-1 7Q9P GLY B 611  ? UNP P0DTC2 ASP 614 conflict         611  11  
+1 7Q9P PHE B 18   ? UNP P0DTC2 LEU 18  variant          18   1   
+1 7Q9P ALA B 80   ? UNP P0DTC2 ASP 80  variant          80   2   
+1 7Q9P GLY B 215  ? UNP P0DTC2 ASP 215 variant          215  3   
+1 7Q9P ?   B ?    ? UNP P0DTC2 LEU 242 deletion         ?    4   
+1 7Q9P ?   B ?    ? UNP P0DTC2 ALA 243 deletion         ?    5   
+1 7Q9P ?   B ?    ? UNP P0DTC2 LEU 244 deletion         ?    6   
+1 7Q9P ILE B 243  ? UNP P0DTC2 ARG 246 variant          243  7   
+1 7Q9P ASN B 414  ? UNP P0DTC2 LYS 417 variant          414  8   
+1 7Q9P LYS B 481  ? UNP P0DTC2 GLU 484 variant          481  9   
+1 7Q9P TYR B 498  ? UNP P0DTC2 ASN 501 variant          498  10  
+1 7Q9P GLY B 611  ? UNP P0DTC2 ASP 614 variant          611  11  
 1 7Q9P GLY B 679  ? UNP P0DTC2 ARG 682 conflict         679  12  
 1 7Q9P SER B 680  ? UNP P0DTC2 ARG 683 conflict         680  13  
 1 7Q9P SER B 682  ? UNP P0DTC2 ARG 685 conflict         682  14  
-1 7Q9P VAL B 698  ? UNP P0DTC2 ALA 701 conflict         698  15  
+1 7Q9P VAL B 698  ? UNP P0DTC2 ALA 701 variant          698  15  
 1 7Q9P PRO B 983  ? UNP P0DTC2 LYS 986 conflict         983  16  
 1 7Q9P PRO B 984  ? UNP P0DTC2 VAL 987 conflict         984  17  
 1 7Q9P TYR B 1203 ? UNP P0DTC2 ?   ?   'expression tag' 1203 18  
@@ -2204,21 +2203,21 @@ _struct_ref_seq_dif.pdbx_ordinal
 1 7Q9P PHE B 1283 ? UNP P0DTC2 ?   ?   'expression tag' 1283 98  
 1 7Q9P GLU B 1284 ? UNP P0DTC2 ?   ?   'expression tag' 1284 99  
 1 7Q9P LYS B 1285 ? UNP P0DTC2 ?   ?   'expression tag' 1285 100 
-2 7Q9P PHE C 18   ? UNP P0DTC2 LEU 18  conflict         18   101 
-2 7Q9P ALA C 80   ? UNP P0DTC2 ASP 80  conflict         80   102 
-2 7Q9P GLY C 215  ? UNP P0DTC2 ASP 215 conflict         215  103 
-2 7Q9P ?   C ?    ? UNP P0DTC2 LEU 241 deletion         ?    104 
-2 7Q9P ?   C ?    ? UNP P0DTC2 LEU 242 deletion         ?    105 
-2 7Q9P ?   C ?    ? UNP P0DTC2 ALA 243 deletion         ?    106 
-2 7Q9P ILE C 243  ? UNP P0DTC2 ARG 246 conflict         243  107 
-2 7Q9P ASN C 414  ? UNP P0DTC2 LYS 417 conflict         414  108 
-2 7Q9P LYS C 481  ? UNP P0DTC2 GLU 484 conflict         481  109 
-2 7Q9P TYR C 498  ? UNP P0DTC2 ASN 501 conflict         498  110 
-2 7Q9P GLY C 611  ? UNP P0DTC2 ASP 614 conflict         611  111 
+2 7Q9P PHE C 18   ? UNP P0DTC2 LEU 18  variant          18   101 
+2 7Q9P ALA C 80   ? UNP P0DTC2 ASP 80  variant          80   102 
+2 7Q9P GLY C 215  ? UNP P0DTC2 ASP 215 variant          215  103 
+2 7Q9P ?   C ?    ? UNP P0DTC2 LEU 242 deletion         ?    104 
+2 7Q9P ?   C ?    ? UNP P0DTC2 ALA 243 deletion         ?    105 
+2 7Q9P ?   C ?    ? UNP P0DTC2 LEU 244 deletion         ?    106 
+2 7Q9P ILE C 243  ? UNP P0DTC2 ARG 246 variant          243  107 
+2 7Q9P ASN C 414  ? UNP P0DTC2 LYS 417 variant          414  108 
+2 7Q9P LYS C 481  ? UNP P0DTC2 GLU 484 variant          481  109 
+2 7Q9P TYR C 498  ? UNP P0DTC2 ASN 501 variant          498  110 
+2 7Q9P GLY C 611  ? UNP P0DTC2 ASP 614 variant          611  111 
 2 7Q9P GLY C 679  ? UNP P0DTC2 ARG 682 conflict         679  112 
 2 7Q9P SER C 680  ? UNP P0DTC2 ARG 683 conflict         680  113 
 2 7Q9P SER C 682  ? UNP P0DTC2 ARG 685 conflict         682  114 
-2 7Q9P VAL C 698  ? UNP P0DTC2 ALA 701 conflict         698  115 
+2 7Q9P VAL C 698  ? UNP P0DTC2 ALA 701 variant          698  115 
 2 7Q9P PRO C 983  ? UNP P0DTC2 LYS 986 conflict         983  116 
 2 7Q9P PRO C 984  ? UNP P0DTC2 VAL 987 conflict         984  117 
 2 7Q9P TYR C 1203 ? UNP P0DTC2 ?   ?   'expression tag' 1203 118 
@@ -2304,21 +2303,21 @@ _struct_ref_seq_dif.pdbx_ordinal
 2 7Q9P PHE C 1283 ? UNP P0DTC2 ?   ?   'expression tag' 1283 198 
 2 7Q9P GLU C 1284 ? UNP P0DTC2 ?   ?   'expression tag' 1284 199 
 2 7Q9P LYS C 1285 ? UNP P0DTC2 ?   ?   'expression tag' 1285 200 
-3 7Q9P PHE A 18   ? UNP P0DTC2 LEU 18  conflict         18   201 
-3 7Q9P ALA A 80   ? UNP P0DTC2 ASP 80  conflict         80   202 
-3 7Q9P GLY A 215  ? UNP P0DTC2 ASP 215 conflict         215  203 
-3 7Q9P ?   A ?    ? UNP P0DTC2 LEU 241 deletion         ?    204 
-3 7Q9P ?   A ?    ? UNP P0DTC2 LEU 242 deletion         ?    205 
-3 7Q9P ?   A ?    ? UNP P0DTC2 ALA 243 deletion         ?    206 
-3 7Q9P ILE A 243  ? UNP P0DTC2 ARG 246 conflict         243  207 
-3 7Q9P ASN A 414  ? UNP P0DTC2 LYS 417 conflict         414  208 
-3 7Q9P LYS A 481  ? UNP P0DTC2 GLU 484 conflict         481  209 
-3 7Q9P TYR A 498  ? UNP P0DTC2 ASN 501 conflict         498  210 
-3 7Q9P GLY A 611  ? UNP P0DTC2 ASP 614 conflict         611  211 
+3 7Q9P PHE A 18   ? UNP P0DTC2 LEU 18  variant          18   201 
+3 7Q9P ALA A 80   ? UNP P0DTC2 ASP 80  variant          80   202 
+3 7Q9P GLY A 215  ? UNP P0DTC2 ASP 215 variant          215  203 
+3 7Q9P ?   A ?    ? UNP P0DTC2 LEU 242 deletion         ?    204 
+3 7Q9P ?   A ?    ? UNP P0DTC2 ALA 243 deletion         ?    205 
+3 7Q9P ?   A ?    ? UNP P0DTC2 LEU 244 deletion         ?    206 
+3 7Q9P ILE A 243  ? UNP P0DTC2 ARG 246 variant          243  207 
+3 7Q9P ASN A 414  ? UNP P0DTC2 LYS 417 variant          414  208 
+3 7Q9P LYS A 481  ? UNP P0DTC2 GLU 484 variant          481  209 
+3 7Q9P TYR A 498  ? UNP P0DTC2 ASN 501 variant          498  210 
+3 7Q9P GLY A 611  ? UNP P0DTC2 ASP 614 variant          611  211 
 3 7Q9P GLY A 679  ? UNP P0DTC2 ARG 682 conflict         679  212 
 3 7Q9P SER A 680  ? UNP P0DTC2 ARG 683 conflict         680  213 
 3 7Q9P SER A 682  ? UNP P0DTC2 ARG 685 conflict         682  214 
-3 7Q9P VAL A 698  ? UNP P0DTC2 ALA 701 conflict         698  215 
+3 7Q9P VAL A 698  ? UNP P0DTC2 ALA 701 variant          698  215 
 3 7Q9P PRO A 983  ? UNP P0DTC2 LYS 986 conflict         983  216 
 3 7Q9P PRO A 984  ? UNP P0DTC2 VAL 987 conflict         984  217 
 3 7Q9P TYR A 1203 ? UNP P0DTC2 ?   ?   'expression tag' 1203 218 
@@ -2599,8 +2598,9 @@ _struct.pdbx_CASP_flag               N
 # 
 _struct_keywords.entry_id        7Q9P 
 _struct_keywords.text            
-'SARS-CoV2, Spike, glycoprotein, antibody, fab, B.1.135, beta variant, Complex, neutralising, convalescent sera, VIRAL PROTEIN' 
-_struct_keywords.pdbx_keywords   'VIRAL PROTEIN' 
+;SARS-CoV2, Spike, glycoprotein, antibody, fab, B.1.135, beta variant, Complex, neutralising, convalescent sera, Viral Protein/Immune System, Viral Protein-Immune System complex
+;
+_struct_keywords.pdbx_keywords   'Viral protein/Immune system' 
 # 
 loop_
 _struct_asym.id 
@@ -39575,11 +39575,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-12-15 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-12-15 
+2 'Structure model' 1 1 2021-12-22 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -39588,6 +39591,36 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+loop_
+_pdbx_audit_revision_group.ordinal 
+_pdbx_audit_revision_group.revision_ordinal 
+_pdbx_audit_revision_group.data_content_type 
+_pdbx_audit_revision_group.group 
+1 2 'Structure model' 'Database references' 
+2 2 'Structure model' 'Source and taxonomy' 
+3 2 'Structure model' 'Structure summary'   
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' entity_src_gen     
+2 2 'Structure model' struct_keywords    
+3 2 'Structure model' struct_ref_seq_dif 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_entity_src_gen.gene_src_common_name'    
+2 2 'Structure model' '_struct_keywords.pdbx_keywords'          
+3 2 'Structure model' '_struct_keywords.text'                   
+4 2 'Structure model' '_struct_ref_seq_dif.db_mon_id'           
+5 2 'Structure model' '_struct_ref_seq_dif.details'             
+6 2 'Structure model' '_struct_ref_seq_dif.pdbx_seq_db_seq_num' 
 # 
 loop_
 _software.citation_id 

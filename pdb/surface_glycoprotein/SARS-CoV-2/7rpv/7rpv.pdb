@@ -29,6 +29,7 @@ KEYWDS   2 AFFINITY, CATALYTIC-NULL, ZINC BINDING SITE, HYDROLASE-VIRAL PROTEIN
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Y.CHEN,D.W.TOLBERT,M.PAZGIER                                          
+REVDAT   2   29-DEC-21 7RPV    1       REMARK                                   
 REVDAT   1   15-DEC-21 7RPV    0                                                
 JRNL        AUTH   Y.CHEN,L.SUN,I.ULLAH,G.BEAUDOIN-BUSSIERES,S.P.ANAND,         
 JRNL        AUTH 2 A.P.HEDERMAN,W.D.TOLBERT,R.SHERBURN,D.N.NGUYEN,L.MARCHITTO,  
@@ -236,28 +237,28 @@ REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 1                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, C                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, E                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 2                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: E, G                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: B, F                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 3                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: B, D                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, G                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 4                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: DIMERIC                           
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: F, H                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: D, H                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            

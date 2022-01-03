@@ -26,11 +26,17 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562
 KEYWDS    RBD, NANOBODY, VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX     
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    G.YE,K.SHI,H.AIHARA,F.LI                                              
+REVDAT   2   29-DEC-21 7KM5    1       JRNL                                     
 REVDAT   1   04-AUG-21 7KM5    0                                                
-JRNL        AUTH   G.YE,K.SHI,H.AIHARA,F.LI                                     
-JRNL        TITL   CRYSTAL STRUCTURE OF RBD AND NANOBODY COMPLEX                
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   G.YE,J.GALLANT,J.ZHENG,C.MASSEY,K.SHI,W.TAI,A.ODLE,          
+JRNL        AUTH 2 M.VICKERS,J.SHANG,Y.WAN,L.DU,H.AIHARA,S.PERLMAN,A.LEBEAU,    
+JRNL        AUTH 3 F.LI                                                         
+JRNL        TITL   THE DEVELOPMENT OF NANOSOTA - 1 AS ANTI-SARS-COV-2 NANOBODY  
+JRNL        TITL 2 DRUG CANDIDATES.                                             
+JRNL        REF    ELIFE                         V.  10       2021              
+JRNL        REFN                   ESSN 2050-084X                               
+JRNL        PMID   34338634                                                     
+JRNL        DOI    10.7554/ELIFE.64815                                          
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.19 ANGSTROMS.                                       
 REMARK   3                                                                      

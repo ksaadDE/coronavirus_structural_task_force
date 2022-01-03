@@ -61,11 +61,12 @@ _citation.journal_volume            ?
 _citation.language                  ? 
 _citation.page_first                ? 
 _citation.page_last                 ? 
-_citation.title                     'The antibody response to SARS-CoV-2 Beta underscores the antigenic distance to other variants' 
+_citation.title                     
+'The antibody response to SARS-CoV-2 Beta underscores the antigenic distance to other variants.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.chom.2021.11.013 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34921776 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -74,37 +75,37 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Liu, C.'           1  ? 
-primary 'Zhou, D.'          2  ? 
-primary 'Nutalai, R.'       3  ? 
-primary 'Duyvesteyn, H.M.'  4  ? 
-primary 'Tuekprakhon, A.'   5  ? 
-primary 'Ginn, H.M.'        6  ? 
-primary 'Dejnirattisai, W.' 7  ? 
-primary 'Supasa, P.'        8  ? 
-primary 'Mentzer, A.J.'     9  ? 
-primary 'Wang, B.'          10 ? 
-primary 'Case, J.B.'        11 ? 
-primary 'Zhao, Y.'          12 ? 
-primary 'Skelly, D.T.'      13 ? 
-primary 'Chen, R.E.'        14 ? 
-primary 'Johnson, S.A.'     15 ? 
-primary 'Ritter, T.G.'      16 ? 
-primary 'Mason, C.'         17 ? 
-primary 'Malik, T.'         18 ? 
-primary 'Temperton, N.'     19 ? 
-primary 'Paterson, N.G.'    20 ? 
-primary 'Williams, M.A.'    21 ? 
-primary 'Hall, D.R.'        22 ? 
-primary 'Clare, D.K.'       23 ? 
-primary 'Howe, A.'          24 ? 
-primary 'Goulder, P.J.'     25 ? 
-primary 'Fry, E.E.'         26 ? 
-primary 'Diamond, M.S.'     27 ? 
-primary 'Mongkolsapaya, J.' 28 ? 
-primary 'Ren, J.'           29 ? 
-primary 'Stuart, D.I.'      30 ? 
-primary 'Screaton, G.R.'    31 ? 
+primary 'Liu, C.'            1  ? 
+primary 'Zhou, D.'           2  ? 
+primary 'Nutalai, R.'        3  ? 
+primary 'Duyvesteyn, H.M.E.' 4  ? 
+primary 'Tuekprakhon, A.'    5  ? 
+primary 'Ginn, H.M.'         6  ? 
+primary 'Dejnirattisai, W.'  7  ? 
+primary 'Supasa, P.'         8  ? 
+primary 'Mentzer, A.J.'      9  ? 
+primary 'Wang, B.'           10 ? 
+primary 'Case, J.B.'         11 ? 
+primary 'Zhao, Y.'           12 ? 
+primary 'Skelly, D.T.'       13 ? 
+primary 'Chen, R.E.'         14 ? 
+primary 'Johnson, S.A.'      15 ? 
+primary 'Ritter, T.G.'       16 ? 
+primary 'Mason, C.'          17 ? 
+primary 'Malik, T.'          18 ? 
+primary 'Temperton, N.'      19 ? 
+primary 'Paterson, N.G.'     20 ? 
+primary 'Williams, M.A.'     21 ? 
+primary 'Hall, D.R.'         22 ? 
+primary 'Clare, D.K.'        23 ? 
+primary 'Howe, A.'           24 ? 
+primary 'Goulder, P.J.R.'    25 ? 
+primary 'Fry, E.E.'          26 ? 
+primary 'Diamond, M.S.'      27 ? 
+primary 'Mongkolsapaya, J.'  28 ? 
+primary 'Ren, J.'            29 ? 
+primary 'Stuart, D.I.'       30 ? 
+primary 'Screaton, G.R.'     31 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -20516,6 +20517,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-12-15 
 2 'Structure model' 1 1 2021-12-22 
+3 'Structure model' 1 2 2021-12-29 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -20533,6 +20535,7 @@ _pdbx_audit_revision_group.group
 1 2 'Structure model' 'Database references' 
 2 2 'Structure model' 'Source and taxonomy' 
 3 2 'Structure model' 'Structure summary'   
+4 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -20544,6 +20547,8 @@ _pdbx_audit_revision_category.category
 3 2 'Structure model' struct_ref         
 4 2 'Structure model' struct_ref_seq     
 5 2 'Structure model' struct_ref_seq_dif 
+6 3 'Structure model' citation           
+7 3 'Structure model' citation_author    
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -20560,6 +20565,9 @@ _pdbx_audit_revision_item.item
 8  2 'Structure model' '_struct_ref_seq.db_align_beg'         
 9  2 'Structure model' '_struct_ref_seq.db_align_end'         
 10 2 'Structure model' '_struct_ref_seq.pdbx_db_accession'    
+11 3 'Structure model' '_citation.pdbx_database_id_PubMed'    
+12 3 'Structure model' '_citation.title'                      
+13 3 'Structure model' '_citation_author.name'                
 # 
 loop_
 _space_group_symop.id 

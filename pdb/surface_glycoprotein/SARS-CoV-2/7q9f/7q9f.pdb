@@ -37,18 +37,20 @@ KEYWDS   2 COMPLEX, NEUTRALISING, CONVALESCENT SERA, VIRAL PROTEIN/IMMUNE
 KEYWDS   3 SYSTEM, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX                          
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    H.M.E.DUYVESTEYN,J.REN,D.I.STUART                                     
+REVDAT   3   29-DEC-21 7Q9F    1       JRNL                                     
 REVDAT   2   22-DEC-21 7Q9F    1       COMPND SOURCE DBREF  SEQADV              
 REVDAT   1   15-DEC-21 7Q9F    0                                                
-JRNL        AUTH   C.LIU,D.ZHOU,R.NUTALAI,H.M.DUYVESTEYN,A.TUEKPRAKHON,         
+JRNL        AUTH   C.LIU,D.ZHOU,R.NUTALAI,H.M.E.DUYVESTEYN,A.TUEKPRAKHON,       
 JRNL        AUTH 2 H.M.GINN,W.DEJNIRATTISAI,P.SUPASA,A.J.MENTZER,B.WANG,        
 JRNL        AUTH 3 J.B.CASE,Y.ZHAO,D.T.SKELLY,R.E.CHEN,S.A.JOHNSON,T.G.RITTER,  
 JRNL        AUTH 4 C.MASON,T.MALIK,N.TEMPERTON,N.G.PATERSON,M.A.WILLIAMS,       
-JRNL        AUTH 5 D.R.HALL,D.K.CLARE,A.HOWE,P.J.GOULDER,E.E.FRY,M.S.DIAMOND,   
+JRNL        AUTH 5 D.R.HALL,D.K.CLARE,A.HOWE,P.J.R.GOULDER,E.E.FRY,M.S.DIAMOND, 
 JRNL        AUTH 6 J.MONGKOLSAPAYA,J.REN,D.I.STUART,G.R.SCREATON                
 JRNL        TITL   THE ANTIBODY RESPONSE TO SARS-COV-2 BETA UNDERSCORES THE     
-JRNL        TITL 2 ANTIGENIC DISTANCE TO OTHER VARIANTS                         
+JRNL        TITL 2 ANTIGENIC DISTANCE TO OTHER VARIANTS.                        
 JRNL        REF    CELL HOST MICROBE                          2021              
 JRNL        REFN                   ESSN 1934-6069                               
+JRNL        PMID   34921776                                                     
 JRNL        DOI    10.1016/J.CHOM.2021.11.013                                   
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.60 ANGSTROMS.                                       

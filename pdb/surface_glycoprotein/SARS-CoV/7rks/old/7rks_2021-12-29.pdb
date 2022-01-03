@@ -1,6 +1,6 @@
 HEADER    VIRAL PROTEIN/IMMUNE SYSTEM             22-JUL-21   7RKS              
-TITLE     STRUCTURE OF THE SARS-COV RECEPTOR BINDING DOMAIN IN COMPLEX WITH THE 
-TITLE    2 HUMAN NEUTRALIZING ANTIBODY FAB FRAGMENT, C118                       
+TITLE     STRUCTURE OF THE SARS-COV-2 RECEPTOR BINDING DOMAIN IN COMPLEX WITH   
+TITLE    2 THE HUMAN NEUTRALIZING ANTIBODY FAB FRAGMENT, C118                   
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: C118 ANTIBODY FAB HEAVY CHAIN;                             
 COMPND   3 CHAIN: H, I;                                                         
@@ -39,7 +39,6 @@ KEYWDS    ANTIBODY, SURFACE PROTEIN, FAB, CORONAVIRUS, FUSION PROTEIN, BINDING
 KEYWDS   2 DOMAIN, VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.A.JETTE,P.J.BJORKMAN,C.O.BARNES                                     
-REVDAT   4   29-DEC-21 7RKS    1       TITLE                                    
 REVDAT   3   13-OCT-21 7RKS    1       JRNL                                     
 REVDAT   2   29-SEP-21 7RKS    1       JRNL                                     
 REVDAT   1   22-SEP-21 7RKS    0                                                

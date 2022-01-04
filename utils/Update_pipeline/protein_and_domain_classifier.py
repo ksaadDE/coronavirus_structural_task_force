@@ -18,6 +18,8 @@ from os.path import join
 import argparse
 import gemmi
 
+import Levenshtein
+
 from Bio import pairwise2
 from Bio import BiopythonWarning
 import warnings
@@ -68,10 +70,10 @@ def main(taxonomy, protein):
         fasta_sequences = SeqIO.parse(open(join(os.getcwd(), "sequence_domain_info.fasta")),'fasta')
     except FileNotFoundError:
         exit("ERROR: no file called 'sequence_domain_info.fasta' found in target folder.")
-    fasta_seq_iter = []
+    fasta_seq_domains_iter = []
     for fasta in fasta_sequences:
         domain_name, domain_sequence = fasta.id, str(fasta.seq)
-        fasta_seq_iter.append((domain_name, domain_sequence))
+        fasta_seq_domains_iter.append((domain_name, domain_sequence))
     
     # lists for final results
     entries_and_domains = []
@@ -143,11 +145,12 @@ def main(taxonomy, protein):
                 # do sequence alignment for each sequence from fasta and track best
                 best_score = -1000
                 best_domain = "None"
-                for fasta in fasta_seq_iter:
+                for fasta in fasta_seq_domains_iter:
                     domain_name, domain_sequence = fasta
                     result = gemmi.align_string_sequences(list(chain_sequence), list(domain_sequence), [])
-                    if result.score > best_score:
-                        best_score = result.score
+                    if result.calculate_identity() > best_score:
+                        print(result.calculate_identity())
+                        best_score = result.calculate_identity()
                         best_domain = domain_name
                 
                 print(entry + " | " + best_domain + " " + str(best_score))

@@ -53,12 +53,13 @@ SOURCE  28 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, SPIKE PROTEIN, VIRAL PROTEIN, NEUTRALIZING ANTIBODY       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    T.J.YANG,P.Y.YU,Y.C.CHANG,H.C.WU,S.T.D.HSU                            
+REVDAT   2   05-JAN-22 7EH5    1       JRNL                                     
 REVDAT   1   01-SEP-21 7EH5    0                                                
 JRNL        AUTH   T.J.YANG,P.Y.YU,Y.C.CHANG,K.H.LIANG,H.C.TSO,M.R.HO,W.Y.CHEN, 
 JRNL        AUTH 2 H.T.LIN,H.C.WU,S.D.HSU                                       
 JRNL        TITL   EFFECT OF SARS-COV-2 B.1.1.7 MUTATIONS ON SPIKE PROTEIN      
 JRNL        TITL 2 STRUCTURE AND FUNCTION.                                      
-JRNL        REF    NAT.STRUCT.MOL.BIOL.                       2021              
+JRNL        REF    NAT.STRUCT.MOL.BIOL.          V.  28   731 2021              
 JRNL        REFN                   ESSN 1545-9985                               
 JRNL        PMID   34385690                                                     
 JRNL        DOI    10.1038/S41594-021-00652-Z                                   

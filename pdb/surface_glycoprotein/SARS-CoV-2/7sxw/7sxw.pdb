@@ -19,13 +19,14 @@ KEYWDS    SARS-COV-2, GLYCOPROTEIN, FUSION PROTEIN, VIRAL PROTEIN
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    X.ZHU,D.MANNAR,J.W.SAVILLE,S.S.SRIVASTAVA,A.M.BEREZUK,S.ZHOU,         
 AUTHOR   2 K.S.TUTTLE,A.KIM,W.LI,D.S.DIMITROV,S.SUBRAMANIAM                     
+REVDAT   2   05-JAN-22 7SXW    1       JRNL                                     
 REVDAT   1   29-DEC-21 7SXW    0                                                
 JRNL        AUTH   D.MANNAR,J.W.SAVILLE,X.ZHU,S.S.SRIVASTAVA,A.M.BEREZUK,       
 JRNL        AUTH 2 S.ZHOU,K.S.TUTTLE,A.KIM,W.LI,D.S.DIMITROV,S.SUBRAMANIAM      
 JRNL        TITL   STRUCTURAL ANALYSIS OF RECEPTOR BINDING DOMAIN MUTATIONS IN  
 JRNL        TITL 2 SARS-COV-2 VARIANTS OF CONCERN THAT MODULATE ACE2 AND        
 JRNL        TITL 3 ANTIBODY BINDING.                                            
-JRNL        REF    CELL REP                             10156 2021              
+JRNL        REF    CELL REP                      V.  37 10156 2021              
 JRNL        REFN                   ESSN 2211-1247                               
 JRNL        PMID   34914928                                                     
 JRNL        DOI    10.1016/J.CELREP.2021.110156                                 

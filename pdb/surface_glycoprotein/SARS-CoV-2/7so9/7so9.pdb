@@ -55,6 +55,7 @@ KEYWDS   3 SYSTEM COMPLEX
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    M.MCCALLUM,D.VEESLER,SEATTLE STRUCTURAL GENOMICS CENTER FOR           
 AUTHOR   2 INFECTIOUS DISEASE (SSGCID)                                          
+REVDAT   4   05-JAN-22 7SO9    1       JRNL                                     
 REVDAT   3   01-DEC-21 7SO9    1       JRNL                                     
 REVDAT   2   24-NOV-21 7SO9    1       JRNL                                     
 REVDAT   1   17-NOV-21 7SO9    0                                                
@@ -64,7 +65,7 @@ JRNL        AUTH 3 M.AHLRICHS,L.CARTER,G.SNELL,M.S.PIZZUTO,H.Y.CHU,
 JRNL        AUTH 4 W.C.VAN VOORHIS,D.CORTI,D.VEESLER                            
 JRNL        TITL   MOLECULAR BASIS OF IMMUNE EVASION BY THE DELTA AND KAPPA     
 JRNL        TITL 2 SARS-COV-2 VARIANTS.                                         
-JRNL        REF    SCIENCE                              L8506 2021              
+JRNL        REF    SCIENCE                       V. 374  1621 2021              
 JRNL        REFN                   ESSN 1095-9203                               
 JRNL        PMID   34751595                                                     
 JRNL        DOI    10.1126/SCIENCE.ABL8506                                      

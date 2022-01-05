@@ -3,7 +3,7 @@ data_7SOF
 _entry.id   7SOF 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.352 
+_audit_conform.dict_version    5.353 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -58,10 +58,10 @@ _citation.journal_id_CSD            0038
 _citation.journal_id_ISSN           1095-9203 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            374 
 _citation.language                  ? 
-_citation.page_first                eabl8506 
-_citation.page_last                 eabl8506 
+_citation.page_first                1621 
+_citation.page_last                 1626 
 _citation.title                     'Molecular basis of immune evasion by the Delta and Kappa SARS-CoV-2 variants.' 
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
@@ -75,25 +75,25 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'McCallum, M.'      1  0000-0001-8398-8330 
-primary 'Walls, A.C.'       2  0000-0002-9636-8330 
-primary 'Sprouse, K.R.'     3  0000-0003-0007-2226 
-primary 'Bowen, J.E.'       4  0000-0003-3590-9727 
-primary 'Rosen, L.E.'       5  0000-0002-8030-0219 
-primary 'Dang, H.V.'        6  0000-0003-1173-9241 
-primary 'De Marco, A.'      7  0000-0001-9641-4838 
-primary 'Franko, N.'        8  0000-0001-8165-6332 
-primary 'Tilles, S.W.'      9  0000-0002-6877-1341 
-primary 'Logue, J.'         10 0000-0002-7889-8960 
-primary 'Miranda, M.C.'     11 ?                   
-primary 'Ahlrichs, M.'      12 0000-0002-4793-3890 
-primary 'Carter, L.'        13 0000-0002-9837-9068 
-primary 'Snell, G.'         14 0000-0003-1475-659X 
-primary 'Pizzuto, M.S.'     15 0000-0001-5776-654X 
-primary 'Chu, H.Y.'         16 0000-0001-8502-9600 
-primary 'Van Voorhis, W.C.' 17 0000-0001-6141-2015 
-primary 'Corti, D.'         18 0000-0002-5797-1364 
-primary 'Veesler, D.'       19 0000-0002-6019-8675 
+primary 'McCallum, M.'      1  ? 
+primary 'Walls, A.C.'       2  ? 
+primary 'Sprouse, K.R.'     3  ? 
+primary 'Bowen, J.E.'       4  ? 
+primary 'Rosen, L.E.'       5  ? 
+primary 'Dang, H.V.'        6  ? 
+primary 'De Marco, A.'      7  ? 
+primary 'Franko, N.'        8  ? 
+primary 'Tilles, S.W.'      9  ? 
+primary 'Logue, J.'         10 ? 
+primary 'Miranda, M.C.'     11 ? 
+primary 'Ahlrichs, M.'      12 ? 
+primary 'Carter, L.'        13 ? 
+primary 'Snell, G.'         14 ? 
+primary 'Pizzuto, M.S.'     15 ? 
+primary 'Chu, H.Y.'         16 ? 
+primary 'Van Voorhis, W.C.' 17 ? 
+primary 'Corti, D.'         18 ? 
+primary 'Veesler, D.'       19 ? 
 # 
 loop_
 _entity.id 
@@ -7612,6 +7612,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-11-17 
 2 'Structure model' 1 1 2021-11-24 
 3 'Structure model' 1 2 2021-12-01 
+4 'Structure model' 1 3 2022-01-05 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7628,6 +7629,7 @@ _pdbx_audit_revision_group.data_content_type
 _pdbx_audit_revision_group.group 
 1 2 'Structure model' 'Database references' 
 2 3 'Structure model' 'Database references' 
+3 4 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -7638,18 +7640,24 @@ _pdbx_audit_revision_category.category
 2 2 'Structure model' citation_author 
 3 3 'Structure model' citation        
 4 3 'Structure model' citation_author 
+5 4 'Structure model' citation        
+6 4 'Structure model' citation_author 
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
-2 2 'Structure model' '_citation.title'                   
-3 2 'Structure model' '_citation_author.name'             
-4 3 'Structure model' '_citation.page_first'              
-5 3 'Structure model' '_citation.page_last'               
-6 3 'Structure model' '_citation_author.identifier_ORCID' 
+1  2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+2  2 'Structure model' '_citation.title'                   
+3  2 'Structure model' '_citation_author.name'             
+4  3 'Structure model' '_citation.page_first'              
+5  3 'Structure model' '_citation.page_last'               
+6  3 'Structure model' '_citation_author.identifier_ORCID' 
+7  4 'Structure model' '_citation.journal_volume'          
+8  4 'Structure model' '_citation.page_first'              
+9  4 'Structure model' '_citation.page_last'               
+10 4 'Structure model' '_citation_author.identifier_ORCID' 
 # 
 _pdbx_entry_details.entry_id                 7SOF 
 _pdbx_entry_details.has_ligand_of_interest   N 

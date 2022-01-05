@@ -18,8 +18,6 @@ from os.path import join
 import argparse
 import gemmi
 
-import Levenshtein
-
 from Bio import pairwise2
 from Bio import BiopythonWarning
 import warnings

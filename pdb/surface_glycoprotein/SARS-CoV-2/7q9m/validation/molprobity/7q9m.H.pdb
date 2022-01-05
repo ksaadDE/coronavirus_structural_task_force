@@ -68,11 +68,12 @@ _citation.journal_volume            ?
 _citation.language                  ?
 _citation.page_first                ?
 _citation.page_last                 ?
-_citation.title                     'The antibody response to SARS-CoV-2 Beta un
+_citation.title
+'The antibody response to SARS-CoV-2 Beta underscores the antigenic distance to
 _citation.year                      2021
 _citation.database_id_CSD           ?
 _citation.pdbx_database_id_DOI      10.1016/j.chom.2021.11.013
-_citation.pdbx_database_id_PubMed   ?
+_citation.pdbx_database_id_PubMed   34921776
 _citation.pdbx_database_id_patent   ?
 _citation.unpublished_flag          ?
 #
@@ -81,37 +82,37 @@ _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Liu, C.'           1  ?
-primary 'Zhou, D.'          2  ?
-primary 'Nutalai, R.'       3  ?
-primary 'Duyvesteyn, H.M.'  4  ?
-primary 'Tuekprakhon, A.'   5  ?
-primary 'Ginn, H.M.'        6  ?
-primary 'Dejnirattisai, W.' 7  ?
-primary 'Supasa, P.'        8  ?
-primary 'Mentzer, A.J.'     9  ?
-primary 'Wang, B.'          10 ?
-primary 'Case, J.B.'        11 ?
-primary 'Zhao, Y.'          12 ?
-primary 'Skelly, D.T.'      13 ?
-primary 'Chen, R.E.'        14 ?
-primary 'Johnson, S.A.'     15 ?
-primary 'Ritter, T.G.'      16 ?
-primary 'Mason, C.'         17 ?
-primary 'Malik, T.'         18 ?
-primary 'Temperton, N.'     19 ?
-primary 'Paterson, N.G.'    20 ?
-primary 'Williams, M.A.'    21 ?
-primary 'Hall, D.R.'        22 ?
-primary 'Clare, D.K.'       23 ?
-primary 'Howe, A.'          24 ?
-primary 'Goulder, P.J.'     25 ?
-primary 'Fry, E.E.'         26 ?
-primary 'Diamond, M.S.'     27 ?
-primary 'Mongkolsapaya, J.' 28 ?
-primary 'Ren, J.'           29 ?
-primary 'Stuart, D.I.'      30 ?
-primary 'Screaton, G.R.'    31 ?
+primary 'Liu, C.'            1  ?
+primary 'Zhou, D.'           2  ?
+primary 'Nutalai, R.'        3  ?
+primary 'Duyvesteyn, H.M.E.' 4  ?
+primary 'Tuekprakhon, A.'    5  ?
+primary 'Ginn, H.M.'         6  ?
+primary 'Dejnirattisai, W.'  7  ?
+primary 'Supasa, P.'         8  ?
+primary 'Mentzer, A.J.'      9  ?
+primary 'Wang, B.'           10 ?
+primary 'Case, J.B.'         11 ?
+primary 'Zhao, Y.'           12 ?
+primary 'Skelly, D.T.'       13 ?
+primary 'Chen, R.E.'         14 ?
+primary 'Johnson, S.A.'      15 ?
+primary 'Ritter, T.G.'       16 ?
+primary 'Mason, C.'          17 ?
+primary 'Malik, T.'          18 ?
+primary 'Temperton, N.'      19 ?
+primary 'Paterson, N.G.'     20 ?
+primary 'Williams, M.A.'     21 ?
+primary 'Hall, D.R.'         22 ?
+primary 'Clare, D.K.'        23 ?
+primary 'Howe, A.'           24 ?
+primary 'Goulder, P.J.R.'    25 ?
+primary 'Fry, E.E.'          26 ?
+primary 'Diamond, M.S.'      27 ?
+primary 'Mongkolsapaya, J.'  28 ?
+primary 'Ren, J.'            29 ?
+primary 'Stuart, D.I.'       30 ?
+primary 'Screaton, G.R.'     31 ?
 #
 _cell.angle_alpha                  90.00
 _cell.angle_alpha_esd              ?
@@ -163,7 +164,7 @@ _entity.pdbx_ec
 _entity.pdbx_mutation
 _entity.pdbx_fragment
 _entity.details
-1 polymer     man 'Surface glycoprotein' 141993.984 3  ? ? ? ?
+1 polymer     man 'Spike glycoprotein' 141993.984 3  ? ? ? ?
 2 polymer     man 'Beta-53 fab heavy chain' 24215.135  3  ? ? ? ?
 3 polymer     man 'Beta-53 fab light chain' 23493.967  3  ? ? ? ?
 4 branched    man
@@ -171,6 +172,9 @@ _entity.details
 ? ? ? ?
 5 branched    man '2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-2-acetamido-2-
 6 non-polymer syn 2-acetamido-2-deoxy-beta-D-glucopyranose 221.208    15 ? ? ? ?
+#
+_entity_name_com.entity_id   1
+_entity_name_com.name        'S glycoprotein,E2,Peplomer protein'
 #
 loop_
 _entity_poly.entity_id
@@ -2021,12 +2025,12 @@ _entity_src_gen.expression_system_id
 _entity_src_gen.plasmid_name
 _entity_src_gen.plasmid_details
 _entity_src_gen.pdbx_description
-1 1 sample 'Biological sequence' 1 1285 '2019-nCoV, SARS-CoV-2' ? ? ? ? ? ? ? ?
-2697049 ? ? ? ? ? ? ? ? 'Homo sapiens'       9606  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
-2 1 sample 'Biological sequence' 1 226  ?                       ? ? ? ? ? ? ? ?
-9606    ? ? ? ? ? ? ? ? 'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
-3 1 sample 'Biological sequence' 1 215  ?                       ? ? ? ? ? ? ? ?
-9606    ? ? ? ? ? ? ? ? 'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+1 1 sample 'Biological sequence' 1 1285 ? ? 'S, 2' ? ? ? ? ? ? 'Severe acute res
+? ? ? 'Homo sapiens'       9606  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+2 1 sample 'Biological sequence' 1 226  ? ? ?      ? ? ? ? ? ? 'Homo sapiens'
+? ? ? 'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+3 1 sample 'Biological sequence' 1 215  ? ? ?      ? ? ? ? ? ? 'Homo sapiens'
+? ? ? 'Cricetulus griseus' 10029 ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
 #
 loop_
 _struct_ref.id
@@ -2037,27 +2041,27 @@ _struct_ref.pdbx_db_isoform
 _struct_ref.entity_id
 _struct_ref.pdbx_seq_one_letter_code
 _struct_ref.pdbx_align_begin
-1 UNP A0A7U2GTV4_SARS2 A0A7U2GTV4 ? 1
+1 UNP SPIKE_SARS2 P0DTC2 ? 1
 ;MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRF
 NPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVY
 SSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQT
-LLHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQP
-TESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVI
-RGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNG
-VEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPF
-QQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGSNV
-FQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTISV
-TTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNF
-SQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTI
-TSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTL
-VKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDF
-CGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFV
-SGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQE
-LGKYEQ
+LLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRV
+QPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSF
+VIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPC
+NGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFL
+PFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGS
+NVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTI
+SVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGF
+NFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAG
+TITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALN
+TLVKQLSSNFGAISSVLNDILSRLDKVEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRV
+DFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNT
+FVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDL
+QELGKYEQ
 ;
 1
-2 PDB 7Q9M             7Q9M       ? 2 ? 1
-3 PDB 7Q9M             7Q9M       ? 3 ? 1
+2 PDB 7Q9M        7Q9M   ? 2 ? 1
+3 PDB 7Q9M        7Q9M   ? 3 ? 1
 #
 loop_
 _struct_ref_seq.align_id
@@ -2075,15 +2079,15 @@ _struct_ref_seq.db_align_end
 _struct_ref_seq.pdbx_db_align_end_ins_code
 _struct_ref_seq.pdbx_auth_seq_align_beg
 _struct_ref_seq.pdbx_auth_seq_align_end
-1 1 7Q9M A 1 ? 1205 ? A0A7U2GTV4 1 ? 1206 ? 1 1205
-2 1 7Q9M B 1 ? 1205 ? A0A7U2GTV4 1 ? 1206 ? 1 1205
-3 1 7Q9M C 1 ? 1205 ? A0A7U2GTV4 1 ? 1206 ? 1 1205
-4 2 7Q9M H 1 ? 226  ? 7Q9M       1 ? 226  ? 1 226
-5 3 7Q9M L 1 ? 215  ? 7Q9M       1 ? 215  ? 1 215
-6 2 7Q9M J 1 ? 226  ? 7Q9M       1 ? 226  ? 1 226
-7 3 7Q9M K 1 ? 215  ? 7Q9M       1 ? 215  ? 1 215
-8 2 7Q9M E 1 ? 226  ? 7Q9M       1 ? 226  ? 1 226
-9 3 7Q9M F 1 ? 215  ? 7Q9M       1 ? 215  ? 1 215
+1 1 7Q9M A 1 ? 1205 ? P0DTC2 1 ? 1208 ? 1 1205
+2 1 7Q9M B 1 ? 1205 ? P0DTC2 1 ? 1208 ? 1 1205
+3 1 7Q9M C 1 ? 1205 ? P0DTC2 1 ? 1208 ? 1 1205
+4 2 7Q9M H 1 ? 226  ? 7Q9M   1 ? 226  ? 1 226
+5 3 7Q9M L 1 ? 215  ? 7Q9M   1 ? 215  ? 1 215
+6 2 7Q9M J 1 ? 226  ? 7Q9M   1 ? 226  ? 1 226
+7 3 7Q9M K 1 ? 215  ? 7Q9M   1 ? 215  ? 1 215
+8 2 7Q9M E 1 ? 226  ? 7Q9M   1 ? 226  ? 1 226
+9 3 7Q9M F 1 ? 215  ? 7Q9M   1 ? 215  ? 1 215
 #
 loop_
 _struct_ref_seq_dif.align_id
@@ -2099,288 +2103,297 @@ _struct_ref_seq_dif.pdbx_seq_db_seq_num
 _struct_ref_seq_dif.details
 _struct_ref_seq_dif.pdbx_auth_seq_num
 _struct_ref_seq_dif.pdbx_ordinal
-1 7Q9M PHE A 18   ? UNP A0A7U2GTV4 LEU 18  conflict         18   1
-1 7Q9M ALA A 80   ? UNP A0A7U2GTV4 ASP 80  conflict         80   2
-1 7Q9M GLY A 215  ? UNP A0A7U2GTV4 ASP 215 conflict         215  3
-1 7Q9M ?   A ?    ? UNP A0A7U2GTV4 LEU 242 deletion         ?    4
-1 7Q9M ILE A 243  ? UNP A0A7U2GTV4 ARG 244 conflict         243  5
-1 7Q9M ASN A 414  ? UNP A0A7U2GTV4 LYS 415 conflict         414  6
-1 7Q9M LYS A 481  ? UNP A0A7U2GTV4 GLU 482 conflict         481  7
-1 7Q9M TYR A 498  ? UNP A0A7U2GTV4 ASN 499 conflict         498  8
-1 7Q9M GLY A 679  ? UNP A0A7U2GTV4 ARG 680 conflict         679  9
-1 7Q9M SER A 680  ? UNP A0A7U2GTV4 ARG 681 conflict         680  10
-1 7Q9M SER A 682  ? UNP A0A7U2GTV4 ARG 683 conflict         682  11
-1 7Q9M VAL A 698  ? UNP A0A7U2GTV4 ALA 699 conflict         698  12
-1 7Q9M PRO A 983  ? UNP A0A7U2GTV4 LYS 984 conflict         983  13
-1 7Q9M PRO A 984  ? UNP A0A7U2GTV4 VAL 985 conflict         984  14
-1 7Q9M GLY A 1206 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1206 15
-1 7Q9M SER A 1207 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1207 16
-1 7Q9M GLY A 1208 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1208 17
-1 7Q9M TYR A 1209 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1209 18
-1 7Q9M ILE A 1210 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1210 19
-1 7Q9M PRO A 1211 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1211 20
-1 7Q9M GLU A 1212 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1212 21
-1 7Q9M ALA A 1213 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1213 22
-1 7Q9M PRO A 1214 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1214 23
-1 7Q9M ARG A 1215 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1215 24
-1 7Q9M ASP A 1216 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1216 25
-1 7Q9M GLY A 1217 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1217 26
-1 7Q9M GLN A 1218 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1218 27
-1 7Q9M ALA A 1219 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1219 28
-1 7Q9M TYR A 1220 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1220 29
-1 7Q9M VAL A 1221 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1221 30
-1 7Q9M ARG A 1222 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1222 31
-1 7Q9M LYS A 1223 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1223 32
-1 7Q9M ASP A 1224 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1224 33
-1 7Q9M GLY A 1225 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1225 34
-1 7Q9M GLU A 1226 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1226 35
-1 7Q9M TRP A 1227 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1227 36
-1 7Q9M VAL A 1228 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1228 37
-1 7Q9M LEU A 1229 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1229 38
-1 7Q9M LEU A 1230 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1230 39
-1 7Q9M SER A 1231 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1231 40
-1 7Q9M THR A 1232 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1232 41
-1 7Q9M PHE A 1233 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1233 42
-1 7Q9M LEU A 1234 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1234 43
-1 7Q9M GLY A 1235 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1235 44
-1 7Q9M ARG A 1236 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1236 45
-1 7Q9M SER A 1237 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1237 46
-1 7Q9M LEU A 1238 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1238 47
-1 7Q9M GLU A 1239 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1239 48
-1 7Q9M VAL A 1240 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1240 49
-1 7Q9M LEU A 1241 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1241 50
-1 7Q9M PHE A 1242 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1242 51
-1 7Q9M GLN A 1243 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1243 52
-1 7Q9M GLY A 1244 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1244 53
-1 7Q9M PRO A 1245 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1245 54
-1 7Q9M GLY A 1246 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1246 55
-1 7Q9M HIS A 1247 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1247 56
-1 7Q9M HIS A 1248 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1248 57
-1 7Q9M HIS A 1249 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1249 58
-1 7Q9M HIS A 1250 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1250 59
-1 7Q9M HIS A 1251 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1251 60
-1 7Q9M HIS A 1252 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1252 61
-1 7Q9M HIS A 1253 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1253 62
-1 7Q9M HIS A 1254 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1254 63
-1 7Q9M GLY A 1255 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1255 64
-1 7Q9M SER A 1256 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1256 65
-1 7Q9M ALA A 1257 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1257 66
-1 7Q9M TRP A 1258 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1258 67
-1 7Q9M SER A 1259 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1259 68
-1 7Q9M HIS A 1260 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1260 69
-1 7Q9M PRO A 1261 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1261 70
-1 7Q9M GLN A 1262 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1262 71
-1 7Q9M PHE A 1263 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1263 72
-1 7Q9M GLU A 1264 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1264 73
-1 7Q9M LYS A 1265 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1265 74
-1 7Q9M GLY A 1266 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1266 75
-1 7Q9M GLY A 1267 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1267 76
-1 7Q9M GLY A 1268 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1268 77
-1 7Q9M SER A 1269 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1269 78
-1 7Q9M GLY A 1270 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1270 79
-1 7Q9M GLY A 1271 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1271 80
-1 7Q9M GLY A 1272 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1272 81
-1 7Q9M SER A 1273 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1273 82
-1 7Q9M GLY A 1274 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1274 83
-1 7Q9M GLY A 1275 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1275 84
-1 7Q9M SER A 1276 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1276 85
-1 7Q9M ALA A 1277 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1277 86
-1 7Q9M TRP A 1278 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1278 87
-1 7Q9M SER A 1279 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1279 88
-1 7Q9M HIS A 1280 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1280 89
-1 7Q9M PRO A 1281 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1281 90
-1 7Q9M GLN A 1282 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1282 91
-1 7Q9M PHE A 1283 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1283 92
-1 7Q9M GLU A 1284 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1284 93
-1 7Q9M LYS A 1285 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1285 94
-2 7Q9M PHE B 18   ? UNP A0A7U2GTV4 LEU 18  conflict         18   95
-2 7Q9M ALA B 80   ? UNP A0A7U2GTV4 ASP 80  conflict         80   96
-2 7Q9M GLY B 215  ? UNP A0A7U2GTV4 ASP 215 conflict         215  97
-2 7Q9M ?   B ?    ? UNP A0A7U2GTV4 LEU 242 deletion         ?    98
-2 7Q9M ILE B 243  ? UNP A0A7U2GTV4 ARG 244 conflict         243  99
-2 7Q9M ASN B 414  ? UNP A0A7U2GTV4 LYS 415 conflict         414  100
-2 7Q9M LYS B 481  ? UNP A0A7U2GTV4 GLU 482 conflict         481  101
-2 7Q9M TYR B 498  ? UNP A0A7U2GTV4 ASN 499 conflict         498  102
-2 7Q9M GLY B 679  ? UNP A0A7U2GTV4 ARG 680 conflict         679  103
-2 7Q9M SER B 680  ? UNP A0A7U2GTV4 ARG 681 conflict         680  104
-2 7Q9M SER B 682  ? UNP A0A7U2GTV4 ARG 683 conflict         682  105
-2 7Q9M VAL B 698  ? UNP A0A7U2GTV4 ALA 699 conflict         698  106
-2 7Q9M PRO B 983  ? UNP A0A7U2GTV4 LYS 984 conflict         983  107
-2 7Q9M PRO B 984  ? UNP A0A7U2GTV4 VAL 985 conflict         984  108
-2 7Q9M GLY B 1206 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1206 109
-2 7Q9M SER B 1207 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1207 110
-2 7Q9M GLY B 1208 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1208 111
-2 7Q9M TYR B 1209 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1209 112
-2 7Q9M ILE B 1210 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1210 113
-2 7Q9M PRO B 1211 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1211 114
-2 7Q9M GLU B 1212 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1212 115
-2 7Q9M ALA B 1213 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1213 116
-2 7Q9M PRO B 1214 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1214 117
-2 7Q9M ARG B 1215 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1215 118
-2 7Q9M ASP B 1216 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1216 119
-2 7Q9M GLY B 1217 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1217 120
-2 7Q9M GLN B 1218 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1218 121
-2 7Q9M ALA B 1219 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1219 122
-2 7Q9M TYR B 1220 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1220 123
-2 7Q9M VAL B 1221 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1221 124
-2 7Q9M ARG B 1222 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1222 125
-2 7Q9M LYS B 1223 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1223 126
-2 7Q9M ASP B 1224 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1224 127
-2 7Q9M GLY B 1225 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1225 128
-2 7Q9M GLU B 1226 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1226 129
-2 7Q9M TRP B 1227 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1227 130
-2 7Q9M VAL B 1228 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1228 131
-2 7Q9M LEU B 1229 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1229 132
-2 7Q9M LEU B 1230 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1230 133
-2 7Q9M SER B 1231 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1231 134
-2 7Q9M THR B 1232 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1232 135
-2 7Q9M PHE B 1233 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1233 136
-2 7Q9M LEU B 1234 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1234 137
-2 7Q9M GLY B 1235 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1235 138
-2 7Q9M ARG B 1236 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1236 139
-2 7Q9M SER B 1237 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1237 140
-2 7Q9M LEU B 1238 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1238 141
-2 7Q9M GLU B 1239 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1239 142
-2 7Q9M VAL B 1240 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1240 143
-2 7Q9M LEU B 1241 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1241 144
-2 7Q9M PHE B 1242 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1242 145
-2 7Q9M GLN B 1243 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1243 146
-2 7Q9M GLY B 1244 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1244 147
-2 7Q9M PRO B 1245 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1245 148
-2 7Q9M GLY B 1246 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1246 149
-2 7Q9M HIS B 1247 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1247 150
-2 7Q9M HIS B 1248 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1248 151
-2 7Q9M HIS B 1249 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1249 152
-2 7Q9M HIS B 1250 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1250 153
-2 7Q9M HIS B 1251 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1251 154
-2 7Q9M HIS B 1252 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1252 155
-2 7Q9M HIS B 1253 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1253 156
-2 7Q9M HIS B 1254 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1254 157
-2 7Q9M GLY B 1255 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1255 158
-2 7Q9M SER B 1256 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1256 159
-2 7Q9M ALA B 1257 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1257 160
-2 7Q9M TRP B 1258 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1258 161
-2 7Q9M SER B 1259 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1259 162
-2 7Q9M HIS B 1260 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1260 163
-2 7Q9M PRO B 1261 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1261 164
-2 7Q9M GLN B 1262 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1262 165
-2 7Q9M PHE B 1263 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1263 166
-2 7Q9M GLU B 1264 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1264 167
-2 7Q9M LYS B 1265 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1265 168
-2 7Q9M GLY B 1266 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1266 169
-2 7Q9M GLY B 1267 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1267 170
-2 7Q9M GLY B 1268 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1268 171
-2 7Q9M SER B 1269 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1269 172
-2 7Q9M GLY B 1270 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1270 173
-2 7Q9M GLY B 1271 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1271 174
-2 7Q9M GLY B 1272 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1272 175
-2 7Q9M SER B 1273 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1273 176
-2 7Q9M GLY B 1274 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1274 177
-2 7Q9M GLY B 1275 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1275 178
-2 7Q9M SER B 1276 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1276 179
-2 7Q9M ALA B 1277 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1277 180
-2 7Q9M TRP B 1278 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1278 181
-2 7Q9M SER B 1279 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1279 182
-2 7Q9M HIS B 1280 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1280 183
-2 7Q9M PRO B 1281 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1281 184
-2 7Q9M GLN B 1282 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1282 185
-2 7Q9M PHE B 1283 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1283 186
-2 7Q9M GLU B 1284 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1284 187
-2 7Q9M LYS B 1285 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1285 188
-3 7Q9M PHE C 18   ? UNP A0A7U2GTV4 LEU 18  conflict         18   189
-3 7Q9M ALA C 80   ? UNP A0A7U2GTV4 ASP 80  conflict         80   190
-3 7Q9M GLY C 215  ? UNP A0A7U2GTV4 ASP 215 conflict         215  191
-3 7Q9M ?   C ?    ? UNP A0A7U2GTV4 LEU 242 deletion         ?    192
-3 7Q9M ILE C 243  ? UNP A0A7U2GTV4 ARG 244 conflict         243  193
-3 7Q9M ASN C 414  ? UNP A0A7U2GTV4 LYS 415 conflict         414  194
-3 7Q9M LYS C 481  ? UNP A0A7U2GTV4 GLU 482 conflict         481  195
-3 7Q9M TYR C 498  ? UNP A0A7U2GTV4 ASN 499 conflict         498  196
-3 7Q9M GLY C 679  ? UNP A0A7U2GTV4 ARG 680 conflict         679  197
-3 7Q9M SER C 680  ? UNP A0A7U2GTV4 ARG 681 conflict         680  198
-3 7Q9M SER C 682  ? UNP A0A7U2GTV4 ARG 683 conflict         682  199
-3 7Q9M VAL C 698  ? UNP A0A7U2GTV4 ALA 699 conflict         698  200
-3 7Q9M PRO C 983  ? UNP A0A7U2GTV4 LYS 984 conflict         983  201
-3 7Q9M PRO C 984  ? UNP A0A7U2GTV4 VAL 985 conflict         984  202
-3 7Q9M GLY C 1206 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1206 203
-3 7Q9M SER C 1207 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1207 204
-3 7Q9M GLY C 1208 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1208 205
-3 7Q9M TYR C 1209 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1209 206
-3 7Q9M ILE C 1210 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1210 207
-3 7Q9M PRO C 1211 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1211 208
-3 7Q9M GLU C 1212 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1212 209
-3 7Q9M ALA C 1213 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1213 210
-3 7Q9M PRO C 1214 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1214 211
-3 7Q9M ARG C 1215 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1215 212
-3 7Q9M ASP C 1216 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1216 213
-3 7Q9M GLY C 1217 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1217 214
-3 7Q9M GLN C 1218 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1218 215
-3 7Q9M ALA C 1219 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1219 216
-3 7Q9M TYR C 1220 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1220 217
-3 7Q9M VAL C 1221 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1221 218
-3 7Q9M ARG C 1222 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1222 219
-3 7Q9M LYS C 1223 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1223 220
-3 7Q9M ASP C 1224 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1224 221
-3 7Q9M GLY C 1225 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1225 222
-3 7Q9M GLU C 1226 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1226 223
-3 7Q9M TRP C 1227 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1227 224
-3 7Q9M VAL C 1228 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1228 225
-3 7Q9M LEU C 1229 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1229 226
-3 7Q9M LEU C 1230 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1230 227
-3 7Q9M SER C 1231 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1231 228
-3 7Q9M THR C 1232 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1232 229
-3 7Q9M PHE C 1233 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1233 230
-3 7Q9M LEU C 1234 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1234 231
-3 7Q9M GLY C 1235 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1235 232
-3 7Q9M ARG C 1236 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1236 233
-3 7Q9M SER C 1237 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1237 234
-3 7Q9M LEU C 1238 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1238 235
-3 7Q9M GLU C 1239 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1239 236
-3 7Q9M VAL C 1240 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1240 237
-3 7Q9M LEU C 1241 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1241 238
-3 7Q9M PHE C 1242 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1242 239
-3 7Q9M GLN C 1243 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1243 240
-3 7Q9M GLY C 1244 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1244 241
-3 7Q9M PRO C 1245 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1245 242
-3 7Q9M GLY C 1246 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1246 243
-3 7Q9M HIS C 1247 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1247 244
-3 7Q9M HIS C 1248 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1248 245
-3 7Q9M HIS C 1249 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1249 246
-3 7Q9M HIS C 1250 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1250 247
-3 7Q9M HIS C 1251 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1251 248
-3 7Q9M HIS C 1252 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1252 249
-3 7Q9M HIS C 1253 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1253 250
-3 7Q9M HIS C 1254 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1254 251
-3 7Q9M GLY C 1255 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1255 252
-3 7Q9M SER C 1256 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1256 253
-3 7Q9M ALA C 1257 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1257 254
-3 7Q9M TRP C 1258 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1258 255
-3 7Q9M SER C 1259 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1259 256
-3 7Q9M HIS C 1260 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1260 257
-3 7Q9M PRO C 1261 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1261 258
-3 7Q9M GLN C 1262 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1262 259
-3 7Q9M PHE C 1263 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1263 260
-3 7Q9M GLU C 1264 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1264 261
-3 7Q9M LYS C 1265 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1265 262
-3 7Q9M GLY C 1266 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1266 263
-3 7Q9M GLY C 1267 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1267 264
-3 7Q9M GLY C 1268 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1268 265
-3 7Q9M SER C 1269 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1269 266
-3 7Q9M GLY C 1270 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1270 267
-3 7Q9M GLY C 1271 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1271 268
-3 7Q9M GLY C 1272 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1272 269
-3 7Q9M SER C 1273 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1273 270
-3 7Q9M GLY C 1274 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1274 271
-3 7Q9M GLY C 1275 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1275 272
-3 7Q9M SER C 1276 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1276 273
-3 7Q9M ALA C 1277 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1277 274
-3 7Q9M TRP C 1278 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1278 275
-3 7Q9M SER C 1279 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1279 276
-3 7Q9M HIS C 1280 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1280 277
-3 7Q9M PRO C 1281 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1281 278
-3 7Q9M GLN C 1282 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1282 279
-3 7Q9M PHE C 1283 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1283 280
-3 7Q9M GLU C 1284 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1284 281
-3 7Q9M LYS C 1285 ? UNP A0A7U2GTV4 ?   ?   'expression tag' 1285 282
+1 7Q9M PHE A 18   ? UNP P0DTC2 LEU 18  variant          18   1
+1 7Q9M ALA A 80   ? UNP P0DTC2 ASP 80  variant          80   2
+1 7Q9M GLY A 215  ? UNP P0DTC2 ASP 215 variant          215  3
+1 7Q9M ?   A ?    ? UNP P0DTC2 LEU 242 deletion         ?    4
+1 7Q9M ?   A ?    ? UNP P0DTC2 ALA 243 deletion         ?    5
+1 7Q9M ?   A ?    ? UNP P0DTC2 LEU 244 deletion         ?    6
+1 7Q9M ILE A 243  ? UNP P0DTC2 ARG 246 variant          243  7
+1 7Q9M ASN A 414  ? UNP P0DTC2 LYS 417 variant          414  8
+1 7Q9M LYS A 481  ? UNP P0DTC2 GLU 484 variant          481  9
+1 7Q9M TYR A 498  ? UNP P0DTC2 ASN 501 variant          498  10
+1 7Q9M GLY A 611  ? UNP P0DTC2 ASP 614 variant          611  11
+1 7Q9M GLY A 679  ? UNP P0DTC2 ARG 682 conflict         679  12
+1 7Q9M SER A 680  ? UNP P0DTC2 ARG 683 conflict         680  13
+1 7Q9M SER A 682  ? UNP P0DTC2 ARG 685 conflict         682  14
+1 7Q9M VAL A 698  ? UNP P0DTC2 ALA 701 variant          698  15
+1 7Q9M PRO A 983  ? UNP P0DTC2 LYS 986 conflict         983  16
+1 7Q9M PRO A 984  ? UNP P0DTC2 VAL 987 conflict         984  17
+1 7Q9M GLY A 1206 ? UNP P0DTC2 ?   ?   'expression tag' 1206 18
+1 7Q9M SER A 1207 ? UNP P0DTC2 ?   ?   'expression tag' 1207 19
+1 7Q9M GLY A 1208 ? UNP P0DTC2 ?   ?   'expression tag' 1208 20
+1 7Q9M TYR A 1209 ? UNP P0DTC2 ?   ?   'expression tag' 1209 21
+1 7Q9M ILE A 1210 ? UNP P0DTC2 ?   ?   'expression tag' 1210 22
+1 7Q9M PRO A 1211 ? UNP P0DTC2 ?   ?   'expression tag' 1211 23
+1 7Q9M GLU A 1212 ? UNP P0DTC2 ?   ?   'expression tag' 1212 24
+1 7Q9M ALA A 1213 ? UNP P0DTC2 ?   ?   'expression tag' 1213 25
+1 7Q9M PRO A 1214 ? UNP P0DTC2 ?   ?   'expression tag' 1214 26
+1 7Q9M ARG A 1215 ? UNP P0DTC2 ?   ?   'expression tag' 1215 27
+1 7Q9M ASP A 1216 ? UNP P0DTC2 ?   ?   'expression tag' 1216 28
+1 7Q9M GLY A 1217 ? UNP P0DTC2 ?   ?   'expression tag' 1217 29
+1 7Q9M GLN A 1218 ? UNP P0DTC2 ?   ?   'expression tag' 1218 30
+1 7Q9M ALA A 1219 ? UNP P0DTC2 ?   ?   'expression tag' 1219 31
+1 7Q9M TYR A 1220 ? UNP P0DTC2 ?   ?   'expression tag' 1220 32
+1 7Q9M VAL A 1221 ? UNP P0DTC2 ?   ?   'expression tag' 1221 33
+1 7Q9M ARG A 1222 ? UNP P0DTC2 ?   ?   'expression tag' 1222 34
+1 7Q9M LYS A 1223 ? UNP P0DTC2 ?   ?   'expression tag' 1223 35
+1 7Q9M ASP A 1224 ? UNP P0DTC2 ?   ?   'expression tag' 1224 36
+1 7Q9M GLY A 1225 ? UNP P0DTC2 ?   ?   'expression tag' 1225 37
+1 7Q9M GLU A 1226 ? UNP P0DTC2 ?   ?   'expression tag' 1226 38
+1 7Q9M TRP A 1227 ? UNP P0DTC2 ?   ?   'expression tag' 1227 39
+1 7Q9M VAL A 1228 ? UNP P0DTC2 ?   ?   'expression tag' 1228 40
+1 7Q9M LEU A 1229 ? UNP P0DTC2 ?   ?   'expression tag' 1229 41
+1 7Q9M LEU A 1230 ? UNP P0DTC2 ?   ?   'expression tag' 1230 42
+1 7Q9M SER A 1231 ? UNP P0DTC2 ?   ?   'expression tag' 1231 43
+1 7Q9M THR A 1232 ? UNP P0DTC2 ?   ?   'expression tag' 1232 44
+1 7Q9M PHE A 1233 ? UNP P0DTC2 ?   ?   'expression tag' 1233 45
+1 7Q9M LEU A 1234 ? UNP P0DTC2 ?   ?   'expression tag' 1234 46
+1 7Q9M GLY A 1235 ? UNP P0DTC2 ?   ?   'expression tag' 1235 47
+1 7Q9M ARG A 1236 ? UNP P0DTC2 ?   ?   'expression tag' 1236 48
+1 7Q9M SER A 1237 ? UNP P0DTC2 ?   ?   'expression tag' 1237 49
+1 7Q9M LEU A 1238 ? UNP P0DTC2 ?   ?   'expression tag' 1238 50
+1 7Q9M GLU A 1239 ? UNP P0DTC2 ?   ?   'expression tag' 1239 51
+1 7Q9M VAL A 1240 ? UNP P0DTC2 ?   ?   'expression tag' 1240 52
+1 7Q9M LEU A 1241 ? UNP P0DTC2 ?   ?   'expression tag' 1241 53
+1 7Q9M PHE A 1242 ? UNP P0DTC2 ?   ?   'expression tag' 1242 54
+1 7Q9M GLN A 1243 ? UNP P0DTC2 ?   ?   'expression tag' 1243 55
+1 7Q9M GLY A 1244 ? UNP P0DTC2 ?   ?   'expression tag' 1244 56
+1 7Q9M PRO A 1245 ? UNP P0DTC2 ?   ?   'expression tag' 1245 57
+1 7Q9M GLY A 1246 ? UNP P0DTC2 ?   ?   'expression tag' 1246 58
+1 7Q9M HIS A 1247 ? UNP P0DTC2 ?   ?   'expression tag' 1247 59
+1 7Q9M HIS A 1248 ? UNP P0DTC2 ?   ?   'expression tag' 1248 60
+1 7Q9M HIS A 1249 ? UNP P0DTC2 ?   ?   'expression tag' 1249 61
+1 7Q9M HIS A 1250 ? UNP P0DTC2 ?   ?   'expression tag' 1250 62
+1 7Q9M HIS A 1251 ? UNP P0DTC2 ?   ?   'expression tag' 1251 63
+1 7Q9M HIS A 1252 ? UNP P0DTC2 ?   ?   'expression tag' 1252 64
+1 7Q9M HIS A 1253 ? UNP P0DTC2 ?   ?   'expression tag' 1253 65
+1 7Q9M HIS A 1254 ? UNP P0DTC2 ?   ?   'expression tag' 1254 66
+1 7Q9M GLY A 1255 ? UNP P0DTC2 ?   ?   'expression tag' 1255 67
+1 7Q9M SER A 1256 ? UNP P0DTC2 ?   ?   'expression tag' 1256 68
+1 7Q9M ALA A 1257 ? UNP P0DTC2 ?   ?   'expression tag' 1257 69
+1 7Q9M TRP A 1258 ? UNP P0DTC2 ?   ?   'expression tag' 1258 70
+1 7Q9M SER A 1259 ? UNP P0DTC2 ?   ?   'expression tag' 1259 71
+1 7Q9M HIS A 1260 ? UNP P0DTC2 ?   ?   'expression tag' 1260 72
+1 7Q9M PRO A 1261 ? UNP P0DTC2 ?   ?   'expression tag' 1261 73
+1 7Q9M GLN A 1262 ? UNP P0DTC2 ?   ?   'expression tag' 1262 74
+1 7Q9M PHE A 1263 ? UNP P0DTC2 ?   ?   'expression tag' 1263 75
+1 7Q9M GLU A 1264 ? UNP P0DTC2 ?   ?   'expression tag' 1264 76
+1 7Q9M LYS A 1265 ? UNP P0DTC2 ?   ?   'expression tag' 1265 77
+1 7Q9M GLY A 1266 ? UNP P0DTC2 ?   ?   'expression tag' 1266 78
+1 7Q9M GLY A 1267 ? UNP P0DTC2 ?   ?   'expression tag' 1267 79
+1 7Q9M GLY A 1268 ? UNP P0DTC2 ?   ?   'expression tag' 1268 80
+1 7Q9M SER A 1269 ? UNP P0DTC2 ?   ?   'expression tag' 1269 81
+1 7Q9M GLY A 1270 ? UNP P0DTC2 ?   ?   'expression tag' 1270 82
+1 7Q9M GLY A 1271 ? UNP P0DTC2 ?   ?   'expression tag' 1271 83
+1 7Q9M GLY A 1272 ? UNP P0DTC2 ?   ?   'expression tag' 1272 84
+1 7Q9M SER A 1273 ? UNP P0DTC2 ?   ?   'expression tag' 1273 85
+1 7Q9M GLY A 1274 ? UNP P0DTC2 ?   ?   'expression tag' 1274 86
+1 7Q9M GLY A 1275 ? UNP P0DTC2 ?   ?   'expression tag' 1275 87
+1 7Q9M SER A 1276 ? UNP P0DTC2 ?   ?   'expression tag' 1276 88
+1 7Q9M ALA A 1277 ? UNP P0DTC2 ?   ?   'expression tag' 1277 89
+1 7Q9M TRP A 1278 ? UNP P0DTC2 ?   ?   'expression tag' 1278 90
+1 7Q9M SER A 1279 ? UNP P0DTC2 ?   ?   'expression tag' 1279 91
+1 7Q9M HIS A 1280 ? UNP P0DTC2 ?   ?   'expression tag' 1280 92
+1 7Q9M PRO A 1281 ? UNP P0DTC2 ?   ?   'expression tag' 1281 93
+1 7Q9M GLN A 1282 ? UNP P0DTC2 ?   ?   'expression tag' 1282 94
+1 7Q9M PHE A 1283 ? UNP P0DTC2 ?   ?   'expression tag' 1283 95
+1 7Q9M GLU A 1284 ? UNP P0DTC2 ?   ?   'expression tag' 1284 96
+1 7Q9M LYS A 1285 ? UNP P0DTC2 ?   ?   'expression tag' 1285 97
+2 7Q9M PHE B 18   ? UNP P0DTC2 LEU 18  variant          18   98
+2 7Q9M ALA B 80   ? UNP P0DTC2 ASP 80  variant          80   99
+2 7Q9M GLY B 215  ? UNP P0DTC2 ASP 215 variant          215  100
+2 7Q9M ?   B ?    ? UNP P0DTC2 LEU 242 deletion         ?    101
+2 7Q9M ?   B ?    ? UNP P0DTC2 ALA 243 deletion         ?    102
+2 7Q9M ?   B ?    ? UNP P0DTC2 LEU 244 deletion         ?    103
+2 7Q9M ILE B 243  ? UNP P0DTC2 ARG 246 variant          243  104
+2 7Q9M ASN B 414  ? UNP P0DTC2 LYS 417 variant          414  105
+2 7Q9M LYS B 481  ? UNP P0DTC2 GLU 484 variant          481  106
+2 7Q9M TYR B 498  ? UNP P0DTC2 ASN 501 variant          498  107
+2 7Q9M GLY B 611  ? UNP P0DTC2 ASP 614 variant          611  108
+2 7Q9M GLY B 679  ? UNP P0DTC2 ARG 682 conflict         679  109
+2 7Q9M SER B 680  ? UNP P0DTC2 ARG 683 conflict         680  110
+2 7Q9M SER B 682  ? UNP P0DTC2 ARG 685 conflict         682  111
+2 7Q9M VAL B 698  ? UNP P0DTC2 ALA 701 variant          698  112
+2 7Q9M PRO B 983  ? UNP P0DTC2 LYS 986 conflict         983  113
+2 7Q9M PRO B 984  ? UNP P0DTC2 VAL 987 conflict         984  114
+2 7Q9M GLY B 1206 ? UNP P0DTC2 ?   ?   'expression tag' 1206 115
+2 7Q9M SER B 1207 ? UNP P0DTC2 ?   ?   'expression tag' 1207 116
+2 7Q9M GLY B 1208 ? UNP P0DTC2 ?   ?   'expression tag' 1208 117
+2 7Q9M TYR B 1209 ? UNP P0DTC2 ?   ?   'expression tag' 1209 118
+2 7Q9M ILE B 1210 ? UNP P0DTC2 ?   ?   'expression tag' 1210 119
+2 7Q9M PRO B 1211 ? UNP P0DTC2 ?   ?   'expression tag' 1211 120
+2 7Q9M GLU B 1212 ? UNP P0DTC2 ?   ?   'expression tag' 1212 121
+2 7Q9M ALA B 1213 ? UNP P0DTC2 ?   ?   'expression tag' 1213 122
+2 7Q9M PRO B 1214 ? UNP P0DTC2 ?   ?   'expression tag' 1214 123
+2 7Q9M ARG B 1215 ? UNP P0DTC2 ?   ?   'expression tag' 1215 124
+2 7Q9M ASP B 1216 ? UNP P0DTC2 ?   ?   'expression tag' 1216 125
+2 7Q9M GLY B 1217 ? UNP P0DTC2 ?   ?   'expression tag' 1217 126
+2 7Q9M GLN B 1218 ? UNP P0DTC2 ?   ?   'expression tag' 1218 127
+2 7Q9M ALA B 1219 ? UNP P0DTC2 ?   ?   'expression tag' 1219 128
+2 7Q9M TYR B 1220 ? UNP P0DTC2 ?   ?   'expression tag' 1220 129
+2 7Q9M VAL B 1221 ? UNP P0DTC2 ?   ?   'expression tag' 1221 130
+2 7Q9M ARG B 1222 ? UNP P0DTC2 ?   ?   'expression tag' 1222 131
+2 7Q9M LYS B 1223 ? UNP P0DTC2 ?   ?   'expression tag' 1223 132
+2 7Q9M ASP B 1224 ? UNP P0DTC2 ?   ?   'expression tag' 1224 133
+2 7Q9M GLY B 1225 ? UNP P0DTC2 ?   ?   'expression tag' 1225 134
+2 7Q9M GLU B 1226 ? UNP P0DTC2 ?   ?   'expression tag' 1226 135
+2 7Q9M TRP B 1227 ? UNP P0DTC2 ?   ?   'expression tag' 1227 136
+2 7Q9M VAL B 1228 ? UNP P0DTC2 ?   ?   'expression tag' 1228 137
+2 7Q9M LEU B 1229 ? UNP P0DTC2 ?   ?   'expression tag' 1229 138
+2 7Q9M LEU B 1230 ? UNP P0DTC2 ?   ?   'expression tag' 1230 139
+2 7Q9M SER B 1231 ? UNP P0DTC2 ?   ?   'expression tag' 1231 140
+2 7Q9M THR B 1232 ? UNP P0DTC2 ?   ?   'expression tag' 1232 141
+2 7Q9M PHE B 1233 ? UNP P0DTC2 ?   ?   'expression tag' 1233 142
+2 7Q9M LEU B 1234 ? UNP P0DTC2 ?   ?   'expression tag' 1234 143
+2 7Q9M GLY B 1235 ? UNP P0DTC2 ?   ?   'expression tag' 1235 144
+2 7Q9M ARG B 1236 ? UNP P0DTC2 ?   ?   'expression tag' 1236 145
+2 7Q9M SER B 1237 ? UNP P0DTC2 ?   ?   'expression tag' 1237 146
+2 7Q9M LEU B 1238 ? UNP P0DTC2 ?   ?   'expression tag' 1238 147
+2 7Q9M GLU B 1239 ? UNP P0DTC2 ?   ?   'expression tag' 1239 148
+2 7Q9M VAL B 1240 ? UNP P0DTC2 ?   ?   'expression tag' 1240 149
+2 7Q9M LEU B 1241 ? UNP P0DTC2 ?   ?   'expression tag' 1241 150
+2 7Q9M PHE B 1242 ? UNP P0DTC2 ?   ?   'expression tag' 1242 151
+2 7Q9M GLN B 1243 ? UNP P0DTC2 ?   ?   'expression tag' 1243 152
+2 7Q9M GLY B 1244 ? UNP P0DTC2 ?   ?   'expression tag' 1244 153
+2 7Q9M PRO B 1245 ? UNP P0DTC2 ?   ?   'expression tag' 1245 154
+2 7Q9M GLY B 1246 ? UNP P0DTC2 ?   ?   'expression tag' 1246 155
+2 7Q9M HIS B 1247 ? UNP P0DTC2 ?   ?   'expression tag' 1247 156
+2 7Q9M HIS B 1248 ? UNP P0DTC2 ?   ?   'expression tag' 1248 157
+2 7Q9M HIS B 1249 ? UNP P0DTC2 ?   ?   'expression tag' 1249 158
+2 7Q9M HIS B 1250 ? UNP P0DTC2 ?   ?   'expression tag' 1250 159
+2 7Q9M HIS B 1251 ? UNP P0DTC2 ?   ?   'expression tag' 1251 160
+2 7Q9M HIS B 1252 ? UNP P0DTC2 ?   ?   'expression tag' 1252 161
+2 7Q9M HIS B 1253 ? UNP P0DTC2 ?   ?   'expression tag' 1253 162
+2 7Q9M HIS B 1254 ? UNP P0DTC2 ?   ?   'expression tag' 1254 163
+2 7Q9M GLY B 1255 ? UNP P0DTC2 ?   ?   'expression tag' 1255 164
+2 7Q9M SER B 1256 ? UNP P0DTC2 ?   ?   'expression tag' 1256 165
+2 7Q9M ALA B 1257 ? UNP P0DTC2 ?   ?   'expression tag' 1257 166
+2 7Q9M TRP B 1258 ? UNP P0DTC2 ?   ?   'expression tag' 1258 167
+2 7Q9M SER B 1259 ? UNP P0DTC2 ?   ?   'expression tag' 1259 168
+2 7Q9M HIS B 1260 ? UNP P0DTC2 ?   ?   'expression tag' 1260 169
+2 7Q9M PRO B 1261 ? UNP P0DTC2 ?   ?   'expression tag' 1261 170
+2 7Q9M GLN B 1262 ? UNP P0DTC2 ?   ?   'expression tag' 1262 171
+2 7Q9M PHE B 1263 ? UNP P0DTC2 ?   ?   'expression tag' 1263 172
+2 7Q9M GLU B 1264 ? UNP P0DTC2 ?   ?   'expression tag' 1264 173
+2 7Q9M LYS B 1265 ? UNP P0DTC2 ?   ?   'expression tag' 1265 174
+2 7Q9M GLY B 1266 ? UNP P0DTC2 ?   ?   'expression tag' 1266 175
+2 7Q9M GLY B 1267 ? UNP P0DTC2 ?   ?   'expression tag' 1267 176
+2 7Q9M GLY B 1268 ? UNP P0DTC2 ?   ?   'expression tag' 1268 177
+2 7Q9M SER B 1269 ? UNP P0DTC2 ?   ?   'expression tag' 1269 178
+2 7Q9M GLY B 1270 ? UNP P0DTC2 ?   ?   'expression tag' 1270 179
+2 7Q9M GLY B 1271 ? UNP P0DTC2 ?   ?   'expression tag' 1271 180
+2 7Q9M GLY B 1272 ? UNP P0DTC2 ?   ?   'expression tag' 1272 181
+2 7Q9M SER B 1273 ? UNP P0DTC2 ?   ?   'expression tag' 1273 182
+2 7Q9M GLY B 1274 ? UNP P0DTC2 ?   ?   'expression tag' 1274 183
+2 7Q9M GLY B 1275 ? UNP P0DTC2 ?   ?   'expression tag' 1275 184
+2 7Q9M SER B 1276 ? UNP P0DTC2 ?   ?   'expression tag' 1276 185
+2 7Q9M ALA B 1277 ? UNP P0DTC2 ?   ?   'expression tag' 1277 186
+2 7Q9M TRP B 1278 ? UNP P0DTC2 ?   ?   'expression tag' 1278 187
+2 7Q9M SER B 1279 ? UNP P0DTC2 ?   ?   'expression tag' 1279 188
+2 7Q9M HIS B 1280 ? UNP P0DTC2 ?   ?   'expression tag' 1280 189
+2 7Q9M PRO B 1281 ? UNP P0DTC2 ?   ?   'expression tag' 1281 190
+2 7Q9M GLN B 1282 ? UNP P0DTC2 ?   ?   'expression tag' 1282 191
+2 7Q9M PHE B 1283 ? UNP P0DTC2 ?   ?   'expression tag' 1283 192
+2 7Q9M GLU B 1284 ? UNP P0DTC2 ?   ?   'expression tag' 1284 193
+2 7Q9M LYS B 1285 ? UNP P0DTC2 ?   ?   'expression tag' 1285 194
+3 7Q9M PHE C 18   ? UNP P0DTC2 LEU 18  variant          18   195
+3 7Q9M ALA C 80   ? UNP P0DTC2 ASP 80  variant          80   196
+3 7Q9M GLY C 215  ? UNP P0DTC2 ASP 215 variant          215  197
+3 7Q9M ?   C ?    ? UNP P0DTC2 LEU 242 deletion         ?    198
+3 7Q9M ?   C ?    ? UNP P0DTC2 ALA 243 deletion         ?    199
+3 7Q9M ?   C ?    ? UNP P0DTC2 LEU 244 deletion         ?    200
+3 7Q9M ILE C 243  ? UNP P0DTC2 ARG 246 variant          243  201
+3 7Q9M ASN C 414  ? UNP P0DTC2 LYS 417 variant          414  202
+3 7Q9M LYS C 481  ? UNP P0DTC2 GLU 484 variant          481  203
+3 7Q9M TYR C 498  ? UNP P0DTC2 ASN 501 variant          498  204
+3 7Q9M GLY C 611  ? UNP P0DTC2 ASP 614 variant          611  205
+3 7Q9M GLY C 679  ? UNP P0DTC2 ARG 682 conflict         679  206
+3 7Q9M SER C 680  ? UNP P0DTC2 ARG 683 conflict         680  207
+3 7Q9M SER C 682  ? UNP P0DTC2 ARG 685 conflict         682  208
+3 7Q9M VAL C 698  ? UNP P0DTC2 ALA 701 variant          698  209
+3 7Q9M PRO C 983  ? UNP P0DTC2 LYS 986 conflict         983  210
+3 7Q9M PRO C 984  ? UNP P0DTC2 VAL 987 conflict         984  211
+3 7Q9M GLY C 1206 ? UNP P0DTC2 ?   ?   'expression tag' 1206 212
+3 7Q9M SER C 1207 ? UNP P0DTC2 ?   ?   'expression tag' 1207 213
+3 7Q9M GLY C 1208 ? UNP P0DTC2 ?   ?   'expression tag' 1208 214
+3 7Q9M TYR C 1209 ? UNP P0DTC2 ?   ?   'expression tag' 1209 215
+3 7Q9M ILE C 1210 ? UNP P0DTC2 ?   ?   'expression tag' 1210 216
+3 7Q9M PRO C 1211 ? UNP P0DTC2 ?   ?   'expression tag' 1211 217
+3 7Q9M GLU C 1212 ? UNP P0DTC2 ?   ?   'expression tag' 1212 218
+3 7Q9M ALA C 1213 ? UNP P0DTC2 ?   ?   'expression tag' 1213 219
+3 7Q9M PRO C 1214 ? UNP P0DTC2 ?   ?   'expression tag' 1214 220
+3 7Q9M ARG C 1215 ? UNP P0DTC2 ?   ?   'expression tag' 1215 221
+3 7Q9M ASP C 1216 ? UNP P0DTC2 ?   ?   'expression tag' 1216 222
+3 7Q9M GLY C 1217 ? UNP P0DTC2 ?   ?   'expression tag' 1217 223
+3 7Q9M GLN C 1218 ? UNP P0DTC2 ?   ?   'expression tag' 1218 224
+3 7Q9M ALA C 1219 ? UNP P0DTC2 ?   ?   'expression tag' 1219 225
+3 7Q9M TYR C 1220 ? UNP P0DTC2 ?   ?   'expression tag' 1220 226
+3 7Q9M VAL C 1221 ? UNP P0DTC2 ?   ?   'expression tag' 1221 227
+3 7Q9M ARG C 1222 ? UNP P0DTC2 ?   ?   'expression tag' 1222 228
+3 7Q9M LYS C 1223 ? UNP P0DTC2 ?   ?   'expression tag' 1223 229
+3 7Q9M ASP C 1224 ? UNP P0DTC2 ?   ?   'expression tag' 1224 230
+3 7Q9M GLY C 1225 ? UNP P0DTC2 ?   ?   'expression tag' 1225 231
+3 7Q9M GLU C 1226 ? UNP P0DTC2 ?   ?   'expression tag' 1226 232
+3 7Q9M TRP C 1227 ? UNP P0DTC2 ?   ?   'expression tag' 1227 233
+3 7Q9M VAL C 1228 ? UNP P0DTC2 ?   ?   'expression tag' 1228 234
+3 7Q9M LEU C 1229 ? UNP P0DTC2 ?   ?   'expression tag' 1229 235
+3 7Q9M LEU C 1230 ? UNP P0DTC2 ?   ?   'expression tag' 1230 236
+3 7Q9M SER C 1231 ? UNP P0DTC2 ?   ?   'expression tag' 1231 237
+3 7Q9M THR C 1232 ? UNP P0DTC2 ?   ?   'expression tag' 1232 238
+3 7Q9M PHE C 1233 ? UNP P0DTC2 ?   ?   'expression tag' 1233 239
+3 7Q9M LEU C 1234 ? UNP P0DTC2 ?   ?   'expression tag' 1234 240
+3 7Q9M GLY C 1235 ? UNP P0DTC2 ?   ?   'expression tag' 1235 241
+3 7Q9M ARG C 1236 ? UNP P0DTC2 ?   ?   'expression tag' 1236 242
+3 7Q9M SER C 1237 ? UNP P0DTC2 ?   ?   'expression tag' 1237 243
+3 7Q9M LEU C 1238 ? UNP P0DTC2 ?   ?   'expression tag' 1238 244
+3 7Q9M GLU C 1239 ? UNP P0DTC2 ?   ?   'expression tag' 1239 245
+3 7Q9M VAL C 1240 ? UNP P0DTC2 ?   ?   'expression tag' 1240 246
+3 7Q9M LEU C 1241 ? UNP P0DTC2 ?   ?   'expression tag' 1241 247
+3 7Q9M PHE C 1242 ? UNP P0DTC2 ?   ?   'expression tag' 1242 248
+3 7Q9M GLN C 1243 ? UNP P0DTC2 ?   ?   'expression tag' 1243 249
+3 7Q9M GLY C 1244 ? UNP P0DTC2 ?   ?   'expression tag' 1244 250
+3 7Q9M PRO C 1245 ? UNP P0DTC2 ?   ?   'expression tag' 1245 251
+3 7Q9M GLY C 1246 ? UNP P0DTC2 ?   ?   'expression tag' 1246 252
+3 7Q9M HIS C 1247 ? UNP P0DTC2 ?   ?   'expression tag' 1247 253
+3 7Q9M HIS C 1248 ? UNP P0DTC2 ?   ?   'expression tag' 1248 254
+3 7Q9M HIS C 1249 ? UNP P0DTC2 ?   ?   'expression tag' 1249 255
+3 7Q9M HIS C 1250 ? UNP P0DTC2 ?   ?   'expression tag' 1250 256
+3 7Q9M HIS C 1251 ? UNP P0DTC2 ?   ?   'expression tag' 1251 257
+3 7Q9M HIS C 1252 ? UNP P0DTC2 ?   ?   'expression tag' 1252 258
+3 7Q9M HIS C 1253 ? UNP P0DTC2 ?   ?   'expression tag' 1253 259
+3 7Q9M HIS C 1254 ? UNP P0DTC2 ?   ?   'expression tag' 1254 260
+3 7Q9M GLY C 1255 ? UNP P0DTC2 ?   ?   'expression tag' 1255 261
+3 7Q9M SER C 1256 ? UNP P0DTC2 ?   ?   'expression tag' 1256 262
+3 7Q9M ALA C 1257 ? UNP P0DTC2 ?   ?   'expression tag' 1257 263
+3 7Q9M TRP C 1258 ? UNP P0DTC2 ?   ?   'expression tag' 1258 264
+3 7Q9M SER C 1259 ? UNP P0DTC2 ?   ?   'expression tag' 1259 265
+3 7Q9M HIS C 1260 ? UNP P0DTC2 ?   ?   'expression tag' 1260 266
+3 7Q9M PRO C 1261 ? UNP P0DTC2 ?   ?   'expression tag' 1261 267
+3 7Q9M GLN C 1262 ? UNP P0DTC2 ?   ?   'expression tag' 1262 268
+3 7Q9M PHE C 1263 ? UNP P0DTC2 ?   ?   'expression tag' 1263 269
+3 7Q9M GLU C 1264 ? UNP P0DTC2 ?   ?   'expression tag' 1264 270
+3 7Q9M LYS C 1265 ? UNP P0DTC2 ?   ?   'expression tag' 1265 271
+3 7Q9M GLY C 1266 ? UNP P0DTC2 ?   ?   'expression tag' 1266 272
+3 7Q9M GLY C 1267 ? UNP P0DTC2 ?   ?   'expression tag' 1267 273
+3 7Q9M GLY C 1268 ? UNP P0DTC2 ?   ?   'expression tag' 1268 274
+3 7Q9M SER C 1269 ? UNP P0DTC2 ?   ?   'expression tag' 1269 275
+3 7Q9M GLY C 1270 ? UNP P0DTC2 ?   ?   'expression tag' 1270 276
+3 7Q9M GLY C 1271 ? UNP P0DTC2 ?   ?   'expression tag' 1271 277
+3 7Q9M GLY C 1272 ? UNP P0DTC2 ?   ?   'expression tag' 1272 278
+3 7Q9M SER C 1273 ? UNP P0DTC2 ?   ?   'expression tag' 1273 279
+3 7Q9M GLY C 1274 ? UNP P0DTC2 ?   ?   'expression tag' 1274 280
+3 7Q9M GLY C 1275 ? UNP P0DTC2 ?   ?   'expression tag' 1275 281
+3 7Q9M SER C 1276 ? UNP P0DTC2 ?   ?   'expression tag' 1276 282
+3 7Q9M ALA C 1277 ? UNP P0DTC2 ?   ?   'expression tag' 1277 283
+3 7Q9M TRP C 1278 ? UNP P0DTC2 ?   ?   'expression tag' 1278 284
+3 7Q9M SER C 1279 ? UNP P0DTC2 ?   ?   'expression tag' 1279 285
+3 7Q9M HIS C 1280 ? UNP P0DTC2 ?   ?   'expression tag' 1280 286
+3 7Q9M PRO C 1281 ? UNP P0DTC2 ?   ?   'expression tag' 1281 287
+3 7Q9M GLN C 1282 ? UNP P0DTC2 ?   ?   'expression tag' 1282 288
+3 7Q9M PHE C 1283 ? UNP P0DTC2 ?   ?   'expression tag' 1283 289
+3 7Q9M GLU C 1284 ? UNP P0DTC2 ?   ?   'expression tag' 1284 290
+3 7Q9M LYS C 1285 ? UNP P0DTC2 ?   ?   'expression tag' 1285 291
 #
 loop_
 _chem_comp.id
@@ -37305,11 +37318,15 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000
 _pdbx_struct_oper_list.vector[3]            0.0000000000
 #
-_pdbx_audit_revision_history.ordinal             1
-_pdbx_audit_revision_history.data_content_type   'Structure model'
-_pdbx_audit_revision_history.major_revision      1
-_pdbx_audit_revision_history.minor_revision      0
-_pdbx_audit_revision_history.revision_date       2021-12-15
+loop_
+_pdbx_audit_revision_history.ordinal
+_pdbx_audit_revision_history.data_content_type
+_pdbx_audit_revision_history.major_revision
+_pdbx_audit_revision_history.minor_revision
+_pdbx_audit_revision_history.revision_date
+1 'Structure model' 1 0 2021-12-15
+2 'Structure model' 1 1 2021-12-22
+3 'Structure model' 1 2 2021-12-29
 #
 _pdbx_audit_revision_details.ordinal             1
 _pdbx_audit_revision_details.revision_ordinal    1
@@ -37318,6 +37335,47 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ?
 _pdbx_audit_revision_details.details             ?
+#
+loop_
+_pdbx_audit_revision_group.ordinal
+_pdbx_audit_revision_group.revision_ordinal
+_pdbx_audit_revision_group.data_content_type
+_pdbx_audit_revision_group.group
+1 2 'Structure model' 'Database references'
+2 2 'Structure model' 'Source and taxonomy'
+3 2 'Structure model' 'Structure summary'
+4 3 'Structure model' 'Database references'
+#
+loop_
+_pdbx_audit_revision_category.ordinal
+_pdbx_audit_revision_category.revision_ordinal
+_pdbx_audit_revision_category.data_content_type
+_pdbx_audit_revision_category.category
+1 2 'Structure model' entity
+2 2 'Structure model' entity_name_com
+3 2 'Structure model' entity_src_gen
+4 2 'Structure model' struct_ref
+5 2 'Structure model' struct_ref_seq
+6 2 'Structure model' struct_ref_seq_dif
+7 3 'Structure model' citation
+8 3 'Structure model' citation_author
+#
+loop_
+_pdbx_audit_revision_item.ordinal
+_pdbx_audit_revision_item.revision_ordinal
+_pdbx_audit_revision_item.data_content_type
+_pdbx_audit_revision_item.item
+1  2 'Structure model' '_entity.pdbx_description'
+2  2 'Structure model' '_entity_src_gen.gene_src_common_name'
+3  2 'Structure model' '_entity_src_gen.pdbx_gene_src_gene'
+4  2 'Structure model' '_struct_ref.db_code'
+5  2 'Structure model' '_struct_ref.pdbx_db_accession'
+6  2 'Structure model' '_struct_ref.pdbx_seq_one_letter_code'
+7  2 'Structure model' '_struct_ref_seq.db_align_end'
+8  2 'Structure model' '_struct_ref_seq.pdbx_db_accession'
+9  3 'Structure model' '_citation.pdbx_database_id_PubMed'
+10 3 'Structure model' '_citation.title'
+11 3 'Structure model' '_citation_author.name'
 #
 _space_group_symop.id              1
 _space_group_symop.operation_xyz   x,y,z

@@ -41,12 +41,18 @@ KEYWDS    SARS-COV-2, ANTIBODY, SPIKE, CORONAVIRUS, COVID-19, IMMUNE SYSTEM,
 KEYWDS   2 VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX, PHAGE DISPLAY, PRE-PANDEMIC     
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    H.LIU,X.ZHU,I.A.WILSON                                                
+REVDAT   3   12-JAN-22 7KN3    1       JRNL                                     
+REVDAT   2   10-NOV-21 7KN3    1       JRNL                                     
 REVDAT   1   22-SEP-21 7KN3    0                                                
-JRNL        AUTH   H.LIU,X.ZHU,I.A.WILSON                                       
+JRNL        AUTH   M.QIANG,P.MA,Y.LI,H.LIU,A.HARDING,C.MIN,F.WANG,L.LIU,M.YUAN, 
+JRNL        AUTH 2 Q.JI,P.TAO,X.SHI,Z.LI,T.LI,X.WANG,Y.ZHANG,N.C.WU,C.D.LEE,    
+JRNL        AUTH 3 X.ZHU,J.GILBERT-JARAMILLO,C.ZHANG,A.SAXENA,X.HUANG,H.WANG,   
+JRNL        AUTH 4 W.JAMES,R.A.DWEK,I.A.WILSON,G.YANG,R.A.LERNER                
 JRNL        TITL   NEUTRALIZING ANTIBODIES TO SARS-COV-2 SELECTED FROM A HUMAN  
-JRNL        TITL 2 ANTIBODY LIBRARY CONSTRUCTED DECADES AGO                     
-JRNL        REF    ADV SCI                                    2021              
+JRNL        TITL 2 ANTIBODY LIBRARY CONSTRUCTED DECADES AGO.                    
+JRNL        REF    ADV SCI                       V.   9 02181 2022              
 JRNL        REFN                   ESSN 2198-3844                               
+JRNL        PMID   34716683                                                     
 JRNL        DOI    10.1002/ADVS.202102181                                       
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.25 ANGSTROMS.                                       

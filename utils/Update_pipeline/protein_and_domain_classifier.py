@@ -128,8 +128,8 @@ def main(taxonomy, protein):
                     organisms.append([organism, [entry]])
             
             # for each chain, load sequence if polypeptide
-            best_chain_score = -1000
             best_chain_domain = "None"
+            domain_hits = []
             for chain in cif_model:                
                 # get polypeptide from chain
                 try:
@@ -141,24 +141,27 @@ def main(taxonomy, protein):
                 
                 chain_sequence = pp.get_sequence().replace('-', '')
                 # do sequence alignment for each sequence from fasta and track best
-                best_score = -1000
-                best_domain = "None"
                 for fasta in fasta_seq_domains_iter:
                     domain_name, domain_sequence = fasta
                     result = gemmi.align_string_sequences(list(chain_sequence), list(domain_sequence), [])
-                    if result.calculate_identity() > best_score:
-                        print(result.calculate_identity())
-                        best_score = result.calculate_identity()
-                        best_domain = domain_name
+                    # if high identity, save domain as hit
+                    if result.calculate_identity() > 95:
+                        hit_added = False
+                        for hit in domain_hits:
+                            if hit == domain_name:
+                                hit_added = True
+                                break
+                        if not hit_added:
+                            domain_hits.append(domain_name)
+                            print(entry, domain_name, result.calculate_identity())
                 
-                print(entry + " | " + best_domain + " " + str(best_score))
-                # keep track of best chain
-                if best_score > best_chain_score:
-                    best_chain_score = best_score
-                    best_chain_domain = best_domain
+                
+            if len(domain_hits) > 0:
+                best_chain_domain = ""
+                for hit in domain_hits:
+                    best_chain_domain += hit + "_"
                 
                 
-            #print(best_chain_domain + " " + str(best_chain_score))
             # check if domain was already added to final results
             save_entry = [entry, pdb_entry.resolution, 0, 0, 0]
             for key, value in pdb_entry.info.items():
@@ -192,17 +195,24 @@ def main(taxonomy, protein):
     print(workbook_path)
     
     # write core results to excel
+    counter = 0
     for result_list in entries_and_domains:
-        worksheet = workbook.add_worksheet(result_list[0])
-        worksheet.write(0, 0, "PDB")
-        worksheet.write(0, 1, "resolution")
-        worksheet.write(0, 2, "title")
+        if len(result_list[0]) >= 30:
+            counter += 1
+            worksheet = workbook.add_worksheet("multi-domain" + str(counter))
+        else:
+            worksheet = workbook.add_worksheet(result_list[0])
+            
+        worksheet.write(0, 0, result_list[0])
+        worksheet.write(1, 0, "PDB")
+        worksheet.write(1, 1, "resolution")
+        worksheet.write(1, 2, "title")
         worksheet.set_column('C:C', 110)
-        worksheet.write(0, 3, "method")
+        worksheet.write(1, 3, "method")
         worksheet.set_column('D:D', 20)
-        worksheet.write(0, 4, "date")
+        worksheet.write(1, 4, "date")
         worksheet.set_column('E:E', 12)
-        row = 1
+        row = 2
         for entry in result_list[1]:
             for x in range(5):
                 worksheet.write(row, x, entry[x])

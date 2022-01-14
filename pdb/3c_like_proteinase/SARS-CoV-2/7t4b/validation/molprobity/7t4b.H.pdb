@@ -954,33 +954,35 @@ _refine_ls_shell.percent_reflns_R_free
 _refine_ls_shell.number_reflns_R_free
 _refine_ls_shell.number_reflns_all
 _refine_ls_shell.R_factor_all
-'X-RAY DIFFRACTION' . 1.6000 1.6200  2772 0.3011 100.00 0.3507 . . 126 . .
-'X-RAY DIFFRACTION' . 1.6200 1.6400  2843 0.2906 100.00 0.3326 . . 127 . .
-'X-RAY DIFFRACTION' . 1.6400 1.6600  2749 0.2782 100.00 0.3479 . . 142 . .
-'X-RAY DIFFRACTION' . 1.6600 1.6900  2867 0.2535 100.00 0.3038 . . 123 . .
-'X-RAY DIFFRACTION' . 1.6900 1.7100  2749 0.2461 100.00 0.2992 . . 139 . .
-'X-RAY DIFFRACTION' . 1.7100 1.7400  2829 0.2349 100.00 0.2771 . . 139 . .
-'X-RAY DIFFRACTION' . 1.7400 1.7700  2775 0.2343 99.00  0.2867 . . 139 . .
-'X-RAY DIFFRACTION' . 1.7700 1.8000  2781 0.2194 99.00  0.2658 . . 125 . .
-'X-RAY DIFFRACTION' . 1.8000 1.8300  2771 0.2160 99.00  0.2651 . . 150 . .
-'X-RAY DIFFRACTION' . 1.8300 1.8700  2717 0.2133 98.00  0.2208 . . 144 . .
-'X-RAY DIFFRACTION' . 1.8700 1.9000  2784 0.2153 98.00  0.2813 . . 131 . .
-'X-RAY DIFFRACTION' . 1.9000 1.9500  2739 0.2159 100.00 0.2428 . . 137 . .
-'X-RAY DIFFRACTION' . 1.9500 1.9900  2874 0.2055 100.00 0.2354 . . 131 . .
-'X-RAY DIFFRACTION' . 1.9900 2.0400  2776 0.1977 100.00 0.2344 . . 161 . .
-'X-RAY DIFFRACTION' . 2.0400 2.1000  2784 0.2042 100.00 0.2024 . . 155 . .
-'X-RAY DIFFRACTION' . 2.1000 2.1600  2783 0.1953 100.00 0.2434 . . 149 . .
-'X-RAY DIFFRACTION' . 2.1600 2.2300  2773 0.1938 100.00 0.2376 . . 152 . .
-'X-RAY DIFFRACTION' . 2.2300 2.3100  2836 0.1899 99.00  0.2418 . . 118 . .
-'X-RAY DIFFRACTION' . 2.3100 2.4000  2734 0.1832 97.00  0.2080 . . 115 . .
-'X-RAY DIFFRACTION' . 2.4000 2.5100  2834 0.1855 100.00 0.2248 . . 123 . .
-'X-RAY DIFFRACTION' . 2.5100 2.6400  2812 0.1834 99.00  0.2118 . . 119 . .
-'X-RAY DIFFRACTION' . 2.6400 2.8100  2809 0.1834 100.00 0.2130 . . 129 . .
-'X-RAY DIFFRACTION' . 2.8100 3.0200  2768 0.1879 99.00  0.2158 . . 144 . .
-'X-RAY DIFFRACTION' . 3.0200 3.3300  2816 0.1767 99.00  0.2247 . . 138 . .
-'X-RAY DIFFRACTION' . 3.3300 3.8100  2742 0.1626 98.00  0.2022 . . 154 . .
-'X-RAY DIFFRACTION' . 3.8100 4.8000  2775 0.1378 98.00  0.1505 . . 159 . .
-'X-RAY DIFFRACTION' . 4.8000 48.8500 2823 0.1652 98.00  0.1961 . . 146 . .
+_refine_ls_shell.R_factor_obs
+_refine_ls_shell.number_reflns_obs
+'X-RAY DIFFRACTION' . 1.6000 1.6200  2772 0.3011 100.00 0.3507 . . 126 . . . .
+'X-RAY DIFFRACTION' . 1.6200 1.6400  2843 0.2906 100.00 0.3326 . . 127 . . . .
+'X-RAY DIFFRACTION' . 1.6400 1.6600  2749 0.2782 100.00 0.3479 . . 142 . . . .
+'X-RAY DIFFRACTION' . 1.6600 1.6900  2867 0.2535 100.00 0.3038 . . 123 . . . .
+'X-RAY DIFFRACTION' . 1.6900 1.7100  2749 0.2461 100.00 0.2992 . . 139 . . . .
+'X-RAY DIFFRACTION' . 1.7100 1.7400  2829 0.2349 100.00 0.2771 . . 139 . . . .
+'X-RAY DIFFRACTION' . 1.7400 1.7700  2775 0.2343 99.00  0.2867 . . 139 . . . .
+'X-RAY DIFFRACTION' . 1.7700 1.8000  2781 0.2194 99.00  0.2658 . . 125 . . . .
+'X-RAY DIFFRACTION' . 1.8000 1.8300  2771 0.2160 99.00  0.2651 . . 150 . . . .
+'X-RAY DIFFRACTION' . 1.8300 1.8700  2717 0.2133 98.00  0.2208 . . 144 . . . .
+'X-RAY DIFFRACTION' . 1.8700 1.9000  2784 0.2153 98.00  0.2813 . . 131 . . . .
+'X-RAY DIFFRACTION' . 1.9000 1.9500  2739 0.2159 100.00 0.2428 . . 137 . . . .
+'X-RAY DIFFRACTION' . 1.9500 1.9900  2874 0.2055 100.00 0.2354 . . 131 . . . .
+'X-RAY DIFFRACTION' . 1.9900 2.0400  2776 0.1977 100.00 0.2344 . . 161 . . . .
+'X-RAY DIFFRACTION' . 2.0400 2.1000  2784 0.2042 100.00 0.2024 . . 155 . . . .
+'X-RAY DIFFRACTION' . 2.1000 2.1600  2783 0.1953 100.00 0.2434 . . 149 . . . .
+'X-RAY DIFFRACTION' . 2.1600 2.2300  2773 0.1938 100.00 0.2376 . . 152 . . . .
+'X-RAY DIFFRACTION' . 2.2300 2.3100  2836 0.1899 99.00  0.2418 . . 118 . . . .
+'X-RAY DIFFRACTION' . 2.3100 2.4000  2734 0.1832 97.00  0.2080 . . 115 . . . .
+'X-RAY DIFFRACTION' . 2.4000 2.5100  2834 0.1855 100.00 0.2248 . . 123 . . . .
+'X-RAY DIFFRACTION' . 2.5100 2.6400  2812 0.1834 99.00  0.2118 . . 119 . . . .
+'X-RAY DIFFRACTION' . 2.6400 2.8100  2809 0.1834 100.00 0.2130 . . 129 . . . .
+'X-RAY DIFFRACTION' . 2.8100 3.0200  2768 0.1879 99.00  0.2158 . . 144 . . . .
+'X-RAY DIFFRACTION' . 3.0200 3.3300  2816 0.1767 99.00  0.2247 . . 138 . . . .
+'X-RAY DIFFRACTION' . 3.3300 3.8100  2742 0.1626 98.00  0.2022 . . 154 . . . .
+'X-RAY DIFFRACTION' . 3.8100 4.8000  2775 0.1378 98.00  0.1505 . . 159 . . . .
+'X-RAY DIFFRACTION' . 4.8000 48.8500 2823 0.1652 98.00  0.1961 . . 146 . . . .
 #
 _struct.entry_id                     7T4B
 _struct.title                        'Structure of SARS-CoV-2 3CL protease in co
@@ -7354,11 +7356,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000
 _pdbx_struct_oper_list.vector[3]            0.0000000000
 #
-_pdbx_audit_revision_history.ordinal             1
-_pdbx_audit_revision_history.data_content_type   'Structure model'
-_pdbx_audit_revision_history.major_revision      1
-_pdbx_audit_revision_history.minor_revision      0
-_pdbx_audit_revision_history.revision_date       2021-12-22
+loop_
+_pdbx_audit_revision_history.ordinal
+_pdbx_audit_revision_history.data_content_type
+_pdbx_audit_revision_history.major_revision
+_pdbx_audit_revision_history.minor_revision
+_pdbx_audit_revision_history.revision_date
+1 'Structure model' 1 0 2021-12-22
+2 'Structure model' 1 1 2022-01-12
 #
 _pdbx_audit_revision_details.ordinal             1
 _pdbx_audit_revision_details.revision_ordinal    1
@@ -7367,6 +7372,21 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ?
 _pdbx_audit_revision_details.details             ?
+#
+_pdbx_audit_revision_group.ordinal             1
+_pdbx_audit_revision_group.revision_ordinal    2
+_pdbx_audit_revision_group.data_content_type   'Structure model'
+_pdbx_audit_revision_group.group               'Structure summary'
+#
+_pdbx_audit_revision_category.ordinal             1
+_pdbx_audit_revision_category.revision_ordinal    2
+_pdbx_audit_revision_category.data_content_type   'Structure model'
+_pdbx_audit_revision_category.category            struct
+#
+_pdbx_audit_revision_item.ordinal             1
+_pdbx_audit_revision_item.revision_ordinal    2
+_pdbx_audit_revision_item.data_content_type   'Structure model'
+_pdbx_audit_revision_item.item                '_struct.title'
 #
 _phasing.method   MR
 #

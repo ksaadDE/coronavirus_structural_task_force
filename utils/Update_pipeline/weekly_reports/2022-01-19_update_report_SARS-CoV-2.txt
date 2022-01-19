@@ -8,8 +8,10 @@
 ##### new structures by protein #####
 3c_like_proteinase
 >7dw6 7dvx 7dw0 7dvw 7dvp 7dvy 
-not_assigned
->7vph 7f5f 
+orf6
+>7vph
+orf8
+>7f5f 
 nsp3
 >7thh 
 nsp3-nucleocapsid_protein

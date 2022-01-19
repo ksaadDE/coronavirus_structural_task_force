@@ -45,11 +45,15 @@ def seq_finder (path_repo):
         # get sequences from other fastas
         fastas = ""
         for prot in prots:
-            file = open(os.path.join(path_repo, "..", prot, "sequence_info.fasta"), 'r')
-            content = file.read()
-            file.close()
-            fastas += content + "\n"
-        
+            try:
+                file = open(os.path.join(path_repo, "..", prot, "sequence_info.fasta"), 'r')
+                content = file.read()
+                file.close()
+                fastas += content + "\n"
+            except FileNotFoundError:
+                print("ERROR! Alignment was not done, due to missing fasta!")
+                print(path_repo)
+                return        
         
         file = open(os.path.join(path_repo, "sequence_info.fasta"), 'w')
         file.write(fastas)
@@ -123,6 +127,10 @@ def aligner (seq_1, seq_2, doc, model_seq):
 
 def file_walker (path_repo, pdb_id, taxo):
     ncbi_seq = seq_finder(path_repo)
+    if ncbi_seq is None:
+        # error occured
+        return
+        
     debug_print(path_repo+"/{}/structure_sequence_alignment.txt".format(taxo))
     doc = open(path_repo+"/{}/structure_sequence_alignment.txt".format(taxo), "a+")
 

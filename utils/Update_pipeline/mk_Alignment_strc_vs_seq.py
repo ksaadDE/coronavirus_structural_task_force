@@ -34,8 +34,29 @@ def protein_chooser (prot_name, repo_path):
     return repo_path
 
 def seq_finder (path_repo):
+    # check, if sequence_info.fasta exists and create it, if not
+    if not os.path.isfile(os.path.join(path_repo, "/sequence_info.fasta")):
+        print("New seuquence_info.fasta has to be created")
+        # get involved proteins
+        prots = os.path.basename(os.path.normpath(path_repo))
+        prots = prots.split("-")
+        print(prots)
+        # get sequences from other fastas
+        fastas = ""
+        for prot in prots:
+            file = open(os.path.join(path_repo, prot, "/sequence_info.fasta", 'r'))
+            content = file.read()
+            file.close()
+            fastas += content + "\n"
+        
+        
+        file = open(os.path.join(path_repo, "/sequence_info.fasta"), 'w')
+        file.write(fastas)
+        file.close()
+    
     #gets the sequence out of fasta
-    seq_fasta = list(SeqIO.parse(path_repo+"/sequence_info.fasta", "fasta"))
+    seq_fasta = list(SeqIO.parse(
+        os.path.join(path_repo, "/sequence_info.fasta"), "fasta"))
     return seq_fasta
 
 def structure_reader(pdb_path):

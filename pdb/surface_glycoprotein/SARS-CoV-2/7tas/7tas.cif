@@ -61,13 +61,13 @@ _citation.journal_full              ?
 _citation.journal_issue             ? 
 _citation.journal_volume            ? 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     'Antibody-mediated broad sarbecovirus neutralization through ACE2 molecular mimicry' 
+_citation.page_first                eabm8143 
+_citation.page_last                 eabm8143 
+_citation.title                     'Antibody-mediated broad sarbecovirus neutralization through ACE2 molecular mimicry.' 
 _citation.year                      2022 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1126/science.abm8143 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34990214 
 _citation.pdbx_database_id_patent   ? 
 _citation.unpublished_flag          ? 
 # 
@@ -76,33 +76,33 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Park, Y.J.'      1  ? 
-primary 'De Marco, A.'    2  ? 
-primary 'Starr, T.N.'     3  ? 
-primary 'Liu, Z.'         4  ? 
-primary 'Pinto, D.'       5  ? 
-primary 'Walls, A.C.'     6  ? 
-primary 'Zatta, F.'       7  ? 
-primary 'Zepeda, S.K.'    8  ? 
-primary 'Bowen, J.E.'     9  ? 
-primary 'Sprouse, K.R.'   10 ? 
-primary 'Joshi, A.'       11 ? 
-primary 'Giurdanella, M.' 12 ? 
-primary 'Guarino, B.'     13 ? 
-primary 'Noack, J.'       14 ? 
-primary 'Abdelnabi, R.'   15 ? 
-primary 'Foo, S.Y.C.'     16 ? 
-primary 'Rosen, L.E.'     17 ? 
-primary 'Lempp, F.A.'     18 ? 
-primary 'Benigni, F.'     19 ? 
-primary 'Snell, G.'       20 ? 
-primary 'Neyts, J.'       21 ? 
-primary 'Whelan, S.P.J.'  22 ? 
-primary 'Virgin, H.W.'    23 ? 
-primary 'Bloom, J.D.'     24 ? 
-primary 'Corti, D.'       25 ? 
-primary 'Pizzuto, M.S.'   26 ? 
-primary 'Veesler, D.'     27 ? 
+primary 'Park, Y.J.'      1  0000-0003-2901-6949 
+primary 'De Marco, A.'    2  0000-0001-9641-4838 
+primary 'Starr, T.N.'     3  0000-0001-6713-6904 
+primary 'Liu, Z.'         4  0000-0001-8198-0976 
+primary 'Pinto, D.'       5  ?                   
+primary 'Walls, A.C.'     6  0000-0002-9636-8330 
+primary 'Zatta, F.'       7  0000-0003-4945-8058 
+primary 'Zepeda, S.K.'    8  0000-0003-0005-9793 
+primary 'Bowen, J.E.'     9  0000-0003-3590-9727 
+primary 'Sprouse, K.R.'   10 0000-0003-0007-2226 
+primary 'Joshi, A.'       11 ?                   
+primary 'Giurdanella, M.' 12 ?                   
+primary 'Guarino, B.'     13 0000-0003-3759-3252 
+primary 'Noack, J.'       14 0000-0002-9113-8181 
+primary 'Abdelnabi, R.'   15 0000-0001-9771-7312 
+primary 'Foo, S.C.'       16 0000-0002-6380-4917 
+primary 'Rosen, L.E.'     17 0000-0002-8030-0219 
+primary 'Lempp, F.A.'     18 0000-0001-6103-8078 
+primary 'Benigni, F.'     19 0000-0002-1974-5606 
+primary 'Snell, G.'       20 0000-0003-1475-659X 
+primary 'Neyts, J.'       21 0000-0002-0033-7514 
+primary 'Whelan, S.P.J.'  22 0000-0003-1564-8590 
+primary 'Virgin, H.W.'    23 0000-0001-8580-7628 
+primary 'Bloom, J.D.'     24 0000-0003-1267-3408 
+primary 'Corti, D.'       25 0000-0002-5797-1364 
+primary 'Pizzuto, M.S.'   26 0000-0001-5776-654X 
+primary 'Veesler, D.'     27 0000-0002-6019-8675 
 # 
 loop_
 _entity.id 
@@ -7005,11 +7005,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2022-01-12 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2022-01-12 
+2 'Structure model' 1 1 2022-01-19 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -7018,6 +7021,31 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.page_first'              
+2 2 'Structure model' '_citation.page_last'               
+3 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+4 2 'Structure model' '_citation.title'                   
+5 2 'Structure model' '_citation_author.identifier_ORCID' 
+6 2 'Structure model' '_citation_author.name'             
 # 
 _pdbx_entry_details.entry_id                 7TAS 
 _pdbx_entry_details.has_ligand_of_interest   N 

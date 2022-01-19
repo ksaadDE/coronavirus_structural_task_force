@@ -15,13 +15,24 @@ SOURCE   7 EXPRESSION_SYSTEM_CELL: HEK293F
 KEYWDS    SARS-COV-2, SPIKE, OMICRON, VARIANT OF CONCERN, VIRAL PROTEIN         
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    T.ZHOU,T.TSYBOVSKY,P.D.KWONG                                          
+REVDAT   2   19-JAN-22 7TB4    1       JRNL                                     
 REVDAT   1   12-JAN-22 7TB4    0                                                
-JRNL        AUTH   J.MISASI,T.ZHOU                                              
+JRNL        AUTH   L.WANG,T.ZHOU,Y.ZHANG,E.S.YANG,C.A.SCHRAMM,W.SHI,A.PEGU,     
+JRNL        AUTH 2 O.K.OLONINYI,A.RANSIER,S.DARKO,S.R.NARPALA,C.HATCHER,        
+JRNL        AUTH 3 D.R.MARTINEZ,Y.TSYBOVSKY,E.PHUNG,O.M.ABIONA,E.M.CALE,        
+JRNL        AUTH 4 L.A.CHANG,K.S.CORBETT,A.T.DIPIAZZA,I.J.GORDON,K.LEUNG,T.LIU, 
+JRNL        AUTH 5 R.D.MASON,A.NAZZARI,L.NOVIK,A.S.OLIA,N.A.DORIA-ROSE,         
+JRNL        AUTH 6 T.STEPHENS,C.D.STRINGHAM,C.A.TALANA,I.T.TENG,D.WAGNER,       
+JRNL        AUTH 7 A.T.WIDGE,B.ZHANG,M.ROEDERER,J.E.LEDGERWOOD,T.J.RUCKWARDT,   
+JRNL        AUTH 8 M.R.GAUDINSKI,R.S.BARIC,B.S.GRAHAM,A.B.MCDERMOTT,D.C.DOUEK,  
+JRNL        AUTH 9 P.D.KWONG,J.R.MASCOLA,N.J.SULLIVAN,J.MISASI                  
 JRNL        TITL   ANTIBODIES WITH POTENT AND BROAD NEUTRALIZING ACTIVITY       
 JRNL        TITL 2 AGAINST ANTIGENICALLY DIVERSE AND HIGHLY TRANSMISSIBLE       
-JRNL        TITL 3 SARS-COV-2 VARIANTS                                          
-JRNL        REF    TO BE PUBLISHED                                              
+JRNL        TITL 3 SARS-COV-2 VARIANTS.                                         
+JRNL        REF    BIORXIV                                    2021              
 JRNL        REFN                                                                
+JRNL        PMID   33655252                                                     
+JRNL        DOI    10.1101/2021.02.25.432969                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.29 ANGSTROMS.                                       
 REMARK   3                                                                      

@@ -22,15 +22,17 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    I.SHARON,J.STILLE,J.TJUTRINS,G.WANG,F.A.VENEGAS,C.HENNECKER,          
 AUTHOR   2 A.M.RUEDA,C.E.MIRON,S.PINUS,A.LABARRE,M.B.PATRASCU,D.VLAHO,M.HUOT,   
 AUTHOR   3 A.K.MITTERMAIER,N.MOITESSIER,T.M.SCHMEING                            
+REVDAT   2   19-JAN-22 7MLF    1       JRNL                                     
 REVDAT   1   22-DEC-21 7MLF    0                                                
-JRNL        AUTH   J.STILLE,J.TJUTRINS,G.WANG,F.A.VENEGAS,C.HENNECKER,          
-JRNL        AUTH 2 A.M.RUEDA,I.SHARON,N.BLAINE,S.PINUS,A.LABARRE,X.ZHANG,       
-JRNL        AUTH 3 A.S.WAHBA,D.VLAHO,M.J.HUOT,T.M.SCHMEING,A.K.MITTERMAIER,     
-JRNL        AUTH 4 N.MOITESSIER                                                 
+JRNL        AUTH   J.K.STILLE,J.TJUTRINS,G.WANG,F.A.VENEGAS,C.HENNECKER,        
+JRNL        AUTH 2 A.M.RUEDA,I.SHARON,N.BLAINE,C.E.MIRON,S.PINUS,A.LABARRE,     
+JRNL        AUTH 3 J.PLESCIA,M.BURAI PATRASCU,X.ZHANG,A.S.WAHBA,D.VLAHO,        
+JRNL        AUTH 4 M.J.HUOT,T.M.SCHMEING,A.K.MITTERMAIER,N.MOITESSIER           
 JRNL        TITL   DESIGN, SYNTHESIS AND IN VITRO EVALUATION OF NOVEL           
-JRNL        TITL 2 SARS-COV-2 3CLPRO COVALENT INHIBITORS                        
-JRNL        REF    EUR.J.MED.CHEM.                            2021              
+JRNL        TITL 2 SARS-COV-2 3CL PRO COVALENT INHIBITORS.                      
+JRNL        REF    EUR.J.MED.CHEM.               V. 229 14046 2021              
 JRNL        REFN                   ISSN 0223-5234                               
+JRNL        PMID   34995923                                                     
 JRNL        DOI    10.1016/J.EJMECH.2021.114046                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.60 ANGSTROMS.                                       

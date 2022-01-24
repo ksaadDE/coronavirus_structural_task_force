@@ -66,15 +66,15 @@ _citation.journal_id_CSD            0493
 _citation.journal_id_ISSN           0223-5234
 _citation.journal_full              ?
 _citation.journal_issue             ?
-_citation.journal_volume            ?
+_citation.journal_volume            229
 _citation.language                  ?
-_citation.page_first                ?
-_citation.page_last                 ?
+_citation.page_first                114046
+_citation.page_last                 114046
 _citation.title                     'Design, synthesis and in vitro evaluation o
 _citation.year                      2021
 _citation.database_id_CSD           ?
 _citation.pdbx_database_id_DOI      10.1016/j.ejmech.2021.114046
-_citation.pdbx_database_id_PubMed   ?
+_citation.pdbx_database_id_PubMed   34995923
 _citation.pdbx_database_id_patent   ?
 _citation.unpublished_flag          ?
 #
@@ -83,23 +83,26 @@ _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Stille, J.'        1  ?
-primary 'Tjutrins, J.'      2  ?
-primary 'Wang, G.'          3  ?
-primary 'Venegas, F.A.'     4  ?
-primary 'Hennecker, C.'     5  ?
-primary 'Rueda, A.M.'       6  ?
-primary 'Sharon, I.'        7  ?
-primary 'Blaine, N.'        8  ?
-primary 'Pinus, S.'         9  ?
-primary 'Labarre, A.'       10 ?
-primary 'Zhang, X.'         11 ?
-primary 'Wahba, A.S.'       12 ?
-primary 'Vlaho, D.'         13 ?
-primary 'Huot, M.J.'        14 ?
-primary 'Schmeing, T.M.'    15 ?
-primary 'Mittermaier, A.K.' 16 ?
-primary 'Moitessier, N.'    17 ?
+primary 'Stille, J.K.'       1  ?
+primary 'Tjutrins, J.'       2  ?
+primary 'Wang, G.'           3  ?
+primary 'Venegas, F.A.'      4  ?
+primary 'Hennecker, C.'      5  ?
+primary 'Rueda, A.M.'        6  ?
+primary 'Sharon, I.'         7  ?
+primary 'Blaine, N.'         8  ?
+primary 'Miron, C.E.'        9  ?
+primary 'Pinus, S.'          10 ?
+primary 'Labarre, A.'        11 ?
+primary 'Plescia, J.'        12 ?
+primary 'Burai Patrascu, M.' 13 ?
+primary 'Zhang, X.'          14 ?
+primary 'Wahba, A.S.'        15 ?
+primary 'Vlaho, D.'          16 ?
+primary 'Huot, M.J.'         17 ?
+primary 'Schmeing, T.M.'     18 ?
+primary 'Mittermaier, A.K.'  19 ?
+primary 'Moitessier, N.'     20 ?
 #
 _cell.angle_alpha                  90.00
 _cell.angle_alpha_esd              ?
@@ -4186,11 +4189,14 @@ _pdbx_struct_oper_list.vector[3]
 2 'crystal symmetry operation' 2_556 -x,y,-z+1 -1.0000000000 0.0000000000 0.0000
 0.0000000000 0.0000000000 0.0000000000 0.0000000000 -1.0000000000 44.7817699805
 #
-_pdbx_audit_revision_history.ordinal             1
-_pdbx_audit_revision_history.data_content_type   'Structure model'
-_pdbx_audit_revision_history.major_revision      1
-_pdbx_audit_revision_history.minor_revision      0
-_pdbx_audit_revision_history.revision_date       2021-12-22
+loop_
+_pdbx_audit_revision_history.ordinal
+_pdbx_audit_revision_history.data_content_type
+_pdbx_audit_revision_history.major_revision
+_pdbx_audit_revision_history.minor_revision
+_pdbx_audit_revision_history.revision_date
+1 'Structure model' 1 0 2021-12-22
+2 'Structure model' 1 1 2022-01-19
 #
 _pdbx_audit_revision_details.ordinal             1
 _pdbx_audit_revision_details.revision_ordinal    1
@@ -4199,6 +4205,30 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ?
 _pdbx_audit_revision_details.details             ?
+#
+_pdbx_audit_revision_group.ordinal             1
+_pdbx_audit_revision_group.revision_ordinal    2
+_pdbx_audit_revision_group.data_content_type   'Structure model'
+_pdbx_audit_revision_group.group               'Database references'
+#
+loop_
+_pdbx_audit_revision_category.ordinal
+_pdbx_audit_revision_category.revision_ordinal
+_pdbx_audit_revision_category.data_content_type
+_pdbx_audit_revision_category.category
+1 2 'Structure model' citation
+2 2 'Structure model' citation_author
+#
+loop_
+_pdbx_audit_revision_item.ordinal
+_pdbx_audit_revision_item.revision_ordinal
+_pdbx_audit_revision_item.data_content_type
+_pdbx_audit_revision_item.item
+1 2 'Structure model' '_citation.journal_volume'
+2 2 'Structure model' '_citation.page_first'
+3 2 'Structure model' '_citation.page_last'
+4 2 'Structure model' '_citation.pdbx_database_id_PubMed'
+5 2 'Structure model' '_citation.title'
 #
 loop_
 _software.citation_id

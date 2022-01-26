@@ -3,7 +3,7 @@ data_7Q6E
 _entry.id   7Q6E 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.353 
+_audit_conform.dict_version    5.354 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -87,8 +87,8 @@ _citation.pdbx_database_id_DOI
 _citation.pdbx_database_id_PubMed 
 _citation.pdbx_database_id_patent 
 _citation.unpublished_flag 
-? ? ? ? ? ? ? US ? ? primary 'Cell Host Microbe'                              ?      ?    1934-6069 ? ? ?  ? ?   ?   
-'The antibody response to SARS-CoV-2 Beta underscores the antigenic distance to other variants.' 2021 ? 10.1016/j.chom.2021.11.013 
+? ? ? ? ? ? ? US ? ? primary 'Cell Host Microbe'                              ?      ?    1934-6069 ? ? 30 ? 53  ?   
+'The antibody response to SARS-CoV-2 Beta underscores the antigenic distance to other variants.' 2022 ? 10.1016/j.chom.2021.11.013 
 34921776 ? ? 
 ? ? ? ? ? ? ? DK ? ? 1       'Acta Crystallogr., Sect. D: Biol. Crystallogr.' ABCRE6 0766 0907-4449 ? ? 74 ? 531 544 
 'Real-space refinement in PHENIX for cryo-EM and crystallography'                                2018 ? ?                          
@@ -43667,6 +43667,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-12-15 
 2 'Structure model' 1 1 2021-12-22 
 3 'Structure model' 1 2 2021-12-29 
+4 'Structure model' 1 3 2022-01-26 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -43685,6 +43686,7 @@ _pdbx_audit_revision_group.group
 2 2 'Structure model' 'Source and taxonomy' 
 3 2 'Structure model' 'Structure summary'   
 4 3 'Structure model' 'Database references' 
+5 4 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -43696,21 +43698,25 @@ _pdbx_audit_revision_category.category
 3 2 'Structure model' struct_ref_seq_dif 
 4 3 'Structure model' citation           
 5 3 'Structure model' citation_author    
+6 4 'Structure model' citation           
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
 _pdbx_audit_revision_item.revision_ordinal 
 _pdbx_audit_revision_item.data_content_type 
 _pdbx_audit_revision_item.item 
-1 2 'Structure model' '_entity_src_gen.gene_src_common_name'    
-2 2 'Structure model' '_struct_keywords.pdbx_keywords'          
-3 2 'Structure model' '_struct_keywords.text'                   
-4 2 'Structure model' '_struct_ref_seq_dif.db_mon_id'           
-5 2 'Structure model' '_struct_ref_seq_dif.details'             
-6 2 'Structure model' '_struct_ref_seq_dif.pdbx_seq_db_seq_num' 
-7 3 'Structure model' '_citation.pdbx_database_id_PubMed'       
-8 3 'Structure model' '_citation.title'                         
-9 3 'Structure model' '_citation_author.name'                   
+1  2 'Structure model' '_entity_src_gen.gene_src_common_name'    
+2  2 'Structure model' '_struct_keywords.pdbx_keywords'          
+3  2 'Structure model' '_struct_keywords.text'                   
+4  2 'Structure model' '_struct_ref_seq_dif.db_mon_id'           
+5  2 'Structure model' '_struct_ref_seq_dif.details'             
+6  2 'Structure model' '_struct_ref_seq_dif.pdbx_seq_db_seq_num' 
+7  3 'Structure model' '_citation.pdbx_database_id_PubMed'       
+8  3 'Structure model' '_citation.title'                         
+9  3 'Structure model' '_citation_author.name'                   
+10 4 'Structure model' '_citation.journal_volume'                
+11 4 'Structure model' '_citation.page_first'                    
+12 4 'Structure model' '_citation.year'                          
 # 
 _space_group_symop.id              1 
 _space_group_symop.operation_xyz   x,y,z 

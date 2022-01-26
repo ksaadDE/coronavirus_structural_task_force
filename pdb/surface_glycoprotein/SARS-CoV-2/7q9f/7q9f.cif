@@ -3,7 +3,7 @@ data_7Q9F
 _entry.id   7Q9F 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.353 
+_audit_conform.dict_version    5.354 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -65,13 +65,13 @@ _citation.journal_id_CSD            ?
 _citation.journal_id_ISSN           1934-6069 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            30 
 _citation.language                  ? 
-_citation.page_first                ? 
+_citation.page_first                53 
 _citation.page_last                 ? 
 _citation.title                     
 'The antibody response to SARS-CoV-2 Beta underscores the antigenic distance to other variants.' 
-_citation.year                      2021 
+_citation.year                      2022 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.chom.2021.11.013 
 _citation.pdbx_database_id_PubMed   34921776 
@@ -43534,6 +43534,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-12-15 
 2 'Structure model' 1 1 2021-12-22 
 3 'Structure model' 1 2 2021-12-29 
+4 'Structure model' 1 3 2022-01-26 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -43552,6 +43553,7 @@ _pdbx_audit_revision_group.group
 2 2 'Structure model' 'Source and taxonomy' 
 3 2 'Structure model' 'Structure summary'   
 4 3 'Structure model' 'Database references' 
+5 4 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -43566,6 +43568,7 @@ _pdbx_audit_revision_category.category
 6 2 'Structure model' struct_ref_seq_dif 
 7 3 'Structure model' citation           
 8 3 'Structure model' citation_author    
+9 4 'Structure model' citation           
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -43583,6 +43586,9 @@ _pdbx_audit_revision_item.item
 9  3 'Structure model' '_citation.pdbx_database_id_PubMed'    
 10 3 'Structure model' '_citation.title'                      
 11 3 'Structure model' '_citation_author.name'                
+12 4 'Structure model' '_citation.journal_volume'             
+13 4 'Structure model' '_citation.page_first'                 
+14 4 'Structure model' '_citation.year'                       
 # 
 _space_group_symop.id              1 
 _space_group_symop.operation_xyz   x,y,z 

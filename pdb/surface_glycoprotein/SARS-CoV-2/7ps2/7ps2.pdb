@@ -63,6 +63,7 @@ KEYWDS   3 BINDING-DOMAIN, SPIKE, NEUTRALISATION, VIRAL PROTEIN/IMMUNE SYSTEM,
 KEYWDS   4 VIRAL PROTEIN, IMMUNE SYSTEM, VIRAL PROTEIN-IMMUNE SYSTEM COMPLEX    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.ZHOU,J.REN,D.I.STUART                                               
+REVDAT   4   26-JAN-22 7PS2    1       JRNL                                     
 REVDAT   3   29-DEC-21 7PS2    1       JRNL                                     
 REVDAT   2   22-DEC-21 7PS2    1       COMPND SOURCE DBREF  SEQADV              
 REVDAT   1   15-DEC-21 7PS2    0                                                
@@ -74,7 +75,7 @@ JRNL        AUTH 5 D.R.HALL,D.K.CLARE,A.HOWE,P.J.R.GOULDER,E.E.FRY,M.S.DIAMOND,
 JRNL        AUTH 6 J.MONGKOLSAPAYA,J.REN,D.I.STUART,G.R.SCREATON                
 JRNL        TITL   THE ANTIBODY RESPONSE TO SARS-COV-2 BETA UNDERSCORES THE     
 JRNL        TITL 2 ANTIGENIC DISTANCE TO OTHER VARIANTS.                        
-JRNL        REF    CELL HOST MICROBE                          2021              
+JRNL        REF    CELL HOST MICROBE             V.  30    53 2022              
 JRNL        REFN                   ESSN 1934-6069                               
 JRNL        PMID   34921776                                                     
 JRNL        DOI    10.1016/J.CHOM.2021.11.013                                   

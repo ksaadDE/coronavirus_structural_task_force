@@ -36,12 +36,17 @@ KEYWDS   3 PROTEIN
 EXPDTA    SOLUTION NMR                                                          
 NUMMDL    10                                                                    
 AUTHOR    L.M.BESSA,S.GUSEVA,A.R.CAMACHO-ZARCO,N.SALVI,M.BLACKLEDGE             
+REVDAT   2   02-FEB-22 7PKU    1       JRNL                                     
 REVDAT   1   19-JAN-22 7PKU    0                                                
-JRNL        AUTH   L.M.BESSA,S.GUSEVA,A.R.CAMACHO-ZARCO,N.SALVI,M.BLACKLEDGE    
-JRNL        TITL   STRUCTURE OF SARS-COV-2 NUCLEOPROTEIN IN DYNAMIC COMPLEX     
-JRNL        TITL 2 WITH ITS VIRAL PARTNER NSP3A                                 
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   L.M.BESSA,S.GUSEVA,A.R.CAMACHO-ZARCO,N.SALVI,D.MAURIN,       
+JRNL        AUTH 2 L.M.PEREZ,M.BOTOVA,A.MALKI,M.NANAO,M.R.JENSEN,R.W.H.RUIGROK, 
+JRNL        AUTH 3 M.BLACKLEDGE                                                 
+JRNL        TITL   THE INTRINSICALLY DISORDERED SARS-COV-2 NUCLEOPROTEIN IN     
+JRNL        TITL 2 DYNAMIC COMPLEX WITH ITS VIRAL PARTNER NSP3A.                
+JRNL        REF    SCI ADV                       V.   8 M4034 2022              
+JRNL        REFN                   ESSN 2375-2548                               
+JRNL        PMID   35044811                                                     
+JRNL        DOI    10.1126/SCIADV.ABM4034                                       
 REMARK   2                                                                      
 REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
 REMARK   3                                                                      

@@ -3,7 +3,7 @@ data_7N1B
 _entry.id   7N1B 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.350 
+_audit_conform.dict_version    5.354 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -34,51 +34,68 @@ _audit_author.identifier_ORCID
 'Wu, D.'         1 0000-0003-2086-0190 
 'Mariuzza, R.A.' 2 0000-0003-0748-5875 
 # 
-_citation.abstract                  ? 
-_citation.abstract_id_CAS           ? 
-_citation.book_id_ISBN              ? 
-_citation.book_publisher            ? 
-_citation.book_publisher_city       ? 
-_citation.book_title                ? 
-_citation.coordinate_linkage        ? 
-_citation.country                   US 
-_citation.database_id_Medline       ? 
-_citation.details                   ? 
-_citation.id                        primary 
-_citation.journal_abbrev            Biorxiv 
-_citation.journal_id_ASTM           ? 
-_citation.journal_id_CSD            ? 
-_citation.journal_id_ISSN           ? 
-_citation.journal_full              ? 
-_citation.journal_issue             ? 
-_citation.journal_volume            ? 
-_citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
-_citation.title                     
-'Structural basis for recognition of two HLA-A2-restricted SARS-CoV-2 spike epitopes by public and private T cell receptors' 
-_citation.year                      2021 
-_citation.database_id_CSD           ? 
-_citation.pdbx_database_id_DOI      10.1101/2021.07.28.454232 
-_citation.pdbx_database_id_PubMed   ? 
-_citation.pdbx_database_id_patent   ? 
-_citation.unpublished_flag          ? 
+loop_
+_citation.abstract 
+_citation.abstract_id_CAS 
+_citation.book_id_ISBN 
+_citation.book_publisher 
+_citation.book_publisher_city 
+_citation.book_title 
+_citation.coordinate_linkage 
+_citation.country 
+_citation.database_id_Medline 
+_citation.details 
+_citation.id 
+_citation.journal_abbrev 
+_citation.journal_id_ASTM 
+_citation.journal_id_CSD 
+_citation.journal_id_ISSN 
+_citation.journal_full 
+_citation.journal_issue 
+_citation.journal_volume 
+_citation.language 
+_citation.page_first 
+_citation.page_last 
+_citation.title 
+_citation.year 
+_citation.database_id_CSD 
+_citation.pdbx_database_id_DOI 
+_citation.pdbx_database_id_PubMed 
+_citation.pdbx_database_id_patent 
+_citation.unpublished_flag 
+? ? ? ? ? ? ? UK ? ? primary 'Nat Commun' ? ? 2041-1723 ? ? 13 ? 19 19 
+'Structural assessment of HLA-A2-restricted SARS-CoV-2 spike epitopes recognized by public and private T-cell receptors.'    2022 
+? 10.1038/s41467-021-27669-8 35013235 ? ? 
+? ? ? ? ? ? ? US ? ? 1       Biorxiv      ? ? ?         ? ? ?  ? ?  ?  
+'Structural basis for recognition of two HLA-A2-restricted SARS-CoV-2 spike epitopes by public and private T cell receptors' 2021 
+? 10.1101/2021.07.28.454232  ?        ? ? 
 # 
 loop_
 _citation_author.citation_id 
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Wu, D.'         1  ? 
-primary 'Kolesnikov, A.' 2  ? 
-primary 'Yin, R.'        3  ? 
-primary 'Guest, J.D.'    4  ? 
-primary 'Gowthaman, R.'  5  ? 
-primary 'Shmelev, A.'    6  ? 
-primary 'Serdyuk, Y.'    7  ? 
-primary 'Efimov, G.A.'   8  ? 
-primary 'Pierce, B.G.'   9  ? 
-primary 'Mariuzza, R.A.' 10 ? 
+primary 'Wu, D.'         1  0000-0003-2086-0190 
+primary 'Kolesnikov, A.' 2  ?                   
+primary 'Yin, R.'        3  0000-0001-5330-8306 
+primary 'Guest, J.D.'    4  0000-0003-1521-5242 
+primary 'Gowthaman, R.'  5  0000-0002-0008-6401 
+primary 'Shmelev, A.'    6  0000-0002-4842-9338 
+primary 'Serdyuk, Y.'    7  0000-0003-1573-7614 
+primary 'Dianov, D.V.'   8  ?                   
+primary 'Efimov, G.A.'   9  0000-0001-7129-6062 
+primary 'Pierce, B.G.'   10 0000-0003-4821-0368 
+primary 'Mariuzza, R.A.' 11 0000-0003-0748-5875 
+1       'Wu, D.'         12 ?                   
+1       'Kolesnikov, A.' 13 ?                   
+1       'Yin, R.'        14 ?                   
+1       'Guest, J.D.'    15 ?                   
+1       'Gowthaman, R.'  16 ?                   
+1       'Shmelev, A.'    17 ?                   
+1       'Serdyuk, Y.'    18 ?                   
+1       'Efimov, G.A.'   19 ?                   
+1       'Pierce, B.G.'   20 ?                   
+1       'Mariuzza, R.A.' 21 ?                   
 # 
 _cell.angle_alpha                  91.890 
 _cell.angle_alpha_esd              ? 
@@ -8770,6 +8787,7 @@ _pdbx_audit_revision_history.revision_date
 1 'Structure model' 1 0 2021-07-28 
 2 'Structure model' 1 1 2021-08-18 
 3 'Structure model' 2 0 2021-09-22 
+4 'Structure model' 2 1 2022-02-02 
 # 
 loop_
 _pdbx_audit_revision_details.ordinal 
@@ -8793,6 +8811,7 @@ _pdbx_audit_revision_group.group
 4 3 'Structure model' 'Data collection'        
 5 3 'Structure model' 'Derived calculations'   
 6 3 'Structure model' 'Refinement description' 
+7 4 'Structure model' 'Database references'    
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -8820,6 +8839,8 @@ _pdbx_audit_revision_category.category
 19 3 'Structure model' struct_sheet                
 20 3 'Structure model' struct_sheet_order          
 21 3 'Structure model' struct_sheet_range          
+22 4 'Structure model' citation                    
+23 4 'Structure model' citation_author             
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 

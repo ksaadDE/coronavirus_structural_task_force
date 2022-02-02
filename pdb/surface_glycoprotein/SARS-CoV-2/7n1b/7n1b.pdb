@@ -36,18 +36,29 @@ SOURCE  20 ORGANISM_TAXID: 2697049
 KEYWDS    PMHC, SARS-COV-2, SPIKE, RLQ, IMMUNE SYSTEM                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.WU,R.A.MARIUZZA                                                     
+REVDAT   4   02-FEB-22 7N1B    1       JRNL                                     
 REVDAT   3   22-SEP-21 7N1B    1       REMARK HELIX  SHEET  SSBOND              
 REVDAT   3 2                   1       ATOM                                     
 REVDAT   2   18-AUG-21 7N1B    1       JRNL                                     
 REVDAT   1   28-JUL-21 7N1B    0                                                
 JRNL        AUTH   D.WU,A.KOLESNIKOV,R.YIN,J.D.GUEST,R.GOWTHAMAN,A.SHMELEV,     
-JRNL        AUTH 2 Y.SERDYUK,G.A.EFIMOV,B.G.PIERCE,R.A.MARIUZZA                 
-JRNL        TITL   STRUCTURAL BASIS FOR RECOGNITION OF TWO HLA-A2-RESTRICTED    
-JRNL        TITL 2 SARS-COV-2 SPIKE EPITOPES BY PUBLIC AND PRIVATE T CELL       
-JRNL        TITL 3 RECEPTORS                                                    
-JRNL        REF    BIORXIV                                    2021              
-JRNL        REFN                                                                
-JRNL        DOI    10.1101/2021.07.28.454232                                    
+JRNL        AUTH 2 Y.SERDYUK,D.V.DIANOV,G.A.EFIMOV,B.G.PIERCE,R.A.MARIUZZA      
+JRNL        TITL   STRUCTURAL ASSESSMENT OF HLA-A2-RESTRICTED SARS-COV-2 SPIKE  
+JRNL        TITL 2 EPITOPES RECOGNIZED BY PUBLIC AND PRIVATE T-CELL RECEPTORS.  
+JRNL        REF    NAT COMMUN                    V.  13    19 2022              
+JRNL        REFN                   ESSN 2041-1723                               
+JRNL        PMID   35013235                                                     
+JRNL        DOI    10.1038/S41467-021-27669-8                                   
+REMARK   1                                                                      
+REMARK   1 REFERENCE 1                                                          
+REMARK   1  AUTH   D.WU,A.KOLESNIKOV,R.YIN,J.D.GUEST,R.GOWTHAMAN,A.SHMELEV,     
+REMARK   1  AUTH 2 Y.SERDYUK,G.A.EFIMOV,B.G.PIERCE,R.A.MARIUZZA                 
+REMARK   1  TITL   STRUCTURAL BASIS FOR RECOGNITION OF TWO HLA-A2-RESTRICTED    
+REMARK   1  TITL 2 SARS-COV-2 SPIKE EPITOPES BY PUBLIC AND PRIVATE T CELL       
+REMARK   1  TITL 3 RECEPTORS                                                    
+REMARK   1  REF    BIORXIV                                    2021              
+REMARK   1  REFN                                                                
+REMARK   1  DOI    10.1101/2021.07.28.454232                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.81 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -6835,5 +6846,5 @@ CONECT 4800 5250
 CONECT 5250 4800                                                                
 CONECT 5565 6024                                                                
 CONECT 6024 5565                                                                
-MASTER      342    0    0   13   64    0    0    6 6261    6   12   62          
+MASTER      352    0    0   13   64    0    0    6 6261    6   12   62          
 END                                                                             

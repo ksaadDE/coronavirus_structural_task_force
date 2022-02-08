@@ -4,7 +4,7 @@ data_7QNY
 _entry.id   7QNY
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.353
+_audit_conform.dict_version    5.354
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -44,108 +44,334 @@ _audit_author.identifier_ORCID
 'Ren, J.'      2 ?
 'Stuart, D.I.' 3 ?
 #
-_citation.abstract                  ?
-_citation.abstract_id_CAS           ?
-_citation.book_id_ISBN              ?
-_citation.book_publisher            ?
-_citation.book_publisher_city       ?
-_citation.book_title                ?
-_citation.coordinate_linkage        ?
-_citation.country                   US
-_citation.database_id_Medline       ?
-_citation.details                   ?
-_citation.id                        primary
-_citation.journal_abbrev            'Cell(Cambridge,Mass.)'
-_citation.journal_id_ASTM           CELLB5
-_citation.journal_id_CSD            0998
-_citation.journal_id_ISSN           0092-8674
-_citation.journal_full              ?
-_citation.journal_issue             ?
-_citation.journal_volume            ?
-_citation.language                  ?
-_citation.page_first                ?
-_citation.page_last                 ?
-_citation.title                     'SARS-CoV-2 Omicron-B.1.1.529 leads to wides
-_citation.year                      2022
-_citation.database_id_CSD           ?
-_citation.pdbx_database_id_DOI      10.1016/j.cell.2021.12.046
-_citation.pdbx_database_id_PubMed   ?
-_citation.pdbx_database_id_patent   ?
-_citation.unpublished_flag          ?
+loop_
+_citation.abstract
+_citation.abstract_id_CAS
+_citation.book_id_ISBN
+_citation.book_publisher
+_citation.book_publisher_city
+_citation.book_title
+_citation.coordinate_linkage
+_citation.country
+_citation.database_id_Medline
+_citation.details
+_citation.id
+_citation.journal_abbrev
+_citation.journal_id_ASTM
+_citation.journal_id_CSD
+_citation.journal_id_ISSN
+_citation.journal_full
+_citation.journal_issue
+_citation.journal_volume
+_citation.language
+_citation.page_first
+_citation.page_last
+_citation.title
+_citation.year
+_citation.database_id_CSD
+_citation.pdbx_database_id_DOI
+_citation.pdbx_database_id_PubMed
+_citation.pdbx_database_id_patent
+_citation.unpublished_flag
+? ? ? ? ? ? ? US ? ? primary Biorxiv                 ?      ?    ?         ? ? ?
+'Omicron-B.1.1.529 leads to widespread escape from neutralizing antibody respons
+34981049 ? ?
+? ? ? ? ? ? ? US ? ? 1       Biorxiv                 ?      ?    ?         ? ? ?
+'Omicron-B.1.1.529 leads to widespread escape from neutralizing antibody respons
+34981049 ? ?
+? ? ? ? ? ? ? US ? ? 2       Biorxiv                 ?      ?    ?         ? ? ?
+'Omicron-B.1.1.529 leads to widespread escape from neutralizing antibody respons
+34981049 ? ?
+? ? ? ? ? ? ? US ? ? 3       'Cell(Cambridge,Mass.)' CELLB5 0998 0092-8674 ? ? ?
+'SARS-CoV-2 Omicron-B.1.1.529 leads to widespread escape from neutralizing antib
+? ?
 #
 loop_
 _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Dejnirattisai, W.'   1  ?
-primary 'Huo, J.'             2  ?
-primary 'Zhou, D.'            3  ?
-primary 'Zahradnik, J.'       4  ?
-primary 'Supasa, P.'          5  ?
-primary 'Liu, C.'             6  ?
-primary 'Duyvesteyn, H.M.'    7  ?
-primary 'Ginn, H.M.'          8  ?
-primary 'Mentzer, A.J.'       9  ?
-primary 'Tuekprakhon, A.'     10 ?
-primary 'Nutalai, R.'         11 ?
-primary 'Wang, B.'            12 ?
-primary 'Dijokaite, A.'       13 ?
-primary 'Khan, S.'            14 ?
-primary 'Avinoam, O.'         15 ?
-primary 'Bahar, M.'           16 ?
-primary 'Skelly, D.'          17 ?
-primary 'Adele, S.'           18 ?
-primary 'Johnson, S.A.'       19 ?
-primary 'Amini, A.'           20 ?
-primary 'Ritter, T.'          21 ?
-primary 'Mason, C.'           22 ?
-primary 'Dold, C.'            23 ?
-primary 'Pan, D.'             24 ?
-primary 'Assadi, S.'          25 ?
-primary 'Bellass, A.'         26 ?
-primary 'Omo-Dare, N.'        27 ?
-primary 'Koeckerling, D.'     28 ?
-primary 'Flaxman, A.'         29 ?
-primary 'Jenkin, D.'          30 ?
-primary 'Aley, P.K.'          31 ?
-primary 'Voysey, M.'          32 ?
-primary 'Naveca, F.G.'        33 ?
-primary 'Nascimento, V.'      34 ?
-primary 'Nascimento, F.'      35 ?
-primary 'Resende, P.C.'       36 ?
-primary 'Pauvolid-Correa, A.' 37 ?
-primary 'Siqueira, M.M.'      38 ?
-primary 'Baillie, V.'         39 ?
-primary 'Serafin, N.'         40 ?
-primary 'Kwatra, G.'          41 ?
-primary 'Madhi, S.A.'         42 ?
-primary 'Nunes, M.C.'         43 ?
-primary 'Malik, T.'           44 ?
-primary 'Openshaw, P.J.'      45 ?
-primary 'Baillie, J.K.'       46 ?
-primary 'Semple, M.G.'        47 ?
-primary 'Townsend, A.R.'      48 ?
-primary 'Huang, K.Y.A.'       49 ?
-primary 'Tan, T.K.'           50 ?
-primary 'Carroll, M.W.'       51 ?
-primary 'Klenerman, P.'       52 ?
-primary 'Barnes, E.'          53 ?
-primary 'Dunachie, S.J.'      54 ?
-primary 'Constantinides, B.'  55 ?
-primary 'Webster, H.'         56 ?
-primary 'Crook, D.'           57 ?
-primary 'Pollard, A.J.'       58 ?
-primary 'Lambe, T.'           59 ?
-primary 'Paterson, N.G.'      60 ?
-primary 'Williams, M.A.'      61 ?
-primary 'Hall, D.R.'          62 ?
-primary 'Fry, E.E.'           63 ?
-primary 'Mongkolsapaya, J.'   64 ?
-primary 'Ren, J.'             65 ?
-primary 'Schreiber, G.'       66 ?
-primary 'Stuart, D.I.'        67 ?
-primary 'Screaton, G.R.'      68 ?
+primary 'Dejnirattisai, W.'      1   ?
+primary 'Huo, J.'                2   ?
+primary 'Zhou, D.'               3   ?
+primary 'Zahradnik, J.'          4   ?
+primary 'Supasa, P.'             5   ?
+primary 'Liu, C.'                6   ?
+primary 'Duyvesteyn, H.M.E.'     7   ?
+primary 'Ginn, H.M.'             8   ?
+primary 'Mentzer, A.J.'          9   ?
+primary 'Tuekprakhon, A.'        10  ?
+primary 'Nutalai, R.'            11  ?
+primary 'Wang, B.'               12  ?
+primary 'Dijokaite, A.'          13  ?
+primary 'Khan, S.'               14  ?
+primary 'Avinoam, O.'            15  ?
+primary 'Bahar, M.'              16  ?
+primary 'Skelly, D.'             17  ?
+primary 'Adele, S.'              18  ?
+primary 'Johnson, S.A.'          19  ?
+primary 'Amini, A.'              20  ?
+primary 'Ritter, T.'             21  ?
+primary 'Mason, C.'              22  ?
+primary 'Dold, C.'               23  ?
+primary 'Pan, D.'                24  ?
+primary 'Assadi, S.'             25  ?
+primary 'Bellass, A.'            26  ?
+primary 'Omo-Dare, N.'           27  ?
+primary 'Koeckerling, D.'        28  ?
+primary 'Flaxman, A.'            29  ?
+primary 'Jenkin, D.'             30  ?
+primary 'Aley, P.K.'             31  ?
+primary 'Voysey, M.'             32  0000-0001-6324-6559
+primary 'Costa Clemens, S.A.'    33  ?
+primary 'Naveca, F.G.'           34  ?
+primary 'Nascimento, V.'         35  ?
+primary 'Nascimento, F.'         36  ?
+primary 'Fernandes da Costa, C.' 37  ?
+primary 'Resende, P.C.'          38  0000-0002-2884-3662
+primary 'Pauvolid-Correa, A.'    39  ?
+primary 'Siqueira, M.M.'         40  ?
+primary 'Baillie, V.'            41  ?
+primary 'Serafin, N.'            42  ?
+primary 'Ditse, Z.'              43  ?
+primary 'Silva, K.D.'            44  ?
+primary 'Madhi, S.'              45  ?
+primary 'Nunes, M.C.'            46  ?
+primary 'Malik, T.'              47  ?
+primary 'Openshaw, P.J.'         48  0000-0002-7220-2555
+primary 'Baillie, J.K.'          49  0000-0001-5258-793X
+primary 'Semple, M.G.'           50  0000-0001-9700-0418
+primary 'Townsend, A.R.'         51  0000-0002-3702-0107
+primary 'Huang, K.A.'            52  ?
+primary 'Tan, T.K.'              53  0000-0001-8746-8308
+primary 'Carroll, M.W.'          54  ?
+primary 'Klenerman, P.'          55  ?
+primary 'Barnes, E.'             56  ?
+primary 'Dunachie, S.J.'         57  ?
+primary 'Constantinides, B.'     58  ?
+primary 'Webster, H.'            59  ?
+primary 'Crook, D.'              60  ?
+primary 'Pollard, A.J.'          61  ?
+primary 'Lambe, T.'              62  ?
+primary 'Paterson, N.G.'         63  ?
+primary 'Williams, M.A.'         64  ?
+primary 'Hall, D.R.'             65  ?
+primary 'Fry, E.E.'              66  ?
+primary 'Mongkolsapaya, J.'      67  ?
+primary 'Ren, J.'                68  ?
+primary 'Schreiber, G.'          69  ?
+primary 'Stuart, D.I.'           70  0000-0002-3426-4210
+primary 'Screaton, G.R.'         71  ?
+1       'Dejnirattisai, W.'      72  ?
+1       'Huo, J.'                73  ?
+1       'Zhou, D.'               74  ?
+1       'Zahradnik, J.'          75  ?
+1       'Supasa, P.'             76  ?
+1       'Liu, C.'                77  ?
+1       'Duyvesteyn, H.M.E.'     78  ?
+1       'Ginn, H.M.'             79  ?
+1       'Mentzer, A.J.'          80  ?
+1       'Tuekprakhon, A.'        81  ?
+1       'Nutalai, R.'            82  ?
+1       'Wang, B.'               83  ?
+1       'Dijokaite, A.'          84  ?
+1       'Khan, S.'               85  ?
+1       'Avinoam, O.'            86  ?
+1       'Bahar, M.'              87  ?
+1       'Skelly, D.'             88  ?
+1       'Adele, S.'              89  ?
+1       'Johnson, S.A.'          90  ?
+1       'Amini, A.'              91  ?
+1       'Ritter, T.'             92  ?
+1       'Mason, C.'              93  ?
+1       'Dold, C.'               94  ?
+1       'Pan, D.'                95  ?
+1       'Assadi, S.'             96  ?
+1       'Bellass, A.'            97  ?
+1       'Omo-Dare, N.'           98  ?
+1       'Koeckerling, D.'        99  ?
+1       'Flaxman, A.'            100 ?
+1       'Jenkin, D.'             101 ?
+1       'Aley, P.K.'             102 ?
+1       'Voysey, M.'             103 0000-0001-6324-6559
+1       'Costa Clemens, S.A.'    104 ?
+1       'Naveca, F.G.'           105 ?
+1       'Nascimento, V.'         106 ?
+1       'Nascimento, F.'         107 ?
+1       'Fernandes da Costa, C.' 108 ?
+1       'Resende, P.C.'          109 0000-0002-2884-3662
+1       'Pauvolid-Correa, A.'    110 ?
+1       'Siqueira, M.M.'         111 ?
+1       'Baillie, V.'            112 ?
+1       'Serafin, N.'            113 ?
+1       'Ditse, Z.'              114 ?
+1       'Silva, K.D.'            115 ?
+1       'Madhi, S.'              116 ?
+1       'Nunes, M.C.'            117 ?
+1       'Malik, T.'              118 ?
+1       'Openshaw, P.J.'         119 0000-0002-7220-2555
+1       'Baillie, J.K.'          120 0000-0001-5258-793X
+1       'Semple, M.G.'           121 0000-0001-9700-0418
+1       'Townsend, A.R.'         122 0000-0002-3702-0107
+1       'Huang, K.A.'            123 ?
+1       'Tan, T.K.'              124 0000-0001-8746-8308
+1       'Carroll, M.W.'          125 ?
+1       'Klenerman, P.'          126 ?
+1       'Barnes, E.'             127 ?
+1       'Dunachie, S.J.'         128 ?
+1       'Constantinides, B.'     129 ?
+1       'Webster, H.'            130 ?
+1       'Crook, D.'              131 ?
+1       'Pollard, A.J.'          132 ?
+1       'Lambe, T.'              133 ?
+1       'Paterson, N.G.'         134 ?
+1       'Williams, M.A.'         135 ?
+1       'Hall, D.R.'             136 ?
+1       'Fry, E.E.'              137 ?
+1       'Mongkolsapaya, J.'      138 ?
+1       'Ren, J.'                139 ?
+1       'Schreiber, G.'          140 ?
+1       'Stuart, D.I.'           141 0000-0002-3426-4210
+1       'Screaton, G.R.'         142 ?
+2       'Dejnirattisai, W.'      143 ?
+2       'Huo, J.'                144 ?
+2       'Zhou, D.'               145 ?
+2       'Zahradnik, J.'          146 ?
+2       'Supasa, P.'             147 ?
+2       'Liu, C.'                148 ?
+2       'Duyvesteyn, H.M.E.'     149 ?
+2       'Ginn, H.M.'             150 ?
+2       'Mentzer, A.J.'          151 ?
+2       'Tuekprakhon, A.'        152 ?
+2       'Nutalai, R.'            153 ?
+2       'Wang, B.'               154 ?
+2       'Dijokaite, A.'          155 ?
+2       'Khan, S.'               156 ?
+2       'Avinoam, O.'            157 ?
+2       'Bahar, M.'              158 ?
+2       'Skelly, D.'             159 ?
+2       'Adele, S.'              160 ?
+2       'Johnson, S.A.'          161 ?
+2       'Amini, A.'              162 ?
+2       'Ritter, T.'             163 ?
+2       'Mason, C.'              164 ?
+2       'Dold, C.'               165 ?
+2       'Pan, D.'                166 ?
+2       'Assadi, S.'             167 ?
+2       'Bellass, A.'            168 ?
+2       'Omo-Dare, N.'           169 ?
+2       'Koeckerling, D.'        170 ?
+2       'Flaxman, A.'            171 ?
+2       'Jenkin, D.'             172 ?
+2       'Aley, P.K.'             173 ?
+2       'Voysey, M.'             174 0000-0001-6324-6559
+2       'Costa Clemens, S.A.'    175 ?
+2       'Naveca, F.G.'           176 ?
+2       'Nascimento, V.'         177 ?
+2       'Nascimento, F.'         178 ?
+2       'Fernandes da Costa, C.' 179 ?
+2       'Resende, P.C.'          180 0000-0002-2884-3662
+2       'Pauvolid-Correa, A.'    181 ?
+2       'Siqueira, M.M.'         182 ?
+2       'Baillie, V.'            183 ?
+2       'Serafin, N.'            184 ?
+2       'Ditse, Z.'              185 ?
+2       'Silva, K.D.'            186 ?
+2       'Madhi, S.'              187 ?
+2       'Nunes, M.C.'            188 ?
+2       'Malik, T.'              189 ?
+2       'Openshaw, P.J.'         190 0000-0002-7220-2555
+2       'Baillie, J.K.'          191 0000-0001-5258-793X
+2       'Semple, M.G.'           192 0000-0001-9700-0418
+2       'Townsend, A.R.'         193 0000-0002-3702-0107
+2       'Huang, K.A.'            194 ?
+2       'Tan, T.K.'              195 0000-0001-8746-8308
+2       'Carroll, M.W.'          196 ?
+2       'Klenerman, P.'          197 ?
+2       'Barnes, E.'             198 ?
+2       'Dunachie, S.J.'         199 ?
+2       'Constantinides, B.'     200 ?
+2       'Webster, H.'            201 ?
+2       'Crook, D.'              202 ?
+2       'Pollard, A.J.'          203 ?
+2       'Lambe, T.'              204 ?
+2       'Paterson, N.G.'         205 ?
+2       'Williams, M.A.'         206 ?
+2       'Hall, D.R.'             207 ?
+2       'Fry, E.E.'              208 ?
+2       'Mongkolsapaya, J.'      209 ?
+2       'Ren, J.'                210 ?
+2       'Schreiber, G.'          211 ?
+2       'Stuart, D.I.'           212 0000-0002-3426-4210
+2       'Screaton, G.R.'         213 ?
+3       'Dejnirattisai, W.'      214 ?
+3       'Huo, J.'                215 ?
+3       'Zhou, D.'               216 ?
+3       'Zahradnik, J.'          217 ?
+3       'Supasa, P.'             218 ?
+3       'Liu, C.'                219 ?
+3       'Duyvesteyn, H.M.'       220 ?
+3       'Ginn, H.M.'             221 ?
+3       'Mentzer, A.J.'          222 ?
+3       'Tuekprakhon, A.'        223 ?
+3       'Nutalai, R.'            224 ?
+3       'Wang, B.'               225 ?
+3       'Dijokaite, A.'          226 ?
+3       'Khan, S.'               227 ?
+3       'Avinoam, O.'            228 ?
+3       'Bahar, M.'              229 ?
+3       'Skelly, D.'             230 ?
+3       'Adele, S.'              231 ?
+3       'Johnson, S.A.'          232 ?
+3       'Amini, A.'              233 ?
+3       'Ritter, T.'             234 ?
+3       'Mason, C.'              235 ?
+3       'Dold, C.'               236 ?
+3       'Pan, D.'                237 ?
+3       'Assadi, S.'             238 ?
+3       'Bellass, A.'            239 ?
+3       'Omo-Dare, N.'           240 ?
+3       'Koeckerling, D.'        241 ?
+3       'Flaxman, A.'            242 ?
+3       'Jenkin, D.'             243 ?
+3       'Aley, P.K.'             244 ?
+3       'Voysey, M.'             245 ?
+3       'Naveca, F.G.'           246 ?
+3       'Nascimento, V.'         247 ?
+3       'Nascimento, F.'         248 ?
+3       'Resende, P.C.'          249 ?
+3       'Pauvolid-Correa, A.'    250 ?
+3       'Siqueira, M.M.'         251 ?
+3       'Baillie, V.'            252 ?
+3       'Serafin, N.'            253 ?
+3       'Kwatra, G.'             254 ?
+3       'Madhi, S.A.'            255 ?
+3       'Nunes, M.C.'            256 ?
+3       'Malik, T.'              257 ?
+3       'Openshaw, P.J.'         258 ?
+3       'Baillie, J.K.'          259 ?
+3       'Semple, M.G.'           260 ?
+3       'Townsend, A.R.'         261 ?
+3       'Huang, K.Y.A.'          262 ?
+3       'Tan, T.K.'              263 ?
+3       'Carroll, M.W.'          264 ?
+3       'Klenerman, P.'          265 ?
+3       'Barnes, E.'             266 ?
+3       'Dunachie, S.J.'         267 ?
+3       'Constantinides, B.'     268 ?
+3       'Webster, H.'            269 ?
+3       'Crook, D.'              270 ?
+3       'Pollard, A.J.'          271 ?
+3       'Lambe, T.'              272 ?
+3       'Paterson, N.G.'         273 ?
+3       'Williams, M.A.'         274 ?
+3       'Hall, D.R.'             275 ?
+3       'Fry, E.E.'              276 ?
+3       'Mongkolsapaya, J.'      277 ?
+3       'Ren, J.'                278 ?
+3       'Schreiber, G.'          279 ?
+3       'Stuart, D.I.'           280 ?
+3       'Screaton, G.R.'         281 ?
 #
 _cell.angle_alpha                  90.000
 _cell.angle_alpha_esd              ?
@@ -19624,11 +19850,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000
 _pdbx_struct_oper_list.vector[3]            0.0000000000
 #
-_pdbx_audit_revision_history.ordinal             1
-_pdbx_audit_revision_history.data_content_type   'Structure model'
-_pdbx_audit_revision_history.major_revision      1
-_pdbx_audit_revision_history.minor_revision      0
-_pdbx_audit_revision_history.revision_date       2022-01-19
+loop_
+_pdbx_audit_revision_history.ordinal
+_pdbx_audit_revision_history.data_content_type
+_pdbx_audit_revision_history.major_revision
+_pdbx_audit_revision_history.minor_revision
+_pdbx_audit_revision_history.revision_date
+1 'Structure model' 1 0 2022-01-19
+2 'Structure model' 1 1 2022-02-02
 #
 _pdbx_audit_revision_details.ordinal             1
 _pdbx_audit_revision_details.revision_ordinal    1
@@ -19637,6 +19866,19 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ?
 _pdbx_audit_revision_details.details             ?
+#
+_pdbx_audit_revision_group.ordinal             1
+_pdbx_audit_revision_group.revision_ordinal    2
+_pdbx_audit_revision_group.data_content_type   'Structure model'
+_pdbx_audit_revision_group.group               'Database references'
+#
+loop_
+_pdbx_audit_revision_category.ordinal
+_pdbx_audit_revision_category.revision_ordinal
+_pdbx_audit_revision_category.data_content_type
+_pdbx_audit_revision_category.category
+1 2 'Structure model' citation
+2 2 'Structure model' citation_author
 #
 loop_
 _space_group_symop.id

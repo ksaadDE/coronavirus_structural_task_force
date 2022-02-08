@@ -4,7 +4,7 @@ data_7PKU
 _entry.id   7PKU
 #
 _audit_conform.dict_name       mmcif_pdbx.dic
-_audit_conform.dict_version    5.353
+_audit_conform.dict_version    5.354
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdb
 #
 loop_
@@ -51,25 +51,26 @@ _citation.book_publisher            ?
 _citation.book_publisher_city       ?
 _citation.book_title                ?
 _citation.coordinate_linkage        ?
-_citation.country                   ?
+_citation.country                   US
 _citation.database_id_Medline       ?
 _citation.details                   ?
 _citation.id                        primary
-_citation.journal_abbrev            'To Be Published'
+_citation.journal_abbrev            'Sci Adv'
 _citation.journal_id_ASTM           ?
-_citation.journal_id_CSD            0353
-_citation.journal_id_ISSN           ?
+_citation.journal_id_CSD            ?
+_citation.journal_id_ISSN           2375-2548
 _citation.journal_full              ?
 _citation.journal_issue             ?
-_citation.journal_volume            ?
+_citation.journal_volume            8
 _citation.language                  ?
-_citation.page_first                ?
-_citation.page_last                 ?
-_citation.title                     'Structure of SARS-CoV-2 nucleoprotein in dy
-_citation.year                      ?
+_citation.page_first                eabm4034
+_citation.page_last                 eabm4034
+_citation.title
+'The intrinsically disordered SARS-CoV-2 nucleoprotein in dynamic complex with i
+_citation.year                      2022
 _citation.database_id_CSD           ?
-_citation.pdbx_database_id_DOI      ?
-_citation.pdbx_database_id_PubMed   ?
+_citation.pdbx_database_id_DOI      10.1126/sciadv.abm4034
+_citation.pdbx_database_id_PubMed   35044811
 _citation.pdbx_database_id_patent   ?
 _citation.unpublished_flag          ?
 #
@@ -78,11 +79,18 @@ _citation_author.citation_id
 _citation_author.name
 _citation_author.ordinal
 _citation_author.identifier_ORCID
-primary 'Bessa, L.M.'         1 ?
-primary 'Guseva, S.'          2 ?
-primary 'Camacho-Zarco, A.R.' 3 ?
-primary 'Salvi, N.'           4 ?
-primary 'Blackledge, M.'      5 ?
+primary 'Bessa, L.M.'         1  0000-0002-1993-3105
+primary 'Guseva, S.'          2  0000-0001-9706-5035
+primary 'Camacho-Zarco, A.R.' 3  0000-0002-0186-8544
+primary 'Salvi, N.'           4  0000-0003-1515-6908
+primary 'Maurin, D.'          5  ?
+primary 'Perez, L.M.'         6  0000-0003-1658-7179
+primary 'Botova, M.'          7  ?
+primary 'Malki, A.'           8  0000-0001-8336-8289
+primary 'Nanao, M.'           9  ?
+primary 'Jensen, M.R.'        10 0000-0003-0419-2196
+primary 'Ruigrok, R.W.H.'     11 0000-0002-8094-6642
+primary 'Blackledge, M.'      12 0000-0003-0935-721X
 #
 loop_
 _entity.id
@@ -26783,11 +26791,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000
 _pdbx_struct_oper_list.vector[3]            0.0000000000
 #
-_pdbx_audit_revision_history.ordinal             1
-_pdbx_audit_revision_history.data_content_type   'Structure model'
-_pdbx_audit_revision_history.major_revision      1
-_pdbx_audit_revision_history.minor_revision      0
-_pdbx_audit_revision_history.revision_date       2022-01-19
+loop_
+_pdbx_audit_revision_history.ordinal
+_pdbx_audit_revision_history.data_content_type
+_pdbx_audit_revision_history.major_revision
+_pdbx_audit_revision_history.minor_revision
+_pdbx_audit_revision_history.revision_date
+1 'Structure model' 1 0 2022-01-19
+2 'Structure model' 1 1 2022-02-02
 #
 _pdbx_audit_revision_details.ordinal             1
 _pdbx_audit_revision_details.revision_ordinal    1
@@ -26796,6 +26807,36 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release'
 _pdbx_audit_revision_details.description         ?
 _pdbx_audit_revision_details.details             ?
+#
+_pdbx_audit_revision_group.ordinal             1
+_pdbx_audit_revision_group.revision_ordinal    2
+_pdbx_audit_revision_group.data_content_type   'Structure model'
+_pdbx_audit_revision_group.group               'Database references'
+#
+loop_
+_pdbx_audit_revision_category.ordinal
+_pdbx_audit_revision_category.revision_ordinal
+_pdbx_audit_revision_category.data_content_type
+_pdbx_audit_revision_category.category
+1 2 'Structure model' citation
+2 2 'Structure model' citation_author
+#
+loop_
+_pdbx_audit_revision_item.ordinal
+_pdbx_audit_revision_item.revision_ordinal
+_pdbx_audit_revision_item.data_content_type
+_pdbx_audit_revision_item.item
+1  2 'Structure model' '_citation.country'
+2  2 'Structure model' '_citation.journal_abbrev'
+3  2 'Structure model' '_citation.journal_id_CSD'
+4  2 'Structure model' '_citation.journal_id_ISSN'
+5  2 'Structure model' '_citation.journal_volume'
+6  2 'Structure model' '_citation.page_first'
+7  2 'Structure model' '_citation.page_last'
+8  2 'Structure model' '_citation.pdbx_database_id_DOI'
+9  2 'Structure model' '_citation.pdbx_database_id_PubMed'
+10 2 'Structure model' '_citation.title'
+11 2 'Structure model' '_citation.year'
 #
 loop_
 _pdbx_nmr_exptl_sample.solution_id

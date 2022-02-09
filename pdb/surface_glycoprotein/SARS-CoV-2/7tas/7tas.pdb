@@ -39,6 +39,7 @@ KEYWDS   4 PROTEIN-IMMUNE SYSTEM COMPLEX
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    Y.J.PARK,D.VEESLER,SEATTLE STRUCTURAL GENOMICS CENTER FOR INFECTIOUS  
 AUTHOR   2 DISEASE (SSGCID)                                                     
+REVDAT   3   09-FEB-22 7TAS    1       JRNL                                     
 REVDAT   2   19-JAN-22 7TAS    1       JRNL                                     
 REVDAT   1   12-JAN-22 7TAS    0                                                
 JRNL        AUTH   Y.J.PARK,A.DE MARCO,T.N.STARR,Z.LIU,D.PINTO,A.C.WALLS,       
@@ -48,7 +49,7 @@ JRNL        AUTH 4 L.E.ROSEN,F.A.LEMPP,F.BENIGNI,G.SNELL,J.NEYTS,S.P.J.WHELAN,
 JRNL        AUTH 5 H.W.VIRGIN,J.D.BLOOM,D.CORTI,M.S.PIZZUTO,D.VEESLER           
 JRNL        TITL   ANTIBODY-MEDIATED BROAD SARBECOVIRUS NEUTRALIZATION THROUGH  
 JRNL        TITL 2 ACE2 MOLECULAR MIMICRY.                                      
-JRNL        REF    SCIENCE                              M8143 2022              
+JRNL        REF    SCIENCE                       V. 375   449 2022              
 JRNL        REFN                   ESSN 1095-9203                               
 JRNL        PMID   34990214                                                     
 JRNL        DOI    10.1126/SCIENCE.ABM8143                                      

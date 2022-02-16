@@ -40,12 +40,14 @@ KEYWDS    COMPLEX, CORONAVIRUS, RNA NUCLEAR EXPORT, PROTEIN BINDING, VIRAL
 KEYWDS   2 PROTEIN                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.LI,H.GUO,T.YANG,Y.WEN,X.JI                                          
+REVDAT   2   16-FEB-22 7VPH    1       JRNL                                     
 REVDAT   1   19-JAN-22 7VPH    0                                                
 JRNL        AUTH   T.LI,Y.WEN,H.GUO,T.YANG,H.YANG,X.JI                          
 JRNL        TITL   MOLECULAR MECHANISM OF SARS-COVS ORF6 TARGETING THE          
-JRNL        TITL 2 RAE1-NUP98 COMPLEX TO COMPETE WITH MRNA NUCLEAR EXPORT       
-JRNL        REF    FRONT MOL BIOSCI                           2022              
+JRNL        TITL 2 RAE1-NUP98 COMPLEX TO COMPETE WITH MRNA NUCLEAR EXPORT.      
+JRNL        REF    FRONT MOL BIOSCI              V.   8 13248 2021              
 JRNL        REFN                   ESSN 2296-889X                               
+JRNL        PMID   35096974                                                     
 JRNL        DOI    10.3389/FMOLB.2021.813248                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       

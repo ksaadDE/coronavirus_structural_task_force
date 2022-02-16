@@ -36,14 +36,16 @@ KEYWDS    ANTIBODY, SARS-COV-2 SPIKE, VIRAL PROTEIN, VIRAL PROTEIN-IMMUNE
 KEYWDS   2 SYSTEM COMPLEX                                                       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    L.ZHANG,X.WANG,S.ZHANG,S.SHAN                                         
+REVDAT   2   16-FEB-22 7FAF    1       JRNL                                     
 REVDAT   1   22-DEC-21 7FAF    0                                                
 JRNL        AUTH   S.SHAN,C.K.MOK,S.ZHANG,J.LAN,J.LI,Z.YANG,R.WANG,L.CHENG,     
 JRNL        AUTH 2 M.FANG,Z.Q.AW,J.YU,Q.ZHANG,X.SHI,T.ZHANG,Z.ZHANG,J.WANG,     
 JRNL        AUTH 3 X.WANG,J.J.H.CHU,L.ZHANG                                     
 JRNL        TITL   A POTENT AND PROTECTIVE HUMAN NEUTRALIZING ANTIBODY AGAINST  
-JRNL        TITL 2 SARS-COV-2 VARIANTS                                          
-JRNL        REF    FRONT IMMUNOL                 V.  13       2021              
+JRNL        TITL 2 SARS-COV-2 VARIANTS.                                         
+JRNL        REF    FRONT IMMUNOL                 V.  12 66821 2021              
 JRNL        REFN                   ESSN 1664-3224                               
+JRNL        PMID   34966387                                                     
 JRNL        DOI    10.3389/FIMMU.2021.766821                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.69 ANGSTROMS.                                       

@@ -16,14 +16,17 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SPIKE, FUSION PROTEIN, VIRAL PROTEIN                                  
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    R.HENDERSON,P.ACHARYA                                                 
+REVDAT   2   16-FEB-22 7TLC    1       JRNL                                     
 REVDAT   1   02-FEB-22 7TLC    0                                                
-JRNL        AUTH   S.M.C.GOBEIL,R.HENDERSON,V.STALLS,K.JANOWSKA,X.HUANG,A.MAY,  
-JRNL        AUTH 2 K.MANNAE,E.BEAUDOIN,D.LI,R.PARKS,M.BARR,M.DAYTON,M.MARTIN,   
-JRNL        AUTH 3 K.MANSOURI,R.J.EDWARDS,W.WILLIAMS,K.WIEHE,K.SAUNDERS,        
-JRNL        AUTH 4 G.SEMPOWSKI,B.KORBER,B.F.HAYNES,P.ACHARYA                    
-JRNL        TITL   STRUCTURAL DIVERSITY OF THE SARS-COV-2 OMICRON SPIKE         
-JRNL        REF    TO BE PUBLISHED                                              
+JRNL        AUTH   S.M.GOBEIL,R.HENDERSON,V.STALLS,K.JANOWSKA,X.HUANG,A.MAY,    
+JRNL        AUTH 2 M.SPEAKMAN,E.BEAUDOIN,K.MANNE,D.LI,R.PARKS,M.BARR,M.DEYTON,  
+JRNL        AUTH 3 M.MARTIN,K.MANSOURI,R.J.EDWARDS,G.D.SEMPOWSKI,K.O.SAUNDERS,  
+JRNL        AUTH 4 K.WIEHE,W.WILLIAMS,B.KORBER,B.F.HAYNES,P.ACHARYA             
+JRNL        TITL   STRUCTURAL DIVERSITY OF THE SARS-COV-2 OMICRON SPIKE.        
+JRNL        REF    BIORXIV                                    2022              
 JRNL        REFN                                                                
+JRNL        PMID   35118469                                                     
+JRNL        DOI    10.1101/2022.01.25.477784                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.83 ANGSTROMS.                                       
 REMARK   3                                                                      

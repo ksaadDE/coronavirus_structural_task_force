@@ -38,19 +38,21 @@ EXPDTA    X-RAY DIFFRACTION
 AUTHOR    S.KITA,T.ONODERA,Y.ADACHI,S.MORIAYMA,T.NOMURA,T.TADOKORO,Y.ANRAKU,    
 AUTHOR   2 K.YUMOTO,C.TIAN,H.FUKUHARA,T.SUZUKI,K.TONOUCHI,J.SASAKI,L.SUN,       
 AUTHOR   3 T.HASHIGUCHI,Y.TAKAHASHI,K.MAENAKA                                   
+REVDAT   2   16-FEB-22 7E5O    1       JRNL                                     
 REVDAT   1   08-SEP-21 7E5O    0                                                
-JRNL        AUTH   T.ONODERA,S.KITA,Y.ADACHI,S.MORIAYMA,A.SATO,T.NOMURA,        
+JRNL        AUTH   T.ONODERA,S.KITA,Y.ADACHI,S.MORIYAMA,A.SATO,T.NOMURA,        
 JRNL        AUTH 2 S.SAKAKIBARA,T.INOUE,T.TADOKORO,Y.ANRAKU,K.YUMOTO,C.TIAN,    
 JRNL        AUTH 3 H.FUKUHARA,M.SASAKI,Y.ORBA,N.SHIWA,N.IWATA,N.NAGATA,         
-JRNL        AUTH 4 T.SUZUKI,J.SASAKI,T.SEKIZUKA,K.TONOUCHI,L.SUN,A.FUKUSHI,     
+JRNL        AUTH 4 T.SUZUKI,J.SASAKI,T.SEKIZUKA,K.TONOUCHI,L.SUN,S.FUKUSHI,     
 JRNL        AUTH 5 H.SATOFUKA,Y.KAZUKI,M.OSHIMURA,T.KUROSAKI,M.KURODA,          
 JRNL        AUTH 6 Y.MATSUURA,T.SUZUKI,H.SAWA,T.HASHIGUCHI,K.MAENAKA,           
 JRNL        AUTH 7 Y.TAKAHASHI                                                  
 JRNL        TITL   A SARS-COV-2 ANTIBODY BROADLY NEUTRALIZES SARS-RELATED       
 JRNL        TITL 2 CORONAVIRUSES AND VARIANTS BY COORDINATED RECOGNITION OF A   
-JRNL        TITL 3 VIRUS VULNERABLE SITE.                                       
-JRNL        REF    IMMUNITY                                   2021              
+JRNL        TITL 3 VIRUS-VULNERABLE SITE.                                       
+JRNL        REF    IMMUNITY                      V.  54  2385 2021              
 JRNL        REFN                   ISSN 1074-7613                               
+JRNL        PMID   34508662                                                     
 JRNL        DOI    10.1016/J.IMMUNI.2021.08.025                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       

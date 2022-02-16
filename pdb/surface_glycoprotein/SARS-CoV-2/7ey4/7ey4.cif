@@ -3,7 +3,7 @@ data_7EY4
 _entry.id   7EY4 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.348 
+_audit_conform.dict_version    5.354 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -54,10 +54,10 @@ _citation.journal_id_CSD            ?
 _citation.journal_id_ISSN           1001-0602 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            31 
 _citation.language                  ? 
-_citation.page_first                ? 
-_citation.page_last                 ? 
+_citation.page_first                1130 
+_citation.page_last                 1133 
 _citation.title                     
 'Structures of SARS-CoV-2 B.1.351 neutralizing antibodies provide insights into cocktail design against concerning variants.' 
 _citation.year                      2021 
@@ -72,16 +72,16 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Du, S.'       1  0000-0003-0936-0785 
-primary 'Liu, P.'      2  ?                   
-primary 'Zhang, Z.'    3  0000-0002-5690-9796 
-primary 'Xiao, T.'     4  ?                   
-primary 'Yasimayi, A.' 5  ?                   
-primary 'Huang, W.'    6  0000-0002-4246-8889 
-primary 'Wang, Y.'     7  0000-0001-9769-5141 
-primary 'Cao, Y.'      8  0000-0001-5918-1078 
-primary 'Xie, X.S.'    9  0000-0001-9281-5239 
-primary 'Xiao, J.'     10 0000-0003-1822-1701 
+primary 'Du, S.'       1  ? 
+primary 'Liu, P.'      2  ? 
+primary 'Zhang, Z.'    3  ? 
+primary 'Xiao, T.'     4  ? 
+primary 'Yasimayi, A.' 5  ? 
+primary 'Huang, W.'    6  ? 
+primary 'Wang, Y.'     7  ? 
+primary 'Cao, Y.'      8  ? 
+primary 'Xie, X.S.'    9  ? 
+primary 'Xiao, J.'     10 ? 
 # 
 _cell.angle_alpha                  90.00 
 _cell.angle_alpha_esd              ? 
@@ -9811,6 +9811,7 @@ _pdbx_audit_revision_history.minor_revision
 _pdbx_audit_revision_history.revision_date 
 1 'Structure model' 1 0 2021-09-08 
 2 'Structure model' 1 1 2021-09-15 
+3 'Structure model' 1 2 2022-02-16 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -9828,6 +9829,7 @@ _pdbx_audit_revision_group.group
 1 2 'Structure model' 'Database references' 
 2 2 'Structure model' 'Source and taxonomy' 
 3 2 'Structure model' 'Structure summary'   
+4 3 'Structure model' 'Database references' 
 # 
 loop_
 _pdbx_audit_revision_category.ordinal 
@@ -9841,6 +9843,8 @@ _pdbx_audit_revision_category.category
 5 2 'Structure model' struct_ref                       
 6 2 'Structure model' struct_ref_seq                   
 7 2 'Structure model' struct_ref_seq_dif               
+8 3 'Structure model' citation                         
+9 3 'Structure model' citation_author                  
 # 
 loop_
 _pdbx_audit_revision_item.ordinal 
@@ -9859,6 +9863,10 @@ _pdbx_audit_revision_item.item
 10 2 'Structure model' '_struct_ref.pdbx_db_accession'                  
 11 2 'Structure model' '_struct_ref.pdbx_seq_one_letter_code'           
 12 2 'Structure model' '_struct_ref_seq.pdbx_db_accession'              
+13 3 'Structure model' '_citation.journal_volume'                       
+14 3 'Structure model' '_citation.page_first'                           
+15 3 'Structure model' '_citation.page_last'                            
+16 3 'Structure model' '_citation_author.identifier_ORCID'              
 # 
 _software.citation_id            ? 
 _software.classification         refinement 

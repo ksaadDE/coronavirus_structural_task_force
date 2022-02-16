@@ -3,7 +3,7 @@ data_7E5O
 _entry.id   7E5O 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.348 
+_audit_conform.dict_version    5.354 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -66,17 +66,17 @@ _citation.journal_id_CSD            2048
 _citation.journal_id_ISSN           1074-7613 
 _citation.journal_full              ? 
 _citation.journal_issue             ? 
-_citation.journal_volume            ? 
+_citation.journal_volume            54 
 _citation.language                  ? 
-_citation.page_first                ? 
+_citation.page_first                2385 
 _citation.page_last                 ? 
 _citation.title                     
-;A SARS-CoV-2 Antibody Broadly Neutralizes SARS-related Coronaviruses and Variants by Coordinated Recognition of a Virus Vulnerable Site.
+;A SARS-CoV-2 antibody broadly neutralizes SARS-related coronaviruses and variants by coordinated recognition of a virus-vulnerable site.
 ;
 _citation.year                      2021 
 _citation.database_id_CSD           ? 
 _citation.pdbx_database_id_DOI      10.1016/j.immuni.2021.08.025 
-_citation.pdbx_database_id_PubMed   ? 
+_citation.pdbx_database_id_PubMed   34508662 
 _citation.unpublished_flag          ? 
 # 
 loop_
@@ -84,41 +84,41 @@ _citation_author.citation_id
 _citation_author.name 
 _citation_author.ordinal 
 _citation_author.identifier_ORCID 
-primary 'Onodera, T.'    1  ?                   
-primary 'Kita, S.'       2  0000-0003-3969-302X 
-primary 'Adachi, Y.'     3  ?                   
-primary 'Moriayma, S.'   4  ?                   
-primary 'Sato, A.'       5  ?                   
-primary 'Nomura, T.'     6  ?                   
-primary 'Sakakibara, S.' 7  ?                   
-primary 'Inoue, T.'      8  ?                   
-primary 'Tadokoro, T.'   9  0000-0002-3390-4861 
-primary 'Anraku, Y.'     10 ?                   
-primary 'Yumoto, K.'     11 ?                   
-primary 'Tian, C.'       12 ?                   
-primary 'Fukuhara, H.'   13 ?                   
-primary 'Sasaki, M.'     14 ?                   
-primary 'Orba, Y.'       15 ?                   
-primary 'Shiwa, N.'      16 ?                   
-primary 'Iwata, N.'      17 ?                   
-primary 'Nagata, N.'     18 ?                   
-primary 'Suzuki, T.'     19 ?                   
-primary 'Sasaki, J.'     20 ?                   
-primary 'Sekizuka, T.'   21 ?                   
-primary 'Tonouchi, K.'   22 ?                   
-primary 'Sun, L.'        23 ?                   
-primary 'Fukushi, A.'    24 ?                   
-primary 'Satofuka, H.'   25 ?                   
-primary 'Kazuki, Y.'     26 ?                   
-primary 'Oshimura, M.'   27 ?                   
-primary 'Kurosaki, T.'   28 ?                   
-primary 'Kuroda, M.'     29 ?                   
-primary 'Matsuura, Y.'   30 ?                   
-primary 'Suzuki, T.'     31 0000-0002-6946-3850 
-primary 'Sawa, H.'       32 ?                   
-primary 'Hashiguchi, T.' 33 0000-0001-7578-7571 
-primary 'Maenaka, K.'    34 0000-0002-5459-521X 
-primary 'Takahashi, Y.'  35 0000-0001-6342-4087 
+primary 'Onodera, T.'    1  ? 
+primary 'Kita, S.'       2  ? 
+primary 'Adachi, Y.'     3  ? 
+primary 'Moriyama, S.'   4  ? 
+primary 'Sato, A.'       5  ? 
+primary 'Nomura, T.'     6  ? 
+primary 'Sakakibara, S.' 7  ? 
+primary 'Inoue, T.'      8  ? 
+primary 'Tadokoro, T.'   9  ? 
+primary 'Anraku, Y.'     10 ? 
+primary 'Yumoto, K.'     11 ? 
+primary 'Tian, C.'       12 ? 
+primary 'Fukuhara, H.'   13 ? 
+primary 'Sasaki, M.'     14 ? 
+primary 'Orba, Y.'       15 ? 
+primary 'Shiwa, N.'      16 ? 
+primary 'Iwata, N.'      17 ? 
+primary 'Nagata, N.'     18 ? 
+primary 'Suzuki, T.'     19 ? 
+primary 'Sasaki, J.'     20 ? 
+primary 'Sekizuka, T.'   21 ? 
+primary 'Tonouchi, K.'   22 ? 
+primary 'Sun, L.'        23 ? 
+primary 'Fukushi, S.'    24 ? 
+primary 'Satofuka, H.'   25 ? 
+primary 'Kazuki, Y.'     26 ? 
+primary 'Oshimura, M.'   27 ? 
+primary 'Kurosaki, T.'   28 ? 
+primary 'Kuroda, M.'     29 ? 
+primary 'Matsuura, Y.'   30 ? 
+primary 'Suzuki, T.'     31 ? 
+primary 'Sawa, H.'       32 ? 
+primary 'Hashiguchi, T.' 33 ? 
+primary 'Maenaka, K.'    34 ? 
+primary 'Takahashi, Y.'  35 ? 
 # 
 _cell.angle_alpha                  90.000 
 _cell.angle_alpha_esd              ? 
@@ -12258,11 +12258,14 @@ _pdbx_struct_oper_list.matrix[3][2]         0.0000000000
 _pdbx_struct_oper_list.matrix[3][3]         1.0000000000 
 _pdbx_struct_oper_list.vector[3]            0.0000000000 
 # 
-_pdbx_audit_revision_history.ordinal             1 
-_pdbx_audit_revision_history.data_content_type   'Structure model' 
-_pdbx_audit_revision_history.major_revision      1 
-_pdbx_audit_revision_history.minor_revision      0 
-_pdbx_audit_revision_history.revision_date       2021-09-08 
+loop_
+_pdbx_audit_revision_history.ordinal 
+_pdbx_audit_revision_history.data_content_type 
+_pdbx_audit_revision_history.major_revision 
+_pdbx_audit_revision_history.minor_revision 
+_pdbx_audit_revision_history.revision_date 
+1 'Structure model' 1 0 2021-09-08 
+2 'Structure model' 1 1 2022-02-16 
 # 
 _pdbx_audit_revision_details.ordinal             1 
 _pdbx_audit_revision_details.revision_ordinal    1 
@@ -12271,6 +12274,31 @@ _pdbx_audit_revision_details.provider            repository
 _pdbx_audit_revision_details.type                'Initial release' 
 _pdbx_audit_revision_details.description         ? 
 _pdbx_audit_revision_details.details             ? 
+# 
+_pdbx_audit_revision_group.ordinal             1 
+_pdbx_audit_revision_group.revision_ordinal    2 
+_pdbx_audit_revision_group.data_content_type   'Structure model' 
+_pdbx_audit_revision_group.group               'Database references' 
+# 
+loop_
+_pdbx_audit_revision_category.ordinal 
+_pdbx_audit_revision_category.revision_ordinal 
+_pdbx_audit_revision_category.data_content_type 
+_pdbx_audit_revision_category.category 
+1 2 'Structure model' citation        
+2 2 'Structure model' citation_author 
+# 
+loop_
+_pdbx_audit_revision_item.ordinal 
+_pdbx_audit_revision_item.revision_ordinal 
+_pdbx_audit_revision_item.data_content_type 
+_pdbx_audit_revision_item.item 
+1 2 'Structure model' '_citation.journal_volume'          
+2 2 'Structure model' '_citation.page_first'              
+3 2 'Structure model' '_citation.pdbx_database_id_PubMed' 
+4 2 'Structure model' '_citation.title'                   
+5 2 'Structure model' '_citation_author.identifier_ORCID' 
+6 2 'Structure model' '_citation_author.name'             
 # 
 loop_
 _space_group_symop.id 

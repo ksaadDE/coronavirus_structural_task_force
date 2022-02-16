@@ -53,13 +53,14 @@ SOURCE  28 EXPRESSION_SYSTEM_TAXID: 3885
 KEYWDS    COMPLEX ANTIBODY SARS-COV-2, VIRAL PROTEIN                            
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    P.L.LIU                                                               
+REVDAT   2   16-FEB-22 7EZV    1       JRNL                                     
 REVDAT   1   08-SEP-21 7EZV    0                                                
 JRNL        AUTH   S.DU,P.LIU,Z.ZHANG,T.XIAO,A.YASIMAYI,W.HUANG,Y.WANG,Y.CAO,   
 JRNL        AUTH 2 X.S.XIE,J.XIAO                                               
 JRNL        TITL   STRUCTURES OF SARS-COV-2 B.1.351 NEUTRALIZING ANTIBODIES     
 JRNL        TITL 2 PROVIDE INSIGHTS INTO COCKTAIL DESIGN AGAINST CONCERNING     
 JRNL        TITL 3 VARIANTS.                                                    
-JRNL        REF    CELL RES.                                  2021              
+JRNL        REF    CELL RES.                     V.  31  1130 2021              
 JRNL        REFN                   ISSN 1001-0602                               
 JRNL        PMID   34433900                                                     
 JRNL        DOI    10.1038/S41422-021-00555-0                                   

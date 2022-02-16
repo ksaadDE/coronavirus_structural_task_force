@@ -35,13 +35,19 @@ SOURCE  18 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, SPIKE PROTEIN, NEUTRALIZING ANTIBODY, VIRAL PROTEIN       
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    T.J.YANG,P.Y.YU,H.C.WU,S.T.D.HSU                                      
+REVDAT   2   16-FEB-22 7F62    1       JRNL                                     
 REVDAT   1   04-AUG-21 7F62    0                                                
-JRNL        AUTH   T.J.YANG,P.Y.YU,H.C.WU,S.T.D.HSU                             
-JRNL        TITL   CRYO-EM STRUCTURE OF SARS-COV-2 SPIKE IN COMPLEX WITH A      
-JRNL        TITL 2 NEUTRALIZING ANTIBODY CHAB-25 (FOCUSED REFINEMENT OF S-RBD   
-JRNL        TITL 3 AND CHAB-25 REGION)                                          
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   S.C.SU,T.J.YANG,P.Y.YU,K.H.LIANG,W.Y.CHEN,C.W.YANG,H.T.LIN,  
+JRNL        AUTH 2 M.J.WANG,R.M.LU,H.C.TSO,M.J.CHUNG,T.Y.HSIEH,Y.L.CHANG,       
+JRNL        AUTH 3 S.C.LIN,F.Y.HSU,F.Y.KE,Y.H.WU,Y.C.HWANG,I.J.LIU,J.J.LIANG,   
+JRNL        AUTH 4 C.C.LIAO,H.Y.KO,C.P.SUN,P.Y.WU,J.T.JAN,Y.C.CHANG,Y.L.LIN,    
+JRNL        AUTH 5 M.H.TAO,S.D.HSU,H.C.WU                                       
+JRNL        TITL   STRUCTURE-GUIDED ANTIBODY COCKTAIL FOR PREVENTION AND        
+JRNL        TITL 2 TREATMENT OF COVID-19.                                       
+JRNL        REF    PLOS PATHOG.                  V.  17 09704 2021              
+JRNL        REFN                   ESSN 1553-7374                               
+JRNL        PMID   34673836                                                     
+JRNL        DOI    10.1371/JOURNAL.PPAT.1009704                                 
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.60 ANGSTROMS.                                       
 REMARK   3                                                                      

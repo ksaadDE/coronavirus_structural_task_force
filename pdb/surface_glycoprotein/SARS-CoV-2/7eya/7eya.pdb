@@ -48,6 +48,7 @@ SOURCE  26 EXPRESSION_SYSTEM_TAXID: 9606
 KEYWDS    SARS-COV-2, ANTIBODY, VIRAL PROTEIN                                   
 EXPDTA    ELECTRON MICROSCOPY                                                   
 AUTHOR    S.DU,J.XIAO                                                           
+REVDAT   3   16-FEB-22 7EYA    1       JRNL                                     
 REVDAT   2   15-SEP-21 7EYA    1       REMARK                                   
 REVDAT   1   08-SEP-21 7EYA    0                                                
 JRNL        AUTH   S.DU,P.LIU,Z.ZHANG,T.XIAO,A.YASIMAYI,W.HUANG,Y.WANG,Y.CAO,   
@@ -55,7 +56,7 @@ JRNL        AUTH 2 X.S.XIE,J.XIAO
 JRNL        TITL   STRUCTURES OF SARS-COV-2 B.1.351 NEUTRALIZING ANTIBODIES     
 JRNL        TITL 2 PROVIDE INSIGHTS INTO COCKTAIL DESIGN AGAINST CONCERNING     
 JRNL        TITL 3 VARIANTS.                                                    
-JRNL        REF    CELL RES.                                  2021              
+JRNL        REF    CELL RES.                     V.  31  1130 2021              
 JRNL        REFN                   ISSN 1001-0602                               
 JRNL        PMID   34433900                                                     
 JRNL        DOI    10.1038/S41422-021-00555-0                                   

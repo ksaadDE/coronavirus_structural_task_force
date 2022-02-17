@@ -104,7 +104,7 @@ Poster on Spike protein function<br>
 
 This is a collaborative effort. These are the current contributors (in order of joining):<br><br>
 Universitaet Hamburg, Germany -<br>
-[Andrea Thorn - Group leader](https://www.uni-wuerzburg.de/en/rvz/research/associated-research-groups/thorn-group/)<br>
+[Andrea Thorn - Group leader](https://web.archive.org/web/20201021191805/https://www.uni-wuerzburg.de/en/rvz/research/associated-research-groups/thorn-group/)<br>
 Yunyun Gao - Postdoc in the AUSPEX project (www.auspex.de)<br>
 Kristopher Nolte - Biochemistry B.Sc. student<br>
 Ferdinand Kirsten - Biochemistry B.Sc. student<br>
